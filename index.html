@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deutsch Trainer</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#c8102e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Deutsch Trainer">
+<style>
+
+/* Farben: Österreich (rot-weiß-rot). Variablennamen aus Opi suomea übernommen. */
+:root{
+  --lumi:#f6f5f3;      /* Schnee – Hintergrund */
+  --paper:#ffffff;
+  --sini:#c8102e;      /* Flaggenrot – Hauptfarbe */
+  --sini-d:#a00d25;
+  --yo:#1d2128;        /* Schrift */
+  --jarvi:#fbecee;     /* zartes Rot */
+  --muted:#5f6670;
+  --line:#e3e1dd;
+  --kuusi:#2e7d4f;     /* Almwiese – richtig */
+  --kuusi-bg:#e7f3ec;
+  --puolukka:#b42318;  /* falsch */
+  --puolukka-bg:#fdecea;
+  --lakka:#c77700;
+  --lakka-bg:#fdf3e2;
+  --lakka-ink:#9a5b00;
+  --on-sini:#ffffff;
+  --head:#c8102e;
+  --ridge:rgba(255,255,255,.16);
+  --next-bg:#2f3540;   /* Granit */
+  --tip:#f3f1ec;
+  --lock:#efeeec;
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --lumi:#121417;--paper:#1b1e23;--sini:#ff5a6e;--sini-d:#ff7a8a;--yo:#e9eaec;--jarvi:#2a1c20;--muted:#a0a6ae;--line:#2c3037;
+  --kuusi:#5cc48a;--kuusi-bg:#15291e;--puolukka:#ff7b72;--puolukka-bg:#3a1a1a;--lakka:#f0b050;--lakka-bg:#36290f;--lakka-ink:#f0b050;
+  --on-sini:#1b0a0d;--head:#8e0b20;--ridge:rgba(255,255,255,.08);--next-bg:#262a31;--tip:#1f2329;--lock:#20242a;
+  color-scheme:dark;
+}
+:root[data-theme="dark"] .fb.ok,:root[data-theme="dark"] .fb.bad,:root[data-theme="dark"] .fb.dunno{border-color:transparent}
+:root[data-theme="dark"] .next .btn{background:#ff5a6e;color:#1b0a0d}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--lumi);color:var(--yo);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+body{padding-bottom:calc(78px + env(safe-area-inset-bottom))}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid #f08a98;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* Kopf: rot mit Alpenkamm */
+header.top{background:var(--head);color:#fff;position:relative;overflow:hidden}
+.top-inner{max-width:680px;margin:0 auto;padding:16px 18px 46px;display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative;z-index:2}
+.brand{display:flex;align-items:center;gap:11px}
+.brand h1{margin:0;font-size:21px;font-weight:800;letter-spacing:-.02em}
+.brand small{display:block;color:#fff;opacity:.85;font-size:12.5px;font-weight:500;letter-spacing:0}
+.sync{font-size:12px;padding:5px 11px;border-radius:99px;background:rgba(255,255,255,.14);white-space:nowrap}
+.sync.err{background:var(--puolukka)}
+.landscape{position:absolute;left:0;right:0;bottom:0;height:44px;z-index:1;display:block;width:100%}
+
+main{max-width:680px;margin:0 auto;padding:18px 16px 28px}
+.card{background:var(--paper);border-radius:14px;padding:18px;margin:0 0 14px;border:1px solid var(--line)}
+.label{font-size:13px;color:var(--sini);font-weight:650;margin:0 0 4px}
+h2{font-size:20px;margin:0 0 10px;letter-spacing:-.015em;line-height:1.25}
+h3{font-size:16px;margin:20px 0 8px}
+p{line-height:1.55;margin:0 0 10px}
+.muted{color:var(--muted);font-size:14px}
+small{color:var(--muted)}
+
+.btn{appearance:none;border:0;background:var(--sini);color:var(--on-sini);font-weight:650;font-size:15.5px;padding:13px 18px;border-radius:11px;cursor:pointer;width:100%;transition:transform .06s,background .15s}
+.btn:hover{background:var(--sini-d)}
+.btn:active{transform:scale(.985)}
+.btn.sm{width:auto;padding:9px 15px;font-size:14px}
+.btn.ghost{background:transparent;color:var(--sini);border:1.5px solid var(--line)}
+.btn.ghost:hover{background:var(--jarvi)}
+.btn.danger{background:transparent;color:var(--puolukka);border:1.5px solid var(--puolukka-bg)}
+.btn:disabled{opacity:.45;cursor:default}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btnrow .btn{flex:1;min-width:140px}
+
+/* Heute */
+.greet{font-size:30px;font-weight:800;letter-spacing:-.03em;margin:2px 0 2px;line-height:1.1}
+.date{color:var(--muted);margin-bottom:16px}
+.facts{display:flex;gap:22px;margin:0 0 18px;flex-wrap:wrap}
+.facts div{display:flex;flex-direction:column}
+.facts b{font-size:22px;font-weight:800;color:var(--sini)}
+.facts span{font-size:13px;color:var(--muted)}
+.next{background:var(--next-bg);color:#fff;border-radius:16px;padding:20px;margin:0 0 14px}
+.next .label{color:#f3b8c0}
+.next h2{color:#fff;font-size:22px}
+.next p{color:#dfe2e6}
+.next .btn{background:var(--sini);color:#fff}
+.next .btn:hover{background:var(--sini-d)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.row b{display:block}
+.teacher{border-left:4px solid var(--sini);background:var(--jarvi);border-radius:4px 14px 14px 4px;padding:14px 16px;margin:0 0 14px}
+.teacher p{margin:0 0 6px}
+
+/* Themenliste */
+.tlist{list-style:none;margin:0;padding:0}
+.titem{display:flex;align-items:center;gap:14px;padding:14px 4px;border-bottom:1px solid var(--line);cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;width:100%;text-align:left}
+.titem:hover{background:var(--jarvi)}
+.titem .num{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:14px;background:var(--jarvi);color:var(--sini)}
+.titem.locked{opacity:.5;cursor:default}
+.titem.locked:hover{background:none}
+.titem .body{flex:1;min-width:0}
+.titem .fi{font-size:13px;color:var(--muted)}
+.bar{height:5px;border-radius:5px;background:var(--line);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--kuusi)}
+.badge{font-size:12px;font-weight:650;padding:3px 9px;border-radius:99px;white-space:nowrap;background:var(--jarvi);color:var(--sini)}
+.badge.due{background:var(--lakka-bg);color:var(--lakka-ink)}
+.badge.new{background:var(--kuusi-bg);color:var(--kuusi)}
+.badge.locked{background:var(--lock);color:var(--muted)}
+
+/* Theorie */
+.theory h3:first-child{margin-top:0}
+.theory table{width:100%;border-collapse:collapse;margin:6px 0 14px;font-size:15px}
+.theory td{padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+.theory td:first-child{font-weight:650;color:var(--sini);width:46%}
+.theory .rule{background:var(--jarvi);border-left:3px solid var(--sini);padding:10px 12px;border-radius:3px 8px 8px 3px}
+.theory .tip{background:var(--tip);border-left:3px solid #9a8f7a;padding:10px 12px;border-radius:3px 8px 8px 3px}
+.theory ul{padding-left:20px;line-height:1.6}
+.ftitle{font-size:34px;font-weight:800;letter-spacing:-.03em;margin:0;line-height:1.05}
+.back{background:none;border:0;color:var(--sini);font-weight:650;padding:4px 0;margin-bottom:10px;cursor:pointer}
+
+/* Übungen */
+.sbar{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.prog{flex:1;height:8px;background:var(--line);border-radius:8px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--sini);transition:width .3s}
+.xbtn{background:none;border:0;color:var(--muted);cursor:pointer;font-size:14px}
+.ask{font-size:14px;color:var(--muted);margin-bottom:6px}
+.q{font-size:24px;font-weight:750;letter-spacing:-.015em;line-height:1.3;margin:0 0 16px}
+.q .gap{display:inline-block;min-width:56px;border-bottom:3px solid var(--sini);color:var(--sini)}
+.opts{display:grid;gap:9px}
+.opt{text-align:left;padding:13px 15px;border-radius:11px;border:1.5px solid var(--line);background:var(--paper);cursor:pointer;font-size:16px}
+.opt:hover{border-color:var(--sini)}
+.opt.right{border-color:var(--kuusi);background:var(--kuusi-bg)}
+.opt.wrong{border-color:var(--puolukka);background:var(--puolukka-bg)}
+.inp{width:100%;color:var(--yo);padding:13px 14px;border-radius:11px;border:1.5px solid var(--line);font-size:17px;background:var(--paper)}
+.inp:focus{border-color:var(--sini);outline:none}
+.hint{font-size:14px;color:var(--muted);margin:-8px 0 12px}
+.ordline{min-height:54px;border-bottom:2px solid var(--line);padding:8px 0;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center}
+.ph{color:var(--muted);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chip{padding:9px 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper);cursor:pointer;font-size:16px;font-weight:600}
+.chip.on{background:var(--jarvi);border-color:var(--sini);color:var(--sini)}
+.chip.ghost{visibility:hidden}
+.fb{margin-top:14px;padding:14px 16px;border-radius:12px}
+.fb.ok{background:var(--kuusi-bg);border:1px solid #bfdccd}
+.fb.bad{background:var(--puolukka-bg);border:1px solid #efc2ca}
+.fb.wait{background:var(--jarvi)}
+.fb.dunno{background:var(--lakka-bg);border:1px solid #f0d7a8}
+.fb.dunno b.t{color:var(--lakka-ink)}
+.fb b.t{display:block;margin-bottom:4px;font-size:16px}
+.fb.ok b.t{color:var(--kuusi)}
+.fb.bad b.t{color:var(--puolukka)}
+.fb p{margin:4px 0 0}
+
+/* Ergebnis */
+.center{text-align:center}
+.ring{width:128px;height:128px;border-radius:50%;background:conic-gradient(var(--sini) calc(var(--p)*1%),var(--line) 0);display:grid;place-items:center;margin:10px auto 8px}
+.ring span{width:100px;height:100px;border-radius:50%;background:var(--paper);display:grid;place-items:center;font-size:28px;font-weight:800;color:var(--sini)}
+.err{padding:10px 0;border-top:1px solid var(--line);font-size:15px}
+.err .u{color:var(--puolukka)}
+.err .r{color:var(--kuusi);font-weight:650}
+.rates{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+@media (max-width:440px){.rates{grid-template-columns:repeat(2,1fr)}}
+.rate{border-radius:11px;padding:12px 6px;border:1.5px solid var(--line);background:var(--paper);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
+.rate b{font-size:15px}
+.rate small{font-size:12px}
+.rate.again b{color:var(--puolukka)} .rate.again:hover{background:var(--puolukka-bg)}
+.rate.hard b{color:var(--lakka-ink)} .rate.hard:hover{background:var(--lakka-bg)}
+.rate.good b{color:var(--sini)} .rate.good:hover{background:var(--jarvi)}
+.rate.easy b{color:var(--kuusi)} .rate.easy:hover{background:var(--kuusi-bg)}
+.aibox ul{padding-left:20px;margin:8px 0;line-height:1.55}
+.plan{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.dots{display:inline-flex;gap:4px;vertical-align:middle}
+.dots i{width:6px;height:6px;border-radius:50%;background:var(--sini);animation:b 1s infinite}
+.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,80%,100%{opacity:.25}40%{opacity:1}}
+
+/* Karteikarten */
+.flash .front{font-size:36px;font-weight:800;letter-spacing:-.02em;text-align:center;padding:26px 0 18px;word-break:break-word}
+.flash .backside{text-align:center;font-size:22px;font-weight:700;color:var(--sini);padding:4px 0 14px;border-top:1px dashed var(--line)}
+.flash .backside small{display:block;font-size:14px;font-weight:500;margin-top:4px}
+.cmp{font-size:14px;text-align:center;margin-bottom:10px}
+.vrow{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:15px}
+.vrow .w{font-weight:650}
+.vrow .d{color:var(--muted);flex:1;text-align:left;margin-left:10px}
+.st{font-size:12px;font-weight:650;white-space:nowrap}
+.st.neu{color:var(--muted)} .st.lernt{color:var(--lakka-ink)} .st.gut{color:var(--sini)} .st.sicher{color:var(--kuusi)}
+
+/* Fortschritt */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stat{background:var(--jarvi);border-radius:12px;padding:12px 14px}
+.stat b{font-size:24px;font-weight:800;color:var(--sini);display:block}
+.stat span{font-size:13px;color:var(--muted)}
+.level{display:inline-block;font-size:26px;font-weight:800;color:var(--on-sini);background:var(--sini);border-radius:10px;padding:4px 12px;margin-right:8px}
+textarea.out{width:100%;background:var(--paper);color:var(--yo);min-height:160px;border:1.5px solid var(--line);border-radius:10px;padding:10px;font-size:12.5px;font-family:ui-monospace,Menlo,Consolas,monospace}
+select.inp{padding:10px}
+details summary{cursor:pointer;margin-top:4px}
+.setrow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+
+/* Audio */
+.spk{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line);background:var(--paper);color:var(--sini);cursor:pointer;vertical-align:middle;margin-right:8px;flex:none;padding:0}
+.spk:hover{background:var(--jarvi);border-color:var(--sini)}
+.spk svg{width:15px;height:15px;pointer-events:none}
+.spk.big{width:52px;height:52px;margin:0 auto}
+.spk.big svg{width:24px;height:24px}
+.sayable{text-decoration:underline dotted var(--sini);text-underline-offset:3px;cursor:pointer}
+
+/* Navigation */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--paper);border-top:1px solid var(--line);display:flex;justify-content:center;padding-bottom:env(safe-area-inset-bottom);z-index:10}
+nav.tabs .in{display:flex;width:100%;max-width:680px}
+nav.tabs button{flex:1;background:none;border:0;padding:9px 4px 10px;display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;color:var(--muted)}
+nav.tabs button b{font-size:12.5px;font-weight:700}
+nav.tabs button small{font-size:10.5px}
+nav.tabs button.on{color:var(--sini)}
+nav.tabs svg{width:22px;height:22px}
+#toast{position:fixed;border:1px solid rgba(255,255,255,.15);left:50%;bottom:calc(92px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);background:#2f3540;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:all .25s;z-index:20;max-width:90vw;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* Einstufungstest (Placement test) */
+.ptabs{display:flex;gap:6px;margin:0 0 14px;overflow-x:auto}
+.ptab{flex:1;min-width:76px;border:1.5px solid var(--line);background:var(--paper);border-radius:11px;padding:8px 6px;cursor:pointer;text-align:center}
+.ptab b{display:block;font-size:15px}
+.ptab small{font-size:12px}
+.ptab.on{border-color:var(--sini);background:var(--jarvi);color:var(--sini)}
+.ptab.full small{color:var(--kuusi);font-weight:700}
+.psec h3{margin:0 0 4px}
+.psec .code{color:var(--sini);margin-right:6px}
+.bank{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}
+.bank span{border:1px dashed var(--muted);padding:2px 10px;border-radius:99px;font-size:15px}
+.pitem{display:grid;grid-template-columns:24px 1fr 34px;gap:8px;padding:12px 0;border-top:1px solid var(--line);align-items:start}
+.pitem .n{color:var(--muted);font-size:14px;padding-top:6px}
+.psent{font-size:17px;line-height:1.55;margin:0}
+.psent.gaps{line-height:2.1}
+.ptag{font-size:12px;border:1px solid var(--line);border-radius:5px;padding:1px 6px;color:var(--muted);margin-left:6px;white-space:nowrap;vertical-align:2px}
+input.pgap{font:inherit;font-size:17px;color:var(--sini);background:transparent;border:0;border-bottom:2px solid var(--muted);padding:0 2px;margin:0 2px;text-align:center;border-radius:0;width:8ch}
+input.pgap:focus,textarea.pline:focus{outline:none;border-bottom-color:var(--sini);background:var(--jarvi)}
+input.pgap.ok,.pw.ok{color:var(--kuusi);border-bottom-color:var(--kuusi)}
+input.pgap.bad,.pw.bad{color:var(--puolukka);border-bottom-color:var(--puolukka)}
+input.pgap[readonly]{cursor:default}
+textarea.pline{display:block;width:100%;font:inherit;font-size:17px;line-height:1.5;color:var(--sini);background:transparent;border:0;border-bottom:2px solid var(--muted);border-radius:0;padding:4px 2px;resize:none;overflow:hidden}
+textarea.plong{display:block;width:100%;font:inherit;font-size:16px;line-height:1.7;color:var(--yo);background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;min-height:220px;resize:vertical}
+textarea.pshort{min-height:96px}
+.mine{font-size:17px;line-height:1.7;padding:4px 2px;border-bottom:2px solid var(--line);overflow-wrap:anywhere;white-space:pre-wrap}
+.pw.bad{text-decoration:underline wavy;text-decoration-thickness:1px;text-underline-offset:4px}
+.unsure{width:32px;height:32px;border:1.5px solid var(--line);background:none;color:var(--muted);border-radius:50%;font-weight:800;cursor:pointer}
+.unsure.on{background:var(--lakka);border-color:var(--lakka);color:#fff}
+.unsure:disabled{cursor:default;opacity:.6}
+.rfrow{display:flex;gap:8px;margin-top:6px}
+.rfrow button{border:1.5px solid var(--line);background:var(--paper);padding:6px 14px;border-radius:9px;cursor:pointer;font-size:15px}
+.rfrow button.on{background:var(--next-bg);border-color:var(--next-bg);color:#fff}
+.rfrow button.ok{background:var(--kuusi);border-color:var(--kuusi);color:#fff}
+.rfrow button.bad{background:var(--puolukka);border-color:var(--puolukka);color:#fff}
+.rfrow button:disabled{cursor:default}
+.pres{margin-top:8px;font-size:15px;padding:10px 12px;border-radius:10px;background:var(--tip);border-left:4px solid var(--line)}
+.pres.ok{border-left-color:var(--kuusi)} .pres.bad{border-left-color:var(--puolukka)} .pres.wait{border-left-color:var(--lakka)}
+.pres .lbl{font-weight:750;margin-right:6px}
+.pres.ok .lbl{color:var(--kuusi)} .pres.bad .lbl{color:var(--puolukka)} .pres.wait .lbl{color:var(--lakka-ink)}
+.pres .sol b{color:var(--kuusi)}
+.pres .sub{color:var(--muted);font-size:14px;margin-top:4px}
+.pres .selfrow{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.pres ul{margin:6px 0 0;padding-left:20px;line-height:1.5}
+.wc{font-size:13px;color:var(--muted);margin-top:4px}
+.wc.ok{color:var(--kuusi);font-weight:700}
+.reading{background:var(--tip);border-left:4px solid var(--sini);border-radius:4px 12px 12px 4px;padding:14px 16px;line-height:1.7;margin:8px 0}
+.reading p{margin:0 0 10px}.reading p:last-child{margin:0}
+.checkrow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px}
+.checkrow .btn{width:auto}
+.keys{display:flex;gap:6px;margin:0 0 12px}
+.keys button{width:38px;height:36px;border:1.5px solid var(--line);background:var(--paper);border-radius:9px;font-size:16px;cursor:pointer}
+.pi-text{font-size:17px}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="#fff"/><rect x="4" y="7" width="26" height="20" rx="2" fill="#c8102e"/><rect x="4" y="13.6" width="26" height="6.8" fill="#fff"/></svg>
+      <div><h1>Deutsch Trainer</h1><small>Your German course with Coach</small></div>
+    </div>
+    <div id="sync" class="sync">Loading …</div>
+  </div>
+  <svg class="landscape" viewBox="0 0 1200 44" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <path id="far" style="fill:var(--ridge)"/>
+    <path id="near" style="fill:var(--lumi)"/>
+  </svg>
+</header>
+
+<main id="app"></main>
+
+<nav class="tabs"><div class="in">
+  <button data-act="tab" data-id="today" id="tab-today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><b>Heute</b><small>Today</small></button>
+  <button data-act="tab" data-id="topics" id="tab-topics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg><b>Themen</b><small>Topics</small></button>
+  <button data-act="tab" data-id="vocab" id="tab-vocab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg><b>Wörter</b><small>Words</small></button>
+  <button data-act="tab" data-id="progress" id="tab-progress"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 20h18M6 16v-4M11 16V8M16 16v-6M21 16V5"/></svg><b>Fortschritt</b><small>Progress</small></button>
+</div></nav>
+<div id="toast"></div>
+
+<script>
+/* ============================================================
+   EINSTUFUNGSTEST (Placement test) – Inhalte
+   IDs bleiben gleich wie im Claude-Testblatt, damit Antworten importiert werden können.
+   ============================================================ */
+const PT = [
+ {id:'A', name:'Grammar', time:'approx. 60 minutes', sections:[
+  {id:'A1', title:'Present tense verbs', items:[
+   {k:'b',t:'Du ___ (sprechen) sehr gut Deutsch.',s:['sprichst']},
+   {k:'b',t:'Er ___ (lesen) jeden Abend ein Buch.',s:['liest']},
+   {k:'b',t:'Wann ___ der Zug ___? (abfahren)',s:['fährt','ab']},
+   {k:'b',t:'Sie ___ die Rechnung nicht. (verstehen)',s:['versteht']}]},
+  {id:'A2', title:'Word order', hint:'Build correct sentences.', items:[
+   {k:'r',t:'Morgen / ich / nach Linz / fahren',s:['Morgen fahre ich nach Linz.']},
+   {k:'r',t:'Ich bleibe zu Hause, weil / ich / krank / sein',s:['Ich bleibe zu Hause, weil ich krank bin.','weil ich krank bin']},
+   {k:'r',t:'Ich weiß nicht, ob / er / heute / kommen / können',s:['Ich weiß nicht, ob er heute kommen kann.','ob er heute kommen kann']},
+   {k:'r',t:'Gestern / ich / mit meiner Schwester / ins Kino / gehen',tag:'Perfekt',s:['Gestern bin ich mit meiner Schwester ins Kino gegangen.']},
+   {k:'r',t:'Er sagt, dass / er / das Paket / schon / abschicken',tag:'Perfekt',s:['Er sagt, dass er das Paket schon abgeschickt hat.','Er sagt, dass er schon das Paket abgeschickt hat.','dass er das Paket schon abgeschickt hat','dass er schon das Paket abgeschickt hat']}]},
+  {id:'A3', title:'Connectors', hint:'Choose from the word bank.', bank:['aber','sondern','deshalb','trotzdem','obwohl','damit','denn','weil','je … desto','weder … noch'], items:[
+   {k:'b',t:'Ich bin müde, ___ gehe ich früh ins Bett.',s:['deshalb']},
+   {k:'b',t:'Es regnet. ___ gehen wir spazieren.',s:['trotzdem']},
+   {k:'b',t:'___ es regnet, gehen wir spazieren.',s:['obwohl']},
+   {k:'b',t:'Er trinkt nicht Kaffee, ___ Tee.',s:['sondern']},
+   {k:'b',t:'Ich spare Geld, ___ ich im Sommer reisen kann.',s:['damit']},
+   {k:'b',t:'___ mehr ich übe, ___ besser spreche ich.',s:['je','desto']},
+   {k:'b',t:'Sie spricht ___ Englisch ___ Französisch.',s:['weder','noch']},
+   {k:'b',t:'Ich komme nicht mit, ___ ich habe keine Zeit.',s:['denn']}]},
+  {id:'A4', title:'Infinitive with zu, um … zu, ohne … zu', items:[
+   {k:'b',t:'Ich habe keine Lust, heute ___ (kochen).',s:['zu kochen']},
+   {k:'b',t:'Vergiss nicht, die Tür ___ (abschließen).',s:['abzuschließen']},
+   {k:'b',t:'Er lernt Deutsch, ___ in Österreich ___ (arbeiten).',s:['um','zu arbeiten']},
+   {k:'b',t:'Sie ging, ___ sich ___ (verabschieden).',s:['ohne','zu verabschieden']},
+   {k:'b',t:'Ich kann heute leider nicht ___ (kommen).',s:['kommen']}]},
+  {id:'A5', title:'Tenses', hint:'Rewrite the sentence in the tense shown.', items:[
+   {k:'r',t:'Wir fahren nach Wien.',tag:'Perfekt',s:['Wir sind nach Wien gefahren.']},
+   {k:'r',t:'Er bringt die Unterlagen mit.',tag:'Perfekt',s:['Er hat die Unterlagen mitgebracht.']},
+   {k:'r',t:'Der Film beginnt um acht.',tag:'Perfekt',s:['Der Film hat um acht begonnen.','Der Film hat um acht Uhr begonnen.']},
+   {k:'r',t:'Ich muss lange warten.',tag:'Perfekt',s:['Ich habe lange warten müssen.']},
+   {k:'r',t:'Wir sind müde und haben Hunger.',tag:'Präteritum',s:['Wir waren müde und hatten Hunger.']},
+   {k:'r',t:'Er denkt oft an sie.',tag:'Präteritum',s:['Er dachte oft an sie.']},
+   {k:'b',t:'Nachdem ich ___ (ankommen), rief ich dich an.',tag:'Plusquamperfekt',s:['angekommen war']},
+   {k:'r',t:'Ich rufe dich morgen an.',tag:'Futur I',s:['Ich werde dich morgen anrufen.','Morgen werde ich dich anrufen.']}]},
+  {id:'A6', title:'Passive voice', items:[
+   {k:'r',t:'Man repariert das Auto.',tag:'Präsens',s:['Das Auto wird repariert.']},
+   {k:'r',t:'Man baute die Brücke 1950.',tag:'Präteritum',s:['Die Brücke wurde 1950 gebaut.','1950 wurde die Brücke gebaut.']},
+   {k:'r',t:'Man hat den Brief geschickt.',tag:'Perfekt',s:['Der Brief ist geschickt worden.']},
+   {k:'r',t:'Man muss die Rechnung bezahlen.',tag:'with modal verb',s:['Die Rechnung muss bezahlt werden.']}]},
+  {id:'A7', title:'Subjunctive (Konjunktiv II)', items:[
+   {k:'b',t:'Wenn ich mehr Zeit ___ (haben), ___ ich mehr reisen.',s:['hätte','würde|könnte']},
+   {k:'b',t:'___ Sie mir bitte helfen? (können, höflich)',s:['könnten']},
+   {k:'b',t:'Ich wünschte, ich ___ jetzt am Meer. (sein)',s:['wäre']},
+   {k:'b',t:'An deiner Stelle ___ ich mit dem Chef sprechen.',s:['würde']},
+   {k:'b',t:'Wenn ich das gewusst ___, ___ ich früher gekommen.',s:['hätte','wäre']}]},
+  {id:'A8', title:'Cases: articles, adjective endings, n-declension', hint:'Fill in the endings. If no ending is needed, type –.', items:[
+   {k:'b',t:'Ich gebe d___ Kollegin ein___ Buch.',s:['er','']},
+   {k:'b',t:'Wir sprechen mit unser___ neu___ Chef.',s:['em','en']},
+   {k:'b',t:'Trotz d___ schlecht___ Wetter___ sind wir wandern gegangen.',s:['es','en','s']},
+   {k:'b',t:'Das ist das Auto mein___ Bruder___.',s:['es','s']},
+   {k:'b',t:'Ich habe gestern ein___ alt___ Freund getroffen.',s:['en','en']},
+   {k:'b',t:'Bei schön___ Wetter sitzen wir gern draußen.',s:['em']},
+   {k:'b',t:'Ich suche ein___ groß___ Wohnung mit ein___ hell___ Küche.',s:['e','e','er','en']},
+   {k:'b',t:'Kennst du d___ Herr___ dort drüben?',s:['en','n']}]},
+  {id:'A9', title:'Prepositions', items:[
+   {k:'b',t:'Sie legt das Handy auf d___ Tisch.',s:['en']},
+   {k:'b',t:'Das Handy liegt auf d___ Tisch.',s:['em']},
+   {k:'b',t:'Ich hänge das Bild an d___ Wand.',s:['ie']},
+   {k:'b',t:'Wir fahren ___ Wochenende ___ meinen Eltern.',s:['am','zu']},
+   {k:'b',t:'Wir treffen uns ___ 18 Uhr ___ Bahnhof.',s:['um','am']},
+   {k:'b',t:'Während d___ Besprechung war das Handy aus.',s:['er']},
+   {k:'b',t:'Ich muss morgen ___ Arzt.',s:['zum']}]},
+  {id:'A10', title:'Verbs with prepositions, da- and wo- words', items:[
+   {k:'b',t:'Ich warte schon lange ___ den Bus.',s:['auf']},
+   {k:'b',t:'Sie interessiert sich sehr ___ Kunst.',s:['für']},
+   {k:'b',t:'Ich habe Angst ___ Spinnen.',s:['vor']},
+   {k:'b',t:'___ denkst du? – An meine Prüfung.',s:['woran']},
+   {k:'b',t:'Freust du dich auf den Urlaub? – Ja, ich freue mich sehr ___.',s:['darauf']},
+   {k:'b',t:'___ hast du gesprochen? – Mit meiner Chefin.',s:['mit wem']}]},
+  {id:'A11', title:'Pronouns', items:[
+   {k:'b',t:'Kennst du Lisa? – Ja, ich kenne ___ gut.',s:['sie']},
+   {k:'b',t:'Hast du deinem Vater geholfen? – Ja, ich habe ___ geholfen.',s:['ihm']},
+   {k:'b',t:'Ich wasche ___ die Hände.',s:['mir']},
+   {k:'b',t:'Kannst du ___ das bitte erklären? (ich)',s:['mir']},
+   {k:'b',t:'Gibst du mir das Buch? – Ja, ich gebe ___ ___ gleich.',s:['es','dir']},
+   {k:'b',t:'Hast du einen Stift? – Nein, leider habe ich ___.',s:['keinen']},
+   {k:'b',t:'Ist das dein Schlüssel? – Nein, das ist nicht ___.',s:['meiner']}]},
+  {id:'A12', title:'Relative clauses', items:[
+   {k:'b',t:'Das ist der Mann, ___ ich gestern geholfen habe.',s:['dem']},
+   {k:'b',t:'Die Stadt, in ___ ich wohne, ist ziemlich klein.',s:['der']},
+   {k:'b',t:'Die Kollegen, mit ___ ich arbeite, sind sehr nett.',s:['denen']},
+   {k:'b',t:'Das ist die Frau, ___ Sohn in meiner Klasse ist.',s:['deren']},
+   {k:'b',t:'Das Buch, ___ du mir empfohlen hast, war super.',s:['das']}]},
+  {id:'A13', title:'Subordinate clauses and indirect questions', items:[
+   {k:'b',t:'___ ich ein Kind war, wohnten wir auf dem Land.',s:['als']},
+   {k:'b',t:'___ ich in Wien bin, besuche ich immer meine Tante.',s:['wenn']},
+   {k:'b',t:'Weißt du, ___ der Supermarkt heute offen hat?',s:['ob']},
+   {k:'b',t:'___ du kochst, decke ich den Tisch.',s:['während']},
+   {k:'b',t:'Wasch dir die Hände, ___ du isst.',s:['bevor']},
+   {k:'r',t:'Wann beginnt der Kurs? → Können Sie mir sagen, …',s:['Können Sie mir sagen, wann der Kurs beginnt?','wann der Kurs beginnt']},
+   {k:'r',t:'Wo ist der Bahnhof? → Ich weiß leider nicht, …',s:['Ich weiß leider nicht, wo der Bahnhof ist.','wo der Bahnhof ist']}]},
+  {id:'A14', title:'Comparatives and superlatives', items:[
+   {k:'b',t:'Graz ist ___ (groß) als Salzburg.',s:['größer']},
+   {k:'b',t:'Der Zug ist genauso schnell ___ das Auto.',s:['wie']},
+   {k:'b',t:'Das ist die ___ (gut) Idee von allen.',s:['beste']},
+   {k:'b',t:'Im Juli ist es meistens am ___ (warm).',s:['wärmsten']},
+   {k:'b',t:'Ich trinke ___ (gern) Tee als Kaffee.',s:['lieber']}]},
+  {id:'A15', title:'Negation: nicht or kein', items:[
+   {k:'b',t:'Ich habe heute ___ Zeit.',s:['keine']},
+   {k:'b',t:'Ich kenne den Mann ___.',s:['nicht']},
+   {k:'b',t:'Er ist ___ Arzt, sondern Lehrer.',s:['kein']},
+   {k:'b',t:'Wir fahren ___ mit dem Auto, sondern mit dem Zug.',s:['nicht']}]},
+  {id:'A16', title:'Error correction', hint:'Each sentence has one mistake. Write the correct sentence.', items:[
+   {k:'r',t:'Ich habe gestern nach Hause gegangen.',s:['Ich bin gestern nach Hause gegangen.','Gestern bin ich nach Hause gegangen.']},
+   {k:'r',t:'Ich helfe dich gern.',s:['Ich helfe dir gern.','Ich helfe dir gerne.']},
+   {k:'r',t:'Wenn ich gestern nach Hause kam, war niemand da.',s:['Als ich gestern nach Hause kam, war niemand da.']},
+   {k:'r',t:'Gestern ich habe meine Freundin getroffen.',s:['Gestern habe ich meine Freundin getroffen.','Ich habe gestern meine Freundin getroffen.']},
+   {k:'r',t:'Ich freue mich für das Wochenende.',s:['Ich freue mich auf das Wochenende.','Ich freue mich aufs Wochenende.']},
+   {k:'r',t:'Er hat einen Job bei ein großes Unternehmen gefunden.',s:['Er hat einen Job bei einem großen Unternehmen gefunden.']},
+   {k:'r',t:'Ich weiß nicht, wann kommt der Bus.',s:['Ich weiß nicht, wann der Bus kommt.']},
+   {k:'r',t:'Das ist die Kollegin, die ich das Projekt erklärt habe.',s:['Das ist die Kollegin, der ich das Projekt erklärt habe.']}]}
+ ]},
+ {id:'B', name:'Vocabulary', time:'approx. 10 minutes', sections:[
+  {id:'B1', title:'Fixed expressions', bank:['treffen','stellen','vereinbaren','nehmen','machen','sammeln'], items:[
+   {k:'b',t:'einen Termin ___',s:['vereinbaren']},
+   {k:'b',t:'eine Entscheidung ___',s:['treffen']},
+   {k:'b',t:'eine Frage ___',s:['stellen']},
+   {k:'b',t:'Rücksicht auf andere ___',s:['nehmen']},
+   {k:'b',t:'einen Vorschlag ___',s:['machen']},
+   {k:'b',t:'Erfahrungen ___',s:['sammeln']}]},
+  {id:'B2', title:'Forming nouns', hint:'Write the noun with its article.', items:[
+   {k:'r',t:'entscheiden',s:['die Entscheidung']},
+   {k:'r',t:'sich bewerben',s:['die Bewerbung']},
+   {k:'r',t:'möglich',s:['die Möglichkeit']},
+   {k:'r',t:'frei',s:['die Freiheit']},
+   {k:'r',t:'erfahren',s:['die Erfahrung']}]},
+  {id:'B3', title:'Formal register', hint:'Rewrite the sentence for a formal email.', items:[
+   {k:'r',t:'Hey, kannst du mir mal schnell sagen, wann das Meeting ist?',m:'Könnten Sie mir bitte mitteilen, wann das Meeting stattfindet?'},
+   {k:'r',t:'Sorry, ich kann morgen nicht, mir ist was dazwischengekommen.',m:'Leider kann ich morgen nicht teilnehmen, da mir etwas dazwischengekommen ist. Ich bitte um Ihr Verständnis.'}]}
+ ]},
+ {id:'C', name:'Reading', time:'approx. 10 minutes', sections:[
+  {id:'C1', title:'Reparieren statt wegwerfen', reading:true, hint:'Read the text and answer the questions (richtig/falsch, then in full German sentences).', items:[
+   {k:'rf',t:'Das Repair-Café findet jeden Samstag statt.',s:'falsch'},
+   {k:'rf',t:'Für die Reparatur muss man nichts bezahlen.',s:'richtig'},
+   {k:'rf',t:'Martina Huber arbeitet noch als Elektrikerin.',s:'falsch'},
+   {k:'rf',t:'Ungefähr zwei Drittel der Geräte können repariert werden.',s:'richtig'},
+   {k:'s',t:'Warum sind die meisten Besucher zufrieden, auch wenn ihr Gerät nicht repariert werden konnte?',m:'Sie sind zufrieden, weil sie etwas gelernt und nette Menschen kennengelernt haben.'},
+   {k:'s',t:'Was plant Frau Huber, und wen sucht sie dafür?',m:'Sie plant, Kurse für Jugendliche anzubieten. Dafür sucht sie weitere Helfer, besonders Leute, die sich mit Fahrrädern und Computern auskennen.'}]}
+ ]},
+ {id:'D', name:'Writing', time:'approx. 30 minutes', sections:[
+  {id:'D1', title:'Formal email', items:[
+   {k:'w',min:80,max:100,t:'You would like to volunteer at the Repair-Café. Write an email to Frau Huber (in German).',
+    points:['Introduce yourself.','Say why you are interested.','Say when you have time.','Ask her one question.']}]},
+  {id:'D2', title:'Free writing', items:[
+   {k:'w',min:130,max:180,t:'Write (in German) about a special experience from your past, e.g. a trip, an important day, or a new beginning.',
+    points:['What happened?','How did you feel?','What are your plans for the future?']}]}
+ ]}
+];
+
+const PT_READING = [
+ 'Seit einem Jahr gibt es im Gemeindezentrum von Kirchberg jeden ersten Samstag im Monat ein Repair-Café. Die Idee ist einfach: Wer einen kaputten Toaster, eine Lampe oder eine Hose mit Loch hat, bringt sie mit und repariert sie gemeinsam mit ehrenamtlichen Helferinnen und Helfern. Bezahlen muss man nichts, aber viele Besucher lassen eine kleine Spende da.',
+ 'Gegründet wurde das Café von Martina Huber, einer pensionierten Elektrikerin. „Früher hat man Dinge repariert, heute kauft man sofort etwas Neues“, sagt sie. „Das kostet nicht nur Geld, sondern schadet auch der Umwelt.“',
+ 'Anfangs kamen nur wenige Leute, inzwischen sind es oft mehr als vierzig an einem Vormittag. Nicht alles kann gerettet werden: Bei etwa einem Drittel der Geräte fehlen Ersatzteile, oder die Reparatur wäre zu kompliziert. Trotzdem gehen die meisten Besucher zufrieden nach Hause, denn sie haben etwas gelernt und nette Menschen kennengelernt.',
+ 'Für das nächste Jahr plant Frau Huber, auch Kurse für Jugendliche anzubieten. Sie sucht deshalb noch weitere Helfer, besonders Leute, die sich mit Fahrrädern und Computern auskennen.'
+];
+
+/* ============================================================
+   LERNINHALTE – Lektionspakete kommen nach dem Einstufungstest
+   (Format: siehe Übergabe-Datei, Abschnitt 4). Hier bleibt die
+   Liste bewusst leer; Pakete werden in der App eingespielt.
+   ============================================================ */
+const BASE_TOPICS = [];
+
+/* ============================================================
+   GRUNDLAGEN
+   ============================================================ */
+let TOPICS = BASE_TOPICS.slice();
+function rebuildTopics(){TOPICS=BASE_TOPICS.concat((S.packs||[]).filter(t=>!BASE_TOPICS.some(b=>b.id===t.id)))}
+const KEY="deutsch-trainer-v1";
+const APP="Deutsch Trainer";
+const DAY=86400000;
+const RATINGS=[{k:"again",q:1,l:"Again",de:"Nochmal"},{k:"hard",q:3,l:"Hard",de:"Schwer"},{k:"good",q:4,l:"Good",de:"Gut"},{k:"easy",q:5,l:"Easy",de:"Leicht"}];
+const RQ={again:1,hard:3,good:4,easy:5};
+let S=null, SESSION=null, CUR={tab:"today",arg:null}, GLOBAL_RUNNING=false;
+
+const $=s=>document.querySelector(s);
+const app=()=>document.getElementById("app");
+const T=id=>TOPICS.find(t=>t.id===id);
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function todayKey(d=new Date()){const z=n=>String(n).padStart(2,"0");return d.getFullYear()+"-"+z(d.getMonth()+1)+"-"+z(d.getDate())}
+function startOfDay(t=Date.now()){const d=new Date(t);d.setHours(0,0,0,0);return d.getTime()}
+function endOfDay(t=Date.now()){const d=new Date(t);d.setHours(23,59,59,999);return d.getTime()}
+function addDays(n){const d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()+n);return d.getTime()}
+function fmtDate(t){if(!t)return"–";return new Date(t).toLocaleDateString("en-GB",{day:"numeric",month:"short"})}
+function relDays(t){const diff=Math.round((startOfDay(t)-startOfDay())/DAY);if(diff<=0)return"today";if(diff===1)return"tomorrow";return"in "+diff+" days"}
+function pct(x){return x==null?"–":Math.round(x*100)+" %"}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function clampInt(v,a,b){const n=parseInt(v,10);if(isNaN(n))return null;return Math.min(b,Math.max(a,n))}
+function norm(s){return String(s||"").toLowerCase().replace(/[.,!?;:"“”„«»()]/g,"").replace(/[’']/g,"").replace(/\s+/g," ").trim()}
+function loose(s){return norm(s).replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/ß/g,"ss")}
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove("show"),2600)}
+function dots(){return '<span class="dots"><i></i><i></i><i></i></span>'}
+
+/* ============================================================
+   ZUSTAND & SPEICHERUNG – sofort lokal + Cloud (Supabase)
+   ============================================================ */
+function defaultPlacement(){return{a:{},u:{},c:{},part:"A",started:0,done:false,doneAt:0,analysis:null}}
+function defaultState(){return{v:2,created:Date.now(),updated:0,topics:{},cards:{},errors:[],reports:[],
+  daily:{date:todayKey(),newCards:0,newTopics:0},stats:{streak:0,last:null,reviews:0,sessions:0},
+  settings:{newCardsPerDay:16,newTopicsPerDay:2,ai:true,slow:false,autoplay:true,theme:"auto"},lastGlobal:0,sinceGlobal:0,active:null,lastBackup:0,packs:[],
+  placement:defaultPlacement()}}
+function migrate(){
+  const d=defaultState();
+  for(const k in d) if(S[k]===undefined) S[k]=d[k];
+  S.settings={...d.settings,...S.settings}; S.stats={...d.stats,...S.stats};
+  S.placement={...defaultPlacement(),...(S.placement||{})};
+  rebuildTopics();
+  TOPICS.forEach(t=>{ if(!S.topics[t.id]) S.topics[t.id]={status:"locked",ease:2.5,interval:0,reps:0,lapses:0,due:null,last:null,best:null,hist:[],ai:null}; });
+  /* Vokabeln in beide Richtungen: alte Einzelkarte "t01-3" wird zu "t01-3-de" + "t01-3-en" (Fortschritt bleibt) */
+  Object.keys(S.cards).forEach(id=>{
+    if(/-(de|en)$/.test(id))return;
+    const m=id.match(/^(.+)-(\d+)$/);if(!m)return;
+    const c=S.cards[id];
+    if(!S.cards[id+"-de"])S.cards[id+"-de"]={...c};
+    if(!S.cards[id+"-en"])S.cards[id+"-en"]={...c};
+    delete S.cards[id];
+  });
+  TOPICS.forEach(t=>{ if(S.topics[t.id].status==="learning") addCards(t); });
+  if(S.daily.date!==todayKey()) S.daily={date:todayKey(),newCards:0,newTopics:0};
+  refreshUnlocks();
+}
+function placementCount(x){const p=x&&x.placement;return p?Object.keys(p.a||{}).length+Object.keys(p.c||{}).length:0}
+function hasProgress(x){return !!(x&&((x.stats&&x.stats.sessions)||Object.keys(x.cards||{}).length||placementCount(x)))}
+
+/* --- Gerätekonfiguration: bleibt nur auf diesem Gerät, wird nie synchronisiert --- */
+const CFG_KEY="deutsch-trainer-config";
+function loadCfg(){try{return JSON.parse(localStorage.getItem(CFG_KEY))||{}}catch(e){return{}}}
+let CFG=loadCfg();
+function saveCfg(){try{localStorage.setItem(CFG_KEY,JSON.stringify(CFG))}catch(e){}}
+const cloudOn=()=>!!(CFG.sbUrl&&CFG.sbKey&&CFG.session&&CFG.session.refresh_token);
+const uid=()=>CFG.session.user.id;
+
+/* --- Lokal: wird bei JEDER Änderung sofort geschrieben --- */
+let DIRTY=false,PUSH_TIMER=null;
+function setSync(st){const el=$("#sync");if(!el)return;el.classList.toggle("err",st==="err");
+  el.textContent={ok:"Synced ✓",saving:"Saving …",offline:"Offline · saved on device",local:"Saved on device",err:"Sync error · saved on device",login:"Please sign in again",load:"Loading …"}[st]||st}
+function writeLocal(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){toast("Device storage is full – please download a backup")}}
+function readLocal(){try{return JSON.parse(localStorage.getItem(KEY))}catch(e){return null}}
+function save(){
+  S.updated=Date.now();writeLocal();DIRTY=true;autoFileBackup();
+  if(!cloudOn()){setSync("local");return}
+  setSync("saving");clearTimeout(PUSH_TIMER);PUSH_TIMER=setTimeout(()=>pushCloud(),1200);
+}
+
+/* --- Supabase (direkt über REST, ohne Zusatzbibliothek) --- */
+/* Bereinigt die URL automatisch: alles nach ".supabase.co" wird entfernt (z. B. mitkopiertes /rest/v1/) */
+function cleanSbUrl(u){
+  u=String(u||"").trim();
+  if(!/^https?:\/\//i.test(u)&&/\.supabase\.co/i.test(u))u="https://"+u;
+  const m=u.match(/^(https?:\/\/[^\/\s?#]+?\.supabase\.co)/i);
+  if(m)return m[1].replace(/^http:/i,"https:");
+  return u.replace(/\/(rest|auth)\/v1.*$/i,"").replace(/[\/?#]+$/,"");
+}
+const sbBase=()=>cleanSbUrl(CFG.sbUrl);
+async function authCall(kind,body){
+  const res=await fetch(sbBase()+"/auth/v1/"+kind,{method:"POST",headers:{apikey:CFG.sbKey,"Content-Type":"application/json"},body:JSON.stringify(body)});
+  const j=await res.json().catch(()=>({}));
+  if(!res.ok){const e=new Error(j.error_description||j.msg||j.message||j.error||("HTTP "+res.status));e.status=res.status;throw e}
+  return j;
+}
+function setSession(j){
+  const old=CFG.session||{};
+  CFG.session={access_token:j.access_token,refresh_token:j.refresh_token,expires_at:Date.now()+(j.expires_in||3600)*1000,
+    user:{id:(j.user&&j.user.id)||(old.user&&old.user.id),email:(j.user&&j.user.email)||(old.user&&old.user.email)}};
+  saveCfg();
+}
+let REFRESHING=null;
+async function ensureToken(force){
+  if(!force&&CFG.session.expires_at-60000>Date.now())return;
+  if(!REFRESHING)REFRESHING=authCall("token?grant_type=refresh_token",{refresh_token:CFG.session.refresh_token})
+    .then(setSession)
+    .catch(e=>{if(e.status>=400&&e.status<500){CFG.session=null;saveCfg();setSync("login");toast("Please sign in again under Progress → Cloud & AI")}throw e})
+    .finally(()=>{REFRESHING=null});
+  await REFRESHING;
+}
+async function sbFetch(path,opt={},retried){
+  await ensureToken();
+  const res=await fetch(sbBase()+path,{...opt,headers:{apikey:CFG.sbKey,Authorization:"Bearer "+CFG.session.access_token,"Content-Type":"application/json",...(opt.headers||{})}});
+  if(res.status===401&&!retried){await ensureToken(true);return sbFetch(path,opt,true)}
+  if(!res.ok)throw new Error("HTTP "+res.status);
+  const t=await res.text();return t?JSON.parse(t):null;
+}
+async function pushCloud(keepalive){
+  PUSH_TIMER=null;if(!cloudOn()||!DIRTY)return;
+  if(!navigator.onLine){setSync("offline");return}
+  const upd=S.updated;
+  try{
+    await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",keepalive:!!keepalive,
+      headers:{Prefer:"resolution=merge-duplicates,return=minimal"},
+      body:JSON.stringify({user_id:uid(),data:S,updated_at:new Date(upd).toISOString()})});
+    if(S.updated===upd)DIRTY=false;
+    setSync(DIRTY?"saving":"ok");
+    cloudSnapshot().catch(()=>{});
+  }catch(e){if(cloudOn())setSync(navigator.onLine?"err":"offline")}
+}
+/* Täglicher Stand in der Cloud – die letzten 30 Tage bleiben erhalten */
+async function cloudSnapshot(){
+  const d=todayKey();if(CFG.lastSnapDay===d||!hasProgress(S))return;
+  await sbFetch("/rest/v1/snapshots?on_conflict=user_id,day",{method:"POST",headers:{Prefer:"resolution=merge-duplicates,return=minimal"},
+    body:JSON.stringify({user_id:uid(),day:d,data:S})});
+  const old=new Date();old.setDate(old.getDate()-30);
+  await sbFetch(`/rest/v1/snapshots?user_id=eq.${uid()}&day=lt.${todayKey(old)}`,{method:"DELETE",headers:{Prefer:"return=minimal"}});
+  CFG.lastSnapDay=d;saveCfg();
+}
+async function fetchRemote(){const rows=await sbFetch(`/rest/v1/progress?select=data&user_id=eq.${uid()}`);return rows&&rows[0]?rows[0].data:null}
+/* Holt den neueren Stand aus der Cloud. Rückgabe true = lokaler Stand wurde ersetzt */
+async function pullCloud(){
+  if(!cloudOn()||!navigator.onLine){if(cloudOn())setSync("offline");return false}
+  try{
+    const remote=await fetchRemote();
+    if(!remote){if(hasProgress(S)){DIRTY=true;pushCloud()}else setSync("ok");return false}
+    if((remote.updated||0)>(S.updated||0)&&!SESSION&&!PT_BUSY.size){
+      if(hasProgress(S))localStorage.setItem(KEY+"-before-sync",JSON.stringify(S));
+      S=remote;migrate();writeLocal();applyTheme();DIRTY=false;setSync("ok");return true}
+    if((remote.updated||0)<(S.updated||0)){DIRTY=true;pushCloud()}else setSync("ok");
+    return false;
+  }catch(e){if(cloudOn())setSync(navigator.onLine?"err":"offline");return false}
+}
+/* Erste Verbindung eines Geräts: nie einen echten Fortschritt überschreiben */
+async function firstLink(){
+  const remote=await fetchRemote();
+  const score=x=>x?((x.stats&&x.stats.sessions)||0)*10+((x.stats&&x.stats.reviews)||0)+placementCount(x):0;
+  if(remote&&hasProgress(remote)&&score(remote)>=score(S)){
+    if(hasProgress(S)){localStorage.setItem(KEY+"-before-sync",JSON.stringify(S));dl(JSON.stringify(S),"deutsch-trainer-device-before.json","application/json")}
+    S=remote;migrate();writeLocal();applyTheme();DIRTY=false;setSync("ok");return"remote";
+  }
+  if(remote&&hasProgress(remote))dl(JSON.stringify(remote),"deutsch-trainer-cloud-before.json","application/json");
+  DIRTY=true;await pushCloud();return"local";
+}
+async function load(){
+  S=readLocal();
+  if(!S){S=defaultState()}
+  migrate();writeLocal();
+  if(cloudOn()){setSync("load");if(await pullCloud())setTimeout(()=>toast("Progress loaded from the cloud ✓"),500)}
+  else setSync("local");
+}
+document.addEventListener("visibilitychange",async()=>{
+  if(document.visibilityState==="hidden"){writeLocal();if(DIRTY&&cloudOn()){clearTimeout(PUSH_TIMER);pushCloud(true)}return}
+  if(SESSION||PT_BUSY.size)return;
+  if(await pullCloud()){render();toast("Synced with your other device ✓")}
+});
+window.addEventListener("pagehide",()=>{writeLocal();if(DIRTY&&cloudOn()){clearTimeout(PUSH_TIMER);pushCloud(true)}});
+window.addEventListener("online",()=>{if(DIRTY)pushCloud();else pullCloud()});
+window.addEventListener("offline",()=>{if(cloudOn())setSync("offline")});
+setInterval(()=>{if(DIRTY&&cloudOn()&&!PUSH_TIMER)pushCloud()},60000);
+if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
+
+/* --- Automatische Sicherungsdatei am PC (Chrome / Edge) --- */
+const HAS_FSA="showSaveFilePicker" in window;
+let FILE_HANDLE=null,FILE_TIMER=null,NEED_FILE_PERM=false;
+function idb(){return new Promise((res,rej)=>{const r=indexedDB.open("deutsch-trainer",1);r.onupgradeneeded=()=>r.result.createObjectStore("kv");r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
+async function idbGet(k){const db=await idb();return new Promise(res=>{const q=db.transaction("kv").objectStore("kv").get(k);q.onsuccess=()=>res(q.result);q.onerror=()=>res(null)})}
+async function idbSet(k,v){const db=await idb();return new Promise(res=>{const tx=db.transaction("kv","readwrite");tx.objectStore("kv").put(v,k);tx.oncomplete=()=>res(true);tx.onerror=()=>res(false)})}
+async function setupAutoFile(){
+  try{
+    FILE_HANDLE=await window.showSaveFilePicker({suggestedName:"deutsch-trainer-backup.json",types:[{description:"Deutsch Trainer backup",accept:{"application/json":[".json"]}}]});
+    await idbSet("fileHandle",FILE_HANDLE);CFG.autoFile=true;saveCfg();await writeAutoFile(true);
+    toast("Backup file set up – it's overwritten after every change ✓");render();
+  }catch(e){}
+}
+async function writeAutoFile(interactive){
+  if(!CFG.autoFile)return;
+  try{
+    if(!FILE_HANDLE)FILE_HANDLE=await idbGet("fileHandle");
+    if(!FILE_HANDLE)return;
+    let p=await FILE_HANDLE.queryPermission({mode:"readwrite"});
+    if(p!=="granted"&&interactive)p=await FILE_HANDLE.requestPermission({mode:"readwrite"});
+    if(p!=="granted"){NEED_FILE_PERM=true;return}
+    NEED_FILE_PERM=false;
+    const w=await FILE_HANDLE.createWritable();await w.write(JSON.stringify(S));await w.close();
+    CFG.lastFileWrite=Date.now();saveCfg();
+  }catch(e){}
+}
+function autoFileBackup(){if(!CFG.autoFile)return;clearTimeout(FILE_TIMER);FILE_TIMER=setTimeout(()=>writeAutoFile(false),3000)}
+
+/* ============================================================
+   AUSSPRACHE (deutsche Sprachausgabe des Geräts, bevorzugt de-AT)
+   ============================================================ */
+const HAS_TTS="speechSynthesis" in window;
+let DE_VOICE=null,VOICE_WARNED=false;
+const SPK_ICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>';
+function pickVoice(){if(!HAS_TTS)return;const vs=speechSynthesis.getVoices();
+  DE_VOICE=vs.find(v=>/^de[-_]AT/i.test(v.lang))||vs.find(v=>/^de[-_]DE/i.test(v.lang))||vs.find(v=>/^de([-_]|$)/i.test(v.lang))||null}
+if(HAS_TTS){pickVoice();speechSynthesis.onvoiceschanged=()=>{pickVoice();if(CUR.tab==="progress"&&!SESSION)render()}}
+function speak(text){
+  if(!HAS_TTS){if(!VOICE_WARNED){toast("Your browser can't read text aloud");VOICE_WARNED=true}return}
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(String(text).replace(/[→\/]/g,", ").replace(/___/g,"").replace(/[\[\]]/g,""));
+  u.lang=DE_VOICE?DE_VOICE.lang:"de-AT";if(DE_VOICE)u.voice=DE_VOICE;u.rate=S&&S.settings.slow?0.7:0.95;
+  speechSynthesis.speak(u);
+  if(!DE_VOICE&&!VOICE_WARNED){VOICE_WARNED=true;toast("No German voice found – see Progress for help")}
+}
+function spk(text,big){return`<button class="spk${big?" big":""}" data-act="say" data-id="${esc(text)}" aria-label="Listen">${SPK_ICON}</button>`}
+function sayClean(t){return t.replace(/[„“"]/g,"").trim()}
+function decorateTheory(root){
+  root.querySelectorAll("table:not(.nosay) tr td:first-child").forEach(td=>td.insertAdjacentHTML("afterbegin",spk(sayClean(td.textContent))));
+  root.querySelectorAll("i").forEach(i=>{i.classList.add("sayable");i.dataset.act="say";i.dataset.id=sayClean(i.textContent)});
+}
+function voiceStatus(){if(!HAS_TTS)return"not supported";return DE_VOICE?esc(DE_VOICE.name+" ("+DE_VOICE.lang+")"):"not found"}
+
+/* ============================================================
+   SPACED REPETITION (SM-2, wie Anki)
+   Vokabelkarten: zwei Karten pro Wort, jede mit eigenem Plan
+   "<topic>-<index>-de"  Deutsch sehen → Englisch wissen
+   "<topic>-<index>-en"  Englisch sehen → Deutsch wissen
+   ============================================================ */
+function sm2Next(it,q){
+  let ease=it.ease??2.5, reps=it.reps??0, interval=it.interval??0, lapses=it.lapses??0;
+  if(q<3){reps=0;interval=0;lapses++;ease=Math.max(1.3,ease-0.2);}
+  else{
+    if(reps===0) interval={3:1,4:1,5:3}[q];
+    else if(reps===1) interval={3:2,4:4,5:7}[q];
+    else{const f=q===3?1.2:q===4?ease:ease*1.3;interval=Math.max(interval+1,Math.round(interval*f));}
+    ease=Math.max(1.3,ease+(0.1-(5-q)*(0.08+(5-q)*0.02)));
+    reps++;
+  }
+  return{ease,reps,interval,lapses};
+}
+function prereqMet(t){return t.req.every(r=>{const s=S.topics[r];return s&&s.last!=null&&s.last>=0.8})}
+function refreshUnlocks(){const opened=[];TOPICS.forEach(t=>{const s=S.topics[t.id];if(s.status==="locked"&&prereqMet(t)){s.status="new";opened.push(t)}});return opened}
+const newCard=()=>({ease:2.5,interval:0,reps:0,lapses:0,due:null,isNew:true});
+function addCards(t){t.v.forEach((w,i)=>{["de","en"].forEach(d=>{const id=t.id+"-"+i+"-"+d;if(!S.cards[id])S.cards[id]=newCard()})})}
+function cardParts(id){const m=String(id).match(/^(.+)-(\d+)-(de|en)$/);return m?{tid:m[1],i:+m[2],dir:m[3]}:null}
+function cardWord(id){const p=cardParts(id);if(!p)return null;const t=T(p.tid);return t?t.v[p.i]:null}
+function cardDir(id){const p=cardParts(id);return p?p.dir:"de"}
+function dueTopics(){return TOPICS.filter(t=>{const s=S.topics[t.id];return s.status==="learning"&&s.due&&s.due<=endOfDay()}).sort((a,b)=>S.topics[a.id].due-S.topics[b.id].due)}
+function nextNewTopic(){return TOPICS.find(t=>S.topics[t.id].status==="new")}
+function dueCards(){const now=Date.now();return Object.keys(S.cards).filter(id=>{const c=S.cards[id];return !c.isNew&&c.due&&c.due<=now&&cardWord(id)})}
+function allNewCardIds(){const ids=[];TOPICS.forEach(t=>t.v.forEach((w,i)=>["de","en"].forEach(d=>{const id=t.id+"-"+i+"-"+d;if(S.cards[id]&&S.cards[id].isNew)ids.push(id)})));return ids}
+function newCardsAvail(){const left=Math.max(0,S.settings.newCardsPerDay-S.daily.newCards);return allNewCardIds().slice(0,left)}
+function cardState(c){if(c.isNew)return"new";if(c.interval>=21)return"solid";if(c.interval>=4)return"good";return"learning"}
+function wordKey(id){const p=cardParts(id);return p?p.tid+"-"+p.i:id}
+function learnedWords(){const s=new Set();Object.entries(S.cards).forEach(([id,c])=>{if(!c.isNew&&cardWord(id))s.add(wordKey(id))});return s.size}
+function solidWords(){const by={};Object.entries(S.cards).forEach(([id,c])=>{if(!cardWord(id))return;const k=wordKey(id);by[k]=by[k]||[];by[k].push(c)});return Object.values(by).filter(cs=>cs.length===2&&cs.every(c=>!c.isNew&&c.interval>=21)).length}
+function masteredTopics(){return TOPICS.filter(t=>(S.topics[t.id].last||0)>=0.8).length}
+function weakCards(){return Object.entries(S.cards).filter(([id,c])=>!c.isNew&&cardWord(id)&&(c.lapses>=2||c.ease<2.0)).sort((a,b)=>b[1].lapses-a[1].lapses)}
+function streakNow(){const y=todayKey(new Date(Date.now()-DAY));return(S.stats.last===todayKey()||S.stats.last===y)?S.stats.streak:0}
+function bumpStreak(){const tk=todayKey();if(S.stats.last===tk)return;const y=todayKey(new Date(Date.now()-DAY));S.stats.streak=S.stats.last===y?S.stats.streak+1:1;S.stats.last=tk}
+function ivLabel(n){return n<1?"1 min":n===1?"1 day":n+" days"}
+
+/* ============================================================
+   KI – COACH (spricht Englisch, beurteilt deutsche Antworten)
+   ============================================================ */
+const TEACHER="You are \"Coach\", a patient, honest and encouraging German teacher based in Austria. Your student is Aurora, who is at B1 level and working towards B2. She lives and works in Austria, so everyday life in Austria matters (authorities, doctor, shopping, flat, small talk, phone calls, understanding a bit of dialect). Always explain in clear, simple English. German examples must always be correct. Prefer Austrian standard German (e.g. Jänner, Paradeiser, Grüß Gott, Servus) and mention the German-German word where useful (e.g. \"Paradeiser (Germany: Tomate)\"). Her known weak spots are pronouns, tenses and cases.";
+const SYS_JSON=TEACHER+" Reply ONLY with valid JSON – no text before or after, no Markdown. All explanations, feedback and tips must be in ENGLISH; only German example words or sentences stay German.";
+/* KI-Anbieter: Google Gemini (kostenlos) oder ein OpenAI-kompatibler Dienst.
+   Bei Überlastung (503) oder Limit/Fehler (429/500) wird automatisch das nächste Modell probiert. */
+const GEMINI_MODELS=["gemini-2.5-flash","gemini-2.5-flash-lite","gemini-flash-latest","gemini-flash-lite-latest"];
+function aiReady(){const a=CFG.ai||{};return !!(S&&S.settings.ai&&a.provider&&a.provider!=="none"&&a.key)}
+async function claude(system,user){
+  const a=CFG.ai||{};
+  if(!a.key||!a.provider||a.provider==="none")throw new Error("AI not set up");
+  return a.provider==="openai"?openaiCall(system,user,a):geminiCall(system,user,a);
+}
+async function geminiCall(system,user,a){
+  const models=[a.model,...GEMINI_MODELS].filter((m,i,arr)=>m&&arr.indexOf(m)===i);
+  let last=null;
+  for(const m of models){
+    let res;
+    try{
+      res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(m)}:generateContent`,{
+        method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":a.key},
+        body:JSON.stringify({systemInstruction:{parts:[{text:system}]},contents:[{role:"user",parts:[{text:user}]}],generationConfig:{temperature:0.3,maxOutputTokens:4096}})});
+    }catch(e){last=new Error("No connection");continue}
+    if(res.status===404){last=new Error("Model "+m+" not available");continue}
+    if(res.status===503||res.status===500||res.status===429){last=new Error(res.status===429?"Rate limit reached – wait a moment":"Gemini is busy right now ("+res.status+")");continue}
+    if(res.status===400||res.status===403){const j=await res.json().catch(()=>({}));throw new Error((j.error&&j.error.message)||"Invalid key")}
+    if(!res.ok){last=new Error("HTTP "+res.status);continue}
+    const d=await res.json();
+    const txt=((d.candidates&&d.candidates[0]&&d.candidates[0].content&&d.candidates[0].content.parts)||[]).map(p=>p.text||"").join("").trim();
+    if(!txt){last=new Error("Empty answer");continue}
+    if(a.model&&a.model!==m){/* gespeichertes Modell bleibt; nur das automatische Ausweichen merken */}
+    CFG.ai.lastModel=m;saveCfg();
+    return txt;
+  }
+  throw last||new Error("No model available");
+}
+async function openaiCall(system,user,a){
+  const res=await fetch((a.baseUrl||"https://api.groq.com/openai/v1").replace(/\/+$/,"")+"/chat/completions",{method:"POST",
+    headers:{"Content-Type":"application/json",Authorization:"Bearer "+a.key},
+    body:JSON.stringify({model:a.model||"llama-3.3-70b-versatile",temperature:0.3,messages:[{role:"system",content:system},{role:"user",content:user}]})});
+  if(res.status===429)throw new Error("Limit reached – wait a moment");
+  if(!res.ok)throw new Error("HTTP "+res.status);
+  const d=await res.json();return((d.choices&&d.choices[0]&&d.choices[0].message&&d.choices[0].message.content)||"").trim();
+}
+function parseJSON(txt){const c=txt.replace(/```json|```/g,"").trim();return JSON.parse(c.slice(c.indexOf("{"),c.lastIndexOf("}")+1))}
+async function claudeJSON(prompt){
+  try{return parseJSON(await claude(SYS_JSON,prompt))}
+  catch(e){if(/key|not set up/i.test(e.message))throw e;return parseJSON(await claude(SYS_JSON,prompt+"\n\nIMPORTANT: Keep it very short so the JSON is complete."))}
+}
+
+async function aiJudge(ex,user){
+  const t=T(SESSION.id);
+  const kind=ex.t==="gap"?"gap fill (German)":(ex.dir==="en"?"translation English → German":"translation German → English");
+  const sol=(ex.t==="gap"?ex.a.map(a=>ex.q.replace("___",a)):ex.a).join(" | ");
+  const p=`Topic: ${t.title}
+Task type: ${kind}
+Task: ${promptText(ex)}
+Model answer(s): ${sol}
+Student's answer: "${user}"
+
+Judge strictly but fairly. Equivalent alternatives are correct (other fitting words, other correct word order, Austrian variants, missing final punctuation). A small typo that doesn't create a different word or form counts as correct with a note. Wrong endings, wrong case, wrong gender, wrong verb forms or wrong word order (verb position!) are wrong. In German answers, a wrongly capitalised noun counts as correct but must be mentioned.${ex.s?" In this task umlauts are tested on purpose – a/ä, o/ö, u/ü mix-ups are wrong.":""}
+JSON: {"correct": true or false, "feedback": "1–2 short sentences in English: why right/wrong, name the rule", "correction": "the correct solution, as close to the student's answer as possible"}`;
+  return claudeJSON(p);
+}
+
+async function aiSessionReview(t,s,results,score,rating,baseDays){
+  const errs=results.filter(r=>!r.correct).map(r=>`- ${r.q} | answer: ${r.user} | correct: ${r.exp}`).join("\n")||"none";
+  const hist=s.hist.slice(-6).map(h=>`${new Date(h.d).toLocaleDateString("en-GB")}: ${h.sc} %`).join(", ");
+  const p=`Aurora just practised the topic "${t.title}" (${t.lvl}).
+Result: ${Math.round(score*100)} % (${results.filter(r=>r.correct).length}/${results.length}). Self-assessment: ${RATINGS.find(r=>r.k===rating).l}.
+Previous results: ${hist}
+Repetitions: ${s.reps}, lapses: ${s.lapses}
+Mistakes this round:
+${errs}
+The spaced-repetition algorithm suggests the next review in ${baseDays} day(s).
+
+Decide as her teacher when this topic should come back: shaky things sooner (1–2 days), solid things later. Deviate from the suggestion if mistakes or history suggest it.
+JSON: {"feedback":"2–3 sentences of honest, personal feedback in English, explain the mistakes concretely","tips":["up to 3 short, concrete tips"],"intervalDays": integer 1–180,"reason":"1 short sentence why this interval"}`;
+  return claudeJSON(p);
+}
+
+function progressSummary(){
+  const L=[];
+  L.push(`Started: ${new Date(S.created).toLocaleDateString("en-GB")} | streak: ${streakNow()} days | sessions: ${S.stats.sessions} | card reviews: ${S.stats.reviews}`);
+  L.push("\nTOPICS:");
+  if(!TOPICS.length)L.push("- none yet (lesson packages follow after the placement test)");
+  TOPICS.forEach(t=>{const s=S.topics[t.id];
+    if(s.status==="learning")L.push(`- ${t.id} ${t.title}: last ${pct(s.last)}, best ${pct(s.best)}, reps ${s.reps}, lapses ${s.lapses}, next ${fmtDate(s.due)}, history ${s.hist.slice(-5).map(h=>h.sc+"%").join(" → ")}`);
+    else L.push(`- ${t.id} ${t.title}: ${s.status==="new"?"unlocked, not studied yet":"locked"}`)});
+  const all=Object.entries(S.cards).filter(([id])=>cardWord(id)), seen=all.filter(([,c])=>!c.isNew);
+  L.push(`\nVOCABULARY: ${all.length/2} words (${all.length} cards), ${learnedWords()} words started, ${solidWords()} solid in both directions`);
+  const weak=weakCards().slice(0,15).map(([id,c])=>{const w=cardWord(id);return`${w[0]} (${w[1]}) ${cardDir(id)==="de"?"DE→EN":"EN→DE"} – forgotten ${c.lapses}×`});
+  if(weak.length)L.push("Difficult words: "+weak.join("; "));
+  const er=S.errors.slice(0,20);
+  if(er.length){L.push("\nRECENT MISTAKES:");er.forEach(e=>L.push(`- [${e.topic}] ${e.q} → "${e.user}" (correct: ${e.exp})`))}
+  return L.join("\n");
+}
+
+async function aiGlobal(){
+  const ids=TOPICS.filter(t=>S.topics[t.id].status==="learning").map(t=>t.id).join(", ")||"none";
+  const pa=S.placement.analysis;
+  const p=`Current learning state:
+
+${progressSummary()}
+${pa?`\nPLACEMENT TEST RESULT: level ${pa.level}. Weaknesses: ${(pa.weaknesses||[]).join("; ")}`:""}
+
+Analyse the progress like an experienced German teacher. Estimate the level (e.g. "B1", "B1+", "B2-"), spot patterns in mistakes and forgotten words, and reschedule reviews where it makes sense (only these topic IDs: ${ids}; weak topics sooner, very solid ones later).
+Keep every text short (lists max. 3 items with max. 12 words each) so the answer stays complete.
+JSON: {"level":"…","summary":"2 sentences","strengths":["…"],"weaknesses":["…"],"tips":["…"],"reschedule":[{"topicId":"d0X","days":1,"reason":"max. 8 words"}],"nextFocus":"1 motivating sentence"}`;
+  return claudeJSON(p);
+}
+
+async function runGlobal(silent){
+  if(GLOBAL_RUNNING)return; if(!aiReady()){if(!silent)toast("Coach isn't set up yet – see Progress → Cloud & AI");return}
+  if(!TOPICS.some(t=>S.topics[t.id].status==="learning")){if(!silent)toast("Study a topic first");return}
+  GLOBAL_RUNNING=true; if(!silent){const b=$("#globalbox");if(b)b.innerHTML=`<p class="muted">Coach is analysing your progress ${dots()}</p>`}
+  try{
+    const j=await aiGlobal();
+    (j.reschedule||[]).forEach(r=>{const s=S.topics[r.topicId];const d=clampInt(r.days,1,180);
+      if(s&&s.status==="learning"&&d){s.due=addDays(d);s.interval=d;s.ai={...(s.ai||{}),reason:"Overall review: "+(r.reason||"")}}});
+    S.reports.unshift({d:Date.now(),...j}); S.reports=S.reports.slice(0,10);
+    S.lastGlobal=Date.now(); S.sinceGlobal=0; save();
+    if(!SESSION&&(CUR.tab==="today"||CUR.tab==="progress"))render();
+    toast("Coach updated your study plan");
+  }catch(e){GLOBAL_FAILED_AT=Date.now();if(!silent){toast("Coach can't be reached right now – try again later");render()}}
+  GLOBAL_RUNNING=false;
+}
+let GLOBAL_FAILED_AT=0;
+function maybeAutoGlobal(){
+  if(!aiReady()||GLOBAL_RUNNING||Date.now()-GLOBAL_FAILED_AT<30*60000)return;
+  const stale=Date.now()-S.lastGlobal>3*DAY;
+  if(S.sinceGlobal>=3||(stale&&S.sinceGlobal>=1))runGlobal(true);
+}
+
+async function askTeacher(id){
+  const q=$("#askq").value.trim(); if(!q)return; const t=id&&id!=="pt"?T(id):null; const box=$("#askres");
+  if(!aiReady()){box.innerHTML=`<p class="muted">Coach isn't set up yet. Under Progress → "Cloud & AI" you can add a free Gemini key.</p>`;return}
+  box.innerHTML=`<p class="muted">Coach is thinking ${dots()}</p>`;
+  try{
+    const ans=await claude(TEACHER+" Answer briefly (max. 120 words) in English, with correct German examples. No Markdown except **bold**.",
+      `Current topic: ${t?t.title:"placement test"}. Aurora's question: ${q}`);
+    box.innerHTML=`<div class="teacher" style="margin:12px 0 0"><p>${esc(ans).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/\n/g,"<br>")}</p></div>`;
+  }catch(e){box.innerHTML=`<p class="muted">Couldn't reach Coach. Try again in a moment.</p>`}
+}
+
+/* ============================================================
+   ANSICHTEN
+   ============================================================ */
+function setTab(tab){["today","topics","vocab","progress"].forEach(k=>$("#tab-"+k).classList.toggle("on",k===tab))}
+/* ---------- Einrichtung (pro Gerät) ---------- */
+function renderSetup(){
+  const a=CFG.ai||{};
+  let h=`<p class="ftitle">Servus!</p><h2 style="margin-top:6px">Setup</h2><p class="muted">Once per device. Keys and password stay on this device only.</p>`;
+  h+=`<div class="card"><div class="label">1 · Cloud storage (Supabase)</div>`;
+  if(cloudOn())h+=`<p>Signed in as <b>${esc(CFG.session.user.email||"")}</b>. Every answer is saved right away and synced with your other devices.</p><div class="btnrow"><button class="btn ghost" data-act="logout">Sign out</button></div>`;
+  else h+=`<p class="muted">You'll find the Project URL and the publishable (or anon public) key in Supabase under <i>Project Settings → API</i>. On your first device tap "Create account", on every other device "Sign in".</p>
+  <input id="sburl" class="inp" placeholder="Project URL (https://….supabase.co)" value="${esc(CFG.sbUrl||"")}" autocapitalize="off" autocorrect="off" spellcheck="false" style="margin-bottom:8px">
+  <input id="sbkey" class="inp" placeholder="Publishable / anon public key" value="${esc(CFG.sbKey||"")}" autocapitalize="off" autocorrect="off" spellcheck="false" style="margin-bottom:8px">
+  <input id="sbmail" class="inp" type="email" placeholder="Your email" autocomplete="username" value="${esc(CFG.lastMail||"")}" style="margin-bottom:8px">
+  <input id="sbpw" class="inp" type="password" placeholder="Password (at least 6 characters)" autocomplete="current-password">
+  <div class="btnrow"><button class="btn" data-act="login">Sign in</button><button class="btn ghost" data-act="signup">Create account</button></div><div id="authmsg"></div>`;
+  h+=`</div><div class="card"><div class="label">2 · AI teacher "Coach"</div>
+  <select id="aiprov" class="inp" style="margin-bottom:8px"><option value="gemini" ${a.provider!=="openai"&&a.provider!=="none"?"selected":""}>Google Gemini (free)</option><option value="openai" ${a.provider==="openai"?"selected":""}>Other provider (OpenAI-compatible, e.g. Groq)</option><option value="none" ${a.provider==="none"?"selected":""}>No AI</option></select>
+  <input id="aikey" class="inp" type="password" placeholder="API key (from aistudio.google.com)" value="${esc(a.key||"")}" autocapitalize="off" autocorrect="off" spellcheck="false" style="margin-bottom:8px">
+  <details><summary class="muted">Advanced</summary><input id="aimodel" class="inp" placeholder="Model (empty = automatic)" value="${esc(a.model||"")}" autocapitalize="off" style="margin:8px 0"><input id="aibase" class="inp" placeholder="Base URL (other provider only)" value="${esc(a.baseUrl||"")}" autocapitalize="off"></details>
+  <div class="btnrow"><button class="btn" data-act="aisave">Save & test</button></div><div id="aimsg"></div></div>
+  <div class="btnrow"><button class="btn" data-act="setupdone">${CFG.setupDone?"Done":"Let's go"}</button></div>
+  ${cloudOn()?"":`<p class="muted" style="margin-top:12px">You can also start without the cloud. Then everything is saved on this device only – you can connect the cloud any time later and your progress comes along.</p>`}`;
+  app().innerHTML=h;
+}
+function authErr(m){
+  if(/invalid login|invalid_credentials/i.test(m))return"Email or password is wrong.";
+  if(/already registered|already exists/i.test(m))return"This email is already registered – please use \"Sign in\".";
+  if(/not confirmed/i.test(m))return"Please open the confirmation email from Supabase first, then tap \"Sign in\".";
+  if(/failed to fetch|networkerror|load failed/i.test(m))return"No connection. Is the Project URL right and are you online?";
+  if(/invalid path/i.test(m))return"The Project URL looks wrong – it should end with .supabase.co";
+  if(/api key|apikey|jwt/i.test(m))return"The key doesn't match. Use the publishable or anon public key (never the secret one).";
+  return"Error: "+m;
+}
+async function doAuth(kind){
+  const url=cleanSbUrl($("#sburl").value),key=$("#sbkey").value.trim(),mail=$("#sbmail").value.trim(),pw=$("#sbpw").value,msg=$("#authmsg");
+  $("#sburl").value=url;
+  const bad=t=>{msg.innerHTML=`<p class="muted" style="color:var(--puolukka);margin-top:10px">${esc(t)}</p>`};
+  if(!/^https:\/\/\S+$/.test(url))return bad("Please enter the Project URL (starts with https://).");
+  if(!key)return bad("Please enter the publishable / anon public key.");
+  if(/^sb_secret_|service_role/i.test(key))return bad("That's the secret key. Please use the publishable or anon public key.");
+  if(!mail||pw.length<6)return bad("Please enter your email and a password (at least 6 characters).");
+  CFG.sbUrl=url;CFG.sbKey=key;CFG.lastMail=mail;saveCfg();
+  msg.innerHTML=`<p class="muted" style="margin-top:10px">Connecting ${dots()}</p>`;
+  try{
+    const j=kind==="signup"?await authCall("signup",{email:mail,password:pw}):await authCall("token?grant_type=password",{email:mail,password:pw});
+    if(!j.access_token){msg.innerHTML=`<p style="margin-top:10px">Almost there: open the confirmation email from Supabase, then tap "Sign in" here.</p>`;return}
+    setSession(j);
+    const r=await firstLink();
+    toast(r==="remote"?"Progress loaded from the cloud ✓":"Connected – your progress is now in the cloud ✓");
+    renderSetup();
+  }catch(e){bad(authErr(e.message||String(e)))}
+}
+async function aiSave(){
+  CFG.ai={provider:$("#aiprov").value,key:$("#aikey").value.trim(),model:$("#aimodel").value.trim(),baseUrl:$("#aibase").value.trim()};saveCfg();
+  const m=$("#aimsg");
+  if(CFG.ai.provider==="none"){m.innerHTML=`<p class="muted" style="margin-top:10px">Without AI, answers are compared with the model solutions. Everything else works as usual.</p>`;return}
+  if(!CFG.ai.key){m.innerHTML=`<p class="muted" style="color:var(--puolukka);margin-top:10px">Please enter the key.</p>`;return}
+  m.innerHTML=`<p class="muted" style="margin-top:10px">Testing Coach ${dots()}</p>`;
+  try{const t=await claude("Reply with exactly one German word, no punctuation.","What is the Austrian word for 'tomato'?");
+    m.innerHTML=`<p style="color:var(--kuusi);margin-top:10px">✓ Coach is ready (${esc(CFG.ai.lastModel||CFG.ai.model||CFG.ai.provider)}) and says: "${esc(t.slice(0,40))}"</p>`}
+  catch(e){m.innerHTML=`<p class="muted" style="color:var(--puolukka);margin-top:10px">Test failed: ${esc(e.message)}</p>`}
+}
+async function listSnaps(){
+  const box=$("#snaplist");box.innerHTML=`<p class="muted" style="margin-top:10px">Loading ${dots()}</p>`;
+  try{const rows=await sbFetch(`/rest/v1/snapshots?select=day&user_id=eq.${uid()}&order=day.desc`);
+    box.innerHTML=rows&&rows.length?`<p class="muted" style="margin-top:10px">Your current state is kept on this device before loading.</p>`+rows.map(r=>`<div class="row"><span>${new Date(r.day+"T12:00:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"})}</span><button class="btn sm ghost" data-act="loadsnap" data-id="${esc(r.day)}">Load</button></div>`).join(""):`<p class="muted" style="margin-top:10px">No daily states yet – the first one is created today.</p>`}
+  catch(e){box.innerHTML=`<p class="muted" style="margin-top:10px">No connection to the cloud.</p>`}
+}
+async function loadSnap(day,b){
+  if(!b.dataset.sure){b.dataset.sure="1";b.textContent="Sure?";return}
+  try{const rows=await sbFetch(`/rest/v1/snapshots?select=data&user_id=eq.${uid()}&day=eq.${day}`);if(!rows||!rows[0])throw 0;
+    localStorage.setItem(KEY+"-before-restore",JSON.stringify(S));
+    S=rows[0].data;migrate();applyTheme();save();CUR={tab:"today",arg:null};render();toast("State loaded ✓")}
+  catch(e){toast("Loading failed")}
+}
+
+function render(){
+  if(S.daily.date!==todayKey()){S.daily={date:todayKey(),newCards:0,newTopics:0}}
+  if((!CFG.setupDone&&!SESSION)||CUR.tab==="setup"){CUR.tab="setup";setTab("");return renderSetup()}
+  setTab(CUR.tab);
+  if(CUR.tab==="today")renderToday();
+  else if(CUR.tab==="topics")CUR.arg==="pt"?renderPlacement():CUR.arg?renderTopic(CUR.arg):renderTopics();
+  else if(CUR.tab==="vocab")renderVocab();
+  else renderProgress();
+}
+function greeting(){const h=new Date().getHours();return h<10?"Guten Morgen":h<17?"Servus":h<22?"Guten Abend":"Gute Nacht"}
+
+function placementCard(big){
+  const P=S.placement,st=ptStats();
+  if(P.done)return"";
+  const started=st.answered>0;
+  if(big)return`<div class="next"><div class="label">First step: placement test</div><h2>${started?"Continue your placement test":"Find your level"}</h2><p>${started?`${st.answered} of ${st.total} tasks answered, ${st.checked} checked. Everything is saved.`:"Grammar, vocabulary, reading and writing – about 2 hours, split into 4 parts. Your lessons are built on the result."}</p><button class="btn" data-act="pt">${started?"Continue":"Start the test"}</button></div>`;
+  return`<div class="card"><div class="row" style="padding:0"><div><b>Placement test</b><small>${st.answered}/${st.total} answered</small></div><button class="btn sm" data-act="pt">Open</button></div></div>`;
+}
+
+function renderToday(){
+  const dueT=dueTopics(), newT=nextNewTopic(), capped=S.daily.newTopics>=S.settings.newTopicsPerDay;
+  const dc=dueCards().length, nc=newCardsAvail().length, rep=S.reports[0], P=S.placement;
+  let h=`<div class="greet">${greeting()}, Aurora!</div><div class="date">${new Date().toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"})}</div>
+  <div class="facts"><div><b>${streakNow()}</b><span>day streak</span></div><div><b>${learnedWords()}</b><span>words learned</span></div><div><b>${masteredTopics()}/${TOPICS.length}</b><span>topics solid</span></div></div>`;
+
+  if(S.active&&T(S.active.id)){const a=S.active,t=T(a.id);
+    h+=`<div class="next"><div class="label">Unfinished exercise</div><h2>${esc(t.title)}</h2><p>You were on task ${Math.min(a.idx+1,a.idxs.length)} of ${a.idxs.length}. Everything so far is saved.</p><button class="btn" data-act="resume">Continue</button></div>`;
+  }else if(!P.done){
+    h+=placementCard(true);
+  }else if(dueT.length){const t=dueT[0];
+    h+=`<div class="next"><div class="label">Next: review</div><h2>${esc(t.title)}</h2><p>${esc(S.topics[t.id].ai?.reason||"This topic is due today.")}</p><button class="btn" data-act="review" data-id="${t.id}">Start review</button></div>`;
+  }else if(dc+nc>0){
+    h+=`<div class="next"><div class="label">Next: vocabulary</div><h2>${dc} due, ${nc} new</h2><p>Short and regular works best.</p><button class="btn" data-act="vocab">Practise words</button></div>`;
+  }else if(newT&&!capped){
+    h+=`<div class="next"><div class="label">Next: new topic</div><h2>${esc(newT.title)}</h2><p>${esc(newT.fi)}. Read the theory, then practise.</p><button class="btn" data-act="topic" data-id="${newT.id}">Open topic</button></div>`;
+  }else if(!TOPICS.length){
+    h+=`<div class="next"><div class="label">Placement test done</div><h2>Gut gemacht!</h2><p>Copy your report under Progress → "Report for Claude" and paste it in the chat. You'll get your first lesson package, built for your level.</p><button class="btn" data-act="tab" data-id="progress">Open report</button></div>`;
+  }else{
+    h+=`<div class="next"><div class="label">Done for today</div><h2>Super gemacht!</h2><p>${capped&&newT?"Enough new material for today. The next topic is waiting tomorrow.":!newT&&TOPICS.every(t=>S.topics[t.id].status==="learning")?"You've studied every topic. Send Claude your report (under Progress) – you'll get a new lesson package to add to the app.":"Everything is reviewed. New topics unlock once a topic is at 80 % or more."}</p></div>`;
+  }
+  if(P.done&&P.analysis)h+=`<div class="card"><div class="row" style="padding:0"><div><b>Placement result: ${esc(P.analysis.level||"")}</b><small>${esc(P.analysis.focus||P.analysis.summary||"")}</small></div><button class="btn sm ghost" data-act="pt">View</button></div></div>`;
+
+  if(!hasProgress(S)){
+    h+=`<div class="card"><div class="label">Already have progress?</div><p>If you've used an earlier version or another device without the cloud, restore your backup here.</p><input type="file" id="impfile" accept=".json,application/json" class="inp" style="margin-bottom:8px"><div class="btnrow" style="margin-top:4px"><button class="btn ghost" data-act="pasteimport">Paste backup text</button></div></div>`;
+  }
+  const hasCards=Object.keys(S.cards).length>0,nx=allNewCardIds().length;
+  if(hasCards)h+=`<div class="card"><div class="row" style="padding:0"><div><b>Extra vocabulary practice</b><small>${nx?`${Math.min(6,nx)} more new cards – beyond your daily limit.`:"Practise learned words without changing your plan."}</small></div><button class="btn sm" data-act="extravocab">Go</button></div></div>`;
+
+  const more=[];
+  dueT.slice(1).forEach(t=>more.push(`<div class="row"><div><b>${esc(t.title)}</b><small>Review due</small></div><button class="btn sm ghost" data-act="review" data-id="${t.id}">Start</button></div>`));
+  if(dueT.length&&dc+nc>0)more.push(`<div class="row"><div><b>Vocabulary</b><small>${dc} due, ${nc} new</small></div><button class="btn sm ghost" data-act="vocab">Practise</button></div>`);
+  if(newT&&!capped&&(dueT.length||dc+nc>0))more.push(`<div class="row"><div><b>${esc(newT.title)}</b><small>New topic</small></div><button class="btn sm ghost" data-act="topic" data-id="${newT.id}">Open</button></div>`);
+  if(more.length)h+=`<div class="card"><div class="label">Also today</div>${more.join("")}</div>`;
+
+  if(NEED_FILE_PERM)h+=`<div class="card"><div class="row" style="padding:0"><div><b>Allow the backup file</b><small>After a restart the browser asks once.</small></div><button class="btn sm" data-act="fileperm">Allow</button></div></div>`;
+  if(!cloudOn())h+=`<div class="card" style="border-color:var(--lakka)"><div class="row" style="padding:0"><div><b>Saved on this device only</b><small>Connect the cloud so nothing gets lost.</small></div><button class="btn sm" data-act="setup">Set up</button></div></div>`;
+  if(!cloudOn()&&!CFG.autoFile&&hasProgress(S)&&(S.lastBackup||0)<startOfDay())h+=`<div class="card"><div class="row" style="padding:0"><div><b>Daily backup file</b><small>Protects you if the app gets deleted.</small></div><button class="btn sm ghost" data-act="download">Back up</button></div></div>`;
+  if(rep)h+=`<div class="teacher"><div class="label">Coach</div><p>${esc(rep.nextFocus||rep.summary)}</p>${rep.tips&&rep.tips[0]?`<p class="muted">Tip: ${esc(rep.tips[0])}</p>`:""}</div>`;
+  app().innerHTML=h;
+  maybeAutoGlobal();
+}
+
+function topicBadge(t){const s=S.topics[t.id];
+  if(s.status==="locked")return'<span class="badge locked">Locked</span>';
+  if(s.status==="new")return'<span class="badge new">New</span>';
+  if(s.due<=endOfDay())return'<span class="badge due">Due</span>';
+  return`<span class="badge">${relDays(s.due)}</span>`}
+function renderTopics(){
+  let h=`<h2>Topics</h2>`;
+  const P=S.placement,st=ptStats();
+  h+=`<div class="card" style="padding:4px 14px"><button class="titem" data-act="pt"><span class="num">✓</span><span class="body"><b>Placement test</b><div class="fi">Einstufungstest · all B1 topics</div><div class="bar"><i style="width:${Math.round(st.checked/st.total*100)}%"></i></div></span>${P.done?`<span class="badge new">${esc((P.analysis&&P.analysis.level)||"Done")}</span>`:`<span class="badge due">${st.checked}/${st.total}</span>`}</button></div>`;
+  if(!TOPICS.length){h+=`<p class="muted">Your lessons appear here after the placement test. Claude builds the first lesson package from your results.</p>`;app().innerHTML=h;return}
+  h+=`<p class="muted">New topics unlock once the basics are at 80 % or more.</p><div class="card" style="padding:4px 14px">`;
+  TOPICS.forEach((t,i)=>{const s=S.topics[t.id],lk=s.status==="locked";
+    h+=`<button class="titem${lk?" locked":""}" ${lk?"":`data-act="topic" data-id="${t.id}"`}><span class="num">${i+1}</span><span class="body"><b>${esc(t.title)}</b><div class="fi">${esc(t.fi)} · ${t.lvl}</div>${s.last!=null?`<div class="bar"><i style="width:${Math.round(s.last*100)}%"></i></div>`:""}</span>${topicBadge(t)}</button>`});
+  app().innerHTML=h+"</div>";
+}
+function renderTopic(id){
+  const t=T(id),s=S.topics[id];
+  if(!t){CUR.arg=null;return renderTopics()}
+  let h=`<button class="back" data-act="back">‹ All topics</button><p class="ftitle">${esc(t.fi)}</p><h2 style="margin-top:6px">${esc(t.title)}</h2>`;
+  if(s.status==="locked"){h+=`<div class="card"><p>This topic unlocks when these topics are at 80 % or more:</p><p><b>${t.req.map(r=>esc((T(r)||{title:r}).title)).join(", ")}</b></p></div>`;app().innerHTML=h;return}
+  let act;
+  if(S.active&&S.active.id===id)act=`<button class="btn" data-act="resume">Continue unfinished exercise</button>`;
+  else if(s.status==="new")act=`<button class="btn" data-act="learn" data-id="${id}">Go to exercises</button>`;
+  else if(s.due<=endOfDay())act=`<button class="btn" data-act="review" data-id="${id}">Start review</button>`;
+  else act=`<p class="muted">Next planned review: ${relDays(s.due)} (${fmtDate(s.due)}). Extra practice doesn't change the plan.</p><button class="btn ghost" data-act="extra" data-id="${id}">Extra practice</button>`;
+  if(s.ai&&s.ai.feedback)h+=`<div class="teacher"><div class="label">Coach's last note</div><p>${esc(s.ai.feedback)}</p>${(s.ai.tips||[]).map(x=>`<p class="muted">Tip: ${esc(x)}</p>`).join("")}</div>`;
+  const vocabList=`<div class="card theory"><h3>Words in this topic</h3><p class="muted">Read them out loud once – they come up in the exercises. Afterwards they go into your flashcards automatically.</p><table>${t.v.map(w=>`<tr><td>${esc(w[0])}</td><td>${esc(w[1])}</td></tr>`).join("")}</table></div>`;
+  h+=`<div class="card theory">${t.th}</div>${vocabList}<div class="card">${act}</div>
+  <div class="card"><div class="label">Ask Coach</div><p class="muted">Something unclear? Just ask.</p><div style="display:flex;gap:8px"><input id="askq" class="inp" placeholder="e.g. Why is it „dem Mann“ here?" autocomplete="off"><button class="btn sm" data-act="ask" data-id="${id}">Ask</button></div><div id="askres"></div></div>`;
+  app().innerHTML=h;
+  app().querySelectorAll(".theory").forEach(decorateTheory);
+}
+
+/* ---------- Übungs-Sitzung ---------- */
+/* Übungstypen: mc, gap, tr (dir "en" = Englisch → Deutsch, dir "de" = Deutsch → Englisch), ord */
+function promptText(ex){return ex.t==="mc"?ex.q:ex.t==="gap"?ex.q+(ex.h?` (${ex.h})`:""):ex.t==="ord"?ex.en||ex.de:ex.q}
+function expectedText(ex){return ex.t==="mc"?ex.o[ex.a]:ex.t==="gap"?ex.q.replace("___",ex.a[0]):ex.t==="ord"?ex.a:ex.a[0]}
+function answerIsGerman(ex){return ex.t==="gap"||ex.t==="ord"||(ex.t==="tr"&&ex.dir==="en")}
+function startSession(id,mode){
+  const t=T(id),all=shuffle(t.ex.map((_,i)=>i));
+  const idxs=mode==="learn"?all:all.slice(0,Math.min(8,all.length));
+  S.active={id,mode,idxs,idx:0,results:[],d:Date.now()};save();
+  openSession();
+}
+function openSession(){
+  const a=S.active,t=a&&T(a.id);if(!t){S.active=null;save();return render()}
+  SESSION={kind:"topic",id:a.id,mode:a.mode,items:a.idxs.map(i=>t.ex[i]).filter(Boolean),idx:a.idx,results:(a.results||[]).slice(),locked:false,cur:null};
+  CUR={tab:"topics",arg:a.id};setTab("topics");scrollTo(0,0);
+  if(SESSION.idx>=SESSION.items.length)finishTopic();else renderEx();
+}
+function renderEx(){
+  const se=SESSION,ex=se.items[se.idx];se.locked=false;
+  let h=`<div class="sbar"><div class="prog"><i style="width:${se.idx/se.items.length*100}%"></i></div><small>${se.idx+1}/${se.items.length}</small><button class="xbtn" data-act="abort">Stop</button></div><div class="card">`;
+  if(ex.t==="mc"){se.cur={opts:shuffle(ex.o.map((o,i)=>({o,ok:i===ex.a})))};
+    h+=`<div class="ask">Choose the right answer</div><div class="q">${esc(ex.q)}</div><div class="opts">${se.cur.opts.map((o,i)=>`<button class="opt" data-act="mc" data-id="${i}">${esc(o.o)}</button>`).join("")}</div><div class="btnrow"><button class="btn ghost" data-act="dunno">I don't know</button></div>`;}
+  else if(ex.t==="gap"){
+    h+=`<div class="ask">Fill the gap</div><div class="q">${esc(ex.q).replace("___",'<span class="gap">&nbsp;?&nbsp;</span>')}</div>${ex.h?`<div class="hint">${esc(ex.h)}</div>`:""}${umlautKeys()}<input id="ans" class="inp" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Your answer"><div class="btnrow"><button class="btn ghost" data-act="dunno">I don't know</button><button class="btn" data-act="check">Check</button></div>`;}
+  else if(ex.t==="tr"){
+    h+=`<div class="ask">${ex.dir==="en"?"Translate into German":"Translate into English"}</div><div class="q">${ex.dir==="de"?spk(ex.q):""}${esc(ex.q)}</div>${ex.dir==="en"?umlautKeys():""}<input id="ans" class="inp" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${ex.dir==="en"?"In German …":"In English …"}"><div class="btnrow"><button class="btn ghost" data-act="dunno">I don't know</button><button class="btn" data-act="check">Check</button></div>`;}
+  else if(ex.t==="ord"){se.cur={chips:shuffle(ex.w),picked:[]};
+    h+=`<div class="ask">Build the German sentence</div><div class="q">${esc(ex.en||ex.de||"")}</div><div id="ordarea"></div><div class="btnrow"><button class="btn ghost" data-act="dunno">I don't know</button><button class="btn" data-act="check">Check</button></div>`;}
+  h+=`<div id="fb"></div></div>`;
+  app().innerHTML=h;
+  if(ex.t==="ord")renderOrd();
+  const a=$("#ans");if(a)a.focus();
+}
+function umlautKeys(){return`<div class="keys" aria-label="Insert special characters">${["ä","ö","ü","ß"].map(c=>`<button type="button" data-ch="${c}">${c}</button>`).join("")}</div>`}
+function renderOrd(){const c=SESSION.cur,box=$("#ordarea");if(!box)return;const lock=SESSION.locked;
+  box.innerHTML=`<div class="ordline">${c.picked.length?c.picked.map((ci,pi)=>`<button class="chip on" ${lock?"disabled":`data-act="unpick" data-id="${pi}"`}>${esc(c.chips[ci])}</button>`).join(""):'<span class="ph">Tap the words in the right order</span>'}</div><div class="chips">${c.chips.map((w,i)=>c.picked.includes(i)?`<span class="chip ghost">${esc(w)}</span>`:`<button class="chip" ${lock?"disabled":`data-act="pick" data-id="${i}"`}>${esc(w)}</button>`).join("")}</div>`}
+
+function localCheck(user,acc,strict){
+  const u=norm(user);
+  const hit=acc.find(a=>norm(a)===u);
+  if(hit!=null){
+    const capsOff=String(hit).trim().replace(/[.!?]+$/,"")!==String(user).trim().replace(/[.!?]+$/,"")&&String(hit).toLowerCase().trim().replace(/[.!?]+$/,"")===String(user).toLowerCase().trim().replace(/[.!?]+$/,"");
+    return capsOff&&/[A-ZÄÖÜ]/.test(String(hit).slice(1))?{correct:true,note:"Watch the capital letters (German nouns are capitalised). Correct: "+hit}:{correct:true};
+  }
+  if(!strict&&acc.some(a=>loose(a)===loose(user)))return{correct:true,note:"Almost perfect – watch the umlauts / ß. Correct: "+acc[0]};
+  return{correct:false};
+}
+function answerMC(i){
+  const se=SESSION;if(se.locked)return;se.locked=true;
+  const ex=se.items[se.idx],o=se.cur.opts[i];
+  document.querySelectorAll('[data-act="dunno"]').forEach(b=>b.style.display="none");
+  document.querySelectorAll(".opt").forEach((b,j)=>{b.disabled=true;if(se.cur.opts[j].ok)b.classList.add("right");else if(j===i)b.classList.add("wrong")});
+  const res={correct:o.ok,note:ex.x||""};record(ex,o.o,res);showFb(res,ex);
+}
+async function checkAnswer(){
+  const se=SESSION;if(!se||se.locked)return;const ex=se.items[se.idx];
+  let user,acc;
+  if(ex.t==="ord"){if(!se.cur.picked.length)return;user=se.cur.picked.map(i=>se.cur.chips[i]).join(" ");acc=[ex.a]}
+  else{user=($("#ans").value||"").trim();if(!user)return;acc=ex.t==="gap"?[...ex.a,...ex.a.map(a=>ex.q.replace("___",a))]:ex.a}
+  se.locked=true;const inp=$("#ans");if(inp)inp.disabled=true;if(ex.t==="ord")renderOrd();
+  document.querySelectorAll('[data-act="check"],[data-act="dunno"]').forEach(b=>b.style.display="none");
+  let res=localCheck(user,acc,!!ex.s);
+  if(!res.correct&&ex.t!=="ord"&&aiReady()){
+    $("#fb").innerHTML=`<div class="fb wait">Coach is checking your answer ${dots()}</div>`;
+    try{const j=await aiJudge(ex,user);res={correct:!!j.correct,ai:j.feedback,correction:j.correction}}
+    catch(e){res={correct:false,offline:true}}
+  }
+  if(SESSION!==se)return;
+  record(ex,user,res);showFb(res,ex);
+}
+function dunno(){
+  const se=SESSION;if(!se||se.kind!=="topic"||se.locked)return;se.locked=true;const ex=se.items[se.idx];
+  const inp=$("#ans");if(inp)inp.disabled=true;
+  if(ex.t==="mc")document.querySelectorAll(".opt").forEach((b,j)=>{b.disabled=true;if(se.cur.opts[j].ok)b.classList.add("right")});
+  if(ex.t==="ord")renderOrd();
+  document.querySelectorAll('[data-act="check"],[data-act="dunno"]').forEach(b=>b.style.display="none");
+  const res={correct:false,dunno:true,note:ex.x||""};record(ex,"(I don't know)",res);showFb(res,ex);
+}
+function record(ex,user,res){
+  const se=SESSION,q=promptText(ex),exp=res.correction||expectedText(ex);
+  se.results.push({q,user,exp,correct:res.correct});
+  if(!res.correct){S.errors.unshift({d:Date.now(),topic:se.id,q,user,exp});S.errors=S.errors.slice(0,80)}
+  if(S.active&&S.active.id===se.id){S.active.idx=se.idx+1;S.active.results=se.results.slice()}
+  save();
+}
+function showFb(res,ex){
+  const exp=res.correction||expectedText(ex);
+  let h=`<div class="fb ${res.correct?"ok":res.dunno?"dunno":"bad"}"><b class="t">${res.correct?"Richtig! Correct.":res.dunno?"No problem – here's the solution.":"Leider falsch – not quite."}</b>`;
+  const de=answerIsGerman(ex);
+  if(!res.correct)h+=`<p>Correct: ${de?spk(exp):""}<b>${esc(exp)}</b></p>`;
+  else if(de)h+=`<p>${spk(exp)}${esc(exp)}</p>`;
+  if(res.note)h+=`<p>${esc(res.note)}</p>`;
+  if(res.ai)h+=`<p>${esc(res.ai)}</p>`;
+  if(res.offline)h+=`<p class="muted">Coach couldn't be reached, so your answer was only compared with the model solution.</p>`;
+  h+=`</div><div class="btnrow"><button class="btn" data-act="next" id="nextbtn">Next</button></div>`;
+  $("#fb").innerHTML=h;if(de&&S.settings.autoplay)speak(exp);const n=$("#nextbtn");if(n)n.focus();
+}
+function nextEx(){const se=SESSION;se.idx++;if(se.idx>=se.items.length)finishTopic();else{renderEx();scrollTo(0,0)}}
+
+function finishTopic(){
+  const se=SESSION,t=T(se.id),res=se.results,ok=res.filter(r=>r.correct).length,score=res.length?ok/res.length:0;se.score=score;
+  const wrong=res.filter(r=>!r.correct);
+  let h=`<div class="card center"><div class="label">${esc(t.title)}</div><div class="ring" style="--p:${Math.round(score*100)}"><span>${Math.round(score*100)}%</span></div><p>${ok} of ${res.length} correct</p></div>`;
+  if(wrong.length)h+=`<div class="card"><h3 style="margin-top:0">What went wrong</h3>${wrong.map(r=>`<div class="err"><div>${esc(r.q)}</div><div class="u">Your answer: ${esc(r.user)}</div><div class="r">Correct: ${esc(r.exp)}</div></div>`).join("")}</div>`;
+  if(se.mode==="extra"){bumpStreak();S.stats.sessions++;S.active=null;save();SESSION=null;
+    h+=`<button class="btn" data-act="topic" data-id="${t.id}">Back to the topic</button>`;}
+  else h+=`<div class="card" id="ratebox"><h3 style="margin-top:0">How confident do you feel?</h3><p class="muted">Your rating and your score go into the plan. Then Coach decides when the topic comes back.</p><div class="rates">${RATINGS.map(r=>`<button class="rate ${r.k}" data-act="rate" data-id="${r.k}"><b>${r.l}</b><small>${r.de}</small></button>`).join("")}</div></div>`;
+  app().innerHTML=h;scrollTo(0,0);
+}
+async function rateTopic(k){
+  const se=SESSION;if(!se||se.rated)return;se.rated=true;
+  const t=T(se.id),s=S.topics[se.id],score=se.score;
+  let q=RQ[k];if(score<0.6)q=Math.min(q,2);else if(score<0.8)q=Math.min(q,3);
+  const base=sm2Next(s,q),baseDays=Math.max(1,base.interval);
+  s.ease=base.ease;s.reps=base.reps;s.lapses=base.lapses;
+  s.last=score;s.best=Math.max(s.best||0,score);
+  s.hist.push({d:Date.now(),sc:Math.round(score*100),r:k});s.hist=s.hist.slice(-30);
+  const wasNew=s.status==="new";
+  if(wasNew){s.status="learning";addCards(t);S.daily.newTopics++}
+  s.interval=baseDays;s.due=addDays(baseDays);s.ai={...(s.ai||{}),reason:"Plan from the algorithm"};
+  bumpStreak();S.stats.sessions++;S.sinceGlobal++;S.active=null;
+  const opened=refreshUnlocks();save();
+  const unl=opened.length?`<div class="card" style="border-color:var(--kuusi)"><b style="color:var(--kuusi)">Newly unlocked:</b> ${opened.map(o=>esc(o.title)).join(", ")}</div>`:"";
+  const words=wasNew?`<p class="muted">${t.v.length} new words (${t.v.length*2} cards, both directions) are waiting under Words.</p>`:"";
+  const box=$("#ratebox");
+  const tail=`${unl}<div class="btnrow"><button class="btn" data-act="tab" data-id="today">Continue</button></div>`;
+  if(!aiReady()){box.innerHTML=`<div class="plan" style="border:0;margin:0;padding:0">Next review: <b>${relDays(s.due)}</b> (${fmtDate(s.due)})</div>${words}`;box.insertAdjacentHTML("afterend",tail);SESSION=null;return}
+  box.innerHTML=`<p class="muted">Coach is reviewing your round ${dots()}</p>`;
+  try{
+    const j=await aiSessionReview(t,s,se.results,score,k,baseDays);
+    const d=clampInt(j.intervalDays,1,180)||baseDays;
+    s.interval=d;s.due=addDays(d);s.ai={feedback:j.feedback,tips:j.tips||[],reason:j.reason||"",date:Date.now()};save();
+    box.classList.add("aibox");
+    box.innerHTML=`<div class="label">Coach</div><p>${esc(j.feedback)}</p>${(j.tips||[]).length?`<ul>${j.tips.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}<div class="plan">Next review: <b>${relDays(s.due)}</b> (${fmtDate(s.due)})<br><small>${esc(j.reason||"")}</small></div>${words}`;
+  }catch(e){
+    box.innerHTML=`<div class="plan" style="border:0;margin:0;padding:0">Next review: <b>${relDays(s.due)}</b> (${fmtDate(s.due)})<br><small>Coach couldn't be reached, so the standard plan applies.</small></div>${words}`;
+  }
+  box.insertAdjacentHTML("afterend",tail);SESSION=null;
+}
+
+/* ---------- Vokabeln (zwei Richtungen) ---------- */
+function startVocab(){
+  const q=[...shuffle(dueCards()),...newCardsAvail()];
+  if(!q.length){toast("No cards due right now");return}
+  SESSION={kind:"vocab",queue:q,done:0,again:0,shown:false};CUR={tab:"vocab",arg:null};setTab("vocab");renderCard();
+}
+function startExtraVocab(){
+  const nw=allNewCardIds().slice(0,6);
+  if(nw.length)SESSION={kind:"vocab",queue:nw,done:0,again:0,shown:false,extra:"new"};
+  else{const learned=shuffle(Object.keys(S.cards).filter(id=>!S.cards[id].isNew&&cardWord(id))).slice(0,10);
+    if(!learned.length){toast("Study a topic first");return}
+    SESSION={kind:"vocab",queue:learned,done:0,again:0,shown:false,extra:"practice"}}
+  CUR={tab:"vocab",arg:null};setTab("vocab");renderCard();scrollTo(0,0);
+}
+function renderCard(){
+  const se=SESSION;if(!se.queue.length)return finishVocab();
+  const id=se.queue[0],w=cardWord(id),c=S.cards[id];
+  if(!w){se.queue.shift();return renderCard()}
+  se.dir=cardDir(id);se.shown=false;
+  const deFront=se.dir==="de";
+  app().innerHTML=`<div class="sbar"><small>${se.queue.length} left</small><span style="flex:1"></span><button class="xbtn" data-act="tab" data-id="vocab">Finish</button></div>
+  <div class="card flash"><div class="ask">${se.extra?'<span class="badge">Extra</span> ':""}${c.isNew?'<span class="badge new">New card</span> ':""}${deFront?"What does this mean in English?":"How do you say this in German?"}</div>
+  <div class="front">${esc(deFront?w[0]:w[1])}</div>${deFront?`<div class="center" style="margin-bottom:14px">${spk(w[0],true)}</div>`:""}<div id="back"></div>
+  <div id="cact">${deFront?"":umlautKeys()}<input id="ans" class="inp" placeholder="Type your answer (optional)" autocomplete="off" autocapitalize="off" spellcheck="false"><div class="btnrow"><button class="btn" data-act="flip">Show answer</button></div></div></div>`;
+  if(deFront&&S.settings.autoplay)speak(w[0]);
+}
+function flipCard(){
+  const se=SESSION;if(se.shown)return;se.shown=true;
+  const id=se.queue[0],w=cardWord(id),c=S.cards[id];const typed=($("#ans")?.value||"").trim();
+  let cmp="";
+  if(typed){
+    const acc=se.dir==="en"?[w[0],w[0].replace(/^(der|die|das)\s+/i,"")]:w[1].split(/[,/;]|\(.*?\)/).map(x=>x.trim()).filter(Boolean);
+    const r=localCheck(typed,acc,false);
+    cmp=r.correct?`<div class="cmp" style="color:var(--kuusi)">✓ Typed correctly${r.note?" – "+esc(r.note.split(".")[0]):""}</div>`:`<div class="cmp" style="color:var(--puolukka)">You typed: ${esc(typed)}</div>`;
+  }
+  $("#back").innerHTML=`<div class="backside">${esc(se.dir==="de"?w[1]:w[0])}<small>${esc(se.dir==="de"?w[0]:w[1])}</small></div>${se.dir==="en"?`<div class="center" style="margin-bottom:12px">${spk(w[0],true)}</div>`:""}${cmp}`;
+  if(se.dir==="en"&&S.settings.autoplay)speak(w[0]);
+  $("#cact").innerHTML=`<div class="rates">${RATINGS.map(r=>{const n=sm2Next(c,r.q);return`<button class="rate ${r.k}" data-act="crate" data-id="${r.k}"><b>${r.l}</b><small>${se.extra==="practice"?r.de:ivLabel(n.interval)}</small></button>`}).join("")}</div>`;
+}
+function rateCard(k){
+  const se=SESSION;if(!se||!se.shown)return;
+  if(se.extra==="practice"){const id=se.queue.shift();if(RQ[k]<3){se.queue.push(id);se.again++}else se.done++;return renderCard()}
+  const id=se.queue.shift(),c=S.cards[id],q=RQ[k],n=sm2Next(c,q);
+  if(c.isNew){c.isNew=false;S.daily.newCards++}
+  Object.assign(c,n);c.last=Date.now();
+  if(q<3){c.due=Date.now()+60000;se.queue.push(id);se.again++}else{c.due=addDays(n.interval);se.done++}
+  S.stats.reviews++;save();renderCard();
+}
+function finishVocab(){
+  const se=SESSION;bumpStreak();save();SESSION=null;
+  app().innerHTML=`<div class="card center"><p class="ftitle">Super!</p><p style="margin-top:8px">${se.done} cards done${se.again?`, ${se.again}× repeated`:""}.</p><div class="btnrow"><button class="btn" data-act="tab" data-id="today">Back to Today</button></div></div>`;
+}
+function renderVocab(){
+  const dc=dueCards().length,nc=newCardsAvail().length;
+  let h=`<h2>Words</h2><div class="next"><div class="label">Today</div><h2>${dc} due, ${nc} new</h2>${dc+nc?`<button class="btn" data-act="vocab">Practise now</button>`:`<p>${Object.keys(S.cards).length?"Everything is reviewed for now.":"Finish your first topic – its words will appear here."}</p>`}</div>`;
+  if(learnedWords()>=3)h+=`<div class="card"><div class="label">Listening practice</div><p class="muted">You hear a learned word and write it in German. Trains your ear and spelling without changing your plan.</p><button class="btn ghost" data-act="listen">Start listening practice</button></div>`;
+  TOPICS.forEach(t=>{const rows=t.v.map((w,i)=>i).filter(i=>S.cards[t.id+"-"+i+"-de"]||S.cards[t.id+"-"+i+"-en"]);if(!rows.length)return;
+    h+=`<div class="card"><div class="label">${esc(t.title)}</div>${rows.map(i=>{const w=t.v[i],a=S.cards[t.id+"-"+i+"-de"],b=S.cards[t.id+"-"+i+"-en"];
+      const st=c=>c?`<span class="st ${cardState(c)}">${cardState(c)}${c.isNew?"":" · "+relDays(c.due)}</span>`:"";
+      return`<div class="vrow" style="align-items:center">${spk(w[0])}<span class="w">${esc(w[0])}</span><span class="d">${esc(w[1])}</span><span style="display:flex;flex-direction:column;align-items:flex-end;gap:2px"><small>DE→EN ${st(a)}</small><small>EN→DE ${st(b)}</small></span></div>`}).join("")}</div>`});
+  app().innerHTML=h;
+}
+
+/* ---------- Hörtraining ---------- */
+function startListen(){
+  const keys=[...new Set(Object.keys(S.cards).filter(id=>!S.cards[id].isNew&&cardWord(id)).map(wordKey))];
+  const ids=shuffle(keys).slice(0,10).map(k=>k+"-de");
+  if(!ids.length)return;SESSION={kind:"listen",queue:ids,idx:0,ok:0,shown:false};CUR={tab:"vocab",arg:null};setTab("vocab");renderListen();
+}
+function renderListen(){
+  const se=SESSION;
+  if(se.idx>=se.queue.length){const n=se.queue.length,ok=se.ok;SESSION=null;bumpStreak();save();
+    app().innerHTML=`<div class="card center"><p class="ftitle">Super!</p><p style="margin-top:8px">${ok} of ${n} recognised correctly.</p><div class="btnrow"><button class="btn" data-act="listen">One more round</button><button class="btn ghost" data-act="tab" data-id="vocab">Done</button></div></div>`;return}
+  const w=cardWord(se.queue[se.idx]);se.shown=false;
+  app().innerHTML=`<div class="sbar"><div class="prog"><i style="width:${se.idx/se.queue.length*100}%"></i></div><small>${se.idx+1}/${se.queue.length}</small><button class="xbtn" data-act="tab" data-id="vocab">Finish</button></div>
+  <div class="card flash"><div class="ask">What do you hear? Write it in German.</div><div class="center" style="padding:22px 0">${spk(w[0],true)}</div>
+  ${umlautKeys()}<input id="ans" class="inp" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="In German …"><div class="btnrow"><button class="btn" data-act="lcheck">Check</button></div><div id="fb"></div></div>`;
+  speak(w[0]);
+}
+function checkListen(){
+  const se=SESSION;if(se.shown)return;const u=($("#ans").value||"").trim();if(!u)return;se.shown=true;
+  const w=cardWord(se.queue[se.idx]),r=localCheck(u,[w[0],w[0].replace(/^(der|die|das)\s+/i,"")],false);if(r.correct)se.ok++;
+  $("#ans").disabled=true;document.querySelector('[data-act="lcheck"]').style.display="none";
+  $("#fb").innerHTML=`<div class="fb ${r.correct?"ok":"bad"}"><b class="t">${r.correct?"Richtig!":"Not quite."}</b><p>${spk(w[0])}<b>${esc(w[0])}</b> – ${esc(w[1])}</p>${r.note?`<p>${esc(r.note)}</p>`:""}${!r.correct?`<p class="muted">You wrote: ${esc(u)}</p>`:""}</div><div class="btnrow"><button class="btn" data-act="lnext" id="nextbtn">Next</button></div>`;
+  $("#nextbtn").focus();
+}
+
+/* ============================================================
+   EINSTUFUNGSTEST (Placement test)
+   Speicherung in S.placement = {a: Antworten, u: unsicher, c: geprüft/gesperrt, ...}
+   Gleiche Struktur wie im Claude-Testblatt → Antworten lassen sich importieren.
+   ============================================================ */
+const PT_BUSY=new Set();
+const PT_NOTES={};
+const LETTER_END=/([A-Za-zÄÖÜäöüß]+)$/;
+const EMPTY_MARKS=["-","–","—","0","/","x","ø"];
+function ptAll(){const out=[];PT.forEach(part=>part.sections.forEach(sec=>sec.items.forEach((item,i)=>out.push({id:sec.id+"."+(i+1),item,sec,part}))));return out}
+function ptFind(id){return ptAll().find(x=>x.id===id)}
+function ptSec(id){for(const p of PT)for(const s of p.sections)if(s.id===id)return s;return null}
+function gapStems(item){return item.t.split("___").slice(0,-1).map(p=>{const m=p.match(LETTER_END);return m?m[1]:""})}
+function gapCount(item){return item.t.split("___").length-1}
+function normGap(v){return(v||"").trim().replace(/\s+/g," ").replace(/[.,!?]+$/,"").toLowerCase()}
+function normSent(v){let x=(v||"").replace(/[„“”"«»]/g,"").replace(/…|\.\.\./g,"").replace(/,/g," ").replace(/\s+/g," ").trim().replace(/[.!?]+$/,"").trim();return x?x.charAt(0).toLowerCase()+x.slice(1):x}
+function gapOk(item,i,val){
+  const v=normGap(val);if(!v)return false;
+  const stem=gapStems(item)[i].toLowerCase();
+  return item.s[i].split("|").some(alt=>{const a=alt.toLowerCase();
+    if(stem){if(a==="")return EMPTY_MARKS.includes(v)||v===stem;return v===a||v===stem+a}
+    return v===a});
+}
+function fullGapWord(item,i,val){const stem=gapStems(item)[i],v=(val||"").trim();if(!stem)return v;if(EMPTY_MARKS.includes(v))return stem;if(v.toLowerCase().startsWith(stem.toLowerCase()))return v;return stem+v}
+function filledSentence(item,vals){const parts=item.t.split("___"),stems=gapStems(item);let out="";parts.forEach((txt,i)=>{if(i<parts.length-1)out+=txt.slice(0,txt.length-stems[i].length)+"["+fullGapWord(item,i,vals[i])+"]";else out+=txt});return out}
+function solutionSentence(item){const parts=item.t.split("___");return parts.map((txt,i)=>i<parts.length-1?txt+item.s[i].split("|")[0]:txt).join("")}
+function sentOk(item,val){const v=normSent(val);return !!v&&item.s.some(alt=>normSent(alt)===v)}
+function ptAnswered(item,id){const v=S.placement.a[id];
+  if(item.k==="b"){const n=gapCount(item);return Array.isArray(v)&&v.length>=n&&v.slice(0,n).every(x=>x&&String(x).trim())}
+  return typeof v==="string"&&v.trim().length>0}
+function fmtVal(item,v){
+  if(item.k==="b"){const arr=Array.isArray(v)?v:[],out=[];for(let i=0;i<gapCount(item);i++)out.push((arr[i]||"").trim()||"—");return out.join(" … ")}
+  return(typeof v==="string"&&v.trim())?v.trim():"—"}
+function ptFmt(item,id){return fmtVal(item,S.placement.a[id])}
+function modelText(item){if(item.m)return item.m;if(item.k==="rf")return item.s;if(item.k==="r")return item.s[0];if(item.k==="b")return solutionSentence(item);return""}
+function isText(item){return item.k==="r"||item.k==="s"}
+function ptStats(){let total=0,answered=0,checked=0,right=0,graded=0;
+  ptAll().forEach(({id,item})=>{total++;if(ptAnswered(item,id))answered++;const c=S.placement.c[id];if(c){checked++;if(item.k!=="w"&&c.r!=="pending"){graded++;if(["ok","self","self-ok"].includes(c.r))right++}}});
+  return{total,answered,checked,right,graded}}
+
+/* Wortvergleich für grün/rot */
+function toks(s){return(s||"").trim().split(/\s+/).filter(Boolean)}
+function wkey(w){return w.replace(/[„“”"«».,!?;:()–]/g,"")}
+function lcsMask(a,b){
+  const n=a.length,m=b.length,dp=Array.from({length:n+1},()=>new Array(m+1).fill(0));
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)dp[i][j]=wkey(a[i])===wkey(b[j])?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+  const ma=new Array(n).fill(false),mb=new Array(m).fill(false);let i=0,j=0;
+  while(i<n&&j<m){if(wkey(a[i])===wkey(b[j])){ma[i]=mb[j]=true;i++;j++}else if(dp[i+1][j]>=dp[i][j+1])i++;else j++}
+  return{ma,mb,len:dp[0][0]};
+}
+function bestModel(item,ans){const alts=item.m?[item.m]:(item.s||[]);let best=alts[0]||"",sc=-1;alts.forEach(alt=>{const l=lcsMask(toks(ans),toks(alt)).len;if(l>sc){sc=l;best=alt}});return best}
+function markedHTML(text,ref,allOk){const a=toks(text),mask=allOk?a.map(()=>true):lcsMask(a,toks(ref)).ma;return a.map((w,i)=>`<span class="pw ${mask[i]?"ok":"bad"}">${esc(w)}</span>`).join(" ")}
+function correctionHTML(corr,ans){const b=toks(corr),mb=lcsMask(toks(ans),b).mb;return b.map((w,i)=>mb[i]?esc(w):`<b>${esc(w)}</b>`).join(" ")}
+
+function localGrade(item,v){
+  if(item.k==="b"){const per=item.s.map((_,i)=>gapOk(item,i,(Array.isArray(v)?v[i]:"")||""));return{res:per.every(Boolean)?"ok":"wrong",per}}
+  if(item.k==="r"&&!item.m)return{res:sentOk(item,v)?"ok":"wrong"};
+  if(item.k==="rf")return{res:v===item.s?"ok":"wrong"};
+  return{res:"pending"};
+}
+
+async function ptCheckSection(secId){
+  const sec=ptSec(secId);if(!sec)return;
+  const P=S.placement,toAI=[],toWrite=[];
+  if(!P.started)P.started=Date.now();
+  sec.items.forEach((item,i)=>{
+    const id=sec.id+"."+(i+1);if(PT_BUSY.has(id))return;
+    let c=P.c[id];
+    if(!c){
+      if(!ptAnswered(item,id))return;
+      const raw=JSON.parse(JSON.stringify(P.a[id]));
+      c=P.c[id]={first:ptFmt(item,id),raw,t:Date.now()};
+      if(item.k==="w"){c.r="fb";toWrite.push(id);return}
+      const g=localGrade(item,raw);c.r=g.res;
+      if(item.k==="b")c.gaps=g.per;
+      if(item.k==="rf"||g.res==="ok")c.g=true;else toAI.push(id);
+    }else if(!c.g&&item.k==="w"){toWrite.push(id)}
+    else if(!c.g&&c.r!=="ok"&&item.k!=="rf")toAI.push(id);
+  });
+  save();
+  if(!toAI.length&&!toWrite.length){ptRerender();return}
+  if(!aiReady()){PT_NOTES[secId]=toWrite.length&&!toAI.length?"Submitted. Claude will correct your text when you send the report.":"Coach isn't set up, so answers are compared with the model solution. Set up a free Gemini key under Progress → Cloud & AI for smarter checking.";ptRerender();return}
+  [...toAI,...toWrite].forEach(id=>PT_BUSY.add(id));PT_NOTES[secId]="";ptRerender();
+  try{
+    if(toAI.length)await ptAIGrade(sec,toAI);
+    for(const id of toWrite)await ptAIWriting(id);
+  }catch(e){PT_NOTES[secId]="Coach couldn't be reached. Tap “Check section” again later – your answers are saved and locked.";}
+  [...toAI,...toWrite].forEach(id=>PT_BUSY.delete(id));
+  save();ptRerender();
+}
+
+async function ptAIGrade(sec,ids){
+  const P=S.placement;
+  const tasks=ids.map(id=>{const {item}=ptFind(id),c=P.c[id];
+    if(item.k==="b"){const vals=Array.isArray(c.raw)?c.raw:(P.a[id]||[]);return{id,type:"gap sentence",task:item.t+(item.tag?" ["+item.tag+"]":""),answer:filledSentence(item,vals),model:solutionSentence(item)}}
+    return{id,type:item.m?"free answer":"rewrite sentence",instruction:[sec.hint,item.tag].filter(Boolean).join(" – "),task:item.t,model:item.m||item.s.join(" | "),answer:c.first}});
+  const prompt=`Check Aurora's answers from her German placement test (B1). Judge fairly:
+- An answer is correct if it is grammatically correct, sounds natural and fulfils the task (e.g. the required tense, same content). It does NOT have to match the model answer word for word. Other correct word orders, synonyms and Austrian variants are correct.
+- Spelling, capitalisation, umlauts and endings count. A missing full stop at the end and missing commas are not mistakes.
+- "rewrite sentence": if she only wrote the subordinate clause / the new part, that's fine if that part is correct.
+- "gap sentence": her words are in [square brackets]. Judge each gap separately in "gaps" (true/false, same order). A gap is correct if the sentence is correct with it and fulfils the task (respect hints in brackets). "correction" is the full corrected sentence without brackets.
+- "free answer": appropriate content and correct German; small style questions are not mistakes.
+- "correction": her answer corrected with as FEW changes as possible – do not just copy the model answer. If correct: her answer unchanged.
+- "explanation": if wrong, in ENGLISH, max. 2 short sentences: what is wrong and which rule applies (German example words are fine). If correct: "".
+${sec.reading?"\nReading text:\n"+PT_READING.join("\n")+"\n":""}
+Tasks:
+${JSON.stringify(tasks,null,1)}
+
+JSON: {"results":[{"id":"…","correct":true,"gaps":[true],"correction":"…","explanation":""}]}`;
+  const out=await claudeJSON(prompt);
+  const list=out&&Array.isArray(out.results)?out.results:[];
+  if(!list.length)throw new Error("empty");
+  list.forEach(r=>{
+    if(!r||!ids.includes(r.id))return;
+    const c=P.c[r.id],{item}=ptFind(r.id),right=r.correct===true;
+    c.g=true;c.r=right?"ok":"wrong";
+    c.corr=typeof r.correction==="string"?r.correction.trim():"";
+    c.expl=right?"":(typeof r.explanation==="string"?r.explanation.trim():"");
+    if(item.k==="b"){const n=gapCount(item);if(right)c.gaps=new Array(n).fill(true);else if(Array.isArray(r.gaps)&&r.gaps.length===n)c.gaps=r.gaps.map(x=>x===true)}
+  });
+}
+
+async function ptAIWriting(id){
+  const {item}=ptFind(id),c=S.placement.c[id];
+  const prompt=`Aurora (German B1, aiming for B2) wrote this text for her placement test.
+Task: ${item.t}
+${(item.points||[]).map(p=>"- "+p).join("\n")}
+Target length: ${item.min}–${item.max} words.
+
+Her text:
+"""${c.first}"""
+
+Correct it like a supportive teacher. Keep her style; only fix real mistakes.
+JSON: {"corrected":"her full text, corrected with as few changes as possible","mistakes":[{"wrong":"short wrong phrase","right":"corrected phrase","why":"short English explanation, name the rule"}],"level":"estimated CEFR level of this text, e.g. B1","comment":"2 sentences in English: what she does well and the most important thing to improve"}
+List at most 8 of the most important mistakes.`;
+  const j=await claudeJSON(prompt);
+  c.g=true;c.corr=typeof j.corrected==="string"?j.corrected.trim():"";
+  c.mistakes=Array.isArray(j.mistakes)?j.mistakes.slice(0,8):[];c.wlevel=j.level||"";c.comment=j.comment||"";
+}
+
+function ptResultHTML(id,item,c){
+  if(PT_BUSY.has(id))return`<div class="pres wait"><span class="lbl">Checking</span>${dots()}</div>`;
+  if(item.k==="w"){
+    if(!c.g)return`<div class="pres wait"><span class="lbl">Submitted.</span>Claude will correct this text when you send your report${aiReady()?" – or tap “Check section” again for Coach's feedback":""}.</div>`;
+    return`<div class="pres ok"><div><span class="lbl">Corrected version</span>${c.wlevel?`<span class="badge">${esc(c.wlevel)}</span>`:""}</div><div class="sol" style="margin-top:6px;line-height:1.7">${correctionHTML(c.corr||c.first,c.first)}</div>${(c.mistakes||[]).length?`<ul>${c.mistakes.map(m=>`<li><span style="color:var(--puolukka)">${esc(m.wrong)}</span> → <b style="color:var(--kuusi)">${esc(m.right)}</b>. ${esc(m.why)}</li>`).join("")}</ul>`:""}${c.comment?`<p class="sub">${esc(c.comment)}</p>`:""}</div>`;
+  }
+  const right=["ok","self","self-ok"].includes(c.r);
+  if(right){
+    let h=`<div class="pres ok"><span class="lbl">${c.r==="ok"?"Correct ✓":"Correct (self-assessed)"}</span>`;
+    if(isText(item)&&!(item.k==="r"&&!item.m&&sentOk(item,c.first)))h+=`<div class="sub">Model answer: ${esc(modelText(item))}</div>`;
+    if(item.k==="b"&&c.g&&!localGrade(item,Array.isArray(c.raw)?c.raw:S.placement.a[id]).per.every(Boolean))h+=`<div class="sub">Also possible: ${esc(solutionSentence(item))}</div>`;
+    return h+"</div>";
+  }
+  if(c.r==="pending")return`<div class="pres wait"><div><span class="lbl">Model answer:</span>${esc(modelText(item))}</div><div class="sub">Compare yourself: is your version correct too?</div><div class="selfrow"><button class="btn sm ghost" data-act="ptself" data-id="${id}|self-ok">Mine is correct</button><button class="btn sm ghost" data-act="ptself" data-id="${id}|self-bad">I made mistakes</button></div></div>`;
+  let h=`<div class="pres bad">`;
+  if(item.k==="b"){const parts=item.t.split("___");h+=`<div><span class="lbl">Solution:</span><span class="sol">${parts.map((txt,i)=>esc(txt)+(i<parts.length-1?`<b>${esc(item.s[i].split("|")[0])}</b>`:"")).join("")}</span></div>`}
+  else if(item.k==="rf")h+=`<div><span class="lbl">Solution:</span>${esc(item.s)}</div>`;
+  else if(c.g&&c.corr){h+=`<div><span class="lbl">Correction:</span><span class="sol">${correctionHTML(c.corr,c.first)}</span></div>`;if(normSent(c.corr)!==normSent(modelText(item)))h+=`<div class="sub">Model answer: ${esc(modelText(item))}</div>`}
+  else{h+=`<div><span class="lbl">Solution:</span><span class="sol">${esc(bestModel(item,c.first))}</span></div>`;if(item.k==="r"&&!c.g)h+=`<div class="selfrow"><button class="btn sm ghost" data-act="ptself" data-id="${id}|self">My version is correct too</button></div>`}
+  if(c.expl)h+=`<p class="sub" style="color:var(--yo)">${esc(c.expl)}</p>`;
+  return h+"</div>";
+}
+
+function ptItemHTML(id,item,n){
+  const P=S.placement,c=P.c[id],v=P.a[id],busy=PT_BUSY.has(id),locked=!!c;
+  let body="";
+  if(item.k==="b"){
+    const parts=item.t.split("___"),vals=locked&&Array.isArray(c.raw)?c.raw:(Array.isArray(v)?v:[]);
+    const per=locked&&!busy?(c.gaps||localGrade(item,vals).per):null;
+    body=`<p class="psent gaps">${parts.map((txt,i)=>{if(i>=parts.length-1)return esc(txt);const base=LETTER_END.test(txt)?3.5:8,val=vals[i]||"";
+      return esc(txt)+`<input class="pgap${per?(per[i]?" ok":" bad"):""}" data-pid="${id}" data-gi="${i}" value="${esc(val)}" style="width:${Math.max(base,val.length+1.5)}ch" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Gap ${i+1}" ${locked?"readonly":""}>`}).join("")}${item.tag?`<span class="ptag">${esc(item.tag)}</span>`:""}</p>`;
+  }else if(item.k==="rf"){
+    const right=locked&&["ok"].includes(c.r);
+    body=`<p class="psent">${esc(item.t)}</p><div class="rfrow">${["richtig","falsch"].map(o=>`<button class="${v===o?(locked&&!busy?(right?"ok":"bad"):"on"):""}" ${locked?"disabled":`data-act="ptrf" data-id="${id}|${o}"`}>${o}</button>`).join("")}</div>`;
+  }else{
+    body=`<p class="psent">${esc(item.t)}${item.tag?`<span class="ptag">${esc(item.tag)}</span>`:""}</p>`;
+    if(item.points)body+=`<ul style="margin:4px 0 10px;padding-left:20px">${item.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`;
+    if(locked){
+      const right=["ok","self","self-ok"].includes(c.r);
+      if(busy||item.k==="w"||c.r==="pending")body+=`<div class="mine">${esc(c.first)}</div>`;
+      else{const ref=c.g?(c.corr||c.first):bestModel(item,c.first);body+=`<div class="mine">${markedHTML(c.first,ref,right)}</div>`}
+    }else if(item.k==="w"){
+      const words=((v||"").trim().match(/\S+/g)||[]).length;
+      body+=`<textarea class="plong" data-pid="${id}" spellcheck="false" aria-label="Your text">${esc(v||"")}</textarea><div class="wc${words>=item.min&&words<=item.max?" ok":""}" id="wc-${id.replace(".","-")}">${words} words (target: ${item.min}–${item.max})</div>`;
+    }else{
+      body+=`<textarea class="${item.k==="s"?"plong pshort":"pline"}" rows="1" data-pid="${id}" spellcheck="false" autocomplete="off" aria-label="Your answer">${esc(v||"")}</textarea>`;
+    }
+  }
+  if(locked)body+=ptResultHTML(id,item,c);
+  const u=item.k==="w"?"<span></span>":`<button class="unsure${P.u[id]?" on":""}" ${locked?"disabled":`data-act="ptu" data-id="${id}"`} title="Unsure / guessed" aria-label="Mark as unsure">?</button>`;
+  return`<div class="pitem"><span class="n">${n}</span><div>${body}</div>${u}</div>`;
+}
+
+function ptPartCounts(part){let t=0,a=0;part.sections.forEach(sec=>sec.items.forEach((it,i)=>{t++;if(ptAnswered(it,sec.id+"."+(i+1)))a++}));return{t,a}}
+function renderPlacement(){
+  const P=S.placement,part=PT.find(p=>p.id===P.part)||PT[0],st=ptStats();
+  let h=`<button class="back" data-act="back">‹ Topics</button><p class="ftitle">Einstufungstest</p><h2 style="margin-top:6px">Placement test</h2>`;
+  if(P.done&&P.analysis){const a=P.analysis;
+    h+=`<div class="card"><div class="label">Your result · ${fmtDate(P.doneAt)}</div><p><span class="level">${esc(a.level||"–")}</span>${esc(a.summary||"")}</p>${(a.strengths||[]).length?`<h3>Strengths</h3><ul>${a.strengths.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${(a.weaknesses||[]).length?`<h3>To work on</h3><ul>${a.weaknesses.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${a.focus?`<p class="muted">${esc(a.focus)}</p>`:""}<div class="btnrow"><button class="btn" data-act="ptreport">Copy report for Claude</button></div><div id="ptout"></div></div>`;
+  }else if(P.done){
+    h+=`<div class="card"><p><b>Test finished.</b> Copy your report and paste it in the chat with Claude to get your first lesson package.</p><div class="btnrow"><button class="btn" data-act="ptreport">Copy report for Claude</button></div><div id="ptout"></div></div>`;
+  }else if(!st.answered){
+    h+=`<div class="card"><p><b>How it works.</b> No dictionary or other help. If you're guessing, tap <b>?</b> next to the task. After each section, tap “Check section”: your answers are locked, correct parts turn green, wrong parts red, and you see the correction with a short explanation.</p><p class="muted" style="margin:0">Everything is saved as you type. You can stop any time and continue on another device.</p>
+    <details style="margin-top:10px"><summary class="muted">Already started in the Claude test page? Import your answers</summary><p class="muted" style="margin-top:8px">On the test page, tap “Export to Deutsch Trainer”, copy the text and paste it here.</p><textarea class="out" id="ptimp" placeholder="Paste the export here"></textarea><div class="btnrow"><button class="btn sm" data-act="ptimport">Import answers</button></div></details></div>`;
+  }
+  h+=`<div class="ptabs">${PT.map(p=>{const c=ptPartCounts(p);return`<button class="ptab${p.id===part.id?" on":""}${c.a===c.t?" full":""}" data-act="ptpart" data-id="${p.id}"><b>Part ${p.id}</b><small>${esc(p.name)}</small><small style="display:block">${c.a}/${c.t}</small></button>`}).join("")}</div>`;
+  h+=`<div class="card"><h2 style="margin:0">Part ${part.id}: ${esc(part.name)}</h2><p class="muted" style="margin:2px 0 8px">${esc(part.time)}</p>${umlautKeys()}`;
+  part.sections.forEach(sec=>{
+    h+=`<div class="psec" style="margin-top:22px"><h3><span class="code">${sec.id}</span>${esc(sec.title)}</h3>${sec.hint?`<p class="muted">${esc(sec.hint)}</p>`:""}`;
+    if(sec.reading)h+=`<div class="reading"><b>${esc(sec.title)}</b>${PT_READING.map(t=>`<p>${esc(t)}</p>`).join("")}</div>`;
+    if(sec.bank)h+=`<div class="bank">${sec.bank.map(w=>`<span>${esc(w)}</span>`).join("")}</div>`;
+    sec.items.forEach((it,i)=>{h+=ptItemHTML(sec.id+"."+(i+1),it,i+1)});
+    let checked=0,right=0;sec.items.forEach((it,i)=>{const c=P.c[sec.id+"."+(i+1)];if(!c||it.k==="w"||c.r==="pending")return;checked++;if(["ok","self","self-ok"].includes(c.r))right++});
+    const isW=sec.items.every(it=>it.k==="w");
+    h+=`<div class="checkrow"><button class="btn ghost" data-act="ptcheck" data-id="${sec.id}">${isW?"Submit text":"Check section"}</button>${checked?`<span class="muted"><b style="color:var(--yo)">${right} of ${checked}</b> correct</span>`:""}</div>`;
+    if(PT_NOTES[sec.id])h+=`<p class="muted" style="margin-top:8px">${esc(PT_NOTES[sec.id])}</p>`;
+    h+=`<p class="muted" style="font-size:13px;margin-top:6px">${isW?"After submitting, your text is locked.":"After checking, your answers in this section are locked."}</p></div>`;
+  });
+  h+=`</div>`;
+  const idx=PT.indexOf(part);
+  if(idx<PT.length-1)h+=`<div class="btnrow"><button class="btn ghost" data-act="ptpart" data-id="${PT[idx+1].id}">Continue to Part ${PT[idx+1].id}</button></div>`;
+  if(!P.done){
+    const open=st.total-st.checked;
+    h+=`<div class="card" style="margin-top:14px"><div class="label">Finish the test</div><p class="muted">${open?`${open} tasks are not checked yet. You can still finish – open tasks count as not answered.`:"All tasks are checked. Finish the test to get your result."}</p><div class="btnrow"><button class="btn${open?" ghost":""}" data-act="ptfinish">${open?"Finish anyway":"Finish & get my result"}</button></div></div>`;
+  }
+  h+=`<div class="card"><div class="label">Ask Coach</div><p class="muted">A grammar question about a correction? Ask in English.</p><div style="display:flex;gap:8px"><input id="askq" class="inp" placeholder="e.g. Why is it „der Kollegin“ and not „die“?" autocomplete="off"><button class="btn sm" data-act="ask" data-id="pt">Ask</button></div><div id="askres"></div></div>`;
+  app().innerHTML=h;
+  requestAnimationFrame(()=>app().querySelectorAll("textarea.pline").forEach(ptAutosize));
+}
+function ptAutosize(t){t.style.height="auto";t.style.height=t.scrollHeight+"px"}
+function ptRerender(){if(CUR.tab==="topics"&&CUR.arg==="pt"&&!SESSION){const y=scrollY;renderPlacement();scrollTo(0,y)}}
+
+async function ptFinish(b){
+  const P=S.placement,st=ptStats();
+  if(st.total-st.checked&&!b.dataset.sure){b.dataset.sure="1";b.textContent="Really finish? Tap again";return}
+  P.done=true;P.doneAt=Date.now();save();
+  if(aiReady()){
+    b.disabled=true;b.innerHTML=`Coach is analysing ${dots()}`;
+    try{
+      const j=await claudeJSON(`Here are Aurora's placement test results (German, she self-reports B1; known weak spots: pronouns, tenses, cases).
+
+${ptReport()}
+
+Analyse like an experienced German teacher. Estimate her CEFR level (e.g. "B1-", "B1", "B1+"), and name the grammar areas she needs most (be specific, e.g. "dative after Wechselpräpositionen", "Perfekt with sein"). Keep lists to max. 4 items, max. 12 words each.
+JSON: {"level":"…","summary":"2 sentences in English","strengths":["…"],"weaknesses":["…"],"focus":"1 sentence: what the first lessons should focus on"}`);
+      P.analysis=j;save();
+    }catch(e){toast("Coach couldn't analyse right now – your report still has everything")}
+  }
+  CUR={tab:"topics",arg:"pt"};render();scrollTo(0,0);toast("Placement test finished ✓");
+}
+
+function ptReport(){
+  const P=S.placement,st=ptStats(),L=[];
+  L.push(`PLACEMENT TEST (Einstufungstest B1) – ${P.done?"finished "+new Date(P.doneAt).toLocaleDateString("en-GB"):"in progress"}`);
+  L.push(`Answered: ${st.answered}/${st.total} · checked: ${st.checked} · correct on first attempt: ${st.right}/${st.graded}`);
+  L.push("Key: ✓ correct · ✗ wrong · ☆ self-assessed · (?) unsure");
+  PT.forEach(part=>{
+    L.push(`\n=== Part ${part.id}: ${part.name} ===`);
+    part.sections.forEach(sec=>sec.items.forEach((it,i)=>{
+      const id=sec.id+"."+(i+1),c=P.c[id],mark=P.u[id]?" (?)":"";
+      if(it.k==="w"){
+        L.push(`\n${id}: ${c?c.first:ptFmt(it,id)}`);
+        if(c&&c.g){L.push(`→ Coach's correction: ${c.corr}`);(c.mistakes||[]).forEach(m=>L.push(`  - ${m.wrong} → ${m.right}: ${m.why}`));if(c.wlevel)L.push(`  Estimated level: ${c.wlevel}`)}
+        return;
+      }
+      if(!c){L.push(`${id}: ${ptFmt(it,id)} (not checked)${mark}`);return}
+      const ans=it.k==="b"&&Array.isArray(c.raw)?fmtVal(it,c.raw):c.first;
+      let line=`${id}: ${ans}`;
+      if(c.r==="pending")line+=" (not assessed)";
+      else if(c.r==="ok")line+=" ✓";
+      else if(c.r==="self"||c.r==="self-ok")line+=` ☆ self-assessed correct (model: ${modelText(it)})`;
+      else if(c.r==="self-bad")line+=` ✗ self-assessed wrong (model: ${modelText(it)})`;
+      else{line+=" ✗";line+=isText(it)&&c.corr?` → correction: ${c.corr}`:` → solution: ${isText(it)?bestModel(it,c.first):modelText(it)}`;if(c.expl)line+=` | ${c.expl}`}
+      L.push(line+mark);
+    }));
+  });
+  if(P.analysis){const a=P.analysis;L.push(`\nCOACH'S ANALYSIS: level ${a.level}. ${a.summary||""}\nStrengths: ${(a.strengths||[]).join("; ")}\nWeaknesses: ${(a.weaknesses||[]).join("; ")}\nFocus: ${a.focus||""}`)}
+  return L.join("\n");
+}
+
+/* Import aus dem Claude-Testblatt (gleiche IDs) – überschreibt nie vorhandene Antworten */
+function ptImport(txt){
+  try{
+    const d=JSON.parse(String(txt).replace(/```json|```/g,"").trim());
+    const src=d&&d.type==="dt-placement"?d:d;
+    if(!src||typeof src.a!=="object")throw 0;
+    const P=S.placement,valid=new Set(ptAll().map(x=>x.id));let n=0;
+    Object.keys(src.a||{}).forEach(id=>{if(!valid.has(id)||P.c[id])return;if(!ptAnswered(ptFind(id).item,id)){P.a[id]=src.a[id];n++}});
+    Object.keys(src.u||{}).forEach(id=>{if(valid.has(id)&&!P.c[id]&&src.u[id])P.u[id]=true});
+    Object.keys(src.c||{}).forEach(id=>{if(!valid.has(id)||P.c[id])return;const c=src.c[id];if(!c||!c.first)return;
+      P.c[id]={first:c.first,raw:c.raw!==undefined?c.raw:src.a[id],r:["ok","wrong","self","self-ok","self-bad","pending"].includes(c.r)?c.r:"pending",g:!!c.g,corr:c.corr||"",expl:c.expl||"",gaps:c.gaps,t:Date.now()};
+      if(src.a[id]!==undefined)P.a[id]=src.a[id];n++});
+    if(!P.started)P.started=Date.now();
+    save();renderPlacement();toast(n?`${n} answers imported ✓`:"Nothing new to import");
+  }catch(e){toast("That doesn't look like a test export")}
+}
+
+/* ---------- Sicherung ---------- */
+function dl(text,name,type){const b=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
+function downloadBackup(){
+  const txt=JSON.stringify(S);
+  try{dl(txt,"deutsch-trainer-backup-"+todayKey()+".json","application/json");S.lastBackup=Date.now();save();toast("Backup downloaded ✓")}
+  catch(e){CUR={tab:"progress",arg:null};render();showOut("#out2",txt,"Download not possible – please copy this and keep it safe")}
+}
+async function downloadOffline(){
+  let html;
+  try{const r=await fetch(location.href.split("#")[0],{cache:"no-store"});if(!r.ok)throw 0;html=await r.text()}
+  catch(e){html="<!DOCTYPE html>\n"+document.documentElement.outerHTML}
+  try{dl(html,"deutsch-trainer-emergency.html","text/html");toast("Emergency version downloaded ✓")}catch(e){toast("Download not possible")}
+}
+function importText(txt){
+  try{const d=JSON.parse(txt);
+    if(d&&(d.type==="dt-placement"||(d.a&&d.c&&!d.topics))){CUR={tab:"topics",arg:"pt"};render();return ptImport(txt)}
+    if(!d||!d.topics||!d.cards)throw 0;localStorage.setItem(KEY+"-before-import",JSON.stringify(S));S=d;migrate();applyTheme();save();CUR={tab:"today",arg:null};render();toast("Backup restored ✓")}
+  catch(e){toast("That isn't a valid backup")}
+}
+
+/* ---------- Lektionspakete (neue Themen ohne neue App-Version) ---------- */
+function sanitizeHTML(h){return String(h||"").replace(/<\s*(script|iframe|object|embed|style)[\s\S]*?<\s*\/\s*\1\s*>/gi,"").replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi,"").replace(/javascript:/gi,"")}
+function validTopic(t){return t&&typeof t.id==="string"&&!t.id.includes("-")&&t.title&&Array.isArray(t.v)&&Array.isArray(t.ex)&&t.ex.length>0}
+function importPack(txt){
+  try{
+    const d=JSON.parse(String(txt).replace(/```json|```/g,"").trim());
+    if(d&&(d.type==="dt-placement"))return importText(JSON.stringify(d));
+    const list=Array.isArray(d)?d:d.topics;if(!Array.isArray(list)||!list.length)throw 0;
+    let n=0;
+    list.forEach(t=>{if(!validTopic(t))return;
+      t.th=sanitizeHTML(t.th);t.req=Array.isArray(t.req)?t.req:[];t.fi=t.fi||t.de||"";t.lvl=t.lvl||"";
+      const i=S.packs.findIndex(x=>x.id===t.id);if(i>=0)S.packs[i]=t;else S.packs.push(t);n++});
+    if(!n)throw 0;
+    migrate();save();CUR={tab:"topics",arg:null};render();toast(n+" topics added ✓ – your progress is kept");
+  }catch(e){toast("That isn't a valid lesson package")}
+}
+
+/* ---------- Fortschritt ---------- */
+function buildReport(){
+  const r=S.reports[0];
+  let s=`DEUTSCH TRAINER – progress report for Claude\nAs of: ${new Date().toLocaleString("en-GB")}\nLesson packages: ${TOPICS.length?TOPICS[0].id+"–"+TOPICS[TOPICS.length-1].id:"none yet"}\n\n`+ptReport()+"\n\n"+progressSummary();
+  if(r)s+=`\n\nLATEST AI ANALYSIS (${new Date(r.d).toLocaleDateString("en-GB")}): level ${r.level}. ${r.summary}\nWeaknesses: ${(r.weaknesses||[]).join("; ")}`;
+  return s;
+}
+function renderProgress(){
+  const r=S.reports[0],weak=weakCards().slice(0,10),st=ptStats(),P=S.placement;
+  let h=`<h2>Progress</h2><div class="grid2" style="margin-bottom:14px">
+  <div class="stat"><b>${streakNow()}</b><span>day streak</span></div><div class="stat"><b>${masteredTopics()}/${TOPICS.length}</b><span>topics solid (≥ 80 %)</span></div>
+  <div class="stat"><b>${learnedWords()}</b><span>words learned</span></div><div class="stat"><b>${solidWords()}</b><span>words solid both ways</span></div></div>`;
+  h+=`<div class="card"><div class="label">Placement test</div><p>${P.done?`Finished on ${fmtDate(P.doneAt)}${P.analysis?` – level <b>${esc(P.analysis.level)}</b>`:""}.`:`${st.answered} of ${st.total} answered, ${st.checked} checked.`}${st.graded?` First-attempt score: <b>${st.right}/${st.graded}</b>.`:""}</p><div class="btnrow"><button class="btn ghost" data-act="pt">Open test</button></div></div>`;
+  h+=`<div class="card" id="globalbox">`;
+  if(r)h+=`<div class="label">Coach's analysis · ${fmtDate(r.d)}</div><p><span class="level">${esc(r.level)}</span>${esc(r.summary)}</p>${(r.strengths||[]).length?`<h3>What's working</h3><ul>${r.strengths.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${(r.weaknesses||[]).length?`<h3>What we're working on</h3><ul>${r.weaknesses.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${(r.tips||[]).length?`<h3>Tips</h3><ul>${r.tips.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}`;
+  else h+=`<div class="label">Coach's analysis</div><p class="muted">After a few lessons, Coach automatically analyses your level and mistake patterns and adjusts the plan.</p>`;
+  h+=`<div class="btnrow"><button class="btn ghost" data-act="global" ${TOPICS.length?"":"disabled"}>Analyse now</button></div></div>`;
+  if(TOPICS.length)h+=`<div class="card"><div class="label">Topics overview</div>${TOPICS.map(t=>{const s=S.topics[t.id];return`<div class="row"><div style="flex:1;min-width:0"><b>${esc(t.title)}</b><small>${s.status==="learning"?`Last ${pct(s.last)} · next review ${relDays(s.due)}${s.ai&&s.ai.reason?` – ${esc(s.ai.reason)}`:""}`:s.status==="new"?"Ready to study":"Still locked"}</small>${s.last!=null?`<div class="bar"><i style="width:${Math.round(s.last*100)}%"></i></div>`:""}</div></div>`}).join("")}</div>`;
+  if(weak.length)h+=`<div class="card"><div class="label">Words that often go wrong</div>${weak.map(([id,c])=>{const w=cardWord(id);return`<div class="vrow"><span class="w">${esc(w[0])}</span><span class="d">${esc(w[1])}</span><span class="st learning">${cardDir(id)==="de"?"DE→EN":"EN→DE"} · ${c.lapses}× forgotten</span></div>`}).join("")}</div>`;
+  h+=`<div class="card"><div class="label">Share with Claude</div><p class="muted">Copy the report and paste it in the chat with Claude. You'll get new lessons that match your level exactly.</p><div class="btnrow"><button class="btn" data-act="report">Report for Claude</button></div><div id="out"></div></div>`;
+  h+=`<div class="card"><div class="label">Add new lessons</div><p class="muted">Claude sends new topics as a lesson package (text). Paste it here – the app stays the same and your progress is fully kept.${S.packs.length?` Added so far: ${S.packs.length} topics.`:""}</p><textarea class="out" id="packta" placeholder="Paste the lesson package here"></textarea><div class="btnrow"><button class="btn" data-act="importpack">Add lessons</button></div></div>`;
+  h+=`<div class="card"><div class="label">Data & settings</div>
+  <p class="muted">${cloudOn()?`Signed in as <b>${esc(CFG.session.user.email||"")}</b>. Every answer is saved right away on this device and in the cloud. The cloud also keeps the last 30 daily states.`:"Currently saved on this device only. Connect the cloud so your progress is safe and the same on all devices."}</p>
+  <div class="btnrow"><button class="btn ghost" data-act="setup">Cloud & AI setup</button>${cloudOn()?`<button class="btn ghost" data-act="snaps">Load an older state</button>`:""}</div><div id="snaplist"></div>
+  ${HAS_FSA?`<div class="setrow"><span>Automatic backup file (PC)</span>${CFG.autoFile?`<small>active${CFG.lastFileWrite?" · last "+fmtDate(CFG.lastFileWrite):""}</small>`:`<button class="btn sm ghost" data-act="autofile">Set up</button>`}</div>`:""}
+  <div class="setrow"><span>AI provider</span><small>${aiReady()?esc((CFG.ai.provider==="gemini"?"Gemini":"other provider")+(CFG.ai.lastModel||CFG.ai.model?" · "+(CFG.ai.lastModel||CFG.ai.model):"")):"not set up"}</small></div>
+  <div class="setrow"><span>New cards per day <small>(2 per word)</small></span><select id="newper" class="inp" style="width:auto">${[8,12,16,20,30].map(n=>`<option ${n===S.settings.newCardsPerDay?"selected":""}>${n}</option>`).join("")}</select></div>
+  <div class="setrow"><span>New topics per day</span><select id="newtop" class="inp" style="width:auto">${[1,2,3].map(n=>`<option ${n===S.settings.newTopicsPerDay?"selected":""}>${n}</option>`).join("")}</select></div>
+  <div class="setrow"><span>AI teacher Coach</span><button class="btn sm ${S.settings.ai?"":"ghost"}" data-act="toggleai">${S.settings.ai?"On":"Off"}</button></div>
+  <div class="setrow"><span>Night mode</span><span style="display:flex;gap:6px">${[["auto","Auto"],["light","Light"],["dark","Dark"]].map(([k,l])=>`<button class="btn sm ${S.settings.theme===k?"":"ghost"}" data-act="theme" data-id="${k}">${l}</button>`).join("")}</span></div>
+  <div class="setrow"><span>Read aloud automatically</span><button class="btn sm ${S.settings.autoplay?"":"ghost"}" data-act="toggleauto">${S.settings.autoplay?"On":"Off"}</button></div>
+  <div class="setrow"><span>Read slowly</span><button class="btn sm ${S.settings.slow?"":"ghost"}" data-act="toggleslow">${S.settings.slow?"On":"Off"}</button></div>
+  <div class="setrow"><span>German voice</span><span style="display:flex;align-items:center;gap:6px"><small>${voiceStatus()}</small>${spk("Grüß Gott! Schön, dass du da bist.")}</span></div>
+  ${HAS_TTS&&!DE_VOICE?`<p class="muted">Your device has no German voice yet. To install one (menu names vary a little by version): <b>iPhone</b> Settings → Accessibility → Spoken Content → Voices → German. <b>Android</b> Settings → Text-to-speech → Install voice data → German. <b>Windows</b> Settings → Time & language → Language → add German (with speech). <b>Mac</b> System Settings → Accessibility → Spoken Content → Manage Voices → German. Then reload the app.</p>`:""}
+  <div class="btnrow"><button class="btn" data-act="download">Download backup</button><button class="btn ghost" data-act="offline">Download emergency version</button></div>
+  <div class="btnrow"><button class="btn ghost" data-act="export">Copy backup</button><button class="btn ghost" data-act="importopen">Restore backup</button></div>
+  <div id="out2"></div>
+  <div class="btnrow"><button class="btn danger" data-act="reset">Delete progress</button></div></div>`;
+  app().innerHTML=h;
+}
+function showOut(target,text,title){
+  $(target).innerHTML=`<p style="margin-top:14px"><b>${esc(title)}</b></p><textarea class="out" id="outta" readonly>${esc(text)}</textarea><div class="btnrow"><button class="btn sm" data-act="copy">Copy</button></div>`;
+}
+async function copyOut(){const ta=$("#outta");try{await navigator.clipboard.writeText(ta.value);toast("Copied ✓")}catch(e){ta.focus();ta.select();try{document.execCommand("copy");toast("Copied ✓")}catch(e2){toast("Please select the text and copy it manually")}}}
+
+/* ============================================================
+   EVENTS
+   ============================================================ */
+const A={
+  say:t=>speak(t),
+  theme:k=>{S.settings.theme=k;applyTheme();save();render()},
+  setup:()=>{SESSION=null;CUR={tab:"setup",arg:null};render();scrollTo(0,0)},
+  setupdone:()=>{CFG.setupDone=true;saveCfg();CUR={tab:"today",arg:null};render();scrollTo(0,0)},
+  login:()=>doAuth("login"),
+  signup:()=>doAuth("signup"),
+  logout:(id,b)=>{if(!b.dataset.sure){b.dataset.sure="1";b.textContent="Really sign out?";return}CFG.session=null;saveCfg();setSync("local");render()},
+  aisave:()=>aiSave(),
+  snaps:()=>listSnaps(),
+  loadsnap:(day,b)=>loadSnap(day,b),
+  autofile:()=>setupAutoFile(),
+  fileperm:()=>writeAutoFile(true).then(()=>render()),
+  offline:()=>downloadOffline(),
+  resume:()=>openSession(),
+  abort:()=>{const id=SESSION&&SESSION.id;S.active=null;save();SESSION=null;CUR={tab:"topics",arg:id};render()},
+  download:()=>downloadBackup(),
+  listen:()=>startListen(),
+  lcheck:()=>checkListen(),
+  lnext:()=>{SESSION.idx++;renderListen()},
+  toggleauto:()=>{S.settings.autoplay=!S.settings.autoplay;save();render()},
+  toggleslow:()=>{S.settings.slow=!S.settings.slow;save();render()},
+  tab:id=>{SESSION=null;CUR={tab:id,arg:null};render();scrollTo(0,0)},
+  topic:id=>{SESSION=null;CUR={tab:"topics",arg:id};render();scrollTo(0,0)},
+  back:()=>{CUR.arg=null;render();scrollTo(0,0)},
+  learn:id=>startSession(id,"learn"),
+  review:id=>startSession(id,"review"),
+  extra:id=>startSession(id,"extra"),
+  mc:i=>answerMC(+i),
+  check:()=>checkAnswer(),
+  dunno:()=>dunno(),
+  next:()=>nextEx(),
+  pick:i=>{if(SESSION.locked)return;SESSION.cur.picked.push(+i);renderOrd()},
+  unpick:i=>{if(SESSION.locked)return;SESSION.cur.picked.splice(+i,1);renderOrd()},
+  rate:k=>rateTopic(k),
+  vocab:()=>startVocab(),
+  extravocab:()=>startExtraVocab(),
+  flip:()=>flipCard(),
+  crate:k=>rateCard(k),
+  global:()=>runGlobal(false),
+  ask:id=>askTeacher(id),
+  report:()=>{showOut("#out",buildReport(),"Report – paste it in the chat with Claude");copyOut()},
+  export:()=>{S.lastBackup=Date.now();save();showOut("#out2",JSON.stringify(S),"Backup – keep it safe in a note or file")},
+  copy:()=>copyOut(),
+  importpack:()=>importPack($("#packta").value),
+  pasteimport:()=>{CUR={tab:"progress",arg:null};render();A.importopen();$("#out2").scrollIntoView({behavior:"smooth"})},
+  importopen:()=>{$("#out2").innerHTML=`<p style="margin-top:14px"><b>Paste backup</b></p><input type="file" id="impfile" accept=".json,application/json" class="inp" style="margin-bottom:8px"><textarea class="out" id="impta" placeholder="… or paste the backup text here"></textarea><div class="btnrow"><button class="btn sm" data-act="importdo">Restore</button></div>`},
+  importdo:()=>importText($("#impta").value),
+  toggleai:()=>{S.settings.ai=!S.settings.ai;save();render()},
+  reset:(id,b)=>{if(!b.dataset.sure){b.dataset.sure="1";b.textContent="Really delete everything? Tap again";return}localStorage.setItem(KEY+"-before-reset",JSON.stringify(S));S=defaultState();migrate();save();CUR={tab:"today",arg:null};render();toast("Progress deleted")},
+  /* Einstufungstest */
+  pt:()=>{SESSION=null;CUR={tab:"topics",arg:"pt"};render();scrollTo(0,0)},
+  ptpart:id=>{S.placement.part=id;save();renderPlacement();scrollTo(0,0)},
+  ptcheck:id=>ptCheckSection(id),
+  ptu:id=>{const P=S.placement;if(P.c[id])return;if(P.u[id])delete P.u[id];else P.u[id]=true;save();ptRerender()},
+  ptrf:v=>{const [id,o]=v.split("|"),P=S.placement;if(P.c[id])return;P.a[id]=o;save();ptRerender()},
+  ptself:v=>{const [id,r]=v.split("|"),c=S.placement.c[id];if(!c)return;c.r=r;save();ptRerender()},
+  ptfinish:(id,b)=>ptFinish(b),
+  ptreport:()=>{showOut("#ptout",buildReport(),"Report – paste it in the chat with Claude");copyOut()},
+  ptimport:()=>ptImport($("#ptimp").value)
+};
+document.addEventListener("click",e=>{
+  const k=e.target.closest("[data-ch]");
+  if(k){e.preventDefault();insertChar(k.dataset.ch);return}
+  const b=e.target.closest("[data-act]");if(!b||b.disabled)return;const f=A[b.dataset.act];if(f){e.preventDefault();f(b.dataset.id,b)}});
+document.addEventListener("mousedown",e=>{if(e.target.closest("[data-ch]"))e.preventDefault()});
+let LAST_FIELD=null;
+document.addEventListener("focusin",e=>{if(e.target.matches&&e.target.matches("input.inp,input.pgap,textarea.pline,textarea.plong"))LAST_FIELD=e.target});
+function insertChar(ch){
+  const f=(LAST_FIELD&&document.body.contains(LAST_FIELD))?LAST_FIELD:$("#ans");
+  if(!f||f.readOnly||f.disabled)return;
+  const s=f.selectionStart??f.value.length,en=f.selectionEnd??f.value.length;
+  f.setRangeText(ch,s,en,"end");f.dispatchEvent(new Event("input",{bubbles:true}));f.focus();
+}
+document.addEventListener("input",e=>{
+  const t=e.target,id=t.dataset&&t.dataset.pid;if(!id)return;
+  const P=S.placement;if(P.c[id])return;
+  if(!P.started)P.started=Date.now();
+  if(t.classList.contains("pgap")){const i=+t.dataset.gi,arr=Array.isArray(P.a[id])?P.a[id]:[];arr[i]=t.value;P.a[id]=arr;
+    t.style.width=Math.max(LETTER_END.test(t.previousSibling?t.previousSibling.textContent||"":"")?3.5:8,t.value.length+1.5)+"ch"}
+  else{P.a[id]=t.value;if(t.classList.contains("pline"))ptAutosize(t);
+    const wc=document.getElementById("wc-"+id.replace(".","-"));
+    if(wc){const it=ptFind(id).item,n=(t.value.trim().match(/\S+/g)||[]).length;wc.textContent=`${n} words (target: ${it.min}–${it.max})`;wc.classList.toggle("ok",n>=it.min&&n<=it.max)}}
+  save();
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="newper"){S.settings.newCardsPerDay=+e.target.value;save()}
+  if(e.target.id==="newtop"){S.settings.newTopicsPerDay=+e.target.value;save()}
+  if(e.target.id==="impfile"&&e.target.files[0]){const fr=new FileReader();fr.onload=()=>importText(fr.result);fr.readAsText(e.target.files[0])}
+});
+document.addEventListener("keydown",e=>{
+  if(e.key!=="Enter")return;
+  const t=e.target;
+  if(t.matches&&t.matches("input.pgap,textarea.pline")){e.preventDefault();
+    const fields=[...app().querySelectorAll("input.pgap:not([readonly]),textarea.pline,textarea.plong")];const i=fields.indexOf(t);if(fields[i+1])fields[i+1].focus();return}
+  if(t.id==="askq"){e.preventDefault();const b=document.querySelector('[data-act="ask"]');if(b)askTeacher(b.dataset.id);return}
+  if(!SESSION)return;
+  if(SESSION.kind==="topic"){e.preventDefault();if(!SESSION.locked)checkAnswer();else if($("#nextbtn"))nextEx()}
+  else if(SESSION.kind==="vocab"&&!SESSION.shown){e.preventDefault();flipCard()}
+  else if(SESSION.kind==="listen"){e.preventDefault();if(!SESSION.shown)checkListen();else{SESSION.idx++;renderListen()}}
+});
+window.addEventListener("resize",()=>{app().querySelectorAll("textarea.pline").forEach(ptAutosize)});
+
+/* ============================================================
+   ALPENKAMM IM KOPF & START
+   ============================================================ */
+function landscape(){
+  let seed=7;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647};
+  const ridge=(base,amp,step)=>{let d=`M0 44 L0 ${base}`,x=0,y=base;
+    while(x<1200){const w=step*(0.6+r());const peak=base-amp*(0.35+r()*0.65);d+=` L${(x+w*0.5).toFixed(1)} ${peak.toFixed(1)} L${(x+w).toFixed(1)} ${(base-amp*0.15*r()).toFixed(1)}`;x+=w}
+    return d+" L1200 44 Z"};
+  $("#far").setAttribute("d",ridge(30,26,70));
+  $("#near").setAttribute("d",ridge(40,20,46));
+}
+/* Nachtmodus */
+const DARK_MQ=window.matchMedia?window.matchMedia("(prefers-color-scheme: dark)"):null;
+function applyTheme(){const t=S?S.settings.theme:"auto";const dark=t==="dark"||(t==="auto"&&DARK_MQ&&DARK_MQ.matches);document.documentElement.dataset.theme=dark?"dark":"light";
+  const m=document.querySelector('meta[name="theme-color"]');if(m)m.content=dark?"#8e0b20":"#c8102e"}
+if(DARK_MQ&&DARK_MQ.addEventListener)DARK_MQ.addEventListener("change",applyTheme);
+applyTheme();
+(async function init(){
+  landscape();await load();applyTheme();render();
+  if(CFG.autoFile)writeAutoFile(false);
+  if("serviceWorker" in navigator&&location.protocol==="https:")navigator.serviceWorker.register("sw.js").catch(()=>{});
+})();
+</script>
+</body>
+</html>
