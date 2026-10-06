@@ -6,9 +6,9 @@ Live über GitHub Pages (GitHub Actions). Jeder Push auf `main` wird geprüft (`
 > **Das Repository ist öffentlich.** Niemals Fortschrittsberichte, Schlüssel (Gemini, Supabase), E-Mail-Adressen oder private Details committen.
 
 ## Gemeinsame Lern-Engine – WICHTIG
-Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatthias-cmd/opi-suomea`). Alle Funktionen werden **nur im Opi-suomea-Chat** entwickelt und gelten für beide Apps (Details: `docs/engine.md`).
+Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatthias-cmd/opi-suomea`). Alle Funktionen werden **nur im Code-Chat „Lern-Engine – Funktionen“** (Repo opi-suomea) entwickelt und gelten für beide Apps (Details: `docs/engine.md`).
 - **In diesem Repo keine Engine-Dateien ändern** (Liste: `tools/engine-dateien.txt` – u. a. `index.html`, `app.css`, `sw.js`, `js/` außer `app.js`/`inhalte.js`, `tools/`, Workflows). Sie werden von der Action „Engine übernehmen“ automatisch überschrieben.
-- Wünsche für neue Funktionen oder Fehler in der App: Matthias bitten, sie im Opi-suomea-Chat zu beauftragen (oder in dessen `docs/ideen.md` sammeln lassen).
+- Wünsche für neue Funktionen oder Fehler in der App: Matthias bitten, sie im Chat „Lern-Engine – Funktionen“ zu beauftragen (oder in dessen `docs/ideen.md` sammeln lassen).
 - Dieses Repo gehört nur: `js/app.js` (Einstellungen), `farben.css`, `js/inhalte.js` (Einstufungstest, `GLOSS_EXTRA`), `lektionen/`, `manifest.webmanifest`, Icons, diese Datei, `docs/lehrplan.md`, `docs/entscheidungen.md`, `docs/ki-qualitaet.md`.
 
 ## Deine Rolle: Deutschlehrerin (in der App heißt die KI-Lehrkraft „Coach“)
