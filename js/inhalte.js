@@ -14,7 +14,7 @@ const PT = [
   {
     id: "A",
     name: "Grammar",
-    time: "approx. 60 minutes",
+    time: "approx. 70 minutes",
     sections: [
       {
         id: "A1",
@@ -178,7 +178,7 @@ const PT = [
           { k: "b", t: "Das Handy liegt auf d___ Tisch.", s: ["em"] },
           { k: "b", t: "Ich hänge das Bild an d___ Wand.", s: ["ie"] },
           { k: "b", t: "Wir fahren ___ Wochenende ___ meinen Eltern.", s: ["am", "zu"] },
-          { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um", "am"] },
+          { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um", "am|beim"] },
           { k: "b", t: "Während d___ Besprechung war das Handy aus.", s: ["er"] },
           { k: "b", t: "Ich muss morgen ___ Arzt.", s: ["zum"] }
         ]
@@ -226,7 +226,7 @@ const PT = [
           { k: "b", t: "___ ich ein Kind war, wohnten wir auf dem Land.", s: ["als"] },
           { k: "b", t: "___ ich in Wien bin, besuche ich immer meine Tante.", s: ["wenn"] },
           { k: "b", t: "Weißt du, ___ der Supermarkt heute offen hat?", s: ["ob"] },
-          { k: "b", t: "___ du kochst, decke ich den Tisch.", s: ["während"] },
+          { k: "b", t: "___ du kochst, decke ich den Tisch.", s: ["während|wenn"] },
           { k: "b", t: "Wasch dir die Hände, ___ du isst.", s: ["bevor"] },
           {
             k: "r",
@@ -299,13 +299,31 @@ const PT = [
             s: ["Das ist die Kollegin, der ich das Projekt erklärt habe."]
           }
         ]
+      },
+      {
+        id: "A17",
+        title: "Mixed B1 grammar",
+        hint: "Look at the label next to each task.",
+        items: [
+          { k: "b", t: "___ mir bitte das Salz! (geben)", tag: "Imperativ, du", s: ["gib"] },
+          { k: "b", t: "___ bitte leise, das Baby schläft! (sein)", tag: "Imperativ, ihr", s: ["seid"] },
+          { k: "b", t: "Gestern ___ ich nicht kommen, ich war krank. (können)", tag: "Präteritum", s: ["konnte"] },
+          { k: "b", t: "Als Kind ___ ich jeden Tag Klavier üben. (müssen)", tag: "Präteritum", s: ["musste"] },
+          { k: "r", t: "Ich besuche meine Oma.", tag: "Perfekt", s: ["Ich habe meine Oma besucht."] },
+          { k: "r", t: "Er versteht die Frage nicht.", tag: "Perfekt", s: ["Er hat die Frage nicht verstanden."] },
+          { k: "r", t: "Wir telefonieren lange.", tag: "Perfekt", s: ["Wir haben lange telefoniert."] },
+          { k: "b", t: "Ich wohne ___ drei Jahren in Graz.", s: ["seit"] },
+          { k: "b", t: "Ich bin ___ zwei Wochen umgezogen.", s: ["vor"] },
+          { k: "b", t: "Ich trinke gern kalt___ Wasser.", s: ["es"] },
+          { k: "b", t: "Wir haben sehr nett___ Nachbarn.", s: ["e"] }
+        ]
       }
     ]
   },
   {
     id: "B",
     name: "Vocabulary",
-    time: "approx. 10 minutes",
+    time: "approx. 20 minutes",
     sections: [
       {
         id: "B1",
@@ -347,6 +365,66 @@ const PT = [
             t: "Sorry, ich kann morgen nicht, mir ist was dazwischengekommen.",
             m: "Leider kann ich morgen nicht teilnehmen, da mir etwas dazwischengekommen ist. Ich bitte um Ihr Verständnis."
           }
+        ]
+      },
+      {
+        id: "B4",
+        title: "Everyday life in Austria",
+        hint: "Choose from the word bank. Two words are not needed.",
+        bank: [
+          "Meldezettel",
+          "e-card",
+          "Rezept",
+          "Überweisung",
+          "Betriebskosten",
+          "Kaution",
+          "Termin",
+          "verbinden",
+          "Jänner",
+          "Sackerl",
+          "Rechnung",
+          "Zeugnis"
+        ],
+        items: [
+          {
+            k: "b",
+            t: "Nach dem Umzug muss man sich innerhalb von drei Tagen anmelden. Dafür braucht man den ___.",
+            s: ["Meldezettel"]
+          },
+          {
+            k: "b",
+            t: "Meine ___ ist die Karte von der Krankenversicherung. Ich brauche sie bei jedem Arztbesuch.",
+            s: ["e-card"]
+          },
+          { k: "b", t: "Die Ärztin schreibt mir ein ___ für die Apotheke.", s: ["Rezept"] },
+          { k: "b", t: "Mein Hausarzt gibt mir eine ___ zum Facharzt.", s: ["Überweisung"] },
+          {
+            k: "b",
+            t: "Die Miete beträgt 650 Euro, dazu kommen noch die ___ für Heizung, Wasser und Müll.",
+            s: ["Betriebskosten"]
+          },
+          { k: "b", t: "Beim Einzug zahlt man meistens drei Monatsmieten als ___.", s: ["Kaution"] },
+          { k: "b", t: "Ich rufe in der Praxis an und vereinbare einen ___.", s: ["Termin"] },
+          { k: "b", t: "Können Sie mich bitte mit Frau Berger ___?", s: ["verbinden"] },
+          { k: "b", t: "Im ___ ist es oft sehr kalt und es schneit.", s: ["Jänner"] },
+          { k: "b", t: "Brauchen Sie ein ___? – Nein danke, ich habe eine Tasche dabei.", s: ["Sackerl"] }
+        ]
+      },
+      {
+        id: "B5",
+        title: "Articles",
+        hint: "Write der, die or das.",
+        items: [
+          { k: "b", t: "___ Termin", s: ["der"] },
+          { k: "b", t: "___ Rechnung", s: ["die"] },
+          { k: "b", t: "___ Formular", s: ["das"] },
+          { k: "b", t: "___ Monat", s: ["der"] },
+          { k: "b", t: "___ Gehalt", s: ["das"] },
+          { k: "b", t: "___ Uhr", s: ["die"] },
+          { k: "b", t: "___ Gemüse", s: ["das"] },
+          { k: "b", t: "___ Käse", s: ["der"] },
+          { k: "b", t: "___ Tablette", s: ["die"] },
+          { k: "b", t: "___ Ergebnis", s: ["das"] }
         ]
       }
     ]
