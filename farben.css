@@ -1,0 +1,35 @@
+/* Farben dieser App: Österreich (rot-weiß-rot). Gehört zur App, nicht zur Engine; Variablennamen wie in Opi suomea. */
+:root{
+  --lumi:#f6f5f3;      /* Schnee – Hintergrund */
+  --paper:#ffffff;
+  --sini:#c8102e;      /* Flaggenrot – Hauptfarbe */
+  --sini-d:#a00d25;
+  --yo:#1d2128;        /* Schrift */
+  --jarvi:#fbecee;     /* zartes Rot */
+  --muted:#5f6670;
+  --line:#e3e1dd;
+  --kuusi:#2e7d4f;     /* Almwiese – richtig */
+  --kuusi-bg:#e7f3ec;
+  --puolukka:#b42318;  /* falsch */
+  --puolukka-bg:#fdecea;
+  --lakka:#c77700;
+  --lakka-bg:#fdf3e2;
+  --lakka-ink:#9a5b00;
+  --on-sini:#ffffff;
+  --head:#c8102e;
+  --ridge:rgba(255,255,255,.16);
+  --next-bg:#2f3540;   /* Granit */
+  --tip:#f3f1ec;
+  --lock:#efeeec;
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --lumi:#121417;--paper:#1b1e23;--sini:#ff5a6e;--sini-d:#ff7a8a;--yo:#e9eaec;--jarvi:#2a1c20;--muted:#a0a6ae;--line:#2c3037;
+  --kuusi:#5cc48a;--kuusi-bg:#15291e;--puolukka:#ff7b72;--puolukka-bg:#3a1a1a;--lakka:#f0b050;--lakka-bg:#36290f;--lakka-ink:#f0b050;
+  --on-sini:#1b0a0d;--head:#8e0b20;--ridge:rgba(255,255,255,.08);--next-bg:#262a31;--tip:#1f2329;--lock:#20242a;
+  color-scheme:dark;
+}
+:root[data-theme="dark"] .fb.ok,:root[data-theme="dark"] .fb.bad,:root[data-theme="dark"] .fb.dunno{border-color:transparent}
+:root[data-theme="dark"] .next .btn{background:#ff5a6e;color:#1b0a0d}
+/* Untertitel im Kopf auf Rot gut lesbar */
+.brand small{color:#fff;opacity:.85}

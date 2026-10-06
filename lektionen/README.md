@@ -1,0 +1,17 @@
+# Lektionen
+
+`lektionen.json` enthält alle Themen (**d01**, **d02** …) als JSON-Array. Die App lädt die Datei bei jedem Start und übernimmt neue oder geänderte Themen; der Fortschritt bleibt erhalten.
+
+## Regeln
+- Format: siehe `docs/uebungsformate.md`. Pflichtfelder: `id`, `title`, `v`, `ex` (mind. 1 gültige Übung). Ist auch nur eine Übung oder Vokabel ungültig, übernimmt die App das **ganze Thema nicht** (bzw. behält die alte Version).
+- IDs fortlaufend: `d01`, `d02`, … – nie umbenennen, nie löschen (sonst geht Fortschritt verloren).
+- In bestehenden Themen Vokabeln und Übungen **nur hinten anhängen** (Karten-IDs hängen vom Index ab).
+- `req` setzen: **alle** Themen eintragen, auf denen das Thema inhaltlich aufbaut (Grammatik oder Wortschatz). Das Thema wird erst frei, wenn alle Voraussetzungen beim letzten Ergebnis je ≥ 80 % hatten (Wunsch von Matthias, so beibehalten).
+- Ablauf in der App: Theorie → **zuerst alle Wörter des Themas** (beide Richtungen) → Übungen. Darum müssen alle Wörter, die in den Übungen vorkommen, im `v` des Themas oder früherer Themen stehen.
+- Pro Thema: **Alltagssituation + Grammatik-Baustein** (siehe `docs/lehrplan.md`). Theorie-Aufbau: 1) Situation und nützliche Sätze (Tabelle Deutsch–Englisch), 2) ein kurzer Dialog als Lesetext, 3) die Grammatik, die die Situation braucht, mit Tabelle. 8–15 Vokabeln, 10–14 Übungen, davon einige zur Situation (passende Antwort wählen, Dialog ergänzen, Satz bilden); Grammatik immer auch als `tab`-Übung.
+- **Wörter antippen:** Jedes deutsche Wort in Sätzen der Übungen soll ohne KI erklärbar sein (Vokabel, Tabellenform oder Endung). Redewendungen in `v` werden nicht in Einzelwörter zerlegt – fehlt ein Einzelwort (z. B. „Gott“ aus „Grüß Gott“), meldet `pruefen.mjs` es als Hinweis; dann als Vokabel aufnehmen oder in `GLOSS_EXTRA` in `js/inhalte.js` (gehört zu dieser App) eintragen.
+- **Hinweistext `h` überall, wo das Format missverständlich sein könnte** (Wunsch von Matthias): Lücke mitten im Wort → „nur die Endung eintippen“; Zahl → „als deutsches Wort schreiben“; ein deutsches Wortgefüge, das finnisch ein Wort ist → „ein einziges Wort: Wort + Endung“; Tabellen mit mehreren Lückenspalten → erklären, ob jedes Kästchen eine eigene Form ist oder ob Kästchen zusammen eine Form ergeben, mit Beispiel. `h` wird bei allen Übungstypen angezeigt; die Prüfung schlägt bei den typischen Fällen ohne `h` fehl.
+- **2–4 Regelfragen** (`mc`) pro Grammatikthema, hinten in `ex`: wann/wofür wird die Form verwendet, welche Wörter sind betroffen, wie wird sie gebildet – jeweils mit kurzer Erklärung in `x` und plausiblen falschen Antworten (z. B. Endungen anderer Verbtypen).
+- Nur Wörter verwenden, die aus früheren Themen oder dem eigenen `v` bekannt sind.
+- Deutsch muss korrekt sein (Artikel, Fälle, Endungen, Wortstellung); österreichisches Standarddeutsch bevorzugen.
+- Nach dem Bearbeiten immer `node tools/pruefen.mjs` ausführen: prüft JSON, Pflichtfelder, Voraussetzungen, Nur-anhängen-Regel und löst jede Übung im Browser mit der Musterlösung (z. B. ob sich ein `ord`-Satz aus den Wörtern bilden lässt). Die GitHub Action macht dasselbe und veröffentlicht nur bei Erfolg.
