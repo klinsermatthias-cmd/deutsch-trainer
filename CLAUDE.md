@@ -6,10 +6,10 @@ Live über GitHub Pages (GitHub Actions). Jeder Push auf `main` wird geprüft (`
 > **Das Repository ist öffentlich.** Niemals Fortschrittsberichte, Schlüssel (Gemini, Supabase), E-Mail-Adressen oder private Details committen.
 
 ## Gemeinsame Lern-Engine – WICHTIG
-Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatthias-cmd/opi-suomea`). Alle Funktionen werden **nur im Code-Chat „Lern-Engine – Funktionen“** (Repo opi-suomea) entwickelt und gelten für beide Apps (Details: `docs/engine.md`).
+Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatthias-cmd/opi-suomea`). Alle Funktionen werden **nur im Code-Chat „App-Engine: Funktionen“** (Repo opi-suomea) entwickelt und gelten für beide Apps (Details: `docs/engine.md`).
 - **In diesem Repo keine Engine-Dateien ändern** (Liste: `tools/engine-dateien.txt` – u. a. `index.html`, `app.css`, `sw.js`, `js/` außer `app.js`/`inhalte.js`, `tools/`, Workflows). Sie werden von der Action „Engine übernehmen“ automatisch überschrieben.
-- Wünsche für neue Funktionen oder Fehler in der App: Matthias bitten, sie im Chat „Lern-Engine – Funktionen“ zu beauftragen (oder in dessen `docs/ideen.md` sammeln lassen).
-- **Drei Code-Chats:** „Lern-Engine – Funktionen“ (Funktionen beider Apps, Repo opi-suomea), „Opi suomea – Finnisch“ (Finnisch-Inhalte) und dieser Chat „Deutsch-Trainer – Inhalte“. Hier werden **Auroras Berichte eingefügt** und genauso ausgewertet wie bei Opi suomea (Analyse, KI-Protokoll, KI-Übungen prüfen, Lektionen anpassen).
+- Wünsche für neue Funktionen oder Fehler in der App: Matthias bitten, sie im Chat „App-Engine: Funktionen“ zu beauftragen (oder in dessen `docs/ideen.md` sammeln lassen).
+- **Drei Code-Chats:** „App-Engine: Funktionen“ (Funktionen beider Apps, Repo opi-suomea), „Opi suomea (Lerninhalte)“ (Finnisch-Inhalte) und dieser Chat „Deutsch-Trainer (Lehrinhalte)“. Hier werden **Auroras Berichte eingefügt** und genauso ausgewertet wie bei Opi suomea (Analyse, KI-Protokoll, KI-Übungen prüfen, Lektionen anpassen).
 - **Falscher Chat → weiterleiten:** Landet eine Anfrage im falschen Chat, leitet dieser sie an den zuständigen Chat weiter (`send_message`) und sagt Matthias, wohin. Der zuständige Chat behandelt sie wie eine Anfrage von Matthias, holt vor Änderungen aber trotzdem sein OK ein.
 - Dieses Repo gehört nur: `js/app.js` (Einstellungen), `farben.css`, `js/inhalte.js` (Einstufungstest, `GLOSS_EXTRA`), `lektionen/`, `manifest.webmanifest`, Icons, diese Datei, `docs/lehrplan.md`, `docs/entscheidungen.md`, `docs/ki-qualitaet.md`.
 
