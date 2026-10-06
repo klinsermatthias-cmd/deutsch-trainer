@@ -260,7 +260,7 @@ async function aiJudge(ex, user) {
       : ex.dir === "de"
         ? "Übersetzung " + APP.base.name + " → " + APP.target.name
         : "Übersetzung " + APP.target.name + " → " + APP.base.name;
-  const sol = (ex.t === "gap" ? ex.a.map(a => ex.q.replace("___", a)) : ex.a).join(" | ");
+  const sol = solutionText(ex);
   const p = `Thema: ${t.title}
 Aufgabentyp: ${kind}
 Aufgabe: ${promptText(ex)}
@@ -379,6 +379,14 @@ function basicsStatus() {
 function genUnlocked() {
   return !!(S.genUnlock && S.genUnlock.on);
 }
+/* Theorie eines Themas als reiner Text (für KI-Aufträge), gekürzt */
+function theoryText(t, max) {
+  return String(t.th || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, max);
+}
 async function aiGenerate(t) {
   const learned = TOPICS.filter(x => S.topics[x.id].status === "learning");
   const voc = learned
@@ -391,10 +399,7 @@ async function aiGenerate(t) {
       .slice(0, 6)
       .map(e => `- ${e.q} (richtig: ${e.exp})`)
       .join("\n") || "keine";
-  const theory = String(t.th || "")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s+/g, " ")
-    .slice(0, 1800);
+  const theory = theoryText(t, 1800);
   /* vorhandene Aufgaben mitschicken, damit Opettaja sie nicht wiederholt (nur die Aufgabentexte, gekürzt) */
   const known = t.ex
     .map(promptText)
@@ -652,11 +657,7 @@ function progressSummary(forReport) {
   const pr = forReport ? [] : (S.practice || []).slice(0, 6);
   if (pr.length) {
     L.push("\nFREIES SCHREIBEN & ROLLENSPIEL (letzte):");
-    pr.forEach(x =>
-      L.push(
-        `- [${x.tid}] ${x.k === "r" ? "Rollenspiel" : "Schreiben"}: ${cut(x.task || "", 80)} | ${APP.learner}: „${cut(x.text || "", 160)}“${x.errs != null ? ` | ${x.errs} Fehler/Korrekturen` : ""}`
-      )
-    );
+    pr.forEach(x => L.push(practiceLine(x, false)));
   }
   const ow = ownKeys();
   if (ow.length && !forReport)
@@ -874,15 +875,7 @@ function mdLite(s) {
 }
 /* „Frag Opettaja“ in einer Übung. Vor dem Prüfen nur Hinweise (Lösung wird nicht verraten), danach volle Erklärung. */
 function exDescribe(ex) {
-  if (FMT[ex.t]) return FMT[ex.t].describe(ex);
-  if (ex.t === "mc") return `Multiple Choice: ${ex.q}\nOptionen: ${ex.o.join(" | ")}`;
-  if (ex.t === "gap") return `Lückentext: ${ex.q}${ex.h ? ` (Hinweis: ${ex.h})` : ""}`;
-  if (ex.t === "tr")
-    return `Übersetzung ${ex.dir === "de" ? APP.base.name + " → " + APP.target.name : APP.target.name + " → " + APP.base.name}: ${ex.q}`;
-  if (ex.t === "ord") return `Satz ordnen (${ex.de}) aus den Wörtern: ${ex.w.join(" / ")}`;
-  if (ex.t === "tab")
-    return `Tabelle: ${ex.q}${ex.head ? ` (Spalten: ${ex.head.join(", ")})` : ""}\n${ex.r.map(r => r.map(c => (tabGap(c) ? "___" : c)).join(" | ")).join("\n")}`;
-  return promptText(ex);
+  return FMT[ex.t] ? FMT[ex.t].describe(ex) : promptText(ex);
 }
 async function askExercise() {
   const se = SESSION;
@@ -901,18 +894,7 @@ async function askExercise() {
     checked = !!se.locked,
     t = T(se.id) || { title: se.title },
     last = checked ? se.results[se.results.length - 1] : null;
-  const sol =
-    ex.t === "tab"
-      ? tabGaps(ex)
-          .map(a => a.join(" / "))
-          .join(", ")
-      : ex.t === "gap"
-        ? ex.a.map(a => ex.q.replace("___", a)).join(" | ")
-        : ex.t === "mc"
-          ? ex.o[ex.a]
-          : ex.t === "ord"
-            ? ex.a
-            : ex.a.join(" | ");
+  const sol = solutionText(ex);
   const rule = checked
     ? `${APP.learner} hat die Aufgabe schon beantwortet. Erkläre vollständig und konkret, auch warum die Antwort richtig oder falsch ist.`
     : APP.learner +
