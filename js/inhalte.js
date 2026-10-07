@@ -23,7 +23,7 @@ const PT = [
           { k: "b", t: "Du ___ (sprechen) sehr gut Deutsch.", s: ["sprichst"] },
           { k: "b", t: "Er ___ (lesen) jeden Abend ein Buch.", s: ["liest"] },
           { k: "b", t: "Wann ___ der Zug ___? (abfahren)", s: ["fährt", "ab"] },
-          { k: "b", t: "Sie ___ die Rechnung nicht. (verstehen)", s: ["versteht"] }
+          { k: "b", t: "Sie ___ die Rechnung nicht. (verstehen)", s: ["versteht|verstehen"] }
         ]
       },
       {
@@ -178,7 +178,7 @@ const PT = [
           { k: "b", t: "Das Handy liegt auf d___ Tisch.", s: ["em"] },
           { k: "b", t: "Ich hänge das Bild an d___ Wand.", s: ["ie"] },
           { k: "b", t: "Wir fahren ___ Wochenende ___ meinen Eltern.", s: ["am", "zu"] },
-          { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um", "am|beim"] },
+          { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um", "am|beim|vor dem|vorm|im"] },
           { k: "b", t: "Während d___ Besprechung war das Handy aus.", s: ["er"] },
           { k: "b", t: "Ich muss morgen ___ Arzt.", s: ["zum"] }
         ]
@@ -419,7 +419,7 @@ const PT = [
           { k: "b", t: "___ Rechnung", s: ["die"] },
           { k: "b", t: "___ Formular", s: ["das"] },
           { k: "b", t: "___ Monat", s: ["der"] },
-          { k: "b", t: "___ Gehalt", s: ["das"] },
+          { k: "b", t: "___ Gehalt", s: ["das|der"] },
           { k: "b", t: "___ Uhr", s: ["die"] },
           { k: "b", t: "___ Gemüse", s: ["das"] },
           { k: "b", t: "___ Käse", s: ["der"] },
