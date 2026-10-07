@@ -13,6 +13,8 @@ const UI = {
   ...(APP.ui || {})
 };
 /* Kürzel der Richtungen (z. B. fi→de): Lernsprache → Basissprache */
+/* Name der Einstellungen-Seite in Hinweistexten (Zahnrad oben rechts, E-1007-72) */
+const SET_NAME = "⚙ Einstellungen";
 const BASE_CODE = APP.base.code || APP.base.name.slice(0, 2).toLowerCase();
 const DIR_FWD = APP.target.code + "→" + BASE_CODE,
   DIR_REV = BASE_CODE + "→" + APP.target.code;
@@ -174,6 +176,7 @@ function mergeUsage(L, R) {
 function defaultState() {
   return {
     v: 1,
+    app: APP.id,
     created: Date.now(),
     updated: 0,
     topics: {},
@@ -184,6 +187,7 @@ function defaultState() {
     stats: { streak: 0, last: null, reviews: 0, sessions: 0 },
     settings: {
       newCardsPerDay: 10,
+      maxReviews: 150,
       extraCards: 10,
       newTopicsPerDay: 2,
       ai: true,
@@ -205,6 +209,7 @@ function defaultState() {
     practice: [],
     weak: [],
     exLog: {},
+    exLogSeed: 0,
     appErr: [],
     usage: {},
     longCheck: 0,
@@ -221,6 +226,7 @@ function defaultState() {
 function migrate() {
   const d = defaultState();
   for (const k in d) if (S[k] === undefined) S[k] = d[k];
+  S.app = APP.id;
   S.settings = { ...d.settings, ...S.settings };
   S.stats = { ...d.stats, ...S.stats };
   S.placement = { ...defaultPlacement(), ...(S.placement || {}) };
@@ -255,7 +261,27 @@ function migrate() {
   addOwnCards();
   seedDays();
   if (S.daily.date !== todayKey()) S.daily = { date: todayKey(), newCards: 0, newTopics: 0 };
+  seedExLog();
   refreshUnlocks();
+}
+/* Einmalig: vor Einführung des Übungsprotokolls Geübtes als gesehen nachtragen (Tabelle in APP.exSeenBefore).
+   Datum = letzte Themenrunde vor dem Stichtag; Übungen aus der Fehlerliste zählen als einmal falsch. Nie überschreiben. */
+function seedExLog() {
+  const sb = APP.exSeenBefore;
+  if (S.exLogSeed || !sb || !sb.n) return;
+  S.exLog = S.exLog || {};
+  for (const [tid, n] of Object.entries(sb.n)) {
+    const s = S.topics[tid],
+      before = ((s && s.hist) || []).filter(h => h.d < sb.at);
+    if (!before.length) continue;
+    const d = before[before.length - 1].d,
+      wrong = new Set((S.errors || []).filter(e => e.topic === tid && e.ei >= 0 && e.d < sb.at).map(e => e.ei));
+    for (let i = 0; i < n; i++) {
+      const k = tid + ":" + i;
+      if (!S.exLog[k]) S.exLog[k] = { s: d, n: 1, w: wrong.has(i) ? 1 : 0 };
+    }
+  }
+  S.exLogSeed = 1;
 }
 function hasProgress(x) {
   return !!(x && ((x.stats && x.stats.sessions) || Object.keys(x.cards || {}).length || placementCount(x)));
@@ -303,22 +329,32 @@ function writeLocal() {
     localStorage.setItem(KEY, txt);
   } catch (e) {
     if (e && e.name === "SecurityError") return; /* Speicher gesperrt (Hinweis kam schon beim Start), nicht „voll“ */
-    /* Speicher voll: ältere Sicherheitskopien opfern, der aktuelle Stand geht vor */
-    try {
-      Object.keys(localStorage)
-        .filter(k => k.startsWith(KEY + "-vor-"))
-        .forEach(k => localStorage.removeItem(k));
-      localStorage.setItem(KEY, txt);
-    } catch (e2) {
-      toast("Gerätespeicher voll – bitte Sicherung herunterladen");
+    /* Speicher voll: zuerst defekte Kopien und Sicherheitskopien opfern, die Rückgängig-Kopie vom Löschen zuletzt –
+       der aktuelle Stand geht vor (E-1007-68) */
+    appErrLog("Gerätespeicher", "voll – Sicherheitskopien werden entfernt");
+    const keys = Object.keys(localStorage),
+      drop = f => keys.filter(f).forEach(k => localStorage.removeItem(k));
+    for (const f of [
+      k => k.startsWith(KEY + "-defekt-"),
+      k => k.startsWith(KEY + "-vor-") && !k.endsWith("-vor-loeschen"),
+      k => k.endsWith("-vor-loeschen")
+    ]) {
+      try {
+        drop(f);
+        localStorage.setItem(KEY, txt);
+        return;
+      } catch (e2) {}
     }
+    toast("Gerätespeicher voll – bitte Sicherung herunterladen");
   }
 }
 /* Sicherheitskopie (z. B. "-vor-sync"); darf nie einen Fehler auslösen */
 function safeCopy(name, obj) {
   try {
     localStorage.setItem(KEY + name, JSON.stringify(obj));
-  } catch (e) {}
+  } catch (e) {
+    appErrLog("Sicherheitskopie " + name, e);
+  }
 }
 function readLocal() {
   try {
@@ -329,6 +365,10 @@ function readLocal() {
 }
 function save() {
   S.updated = Date.now();
+  /* geänderte Einstellungen merken – beim Abgleich gewinnt die neuere Fassung (E-1007-67) */
+  const st = JSON.stringify(S.settings || {});
+  if (SETTINGS_SNAP && st !== SETTINGS_SNAP) S.settingsAt = Date.now();
+  SETTINGS_SNAP = st;
   writeLocal();
   DIRTY = true;
   autoFileBackup();
@@ -338,7 +378,8 @@ function save() {
   }
   setSync("saving");
   clearTimeout(PUSH_TIMER);
-  PUSH_TIMER = setTimeout(() => pushCloud(), 1200);
+  /* während einer Runde seltener hochladen (der ganze Stand je Antwort war zu viel); beim Verlassen/Rundenende sofort */
+  PUSH_TIMER = setTimeout(() => pushCloud(), SESSION ? 30000 : 1200);
 }
 
 /* --- Supabase (direkt über REST, ohne Zusatzbibliothek) --- */
@@ -503,8 +544,10 @@ async function pushCloud(keepalive) {
           return;
         }
         if (hasProgress(S)) safeCopy("-vor-sync", S);
-        S = mergeStates(S, row.data);
-        migrate();
+        if (!sameApp(row.data) || !adoptState(() => mergeStates(S, row.data), "Abgleich (Zusammenführen)")) {
+          setSync("err");
+          return;
+        }
         applyTheme();
         S.updated = Date.now();
         writeLocal();
@@ -593,8 +636,34 @@ async function fetchRemote() {
 /* Ganzen Stand ersetzen (Sicherung einspielen, älteren Stand laden, Löschen rückgängig): erst prüfen, dann übernehmen.
    Schlägt die Prüfung fehl, bleibt der bisherige Stand. Die Merkzeichen für Löschen/Zurücksetzen bleiben bekannt, gelten
    aber nicht mehr (restored = jetzt) – sonst würde der Abgleich das Eingespielte gleich wieder entfernen. */
+/* Fremden Stand sicher übernehmen (E-1007-64): erst bauen (zusammenführen) und migrieren, bei einem Fehler bleibt der
+   bisherige Stand unverändert und der Fehler landet im Fehlerprotokoll (sonst wiederholte er sich bei jedem Start).
+   sameApp (E-1007-66): Daten einer anderen App (Opi suomea ↔ Deutsch-Trainer) werden nie übernommen. */
+let SETTINGS_SNAP = "";
+function sameApp(o) {
+  return !!o && typeof o === "object" && (!o.app || o.app === APP.id);
+}
+function adoptState(build, where) {
+  const prev = S;
+  try {
+    const n = build();
+    if (!n || typeof n !== "object" || !n.topics || typeof n.topics !== "object") throw new Error("ungültiger Stand");
+    S = n;
+    migrate();
+    SETTINGS_SNAP = JSON.stringify(S.settings || {});
+    return true;
+  } catch (e) {
+    S = prev;
+    try {
+      rebuildTopics();
+    } catch (x) {}
+    appErrLog(where, e);
+    return false;
+  }
+}
 function replaceState(o, copyName) {
   if (!o || typeof o !== "object" || !o.topics || typeof o.topics !== "object" || !o.cards) throw new Error("ungültig");
+  if (!sameApp(o)) throw new Error("Diese Daten gehören zu einer anderen App");
   const prev = S,
     n = JSON.parse(JSON.stringify(o));
   n.wiped = n.wiped || (prev && prev.wiped);
@@ -615,6 +684,7 @@ function replaceState(o, copyName) {
     throw e;
   }
   if (copyName && prev) safeCopy(copyName, prev);
+  SETTINGS_SNAP = JSON.stringify(S.settings || {});
   applyTheme();
   save();
 }
@@ -646,8 +716,8 @@ function mergeStates(L, R) {
   const okKeys = new Set([...(L.errors || []), ...(M.errors || [])].filter(e => e.ok).map(e => e.d + "|" + e.q));
   M.errors = uniq([...(L.errors || []), ...(M.errors || [])], e => e.d + "|" + e.q)
     .map(e => (okKeys.has(e.d + "|" + e.q) ? { ...e, ok: 1 } : e))
-    .sort((a, b) => b.d - a.d)
-    .slice(0, 80);
+    .sort((a, b) => b.d - a.d);
+  M.errors = capErrors(M.errors);
   M.reports = uniq([...(L.reports || []), ...(M.reports || [])], r => r.d)
     .sort((a, b) => b.d - a.d)
     .slice(0, 10);
@@ -671,7 +741,8 @@ function mergeStates(L, R) {
       date: M.daily.date,
       newCards: Math.max(L.daily.newCards, M.daily.newCards),
       newTopics: Math.max(L.daily.newTopics, M.daily.newTopics),
-      newRev: Math.max(L.daily.newRev || 0, M.daily.newRev || 0)
+      newRev: Math.max(L.daily.newRev || 0, M.daily.newRev || 0),
+      rev: Math.max(L.daily.rev || 0, M.daily.rev || 0)
     };
   /* Verschiedene Tage: der jüngere Tagesstand gilt (sonst setzte ein Gerät von gestern den heutigen Zähler auf 0) */ else if (
     L.daily &&
@@ -694,7 +765,10 @@ function mergeStates(L, R) {
   M.days = mergeDays(L.days, M.days);
   M.practice = mergePractice(L.practice, M.practice);
   M.weak = mergeWeak(L.weak, M.weak);
+  if ((L.settingsAt || 0) > (M.settingsAt || 0)) M.settings = { ...L.settings };
+  M.settingsAt = Math.max(L.settingsAt || 0, M.settingsAt || 0) || undefined;
   M.exLog = mergeExLog(L.exLog, M.exLog);
+  M.exLogSeed = Math.max(L.exLogSeed || 0, M.exLogSeed || 0);
   M.appErr = mergeAppErr(L.appErr, M.appErr);
   M.usage = mergeUsage(L.usage, M.usage);
   M.longCheck = Math.max(L.longCheck || 0, M.longCheck || 0);
@@ -833,6 +907,12 @@ function applyWipe(M, L, R) {
       else delete M.topics[id];
     }
   });
+  /* auch Themen ohne Runde (nur Status „neu“, Wörter-Fortschritt) und Zähler vom löschenden Gerät (E-1007-69) */
+  Object.keys(M.topics).forEach(id => {
+    if (topicAct(M.topics[id]) === 0 && src.topics && src.topics[id])
+      M.topics[id] = JSON.parse(JSON.stringify(src.topics[id]));
+  });
+  ["exStats", "listen"].forEach(k => (M[k] = JSON.parse(JSON.stringify(src[k] || {}))));
   dropOld(M, src, () => true, W);
   ["errors", "reports", "vhelp", "practice", "weak", "checkLog", "mixLog"].forEach(
     k => (M[k] = (M[k] || []).filter(x => !old(x.d)))
@@ -874,15 +954,18 @@ async function pullCloud() {
       const unsynced = hasProgress(S) && (DIRTY || (S.updated || 0) > (CFG.syncedAt || 0));
       CFG.remoteAt = ru;
       saveCfg();
+      if (!sameApp(remote)) {
+        setSync("err");
+        appErrLog("Abgleich", "Cloud-Daten gehören zu einer anderen App");
+        return false;
+      }
       if (unsynced) {
-        S = mergeStates(S, remote);
-        migrate();
+        if (!adoptState(() => mergeStates(S, remote), "Abgleich (Zusammenführen)")) return false;
         applyTheme();
         save();
         return true;
       }
-      S = remote;
-      migrate();
+      if (!adoptState(() => JSON.parse(JSON.stringify(remote)), "Abgleich (Übernehmen)")) return false;
       writeLocal();
       applyTheme();
       DIRTY = false;
@@ -916,8 +999,8 @@ async function firstLink() {
   if (remote && hasProgress(remote) && hasProgress(S)) {
     /* Beide haben Fortschritt (auch nur Einstufungstest): zusammenführen statt einen Stand zu ersetzen */
     safeCopy("-vor-sync", S); /* Zusammenführen verliert nichts; die Kopie bleibt für den Notfall */
-    S = mergeStates(S, remote);
-    migrate();
+    if (!sameApp(remote)) throw new Error("Diese Cloud-Daten gehören zu einer anderen App");
+    if (!adoptState(() => mergeStates(S, remote), "Erste Verbindung")) throw new Error("Cloud-Stand ungültig");
     applyTheme();
     CFG.remoteAt = Date.parse(
       row.updated_at
@@ -927,8 +1010,9 @@ async function firstLink() {
     return "merged";
   }
   if (remote && hasProgress(remote)) {
-    S = remote;
-    migrate();
+    if (!sameApp(remote)) throw new Error("Diese Cloud-Daten gehören zu einer anderen App");
+    if (!adoptState(() => JSON.parse(JSON.stringify(remote)), "Erste Verbindung"))
+      throw new Error("Cloud-Stand ungültig");
     writeLocal();
     applyTheme();
     DIRTY = false;
@@ -959,6 +1043,7 @@ async function load() {
     S = defaultState();
   }
   migrate();
+  SETTINGS_SNAP = JSON.stringify(S.settings || {});
   writeLocal();
   setSync(cloudOn() ? "load" : "local");
 }
@@ -1030,10 +1115,10 @@ window.addEventListener("storage", e => {
   } catch (x) {
     return;
   }
-  if (!o || typeof o.topics !== "object" || (o.updated || 0) <= (S.updated || 0)) return;
-  S = mergeStates(S, o);
+  if (!o || typeof o.topics !== "object" || (o.updated || 0) <= (S.updated || 0) || !sameApp(o)) return;
+  if (!adoptState(() => mergeStates(S, o), "Zweiter Tab")) return;
   S.updated = o.updated;
-  migrate();
+  writeLocal();
   DICT = null;
   if (!SESSION) {
     applyTheme();

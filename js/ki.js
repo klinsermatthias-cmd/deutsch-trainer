@@ -47,7 +47,15 @@ function aiErrText(e) {
 function aiErrShort() {
   return LAST_AI_ERR ? aiErrText(LAST_AI_ERR) : "keine Verbindung";
 }
+/* Prüfen, Korrigieren und Übungen erzeugen nie mit den schwächeren „lite“-Modellen (E-1007-54) – fällt das gute
+   Modell aus, gilt nur der Vergleich mit der Musterlösung */
+const STRICT_KINDS = ["pruefung", "schreibaufgabe", "dialog", "uebungen", "schreiben", "rollenspiel", "hoeren"];
 async function aiCall(system, user, opt = {}) {
+  if (opt.meta && STRICT_KINDS.includes(opt.meta.k)) {
+    opt.noLite = true;
+    /* Prüfungen: höchstens ca. 40 s insgesamt (2 Modelle × 20 s), dann gilt der Vergleich mit der Musterlösung */
+    if (!opt.timeout) opt.timeout = 20000;
+  }
   const a = CFG.ai || {};
   if (!a.key || !a.provider || a.provider === "none") throw aiErr("setup");
   if (!navigator.onLine) {
@@ -96,7 +104,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
    dauerhaft eingestellt). */
 const AI_DOWN_MS = 15 * 60000;
 function aiDownMark(m, kind) {
-  if (!["quota-day", "quota-min", "overload", "timeout"].includes(kind)) return;
+  if (!["quota-day", "quota-min", "overload", "timeout", "net"].includes(kind)) return;
   CFG.aiDown = CFG.aiDown || {};
   CFG.aiDown[m] = Date.now() + (kind === "quota-day" ? 6 * 3600e3 : AI_DOWN_MS);
   saveCfg();
@@ -110,8 +118,9 @@ if (CFG.ai && /lite/.test(CFG.ai.model || "") && !CFG.aiModelFix) {
 async function geminiCall(system, user, a, opt = {}) {
   const down = CFG.aiDown || {},
     all = opt.only ? [a.model] : [a.model, ...GEMINI_MODELS].filter((m, i, arr) => m && arr.indexOf(m) === i),
-    up = all.filter(m => !(down[m] > Date.now()));
-  const models = up.length ? up : all;
+    up = all.filter(m => !(down[m] > Date.now()) && !(opt.noLite && /lite/.test(m)));
+  const models = up.length ? up : all.filter(m => !(opt.noLite && /lite/.test(m)));
+  if (!models.length) throw aiErr("overload", "Kein geeignetes Modell verfügbar");
   const caps = CFG.aiCaps || (CFG.aiCaps = {});
   let worst = null;
   const rank = { "quota-day": 5, "quota-min": 4, overload: 3, timeout: 2, empty: 1, net: 1, unknown: 0 };
@@ -144,6 +153,8 @@ async function geminiCall(system, user, a, opt = {}) {
         e.model = m;
         if (e.kind === "offline") throw e;
         keep(e);
+        /* hängendes Modell vorübergehend überspringen, sonst wartet jede Prüfung wieder (E-1007-65) */
+        if (!opt.only) aiDownMark(m, e.kind);
         break;
       }
       if (res.ok) {
@@ -280,8 +291,14 @@ async function aiJSON(prompt, meta, temp) {
 }
 
 /* Genaue Erklärungen (E-1007-40): Gemini begründete Urteile oft falsch („es fehlt hän“, obwohl es dastand) */
-const EXPLAIN_RULE = () =>
-  `Begründe genau: Nenne den konkreten Unterschied zwischen der Antwort und der Lösung (welcher Buchstabe, welche Endung, welches Wort falsch ist oder fehlt). Prüfe vor dem Antworten, ob deine Begründung wirklich zur Antwort passt – behaupte nichts, was nicht stimmt. Beispiele nur mit Wörtern aus der Aufgabe oder einfachen, bekannten Wörtern; vermeide ${SP.explainAvoid || "Sonderfälle"}.`;
+const EXPLAIN_RULE = () => {
+  const t = typeof exTid === "function" ? T(exTid()) : null,
+    teachesIt = SP.explainTopic && t && SP.explainTopic.test(t.title + " " + (t.th || ""));
+  return `Begründung nur, wenn die Antwort falsch ist: Nenne den konkreten Unterschied zwischen Antwort und Lösung (welcher Buchstabe, welche Endung, welches Wort falsch ist oder fehlt) und prüfe, ob deine Begründung wirklich zur Antwort passt – behaupte nichts, was nicht stimmt. Ist die Antwort richtig, aber anders formuliert, sag kurz, dass beides geht. Beispiele nur mit Wörtern aus der Aufgabe oder einfachen, bekannten Wörtern${teachesIt ? "" : `; vermeide ${SP.explainAvoid || "Sonderfälle"}`}.`;
+};
+/* Gemeinsame Bewertungsregeln für alle Prüfungen (E-1007-51) – einheitliche Toleranz, keine erfundenen Regeln */
+const JUDGE_RULES = strict =>
+  `Bewertungsregeln: Gleichwertige Alternativen sind richtig, auch wenn sie nicht unter den Musterlösungen stehen. ${SP.tolerance || ""} Groß-/Kleinschreibung und fehlende Satzzeichen zählen nicht. Ein kleiner Tippfehler, der kein anderes Wort und keine andere Form ergibt, ist richtig (mit kurzem Hinweis). ${SP.judge.trim()}${strict ? SP.strict : ""} Erfinde keine Regeln und begründe nur mit Regeln, die wirklich gelten. Im Zweifel ist die Antwort richtig. Eine Korrektur darf nie falscher sein als die Antwort und ändert nur, was wirklich falsch ist.`;
 async function aiJudge(ex, user) {
   const t = { title: topicTitleNow() || "" };
   const kind =
@@ -291,13 +308,18 @@ async function aiJudge(ex, user) {
         ? "Übersetzung " + APP.base.name + " → " + APP.target.name
         : "Übersetzung " + APP.target.name + " → " + APP.base.name;
   const sol = solutionText(ex);
+  /* Lückentext: was in die Lücke gehört und wie der Satz mit der Eingabe aussieht (sonst „fehlt hän“-Begründungen) */
+  const gapInfo =
+    ex.t === "gap"
+      ? `\nIn die Lücke gehört: ${ex.a.join(" | ")}\nSatz mit der Eingabe von ${APP.learner}: "${user.includes(" ") && norm(user).length > norm(ex.a[0]).length + 3 ? user : ex.q.replace("___", user)}"`
+      : "";
   const p = `Thema: ${t.title}
 Aufgabentyp: ${kind}
 Aufgabe: ${promptText(ex)}
 Musterlösung(en): ${sol}
-Antwort von ${APP.learner}: "${user}"
+Antwort von ${APP.learner}: "${user}"${gapInfo}
 
-Bewerte streng, aber fair. Korrekt sind auch gleichwertige Alternativen (andere passende Wortwahl, weggelassenes Personalpronomen, Groß-/Kleinschreibung, fehlende Satzzeichen). Ein kleiner Tippfehler, der kein anderes Wort und keine andere Form ergibt, zählt als korrekt mit Hinweis. ${SP.judge.trim()}${ex.s ? SP.strict : ""} ${EXPLAIN_RULE()}
+${JUDGE_RULES(ex.s)} ${EXPLAIN_RULE()}
 JSON: {"correct": true oder false, "feedback": "1–2 kurze Sätze auf ${APP.explain}: warum richtig/falsch", "correction": "die richtige Lösung"}`;
   const meta = { k: "pruefung" },
     j = await aiJSON(p, meta);
@@ -495,17 +517,55 @@ function basicsStatus() {
 function genUnlocked() {
   return !!(S.genUnlock && S.genUnlock.on);
 }
-/* Theorie eines Themas als reiner Text (für KI-Aufträge), gekürzt */
+/* Theorie eines Themas als reiner Text (für KI-Aufträge), gekürzt. Statt einfach den Anfang zu nehmen (oft Situation
+   und Landeskunde), werden die Regel-Teile bevorzugt: Regel-Kästen, Tabellen, „Typischer Fehler“; Tipps und die
+   Situationsbeschreibung zuletzt. Ausgabe in der ursprünglichen Reihenfolge (E-1007-55). */
 function theoryText(t, max) {
-  return String(t.th || "")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, max);
+  const plain = x =>
+    String(x || "")
+      .replace(/<\/(td|th)>/g, " ")
+      .replace(/<\/tr>/g, "; ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  const parts = String(t.th || "").split(/(?=<(?:p|h3|h4|table|ul|ol|div)[\s>])/i);
+  const blocks = [];
+  parts.forEach(p => {
+    if (/^<h[34]/i.test(p) && blocks.length >= 0) blocks.push({ h: plain(p), x: "" });
+    else if (blocks.length && blocks[blocks.length - 1].h && !blocks[blocks.length - 1].x)
+      blocks[blocks.length - 1].x = p;
+    else blocks.push({ h: "", x: p });
+  });
+  const sc = b => {
+    const raw = b.x + " " + b.h;
+    let v = 0;
+    if (/class="rule"/i.test(raw)) v += 5;
+    if (/regel|merke|achtung|fehler|endung|form|konjug|tabelle/i.test(plain(raw))) v += 2;
+    if (/<table/i.test(raw)) v += 1;
+    if (/class="tip"/i.test(raw)) v -= 2;
+    if (/^<p>\s*Situation/i.test(b.x)) v -= 1;
+    return v;
+  };
+  const items = blocks.map((b, i) => ({ i, t: plain((b.h ? b.h + ": " : "") + b.x), v: sc(b) })).filter(b => b.t);
+  const chosen = new Set();
+  let len = 0;
+  [...items]
+    .sort((a, b) => b.v - a.v || a.i - b.i)
+    .forEach(b => {
+      if (len + b.t.length + 1 <= max) {
+        chosen.add(b.i);
+        len += b.t.length + 1;
+      }
+    });
+  const out = items
+    .filter(b => chosen.has(b.i))
+    .map(b => b.t)
+    .join(" ");
+  return out || plain(t.th).slice(0, max);
 }
 async function aiGenerate(t) {
   /* dieselbe Wortliste wie beim freien Üben: Thema, Voraussetzungen, alle gelernten Themen, eigene Wörter */
-  const voc = knownWords(t).join("; ");
+  const voc = knownWords(t, true).join("; ");
   const weak =
     S.errors
       .filter(e => e.topic === t.id && !e.ok)
@@ -712,8 +772,8 @@ Der Spaced-Repetition-Algorithmus schlägt die nächste Wiederholung in ${baseDa
 Theorie des Themas (Auszug, für die Erklärung der Fehler): ${theoryText(t, 600) || "–"}
 Beim Feedback zu den Fehlern: ${EXPLAIN_RULE()}
 
-Entscheide als Lehrkraft, wann das Thema wiederholt wird: Unsicheres früher (1–2 Tage), Solides später. Weiche vom Vorschlag ab, wenn Fehler oder Verlauf es nahelegen – höchstens ${topicIvMax(score, baseDays)} Tage.
-JSON: {"feedback":"2–3 Sätze ehrliches, persönliches Feedback auf ${APP.explain}, Fehler konkret erklären","tips":["bis zu 3 kurze, konkrete Tipps"],"intervalDays": Ganzzahl 1–${topicIvMax(score, baseDays)},"reason":"1 kurzer Satz, warum dieser Abstand"}`;
+Entscheide als Lehrkraft, wann das Thema wiederholt wird: Unsicheres früher (1–2 Tage), Solides später. Weiche vom Vorschlag ab, wenn Fehler oder Verlauf es nahelegen – höchstens ${topicIvMax(score, baseDays, s.reps)} Tage.
+JSON: {"feedback":"2–3 Sätze ehrliches, persönliches Feedback auf ${APP.explain}, Fehler konkret erklären","tips":["bis zu 3 kurze, konkrete Tipps"],"intervalDays": Ganzzahl 1–${topicIvMax(score, baseDays, s.reps)},"reason":"1 kurzer Satz, warum dieser Abstand"}`;
   const meta = { k: "auswertung" },
     j = await aiJSON(p, meta);
   j._aid = aiAudit("auswertung", meta, {
@@ -795,7 +855,7 @@ function progressSummary(forReport) {
     const s = S.topics[t.id];
     if (s.status === "learning")
       L.push(
-        `- ${t.id} ${t.title}: zuletzt ${pct(s.last)}, bestes ${pct(s.best)}, Wdh ${s.reps}, Fehlschläge ${s.lapses}, nächste ${fmtDate(s.due)}, Verlauf ${s.hist
+        `- ${t.id} ${t.title}: zuletzt ${pct(s.last)}, bestes ${pct(s.best)}, Wdh ${s.reps}, Fehlschläge ${s.lapses}, Abstand ${s.interval || 0} T., nächste ${fmtDate(s.due)} (${relDays(s.due)}), Verlauf ${s.hist
           .slice(-5)
           .map(h => h.sc + "%")
           .join(" → ")}`
@@ -868,17 +928,33 @@ function progressSummary(forReport) {
     L.push(
       `\nEIGENE WÖRTER: ${ow.length} selbst angelegt, ${ow.filter(n => S.cards["own-" + n] && !S.cards["own-" + n].isNew).length} davon schon gelernt`
     );
+  const stuck = TOPICS.filter(t => (S.topics[t.id].unlockFails || 0) >= 3);
+  if (stuck.length)
+    L.push(
+      "\nSTOCKT (Freischaltung scheitert wiederholt – bitte gezielte Förderübungen/Erklärungen):\n" +
+        stuck
+          .map(t => {
+            const blocked = TOPICS.filter(x => x.req.includes(t.id) && S.topics[x.id].status === "locked").map(
+              x => x.id
+            );
+            return `- ${t.id} ${t.title}: ${S.topics[t.id].unlockFails} Versuche hintereinander unter 80 % (zuletzt ${pct(S.topics[t.id].last)})${blocked.length ? `, sperrt ${blocked.join(", ")}` : ""}`;
+          })
+          .join("\n")
+    );
   const hx = hardExercises(15);
   if (hx.length) L.push("\nSCHWIERIGE ÜBUNGEN (dauerhaft oft falsch, aus dem Übungsprotokoll):\n" + hx.join("\n"));
   const rx = roundsLine();
   if (rx) L.push("\n" + rx);
-  const er = S.errors.slice(0, 20);
+  /* Für die KI nur offene Fehler (gelöste kosten nur Tokens, E-1007-77); der Bericht für Claude zeigt beide */
+  const open = new Set(openErrors().map(o => errKey(o.e))),
+    er = S.errors.filter(e => forReport || open.has(errKey(e))).slice(0, 20),
+    solvedN = S.errors.slice(0, 20).filter(e => !open.has(errKey(e))).length;
+  if (!forReport && solvedN) L.push(`\n(${solvedN} der letzten Fehler sind im Fehler-Training schon gelöst.)`);
   if (er.length) {
-    L.push("\nLETZTE FEHLER:");
-    const open = new Set(openErrors().map(o => errKey(o.e)));
+    L.push(forReport ? "\nLETZTE FEHLER:" : "\nOFFENE FEHLER:");
     er.forEach(e =>
       L.push(
-        `- [${e.topic}] ${e.q} → „${e.user}“ (richtig: ${e.exp}) ${open.has(errKey(e)) ? "– offen" : "– ✓ gelöst"}`
+        `- [${e.topic}] ${e.q} → „${e.user}“ (richtig: ${e.exp}${e.fix ? `; KI-Korrektur: ${e.fix}` : ""}) ${open.has(errKey(e)) ? "– offen" : "– ✓ gelöst"}`
       )
     );
   }
@@ -894,7 +970,7 @@ async function aiGlobal() {
 
 ${progressSummary()}
 
-Analysiere den Fortschritt wie eine erfahrene ${APP.teacherKind}. Schätze das Niveau (z. B. ${APP.levelHint}), erkenne Muster in Fehlern und vergessenen Wörtern und plane Wiederholungen neu, wo es sinnvoll ist (nur diese Themen-IDs: ${ids}; schwache Themen früher, sehr sichere ruhig später).
+Analysiere den Fortschritt wie eine erfahrene ${APP.teacherKind}. Schätze das Niveau (z. B. ${APP.levelHint}), erkenne Muster in Fehlern und vergessenen Wörtern und ziehe Wiederholungen vor, wo es sinnvoll ist (nur diese Themen-IDs: ${ids}; höchstens 4 Themen, nur mit klarer Begründung aus Fehlern oder Verlauf). Termine können nur vorgezogen werden – „days“ = in wie vielen Tagen ab heute; Themen, die nach Plan gut liegen, nicht aufführen. Heute ist der ${fmtDate(Date.now())}.
 Halte jeden Text kurz (Listen höchstens 3 Punkte mit je max. 12 Wörtern), damit die Antwort vollständig bleibt.
 Beurteile auch die Fertigkeiten Lesen (Lesetexte), Schreiben (Schreibaufgaben, freies Schreiben) und Gesprächsfähigkeit (Dialoge, Rollenspiel), soweit Daten dazu vorliegen; ohne Daten schreibe „noch keine Daten“.
 Entscheide außerdem streng, ob die Grundlagen (Themen ${basicIds().join(", ") || "noch keine"}) über mehrere Wiederholungen sicher sitzen. Nur dann bekommt ${APP.learner} frei erzeugte Zusatzübungen. Im Zweifel false.
@@ -909,6 +985,18 @@ JSON: {"level":"…","summary":"2 Sätze","strengths":["…"],"weaknesses":["…
   return j;
 }
 
+/* Die Gesamtanalyse darf Themen nur VORZIEHEN (höchstens 4) – nie nach hinten schieben und nie den Abstand des Plans
+   verändern (E-1007-56). Früher schob sie Themen endlos hinaus oder hielt eines dauerhaft auf 1 Tag. */
+function applyReschedule(list) {
+  (Array.isArray(list) ? list : []).slice(0, 4).forEach(r => {
+    const s = S.topics[r && r.topicId],
+      d = clampInt(r && r.days, 1, 60);
+    if (s && s.status === "learning" && d && (!s.due || addDays(d) < s.due)) {
+      s.due = addDays(d);
+      s.ai = { ...(s.ai || {}), reason: "Gesamtanalyse: " + (r.reason || "") };
+    }
+  });
+}
 async function runGlobal(silent) {
   if (GLOBAL_RUNNING) return;
   if (!aiReady()) {
@@ -926,17 +1014,7 @@ async function runGlobal(silent) {
   }
   try {
     const j = await aiGlobal();
-    (j.reschedule || []).forEach(r => {
-      const s = S.topics[r.topicId];
-      /* gleiche Grenzen wie nach einer Runde: schwache Themen nie weit nach hinten schieben */
-      const d = s ? topicIv(r.days, s.last ?? 0, Math.max(1, s.interval || 1)) : 0;
-      if (s && s.status === "learning" && d) {
-        s.due = addDays(d);
-        /* nur verkürzen übernimmt die Gesamtanalyse in den Abstand – sonst schaukelte sich der Abstand ohne Üben auf */
-        if (d < (s.interval || 0)) s.interval = d;
-        s.ai = { ...(s.ai || {}), reason: "Gesamtanalyse: " + (r.reason || "") };
-      }
-    });
+    applyReschedule(j.reschedule);
     const aid = j._aid;
     delete j._aid;
     S.reports.unshift({ ...j, d: Date.now(), aid });
@@ -948,7 +1026,7 @@ async function runGlobal(silent) {
     S.lastGlobal = Date.now();
     S.sinceGlobal = 0;
     save();
-    if (!SESSION && (CUR.tab === "today" || CUR.tab === "progress")) render();
+    if (!SESSION && (CUR.tab === "today" || CUR.tab === "progress" || CUR.tab === "settings")) render();
     toast(APP.teacher + " hat deinen Lernplan aktualisiert");
   } catch (e) {
     GLOBAL_FAILED_AT = Date.now();
@@ -1102,7 +1180,7 @@ async function askExercise() {
   const q = inp.value.trim();
   if (!q) return;
   if (!aiReady()) {
-    box.innerHTML = `<p class="muted">${APP.teacher} ist noch nicht eingerichtet (${APP.tabs[3][0]} → „Cloud & KI einrichten“).</p>`;
+    box.innerHTML = `<p class="muted">${APP.teacher} ist noch nicht eingerichtet (${SET_NAME} → „Cloud & KI einrichten“).</p>`;
     return;
   }
   const ex = se.items[se.idx],
@@ -1127,7 +1205,7 @@ async function askExercise() {
         APP.target.adj +
         "en Beispielen. Verwende kein Markdown außer **fett**. " +
         rule,
-      `Thema: ${t.title}\nAufgabe: ${exDescribe(ex)}\nMusterlösung (nur für dich): ${sol}${last ? `\nAntwort von ${APP.learner}: ${last.user} (${last.correct ? "richtig" : "falsch"})` : ""}\n\nFrage von ${APP.learner}: ${q}`,
+      `Thema: ${t.title}\nTheorie (Auszug): ${t.th ? theoryText(t, 500) : "–"}\nAufgabe: ${exDescribe(ex)}\nMusterlösung (nur für dich): ${sol}${last ? `\nAntwort von ${APP.learner}: ${last.user} (${last.correct ? "richtig" : "falsch"})` : ""}\n\nFrage von ${APP.learner}: ${q}`,
       { meta }
     );
     if (SESSION !== se) return;
@@ -1156,7 +1234,7 @@ async function askVocab() {
   const q = inp.value.trim();
   if (!q) return;
   if (!aiReady()) {
-    box.innerHTML = `<p class="muted">${APP.teacher} ist noch nicht eingerichtet (${APP.tabs[3][0]} → „Cloud & KI einrichten“).</p>`;
+    box.innerHTML = `<p class="muted">${APP.teacher} ist noch nicht eingerichtet (${SET_NAME} → „Cloud & KI einrichten“).</p>`;
     return;
   }
   box.innerHTML = `<p class="muted">${APP.teacher} denkt nach ${dots()}</p>`;
@@ -1170,7 +1248,7 @@ async function askVocab() {
         ", mit korrekten " +
         APP.target.adj +
         "en Beispielen. Verwende kein Markdown außer **fett**. Die Lösung der Karte ist schon aufgedeckt – du darfst sie frei erklären (z. B. Grundform, Beispielsatz, Merkhilfe, Unterschied zu ähnlichen Wörtern).",
-      `Vokabelkarte (${dirL}): ${APP.target.name} „${w[0]}“ = ${APP.base.name} „${w[1]}“${se.typed ? `\nEingabe von ${APP.learner}: „${se.typed}“` : ""}\n\nFrage von ${APP.learner}: ${q}`,
+      `Keine erfundenen Wortherkünfte; eine Merkhilfe als Eselsbrücke kennzeichnen. Beispielsätze nur einfach und korrekt.\nVokabelkarte (${dirL}): ${APP.target.name} „${w[0]}“ = ${APP.base.name} „${w[1]}“${se.typed ? `\nEingabe von ${APP.learner}: „${se.typed}“` : ""}\n\nFrage von ${APP.learner}: ${q}`,
       { meta }
     );
     if (SESSION !== se || se.queue[0] !== id) return;
@@ -1206,7 +1284,7 @@ async function askTeacher(id) {
         ", mit korrekten " +
         APP.target.adj +
         "en Beispielen. Verwende kein Markdown außer **fett**.",
-      `Aktuelles Thema: ${t.title}. Frage von ${APP.learner}: ${q}`,
+      `Aktuelles Thema: ${t.title} (${t.lvl || ""}).\nTheorie (Auszug): ${theoryText(t, 500) || "–"}\nBeantworte die Frage mit dem, was ${APP.learner} schon gelernt hat; Weiterführendes nur kurz als Ausblick kennzeichnen. Nenne nur Regeln, die wirklich gelten – erfinde nichts.\n\nFrage von ${APP.learner}: ${q}`,
       { meta }
     );
     const aid = aiAudit("frage", meta, { q: `${t.id}: ${q}`, r: ans, rmax: 900 });

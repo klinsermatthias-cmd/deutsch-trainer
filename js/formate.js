@@ -61,8 +61,34 @@ function trRender(ex) {
 const ansText = () => ($("#ans").value || "").trim();
 
 /* ---------- Satz ordnen: {t:"ord", w:[Wörter], a:"Satz", de:"Bedeutung"} ---------- */
+/* Großschreibung verrät nicht das erste Wort (E-1007-76): das Satzanfangswort klein zeigen – außer Wörter, die
+   im Wortschatz großgeschrieben stehen (Namen, Länder, deutsche Nomen). Satzzeichen kommen in die Lösung. */
+let CAPS = null,
+  CAPS_N = -1;
+function capsWords() {
+  if (CAPS && CAPS_N === TOPICS.length) return CAPS;
+  CAPS = new Set();
+  CAPS_N = TOPICS.length;
+  TOPICS.forEach(t =>
+    t.v.forEach(([fi]) =>
+      String(fi)
+        .split(/[\s/(),]+/)
+        .forEach(w => /^\p{Lu}/u.test(w) && CAPS.add(w))
+    )
+  );
+  return CAPS;
+}
+function ordChip(w, first) {
+  return first && /^\p{Lu}\p{Ll}/u.test(w) && !capsWords().has(w) ? w[0].toLowerCase() + w.slice(1) : w;
+}
+function ordFull(ex) {
+  const a = String(ex.a).trim();
+  if (/[.!?…]$/.test(a)) return a;
+  return a + (/\?\s*$/.test(ex.de || "") ? "?" : /!\s*$/.test(ex.de || "") ? "!" : ".");
+}
 function ordRender(ex, se) {
-  se.cur = { chips: shuffle(ex.w), picked: [] };
+  const first = String(ex.a).trim().split(/\s+/)[0];
+  se.cur = { chips: shuffle(ex.w.map(w => ordChip(w, w === first))), picked: [] };
   return `<div class="ask">Bilde den ${APP.target.adj}en Satz</div><div class="q">${esc(ex.de)}</div>${hintHTML(ex)}<div id="ordarea"></div>${BTN_ROW}`;
 }
 function renderOrd() {
@@ -70,7 +96,7 @@ function renderOrd() {
     box = $("#ordarea");
   if (!box) return;
   const lock = SESSION.locked;
-  box.innerHTML = `<div class="ordline">${c.picked.length ? c.picked.map((ci, pi) => `<button class="chip on" ${lock ? "disabled" : `data-act="unpick" data-id="${pi}"`}>${esc(c.chips[ci])}</button>`).join("") : '<span class="ph">Tippe die Wörter in der richtigen Reihenfolge an</span>'}</div><div class="chips">${c.chips.map((w, i) => (c.picked.includes(i) ? `<span class="chip ghost">${esc(w)}</span>` : `<button class="chip" ${lock ? "disabled" : `data-act="pick" data-id="${i}"`}>${esc(w)}</button>`)).join("")}</div>`;
+  box.innerHTML = `<div class="ordline">${c.picked.length ? c.picked.map((ci, pi) => `<button class="chip on" ${lock ? "disabled" : `data-act="unpick" data-id="${pi}"`}>${esc(pi ? c.chips[ci] : ucFirst(c.chips[ci]))}</button>`).join("") : '<span class="ph">Tippe die Wörter in der richtigen Reihenfolge an</span>'}</div><div class="chips">${c.chips.map((w, i) => (c.picked.includes(i) ? `<span class="chip ghost">${esc(w)}</span>` : `<button class="chip" ${lock ? "disabled" : `data-act="pick" data-id="${i}"`}>${esc(w)}</button>`)).join("")}</div>`;
 }
 
 /* ---------- Tabelle mit Lücken: {t:"tab", q, head?, r:[[…,"[Lösung|Alternative]"]]} ----------
@@ -223,7 +249,7 @@ Aufgabe: ${ex.q}${ex.w && ex.w.length ? `\nZu verwendende Wörter: ${ex.w.join("
 Musterlösung(en) (nur Beispiele, andere Lösungen sind gleichwertig): ${ex.a.join(" | ")}
 Text von ${APP.learner}: "${user}"${weakAsk()}
 
-Bewerte: Ist die Aufgabe inhaltlich erfüllt und der Text sprachlich korrekt (Grammatik, Wortwahl, Endungen)? Kleine Tippfehler, die kein anderes Wort und keine andere Form ergeben, und fehlende Satzzeichen zählen nicht. Andere Formulierungen als die Musterlösung sind richtig, wenn sie passen. ${SP.judge.trim()} ${EXPLAIN_RULE()}
+Bewerte: Ist die Aufgabe inhaltlich erfüllt und der Text sprachlich korrekt (Grammatik, Wortwahl, Endungen)? ${JUDGE_RULES(ex.s)} ${EXPLAIN_RULE()}
 JSON: {"correct": true oder false, "feedback": "1–3 kurze Sätze auf ${APP.explain}: was gut ist, welche Fehler und warum", "correction": "der Text mit allen Fehlern korrigiert (so nah wie möglich am Original)"${WEAK_TAGS ? ", " + WEAK_FIELD : ""}}`;
   const meta = { k: "schreibaufgabe" },
     j = await aiJSON(p, meta),
@@ -264,7 +290,15 @@ function dlgMark(ex, ok, show, fix) {
     inp.disabled = true;
     if (show && !inp.value) inp.placeholder = "";
     inp.classList.add(ok[k] ? "ok" : "no");
-    const sol = (fix && fix[k]) || (!ok[k] ? gaps[k][0] : "");
+    /* falsche Zeile: immer die Musterlösung; ein KI-Vorschlag nur zusätzlich und als solcher gekennzeichnet (E-1007-50) */
+    const sol = !ok[k] ? gaps[k][0] : "",
+      f = (fix && fix[k]) || {},
+      ai = f.c && norm(f.c) !== norm(sol) ? f.c : "";
+    if (ai || f.why)
+      inp.insertAdjacentHTML(
+        "afterend",
+        `<span class="sol muted">${APP.teacher}: ${ai ? glossWords(ai) : ""}${ai && f.why ? " – " : ""}${esc(f.why || "")}</span>`
+      );
     if (sol) inp.insertAdjacentHTML("afterend", `<span class="sol">${spk(sol)}${glossWords(sol)}</span>`);
   });
 }
@@ -284,8 +318,8 @@ Gespräch:
 ${conv}
 Musterlösungen der zu prüfenden Zeilen: ${lines.map(l => `ZEILE ${l.n}: ${l.acc.join(" | ")}`).join("; ")}${weakAsk()}
 
-Bewerte jede markierte ZEILE: Passt sie ins Gespräch, erfüllt sie die Aufgabe und ist sie sprachlich korrekt? Gleichwertige Alternativen, weggelassene Personalpronomen, Groß-/Kleinschreibung, fehlende Satzzeichen und kleine Tippfehler, die kein anderes Wort ergeben, zählen als richtig. ${SP.judge.trim()} ${EXPLAIN_RULE()}
-JSON: {"lines": [{"n": Zeilennummer, "correct": true oder false, "correction": "richtige Fassung, möglichst nah am Original"}], "feedback": "1–2 kurze Sätze auf ${APP.explain}"${WEAK_TAGS ? ", " + WEAK_FIELD : ""}}`;
+Bewerte jede markierte ZEILE: Passt sie ins Gespräch, erfüllt sie die Aufgabe und ist sie sprachlich korrekt? ${JUDGE_RULES(ex.s)} ${EXPLAIN_RULE()}
+JSON: {"lines": [{"n": Zeilennummer, "correct": true oder false, "correction": "richtige Fassung, möglichst nah am Original", "why": "nur wenn falsch: 1 kurzer Satz, was genau falsch ist"}], "feedback": "1–2 kurze Sätze auf ${APP.explain}"${WEAK_TAGS ? ", " + WEAK_FIELD : ""}}`;
   const meta = { k: "dialog" },
     j = await aiJSON(p, meta);
   const okN = new Set((j.lines || []).filter(x => x.correct).map(x => +x.n)),
@@ -328,7 +362,9 @@ async function dlgCheck(se, ex) {
         const l = open.find(o => o.n === +x.n);
         if (!l) return;
         if (x.correct) ok[l.k] = true;
-        if (x.correction && norm(x.correction) !== norm(l.user)) fix[l.k] = x.correction;
+        if (x.correction && norm(x.correction) !== norm(l.user))
+          fix[l.k] = { c: String(x.correction), why: String(x.why || "") };
+        else if (!x.correct && x.why) fix[l.k] = { c: "", why: String(x.why) };
       });
       res = { ai: j.feedback, aid: j._aid };
     } catch (e) {
@@ -391,7 +427,7 @@ const FMT = {
       se.cur.picked.length && textCheck(se, ex, se.cur.picked.map(i => se.cur.chips[i]).join(" "), [ex.a], null),
     dunno: renderOrd,
     prompt: ex => ex.de,
-    expected: ex => ex.a,
+    expected: ex => ordFull(ex),
     target: () => true,
     describe: ex => `Satz ordnen (${ex.de}) aus den Wörtern: ${ex.w.join(" / ")}`
   },
@@ -458,6 +494,7 @@ const FMT = {
     expected: ex => ex.a[0],
     solution: ex => ex.a.join(" | "),
     target: () => true,
+    ownFix: true,
     fbLabel: res => (res.correction ? "Korrigiert:" : "Musterlösung:"),
     fbExtra: (ex, exp) =>
       ex.a.length && norm(exp) !== norm(ex.a[0])

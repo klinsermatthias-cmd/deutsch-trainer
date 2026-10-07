@@ -5,13 +5,17 @@
 const CHAT_TURNS = 10;
 
 /* Was die KI über das Thema wissen muss: Situation, Theorie (gekürzt) und der Wortschatz, den der/die Lernende schon
-   kennt – aktuelles Thema und Voraussetzungen zuerst, dann alle anderen gelernten Themen und die eigenen Wörter.
+   kennt. Beim freien Üben nur Thema und Voraussetzungen (E-1007-77: spart Tokens und hält Szenen beim Thema);
+   all = true zusätzlich alle anderen gelernten Themen und die eigenen Wörter (neue Übungen von der KI).
    Die KI soll NUR diese Wörter verwenden (WORD_RULE); ein unvermeidbares neues Wort nennt sie in "new". */
-function knownWords(t) {
-  const ids = [t.id, ...(t.req || [])];
-  TOPICS.forEach(x => {
-    if (!ids.includes(x.id) && S.topics[x.id] && S.topics[x.id].status === "learning") ids.push(x.id);
-  });
+function knownWords(t, all) {
+  /* Thema und alle Voraussetzungen, auch indirekte (Voraussetzungen der Voraussetzungen) */
+  const ids = [t.id];
+  for (let i = 0; i < ids.length; i++) ((T(ids[i]) || {}).req || []).forEach(r => ids.includes(r) || ids.push(r));
+  if (all)
+    TOPICS.forEach(x => {
+      if (!ids.includes(x.id) && S.topics[x.id] && S.topics[x.id].status === "learning") ids.push(x.id);
+    });
   const seen = new Set(),
     out = [];
   const add = (fi, de) => {
@@ -22,7 +26,7 @@ function knownWords(t) {
     }
   };
   ids.forEach(id => (T(id) ? T(id).v : []).forEach(w => add(w[0], w[1])));
-  ownKeys().forEach(n => add(S.own[n].fi, S.own[n].de));
+  if (all) ownKeys().forEach(n => add(S.own[n].fi, S.own[n].de));
   return out.slice(0, 320);
 }
 /* Korrekte Beispielsätze des Themas und seiner Voraussetzungen (Lösungen der Übersetzungen in die Lernsprache und der
@@ -39,12 +43,10 @@ function practiceModels(t) {
   );
   return shuffle(out).slice(0, 8);
 }
-function practiceContext(t) {
-  const th = theoryText(t, 900);
+/* o.theory = false: ohne Theorie (Rollenspiel nach dem Start), o.words = false: ohne Wortliste (Korrektur) – E-1007-77 */
+function practiceContext(t, o = {}) {
   const rep = S.reports[0];
-  return `Thema: ${t.title} (${t.fi}), Niveau ${t.lvl || "?"}${rep && rep.level ? `; geschätztes Niveau von ${APP.learner}: ${rep.level}` : ""}
-Theorie (Auszug): ${th}
-WORTLISTE – alle Wörter, die ${APP.learner} kennt: ${knownWords(t).join("; ")}`;
+  return `Thema: ${t.title} (${t.fi}), Niveau ${t.lvl || "?"}${rep && rep.level ? `; geschätztes Niveau von ${APP.learner}: ${rep.level}` : ""}${o.theory === false ? "" : `\nTheorie (Auszug): ${theoryText(t, 900)}`}${o.words === false ? "" : `\nWORTLISTE – die Wörter dieses Themas und seiner Voraussetzungen, die ${APP.learner} kennt: ${knownWords(t).join("; ")}`}`;
 }
 const WORD_ONLY = `Verwende auf ${APP.target.name} NUR Wörter aus der WORTLISTE (in passenden Formen, die die Theorie erklärt) und Eigennamen. Kein anderes Wort, auch keine Redewendung, die nicht in der Liste steht.`;
 const WORD_RULE =
@@ -56,13 +58,11 @@ const WORD_RULE =
 const PRACTICE_TWISTS = [
   "etwas ist gerade nicht da oder ausverkauft",
   "jemand hat es eilig",
-  "ein Freund oder eine Freundin ist dabei",
   "es gibt ein kleines Missverständnis",
   "es ist früh am Morgen oder spät am Abend",
   "jemand fragt nach einer Alternative",
   "jemand ist zum ersten Mal hier",
-  "jemand möchte etwas für eine andere Person",
-  "jemand fragt höflich nach, weil er etwas nicht verstanden hat",
+  "du fragst höflich nach, weil du etwas nicht verstanden hast",
   "es geht um eine Zahl, eine Uhrzeit oder einen Preis"
 ];
 const PRACTICE_MIN = 0.8;
@@ -85,16 +85,17 @@ function practiceReady(id) {
 }
 function practiceVariety(t, k) {
   const known = new Map(knownWords(t).map(x => [norm(x.split(" = ")[0]), x.split(" = ")[0]]));
-  const weak = weakCards()
+  /* nur Wörter des Themas und schwache Wörter – beliebige Wörter aus anderen Themen ergaben unpassende Szenen (E-1007-53) */
+  const topicW = new Set(t.v.map(w => norm(w[0]))),
+    weak = weakCards()
       .map(([id]) => cardWord(id)[0])
       .filter(w => known.has(norm(w))),
-    own = shuffle(t.v.map(w => w[0])),
-    rest = shuffle([...known.values()]);
-  const pick = [...new Set([...shuffle(weak).slice(0, 2), ...own.slice(0, 2), ...rest])].slice(0, 5);
+    own = shuffle(t.v.map(w => w[0]));
+  const pick = [...new Set([...shuffle(weak.filter(w => topicW.has(norm(w)))).slice(0, 2), ...own])].slice(0, 4);
   const recent = practiceRecent(t.id, k),
     twist = PRACTICE_TWISTS[Math.floor(Math.random() * PRACTICE_TWISTS.length)];
   return `
-ABWECHSLUNG: Baue diese Wörter ein (in passenden Formen): ${pick.join(", ")}. Wendung, falls sie zur Situation passt: ${twist}.${recent.length ? `\nSCHON GESTELLT (nicht wiederholen, andere Situation/Person/Ort wählen):\n${recent.map(x => "- " + x).join("\n")}` : ""}`;
+ABWECHSLUNG: Nutze davon die Wörter, die natürlich in die Situation passen (in passenden Formen): ${pick.join(", ")}. Wendung, nur falls sie natürlich passt: ${twist}. Keine dritte Person ohne klaren Bezug, keine Grammatik, die über die Theorie hinausgeht.${recent.length ? `\nSCHON GESTELLT (nicht wiederholen, andere Situation/Person/Ort wählen):\n${recent.map(x => "- " + x).join("\n")}` : ""}`;
 }
 /* Neue Wörter, die die KI trotzdem benutzt hat: für das Antippen merken (ohne erneute KI-Anfrage) und anzeigen */
 function practiceNew(list) {
@@ -144,12 +145,12 @@ function practiceCardHTML(id) {
   const s = S.topics[id];
   if (!s || s.status !== "learning") return "";
   const nFix = fixedPool(id).length,
-    fixBtn = nFix ? `<button class="btn ghost" data-act="pfixed" data-id="${id}">📝 Aufgaben von Claude</button>` : "";
-  const head = `<div class="card"><div class="label">Frei üben mit ${APP.teacher}</div>`;
+    fixBtn = nFix ? `<button class="btn ghost" data-act="pfixed" data-id="${id}">📝 Fertige Aufgaben</button>` : "";
+  const head = `<div class="card"><div class="label">Frei üben</div>`;
   if (!aiReady())
-    return `${head}<p class="muted">${nFix ? `„Aufgaben von Claude“: Lesen, Schreiben und Dialoge aus deinen Themen. ` : ""}Eigene Schreibaufgaben und Rollenspiele brauchen ${APP.teacher}. Unter Einstellungen → „Cloud & KI einrichten“ trägst du deinen kostenlosen Schlüssel ein.</p>${fixBtn ? `<div class="btnrow">${fixBtn}</div>` : ""}</div>`;
+    return `${head}<p class="muted">${nFix ? `„Fertige Aufgaben“: Lesen, Schreiben und Dialoge aus deinen Themen. ` : ""}Eigene Schreibaufgaben und Rollenspiele brauchen ${APP.teacher}. Unter Einstellungen → „Cloud & KI einrichten“ trägst du deinen kostenlosen Schlüssel ein.</p>${fixBtn ? `<div class="btnrow">${fixBtn}</div>` : ""}</div>`;
   const ready = (s.last || 0) >= PRACTICE_MIN;
-  return `${head}<p class="muted">${nFix ? `„Aufgaben von Claude“: Lesen, Schreiben und Dialoge aus deinen Themen – ${APP.teacher} prüft deine Antworten. ` : ""}${ready ? `Schreiben und Rollenspiel denkt sich ${APP.teacher} jedes Mal neu aus, mit deinem Wortschatz.` : `Schreiben und Rollenspiel mit ${APP.teacher} gibt es, sobald das Thema sitzt (letztes Ergebnis ab ${Math.round(PRACTICE_MIN * 100)} %, jetzt ${pct(s.last)}).`} Ändert deinen Lernplan nicht.</p><div class="btnrow">${fixBtn}${ready ? `<button class="btn ghost" data-act="pwrite" data-id="${id}">✍️ Schreiben</button><button class="btn ghost" data-act="pchat" data-id="${id}">💬 Rollenspiel</button>` : ""}</div></div>`;
+  return `${head}<p class="muted">${nFix ? `„Fertige Aufgaben“: Lesen, Schreiben und Dialoge aus deinen Themen – ${APP.teacher} prüft deine Antworten. ` : ""}${ready ? `Schreiben und Rollenspiel denkt sich ${APP.teacher} jedes Mal neu aus, mit deinem Wortschatz.` : `Schreiben und Rollenspiel mit ${APP.teacher} gibt es, sobald das Thema sitzt (letztes Ergebnis ab ${Math.round(PRACTICE_MIN * 100)} %, ${s.last != null ? "zuletzt " + pct(s.last) : "noch kein Ergebnis"}).`} Ändert deinen Lernplan nicht.</p><div class="btnrow">${fixBtn}${ready ? `<button class="btn ghost" data-act="pwrite" data-id="${id}">✍️ Schreiben</button><button class="btn ghost" data-act="pchat" data-id="${id}">💬 Rollenspiel</button>` : ""}</div></div>`;
 }
 /* Aufgaben von Claude: die fertigen Lese-, Schreib- und Dialogaufgaben aus den Lektionen – dieses Thema und alle
    Themen, auf denen es aufbaut bzw. die schon gelernt werden. Feste Aufgaben sind sprachlich verlässlich; freie
@@ -177,7 +178,7 @@ function startFixed(id) {
   S.active = {
     id,
     mode: "extra",
-    title: (T(id) || {}).title + " · Aufgaben von Claude",
+    title: (T(id) || {}).title + " · Fertige Aufgaben",
     gen: list.map(x => x.ex),
     gsrc: list.map(x => ({ tid: x.tid, ei: x.ei })),
     idxs,
@@ -197,7 +198,7 @@ function practiceBar(id, label) {
 }
 
 /* ---------- Freies Schreiben ---------- */
-async function startWrite(id) {
+async function startWrite(id, again) {
   const t = T(id);
   if (!t) return;
   if (!practiceReady(id)) return toast(`Erst wenn das Thema sitzt (ab ${Math.round(PRACTICE_MIN * 100)} %)`);
@@ -217,7 +218,7 @@ VORBILDER – geprüfte, korrekte Sätze aus den Übungen (Formen und Satzbau da
 Stelle ${APP.learner} eine kurze Schreibaufgabe zur Alltagssituation dieses Themas: 1–3 Sätze auf ${APP.target.name}, NUR mit Wörtern aus der WORTLISTE lösbar (auch die Musterlösung nur mit diesen Wörtern). Die Aufgabe selbst auf ${APP.explain}, konkret (wer, was, wo), und direkt an ${APP.learner} gerichtet in der Du-Form (z. B. „Frag die Kellnerin, ob …“, „Schreib, dass du …“) – nie in der dritten Person über ${APP.learner}, keine Selbstkorrekturen oder Alternativen im Aufgabentext. Die Musterlösung muss genau diese Aufgabe erfüllen und grammatisch korrekt sein (Formen wie in den VORBILDERN). ${practiceVariety(t, "s")}
 JSON: {"task": "Aufgabe auf ${APP.explain}", "words": ["2–4 ${APP.target.adj}e Wörter, die vorkommen sollen"], "sample": "eine korrekte Musterlösung auf ${APP.target.name}"}`,
         meta,
-        0.9
+        0.7
       );
     if (SESSION !== se) return;
     se.task = {
@@ -229,15 +230,18 @@ JSON: {"task": "Aufgabe auf ${APP.explain}", "words": ["2–4 ${APP.target.adj}e
     if (se.task.sample) {
       try {
         const v = await aiJSON(
-          `Prüfe streng als ${APP.teacherKind}: Ist dieser Satz auf ${APP.target.name} grammatisch korrekt und erfüllt er die Aufgabe?\nAufgabe: ${se.task.task}\nSatz: ${se.task.sample}${SP.judge}\nJSON: {"ok": true oder false, "fixed": "korrigierter Satz, der die Aufgabe erfüllt, oder leer"}`,
+          `Prüfe streng als ${APP.teacherKind}: Ist dieser Satz auf ${APP.target.name} grammatisch korrekt, natürlich (so würde man es wirklich sagen) und erfüllt er die Aufgabe? Ist die Aufgabe selbst eindeutig?\nAufgabe: ${se.task.task}\nSatz: ${se.task.sample}${SP.judge}\nJSON: {"ok": true oder false, "taskClear": true oder false, "fixed": "korrigierter, natürlicher Satz, der die Aufgabe erfüllt, oder leer"}`,
           { k: "schreiben" }
         );
         if (!v.ok) se.task.sample = String(v.fixed || "");
+        if (v.taskClear === false) se.task.unclear = 1;
       } catch (e) {
         se.task.sample = "";
       }
       if (SESSION !== se) return;
     }
+    /* unklare Aufgabe: einmal neu stellen lassen */
+    if (se.task.unclear && !again) return startWrite(id, true);
     se.aid = aiAudit("schreiben", meta, {
       q: `${id} Aufgabe: ${se.task.task}`,
       r: `Wörter: ${se.task.words.join(", ")} | Muster: ${se.task.sample}`
@@ -269,12 +273,12 @@ async function checkWrite() {
   try {
     const meta = { k: "schreiben" },
       j = await aiJSON(
-        `${practiceContext(t)}
+        `${practiceContext(t, { words: false })}
 
 Schreibaufgabe: ${k.task}${k.words.length ? `\nZu verwendende Wörter: ${k.words.join(", ")}` : ""}
 Text von ${APP.learner}: "${user}"${weakAsk()}
 
-Korrigiere den Text wie eine gute Lehrkraft: Ist er sprachlich korrekt und erfüllt er die Aufgabe? Kleine Tippfehler und fehlende Satzzeichen nur nebenbei erwähnen. Andere Formulierungen als erwartet sind richtig, wenn sie passen. Ist der Text korrekt, setze correct auf true, lass errors leer und ändere nichts. Nenne nur echte Fehler und begründe nur mit Regeln, die wirklich gelten (am besten aus der Theorie oben) – erfinde keine Regeln. Die Korrektur darf nie falscher sein als der Text; im Zweifel ist der Text richtig. ${SP.judge.trim()} ${EXPLAIN_RULE()}
+Korrigiere den Text wie eine gute Lehrkraft: Ist er sprachlich korrekt und erfüllt er die Aufgabe? Ist der Text korrekt, setze correct auf true, lass errors leer und ändere nichts. Nenne nur echte Fehler und begründe sie am besten mit der Theorie oben. ${JUDGE_RULES()} ${EXPLAIN_RULE()}
 JSON: {"correct": true oder false, "corrected": "der Text mit allen Fehlern korrigiert, so nah wie möglich am Original", "errors": [{"wrong": "falsche Stelle", "right": "richtig", "why": "kurz warum, auf ${APP.explain}"}], "feedback": "1–2 Sätze auf ${APP.explain}: was gut war und worauf achten"${WEAK_TAGS ? ", " + WEAK_FIELD : ""}}`,
         meta
       );
@@ -295,7 +299,7 @@ JSON: {"correct": true oder false, "corrected": "der Text mit allen Fehlern korr
     save();
     SESSION = null; // Aufgabe erledigt: der Cloud-Abgleich darf wieder zusammenführen
     $("#fb").innerHTML =
-      `<div class="fb ${j.correct ? "ok" : "bad"}"><b class="t">${j.correct ? "Sehr gut – das passt!" : "Fast – hier ist die Korrektur."}</b>${!j.correct && j.corrected ? `<p>${spk(j.corrected)}<b>${glossWords(j.corrected)}</b></p>` : ""}${errs.length ? `<ul class="perr">${errs.map(x => `<li><s>${esc(x.wrong)}</s> → <b>${esc(x.right)}</b>${x.why ? ` – ${esc(x.why)}` : ""}</li>`).join("")}</ul>` : ""}${j.feedback ? `<p>${esc(j.feedback)}</p>` : ""}${k.sample ? `<p class="muted">Beispiel: ${spk(k.sample)}${glossWords(k.sample)}</p>` : ""}${flagLink(aid)}</div>` +
+      `<div class="fb ${j.correct ? "ok" : "dunno"}"><b class="t">${j.correct ? "Sehr gut – das passt!" : "Noch nicht ganz – hier ist die Korrektur."}</b>${!j.correct && j.corrected ? `<p>${spk(j.corrected)}<b>${glossWords(j.corrected)}</b></p>` : ""}${errs.length ? `<ul class="perr">${errs.map(x => `<li><s>${esc(x.wrong)}</s> → <b>${esc(x.right)}</b>${x.why ? ` – ${esc(x.why)}` : ""}</li>`).join("")}</ul>` : ""}${j.feedback ? `<p>${esc(j.feedback)}</p>` : ""}${k.sample ? `<p class="muted">Beispiel: ${spk(k.sample)}${glossWords(k.sample)}</p>` : ""}${flagLink(aid)}</div>` +
       `<div class="btnrow"><button class="btn" data-act="pwrite" data-id="${se.id}">Neue Aufgabe</button><button class="btn ghost" data-act="topic" data-id="${se.id}">Zum Thema</button></div>`;
   } catch (e) {
     if (SESSION !== se) return;
@@ -325,7 +329,7 @@ async function startChat(id) {
 Starte ein kurzes Rollenspiel zur Alltagssituation dieses Themas. Du spielst eine passende Person (z. B. Verkäuferin, Kellner, Nachbarin), ${APP.learner} spielt sich selbst. Sprich sehr einfach, im Niveau des Themas. ${WORD_RULE} Wähle die Situation so, dass sie mit diesen Wörtern gut machbar ist. Die erste Zeile passt genau zur Szene und zu deiner Rolle (z. B. Begrüßung und Frage der Kellnerin); sprich ${APP.learner} direkt an und erwähne nur Personen, die in der Szene vorkommen – kein „er/sie“ ohne klaren Bezug.${practiceVariety(t, "r")}
 JSON: {"scene": "Situation in 1 Satz auf ${APP.explain}", "role": "deine Rolle auf ${APP.explain}", "goal": "was ${APP.learner} im Gespräch erreichen soll, auf ${APP.explain}", "opener": "deine erste Zeile auf ${APP.target.name}", "opener_tr": "Übersetzung der ersten Zeile auf ${APP.base.name}", "new": [{"fi": "Grundform", "de": "Bedeutung"}]}`,
         meta,
-        0.9
+        0.7
       );
     if (SESSION !== se) return;
     Object.assign(se, {
@@ -385,14 +389,14 @@ async function sendChat() {
   try {
     const meta = { k: "rollenspiel" },
       j = await aiJSON(
-        `${practiceContext(t)}
+        `${practiceContext(t, { theory: false })}
 
 Rollenspiel. Situation: ${se.scene}. Du spielst: ${se.role}. ${APP.learner} soll: ${se.goal}
 Bisheriges Gespräch:
 ${hist}
 Neue Antwort von ${APP.learner}: "${user}"${weakAsk()}
 
-1) Prüfe die Antwort von ${APP.learner}: sprachlich korrekt (Grammatik, Wortwahl, Endungen)? Kleine Tippfehler und Satzzeichen nicht beanstanden. Wenn nicht korrekt: korrigierte Fassung, so nah wie möglich am Original, und eine sehr kurze Erklärung auf ${APP.explain}. ${SP.judge.trim()} ${EXPLAIN_RULE()}
+1) Prüfe die Antwort von ${APP.learner}: sprachlich korrekt (Grammatik, Wortwahl, Endungen) und passend im Gespräch? Wenn nicht korrekt: korrigierte Fassung, so nah wie möglich am Original, und eine sehr kurze Erklärung auf ${APP.explain}. ${JUDGE_RULES()} ${EXPLAIN_RULE()}
 2) Antworte in deiner Rolle kurz (1–2 sehr einfache Sätze auf ${APP.target.name}) und halte das Gespräch mit einer Rückfrage in Gang. ${WORD_RULE}${se.turns >= CHAT_TURNS - 1 ? " Das Gespräch soll jetzt freundlich enden: verabschiede dich und setze end auf true." : " Ist das Ziel erreicht und das Gespräch natürlich zu Ende, verabschiede dich und setze end auf true."}
 JSON: {"ok": true oder false, "fix": "korrigierte Fassung oder leer", "note": "kurze Erklärung oder leer", "reply": "deine Antwort auf ${APP.target.name}", "reply_tr": "Übersetzung deiner Antwort auf ${APP.base.name}", "new": [{"fi": "Grundform", "de": "Bedeutung"}], "end": false${WEAK_TAGS ? ", " + WEAK_FIELD : ""}}`,
         meta
