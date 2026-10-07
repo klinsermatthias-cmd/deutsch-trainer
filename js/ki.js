@@ -255,7 +255,7 @@ async function aiJSON(prompt, meta, temp) {
 }
 
 async function aiJudge(ex, user) {
-  const t = { title: SESSION.title || (T(SESSION.id) || {}).title || "" };
+  const t = { title: topicTitleNow() || "" };
   const kind =
     ex.t === "gap"
       ? "Lückentext"
@@ -504,7 +504,10 @@ JSON: {"ex":[ … ]}`;
    geprüfte Übungen zeigen ✓/✗, Fehler aus fehlerhaften KI-Übungen werden aus dem Fehler-Training gestrichen. */
 function genReviewCap(list) {
   list = list.slice().sort((a, b) => b.d - a.d);
-  const open = x => x.ex.some(e => !(x.v || {})[e.gid]);
+  /* behalten: ungeprüfte Sätze und Sätze mit geprüften (✓) Übungen, die noch nicht fest in der Lektion stehen –
+     sie gehören zur Übungssammlung und dürfen nie wegfallen */
+  const inLesson = new Set(TOPICS.flatMap(t => t.ex.map(e => e.gid).filter(Boolean)));
+  const open = x => x.ex.some(e => !(x.v || {})[e.gid] || ((x.v || {})[e.gid].ok && !inLesson.has(e.gid)));
   const keep = list.filter(open);
   return [...keep, ...list.filter(x => !open(x))].slice(0, Math.max(30, keep.length)).sort((a, b) => b.d - a.d);
 }
@@ -582,6 +585,22 @@ function genReportSection() {
     }).join("\n")
   );
 }
+/* Neue Übungen von Opettaja (E-1007-15): werden erzeugt und gesammelt, aber erst geübt, wenn Claude sie geprüft
+   hat (✓ über den Bericht → lektionen/ki-pruefung.json). Danach kommen sie zufällig in Wiederholungen, gemischte
+   Wiederholung und Langzeit-Check (approvedGen) – so lernt man keine Fehler aus ungeprüften KI-Übungen. */
+async function genMake(id) {
+  const t = T(id);
+  const gen = await aiGenerate(t);
+  if (gen.length < 3) throw new Error("zu wenige");
+  const setId = Date.now().toString(36);
+  gen.forEach((e, i) => (e.gid = setId + "-" + i));
+  S.genReview = genReviewCap([
+    { id: setId, d: Date.now(), topic: id, ex: JSON.parse(JSON.stringify(gen)), res: {}, v: {} },
+    ...(S.genReview || [])
+  ]);
+  save();
+  return gen.length;
+}
 async function startGen(id, b) {
   const t = T(id);
   if (!t || !aiReady() || !genUnlocked()) return;
@@ -590,31 +609,9 @@ async function startGen(id, b) {
     b.innerHTML = `${APP.teacher} schreibt neue Übungen ${dots()}`;
   }
   try {
-    const gen = await aiGenerate(t);
-    if (gen.length < 3) throw new Error("zu wenige");
-    const idxs = gen.map((_, i) => i),
-      setId = Date.now().toString(36);
-    gen.forEach((e, i) => (e.gid = setId + "-" + i));
-    S.genReview = genReviewCap([
-      { id: setId, d: Date.now(), topic: id, ex: JSON.parse(JSON.stringify(gen)), res: {}, v: {} },
-      ...(S.genReview || [])
-    ]);
-    S.active = {
-      id,
-      mode: "gen",
-      genSet: setId,
-      genAid: gen._aid,
-      title: t.title + " · neue Übungen",
-      gen,
-      gsrc: gen.map(() => ({ tid: id, ei: -1 })),
-      idxs,
-      rt: idxs.map(() => 0),
-      idx: 0,
-      results: [],
-      d: Date.now()
-    };
-    save();
-    openSession();
+    const n = await genMake(id);
+    toast(`${n} neue Übungen erstellt – sie kommen in deine Wiederholungen, sobald Claude sie geprüft hat`, 5000);
+    if (!SESSION && CUR.tab === "topics" && CUR.arg === id) render();
   } catch (e) {
     toast(
       e.kind
@@ -623,9 +620,30 @@ async function startGen(id, b) {
     );
     if (b) {
       b.disabled = false;
-      b.textContent = "Neue Übungen von " + APP.teacher;
+      b.textContent = "Neue Übungen anfordern";
     }
   }
+}
+/* Vorrat: höchstens einmal am Tag (geräteübergreifend, S.genAutoDay) für das gelernte Thema mit dem kleinsten Vorrat
+   an neuen Übungen (ungeprüft + geprüft und noch nie gesehen) neue erzeugen, solange der Vorrat unter GEN_STOCK liegt */
+const GEN_STOCK = 5;
+function genStock(id) {
+  const unrev = genUnreviewed().filter(x => x.set.topic === id).length,
+    fresh = approvedGen(id).filter(e => !((S.exLog || {})["g:" + e.gid] || {}).n).length;
+  return unrev + fresh;
+}
+async function genAutoStock() {
+  if (SESSION || !aiReady() || !genUnlocked() || S.genAutoDay === todayKey() || genUnreviewed().length >= 30) return;
+  const L = learningTopics()
+    .map(t => ({ id: t.id, n: genStock(t.id) }))
+    .filter(x => x.n < GEN_STOCK)
+    .sort((a, b) => a.n - b.n);
+  if (!L.length) return;
+  S.genAutoDay = todayKey();
+  save();
+  try {
+    await genMake(L[0].id);
+  } catch (e) {}
 }
 async function aiSessionReview(t, s, results, score, rating, baseDays) {
   const errs =
@@ -977,7 +995,7 @@ async function askExercise() {
   }
   const ex = se.items[se.idx],
     checked = !!se.locked,
-    t = T(se.id) || { title: se.title },
+    t = T(exTid()) || T(se.id) || { title: se.title },
     last = checked ? se.results[se.results.length - 1] : null;
   const sol = solutionText(ex);
   const rule = checked
