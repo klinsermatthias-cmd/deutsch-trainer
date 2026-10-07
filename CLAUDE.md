@@ -31,7 +31,7 @@ Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatth
 7. Jedes Thema verbindet eine Alltagssituation in Österreich mit dem Grammatik-Baustein, den sie braucht.
 
 ## Ablauf: Einstufungstest → erste Themen
-1. Aurora macht in der App den **Einstufungstest** (148 Aufgaben, 4 Teile). Danach kopiert sie unter *Einstellungen → Bericht für Claude* den Bericht; er enthält den Abschnitt „EINSTUFUNGSTEST“.
+1. Aurora macht in der App den **Einstufungstest** (148 Aufgaben, 4 Teile). Danach kopiert sie unter *⚙ Einstellungen → Bericht für Claude* den Bericht; er enthält den Abschnitt „EINSTUFUNGSTEST“.
 2. Analysiere: Niveau je Bereich, Fehlermuster, was schon sicher sitzt. Korrigiere die Schreibaufgaben (D1, D2), falls Coach sie nicht korrigiert hat.
 3. Baue daraus die Themen, die sie noch **nicht** gut beherrscht: IDs `d01`, `d02` … in `lektionen/lektionen.json` (Regeln: `lektionen/README.md`, Formate: `docs/uebungsformate.md`), Plan in `docs/lehrplan.md`.
 4. `node tools/pruefen.mjs` muss „Alles in Ordnung“ melden; dann nach Matthias' OK committen und auf `main` pushen.

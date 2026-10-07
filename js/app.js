@@ -33,7 +33,7 @@ const APP = {
     ["Heute", "Tänään"],
     ["Themen", "Aiheet"],
     ["Wörter", "Sanat"],
-    ["Einstellungen", "Asetukset"]
+    ["Fortschritt", "Edistys"]
   ],
   greeting(h) {
     return h < 10 ? "Guten Morgen" : h < 17 ? "Servus" : h < 22 ? "Guten Abend" : "Gute Nacht";
