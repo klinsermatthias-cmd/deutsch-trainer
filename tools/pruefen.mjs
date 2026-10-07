@@ -30,6 +30,20 @@ const inhalteSrc = fs.readFileSync(path.join(ROOT, "js/inhalte.js"), "utf8");
 /* Einstellungen der echten App (js/app.js) – für Teil 6 */
 const REAL = vm.runInNewContext(fs.readFileSync(path.join(ROOT, "js/app.js"), "utf8") + "\n;APP");
 
+/* Knöpfe und Aktionen: kein Aktionsname doppelt (der zweite überschreibt sonst still den ersten – so rief der
+   Knopf „Langzeit-Check“ die Antwortprüfung auf) und jeder Knopf (data-act="…") hat eine Aktion */
+{ const st = fs.readFileSync(path.join(ROOT, "js/start.js"), "utf8"), body = (st.match(/^const A = \{[\s\S]*?^\};/m) || [""])[0];
+  const keys = [...body.matchAll(/^  ([a-zA-Z]+):/gm)].map(m => m[1]), dup = keys.filter((k, i) => keys.indexOf(k) !== i);
+  const src = [html, ...jsFiles.map(f => fs.readFileSync(path.join(ROOT, f), "utf8"))].join("\n");
+  const acts = new Set([...src.matchAll(/data-act=\\?"([a-zA-Z]+)\\?"/g)].map(m => m[1]));
+  ["sharebackup", "download"].forEach(a => acts.add(a));
+  const miss = [...acts].filter(a => !keys.includes(a));
+  /* Gegenrichtung: jede Aktion hat einen Knopf (wörtlich data-act="…" oder als Name in einer Knopf-Vorlage) */
+  const rest = src.replace(body, ""), orphan = keys.filter(k => !acts.has(k) && !new RegExp(`["'\`]${k}["'\`]`).test(rest));
+  if (!keys.length) fail("Aktionen (const A) nicht gefunden");
+  else if (dup.length || miss.length || orphan.length) fail(`Aktionen: doppelt ${dup.join(", ") || "–"}, Knöpfe ohne Aktion ${miss.join(", ") || "–"}, Aktionen ohne Knopf ${orphan.join(", ") || "–"}`);
+  else ok(`Aktionen: ${keys.length} eindeutig, jeder Knopf hat eine Aktion und jede Aktion einen Knopf`); }
+
 /* Hover-Effekte nur für Maus/Touchpad (am Handy bleibt sonst die zuletzt getippte Stelle eingefärbt) */
 { const css = fs.readFileSync(path.join(ROOT, "app.css"), "utf8").replace(/@media \(hover:hover\)\{[^{}]*\{[^}]*\}\}/g, "");
   if (/:hover/.test(css)) fail("CSS: :hover außerhalb von @media (hover:hover)"); else ok("Hover-Effekte nur mit Maus"); }
@@ -762,6 +776,14 @@ try {
         await solve(SESSION.items[0]); SESSION = null; S.active = null;
         if (openErrors().some(o => o.e.topic === e0.topic && o.e.ei === e0.ei)) E("Fehler-Training: in normaler Runde richtig gelöster Fehler bleibt offen");
       } }
+    // Unterthemen (E-1007-86): direkt hinter dem Hauptthema, Nummer „1.2“, eingerückt
+    { const o = orderTopics(["t01", "t02", "t01c", "t01b", "t09", "t09b", "x5b"].map(id => ({ id }))).map(t => t.id).join();
+      if (o !== "t01,t01b,t01c,t02,t09,t09b,x5b") E("Unterthemen: Reihenfolge falsch " + o);
+      const keep = S.packs; const base = TOPICS[0], sub = { ...JSON.parse(JSON.stringify(TOPICS[TOPICS.length - 1])), id: base.id + "b", title: "Sim-Unterthema", req: [base.id] };
+      S.packs = [...(S.packs || []), sub]; migrate();
+      if (TOPICS[1].id !== sub.id || topicNum(TOPICS[1]) !== "1.2" || topicNum(TOPICS[2]) !== "2") E("Unterthemen: Liste/Nummer falsch " + TOPICS.slice(0, 3).map(t => t.id + ":" + topicNum(t)).join(" "));
+      A.tab("topics"); const it = document.querySelector(`.titem.sub[data-id="${sub.id}"] .num`); if (!it || it.textContent !== "1.2") E("Unterthemen: Themenliste zeigt Unterthema nicht eingerückt mit „1.2“");
+      S.packs = keep; delete S.topics[sub.id]; migrate(); }
     // Übungsauswahl: nie Gesehenes zuerst, nie alles auf einmal, Vielfalt; gemischte Wiederholung; Langzeit-Check
     { const t = TOPICS.find(x => x.ex.length >= 10), keepEx = t.ex.slice(), keepLog = JSON.stringify(S.exLog || {});
       const pool = topicPool(t.id, true);
@@ -791,7 +813,7 @@ try {
         for (const k in S.exLog) if (k.startsWith(t.id + ":")) S.exLog[k].s = Date.now() - 40 * DAY; });
       S.longCheck = 0; A.tab("today");
       if (!checkDue() || !/Langzeit-Check/.test(document.querySelector("#app").textContent)) E("Heute: Langzeit-Check fehlt");
-      S.active = null; startCheck();
+      S.active = null; { const b = document.querySelector('[data-act="longcheck"]'); if (!b) E("Heute: Knopf „Langzeit-Check“ fehlt"); else b.click(); }
       if (!SESSION || SESSION.items.length < 2 || SESSION.items.length > 6) E("Langzeit-Check: falsche Anzahl Übungen");
       n2 = 0; while (SESSION && SESSION.idx < SESSION.items.length && n2++ < 50) { const src = srcOf(S.active, SESSION.idx);
         if (src.tid === a1.id && !S.active.rt[SESSION.idx]) dunno(); else await solve(SESSION.items[SESSION.idx]); nextEx(); }
@@ -936,6 +958,14 @@ try {
   await a.evaluate(async () => { SESSION = null; await pushCloud(); });
   const c2 = cloudCards();
   if (c2.includes("syncA2") && c2.includes("syncB2")) ok("Sync: Konflikt während einer Übung wird danach zusammengeführt"); else fail("Sync nach Übung: " + JSON.stringify(c2));
+  // E-1007-82: während einer Runde 30 s Frist, nach dem Rundenende innerhalb von ~1 s hochladen
+  { await a.evaluate(async () => { await pullCloud(); await pushCloud(); }); await a.waitForTimeout(1500);
+    await a.evaluate(() => { SESSION = { kind: "vocab", queue: [] }; S.cards.syncEnd = { ease: 2.5, interval: 1, reps: 1, lapses: 0, due: 0, isNew: false, last: Date.now() }; save(); });
+    await a.waitForTimeout(1800);
+    if (cloudCards().includes("syncEnd")) fail("Sync: während einer Runde sofort hochgeladen (30-s-Frist wirkungslos)");
+    await a.evaluate(() => { SESSION = null; });
+    await a.waitForTimeout(2500);
+    if (cloudCards().includes("syncEnd")) ok("Sync: nach dem Rundenende innerhalb von ~2 s hochgeladen (E-1007-82)"); else fail("Sync: Rundenende wartet auf die 30-s-Frist (E-1007-82)"); }
   // Ausweichweg: Cloud lehnt den Vergleich ab → trotzdem nichts überschreiben
   db.noCas = true;
   await mark(a, "syncA3"); await mark(b, "syncB3");

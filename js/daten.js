@@ -20,7 +20,34 @@ const DIR_FWD = APP.target.code + "→" + BASE_CODE,
   DIR_REV = BASE_CODE + "→" + APP.target.code;
 let TOPICS = BASE_TOPICS.slice();
 function rebuildTopics() {
-  TOPICS = BASE_TOPICS.concat((S.packs || []).filter(t => !BASE_TOPICS.some(b => b.id === t.id)));
+  TOPICS = orderTopics(BASE_TOPICS.concat((S.packs || []).filter(t => !BASE_TOPICS.some(b => b.id === t.id))));
+}
+/* Unterthemen (E-1007-86): ID = Hauptthema + Buchstabe (t01b, t09c, d03b …). Sie stehen direkt hinter ihrem Hauptthema
+   (Themenliste, nächstes neues Thema, Grammatik-Übersicht), sortiert nach Buchstabe. Ohne vorhandenes Hauptthema bleibt
+   ein Unterthema an seiner Stelle. Fortschritt hängt an der ID, nicht an der Reihenfolge. */
+function subParent(t, ids) {
+  const m = /^(.*\d)([a-z])$/.exec(t.id);
+  return m && ids.has(m[1]) ? m[1] : null;
+}
+function orderTopics(list) {
+  const ids = new Set(list.map(t => t.id)),
+    out = [];
+  list.forEach(t => {
+    if (subParent(t, ids)) return;
+    out.push(t);
+    list
+      .filter(x => subParent(x, ids) === t.id)
+      .sort((a, b) => (a.id < b.id ? -1 : 1))
+      .forEach(x => out.push(x));
+  });
+  return out;
+}
+/* Anzeige-Nummer: Hauptthemen 1, 2, 3 …; Unterthemen „1.2“, „1.3“ (b = .2) */
+function topicNum(t) {
+  const ids = new Set(TOPICS.map(x => x.id)),
+    p = subParent(t, ids);
+  if (!p) return String(TOPICS.filter(x => !subParent(x, ids)).findIndex(x => x.id === t.id) + 1);
+  return topicNum(T(p)) + "." + (t.id.charCodeAt(t.id.length - 1) - 96);
 }
 const KEY = APP.id + "-v1";
 const DAY = 86400000;
@@ -307,7 +334,8 @@ const uid = () => CFG.session.user.id;
 
 /* --- Lokal: wird bei JEDER Änderung sofort geschrieben --- */
 let DIRTY = false,
-  PUSH_TIMER = null;
+  PUSH_TIMER = null,
+  PUSH_AT = 0;
 function setSync(st) {
   const el = $("#sync");
   if (!el) return;
@@ -379,8 +407,19 @@ function save() {
   setSync("saving");
   clearTimeout(PUSH_TIMER);
   /* während einer Runde seltener hochladen (der ganze Stand je Antwort war zu viel); beim Verlassen/Rundenende sofort */
-  PUSH_TIMER = setTimeout(() => pushCloud(), SESSION ? 30000 : 1200);
+  PUSH_AT = Date.now() + (SESSION ? 30000 : 1200);
+  PUSH_TIMER = setTimeout(() => pushCloud(), PUSH_AT - Date.now());
 }
+/* Rundenende (E-1007-82): Läuft keine Runde mehr, aber das Hochladen wartet noch auf die 30-s-Frist aus der Runde,
+   wird es auf ~1 s vorgezogen – sonst fehlt die gerade beendete Runde auf dem anderen Gerät (Simulation: Handy → PC).
+   Gilt für alle Rundenarten, ohne dass jede Abschlussfunktion daran denken muss. */
+setInterval(() => {
+  if (PUSH_TIMER && !SESSION && PUSH_AT - Date.now() > 1500) {
+    clearTimeout(PUSH_TIMER);
+    PUSH_AT = Date.now() + 1000;
+    PUSH_TIMER = setTimeout(() => pushCloud(), 1000);
+  }
+}, 500);
 
 /* --- Supabase (direkt über REST, ohne Zusatzbibliothek) --- */
 const sbBase = () => CFG.sbUrl.replace(/\/+$/, "");

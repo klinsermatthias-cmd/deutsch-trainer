@@ -200,7 +200,7 @@ function renderToday() {
 
   // Neue App-Version ohne Daten: Wiederherstellen nur als kleiner Hinweis (die Einspielung liegt in den Einstellungen)
   if (!S.stats.sessions && !Object.keys(S.cards).length)
-    h += `<p class="muted" style="margin:0 0 10px">Schon gelernt? <a href="#" data-act="tab" data-id="settings">Sicherung einspielen</a></p>`;
+    h += `<p class="muted" style="margin:0 0 10px">Schon gelernt? <a href="#" data-act="pasteimport">Sicherung einspielen</a></p>`;
   // Wichtigster nächster Schritt (einziger gefüllter Knopf)
   if (S.active && (S.active.gen || T(S.active.id))) {
     const a = S.active;
@@ -234,7 +234,7 @@ function renderToday() {
       { l: "Vokabeln", n: dc + nc, u: "Karten", act: 'data-act="vocab"' },
       { l: "Fehler-Training", n: oe, u: oe === 1 ? "Übung" : "Übungen", act: 'data-act="errtrain"' }
     ];
-  if (checkDue()) plan.push({ l: "Langzeit-Check", n: checkTopics().length, u: "Themen", act: 'data-act="check"' });
+  if (checkDue()) plan.push({ l: "Langzeit-Check", n: checkTopics().length, u: "Themen", act: 'data-act="longcheck"' });
   const doneN = plan.filter(x => !x.n).length;
   if (TOPICS.some(t => S.topics[t.id].status === "learning") || Object.keys(S.cards).length)
     h += `<div class="card"><div class="row" style="padding:0 0 6px"><div><b>Tagesplan</b></div><small class="muted">${doneN} von ${plan.length} erledigt</small></div>${plan
@@ -352,7 +352,8 @@ function renderTopics() {
   TOPICS.forEach((t, i) => {
     const s = S.topics[t.id],
       lk = s.status === "locked";
-    h += `<button class="titem${lk ? " locked" : ""}" data-act="topic" data-id="${t.id}"><span class="num">${i + 1}</span><span class="body"><b>${esc(t.title)}</b><div class="fi">${esc(t.fi)} · ${t.lvl}</div>${lk && t.req.length ? `<div class="req">🔒 ${reqOpenText(t)}</div>` : ""}${s.last != null ? `<div class="bar"><i style="width:${Math.round(s.last * 100)}%"></i></div>` : ""}</span>${topicBadge(t)}</button>`;
+    const sub = subParent(t, new Set(TOPICS.map(x => x.id)));
+    h += `<button class="titem${lk ? " locked" : ""}${sub ? " sub" : ""}" data-act="topic" data-id="${t.id}"><span class="num">${topicNum(t)}</span><span class="body"><b>${esc(t.title)}</b><div class="fi">${esc(t.fi)} · ${t.lvl}</div>${lk && t.req.length ? `<div class="req">🔒 ${reqOpenText(t)}</div>` : ""}${s.last != null ? `<div class="bar"><i style="width:${Math.round(s.last * 100)}%"></i></div>` : ""}</span>${topicBadge(t)}</button>`;
   });
   app().innerHTML = h + "</div>";
 }
