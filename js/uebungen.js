@@ -403,12 +403,35 @@ function exStrict(ex) {
     (ex.s || (ex.t === "gap" && /\p{L}___|___\p{L}/u.test(ex.q || "")) || /vokalharmonie/i.test(ex.h || ""))
   );
 }
-function localCheck(user, acc, strict) {
+/* Groß-/Kleinschreibung (nur Sprachen mit SP.caseMatters, E-1008-9): wie norm(), aber ohne Kleinschreiben; der erste
+   Buchstabe ist frei, wenn die Antwort einen Satz beginnt (Übersetzung, Satz ordnen, Schreibaufgabe, Dialogzeile,
+   Lücke am Satzanfang) */
+function caseKey(s, firstFree) {
+  const k = (SP.loose || []).reduce(
+    (t, [a, b]) => t.split(a).join(b),
+    String(s || "")
+      .replace(/[.,!?;:"“”„«»()]/g, "")
+      .replace(/[’']/g, "")
+      .replace(/\s+/g, " ")
+      .trim()
+  );
+  return firstFree ? k.charAt(0).toLowerCase() + k.slice(1) : k;
+}
+function caseFree(ex) {
+  return !ex || ["tr", "ord", "sch", "dlg", "les"].includes(ex.t) || (ex.t === "gap" && /^\s*___/.test(ex.q || ""));
+}
+function localCheck(user, acc, strict, ex) {
   const u = norm(user);
-  if (acc.some(a => norm(a) === u)) return { correct: true };
-  if (!strict && acc.some(a => loose(a) === loose(user)))
-    return { correct: true, note: "Fast perfekt – " + SP.charNote + ". Richtig: " + acc[0] };
-  return { correct: false };
+  let hit = acc.find(a => norm(a) === u),
+    near = false;
+  if (hit == null && !strict) {
+    hit = acc.find(a => loose(a) === loose(user));
+    near = hit != null;
+  }
+  if (hit == null) return { correct: false };
+  if (SP.caseMatters && caseKey(user, caseFree(ex)) !== caseKey(hit, caseFree(ex)))
+    return { correct: false, caseOnly: true, note: "Achte auf die Groß-/Kleinschreibung. Richtig: " + hit };
+  return near ? { correct: true, note: "Fast perfekt – " + SP.charNote + ". Richtig: " + acc[0] } : { correct: true };
 }
 function checkAnswer() {
   const se = SESSION;
@@ -425,7 +448,9 @@ async function textCheck(se, ex, user, acc, judge, waitText) {
   if (inp) inp.disabled = true;
   if (FMT[ex.t].after) FMT[ex.t].after(se);
   showBtns(CHECK_BTNS, false);
-  let res = localCheck(user, acc, exStrict(ex));
+  let res = localCheck(user, acc, exStrict(ex), ex);
+  /* Nur die Groß-/Kleinschreibung falsch: eindeutig, keine KI nötig (E-1008-9) */
+  if (res.caseOnly) judge = null;
   /* Lückentext: offensichtlich ganz andere Eingabe (kaum gemeinsame Buchstabenpaare) → ohne KI falsch (E-1007-50) */
   if (!res.correct && ex.t === "gap" && Math.max(...acc.map(a => bigramSim(user, a))) < 0.25) judge = null;
   if (!res.correct && judge && aiReady()) {
@@ -645,17 +670,25 @@ function finishTopic() {
       h += `<button class="btn" data-act="topic" data-id="${esc(t.id)}">Zurück zum Thema</button>`;
     }
   } else
-    h += `<div class="card" id="ratebox"><h3 style="margin-top:0">Wie sicher fühlst du dich?</h3><p class="muted">Deine Einschätzung und dein Ergebnis fließen in den Plan ein. ${se.score >= 1 ? "" : `Danach prüft ${APP.teacher}, wann das Thema wiederkommt.`}</p><div class="rates">${RATINGS.map(r => `<button class="rate ${r.k}" data-act="rate" data-id="${r.k}"><b>${r.l}</b><small>${relDays(addDays(topicBase(S.topics[t.id], se.score, r.q).days))}</small></button>`).join("")}</div><p class="muted" style="margin:8px 0 0;font-size:12px">Unter den Knöpfen steht, wann das Thema nach dem Plan wiederkommt${aiReady() ? ` – ${APP.teacher} kann den Termin danach noch etwas anpassen` : ""}.${se.score < 0.8 ? ` Unter 80 % zählt höchstens „${RATINGS[se.score < 0.6 ? 0 : 1].l}“, damit das Thema bald wiederkommt.` : ""}</p></div>`;
+    h += `<div class="card" id="ratebox"><h3 style="margin-top:0">Wie sicher fühlst du dich?</h3><p class="muted">Deine Einschätzung und dein Ergebnis fließen in den Plan ein. ${se.score >= 1 ? "" : `Danach prüft ${APP.teacher}, wann das Thema wiederkommt.`}</p><div class="rates">${RATINGS.map(r => `<button class="rate ${r.k}" data-act="rate" data-id="${r.k}"><b>${r.l}</b><small>${relDays(addDays(topicBase(S.topics[t.id], se.score, r.q, t.id).days))}</small></button>`).join("")}</div><p class="muted" style="margin:8px 0 0;font-size:12px">Unter den Knöpfen steht, wann das Thema nach dem Plan wiederkommt${aiReady() ? ` – ${APP.teacher} kann den Termin danach noch etwas anpassen` : ""}.${se.score < 0.8 ? ` Unter 80 % zählt höchstens „${RATINGS[se.score < 0.6 ? 0 : 1].l}“, damit das Thema bald wiederkommt.` : ""}</p></div>`;
   app().innerHTML = h;
   scrollTo(0, 0);
 }
 /* Plan nach Algorithmus für eine Themen-Bewertung: das Ergebnis begrenzt die Einschätzung (unter 60 % höchstens
    „Nochmal“, unter 80 % höchstens „Schwer“). Wird auch vorab unter den Knöpfen angezeigt. */
-function topicBase(s, score, q) {
+function topicBase(s, score, q, id) {
   if (score < 0.6) q = Math.min(q, 2);
   else if (score < 0.8) q = Math.min(q, 3);
   const base = sm2Next(s || {}, q);
-  return { base, days: Math.max(1, base.interval) };
+  return { base, days: Math.min(Math.max(1, base.interval), blockCap(id, score)) };
+}
+/* Ein Thema unter 80 %, auf das gesperrte Themen warten, kommt spätestens nach BLOCK_MAX Tagen wieder – sonst stünde
+   der Fortschritt wochenlang still (E-1008-5); gilt auch für den Termin der KI */
+const BLOCK_MAX = 7;
+function blockCap(id, score) {
+  return id && score < 0.8 && TOPICS.some(t => t.req.includes(id) && (S.topics[t.id] || {}).status === "locked")
+    ? BLOCK_MAX
+    : Infinity;
 }
 async function rateTopic(k) {
   const se = SESSION;
@@ -668,7 +701,7 @@ async function rateTopic(k) {
   /* Stocken erkennen (E-1007-62): Freischaltversuche hintereinander unter 80 % */
   if (score >= 0.8) s.unlockFails = 0;
   else if (se.mode === "unlock") s.unlockFails = (s.unlockFails || 0) + 1;
-  const { base, days: baseDays } = topicBase(s, score, RQ[k]);
+  const { base, days: baseDays } = topicBase(s, score, RQ[k], se.id);
   s.ease = base.ease;
   s.reps = base.reps;
   s.lapses = base.lapses;
@@ -719,7 +752,7 @@ async function rateTopic(k) {
       k,
       baseDays
     );
-    const d = topicIv(j.intervalDays, score, baseDays, s.reps);
+    const d = Math.min(topicIv(j.intervalDays, score, baseDays, s.reps), blockCap(se.id, score));
     /* Während der Auswertung kann der Abgleich S ersetzt haben: den Termin im aktuellen Stand setzen.
        Nur der Termin folgt der KI – der Abstand des Plans bleibt baseDays (E-1007-57) */
     const cur = S.topics[se.id] || s;
