@@ -8,3 +8,4 @@
 - Oktober 2026: Ziel festgelegt: sicheres Deutsch im Alltag und Beruf in Österreich (B2), keine Prüfung. Lehrplan-Gerüst (Kann-Sätze, Methode, Phase 1 B1 festigen, Phase 2 B2, Themenpool) in docs/lehrplan.md. Einstufungstest: A1.4 auch „verstehen“, A9.5 auch „vor dem/vorm/im“, B5.5 auch „der Gehalt“ (österreichisch).
 - Oktober 2026: 4. Tab heißt „Fortschritt“ (Einstellungen jetzt über ⚙ oben rechts, Engine E-1007-72).
 - Oktober 2026: CLAUDE.md um den vierten Code-Chat „Simulation“ (Codes S-…) ergänzt (D-1008-1).
+- Oktober 2026: CLAUDE.md: Auswertung der neuen Berichtsabschnitte „VOKABEL-ANTWORTEN ZUR PRÜFUNG“ und „AUSRUTSCHER“ ergänzt (D-1008-2, Engine E-1008-58/-59/-63).

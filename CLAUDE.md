@@ -38,6 +38,8 @@ Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatth
 
 ## Danach: Bericht → Analyse → neue Themen
 Wie bei Opi suomea: Bericht auswerten (auch **KI-PROTOKOLL** – Urteile von Coach auf Korrektheit prüfen, anonyme Zusammenfassung in `docs/ki-qualitaet.md`; **KI-ÜBUNGEN ZUR PRÜFUNG** → Urteil in `lektionen/ki-pruefung.json`), dann 1–3 neue Themen.
+- Enthält der Bericht **VOKABEL-ANTWORTEN ZUR PRÜFUNG** → jede Antwort prüfen und das Urteil mit dem Schlüssel aus der Zeile in `lektionen/ki-pruefung.json` eintragen: `"va:<Karte>:<Antwort>": {"ok": true}` bzw. `{"ok": false, "korrektur": "…", "grund": "…"}`. Bestehende Einträge bleiben. Richtige Antworten zusätzlich in die bestehende Vokabel aufnehmen (der Index bleibt); falsche gelten danach nicht mehr.
+- Den Abschnitt **AUSRUTSCHER** in die Analyse einbeziehen: Vergessene Sonderzeichen (ß/ss) und selbst gewähltes „Nur vertippt“ sind keine Wissenslücken. Wenn dasselbe Wort aber immer wieder darin vorkommt, wird es gezielt geübt.
 
 ## Regeln für Inhalte
 - In bestehenden Themen Vokabeln und Übungen **nur hinten anhängen**, nie umsortieren oder löschen; Themen-IDs nie umbenennen (Karten-IDs hängen davon ab).
