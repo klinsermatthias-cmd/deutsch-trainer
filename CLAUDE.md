@@ -43,6 +43,8 @@ Wie bei Opi suomea: Bericht auswerten (auch **KI-PROTOKOLL** – Urteile von Coa
 - Enthält der Bericht **NOCH NICHT GELERNT?** → zu jeder gemeldeten Übung (`<tid> ex[<Index>]`) prüfen, was fehlt: Theorie oder Vokabeln im Thema ergänzen oder die Übung verbessern. Der Index bleibt, nur hinten anhängen. Fehler zu gemeldeten Übungen nicht als Schwäche werten.
 
 ## Regeln für Inhalte
+- **Prüfliste `lektionen/pruefliste.md`:** Pflichtlektüre, bevor Inhalte (Themen, Übungen, Wortlisten, Einstufungstest) erstellt oder geändert werden; vor jedem Push Zeile für Zeile durchgehen. Jede neue Meldung bzw. Lehre ergibt eine neue Zeile (was prüfen, Beispiel, Code, automatischer Test).
+- **Deutsch kritisch prüfen:** Jeder neue Inhalt muss natürlich und grammatisch korrekt sein. Bei Zweifel mit Quellen gegenprüfen – Duden (duden.de), DWDS (dwds.de), Wiktionary (de./en.wiktionary.org, Rohtext: `index.php?title=<Wort>&action=raw`); österreichische Wörter über den Duden-Vermerk „österreichisch“. Nichts aus dem Gedächtnis behaupten, was sich nachschlagen lässt.
 - In bestehenden Themen Vokabeln und Übungen **nur hinten anhängen**, nie umsortieren oder löschen; Themen-IDs nie umbenennen (Karten-IDs hängen davon ab).
 - Aufgaben-IDs des Einstufungstests (`js/inhalte.js`, z. B. `A3.2`) nie ändern.
 - Übersetzungsrichtung: `dir: "de"` = Aufgabe auf Englisch, Antwort auf Deutsch; `dir: "fi"` = Aufgabe auf Deutsch, Antwort auf Englisch (Kürzel aus Opi suomea, siehe `docs/engine.md`).
