@@ -12,3 +12,4 @@
 - Oktober 2026: CLAUDE.md: Auswertung des Berichtsabschnitts „NOCH NICHT GELERNT?“ ergänzt (D-1009-1, Engine E-1008-64/E-1009-3).
 - Oktober 2026: KI-Anbieter jetzt OpenRouter statt Gemini direkt; Hinweis in docs/ki-qualitaet.md (D-1009-2).
 - Oktober 2026: Prüfliste lektionen/pruefliste.md angelegt (12 Startzeilen), Pflichtlektüre vor Inhalten und vor jedem Push; Regel „Deutsch kritisch prüfen, mit Duden/DWDS/Wiktionary gegenprüfen“ in CLAUDE.md (D-1009-4, D-1009-5; Engine E-1009-16, Opi F-1009-10).
+- Oktober 2026: Regel „Umsiedeln“ in CLAUDE.md (Startdatei docs/uebergabe.md ohne Privates, Nachfolger per create_session, max. 8 Generationen) (D-1009-6, Engine E-1009-18).
