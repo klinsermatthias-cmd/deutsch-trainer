@@ -10,3 +10,4 @@
 - Oktober 2026: CLAUDE.md um den vierten Code-Chat „Simulation“ (Codes S-…) ergänzt (D-1008-1).
 - Oktober 2026: CLAUDE.md: Auswertung der neuen Berichtsabschnitte „VOKABEL-ANTWORTEN ZUR PRÜFUNG“ und „AUSRUTSCHER“ ergänzt (D-1008-2, Engine E-1008-58/-59/-63).
 - Oktober 2026: CLAUDE.md: Auswertung des Berichtsabschnitts „NOCH NICHT GELERNT?“ ergänzt (D-1009-1, Engine E-1008-64/E-1009-3).
+- Oktober 2026: KI-Anbieter jetzt OpenRouter statt Gemini direkt; Hinweis in docs/ki-qualitaet.md (D-1009-2).
