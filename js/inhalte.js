@@ -14,7 +14,7 @@ const PT = [
   {
     id: "A",
     name: "Grammar",
-    time: "approx. 70 minutes",
+    time: "approx. 80 minutes",
     sections: [
       {
         id: "A1",
@@ -317,6 +317,34 @@ const PT = [
           { k: "b", t: "Ich trinke gern kalt___ Wasser.", s: ["es"] },
           { k: "b", t: "Wir haben sehr nett___ Nachbarn.", s: ["e"] }
         ]
+      },
+      {
+        id: "A18",
+        title: "More B1 grammar",
+        hint: "Look at the label next to each task.",
+        items: [
+          { k: "b", t: "Er spielt am Handy, ___ seine Hausaufgaben ___. (machen)", tag: "instead of", s: ["statt|anstatt", "zu machen"] },
+          { k: "b", t: "___ ich heute krank bin, kann ich leider nicht kommen.", tag: "Kausalsatz, nicht „weil“", s: ["da"] },
+          { k: "b", t: "___ es morgen regnet, bleiben wir zu Hause.", tag: "Bedingung, nicht „wenn“", s: ["falls"] },
+          { k: "b", t: "Das ist alles, ___ ich weiß.", s: ["was"] },
+          { k: "b", t: "Graz ist die Stadt, ___ ich studiert habe.", s: ["wo|in der"] },
+          { k: "b", t: "___ ich in Österreich lebe, spreche ich jeden Tag Deutsch.", s: ["seit|seitdem"] },
+          { k: "b", t: "Warte bitte hier, ___ ich zurückkomme.", s: ["bis"] },
+          { k: "b", t: "Wir fahren ___ mit dem Zug ___ mit dem Bus.", tag: "either … or", s: ["entweder", "oder"] },
+          { k: "b", t: "Sie spricht nicht nur Deutsch, ___ ___ Finnisch.", s: ["sondern", "auch"] },
+          { k: "b", t: "Sowohl meine Mutter ___ mein Vater arbeiten im Krankenhaus.", s: ["als auch"] },
+          { k: "b", t: "Die Wohnung ist zwar klein, ___ sehr gemütlich.", s: ["aber|doch|jedoch"] },
+          { k: "b", t: "Hat ___ meinen Schlüssel gesehen?", tag: "somebody", s: ["jemand|irgendjemand|irgendwer"] },
+          { k: "b", t: "Gib die Nudeln ins ___ Wasser. (kochen)", tag: "Partizip I", s: ["kochende"] },
+          { k: "b", t: "Meine Schwester und ich arbeiten bei ___ Firma.", tag: "the same", s: ["derselben|der gleichen"] },
+          { k: "b", t: "Wir haben zwei ___. (Kind)", tag: "Plural", s: ["Kinder"] },
+          { k: "b", t: "Im Regal stehen viele ___. (Buch)", tag: "Plural", s: ["Bücher"] },
+          { k: "b", t: "___ Sie bitte Platz! (nehmen)", tag: "Imperativ, Sie", s: ["nehmen"] },
+          { k: "b", t: "Mein Geburtstag ist am ___ Mai. (3.)", s: ["dritten"] },
+          { k: "b", t: "Kennst du den Mann dort? – Nein, ___ kenne ich nicht.", tag: "Demonstrativpronomen", s: ["den"] },
+          { k: "b", t: "Ich habe gestern mit unserem ___ gesprochen. (Nachbar)", s: ["Nachbarn"] },
+          { k: "b", t: "Bevor ich nach Österreich kam, ___ ich schon ein bisschen Deutsch ___. (lernen)", tag: "Plusquamperfekt", s: ["hatte", "gelernt"] }
+        ]
       }
     ]
   },
@@ -394,7 +422,7 @@ const PT = [
           {
             k: "b",
             t: "Meine ___ ist die Karte von der Krankenversicherung. Ich brauche sie bei jedem Arztbesuch.",
-            s: ["e-card"]
+            s: ["e-card|E-Card"]
           },
           { k: "b", t: "Die Ärztin schreibt mir ein ___ für die Apotheke.", s: ["Rezept"] },
           { k: "b", t: "Mein Hausarzt gibt mir eine ___ zum Facharzt.", s: ["Überweisung"] },

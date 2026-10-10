@@ -32,7 +32,7 @@ Der Deutsch-Trainer ist technisch dieselbe App wie **Opi suomea** (`klinsermatth
 7. Jedes Thema verbindet eine Alltagssituation in Österreich mit dem Grammatik-Baustein, den sie braucht.
 
 ## Ablauf: Einstufungstest → erste Themen
-1. Aurora macht in der App den **Einstufungstest** (148 Aufgaben, 4 Teile). Danach kopiert sie unter *⚙ Einstellungen → Bericht für Claude* den Bericht; er enthält den Abschnitt „EINSTUFUNGSTEST“.
+1. Aurora macht in der App den **Einstufungstest** (169 Aufgaben, 4 Teile). Danach kopiert sie unter *⚙ Einstellungen → Bericht für Claude* den Bericht; er enthält den Abschnitt „EINSTUFUNGSTEST“.
 2. Analysiere: Niveau je Bereich, Fehlermuster, was schon sicher sitzt. Korrigiere die Schreibaufgaben (D1, D2), falls Coach sie nicht korrigiert hat.
 3. Baue daraus die Themen, die sie noch **nicht** gut beherrscht: IDs `d01`, `d02` … in `lektionen/lektionen.json` (Regeln: `lektionen/README.md`, Formate: `docs/uebungsformate.md`), Plan in `docs/lehrplan.md`.
 4. `node tools/pruefen.mjs` muss „Alles in Ordnung“ melden; dann nach Matthias' OK committen und auf `main` pushen.
@@ -45,7 +45,7 @@ Wie bei Opi suomea: Bericht auswerten (auch **KI-PROTOKOLL** – Urteile von Coa
 
 ## Regeln für Inhalte
 - **Prüfliste `lektionen/pruefliste.md`:** Pflichtlektüre, bevor Inhalte (Themen, Übungen, Wortlisten, Einstufungstest) erstellt oder geändert werden; vor jedem Push Zeile für Zeile durchgehen. Jede neue Meldung bzw. Lehre ergibt eine neue Zeile (was prüfen, Beispiel, Code, automatischer Test).
-- **Deutsch kritisch prüfen:** Jeder neue Inhalt muss natürlich und grammatisch korrekt sein. Bei Zweifel mit Quellen gegenprüfen – Duden (duden.de), DWDS (dwds.de), Wiktionary (de./en.wiktionary.org, Rohtext: `index.php?title=<Wort>&action=raw`); österreichische Wörter über den Duden-Vermerk „österreichisch“. Nichts aus dem Gedächtnis behaupten, was sich nachschlagen lässt.
+- **Jede Änderung mit Quellen prüfen (D-1009-5, D-1009-7, wie E-1009-26):** gilt für neue Themen, Korrekturen in bestehenden Themen, Urteile in `ki-pruefung.json`, `GLOSS_EXTRA` und den Einstufungstest. Jede neue oder geänderte deutsche Form mit Quelle belegen – Duden (duden.de), DWDS (dwds.de), Wiktionary (de./en.wiktionary.org, Rohtext: `index.php?title=<Wort>&action=raw`); österreichische Wörter über den Duden-Vermerk „österreichisch“; Niveau-Zuordnung (A1–B2) über die ÖIF-Rahmencurricula und -Einstufungsmatrizen (integrationsfonds.at) bzw. ÖSD (osd.at). Dazu Prüfliste und `node tools/pruefen.mjs`, bei Dialogen und Lesetexten die Natürlichkeit. In der Meldung an Matthias steht, was mit welcher Quelle geprüft wurde; was nur aus eigenem Wissen stammt, wird als „ohne Quelle“ gekennzeichnet.
 - In bestehenden Themen Vokabeln und Übungen **nur hinten anhängen**, nie umsortieren oder löschen; Themen-IDs nie umbenennen (Karten-IDs hängen davon ab).
 - Aufgaben-IDs des Einstufungstests (`js/inhalte.js`, z. B. `A3.2`) nie ändern.
 - Übersetzungsrichtung: `dir: "de"` = Aufgabe auf Englisch, Antwort auf Deutsch; `dir: "fi"` = Aufgabe auf Deutsch, Antwort auf Englisch (Kürzel aus Opi suomea, siehe `docs/engine.md`).

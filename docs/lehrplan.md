@@ -58,7 +58,7 @@ Reihenfolge nach dem Testergebnis. Kandidaten:
 | Österreichisch verstehen | Wortschatz und Wendungen (passiv) |
 
 ## Stand
-- Oktober 2026: App auf die gemeinsame Lern-Engine umgestellt, Einstufungstest erweitert (148 Aufgaben), Lehrplan-Gerüst angelegt. Noch keine Themen – sie entstehen aus dem Einstufungstest.
+- Oktober 2026: App auf die gemeinsame Lern-Engine umgestellt, Einstufungstest erweitert (169 Aufgaben; A18 schließt die Lücken zur ÖIF-Einstufungsmatrix A1–B1), Lehrplan-Gerüst angelegt. Noch keine Themen – sie entstehen aus dem Einstufungstest.
 
 ## Nächste Schritte
 1. Aurora macht den Einstufungstest und schickt den Bericht.
