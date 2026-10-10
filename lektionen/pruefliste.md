@@ -4,7 +4,7 @@
 
 ## Quellen (D-1010-3)
 
-**Nutzen, wann immer es Sinn macht** – nicht erst bei Zweifel. In der Meldung an Matthias steht, was mit welcher Quelle geprüft wurde; was nur aus eigenem Wissen stammt, heißt „ohne Quelle“. Gesperrte Seiten nie als „geprüft“ angeben.
+**Bei jeder Erstellung und jeder Prüfung von Inhalten verwenden** (D-1010-4) – jede deutsche Form, jedes Genus, jede Beugung, jede feste Wendung, jedes österreichische Wort und jede Niveau-Zuordnung wird nachgeschlagen, nicht erst bei Zweifel. Das gilt auch beim Prüfen von Coach-Urteilen, Berichten und `ki-pruefung.json`. In der Meldung an Matthias steht, was mit welcher Quelle geprüft wurde; was nur aus eigenem Wissen stammt, heißt „ohne Quelle“. Gesperrte Seiten nie als „geprüft“ angeben.
 
 | Quelle | Wofür | Hinweis zum Abruf |
 |---|---|---|
