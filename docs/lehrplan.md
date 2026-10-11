@@ -58,7 +58,21 @@ Reihenfolge nach dem Testergebnis. Kandidaten:
 | Österreichisch verstehen | Wortschatz und Wendungen (passiv) |
 
 ## Stand
-- Oktober 2026: App auf die gemeinsame Lern-Engine umgestellt, Einstufungstest erweitert (169 Aufgaben; A18 schließt die Lücken zur ÖIF-Einstufungsmatrix A1–B1), Lehrplan-Gerüst angelegt. Noch keine Themen – sie entstehen aus dem Einstufungstest.
+- Oktober 2026: App auf die gemeinsame Lern-Engine umgestellt, Einstufungstest erweitert (169 Aufgaben; A18 schließt die Lücken zur ÖIF-Einstufungsmatrix A1–B1), Lehrplan-Gerüst angelegt.
+- 11.10.2026: Einstufungstest ausgewertet (Ergebnis: Lesen und österreichischer Alltagswortschatz B1, Grammatik und Schreiben A2/A2+). Häufigste Fehlermuster: Perfekt mit „sein“, Wortstellung (Verb-Zweit, Verb am Ende im Nebensatz), Dativ und Wechselpräpositionen, „wann“ statt als/wenn/während, Pronomen, Genus. Erste Themen d01–d03 gebaut (D-1011-2).
+
+## Themenplan (Reihenfolge nach dem Einstufungstest)
+| ID | Situation | Grammatik | Stand |
+|---|---|---|---|
+| d01 | Montag im Büro: vom Wochenende erzählen | Perfekt: haben/sein, Partizip II, trennbare Verben | gebaut |
+| d02 | Krank melden, Termin absagen | Wortstellung: Verb-Zweit, Inversion, Nebensatz (weil, dass, ob), Zeit vor Ort | gebaut |
+| d03 | Erinnerungen: „Als ich nach Österreich kam …“ | als, wenn, wann, während, bevor, nachdem; Präteritum sein/haben/Modalverben | gebaut |
+| d04 | Umzug, Wohnung einrichten | Wechselpräpositionen, liegen/legen, Artikel im Akkusativ und Dativ | geplant |
+| d05 | Nachbarn helfen | Dativverben, Personalpronomen Dativ/Akkusativ, zwei Objekte | geplant |
+| d06 | Der, die oder das im Alltag | Genus-Regeln, Plural | geplant |
+| danach | Wohnungssuche, Behörde, Telefon, Beschwerde | Adjektivendungen, Relativsätze, Verben mit Präposition, Konjunktiv II, Passiv, Infinitiv mit zu | geplant |
+
+Nach d06: kurzer Wiederholungstest, dann Neuplanung.
 
 ## Nächste Schritte
 1. Aurora macht den Einstufungstest und schickt den Bericht.
@@ -66,4 +80,4 @@ Reihenfolge nach dem Testergebnis. Kandidaten:
 3. Nach etwa 6 Themen: Wiederholungstest und Neuplanung.
 
 ## Ideen für später (noch nicht umgesetzt)
-- Oktober 2026 (Matthias, D-1011-1): **Zu jedem Theorieteil eigene Karten**, z. B. „Wie bildet man eine Ja/Nein-Frage?“ (Theoriefragen als `mc`/`tr` mit Erklärung), dazu genug Übungen je Theorieteil – die Zahl der Übungen pro Thema darf dafür deutlich steigen. Ziel: Theorie und Anwendung zu allen Themen in ausreichender Anzahl. Beim Bau der ersten Themen (d01 …) berücksichtigen.
+- Oktober 2026 (Matthias, D-1011-1): **Zu jedem Theorieteil eigene Karten**, z. B. „Wie bildet man eine Ja/Nein-Frage?“ (Theoriefragen als `mc`/`tr` mit Erklärung), dazu genug Übungen je Theorieteil – die Zahl der Übungen pro Thema darf dafür deutlich steigen. Ziel: Theorie und Anwendung zu allen Themen in ausreichender Anzahl. Umgesetzt ab d01: je Theorieteil Regel- und Theoriefragen (`mc` mit Erklärung), 32–37 Übungen pro Thema.

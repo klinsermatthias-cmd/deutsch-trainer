@@ -1,1 +1,1901 @@
-[]
+[
+ {
+  "id": "d01",
+  "title": "Wie war dein Wochenende? – Perfekt",
+  "fi": "How was your weekend? – the perfect tense",
+  "lvl": "A2",
+  "req": [],
+  "th": "<h3>1. Situation: Monday morning at work</h3><p>On Monday your colleagues ask about your weekend. When Austrians talk about the past, they almost always use the <b>Perfekt</b>.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wie war dein Wochenende?</td><td>How was your weekend?</td></tr><tr><td>Was hast du am Wochenende gemacht?</td><td>What did you do at the weekend?</td></tr><tr><td>Es war sehr schön.</td><td>It was very nice.</td></tr><tr><td>Ich bin nach Salzburg gefahren.</td><td>I went to Salzburg.</td></tr><tr><td>Wir sind wandern gegangen.</td><td>We went hiking.</td></tr><tr><td>Ich habe ausgeschlafen.</td><td>I slept in.</td></tr><tr><td>Am Abend sind wir zum Heurigen gefahren.</td><td>In the evening we went to a wine tavern.</td></tr></table><h3>2. Short dialogue</h3><p><b>Lena:</b> <i>Wie war dein Wochenende?</i><br><b>Aurora:</b> <i>Sehr schön! Am Samstag bin ich wandern gegangen, und am Sonntag habe ich ausgeschlafen.</i></p><h3>3. Grammar: the Perfekt</h3><p class=\"rule\">Perfekt = <b>haben</b> or <b>sein</b> (conjugated, at position 2) + <b>Partizip II</b> (at the end of the sentence).</p><p><i>Ich habe Pizza gegessen.</i> – <i>Wir sind nach Wien gefahren.</i> – <i>Hast du deine Eltern besucht?</i></p><table><tr><th>Person</th><th>haben</th><th>sein</th></tr><tr><td>ich</td><td>habe</td><td>bin</td></tr><tr><td>du</td><td>hast</td><td>bist</td></tr><tr><td>er / sie / es</td><td>hat</td><td>ist</td></tr><tr><td>wir</td><td>haben</td><td>sind</td></tr><tr><td>ihr</td><td>habt</td><td>seid</td></tr><tr><td>sie / Sie</td><td>haben</td><td>sind</td></tr></table><h3>haben or sein?</h3><p class=\"rule\"><b>sein</b>: verbs of <b>movement from A to B</b> (gehen, fahren, fliegen, kommen, wandern, umziehen, aufstehen …), verbs of <b>change of state</b> (aufwachen, einschlafen, werden) and <b>sein, bleiben, passieren</b>.<br><b>All other verbs: haben</b> – including all reflexive verbs.</p><p><i>Ich bin um sechs Uhr aufgestanden.</i> – <i>Was ist passiert?</i> – <i>Ich habe lange geschlafen.</i></p><h3>The Partizip II</h3><table><tr><th>Type</th><th>Rule</th><th>Examples</th></tr><tr><td>regular</td><td>ge- … -t</td><td>machen → gemacht, kaufen → gekauft, arbeiten → gearbeitet</td></tr><tr><td>irregular</td><td>ge- … -en, often a new vowel</td><td>fahren → gefahren, gehen → gegangen, finden → gefunden, treffen → getroffen</td></tr><tr><td>mixed</td><td>ge- … -t with a new vowel</td><td>bringen → gebracht, denken → gedacht</td></tr><tr><td>separable</td><td>ge- in the middle, written as one word</td><td>einkaufen → eingekauft, mitbringen → mitgebracht, aufstehen → aufgestanden</td></tr><tr><td>no ge-</td><td>be-, ver-, er- … and -ieren</td><td>besuchen → besucht, verstehen → verstanden, telefonieren → telefoniert</td></tr></table><p class=\"tip\"><b>Austria:</b> with <i>sitzen, stehen, liegen</i> people in Austria say <i>ich bin gesessen, ich bin gestanden, ich bin gelegen</i> (Germany: <i>ich habe gesessen</i>). Both are correct.</p><p class=\"tip\"><b>Perfekt or Präteritum?</b> When speaking, Austrians use the Perfekt for almost every verb. Only <i>sein</i>, <i>haben</i> and the modal verbs are usually in the Präteritum: <i>Es war schön. Ich hatte keine Zeit. Ich musste arbeiten.</i></p>",
+  "v": [
+   [
+    "das Wochenende",
+    "the weekend"
+   ],
+   [
+    "Wie war dein Wochenende?",
+    "How was your weekend?"
+   ],
+   [
+    "einen Ausflug machen",
+    "to go on a trip, to go on an outing"
+   ],
+   [
+    "wandern",
+    "to hike"
+   ],
+   [
+    "ausschlafen",
+    "to sleep in"
+   ],
+   [
+    "einkaufen",
+    "to do the shopping"
+   ],
+   [
+    "besuchen",
+    "to visit"
+   ],
+   [
+    "treffen",
+    "to meet"
+   ],
+   [
+    "fliegen",
+    "to fly"
+   ],
+   [
+    "umziehen",
+    "to move (house)"
+   ],
+   [
+    "bleiben",
+    "to stay"
+   ],
+   [
+    "passieren",
+    "to happen"
+   ],
+   [
+    "aufstehen",
+    "to get up"
+   ],
+   [
+    "der Heurige",
+    "traditional wine tavern (Austria)"
+   ],
+   [
+    "die Jause",
+    "snack (Austria)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Konjugiere „haben“ (Präsens)",
+    "h": "Präsens von „haben“ – du brauchst es für das Perfekt.",
+    "head": [
+     "Person",
+     "haben"
+    ],
+    "r": [
+     [
+      "ich",
+      "[habe]"
+     ],
+     [
+      "du",
+      "[hast]"
+     ],
+     [
+      "er / sie / es",
+      "[hat]"
+     ],
+     [
+      "wir",
+      "[haben]"
+     ],
+     [
+      "ihr",
+      "[habt]"
+     ],
+     [
+      "sie / Sie",
+      "[haben]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Konjugiere „sein“ (Präsens)",
+    "h": "Präsens von „sein“ – du brauchst es für das Perfekt.",
+    "head": [
+     "Person",
+     "sein"
+    ],
+    "r": [
+     [
+      "ich",
+      "[bin]"
+     ],
+     [
+      "du",
+      "[bist]"
+     ],
+     [
+      "er / sie / es",
+      "[ist]"
+     ],
+     [
+      "wir",
+      "[sind]"
+     ],
+     [
+      "ihr",
+      "[seid]"
+     ],
+     [
+      "sie / Sie",
+      "[sind]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Bilde das Partizip II",
+    "h": "Nur das Partizip II, z. B. gemacht.",
+    "head": [
+     "Infinitiv",
+     "Partizip II"
+    ],
+    "r": [
+     [
+      "machen",
+      "[gemacht]"
+     ],
+     [
+      "einkaufen",
+      "[eingekauft]"
+     ],
+     [
+      "besuchen",
+      "[besucht]"
+     ],
+     [
+      "telefonieren",
+      "[telefoniert]"
+     ],
+     [
+      "fahren",
+      "[gefahren]"
+     ],
+     [
+      "treffen",
+      "[getroffen]"
+     ],
+     [
+      "finden",
+      "[gefunden]"
+     ],
+     [
+      "bringen",
+      "[gebracht]"
+     ],
+     [
+      "umziehen",
+      "[umgezogen]"
+     ],
+     [
+      "verstehen",
+      "[verstanden]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "haben oder sein? Perfekt mit „er“",
+    "h": "Hilfsverb + Partizip II, z. B. hat gemacht oder ist gefahren.",
+    "head": [
+     "Infinitiv",
+     "er … (Perfekt)"
+    ],
+    "r": [
+     [
+      "gehen",
+      "[ist gegangen]"
+     ],
+     [
+      "schlafen",
+      "[hat geschlafen]"
+     ],
+     [
+      "fliegen",
+      "[ist geflogen]"
+     ],
+     [
+      "essen",
+      "[hat gegessen]"
+     ],
+     [
+      "bleiben",
+      "[ist geblieben]"
+     ],
+     [
+      "aufstehen",
+      "[ist aufgestanden]"
+     ],
+     [
+      "arbeiten",
+      "[hat gearbeitet]"
+     ],
+     [
+      "passieren",
+      "[ist passiert]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Am Samstag ___ wir nach Salzburg gefahren.",
+    "a": [
+     "sind"
+    ],
+    "h": "haben oder sein – richtige Form im Präsens"
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ am Sonntag lange ausgeschlafen.",
+    "a": [
+     "habe"
+    ],
+    "h": "haben oder sein – richtige Form im Präsens"
+   },
+   {
+    "t": "gap",
+    "q": "Was ___ du am Wochenende gemacht?",
+    "a": [
+     "hast"
+    ],
+    "h": "haben oder sein – richtige Form im Präsens"
+   },
+   {
+    "t": "gap",
+    "q": "Meine Freundin ___ am Freitag nach Graz geflogen.",
+    "a": [
+     "ist"
+    ],
+    "h": "haben oder sein – richtige Form im Präsens"
+   },
+   {
+    "t": "gap",
+    "q": "Wir haben einen Ausflug an den Attersee ___. (machen)",
+    "a": [
+     "gemacht"
+    ],
+    "h": "Partizip II von „machen“"
+   },
+   {
+    "t": "gap",
+    "q": "Am Samstag habe ich im Supermarkt ___. (einkaufen)",
+    "a": [
+     "eingekauft"
+    ],
+    "h": "Partizip II von „einkaufen“ – ein Wort"
+   },
+   {
+    "t": "gap",
+    "q": "Gestern bin ich um sechs Uhr ___. (aufstehen)",
+    "a": [
+     "aufgestanden"
+    ],
+    "h": "Partizip II von „aufstehen“ – ein Wort"
+   },
+   {
+    "t": "gap",
+    "q": "Was ist am Wochenende ___? (passieren)",
+    "a": [
+     "passiert"
+    ],
+    "h": "Partizip II von „passieren“"
+   },
+   {
+    "t": "gap",
+    "q": "Wir sind am Sonntag zu Hause ___. (bleiben)",
+    "a": [
+     "geblieben"
+    ],
+    "h": "Partizip II von „bleiben“"
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe meine Kollegin im Café ___. (treffen)",
+    "a": [
+     "getroffen"
+    ],
+    "h": "Partizip II von „treffen“"
+   },
+   {
+    "t": "gap",
+    "q": "Im Mai bin ich nach Linz ___. (umziehen)",
+    "a": [
+     "umgezogen"
+    ],
+    "h": "Partizip II von „umziehen“ – ein Wort"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "At the weekend I went to Vienna by train.",
+    "a": [
+     "Am Wochenende bin ich mit dem Zug nach Wien gefahren.",
+     "Ich bin am Wochenende mit dem Zug nach Wien gefahren."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We slept in on Sunday.",
+    "a": [
+     "Am Sonntag haben wir ausgeschlafen.",
+     "Wir haben am Sonntag ausgeschlafen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Wir sind am Samstag wandern gegangen.",
+    "a": [
+     "We went hiking on Saturday.",
+     "On Saturday we went hiking.",
+     "We went for a hike on Saturday."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Did you visit your parents?",
+    "a": [
+     "Hast du deine Eltern besucht?"
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Am",
+     "Samstag",
+     "sind",
+     "wir",
+     "in",
+     "die",
+     "Berge",
+     "gefahren"
+    ],
+    "a": [
+     "Am Samstag sind wir in die Berge gefahren.",
+     "Wir sind am Samstag in die Berge gefahren."
+    ],
+    "de": "On Saturday we went to the mountains."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "habe",
+     "am",
+     "Sonntag",
+     "meine",
+     "Eltern",
+     "besucht"
+    ],
+    "a": [
+     "Ich habe am Sonntag meine Eltern besucht.",
+     "Am Sonntag habe ich meine Eltern besucht."
+    ],
+    "de": "I visited my parents on Sunday."
+   },
+   {
+    "t": "les",
+    "q": "Montag im Büro",
+    "txt": [
+     "Lena: Guten Morgen, Aurora! Wie war dein Wochenende?",
+     "Aurora: Servus, Lena! Es war sehr schön. Am Samstag bin ich mit Freunden wandern gegangen.",
+     "Lena: Super! Wo seid ihr gewesen?",
+     "Aurora: Wir sind auf den Schafberg gegangen. Am Abend sind wir noch zum Heurigen gefahren.",
+     "Lena: Und am Sonntag?",
+     "Aurora: Da habe ich ausgeschlafen und meine Wohnung geputzt. Und du?",
+     "Lena: Ich bin zu Hause geblieben. Mein Sohn ist krank gewesen."
+    ],
+    "qs": [
+     {
+      "q": "What did Aurora do on Saturday?",
+      "o": [
+       "She went hiking with friends.",
+       "She cleaned her flat.",
+       "She stayed at home."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did Lena do at the weekend?",
+      "o": [
+       "She stayed at home because her son was ill.",
+       "She went to a wine tavern.",
+       "She went hiking."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why does Aurora say „sind wir gefahren“ and not „haben wir gefahren“?",
+      "o": [
+       "fahren here is movement from A to B, so sein",
+       "because of „wir“",
+       "because it was in the evening"
+      ],
+      "a": 0,
+      "x": "Movement from A to B (to the Heuriger) → Perfekt with sein."
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht von Jonas",
+    "txt": [
+     "Hallo Aurora!",
+     "Wie war dein Wochenende? Ich bin am Freitag nach Innsbruck geflogen und habe meine Schwester besucht.",
+     "Am Samstag sind wir in die Berge gefahren und haben eine Jause mitgenommen.",
+     "Am Sonntag bin ich mit dem Zug zurückgekommen. Die Fahrt hat fünf Stunden gedauert!",
+     "Bis morgen, Jonas"
+    ],
+    "qs": [
+     {
+      "q": "How did Jonas travel to Innsbruck?",
+      "o": [
+       "by plane",
+       "by train",
+       "by car"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How did he come back?",
+      "o": [
+       "by train",
+       "by plane",
+       "by bus"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did they take to the mountains?",
+      "o": [
+       "a snack",
+       "a bottle of wine",
+       "a book"
+      ],
+      "a": 0,
+      "x": "die Jause = snack (Austria)"
+     }
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences about last weekend: what did you do on Saturday and on Sunday? Use the Perfekt.",
+    "w": [
+     "am Samstag",
+     "am Sonntag"
+    ],
+    "a": [
+     "Am Samstag bin ich mit Freunden wandern gegangen. Am Sonntag habe ich ausgeschlafen."
+    ],
+    "h": "Perfekt: haben/sein + Partizip II"
+   },
+   {
+    "t": "sch",
+    "q": "Tell a colleague: last month you moved into a new flat, and then you visited your parents.",
+    "w": [
+     "umziehen",
+     "besuchen"
+    ],
+    "a": [
+     "Letzten Monat bin ich in eine neue Wohnung umgezogen. Danach habe ich meine Eltern besucht."
+    ],
+    "h": "Perfekt: umziehen → sein, besuchen → haben"
+   },
+   {
+    "t": "dlg",
+    "q": "Montagmorgen in der Kaffeeküche",
+    "r": [
+     [
+      "Kollege",
+      "Servus! Wie war dein Wochenende?"
+     ],
+     [
+      "Du",
+      "[Es war sehr schön.|Sehr schön, danke.|Es war schön.]",
+      "Say it was very nice."
+     ],
+     [
+      "Kollege",
+      "Was hast du gemacht?"
+     ],
+     [
+      "Du",
+      "[Ich bin wandern gegangen.|Ich bin am Samstag wandern gegangen.]",
+      "Say you went hiking."
+     ],
+     [
+      "Kollege",
+      "Und am Sonntag?"
+     ],
+     [
+      "Du",
+      "[Am Sonntag habe ich ausgeschlafen.|Ich habe ausgeschlafen.]",
+      "Say you slept in on Sunday."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Am Telefon mit deiner Mutter",
+    "r": [
+     [
+      "Mutter",
+      "Hallo! Was hast du am Wochenende gemacht?"
+     ],
+     [
+      "Du",
+      "[Ich habe einen Ausflug gemacht.|Ich habe am Wochenende einen Ausflug gemacht.]",
+      "Say you went on a trip."
+     ],
+     [
+      "Mutter",
+      "Wohin bist du gefahren?"
+     ],
+     [
+      "Du",
+      "[Ich bin nach Hallstatt gefahren.|Nach Hallstatt.]",
+      "Say you went to Hallstatt."
+     ],
+     [
+      "Mutter",
+      "Und was hast du dort gegessen?"
+     ],
+     [
+      "Du",
+      "[Ich habe Fisch gegessen.|Fisch.]",
+      "Say you ate fish."
+     ]
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "How do you form the Perfekt?",
+    "o": [
+     "haben/sein (conjugated) + Partizip II at the end",
+     "werden + infinitive at the end",
+     "haben/sein + infinitive at the end",
+     "Partizip II at position 2"
+    ],
+    "a": 0,
+    "x": "Perfekt = haben or sein at position 2 + Partizip II at the end: Ich habe gegessen. Wir sind gefahren."
+   },
+   {
+    "t": "mc",
+    "q": "Which verbs form the Perfekt with „sein“?",
+    "o": [
+     "movement from A to B, change of state, and sein, bleiben, passieren",
+     "all verbs with a prefix",
+     "all irregular verbs",
+     "all reflexive verbs"
+    ],
+    "a": 0,
+    "x": "sein: gehen, fahren, fliegen, kommen, wandern, umziehen, aufstehen, aufwachen, einschlafen, werden, sein, bleiben, passieren. All other verbs take haben."
+   },
+   {
+    "t": "mc",
+    "q": "How do you form the Partizip II of a regular verb like „machen“?",
+    "o": [
+     "ge- + stem + -t → gemacht",
+     "ge- + stem + -en → gemachen",
+     "stem + -te → machte",
+     "no change → machen"
+    ],
+    "a": 0,
+    "x": "Regular verbs: ge- + stem + -t (gemacht, gekauft, gespielt). „machte“ is the Präteritum."
+   },
+   {
+    "t": "mc",
+    "q": "Where does „ge-“ go in a separable verb like „einkaufen“?",
+    "o": [
+     "between the prefix and the stem: eingekauft",
+     "at the beginning: geeinkauft",
+     "nowhere: einkauft",
+     "after the stem: einkaufget"
+    ],
+    "a": 0,
+    "x": "Separable verbs: ge- goes in the middle and everything is one word: eingekauft, mitgebracht, aufgestanden."
+   },
+   {
+    "t": "mc",
+    "q": "Which verbs have NO „ge-“ in the Partizip II?",
+    "o": [
+     "verbs with be-, ver-, er- … and verbs ending in -ieren",
+     "all irregular verbs",
+     "all separable verbs",
+     "all verbs of movement"
+    ],
+    "a": 0,
+    "x": "besuchen → besucht, verstehen → verstanden, erzählen → erzählt, telefonieren → telefoniert, passieren → passiert."
+   },
+   {
+    "t": "mc",
+    "q": "Where does the Partizip II go in a main clause?",
+    "o": [
+     "at the end of the sentence",
+     "directly after the subject",
+     "at position 2",
+     "at the beginning"
+    ],
+    "a": 0,
+    "x": "Position 2 = haben/sein, the Partizip II goes to the very end: Ich habe am Sonntag meine Eltern besucht."
+   },
+   {
+    "t": "mc",
+    "q": "Which Partizip II of „finden“ is correct?",
+    "o": [
+     "gefunden",
+     "gefindet",
+     "gefundet",
+     "gefinden"
+    ],
+    "a": 0,
+    "x": "finden is irregular: finden – fand – gefunden."
+   },
+   {
+    "t": "mc",
+    "q": "„Wir ___ nach Wien gefahren.“ Why „sind“?",
+    "o": [
+     "fahren to a place = movement from A to B → sein",
+     "because fahren is irregular",
+     "because „wir“ always takes sind",
+     "because of „nach“"
+    ],
+    "a": 0,
+    "x": "Movement from A to B forms the Perfekt with sein: Wir sind nach Wien gefahren."
+   },
+   {
+    "t": "mc",
+    "q": "In Austria, what is usual? „Ich ___ gestern lange beim Heurigen gesessen.“",
+    "o": [
+     "bin",
+     "habe",
+     "war",
+     "wurde"
+    ],
+    "a": 0,
+    "x": "With sitzen, stehen, liegen people in Austria (and southern Germany) say „bin“: ich bin gesessen. In Germany mostly „habe gesessen“. Both are correct."
+   },
+   {
+    "t": "mc",
+    "q": "Which tense do Austrians mostly use when they talk about the past?",
+    "o": [
+     "the Perfekt (Präteritum mostly only for sein, haben and modal verbs)",
+     "the Präteritum for all verbs",
+     "the Futur",
+     "the Plusquamperfekt"
+    ],
+    "a": 0,
+    "x": "Spoken German in Austria: Perfekt. But: Es war schön. Ich hatte keine Zeit. Ich musste arbeiten."
+   }
+  ]
+ },
+ {
+  "id": "d02",
+  "title": "Ich kann leider nicht kommen – Wortstellung",
+  "fi": "Calling in sick – word order",
+  "lvl": "A2",
+  "req": [],
+  "th": "<h3>1. Situation: calling in sick, cancelling an appointment</h3><p>You are ill. You call or write to your boss and to the doctor's surgery (in Austria: <i>die Ordination</i>). For this you need clear sentences with <b>weil</b>, <b>deshalb</b> and <b>ob</b> – and the right word order.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich bin leider krank.</td><td>Unfortunately I'm ill.</td></tr><tr><td>Ich kann heute nicht arbeiten, weil ich Fieber habe.</td><td>I can't work today because I have a temperature.</td></tr><tr><td>Ich habe Fieber, deshalb bleibe ich zu Hause.</td><td>I have a temperature, so I'm staying at home.</td></tr><tr><td>Ich bin im Krankenstand.</td><td>I'm on sick leave. (Austria)</td></tr><tr><td>Ich möchte einen Termin vereinbaren.</td><td>I'd like to make an appointment.</td></tr><tr><td>Ich muss den Termin leider verschieben.</td><td>Unfortunately I have to postpone the appointment.</td></tr><tr><td>Ich sage Ihnen morgen Bescheid.</td><td>I'll let you know tomorrow.</td></tr></table><h3>2. Short dialogue</h3><p><b>Ordination:</b> <i>Ordination Dr. Huber, Grüß Gott!</i><br><b>Aurora:</b> <i>Grüß Gott! Ich habe seit gestern Fieber, deshalb möchte ich einen Termin vereinbaren.</i></p><h3>3. Grammar: word order</h3><p class=\"rule\"><b>Main clause:</b> the conjugated verb is always at <b>position 2</b>. If something other than the subject is at position 1 (a time, <i>deshalb</i>, <i>trotzdem</i> …), the subject comes <b>after</b> the verb.</p><table><tr><th>Position 1</th><th>Position 2 (verb)</th><th>Rest</th></tr><tr><td>Ich</td><td>bleibe</td><td>heute zu Hause.</td></tr><tr><td>Heute</td><td>bleibe</td><td>ich zu Hause.</td></tr><tr><td>Deshalb</td><td>bleibe</td><td>ich zu Hause.</td></tr><tr><td>Trotzdem</td><td>gehe</td><td>ich zur Arbeit.</td></tr></table><p class=\"rule\"><b>und, aber, oder, denn, sondern</b> are at „position 0“ – they do not change the word order: <i>Ich bleibe zu Hause, denn ich bin krank.</i></p><p class=\"rule\"><b>Subordinate clause</b> (after <b>weil, dass, ob, wenn, als, obwohl</b> and question words in indirect questions): the conjugated verb goes to the <b>end</b>.</p><table><tr><th>Main clause</th><th>Subordinate clause</th></tr><tr><td>Ich bleibe zu Hause,</td><td>weil ich krank bin.</td></tr><tr><td>Ich glaube,</td><td>dass der Termin morgen ist.</td></tr><tr><td>Ich weiß nicht,</td><td>ob er heute kommen kann.</td></tr><tr><td>Er sagt,</td><td>dass er das Paket abgeschickt hat.</td></tr></table><p class=\"tip\">With a modal verb or the Perfekt, the conjugated verb is the very last word: <i>… ob er kommen <b>kann</b></i>, <i>… dass er das Paket abgeschickt <b>hat</b></i>. Separable verbs stay together: <i>Ich sage den Termin ab.</i> → <i>…, weil ich den Termin absage.</i></p><p class=\"rule\">If the subordinate clause comes <b>first</b>, the main clause starts with the verb: <i>Weil ich krank bin, <b>bleibe</b> ich zu Hause.</i></p><p class=\"tip\"><b>Time before place:</b> <i>Ich fahre morgen nach Linz.</i> (not: nach Linz morgen)</p>",
+  "v": [
+   [
+    "krank",
+    "ill, sick"
+   ],
+   [
+    "im Krankenstand sein",
+    "to be on sick leave (Austria)"
+   ],
+   [
+    "sich krankmelden",
+    "to call in sick"
+   ],
+   [
+    "einen Termin vereinbaren",
+    "to make an appointment"
+   ],
+   [
+    "einen Termin verschieben",
+    "to postpone an appointment"
+   ],
+   [
+    "absagen",
+    "to cancel"
+   ],
+   [
+    "die Ordination",
+    "doctor's surgery (Austria)"
+   ],
+   [
+    "Fieber haben",
+    "to have a temperature"
+   ],
+   [
+    "Bescheid sagen",
+    "to let someone know"
+   ],
+   [
+    "leider",
+    "unfortunately"
+   ],
+   [
+    "deshalb",
+    "that's why, so"
+   ],
+   [
+    "trotzdem",
+    "nevertheless, still"
+   ],
+   [
+    "weil",
+    "because (verb at the end)"
+   ],
+   [
+    "dass",
+    "that (verb at the end)"
+   ],
+   [
+    "ob",
+    "whether, if (verb at the end)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Mach aus dem Satz einen weil-Satz",
+    "h": "Schreib nur den weil-Satz ohne Komma, z. B. weil ich krank bin.",
+    "head": [
+     "Satz",
+     "weil-Satz"
+    ],
+    "r": [
+     [
+      "Ich bin krank.",
+      "[weil ich krank bin]"
+     ],
+     [
+      "Ich habe Fieber.",
+      "[weil ich Fieber habe]"
+     ],
+     [
+      "Ich kann nicht kommen.",
+      "[weil ich nicht kommen kann]"
+     ],
+     [
+      "Ich habe den Bus verpasst.",
+      "[weil ich den Bus verpasst habe]"
+     ],
+     [
+      "Ich sage den Termin ab.",
+      "[weil ich den Termin absage]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Beginne den Satz mit dem Wort in Klammern",
+    "h": "Ganzer Satz, das Verb bleibt an Position 2.",
+    "head": [
+     "Satz",
+     "neuer Satz"
+    ],
+    "r": [
+     [
+      "Ich bleibe heute zu Hause. (heute)",
+      "[Heute bleibe ich zu Hause.]"
+     ],
+     [
+      "Ich gehe trotzdem zur Arbeit. (trotzdem)",
+      "[Trotzdem gehe ich zur Arbeit.]"
+     ],
+     [
+      "Ich rufe morgen in der Ordination an. (morgen)",
+      "[Morgen rufe ich in der Ordination an.]"
+     ],
+     [
+      "Ich bin deshalb im Krankenstand. (deshalb)",
+      "[Deshalb bin ich im Krankenstand.]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich bleibe heute zu Hause, weil ich Fieber ___.",
+    "a": [
+     "habe"
+    ],
+    "h": "haben – richtige Form"
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe Fieber, deshalb ___ ich heute nicht arbeiten.",
+    "a": [
+     "kann"
+    ],
+    "h": "können – richtige Form"
+   },
+   {
+    "t": "gap",
+    "q": "Können Sie mir sagen, ob Frau Doktor Huber heute Zeit ___?",
+    "a": [
+     "hat"
+    ],
+    "h": "haben – richtige Form"
+   },
+   {
+    "t": "gap",
+    "q": "___ ich krank bin, bleibe ich zu Hause.",
+    "a": [
+     "Weil",
+     "Da"
+    ],
+    "h": "Bindewort: because"
+   },
+   {
+    "t": "gap",
+    "q": "Ich komme nicht mit, ___ ich bin krank.",
+    "a": [
+     "denn"
+    ],
+    "h": "because – danach normale Wortstellung"
+   },
+   {
+    "t": "gap",
+    "q": "Es regnet, ___ gehen wir spazieren.",
+    "a": [
+     "trotzdem"
+    ],
+    "h": "nevertheless"
+   },
+   {
+    "t": "gap",
+    "q": "Ich glaube, ___ der Termin morgen ist.",
+    "a": [
+     "dass"
+    ],
+    "h": "Bindewort: that"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "fahre",
+     "morgen",
+     "nach",
+     "Linz"
+    ],
+    "a": [
+     "Ich fahre morgen nach Linz.",
+     "Morgen fahre ich nach Linz."
+    ],
+    "de": "I'm going to Linz tomorrow."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "kann",
+     "heute",
+     "nicht",
+     "kommen",
+     "weil",
+     "ich",
+     "krank",
+     "bin"
+    ],
+    "a": [
+     "Ich kann heute nicht kommen, weil ich krank bin.",
+     "Heute kann ich nicht kommen, weil ich krank bin."
+    ],
+    "de": "I can't come today because I'm ill."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "weiß",
+     "nicht",
+     "ob",
+     "er",
+     "heute",
+     "kommen",
+     "kann"
+    ],
+    "a": [
+     "Ich weiß nicht, ob er heute kommen kann."
+    ],
+    "de": "I don't know whether he can come today."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Deshalb",
+     "sage",
+     "ich",
+     "den",
+     "Termin",
+     "ab"
+    ],
+    "a": [
+     "Deshalb sage ich den Termin ab.",
+     "Ich sage deshalb den Termin ab."
+    ],
+    "de": "That's why I'm cancelling the appointment."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm staying at home today because I have a temperature.",
+    "a": [
+     "Ich bleibe heute zu Hause, weil ich Fieber habe.",
+     "Heute bleibe ich zu Hause, weil ich Fieber habe."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm ill, so I can't come.",
+    "a": [
+     "Ich bin krank, deshalb kann ich nicht kommen.",
+     "Ich bin krank, darum kann ich nicht kommen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Ich muss den Termin leider verschieben.",
+    "a": [
+     "Unfortunately I have to postpone the appointment.",
+     "I'm afraid I have to postpone the appointment.",
+     "Unfortunately I have to reschedule the appointment."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I don't know whether the doctor is there today.",
+    "a": [
+     "Ich weiß nicht, ob die Ärztin heute da ist.",
+     "Ich weiß nicht, ob der Arzt heute da ist."
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Anruf in der Ordination",
+    "txt": [
+     "Ordination: Ordination Dr. Huber, Grüß Gott!",
+     "Aurora: Grüß Gott, mein Name ist Aurora. Ich habe seit gestern Fieber und möchte einen Termin vereinbaren.",
+     "Ordination: Heute ist es leider schwierig. Können Sie morgen um neun Uhr kommen?",
+     "Aurora: Morgen um neun passt gut. Ich muss aber noch im Büro Bescheid sagen, dass ich krank bin.",
+     "Ordination: Natürlich. Bringen Sie bitte Ihre E-Card mit."
+    ],
+    "qs": [
+     {
+      "q": "Why is Aurora calling?",
+      "o": [
+       "She has a temperature and wants an appointment.",
+       "She wants to cancel an appointment.",
+       "She needs a prescription."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When is the appointment?",
+      "o": [
+       "tomorrow at nine",
+       "today at nine",
+       "tomorrow at noon"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What must she bring?",
+      "o": [
+       "her e-card",
+       "her passport",
+       "a prescription"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "E-Mail an die Chefin",
+    "txt": [
+     "Liebe Frau Berger,",
+     "leider bin ich krank und kann heute nicht ins Büro kommen. Ich habe seit gestern Fieber, deshalb bleibe ich zu Hause.",
+     "Morgen gehe ich zum Arzt. Ich sage Ihnen Bescheid, ob ich am Mittwoch wieder arbeiten kann.",
+     "Mit freundlichen Grüßen",
+     "Aurora"
+    ],
+    "qs": [
+     {
+      "q": "Why is Aurora writing?",
+      "o": [
+       "She is ill and can't come to work.",
+       "She wants a day off for a trip.",
+       "She has a new job."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What will she do tomorrow?",
+      "o": [
+       "go to the doctor",
+       "go back to work",
+       "go to the pharmacy"
+      ],
+      "a": 0
+     },
+     {
+      "q": "In „…, ob ich am Mittwoch wieder arbeiten kann“ – why is „kann“ at the end?",
+      "o": [
+       "„ob“ starts a subordinate clause, so the verb goes to the end",
+       "because of „Mittwoch“",
+       "modal verbs always go at the end"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write a short message to your boss: you are ill and can't come today. Use „weil“.",
+    "w": [
+     "krank",
+     "weil"
+    ],
+    "a": [
+     "Ich kann heute leider nicht kommen, weil ich krank bin."
+    ],
+    "h": "ein ganzer Satz mit „weil“ – Verb am Ende"
+   },
+   {
+    "t": "sch",
+    "q": "Write: you have a temperature, so you have to postpone the appointment. Use „deshalb“.",
+    "w": [
+     "Fieber",
+     "deshalb",
+     "verschieben"
+    ],
+    "a": [
+     "Ich habe Fieber, deshalb muss ich den Termin verschieben.",
+     "Ich habe Fieber, deshalb verschiebe ich den Termin."
+    ],
+    "h": "nach „deshalb“: zuerst das Verb, dann das Subjekt"
+   },
+   {
+    "t": "dlg",
+    "q": "Anruf bei der Chefin",
+    "r": [
+     [
+      "Chefin",
+      "Hallo Aurora, was ist los?"
+     ],
+     [
+      "Du",
+      "[Ich bin leider krank.|Leider bin ich krank.|Ich bin krank.]",
+      "Say you are unfortunately ill."
+     ],
+     [
+      "Chefin",
+      "Oje! Kommst du morgen?"
+     ],
+     [
+      "Du",
+      "[Ich weiß noch nicht, ob ich morgen kommen kann.|Ich weiß nicht, ob ich morgen kommen kann.]",
+      "Say you don't know yet whether you can come tomorrow."
+     ],
+     [
+      "Chefin",
+      "Gut, sag mir bitte Bescheid."
+     ],
+     [
+      "Du",
+      "[Ich sage dir morgen Bescheid.|Morgen sage ich dir Bescheid.]",
+      "Say you'll let her know tomorrow."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Einen Termin absagen",
+    "r": [
+     [
+      "Ordination",
+      "Ordination Dr. Huber, Grüß Gott!"
+     ],
+     [
+      "Du",
+      "[Grüß Gott, ich muss leider meinen Termin absagen.|Guten Tag, ich muss leider meinen Termin absagen.]",
+      "Say you unfortunately have to cancel your appointment."
+     ],
+     [
+      "Ordination",
+      "Kein Problem. Warum können Sie nicht kommen?"
+     ],
+     [
+      "Du",
+      "[Ich kann nicht kommen, weil ich arbeiten muss.|Weil ich arbeiten muss.]",
+      "Say: because you have to work."
+     ],
+     [
+      "Ordination",
+      "Möchten Sie einen neuen Termin vereinbaren?"
+     ],
+     [
+      "Du",
+      "[Ja, gerne.|Ja, bitte.]",
+      "Say yes, please."
+     ]
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Where is the conjugated verb in a German main clause?",
+    "o": [
+     "at position 2",
+     "at position 1",
+     "at the end",
+     "always directly after the subject"
+    ],
+    "a": 0,
+    "x": "Main clause: verb at position 2. Ich bleibe zu Hause. – Heute bleibe ich zu Hause."
+   },
+   {
+    "t": "mc",
+    "q": "What happens when a sentence starts with „Heute“ or „Deshalb“?",
+    "o": [
+     "The verb stays at position 2 and the subject comes after it.",
+     "The verb goes to the end.",
+     "The subject stays first and the verb comes third.",
+     "Nothing changes."
+    ],
+    "a": 0,
+    "x": "Heute bleibe ich zu Hause. Deshalb bleibe ich zu Hause. (not: Deshalb ich bleibe …)"
+   },
+   {
+    "t": "mc",
+    "q": "Which words send the conjugated verb to the END of the clause?",
+    "o": [
+     "weil, dass, ob, wenn, als, obwohl",
+     "und, aber, oder, denn",
+     "deshalb, trotzdem, dann",
+     "heute, morgen, gestern"
+    ],
+    "a": 0,
+    "x": "These words start a subordinate clause: …, weil ich krank bin."
+   },
+   {
+    "t": "mc",
+    "q": "Which words do NOT change the word order?",
+    "o": [
+     "und, aber, oder, denn, sondern",
+     "weil, dass, ob",
+     "deshalb, trotzdem",
+     "wenn, als"
+    ],
+    "a": 0,
+    "x": "They are at „position 0“: Ich bleibe zu Hause, denn ich bin krank."
+   },
+   {
+    "t": "mc",
+    "q": "„Er sagt, dass er das Paket schon ___.“ What is correct?",
+    "o": [
+     "abgeschickt hat",
+     "hat abgeschickt",
+     "abgeschickt",
+     "hat das Paket abgeschickt"
+    ],
+    "a": 0,
+    "x": "In a subordinate clause the conjugated verb (hat) is the very last word."
+   },
+   {
+    "t": "mc",
+    "q": "Time or place first? „Ich fahre ___.“",
+    "o": [
+     "morgen nach Linz",
+     "nach Linz morgen"
+    ],
+    "a": 0,
+    "x": "Time comes before place: Ich fahre morgen nach Linz."
+   },
+   {
+    "t": "mc",
+    "q": "„Weil ich krank bin, ___ ich zu Hause.“ What comes after the comma?",
+    "o": [
+     "the verb: bleibe",
+     "the subject: ich",
+     "nothing special – any order is fine"
+    ],
+    "a": 0,
+    "x": "The whole weil-clause is position 1, so the main clause starts with the verb."
+   },
+   {
+    "t": "mc",
+    "q": "„denn“ or „weil“ – which one sends the verb to the end?",
+    "o": [
+     "weil",
+     "denn",
+     "both",
+     "neither"
+    ],
+    "a": 0,
+    "x": "weil → verb at the end. denn → normal word order: Ich komme nicht, denn ich bin krank."
+   },
+   {
+    "t": "mc",
+    "q": "What happens to a separable verb in a subordinate clause?",
+    "o": [
+     "It stays together at the end: …, weil ich den Termin absage.",
+     "It is split: …, weil ich sage den Termin ab.",
+     "The prefix goes to position 1."
+    ],
+    "a": 0,
+    "x": "Main clause: Ich sage den Termin ab. Subordinate clause: …, weil ich den Termin absage."
+   }
+  ]
+ },
+ {
+  "id": "d03",
+  "title": "Als ich nach Österreich kam – als, wenn, wann",
+  "fi": "Telling about the past – time clauses",
+  "lvl": "B1",
+  "req": [
+   "d01",
+   "d02"
+  ],
+  "th": "<h3>1. Situation: telling about the past</h3><p>Colleagues and friends ask: When did you come to Austria? What was it like? What did you do as a child? For this you need the right „when“-word – German has three: <b>als</b>, <b>wenn</b> and <b>wann</b>.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Als ich nach Österreich kam, hatte ich keine Wohnung.</td><td>When I came to Austria, I didn't have a flat.</td></tr><tr><td>Immer wenn ich Heimweh habe, rufe ich meine Familie an.</td><td>Whenever I'm homesick, I call my family.</td></tr><tr><td>Wann bist du nach Österreich gekommen?</td><td>When did you come to Austria?</td></tr><tr><td>Während ich koche, höre ich Radio.</td><td>While I'm cooking, I listen to the radio.</td></tr><tr><td>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</td><td>Before I go to work, I drink coffee.</td></tr><tr><td>Damals konnte ich nur wenig Deutsch.</td><td>Back then I could only speak a little German.</td></tr></table><h3>2. Short dialogue</h3><p><b>Kollegin:</b> <i>Wann bist du nach Österreich gekommen?</i><br><b>Aurora:</b> <i>Vor zwei Jahren. Als ich angekommen bin, konnte ich nur wenig Deutsch.</i></p><h3>3. Grammar: time clauses</h3><table><tr><th>Word</th><th>Use</th><th>Example</th></tr><tr><td>als</td><td>one event or one period in the past</td><td>Als ich ein Kind war, wohnten wir auf dem Land.</td></tr><tr><td>wenn</td><td>repeated events („immer wenn“), present and future</td><td>Wenn ich in Wien bin, besuche ich meine Tante.</td></tr><tr><td>wann</td><td>only for questions – also indirect questions</td><td>Wann kommst du? – Ich weiß nicht, wann der Bus kommt.</td></tr><tr><td>während</td><td>two things at the same time</td><td>Während du kochst, decke ich den Tisch.</td></tr><tr><td>bevor</td><td>before (+ clause)</td><td>Wasch dir die Hände, bevor du isst.</td></tr><tr><td>nachdem</td><td>after (+ clause), one tense „earlier“</td><td>Nachdem ich angekommen war, habe ich dich angerufen.</td></tr></table><p class=\"rule\">All these words start a <b>subordinate clause</b>: the conjugated verb goes to the <b>end</b> (see d02). If the clause comes first, the main clause starts with the verb: <i>Als ich ein Kind war, <b>wohnten</b> wir auf dem Land.</i></p><p class=\"tip\"><b>vor</b> or <b>bevor</b>? <i>vor</i> + noun: <i>vor dem Essen</i>. <i>bevor</i> + clause: <i>bevor ich esse</i>.</p><p class=\"rule\"><b>nachdem</b> + Plusquamperfekt: <b>hatte/war</b> (Präteritum) + Partizip II: <i>Nachdem wir gegessen hatten, …</i> – <i>Nachdem ich angekommen war, …</i></p><h3>Präteritum of sein, haben and the modal verbs</h3><p>When telling about the past, Austrians use the Präteritum for these verbs (see d01).</p><table><tr><th>Person</th><th>sein</th><th>haben</th></tr><tr><td>ich</td><td>war</td><td>hatte</td></tr><tr><td>du</td><td>warst</td><td>hattest</td></tr><tr><td>er / sie / es</td><td>war</td><td>hatte</td></tr><tr><td>wir</td><td>waren</td><td>hatten</td></tr><tr><td>ihr</td><td>wart</td><td>hattet</td></tr><tr><td>sie / Sie</td><td>waren</td><td>hatten</td></tr></table><table><tr><th>Person</th><th>können</th><th>müssen</th></tr><tr><td>ich</td><td>konnte</td><td>musste</td></tr><tr><td>du</td><td>konntest</td><td>musstest</td></tr><tr><td>er / sie / es</td><td>konnte</td><td>musste</td></tr><tr><td>wir</td><td>konnten</td><td>mussten</td></tr><tr><td>ihr</td><td>konntet</td><td>musstet</td></tr><tr><td>sie / Sie</td><td>konnten</td><td>mussten</td></tr></table><p class=\"tip\">No umlaut in the Präteritum of modal verbs: <i>konnte, musste</i> = could, had to. With umlaut it is the Konjunktiv II: <i>könnte, müsste</i> = could, would have to.</p>",
+  "v": [
+   [
+    "als",
+    "when (one event in the past)"
+   ],
+   [
+    "wenn",
+    "when, whenever (repeated, present, future)"
+   ],
+   [
+    "wann",
+    "when? (question word)"
+   ],
+   [
+    "während",
+    "while"
+   ],
+   [
+    "bevor",
+    "before (+ clause)"
+   ],
+   [
+    "nachdem",
+    "after (+ clause)"
+   ],
+   [
+    "damals",
+    "back then"
+   ],
+   [
+    "zum ersten Mal",
+    "for the first time"
+   ],
+   [
+    "früher",
+    "in the past, earlier"
+   ],
+   [
+    "das Heimweh",
+    "homesickness"
+   ],
+   [
+    "ankommen",
+    "to arrive"
+   ],
+   [
+    "die Kindheit",
+    "childhood"
+   ],
+   [
+    "sich wohlfühlen",
+    "to feel comfortable, to feel at home"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Präteritum von „sein“",
+    "h": "Präteritum, z. B. ich war",
+    "head": [
+     "Person",
+     "sein"
+    ],
+    "r": [
+     [
+      "ich",
+      "[war]"
+     ],
+     [
+      "du",
+      "[warst]"
+     ],
+     [
+      "er / sie / es",
+      "[war]"
+     ],
+     [
+      "wir",
+      "[waren]"
+     ],
+     [
+      "ihr",
+      "[wart]"
+     ],
+     [
+      "sie / Sie",
+      "[waren]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum von „haben“",
+    "h": "Präteritum, z. B. ich hatte",
+    "head": [
+     "Person",
+     "haben"
+    ],
+    "r": [
+     [
+      "ich",
+      "[hatte]"
+     ],
+     [
+      "du",
+      "[hattest]"
+     ],
+     [
+      "er / sie / es",
+      "[hatte]"
+     ],
+     [
+      "wir",
+      "[hatten]"
+     ],
+     [
+      "ihr",
+      "[hattet]"
+     ],
+     [
+      "sie / Sie",
+      "[hatten]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum von „können“",
+    "h": "Präteritum ohne Umlaut, z. B. ich konnte",
+    "head": [
+     "Person",
+     "können"
+    ],
+    "r": [
+     [
+      "ich",
+      "[konnte]"
+     ],
+     [
+      "du",
+      "[konntest]"
+     ],
+     [
+      "er / sie / es",
+      "[konnte]"
+     ],
+     [
+      "wir",
+      "[konnten]"
+     ],
+     [
+      "ihr",
+      "[konntet]"
+     ],
+     [
+      "sie / Sie",
+      "[konnten]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum von „müssen“",
+    "h": "Präteritum ohne Umlaut, z. B. ich musste",
+    "head": [
+     "Person",
+     "müssen"
+    ],
+    "r": [
+     [
+      "ich",
+      "[musste]"
+     ],
+     [
+      "du",
+      "[musstest]"
+     ],
+     [
+      "er / sie / es",
+      "[musste]"
+     ],
+     [
+      "wir",
+      "[mussten]"
+     ],
+     [
+      "ihr",
+      "[musstet]"
+     ],
+     [
+      "sie / Sie",
+      "[mussten]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ ich zum ersten Mal in Wien war, hatte ich noch keine Wohnung.",
+    "a": [
+     "Als"
+    ],
+    "h": "when – one event in the past"
+   },
+   {
+    "t": "gap",
+    "q": "Immer ___ ich Heimweh habe, rufe ich meine Mutter an.",
+    "a": [
+     "wenn"
+    ],
+    "h": "when – repeated"
+   },
+   {
+    "t": "gap",
+    "q": "Weißt du, ___ der Zug ankommt?",
+    "a": [
+     "wann"
+    ],
+    "h": "question word: when"
+   },
+   {
+    "t": "gap",
+    "q": "___ ich koche, höre ich Radio.",
+    "a": [
+     "Während"
+    ],
+    "h": "while"
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe Deutsch gelernt, ___ ich nach Österreich gekommen bin.",
+    "a": [
+     "bevor"
+    ],
+    "h": "before + clause"
+   },
+   {
+    "t": "gap",
+    "q": "___ ich angekommen war, habe ich meine Mutter angerufen.",
+    "a": [
+     "Nachdem"
+    ],
+    "h": "after + clause"
+   },
+   {
+    "t": "gap",
+    "q": "Früher ___ ich kein Deutsch sprechen. (können)",
+    "a": [
+     "konnte"
+    ],
+    "h": "können – Präteritum"
+   },
+   {
+    "t": "gap",
+    "q": "Damals ___ ich jeden Tag arbeiten. (müssen)",
+    "a": [
+     "musste"
+    ],
+    "h": "müssen – Präteritum"
+   },
+   {
+    "t": "gap",
+    "q": "Als Kind ___ ich oft bei meiner Oma. (sein)",
+    "a": [
+     "war"
+    ],
+    "h": "sein – Präteritum"
+   },
+   {
+    "t": "gap",
+    "q": "Nachdem wir gegessen ___, sind wir spazieren gegangen.",
+    "a": [
+     "hatten"
+    ],
+    "h": "haben – Präteritum (Plusquamperfekt)"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Als",
+     "ich",
+     "nach",
+     "Österreich",
+     "kam",
+     "hatte",
+     "ich",
+     "Heimweh"
+    ],
+    "a": [
+     "Als ich nach Österreich kam, hatte ich Heimweh."
+    ],
+    "de": "When I came to Austria, I was homesick."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "rufe",
+     "meine",
+     "Mutter",
+     "an",
+     "wenn",
+     "ich",
+     "Heimweh",
+     "habe"
+    ],
+    "a": [
+     "Ich rufe meine Mutter an, wenn ich Heimweh habe."
+    ],
+    "de": "I call my mother when I'm homesick."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Bevor",
+     "ich",
+     "zur",
+     "Arbeit",
+     "gehe",
+     "trinke",
+     "ich",
+     "Kaffee"
+    ],
+    "a": [
+     "Bevor ich zur Arbeit gehe, trinke ich Kaffee."
+    ],
+    "de": "Before I go to work, I drink coffee."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "When I arrived in Austria, I didn't have a flat.",
+    "a": [
+     "Als ich in Österreich angekommen bin, hatte ich keine Wohnung.",
+     "Als ich in Österreich ankam, hatte ich keine Wohnung.",
+     "Als ich nach Österreich kam, hatte ich keine Wohnung.",
+     "Als ich in Österreich angekommen bin, hatte ich noch keine Wohnung."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Whenever it rains, I stay at home.",
+    "a": [
+     "Wenn es regnet, bleibe ich zu Hause.",
+     "Immer wenn es regnet, bleibe ich zu Hause."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Während ich koche, hört mein Freund Musik.",
+    "a": [
+     "While I'm cooking, my boyfriend listens to music.",
+     "While I cook, my boyfriend listens to music.",
+     "While I'm cooking, my friend listens to music.",
+     "While I cook, my friend listens to music."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I don't know when the course starts.",
+    "a": [
+     "Ich weiß nicht, wann der Kurs beginnt.",
+     "Ich weiß nicht, wann der Kurs anfängt."
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Meine ersten Wochen in Österreich",
+    "txt": [
+     "Als ich zum ersten Mal nach Österreich kam, war ich sehr aufgeregt.",
+     "Ich hatte noch keine Wohnung, deshalb habe ich die ersten Wochen bei einer Freundin gewohnt.",
+     "Während sie arbeitete, habe ich Wohnungen gesucht.",
+     "Immer wenn ich Heimweh hatte, habe ich meine Mutter angerufen.",
+     "Nachdem ich eine Wohnung gefunden hatte, habe ich mich endlich wohlgefühlt."
+    ],
+    "qs": [
+     {
+      "q": "Where did she live in the first weeks?",
+      "o": [
+       "with a friend",
+       "in a hotel",
+       "in her own flat"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did she do when she was homesick?",
+      "o": [
+       "She called her mother.",
+       "She went hiking.",
+       "She cooked."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why „als“ in the first sentence?",
+      "o": [
+       "one event in the past",
+       "a repeated event",
+       "a question"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Gespräch über früher",
+    "txt": [
+     "Kollege: Wann bist du eigentlich nach Österreich gekommen?",
+     "Mia: Vor drei Jahren. Bevor ich nach Linz gezogen bin, habe ich in Stockholm gearbeitet.",
+     "Kollege: Und wie war es am Anfang?",
+     "Mia: Schwierig! Als ich angekommen bin, konnte ich nur wenig Deutsch.",
+     "Kollege: Und jetzt?",
+     "Mia: Jetzt geht es gut. Immer wenn ich etwas nicht verstehe, frage ich nach."
+    ],
+    "qs": [
+     {
+      "q": "What did Mia do before she moved to Linz?",
+      "o": [
+       "She worked in Stockholm.",
+       "She studied in Vienna.",
+       "She lived in Linz."
+      ],
+      "a": 0
+     },
+     {
+      "q": "How was her German at the beginning?",
+      "o": [
+       "She could only speak a little German.",
+       "She spoke very good German.",
+       "She spoke no German at all."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does she do when she doesn't understand something?",
+      "o": [
+       "She asks.",
+       "She uses a dictionary.",
+       "She says nothing."
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write one sentence about your first day in Austria. Use „als“.",
+    "w": [
+     "als",
+     "zum ersten Mal"
+    ],
+    "a": [
+     "Als ich zum ersten Mal in Österreich war, war ich sehr aufgeregt."
+    ],
+    "h": "als + Verb am Ende, dann das Verb des Hauptsatzes"
+   },
+   {
+    "t": "sch",
+    "q": "Write what you do whenever you are homesick. Use „wenn“.",
+    "w": [
+     "wenn",
+     "Heimweh"
+    ],
+    "a": [
+     "Wenn ich Heimweh habe, rufe ich meine Familie an."
+    ],
+    "h": "wenn + Verb am Ende"
+   },
+   {
+    "t": "dlg",
+    "q": "Smalltalk in der Pause",
+    "r": [
+     [
+      "Kollegin",
+      "Wann bist du nach Österreich gekommen?"
+     ],
+     [
+      "Du",
+      "[Ich bin vor zwei Jahren nach Österreich gekommen.|Vor zwei Jahren.]",
+      "Say: two years ago."
+     ],
+     [
+      "Kollegin",
+      "Konntest du damals schon Deutsch?"
+     ],
+     [
+      "Du",
+      "[Nein, damals konnte ich nur wenig Deutsch.|Nein, ich konnte nur wenig Deutsch.]",
+      "Say: no, back then you could only speak a little German."
+     ],
+     [
+      "Kollegin",
+      "Hast du manchmal Heimweh?"
+     ],
+     [
+      "Du",
+      "[Ja, wenn es dunkel und kalt ist.|Ja, immer wenn es dunkel und kalt ist.]",
+      "Say: yes, whenever it is dark and cold."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Erinnerungen an die Kindheit",
+    "r": [
+     [
+      "Freund",
+      "Wo hast du als Kind gewohnt?"
+     ],
+     [
+      "Du",
+      "[Als Kind habe ich auf dem Land gewohnt.|Ich habe auf dem Land gewohnt.]",
+      "Say you lived in the countryside as a child."
+     ],
+     [
+      "Freund",
+      "Und was hast du gemacht, wenn es geschneit hat?"
+     ],
+     [
+      "Du",
+      "[Wenn es geschneit hat, bin ich Ski gefahren.|Dann bin ich Ski gefahren.]",
+      "Say: whenever it snowed, you went skiing."
+     ]
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "A single event in the past: „als“ or „wenn“?",
+    "o": [
+     "als",
+     "wenn",
+     "wann"
+    ],
+    "a": 0,
+    "x": "Als ich nach Österreich kam … – one event in the past = als."
+   },
+   {
+    "t": "mc",
+    "q": "Repeated events („immer wenn“), present and future: which word?",
+    "o": [
+     "wenn",
+     "als",
+     "wann"
+    ],
+    "a": 0,
+    "x": "Immer wenn ich Heimweh habe … / Wenn ich in Wien bin … = wenn."
+   },
+   {
+    "t": "mc",
+    "q": "Which word is only for questions (also indirect questions)?",
+    "o": [
+     "wann",
+     "wenn",
+     "als"
+    ],
+    "a": 0,
+    "x": "Wann kommst du? – Ich weiß nicht, wann der Bus kommt. Never: Wann ich ein Kind war …"
+   },
+   {
+    "t": "mc",
+    "q": "„während“ means …",
+    "o": [
+     "while (at the same time)",
+     "before",
+     "after",
+     "because"
+    ],
+    "a": 0,
+    "x": "Während du kochst, decke ich den Tisch. = two things at the same time."
+   },
+   {
+    "t": "mc",
+    "q": "After „nachdem“ (talking about the past) you use …",
+    "o": [
+     "the Plusquamperfekt: hatte/war + Partizip II",
+     "the Futur",
+     "the Präsens",
+     "the Konjunktiv II"
+    ],
+    "a": 0,
+    "x": "Nachdem ich angekommen war, … / Nachdem wir gegessen hatten, …"
+   },
+   {
+    "t": "mc",
+    "q": "Where does the verb go after als, wenn, während, bevor, nachdem?",
+    "o": [
+     "at the end of the clause",
+     "at position 2",
+     "at the beginning"
+    ],
+    "a": 0,
+    "x": "They start a subordinate clause: …, als ich ein Kind war."
+   },
+   {
+    "t": "mc",
+    "q": "Präteritum of „können“ for „ich“:",
+    "o": [
+     "konnte",
+     "könnte",
+     "kannte",
+     "konnt"
+    ],
+    "a": 0,
+    "x": "konnte = could (past). könnte (with umlaut) = Konjunktiv II. kannte comes from kennen."
+   },
+   {
+    "t": "mc",
+    "q": "Präteritum of „sein“ for „wir“:",
+    "o": [
+     "waren",
+     "wären",
+     "sind gewesen",
+     "warten"
+    ],
+    "a": 0,
+    "x": "wir waren. wären is the Konjunktiv II, sind gewesen is the Perfekt."
+   },
+   {
+    "t": "mc",
+    "q": "„Wasch dir die Hände, ___ du isst.“",
+    "o": [
+     "bevor",
+     "vor"
+    ],
+    "a": 0,
+    "x": "vor + noun (vor dem Essen), bevor + clause (bevor du isst)."
+   }
+  ]
+ }
+]
