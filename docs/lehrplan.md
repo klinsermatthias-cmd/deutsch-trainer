@@ -64,3 +64,6 @@ Reihenfolge nach dem Testergebnis. Kandidaten:
 1. Aurora macht den Einstufungstest und schickt den Bericht.
 2. Claude wertet aus und baut die ersten Themen (`d01` …) aus Phase 1 – nur, was sie noch nicht sicher beherrscht, jeweils mit einer Alltagssituation aus dem Themenpool.
 3. Nach etwa 6 Themen: Wiederholungstest und Neuplanung.
+
+## Ideen für später (noch nicht umgesetzt)
+- Oktober 2026 (Matthias, D-1011-1): **Zu jedem Theorieteil eigene Karten**, z. B. „Wie bildet man eine Ja/Nein-Frage?“ (Theoriefragen als `mc`/`tr` mit Erklärung), dazu genug Übungen je Theorieteil – die Zahl der Übungen pro Thema darf dafür deutlich steigen. Ziel: Theorie und Anwendung zu allen Themen in ausreichender Anzahl. Beim Bau der ersten Themen (d01 …) berücksichtigen.
