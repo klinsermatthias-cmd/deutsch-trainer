@@ -50,3 +50,8 @@ Wie bei Opi suomea: Bericht auswerten (auch **KI-PROTOKOLL** – Urteile von Coa
 - Aufgaben-IDs des Einstufungstests (`js/inhalte.js`, z. B. `A3.2`) nie ändern.
 - Übersetzungsrichtung: `dir: "de"` = Aufgabe auf Englisch, Antwort auf Deutsch; `dir: "fi"` = Aufgabe auf Deutsch, Antwort auf Englisch (Kürzel aus Opi suomea, siehe `docs/engine.md`).
 - Commit-Nachrichten auf Deutsch, kurz und klar. Nach Änderungen kurz `docs/entscheidungen.md` ergänzen.
+
+## Tokens sparen (T-1012, 12.10.2026)
+- **Chats kurz halten:** Jeder Schritt liest den ganzen Chat neu. Ein Thema = ein kurzer Chat; nach jedem Thema `/compact` vorschlagen, umsiedeln ab `/context` > 150.000 Tokens. `.claude/settings.json`: Effort `medium`, automatisch zusammenfassen ab 200.000 Tokens. Inhalte schreiben und Quellen prüfen mit Effort `high`, Verwaltung `low`.
+- **Verwaltung ohne Rückfrage:** Session-IDs, Übergabe, Archivieren direkt erledigen und gesammelt melden; mehrere Fragen in einer Nachricht. Inhalte und Pushes neuer Lektionen bleiben „erst erklären, dann fragen“.
+- **Kurze Ausgaben:** CI-Status nur mit `node tools/ci-status.mjs [--warten]`; `node tools/pruefen.mjs` zeigt nur ✗/! und die Schlusszeile (alles: `--lang`); Formen zuerst mit `node tools/quellen.mjs --sprache de --quelle de <wort>` (Wiktionary kompakt), Duden/DWDS wie in der Prüfliste. Die Hinweise „Prüfliste 6/8/9“ prüfen doppelte Karten, Tabellen ≤ 3 Spalten und Regelfragen automatisch (gewollte Fälle: `lektionen/pruef-ausnahmen.json`).
