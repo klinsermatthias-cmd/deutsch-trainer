@@ -35,7 +35,7 @@ Weitere Merkpunkte: nach etwa 3 Berichten mit „SCHWÄCHEN NACH THEMA“ eine E
 | Chat | Session |
 |---|---|
 | App-Engine: Funktionen | session_01RDQuEyYTikM25QrUxLnCu5 |
-| Opi suomea (Lerninhalte) | session_01Qt52MWJw4FDPSysStkj8At |
+| Opi suomea (Lerninhalte) | session_01YUsnSxvNQWW2UiiXtsb9th |
 | Simulation | über Matthias' zweites Konto, Codes S-… |
 
 ## Abläufe
