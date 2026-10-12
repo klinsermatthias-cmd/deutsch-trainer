@@ -93,7 +93,7 @@ const GLOSS_EXTRA = {
   "vor": {de: "before; ago (vor zwei Jahren)"},
   "und": {de: "and"},
   "aber": {de: "but"},
-  "denn": {de: "because (normal word order)"},
+  "denn": {de: "because (normal word order); in questions: particle, no meaning (Was ist denn los?)"},
   "nicht": {de: "not"},
   "keine": {de: "no, not any", base: "kein"},
   "noch": {de: "still, yet"},
@@ -104,7 +104,7 @@ const GLOSS_EXTRA = {
   "morgen": {de: "tomorrow"},
   "gestern": {de: "yesterday"},
   "danach": {de: "afterwards"},
-  "da": {de: "there; then"},
+  "da": {de: "there; then; as, since (verb at the end)"},
   "ja": {de: "yes"},
   "nein": {de: "no"},
   "gerne": {de: "gladly, with pleasure"},
@@ -167,6 +167,7 @@ const GLOSS_EXTRA = {
   "kaufte": {de: "bought", base: "kaufen", note: "Präteritum"},
   "schlief": {de: "slept", base: "schlafen", note: "Präteritum"},
   "aus": {de: "out; from", note: "schlief aus → ausschlafen"},
+  "ab": {de: "off, away; from (ab Montag = from Monday on)", note: "sagte ab → absagen"},
   "traf": {de: "met", base: "treffen", note: "Präteritum"},
   "flog": {de: "flew", base: "fliegen", note: "Präteritum"},
   "zog": {de: "moved; pulled", base: "ziehen", note: "Präteritum (zog um → umziehen)"},
@@ -223,7 +224,7 @@ const PT = [
       {
         id: "A2",
         title: "Word order",
-        hint: "Build correct sentences.",
+        hint: "Build correct sentences. Start with the first word given.",
         items: [
           { k: "r", t: "Morgen / ich / nach Linz / fahren", s: ["Morgen fahre ich nach Linz."] },
           {
@@ -284,7 +285,7 @@ const PT = [
       },
       {
         id: "A4",
-        title: "Infinitive with zu, um … zu, ohne … zu",
+        title: "Infinitive with zu",
         items: [
           { k: "b", t: "Ich habe keine Lust, heute ___ (kochen).", s: ["zu kochen"] },
           { k: "b", t: "Vergiss nicht, die Tür ___ (abschließen).", s: ["abzuschließen"] },
@@ -309,7 +310,7 @@ const PT = [
           { k: "r", t: "Ich muss lange warten.", tag: "Perfekt", s: ["Ich habe lange warten müssen."] },
           { k: "r", t: "Wir sind müde und haben Hunger.", tag: "Präteritum", s: ["Wir waren müde und hatten Hunger."] },
           { k: "r", t: "Er denkt oft an sie.", tag: "Präteritum", s: ["Er dachte oft an sie."] },
-          { k: "b", t: "Nachdem ich ___ (ankommen), rief ich dich an.", tag: "Plusquamperfekt", s: ["angekommen war"] },
+          { k: "b", t: "Nachdem ich ___ (ankommen), rief ich dich an.", tag: "Plusquamperfekt – 2 words", s: ["angekommen war"] },
           {
             k: "r",
             t: "Ich rufe dich morgen an.",
@@ -321,6 +322,7 @@ const PT = [
       {
         id: "A6",
         title: "Passive voice",
+        hint: "Rewrite the sentence in the passive (without „man“), in the tense shown.",
         items: [
           { k: "r", t: "Man repariert das Auto.", tag: "Präsens", s: ["Das Auto wird repariert."] },
           {
@@ -341,9 +343,10 @@ const PT = [
       {
         id: "A7",
         title: "Subjunctive (Konjunktiv II)",
+        hint: "Use Konjunktiv II (hätte, wäre, würde, könnte …).",
         items: [
           { k: "b", t: "Wenn ich mehr Zeit ___ (haben), ___ ich mehr reisen.", s: ["hätte", "würde|könnte"] },
-          { k: "b", t: "___ Sie mir bitte helfen? (können, höflich)", s: ["könnten"] },
+          { k: "b", t: "___ Sie mir bitte helfen? (können – Konjunktiv II, höflich)", s: ["könnten"] },
           { k: "b", t: "Ich wünschte, ich ___ jetzt am Meer. (sein)", s: ["wäre"] },
           { k: "b", t: "An deiner Stelle ___ ich mit dem Chef sprechen.", s: ["würde"] },
           { k: "b", t: "Wenn ich das gewusst ___, ___ ich früher gekommen.", s: ["hätte", "wäre"] }
@@ -356,12 +359,12 @@ const PT = [
         items: [
           { k: "b", t: "Ich gebe d___ Kollegin ein___ Buch.", s: ["er", ""] },
           { k: "b", t: "Wir sprechen mit unser___ neu___ Chef.", s: ["em", "en"] },
-          { k: "b", t: "Trotz d___ schlecht___ Wetter___ sind wir wandern gegangen.", s: ["es", "en", "s"] },
+          { k: "b", t: "Trotz d___ schlecht___ Wetter___ sind wir wandern gegangen.", tag: "genitive", s: ["es", "en", "s"] },
           { k: "b", t: "Das ist das Auto mein___ Bruder___.", s: ["es", "s"] },
           { k: "b", t: "Ich habe gestern ein___ alt___ Freund getroffen.", s: ["en", "en"] },
           { k: "b", t: "Bei schön___ Wetter sitzen wir gern draußen.", s: ["em"] },
           { k: "b", t: "Ich suche ein___ groß___ Wohnung mit ein___ hell___ Küche.", s: ["e", "e", "er", "en"] },
-          { k: "b", t: "Kennst du d___ Herr___ dort drüben?", s: ["en", "n"] }
+          { k: "b", t: "Kennst du d___ Herr___ dort drüben? Er winkt dir.", s: ["en", "n"] }
         ]
       },
       {
@@ -371,9 +374,9 @@ const PT = [
           { k: "b", t: "Sie legt das Handy auf d___ Tisch.", s: ["en"] },
           { k: "b", t: "Das Handy liegt auf d___ Tisch.", s: ["em"] },
           { k: "b", t: "Ich hänge das Bild an d___ Wand.", s: ["ie"] },
-          { k: "b", t: "Wir fahren ___ Wochenende ___ meinen Eltern.", s: ["am", "zu"] },
-          { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um", "am|beim|vor dem|vorm|im"] },
-          { k: "b", t: "Während d___ Besprechung war das Handy aus.", s: ["er"] },
+          { k: "b", t: "Wir fahren ___ Wochenende ___ meinen Eltern.", s: ["am|übers|über das", "zu"] },
+          { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um|gegen|ab", "am|beim|vor dem|vorm|im"] },
+          { k: "b", t: "Während d___ Unterricht___ war das Handy aus.", tag: "genitive", s: ["es", "s|es"] },
           { k: "b", t: "Ich muss morgen ___ Arzt.", s: ["zum"] }
         ]
       },
@@ -406,22 +409,22 @@ const PT = [
         id: "A12",
         title: "Relative clauses",
         items: [
-          { k: "b", t: "Das ist der Mann, ___ ich gestern geholfen habe.", s: ["dem"] },
-          { k: "b", t: "Die Stadt, in ___ ich wohne, ist ziemlich klein.", s: ["der"] },
-          { k: "b", t: "Die Kollegen, mit ___ ich arbeite, sind sehr nett.", s: ["denen"] },
+          { k: "b", t: "Das ist der Mann, ___ ich gestern geholfen habe.", s: ["dem|welchem"] },
+          { k: "b", t: "Die Stadt, in ___ ich wohne, ist ziemlich klein.", s: ["der|welcher"] },
+          { k: "b", t: "Die Kollegen, mit ___ ich arbeite, sind sehr nett.", s: ["denen|welchen"] },
           { k: "b", t: "Das ist die Frau, ___ Sohn in meiner Klasse ist.", s: ["deren"] },
-          { k: "b", t: "Das Buch, ___ du mir empfohlen hast, war super.", s: ["das"] }
+          { k: "b", t: "Das Buch, ___ du mir empfohlen hast, war super.", s: ["das|welches"] }
         ]
       },
       {
         id: "A13",
         title: "Subordinate clauses and indirect questions",
         items: [
-          { k: "b", t: "___ ich ein Kind war, wohnten wir auf dem Land.", s: ["als"] },
-          { k: "b", t: "___ ich in Wien bin, besuche ich immer meine Tante.", s: ["wenn"] },
-          { k: "b", t: "Weißt du, ___ der Supermarkt heute offen hat?", s: ["ob"] },
-          { k: "b", t: "___ du kochst, decke ich den Tisch.", s: ["während|wenn"] },
-          { k: "b", t: "Wasch dir die Hände, ___ du isst.", s: ["bevor"] },
+          { k: "b", t: "___ ich ein Kind war, wohnten wir auf dem Land.", tag: "als, wenn or wann?", s: ["als"] },
+          { k: "b", t: "___ ich in Wien bin, besuche ich immer meine Tante.", tag: "als, wenn or wann?", s: ["wenn"] },
+          { k: "b", t: "Weißt du, ___ der Supermarkt heute offen hat oder nicht?", s: ["ob"] },
+          { k: "b", t: "___ du kochst, decke ich den Tisch.", tag: "at the same time", s: ["während|wenn|solange"] },
+          { k: "b", t: "Wasch dir die Hände, ___ du isst.", s: ["bevor|ehe"] },
           {
             k: "r",
             t: "Wann beginnt der Kurs? → Können Sie mir sagen, …",
@@ -449,37 +452,46 @@ const PT = [
         id: "A15",
         title: "Negation: nicht or kein",
         items: [
-          { k: "b", t: "Ich habe heute ___ Zeit.", s: ["keine"] },
-          { k: "b", t: "Ich kenne den Mann ___.", s: ["nicht"] },
-          { k: "b", t: "Er ist ___ Arzt, sondern Lehrer.", s: ["kein"] },
-          { k: "b", t: "Wir fahren ___ mit dem Auto, sondern mit dem Zug.", s: ["nicht"] }
+          { k: "b", t: "Ich habe heute ___ Zeit.", tag: "nicht or kein", s: ["keine"] },
+          { k: "b", t: "Ich kenne den Mann ___.", tag: "nicht or kein", s: ["nicht"] },
+          { k: "b", t: "Er ist ___ Arzt, sondern Lehrer.", tag: "nicht or kein", s: ["kein|nicht"] },
+          { k: "b", t: "Wir fahren ___ mit dem Auto, sondern mit dem Zug.", tag: "nicht or kein", s: ["nicht"] }
         ]
       },
       {
         id: "A16",
         title: "Error correction",
-        hint: "Each sentence has one mistake. Write the correct sentence.",
+        hint: "Each sentence has one mistake (it can affect more than one word). Correct only that mistake and write the whole sentence.",
         items: [
           {
             k: "r",
             t: "Ich habe gestern nach Hause gegangen.",
-            s: ["Ich bin gestern nach Hause gegangen.", "Gestern bin ich nach Hause gegangen."]
+            s: [
+              "Ich bin gestern nach Hause gegangen.",
+              "Gestern bin ich nach Hause gegangen.",
+              "Ich bin gestern nachhause gegangen.",
+              "Gestern bin ich nachhause gegangen."
+            ]
           },
           { k: "r", t: "Ich helfe dich gern.", s: ["Ich helfe dir gern.", "Ich helfe dir gerne."] },
           {
             k: "r",
             t: "Wenn ich gestern nach Hause kam, war niemand da.",
-            s: ["Als ich gestern nach Hause kam, war niemand da."]
+            s: ["Als ich gestern nach Hause kam, war niemand da.", "Als ich gestern nachhause kam, war niemand da."]
           },
           {
             k: "r",
             t: "Gestern ich habe meine Freundin getroffen.",
-            s: ["Gestern habe ich meine Freundin getroffen.", "Ich habe gestern meine Freundin getroffen."]
+            s: [
+              "Gestern habe ich meine Freundin getroffen.",
+              "Ich habe gestern meine Freundin getroffen.",
+              "Ich habe meine Freundin gestern getroffen."
+            ]
           },
           {
             k: "r",
-            t: "Ich freue mich für das Wochenende.",
-            s: ["Ich freue mich auf das Wochenende.", "Ich freue mich aufs Wochenende."]
+            t: "Ich freue mich schon für das nächste Wochenende.",
+            s: ["Ich freue mich schon auf das nächste Wochenende.", "Ich freue mich schon aufs nächste Wochenende."]
           },
           {
             k: "r",
@@ -496,7 +508,7 @@ const PT = [
       },
       {
         id: "A17",
-        title: "Mixed B1 grammar",
+        title: "Mixed A2 grammar",
         hint: "Look at the label next to each task.",
         items: [
           { k: "b", t: "___ mir bitte das Salz! (geben)", tag: "Imperativ, du", s: ["gib"] },
@@ -507,9 +519,9 @@ const PT = [
           { k: "r", t: "Er versteht die Frage nicht.", tag: "Perfekt", s: ["Er hat die Frage nicht verstanden."] },
           { k: "r", t: "Wir telefonieren lange.", tag: "Perfekt", s: ["Wir haben lange telefoniert."] },
           { k: "b", t: "Ich wohne ___ drei Jahren in Graz.", s: ["seit"] },
-          { k: "b", t: "Ich bin ___ zwei Wochen umgezogen.", s: ["vor"] },
-          { k: "b", t: "Ich trinke gern kalt___ Wasser.", s: ["es"] },
-          { k: "b", t: "Wir haben sehr nett___ Nachbarn.", s: ["e"] }
+          { k: "b", t: "Ich bin ___ zwei Wochen umgezogen.", tag: "ago", s: ["vor"] },
+          { k: "b", t: "Ich trinke gern kalt___ Wasser.", tag: "adjective ending", s: ["es"] },
+          { k: "b", t: "Wir haben sehr nett___ Nachbarn.", tag: "adjective ending", s: ["e"] }
         ]
       },
       {
@@ -518,16 +530,16 @@ const PT = [
         hint: "Look at the label next to each task.",
         items: [
           { k: "b", t: "Er spielt am Handy, ___ seine Hausaufgaben ___. (machen)", tag: "instead of", s: ["statt|anstatt", "zu machen"] },
-          { k: "b", t: "___ ich heute krank bin, kann ich leider nicht kommen.", tag: "Kausalsatz, nicht „weil“", s: ["da"] },
-          { k: "b", t: "___ es morgen regnet, bleiben wir zu Hause.", tag: "Bedingung, nicht „wenn“", s: ["falls"] },
+          { k: "b", t: "___ ich heute krank bin, kann ich leider nicht kommen.", tag: "reason – not „weil“", s: ["da"] },
+          { k: "b", t: "___ es morgen regnet, bleiben wir zu Hause.", tag: "condition – not „wenn“", s: ["falls|sofern"] },
           { k: "b", t: "Das ist alles, ___ ich weiß.", s: ["was"] },
           { k: "b", t: "Graz ist die Stadt, ___ ich studiert habe.", s: ["wo|in der"] },
-          { k: "b", t: "___ ich in Österreich lebe, spreche ich jeden Tag Deutsch.", s: ["seit|seitdem"] },
+          { k: "b", t: "___ ich in Österreich lebe, spreche ich jeden Tag Deutsch.", tag: "since (time)", s: ["seit|seitdem"] },
           { k: "b", t: "Warte bitte hier, ___ ich zurückkomme.", s: ["bis"] },
           { k: "b", t: "Wir fahren ___ mit dem Zug ___ mit dem Bus.", tag: "either … or", s: ["entweder", "oder"] },
           { k: "b", t: "Sie spricht nicht nur Deutsch, ___ ___ Finnisch.", s: ["sondern", "auch"] },
-          { k: "b", t: "Sowohl meine Mutter ___ mein Vater arbeiten im Krankenhaus.", s: ["als auch"] },
-          { k: "b", t: "Die Wohnung ist zwar klein, ___ sehr gemütlich.", s: ["aber|doch|jedoch"] },
+          { k: "b", t: "Sowohl meine Mutter ___ mein Vater arbeiten im Krankenhaus.", s: ["als auch|wie auch|als|wie"] },
+          { k: "b", t: "Die Wohnung ist zwar klein, ___ sehr gemütlich.", s: ["aber|doch|jedoch|dafür"] },
           { k: "b", t: "Hat ___ meinen Schlüssel gesehen?", tag: "somebody", s: ["jemand|irgendjemand|irgendwer"] },
           { k: "b", t: "Gib die Nudeln ins ___ Wasser. (kochen)", tag: "Partizip I", s: ["kochende"] },
           { k: "b", t: "Meine Schwester und ich arbeiten bei ___ Firma.", tag: "the same", s: ["derselben|der gleichen"] },
@@ -535,7 +547,7 @@ const PT = [
           { k: "b", t: "Im Regal stehen viele ___. (Buch)", tag: "Plural", s: ["Bücher"] },
           { k: "b", t: "___ Sie bitte Platz! (nehmen)", tag: "Imperativ, Sie", s: ["nehmen"] },
           { k: "b", t: "Mein Geburtstag ist am ___ Mai. (3.)", s: ["dritten"] },
-          { k: "b", t: "Kennst du den Mann dort? – Nein, ___ kenne ich nicht.", tag: "Demonstrativpronomen", s: ["den"] },
+          { k: "b", t: "Kennst du den Mann dort? – Nein, ___ kenne ich nicht.", tag: "Demonstrativpronomen", s: ["den|diesen"] },
           { k: "b", t: "Ich habe gestern mit unserem ___ gesprochen. (Nachbar)", s: ["Nachbarn"] },
           { k: "b", t: "Bevor ich nach Österreich kam, ___ ich schon ein bisschen Deutsch ___. (lernen)", tag: "Plusquamperfekt", s: ["hatte", "gelernt"] }
         ]
@@ -550,22 +562,23 @@ const PT = [
       {
         id: "B1",
         title: "Fixed expressions",
-        bank: ["treffen", "stellen", "vereinbaren", "nehmen", "machen", "sammeln"],
+        hint: "Choose from the word bank. Not all words are needed.",
+        bank: ["treffen", "stellen", "vereinbaren", "nehmen", "machen", "sammeln", "führen"],
         items: [
           { k: "b", t: "einen Termin ___", s: ["vereinbaren"] },
           { k: "b", t: "eine Entscheidung ___", s: ["treffen"] },
           { k: "b", t: "eine Frage ___", s: ["stellen"] },
           { k: "b", t: "Rücksicht auf andere ___", s: ["nehmen"] },
           { k: "b", t: "einen Vorschlag ___", s: ["machen"] },
-          { k: "b", t: "Erfahrungen ___", s: ["sammeln"] }
+          { k: "b", t: "Erfahrungen ___", s: ["sammeln|machen"] }
         ]
       },
       {
         id: "B2",
         title: "Forming nouns",
-        hint: "Write the noun with its article.",
+        hint: "Write the abstract noun (-ung, -heit, -keit) with its article.",
         items: [
-          { k: "r", t: "entscheiden", s: ["die Entscheidung"] },
+          { k: "r", t: "vorbereiten", s: ["die Vorbereitung"] },
           { k: "r", t: "sich bewerben", s: ["die Bewerbung"] },
           { k: "r", t: "möglich", s: ["die Möglichkeit"] },
           { k: "r", t: "frei", s: ["die Freiheit"] },
@@ -622,7 +635,7 @@ const PT = [
           { k: "b", t: "Mein Hausarzt gibt mir eine ___ zum Facharzt.", s: ["Überweisung"] },
           {
             k: "b",
-            t: "Die Miete beträgt 650 Euro, dazu kommen noch die ___ für Heizung, Wasser und Müll.",
+            t: "Die Miete beträgt 650 Euro, dazu kommen noch die ___ für Wasser, Müllabfuhr und Versicherung.",
             s: ["Betriebskosten"]
           },
           { k: "b", t: "Beim Einzug zahlt man meistens drei Monatsmieten als ___.", s: ["Kaution"] },
@@ -693,7 +706,7 @@ const PT = [
             k: "w",
             min: 80,
             max: 100,
-            t: "You would like to volunteer at the Repair-Café. Write an email to Frau Huber (in German).",
+            t: "You would like to volunteer at the Repair-Café. Write a formal email (Sie) to Frau Huber (in German).",
             points: [
               "Introduce yourself.",
               "Say why you are interested.",
