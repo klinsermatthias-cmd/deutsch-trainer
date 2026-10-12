@@ -2,7 +2,7 @@
 
 Startdatei für den nächsten Chat (Regel „Umsiedeln“, D-1009-6). **Ohne Privates** – Auroras Testergebnisse, Antworten und die ausführliche Auswertung bekommt der neue Chat nur per `send_message`.
 
-Stand: 12.10.2026 · Generation 2 (Vorgänger: session_01XDLQ2V6tk1eM7bLtG3XZRH)
+Stand: 12.10.2026 · Generation 2: session_016DDMpBd2CwhYdxw8FXXc6M (Vorgänger: session_01XDLQ2V6tk1eM7bLtG3XZRH)
 
 ## Zuerst lesen
 1. `CLAUDE.md` (Regeln, Rolle, Codes, Quellen, Tokens sparen)
