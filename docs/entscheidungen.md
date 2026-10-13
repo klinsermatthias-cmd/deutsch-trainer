@@ -36,3 +36,7 @@
 - Hinweise ohne Bau-Rezept („Bindewort: because“, „ein ganzer Satz mit …“), d03-Hinweise auf Deutsch wie in den anderen Themen; Querverweis d02 → d06 (zwei Objekte).
 - Varianten in `a`: d02 ex13 „daheim“ (en.wiktionary „daheim“), ex47 „Sie sagt, sie ist krank / sie sei krank“ (en.wiktionary „sei“ = Konjunktiv I von sein), ex54 „Ja, vier Uhr passt gut.“ (ohne Quelle). Kein eigener Futur-Block mehr in neuen Themen (S-1013-29); bestehende Übungen bleiben.
 - Offen (ohne erreichbare Quelle): Hinweis zur Ausnahme „…, dass ich habe warten müssen“ in der Theorie.
+
+## 13.10.2026 – Dritter Dialog d05–d07, kleine Korrekturen d05/d07 (S-1013-13, Prüfliste 15)
+- Angehängt: d05 ex62 „Bei der Feier: das Geschenk überreichen“ (Alles Gute zum Geburtstag), d06 ex61 „Kaffee und Kuchen bei Lena“ (schmecken, schicken, gefallen), d07 ex62 „Nach der Firmenfeier“ (meiner/meinen/meine – wie in der d07-Theorie). GLOSS: Rezept, zusammen, per (en.wiktionary), für, schmeckt.
+- d07 ex51: „ein Joghurt … Wem gehört es?“ (Duden „Joghurt“: österr. meist das); d07 ex28 mit „Es regnet …“ (trotzdem verständlich); d05 ex48 Variante „Wir packen heute das Geschenk ein.“ (ohne Quelle).

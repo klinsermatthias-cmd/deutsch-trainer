@@ -4909,7 +4909,8 @@
     "a": [
      "Wir packen das Geschenk heute ein.",
      "Heute packen wir das Geschenk ein.",
-     "Das Geschenk packen wir heute ein."
+     "Das Geschenk packen wir heute ein.",
+     "Wir packen heute das Geschenk ein."
     ],
     "de": "We're wrapping the present today."
    },
@@ -5183,6 +5184,39 @@
     ],
     "a": 0,
     "x": "den Kindern, den Freunden – but den Kolleginnen, den Autos (no extra -n)."
+   },
+   {
+    "t": "dlg",
+    "q": "Bei der Feier: das Geschenk überreichen",
+    "r": [
+     [
+      "Jonas",
+      "Sabine kommt gleich. Wer gibt der Kollegin das Geschenk?"
+     ],
+     [
+      "Du",
+      "[Ich gebe der Kollegin das Geschenk.|Ich gebe ihr das Geschenk.|Ich gebe es ihr.|Ich überreiche ihr das Geschenk.|Das Geschenk gebe ich ihr.|Das mache ich.]",
+      "Say that you will give her the present."
+     ],
+     [
+      "Sabine",
+      "Oh, ist das für mich?"
+     ],
+     [
+      "Du",
+      "[Ja, das ist für dich. Alles Gute zum Geburtstag!|Ja! Alles Gute zum Geburtstag!|Ja, alles Gute zum Geburtstag!|Ja, für dich. Alles Gute zum Geburtstag!]",
+      "Say yes and wish her a happy birthday."
+     ],
+     [
+      "Sabine",
+      "Danke! Ein Gutschein – super! Wer hat den Gutschein ausgesucht?"
+     ],
+     [
+      "Du",
+      "[Wir haben ihn zusammen ausgesucht.|Wir haben den Gutschein zusammen ausgesucht.|Das Team hat ihn zusammen ausgesucht.|Wir alle zusammen.|Alle zusammen.]",
+      "Say that you all chose it together."
+     ]
+    ]
    }
   ]
  },
@@ -6191,6 +6225,39 @@
     ],
     "a": 0,
     "x": "Pronouns come before nouns, whatever their case."
+   },
+   {
+    "t": "dlg",
+    "q": "Kaffee und Kuchen bei Lena",
+    "r": [
+     [
+      "Lena",
+      "Wie schmeckt dir der Kuchen?"
+     ],
+     [
+      "Du",
+      "[Er schmeckt mir sehr gut.|Der schmeckt mir sehr gut.|Der Kuchen schmeckt mir sehr gut.|Er schmeckt sehr gut.|Sehr gut, danke!]",
+      "Say that it tastes very good."
+     ],
+     [
+      "Lena",
+      "Danke! Möchtest du das Rezept?"
+     ],
+     [
+      "Du",
+      "[Ja, gerne. Kannst du es mir per E-Mail schicken?|Kannst du es mir per E-Mail schicken?|Ja, kannst du es mir per E-Mail schicken?|Ja, gerne. Kannst du mir das Rezept per E-Mail schicken?|Kannst du mir das Rezept per E-Mail schicken?]",
+      "Say yes and ask her to send it to you by email."
+     ],
+     [
+      "Lena",
+      "Klar! Und wie gefällt dir meine neue Wohnung?"
+     ],
+     [
+      "Du",
+      "[Sie gefällt mir sehr gut.|Die gefällt mir sehr gut.|Sie gefällt mir sehr.|Deine Wohnung gefällt mir sehr gut.|Sehr gut!]",
+      "Say that you like it very much."
+     ]
+    ]
    }
   ]
  },
@@ -6688,7 +6755,7 @@
    },
    {
     "t": "gap",
-    "q": "Ich habe keinen Schirm, ___ gehe ich zu Fuß.",
+    "q": "Es regnet und ich habe keinen Schirm, ___ gehe ich zu Fuß.",
     "h": "deshalb, trotzdem oder weil?",
     "a": [
      "trotzdem"
@@ -6970,8 +7037,8 @@
     "q": "Ein Zettel in der Büroküche",
     "txt": [
      "Liebe Kolleginnen und Kollegen!",
-     "Im Kühlschrank steht seit Freitag ein Joghurt. Wem gehört er?",
-     "Bitte heute abholen, sonst werfe ich ihn weg.",
+     "Im Kühlschrank steht seit Freitag ein Joghurt. Wem gehört es?",
+     "Bitte heute abholen, sonst werfe ich es weg.",
      "Und noch etwas: Das Häferl mit dem Hund ist meins, nicht eures!",
      "Danke, Sabine"
     ],
@@ -7152,6 +7219,39 @@
     ],
     "a": 0,
     "x": "Den nehme ich. Die gehört mir. But: Die Häferl gehören denen (dative plural)."
+   },
+   {
+    "t": "dlg",
+    "q": "Nach der Firmenfeier",
+    "r": [
+     [
+      "Sabine",
+      "Ich habe hier einen Regenschirm gefunden. Ist das deiner?"
+     ],
+     [
+      "Du",
+      "[Nein, das ist nicht meiner.|Nein, der ist nicht meiner.|Nein, der gehört mir nicht.|Nein, das ist nicht mein Regenschirm.|Nein, das ist nicht mein Schirm.]",
+      "Say no, it isn't yours."
+     ],
+     [
+      "Sabine",
+      "Und wo ist deiner?"
+     ],
+     [
+      "Du",
+      "[Ich habe meinen zu Hause vergessen.|Ich habe meinen daheim vergessen.|Meinen habe ich zu Hause vergessen.|Meinen habe ich daheim vergessen.|Ich habe meinen Schirm zu Hause vergessen.|Ich habe meinen Regenschirm zu Hause vergessen.|Ich habe meinen zuhause vergessen.]",
+      "Say that you forgot yours at home."
+     ],
+     [
+      "Sabine",
+      "Ich habe auch Handschuhe gefunden. Sind das deine?"
+     ],
+     [
+      "Du",
+      "[Ja, das sind meine. Danke!|Ja, das sind meine.|Ja, die sind meine.|Ja, die gehören mir.|Ja, das sind meine Handschuhe.]",
+      "Say yes, they are yours."
+     ]
+    ]
    }
   ]
  }
