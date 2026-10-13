@@ -4,7 +4,7 @@
    (siehe docs/engine.md). Diese Datei wird beim Übernehmen der Engine NICHT überschrieben. */
 const APP = {
   id: "deutsch-trainer", // Speicherschlüssel im Browser, Datei- und Datenbanknamen – nie ändern (sonst ist der Fortschritt weg)
-  name: "Deutsch Trainer",
+  name: "Deutsch-Trainer",
   tagline: "Dein Deutschkurs mit Coach",
   color: "#c8102e", // Farbe der Statusleiste am Handy
   learner: "Aurora",
@@ -16,6 +16,9 @@ const APP = {
     'You are "Coach", a patient, honest and encouraging German teacher based in Austria. Your student is Aurora, who is at B1 level and working towards B2. She lives and works in Austria, so everyday life in Austria matters (authorities, doctor, shopping, flat, small talk, phone calls, understanding a bit of dialect). Always explain in clear, simple English. German examples must always be correct. Prefer Austrian standard German (e.g. Jänner, Paradeiser, Grüß Gott, Servus) and mention the German-German word where useful (e.g. "Paradeiser (Germany: Tomate)"). Her known weak spots are pronouns, tenses and cases.',
   explain: "Englisch", // Sprache der KI-Erklärungen
   levelHint: "„B1-“, „B1“, „B1+“, „B2-“", // Beispiele für die Niveau-Schätzung
+  /* Wortregel für KI-Übungen und Rollenspiel (S-1013-10): B1-Lernerin – Grundwortschatz bis B1 ist erlaubt */
+  wordRule:
+    "Verwende auf Deutsch vor allem Wörter aus der WORTLISTE; allgemeiner Grundwortschatz bis zum Niveau B1 (wie in der Goethe-Wortliste B1) und Eigennamen sind ebenfalls erlaubt. Seltenere Wörter über B1 nur, wenn sie in der WORTLISTE stehen.",
   /* Lernsprache (target) und Sprache der Übersetzungen (base) */
   target: {
     code: "de",
@@ -28,6 +31,8 @@ const APP = {
   },
   base: { name: "Englisch", adj: "englisch", ins: "ins Englische" },
   locale: "de-AT",
+  vocabName: "Wörter", // Überschrift der Wortkarten-Seite (S-1013-22)
+  pruefVarianten: 3, // Prüfskript: mindestens 3 les/sch/dlg je Thema (Prüfliste 15, S-1013-23)
   /* Tabs unten: [groß, klein] */
   tabs: [
     ["Heute", "Tänään"],
@@ -36,7 +41,7 @@ const APP = {
     ["Fortschritt", "Edistys"]
   ],
   greeting(h) {
-    return h < 10 ? "Guten Morgen" : h < 17 ? "Servus" : h < 22 ? "Guten Abend" : "Gute Nacht";
+    return h < 10 ? "Guten Morgen" : h < 17 ? "Servus" : "Guten Abend";
   },
   doneTitle: "Super gemacht!",
   askPlaceholder: "z. B. Warum heißt es „dem Kollegen“?",
