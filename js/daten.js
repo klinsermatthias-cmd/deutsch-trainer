@@ -389,9 +389,14 @@ function loadCfg() {
 }
 let CFG = loadCfg();
 function saveCfg() {
+  const txt = JSON.stringify(CFG);
   try {
-    localStorage.setItem(CFG_KEY, JSON.stringify(CFG));
-  } catch (e) {}
+    localStorage.setItem(CFG_KEY, txt);
+  } catch (e) {
+    /* Speicher voll (S-1012-125): sonst geht z. B. ein erneuertes Anmelde-Token verloren → „Bitte neu anmelden“ */
+    if (e && e.name === "SecurityError") return;
+    if (!freeRoom(() => localStorage.setItem(CFG_KEY, txt), false)) appErrLog("Gerätekonfiguration", e);
+  }
 }
 const cloudOn = () => !!(CFG.sbUrl && CFG.sbKey && CFG.session && CFG.session.refresh_token);
 const uid = () => CFG.session.user.id;
@@ -424,22 +429,28 @@ function writeLocal() {
     /* Speicher voll: zuerst defekte Kopien und Sicherheitskopien opfern, die Rückgängig-Kopie vom Löschen zuletzt –
        der aktuelle Stand geht vor (E-1007-68) */
     appErrLog("Gerätespeicher", "voll – Sicherheitskopien werden entfernt");
-    const keys = Object.keys(localStorage),
-      drop = f => keys.filter(f).forEach(k => localStorage.removeItem(k));
-    for (const f of [
-      k => k === REPO_KEY /* Lektionen lassen sich jederzeit neu laden (E-1008-28) */,
-      k => k.startsWith(KEY + "-defekt-"),
-      k => k.startsWith(KEY + "-vor-") && !k.endsWith("-vor-loeschen"),
-      k => k.endsWith("-vor-loeschen")
-    ]) {
-      try {
-        drop(f);
-        localStorage.setItem(KEY, txt);
-        return;
-      } catch (e2) {}
-    }
-    toast("Gerätespeicher voll – bitte Sicherung herunterladen");
+    if (!freeRoom(() => localStorage.setItem(KEY, txt), true))
+      toast("Gerätespeicher voll – bitte Sicherung herunterladen");
   }
+}
+/* Platz schaffen und write() nach jedem Schritt erneut versuchen; true = geschrieben. lastCopy: auch die Rückgängig-Kopie
+   vom Löschen opfern (nur für den Lernstand selbst) */
+function freeRoom(write, lastCopy) {
+  const keys = Object.keys(localStorage),
+    drop = f => keys.filter(f).forEach(k => localStorage.removeItem(k));
+  for (const f of [
+    k => k === REPO_KEY /* Lektionen lassen sich jederzeit neu laden (E-1008-28) */,
+    k => k.startsWith(KEY + "-defekt-"),
+    k => k.startsWith(KEY + "-vor-") && !k.endsWith("-vor-loeschen"),
+    ...(lastCopy ? [k => k.endsWith("-vor-loeschen")] : [])
+  ]) {
+    try {
+      drop(f);
+      write();
+      return true;
+    } catch (e2) {}
+  }
+  return false;
 }
 /* Belegter Gerätespeicher in Zeichen – alle Einträge dieser Adresse, also auch die andere App der Engine. Browser
    erlauben etwa 5 Mio.; ab STORE_WARN warnen Bericht und Einstellungen (Simulation S1, E-1008-28) */
@@ -880,6 +891,27 @@ function mergeStates(L, R) {
       rt = M.topics[id];
     if (!rt || act(lt) > act(rt) || (rt.status === "locked" && lt.status !== "locked")) M.topics[id] = lt;
     else if (lt.vocabDone && !rt.vocabDone) M.topics[id] = { ...rt, vocabDone: lt.vocabDone };
+    /* S-1012-124: Runden beider Geräte im Verlauf behalten, bestes Ergebnis als Maximum; ohne neue Runde (Gleichstand)
+       gilt der frühere Termin – ein Vorziehen (Gesamtanalyse, gemischte Runde, Langzeit-Check) geht nie verloren */
+    if (!rt) continue;
+    const o = M.topics[id] === lt ? rt : lt,
+      w = (M.topics[id] = { ...M.topics[id] });
+    /* nichts von vor einem Zurücksetzen bzw. Löschen zurückholen */
+    const cut = Math.max(
+        L.wiped || 0,
+        R.wiped || 0,
+        (L.resets && L.resets[id] && L.resets[id].at) || 0,
+        (R.resets && R.resets[id] && R.resets[id].at) || 0
+      ),
+      oh = (o.hist || []).filter(h => h && (h.d || 0) >= cut),
+      hs = new Map();
+    [...oh, ...(w.hist || [])].forEach(h => h && hs.set(h.d, h));
+    if (hs.size) w.hist = [...hs.values()].sort((a, b) => (a.d || 0) - (b.d || 0)).slice(-30);
+    if (oh.length) w.best = Math.max(w.best || 0, ...oh.map(h => (h.sc || 0) / 100));
+    if (act(lt) === act(rt) && o.due > 0 && w.due > 0 && o.due < w.due && o.status === w.status) {
+      w.due = o.due;
+      if (o.ai) w.ai = o.ai;
+    }
   }
   for (const id in L.cards || {}) {
     const lc = L.cards[id],

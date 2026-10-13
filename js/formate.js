@@ -92,7 +92,12 @@ function ordFull(ex) {
 }
 function ordRender(ex, se) {
   const first = ordSols(ex)[0].trim().split(/\s+/)[0];
-  se.cur = { chips: shuffle(ex.w.map(w => ordChip(w, w === first))), picked: [] };
+  const lc = ordChip(first, true);
+  se.cur = {
+    chips: shuffle(ex.w.map(w => ordChip(w, w === first))),
+    picked: [],
+    low: lc !== first ? { c: lc, w: first } : null
+  };
   return `<div class="ask">Bilde den ${APP.target.adj}en Satz</div><div class="q">${esc(ex.de)}</div>${hintHTML(ex)}<div id="ordarea"></div>${BTN_ROW}`;
 }
 function renderOrd() {
@@ -363,7 +368,9 @@ async function dlgCheck(se, ex) {
     .map((u, k) => ({ u, k }))
     .filter(x => x.u && !ok[x.k])
     .map((x, i) => ({ n: i + 1, k: x.k, user: x.u, acc: gaps[x.k], row: rows[x.k] }));
-  if (open.length && aiReady()) {
+  /* ohne KI (aus, nicht eingerichtet) wie bei Ausfall: offene Zeilen selbst bewerten (S-1012-123, wie E-1008-2) */
+  if (open.length && !aiReady()) res = { offline: true, noai: true };
+  else if (open.length) {
     $("#fb").innerHTML = `<div class="fb wait">${APP.teacher} prüft deine Antworten ${dots()}</div>`;
     try {
       const j = await dlgJudge(ex, open);
@@ -382,13 +389,23 @@ async function dlgCheck(se, ex) {
   }
   if (SESSION !== se) return;
   dlgMark(ex, ok, false, fix);
+  const joined = user.map(x => x || "–").join(" / ");
+  if (res.offline) {
+    se.pending = { ex, user: joined, noai: res.noai, dlg: { ok, open: open.map(o => o.k), near, res } };
+    return showOffline(ex, res.noai);
+  }
+  dlgFinish(se, ex, ok, near, res, joined);
+}
+/* Rundenergebnis eines Dialogs festhalten (nach KI-Urteil oder Selbstbewertung) */
+function dlgFinish(se, ex, ok, near, res, joined) {
   const n = ok.filter(Boolean).length;
   res.correct = n === ok.length;
   res.note =
+    (res.note ? res.note + " " : "") +
     (res.correct ? "" : `${n} von ${ok.length} Zeilen richtig – die Lösungen stehen grün unter den falschen Zeilen.`) +
     (near ? " " + ucFirst(SP.charNote) + "." : "") +
     (ex.x ? " " + ex.x : "");
-  record(ex, user.map(x => x || "–").join(" / "), res);
+  record(ex, joined, res);
   showFb(res, ex);
 }
 
@@ -455,8 +472,21 @@ const FMT = {
       typeof e.de === "string",
     render: ordRender,
     after: renderOrd,
-    check: (se, ex) =>
-      se.cur.picked.length && textCheck(se, ex, se.cur.picked.map(i => se.cur.chips[i]).join(" "), ordSols(ex), null),
+    check: (se, ex) => {
+      if (!se.cur.picked.length) return;
+      const sols = ordSols(ex),
+        ws = se.cur.picked.map(i => se.cur.chips[i]),
+        low = se.cur.low;
+      let user = ws.join(" ");
+      /* der klein angezeigte erste Baustein darf in einer anderen Wortstellung wieder groß gelten – die Schreibung eines
+         Bausteins lässt sich nicht ändern (S-1012-125, z. B. ein Name ohne Vokabel) */
+      if (low) {
+        const alt = ws.map(w => (w === low.c ? low.w : w)).join(" ");
+        if (!localCheck(user, sols, exStrict(ex), ex).correct && localCheck(alt, sols, exStrict(ex), ex).correct)
+          user = alt;
+      }
+      return textCheck(se, ex, user, sols, null);
+    },
     dunno: renderOrd,
     prompt: ex => ex.de,
     expected: ex => ordFull(ex),
