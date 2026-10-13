@@ -522,7 +522,20 @@ const GLOSS_EXTRA = {
   "ski": {de: "ski; skiing", note: "der Ski, die Skier; Ski fahren (Österreich auch: Schi)"},
   "schi": {de: "ski (Austrian spelling of Ski)", base: "Ski", note: "Schi fahren = Ski fahren"},
   "tante": {de: "aunt", note: "die Tante, die Tanten"},
-  "wohnungen": {de: "flats, apartments", base: "Wohnung", note: "Plural"}
+  "wohnungen": {de: "flats, apartments", base: "Wohnung", note: "Plural"},
+  /* Nomen und Namen aus der Wortprüfung (D-1013-6) */
+  "arbeit": {de: "work, job", note: "die Arbeit, die Arbeiten"},
+  "arzt": {de: "doctor", note: "der Arzt, die Ärzte; weiblich: die Ärztin"},
+  "ärztin": {de: "doctor (female)", base: "Arzt", note: "die Ärztin, die Ärztinnen"},
+  "jahren": {de: "years", base: "Jahr", note: "Dativ Plural: vor zwei Jahren = two years ago; das Jahr, die Jahre"},
+  "deutsch": {de: "German (language)", note: "Ich lerne Deutsch. Kleingeschrieben als Adjektiv: deutsch"},
+  "österreich": {de: "Austria", note: "Name des Landes (ohne Artikel): in Österreich, nach Österreich"},
+  "graz": {de: "Graz (capital of Styria)", note: "Stadt in Österreich, Landeshauptstadt der Steiermark"},
+  "hallstatt": {de: "Hallstatt (village in Upper Austria)", note: "Ort in Oberösterreich"},
+  "gruber": {de: "Gruber (surname)", note: "Familienname, häufig in Österreich"},
+  "huber": {de: "Huber (surname)", note: "Familienname, häufig in Österreich"},
+  "jonas": {de: "Jonas (male first name)", note: "Vorname"},
+  "sabine": {de: "Sabine (female first name)", note: "Vorname"}
 };
 
 /* ============================================================
