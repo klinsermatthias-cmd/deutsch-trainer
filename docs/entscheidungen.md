@@ -31,3 +31,8 @@
 ## 13.10.2026 – Wortbedeutungen (GLOSS) mit Zweitbedeutungen und Österreich-Alternativen (S-1013-11)
 - Zweitbedeutungen ergänzt: sein (his), weiß (white), meinen (to mean), sie (Sie = you), gleich (same), liebe, fahrt (ihr fahrt), frage (neu), umgezogen (changed clothes), Heurige (young wine); Quellen: en.wiktionary (sein, weiß, meinen, gleich, fragen, umziehen), Duden (Bescheid, Heuriger, E-Mail).
 - Österreich-Wörter mit bundesdeutscher Alternative: Jause (Duden: Imbiss, Zwischenmahlzeit; Goethe-B1-Liste), Ordination (Goethe-B1-Liste: Praxis), Krankenstand, Installateur (Klempner – ohne Quelle); Tomaten neutral (Duden: Paradeiser ostösterreichisch), Schi als Nebenform (Duden „Ski, Schi“); Karte d01-14 Jause mit „Germany:“.
+
+## 13.10.2026 – d01–d03 nachgebessert (S-1013-14)
+- Hinweise ohne Bau-Rezept („Bindewort: because“, „ein ganzer Satz mit …“), d03-Hinweise auf Deutsch wie in den anderen Themen; Querverweis d02 → d06 (zwei Objekte).
+- Varianten in `a`: d02 ex13 „daheim“ (en.wiktionary „daheim“), ex47 „Sie sagt, sie ist krank / sie sei krank“ (en.wiktionary „sei“ = Konjunktiv I von sein), ex54 „Ja, vier Uhr passt gut.“ (ohne Quelle). Kein eigener Futur-Block mehr in neuen Themen (S-1013-29); bestehende Übungen bleiben.
+- Offen (ohne erreichbare Quelle): Hinweis zur Ausnahme „…, dass ich habe warten müssen“ in der Theorie.
