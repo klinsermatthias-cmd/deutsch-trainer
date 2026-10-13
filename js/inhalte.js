@@ -610,7 +610,9 @@ const GLOSS_EXTRA = {
   "gruber": {de: "Gruber (surname)", note: "Familienname, häufig in Österreich"},
   "huber": {de: "Huber (surname)", note: "Familienname, häufig in Österreich"},
   "jonas": {de: "Jonas (male first name)", note: "Vorname"},
-  "sabine": {de: "Sabine (female first name)", note: "Vorname"}
+  "sabine": {de: "Sabine (female first name)", note: "Vorname"},
+  "kaffee": {de: "coffee", note: "der Kaffee, die Kaffees"},
+  "martin": {de: "Martin (male first name)", note: "Vorname"}
 };
 
 /* ============================================================
