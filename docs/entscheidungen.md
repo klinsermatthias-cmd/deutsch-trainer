@@ -40,3 +40,7 @@
 ## 13.10.2026 – Dritter Dialog d05–d07, kleine Korrekturen d05/d07 (S-1013-13, Prüfliste 15)
 - Angehängt: d05 ex62 „Bei der Feier: das Geschenk überreichen“ (Alles Gute zum Geburtstag), d06 ex61 „Kaffee und Kuchen bei Lena“ (schmecken, schicken, gefallen), d07 ex62 „Nach der Firmenfeier“ (meiner/meinen/meine – wie in der d07-Theorie). GLOSS: Rezept, zusammen, per (en.wiktionary), für, schmeckt.
 - d07 ex51: „ein Joghurt … Wem gehört es?“ (Duden „Joghurt“: österr. meist das); d07 ex28 mit „Es regnet …“ (trotzdem verständlich); d05 ex48 Variante „Wir packen heute das Geschenk ein.“ (ohne Quelle).
+
+## 13.10.2026 – Wiederholung d03 und mehr freie Übersetzung in d04–d07 (S-1013-13)
+- Je Thema angehängt: eine Lücke als/wenn/wann (Hinweis wie in d03), eine Lücke konnte/musste (Präteritum Modalverb), zwei tr Englisch → Deutsch. d04-Theorie: „außer in festen Wendungen wie am Markt, zum Markt“ (DWDS „Markt“). GLOSS „unserem“ (Form von unser, en.wiktionary „unser“).
+- Formen aus eigenem Wissen (ohne Einzelquelle): Varianten „günstig“, „borgen“ (wie bereits d06 ex53), „Ist dieser Schal Ihrer?“.

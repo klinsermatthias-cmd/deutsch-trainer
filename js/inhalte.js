@@ -434,6 +434,7 @@ const GLOSS_EXTRA = {
   "per": {de: "by, via", note: "per E-Mail = by email"},
   "für": {de: "for"},
   "schmeckt": {de: "tastes", base: "schmecken", note: "Das schmeckt mir. = I like the taste of it."},
+  "unserem": {de: "our (masc./neut. Dat.)", base: "unser"},
   "schuhe": {de: "shoes", base: "Schuh", note: "der Schuh, die Schuhe"},
   "suppe": {de: "soup", note: "die Suppe, die Suppen"},
   "tag": {de: "day", note: "der Tag, die Tage; den ganzen Tag = all day"},
