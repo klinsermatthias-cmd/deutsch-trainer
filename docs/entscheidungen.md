@@ -56,3 +56,7 @@ Quellen: DWDS „gegenüber“ (gegenüber von + Artikel = umgangssprachlich →
 ## 13.10.2026 – Lehrplan: d08b/d09b, Grammatik-Lücken, Wortschatz, Theorie-Aufbau (S-1013-16/-17/-18/-21)
 Aus der Gesamtprüfung Deutsch (Branch `pruefung/deutsch-gesamt-2026-10-13`): Lehrplan um d08b, d09b und d13b (Zeitangaben, österr. Uhrzeit/Datum) ergänzt, fehlende Teilregeln in d12/d13/d15/d18/d21/d23/d25 eingetragen, d03 bekommt d09 und d09b in `req` (D-1012-17).
 Neue Grundsätze: ab d10 5–10 Grundwortschatz-Karten je Thema, Theorie beginnt mit „Das Wichtigste“, 25–35 Übungen je Teilthema, Checkpoint-Wiederholungsitems für Bereiche mit nur einem Test-Item. Nur Planung, keine neuen Sprachformen (daher keine Quellenprüfung nötig).
+
+## 13.10.2026 – Teil-D-Kleinigkeiten (S-1013-12)
+Karten hinten angehängt: d02 Besprechung, Arzttermin; d05 Karte, Blume; d06 Kuchen; d07 Kasten (österr. = Schrank). Quellen: en.wiktionary (`tools/quellen.mjs`) für Genus/Plural, Duden „Kasten“ (Pl. Kästen; Schrank-Bedeutung süddt./österr./schweiz.). d06 `lvl` „A2“, „Partizip II“ einheitlich in d05/d07, d03 ex[49] Variante „am Land“.
+Offen (niedrig): mc-Fragesprache vereinheitlichen, Hinweise ohne Bau-Rezept, E-Card-Schreibung, Imperativ-Ausnahme -e nach Konsonant + m/n.
