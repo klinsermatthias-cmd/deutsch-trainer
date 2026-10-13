@@ -4657,6 +4657,20 @@
     ],
     "a": 0,
     "x": "als + noun without a verb = as: Als Kind … = as a child. It is not a clause, so the verb stays in position 2: Als Kind war ich …"
+   },
+   {
+    "t": "sch",
+    "q": "Write one sentence: where did you live when you were a child? Use „als“.",
+    "w": [
+     "als",
+     "wohnen"
+    ],
+    "a": [
+     "Als ich ein Kind war, habe ich auf dem Land gewohnt.",
+     "Als ich ein Kind war, wohnte ich auf dem Land.",
+     "Als Kind habe ich auf dem Land gewohnt."
+    ],
+    "h": "ein ganzer Satz mit „als“ – Verb am Ende des als-Satzes"
    }
   ]
  },
