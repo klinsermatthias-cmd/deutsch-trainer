@@ -27,3 +27,7 @@
 
 ## 13.10.2026 – Wortregel B1, Überschrift „Wörter“, Name, Begrüßung, Prüfliste automatisch (S-1013-10, S-1013-22, S-1013-23)
 `APP.wordRule`: KI-Übungen dürfen Grundwortschatz bis B1 verwenden. `APP.vocabName` „Wörter“, Name einheitlich „Deutsch-Trainer“. Ab 22 Uhr „Guten Abend“ statt „Gute Nacht“ (en.wiktionary „gute Nacht“: Abschiedsgruß). `APP.pruefVarianten: 3`; Prüfliste Zeilen 4/6/15/16/17 mit automatischen Hinweisen, Quellenliste: Goethe/ÖSD-B1-Wortliste erreichbar.
+
+## 13.10.2026 – Wortbedeutungen (GLOSS) mit Zweitbedeutungen und Österreich-Alternativen (S-1013-11)
+- Zweitbedeutungen ergänzt: sein (his), weiß (white), meinen (to mean), sie (Sie = you), gleich (same), liebe, fahrt (ihr fahrt), frage (neu), umgezogen (changed clothes), Heurige (young wine); Quellen: en.wiktionary (sein, weiß, meinen, gleich, fragen, umziehen), Duden (Bescheid, Heuriger, E-Mail).
+- Österreich-Wörter mit bundesdeutscher Alternative: Jause (Duden: Imbiss, Zwischenmahlzeit; Goethe-B1-Liste), Ordination (Goethe-B1-Liste: Praxis), Krankenstand, Installateur (Klempner – ohne Quelle); Tomaten neutral (Duden: Paradeiser ostösterreichisch), Schi als Nebenform (Duden „Ski, Schi“); Karte d01-14 Jause mit „Germany:“.
