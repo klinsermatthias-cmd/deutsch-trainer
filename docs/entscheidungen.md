@@ -48,3 +48,7 @@
 ## 13.10.2026 – d08 geteilt und veröffentlicht: d08 Imperativ/Apotheke, d08b Reflexiv/Arzt (S-1013-12/-13)
 - Entwurf d08 (63 Übungen) → d08 (44, Imperativ) + d08b (37, Reflexivpronomen, req + d08); je 3 les/sch/dlg, lvl „A2“, je 1 als/wenn/wann-Lücke, Präteritum/Futur je 2–3 (S-1013-29). Teil-D-Korrekturen: Imperativregel „nach s/ß/z nur -t weg“ (lies!, iss! – en.wiktionary lesen/essen), öffne!/atme!/sammle! (en.wiktionary öffnen/atmen/sammeln), ex21 „Kann ich morgen kommen?“, „Ich habe mich am Fuß verletzt.“ (Duden verletzen), Karten Salbe/Grippe (en.wiktionary), sich verkühlen „besonders österreichisch“ (Duden; DWDS „landschaftlich“).
 - Offen ohne Quelle: Karte E-Card „offizielle Schreibung e-card“ (Duden kennt nur „E-Card“) – nicht übernommen. 43 GLOSS-Einträge (Imperativ- und Partizipformen) für die Wortprüfung.
+
+## 13.10.2026 – d09 geteilt (S-1013-12/-13)
+d09 „Wie komme ich zur Post?“ (Präpositionen mit festem Kasus + Weg beschreiben: links/rechts/geradeaus, bis zum, zu Fuß, Fahrschein) und neu d09b „Seit wann wohnst du hier?“ (wo/wohin/woher, seit/vor, ziehen); je 3 Lese-/Dialog-/Schreibübungen, lvl A2, ohne Fahrschein, Variante „Wo die Haltestelle ist, weiß ich nicht.“, 24 GLOSS-Einträge.
+Quellen: DWDS „gegenüber“ (gegenüber von + Artikel = umgangssprachlich → Hauptform „gegenüber dem“); Duden „gegenüber“ (Präposition mit Dativ); en.wiktionary: Fahrschein, Bahnhof (Bahnhöfe), Rathaus (Rathäuser), Fuß, links, rechts, bis, abbiegen (bog, sein), steigen (stieg, sein), ziehen (sein = to move), Vormittag. Ohne Quelle: Hinweis „bis meist mit zu“.
