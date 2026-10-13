@@ -52,3 +52,7 @@
 ## 13.10.2026 – d09 geteilt (S-1013-12/-13)
 d09 „Wie komme ich zur Post?“ (Präpositionen mit festem Kasus + Weg beschreiben: links/rechts/geradeaus, bis zum, zu Fuß, Fahrschein) und neu d09b „Seit wann wohnst du hier?“ (wo/wohin/woher, seit/vor, ziehen); je 3 Lese-/Dialog-/Schreibübungen, lvl A2, ohne Fahrschein, Variante „Wo die Haltestelle ist, weiß ich nicht.“, 24 GLOSS-Einträge.
 Quellen: DWDS „gegenüber“ (gegenüber von + Artikel = umgangssprachlich → Hauptform „gegenüber dem“); Duden „gegenüber“ (Präposition mit Dativ); en.wiktionary: Fahrschein, Bahnhof (Bahnhöfe), Rathaus (Rathäuser), Fuß, links, rechts, bis, abbiegen (bog, sein), steigen (stieg, sein), ziehen (sein = to move), Vormittag. Ohne Quelle: Hinweis „bis meist mit zu“.
+
+## 13.10.2026 – Lehrplan: d08b/d09b, Grammatik-Lücken, Wortschatz, Theorie-Aufbau (S-1013-16/-17/-18/-21)
+Aus der Gesamtprüfung Deutsch (Branch `pruefung/deutsch-gesamt-2026-10-13`): Lehrplan um d08b, d09b und d13b (Zeitangaben, österr. Uhrzeit/Datum) ergänzt, fehlende Teilregeln in d12/d13/d15/d18/d21/d23/d25 eingetragen, d03 bekommt d09 und d09b in `req` (D-1012-17).
+Neue Grundsätze: ab d10 5–10 Grundwortschatz-Karten je Thema, Theorie beginnt mit „Das Wichtigste“, 25–35 Übungen je Teilthema, Checkpoint-Wiederholungsitems für Bereiche mit nur einem Test-Item. Nur Planung, keine neuen Sprachformen (daher keine Quellenprüfung nötig).
