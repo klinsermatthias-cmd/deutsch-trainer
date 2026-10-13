@@ -10092,8 +10092,8 @@
  },
  {
   "id": "d07",
-  "title": "Ist das deiner? – Wem gehört was?",
-  "fi": "Is this yours? – Who does what belong to?",
+  "title": "Ist das deiner? – meiner, einer, keiner",
+  "fi": "Is it yours? – mine, one, none",
   "lvl": "A2",
   "req": [
    "d01",
@@ -10107,7 +10107,7 @@
    "d06",
    "d06b"
   ],
-  "th": "<h3>1. Situation: the morning after the company party</h3><p>After the <i>Firmenfeier</i> (company party) there are always things left at the cloakroom (<i>Garderobe</i>): coats, scarves, umbrellas. In the office kitchen everybody has his or her own mug – in Austria often called <i>Häferl</i> (informal).</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wem gehört dieser Mantel?</td><td>Who does this coat belong to?</td></tr><tr><td>Ist das deiner? – Ja, das ist meiner.</td><td>Is it yours? – Yes, it's mine.</td></tr><tr><td>Nein, meiner ist grau.</td><td>No, mine is grey.</td></tr><tr><td>Welcher Schal ist deiner? – Der da.</td><td>Which scarf is yours? – That one.</td></tr><tr><td>Ich habe meinen Regenschirm vergessen. – Hier ist einer.</td><td>I've forgotten my umbrella. – Here's one.</td></tr><tr><td>Das Häferl gehört nicht mir, das ist Sabines.</td><td>The mug isn't mine, it's Sabine's.</td></tr><tr><td>Hast du Handschuhe? – Nein, ich habe keine.</td><td>Have you got gloves? – No, I haven't got any.</td></tr></table><h3>2. Short dialogue</h3><p><b>Jonas:</b> <i>Die Garderobe ist noch voll: zwei Mäntel, ein Schal und ein Regenschirm. Gehört dir einer von den Mänteln?</i><br><b>Aurora:</b> <i>Ja, der da ist meiner. Den habe ich am Freitag vergessen.</i><br><b>Jonas:</b> <i>Und der Schal? Ist das deiner?</i><br><b>Aurora:</b> <i>Nein, meiner ist rot. Der gehört vielleicht Lena.</i><br><b>Jonas:</b> <i>Und wem gehört der Regenschirm?</i><br><b>Aurora:</b> <i>Keine Ahnung. Ich habe keinen. Vielleicht Herrn Gruber?</i></p><h3>3. Grammar: words that stand alone – the whole system</h3><p>When the noun is clear, German leaves it out: <i>Das ist mein Mantel.</i> → <i>Das ist <b>meiner</b>.</i> Order: masculine · feminine · neuter · plural.</p><table><tr><th>Case</th><th>mein- / dein- / kein- … alone</th><th>der / die / das alone</th></tr><tr><td>Nominativ</td><td>meiner · meine · meins · meine</td><td>der · die · das · die</td></tr><tr><td>Akkusativ</td><td>meinen · meine · meins · meine</td><td>den · die · das · die</td></tr><tr><td>Dativ</td><td>meinem · meiner · meinem · meinen</td><td>dem · der · dem · <b>denen</b></td></tr></table><h3>Rule 1: mein-, dein-, kein-, ein- alone</h3><p class=\"rule\">Alone, the ein-words take the ending of der/die/das in all forms: <i>der Mantel → meiner, das Häferl → meins</i>. Before a noun three forms have no ending (<i>mein Mantel, mein Häferl</i>) – alone they do: <i>Das ist meiner. Das ist meins.</i> All other forms are the same as before a noun: <i>Ich suche meinen Schal. → Ich suche meinen.</i></p><table><tr><th>Before a noun</th><th>Alone</th><th>English</th></tr><tr><td>Ist das dein Schal?</td><td>Ist das deiner?</td><td>Is it yours?</td></tr><tr><td>Hier ist ein Regenschirm.</td><td>Hier ist einer.</td><td>Here's one.</td></tr><tr><td>Ich habe kein Häferl.</td><td>Ich habe keins.</td><td>I haven't got one.</td></tr><tr><td>Ich habe Handschuhe.</td><td>Ich habe welche.</td><td>I've got some.</td></tr></table><p class=\"tip\"><i>meins, deins, eins, keins</i> are the usual forms; <i>meines, deines, eines, keines</i> are also correct (more formal). <i>ein</i> has no plural – alone you say <b>welche</b> (some): <i>Haben wir noch Häferl? – Ja, im Kasten sind welche.</i> Negative: <i>keine</i>.</p><h3>Rule 2: der, die, das alone (= this one / that one)</h3><p class=\"rule\">der/die/das can stand alone to point at something or to pick it up again: <i>Welcher Schal ist deiner? – <b>Der</b> da.</i> <i>Der Mantel? <b>Den</b> habe ich vergessen.</i> The forms are those of the article, except <b>dative plural: denen</b> (article: den).</p><p class=\"tip\">Often at the beginning of the sentence and stressed: <i>Den nehme ich.</i> = I'll take that one. In everyday speech very common, also for people: <i>Der ist nett.</i> In writing, <i>er/sie/es</i> is more neutral.</p><h3>Using it: Wem gehört …? – Welcher …?</h3><p class=\"rule\"><i>gehören</i> + dative (see d06): <i>Wem gehört der Regenschirm? – Der gehört Herrn Gruber.</i> <b>welcher?</b> has the endings of der: <i>Welcher Mantel ist deiner? Welchen nimmst du? Welchem Kollegen gehört das Häferl?</i></p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>vergessen (er vergisst)</td><td>vergaß</td><td>hat vergessen</td></tr><tr><td>verlieren</td><td>verlor</td><td>hat verloren</td></tr><tr><td>finden</td><td>fand</td><td>hat gefunden</td></tr><tr><td>abholen</td><td>holte ab</td><td>hat abgeholt</td></tr></table><p class=\"tip\"><i>vergessen</i> and <i>verlieren</i> have no ge- in the Partizip II (prefix ver-).</p>",
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>When the noun is clear, German leaves it out: <i>Das ist mein Mantel. → Das ist meiner.</i></li><li>Alone, <i>mein-, dein-, ein-, kein-</i> take the endings of <i>der, die, das</i>: <i>meiner, meine, meins</i>.</li><li><i>ein</i> has no plural – alone you say <b>welche</b> = some.</li><li>This topic: mein-, ein-, kein- alone. The next topic, d07b: <i>der, die, das</i> alone.</li></ul><h3>1. Situation: the morning after the company party</h3><p>After the <i>Firmenfeier</i> there are always things left at the cloakroom – the <i>Garderobe</i>. In the office kitchen everybody has an own mug – in Austria often called <i>Häferl</i>.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wem gehört dieser Mantel?</td><td>Who does this coat belong to?</td></tr><tr><td>Ist das deiner? – Ja, das ist meiner.</td><td>Is it yours? – Yes, it's mine.</td></tr><tr><td>Nein, meiner ist grau.</td><td>No, mine is grey.</td></tr><tr><td>Ich habe meinen Regenschirm vergessen. – Hier ist einer.</td><td>I've forgotten my umbrella. – Here's one.</td></tr><tr><td>Hast du Handschuhe? – Nein, ich habe keine.</td><td>Have you got gloves? – No, I haven't got any.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Die Garderobe ist noch voll: zwei Mäntel, ein Schal und ein Regenschirm. Ist der Schal <b>deiner</b>?</i><br><b>Aurora:</b> <i>Nein, <b>meiner</b> ist rot.</i><br><b>Jonas:</b> <i>Und der Regenschirm?</i><br><b>Aurora:</b> <i>Keine Ahnung. Ich habe <b>keinen</b>.</i></p><ul><li>In the dialogue: <i>deiner, meiner</i> – der Schal, nominative, alone.</li><li><i>keinen</i> – der Regenschirm, accusative after <i>haben</i>.</li></ul><h3>3. Overview: mein- alone in all cases</h3><table><tr><th>Case</th><th>masculine · feminine · neuter · plural</th></tr><tr><td>Nominativ</td><td>meiner · meine · meins · meine</td></tr><tr><td>Akkusativ</td><td>meinen · meine · meins · meine</td></tr><tr><td>Dativ</td><td>meinem · meiner · meinem · meinen</td></tr></table><ul><li>The same endings for <i>dein-, sein-, ihr-, unser-, euer-, ein-, kein-</i>.</li></ul><h3>4. Before a noun and alone</h3><table><tr><th>Before a noun</th><th>Alone</th><th>English</th></tr><tr><td>Ist das dein Schal?</td><td>Ist das deiner?</td><td>Is it yours?</td></tr><tr><td>Hier ist ein Regenschirm.</td><td>Hier ist einer.</td><td>Here's one.</td></tr><tr><td>Ich habe kein Häferl.</td><td>Ich habe keins.</td><td>I haven't got one.</td></tr><tr><td>Ich suche meinen Schal.</td><td>Ich suche meinen.</td><td>I'm looking for mine.</td></tr></table><ul><li>Only three forms are different: masculine nominative, neuter nominative and neuter accusative.</li><li>Before a noun: <i>mein Mantel, mein Häferl</i>. Alone: <i>meiner, meins</i>.</li><li>All other forms are the same as before a noun.</li></ul><h3>5. meins or meines?</h3><ul><li><i>meins, deins, eins, keins</i> are the usual forms.</li><li><i>meines, deines, eines, keines</i> are also correct – more formal.</li></ul><h3>6. welche = some</h3><table><tr><th>Question</th><th>Answer</th></tr><tr><td>Haben wir noch Häferl?</td><td>Ja, im Kasten sind welche.</td></tr><tr><td>Hast du Handschuhe?</td><td>Nein, ich habe keine.</td></tr></table><ul><li><i>ein</i> has no plural, so alone you say <i>welche</i>. The negative is <i>keine</i>.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ja, das ist mein.</td><td>Ja, das ist meiner.</td></tr><tr><td>Ich habe kein.</td><td>Ich habe keinen. – Ich habe keins.</td></tr><tr><td>Ja, ich habe eine Handschuhe.</td><td>Ja, ich habe welche.</td></tr><tr><td>Das Häferl ist meiner.</td><td>Das Häferl ist meins.</td></tr></table><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>das Häferl</i> = mug, informal. Germany: <i>die Tasse, der Becher</i>.</li><li><i>der Kasten</i> = cupboard. Germany: <i>der Schrank</i>.</li></ul><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>vergessen (er vergisst)</td><td>vergaß</td><td>hat vergessen</td></tr><tr><td>verlieren</td><td>verlor</td><td>hat verloren</td></tr><tr><td>finden</td><td>fand</td><td>hat gefunden</td></tr><tr><td>abholen</td><td>holte ab</td><td>hat abgeholt</td></tr></table><p class=\"tip\"><i>vergessen</i> and <i>verlieren</i> have no ge- in the Partizip II (prefix ver-).</p>",
   "v": [
    [
     "die Firmenfeier, die Firmenfeiern",
@@ -10283,7 +10283,8 @@
       "Dativ Plural",
       "[denen]"
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tab",
@@ -10517,7 +10518,8 @@
     "h": "der, die oder das allein – richtiger Fall",
     "a": [
      "Der"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10525,7 +10527,8 @@
     "h": "der, die oder das allein – richtiger Fall",
     "a": [
      "Den"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10533,7 +10536,8 @@
     "h": "der, die oder das allein – richtiger Fall",
     "a": [
      "Die"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10541,7 +10545,8 @@
     "h": "der, die oder das allein – richtiger Fall",
     "a": [
      "Das"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10549,7 +10554,8 @@
     "h": "der, die oder das allein – richtiger Fall",
     "a": [
      "Den"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10557,7 +10563,8 @@
     "h": "welch- mit der richtigen Endung",
     "a": [
      "Welcher"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10565,7 +10572,8 @@
     "h": "welch- mit der richtigen Endung",
     "a": [
      "Welchen"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10573,7 +10581,8 @@
     "h": "welch- mit der richtigen Endung",
     "a": [
      "Welcher"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10673,7 +10682,8 @@
      "Dem"
     ],
     "a": 0,
-    "x": "nehmen takes the accusative: der Schal → den."
+    "x": "nehmen takes the accusative: der Schal → den.",
+    "aus": true
    },
    {
     "t": "mc",
@@ -10684,7 +10694,8 @@
      "die"
     ],
     "a": 0,
-    "x": "der/die/das alone: dative plural is denen (not den)."
+    "x": "der/die/das alone: dative plural is denen (not den).",
+    "aus": true
    },
    {
     "t": "mc",
@@ -10759,7 +10770,8 @@
      "I'm taking that one.",
      "I'm taking this one.",
      "I take that one."
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -10810,7 +10822,8 @@
      "Gestern habe ich den vergessen.",
      "Ich habe den gestern vergessen."
     ],
-    "de": "I forgot that one yesterday."
+    "de": "I forgot that one yesterday.",
+    "aus": true
    },
    {
     "t": "ord",
@@ -11056,7 +11069,8 @@
      "none – they are all the same"
     ],
     "a": 0,
-    "x": "Den nehme ich. Die gehört mir. But: Die Häferl gehören denen (dative plural)."
+    "x": "Den nehme ich. Die gehört mir. But: Die Häferl gehören denen (dative plural).",
+    "aus": true
    },
    {
     "t": "dlg",
@@ -11127,8 +11141,330 @@
      "Ist dieser Schal Ihrer?",
      "Ist der Schal Ihrer?"
     ]
+   },
+   {
+    "t": "zuo",
+    "q": "Before a noun or alone – which form?",
+    "p": [
+     [
+      "Das ist … Mantel.",
+      "mein"
+     ],
+     [
+      "Das ist … – der Mantel",
+      "meiner"
+     ],
+     [
+      "Das ist … Häferl.",
+      "mein"
+     ],
+     [
+      "Das ist … – das Häferl",
+      "meins"
+     ],
+     [
+      "Ich suche … Schal.",
+      "meinen"
+     ],
+     [
+      "Ich suche … – der Schal",
+      "meinen"
+     ]
+    ],
+    "h": "Choose the form of mein- for each sentence."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze das Wort ohne Nomen.",
+    "txt": [
+     "Ist das dein Schal? – Ja, das ist [meiner].",
+     "Hast du einen Regenschirm? – Nein, ich habe [keinen].",
+     "Brauchst du ein Häferl? – Hier ist [eins|eines]."
+    ],
+    "h": "Jedes Kästchen: mein-, kein- oder ein- allein, mit der richtigen Endung"
+   },
+   {
+    "t": "mc",
+    "q": "Which forms of mein- are different alone than before a noun?",
+    "o": [
+     "masculine nominative, neuter nominative and neuter accusative",
+     "all forms",
+     "only the plural",
+     "only the dative"
+    ],
+    "a": 0,
+    "x": "mein Mantel → meiner, mein Häferl → meins. All other forms are the same: meinen, meine, meinem …"
    }
   ]
+ },
+ {
+  "id": "d07b",
+  "title": "Den nehme ich! – der, die, das allein und welcher?",
+  "fi": "I'll take that one! – der, die, das alone and welcher?",
+  "lvl": "A2",
+  "req": [
+   "d01",
+   "d01b",
+   "d02",
+   "d02b",
+   "d04",
+   "d04b",
+   "d05",
+   "d05b",
+   "d06",
+   "d06b",
+   "d07"
+  ],
+  "v": [],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "der, die, das allein in allen Fällen",
+    "h": "Jedes Kästchen eine Form. Reihenfolge: maskulin · feminin · neutral · Plural.",
+    "head": [
+     "Fall und Genus",
+     "der/die/das allein"
+    ],
+    "r": [
+     [
+      "Nominativ maskulin",
+      "[der]"
+     ],
+     [
+      "Nominativ feminin",
+      "[die]"
+     ],
+     [
+      "Nominativ neutral",
+      "[das]"
+     ],
+     [
+      "Nominativ Plural",
+      "[die]"
+     ],
+     [
+      "Akkusativ maskulin",
+      "[den]"
+     ],
+     [
+      "Akkusativ feminin",
+      "[die]"
+     ],
+     [
+      "Akkusativ neutral",
+      "[das]"
+     ],
+     [
+      "Akkusativ Plural",
+      "[die]"
+     ],
+     [
+      "Dativ maskulin",
+      "[dem]"
+     ],
+     [
+      "Dativ feminin",
+      "[der]"
+     ],
+     [
+      "Dativ neutral",
+      "[dem]"
+     ],
+     [
+      "Dativ Plural",
+      "[denen]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Welcher Mantel gehört dir? – ___ da.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Der"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Welchen Schal nimmst du? – ___ nehme ich.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Welche Jacke ist deine? – ___ da.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Die"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Und das Häferl? – ___ gehört Herrn Gruber.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Das"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Der Regenschirm? ___ habe ich gestern gefunden.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Mantel gehört dir?",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welcher"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Schal nimmst du?",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welchen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Kollegin gehört das Häferl?",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welcher"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Welchen Schal nimmst du?“ – „___ nehme ich.“",
+    "o": [
+     "Den",
+     "Der",
+     "Dem"
+    ],
+    "a": 0,
+    "x": "nehmen takes the accusative: der Schal → den."
+   },
+   {
+    "t": "mc",
+    "q": "„Gehören die Häferl Lena und Jonas?“ – „Ja, ___ gehören sie.“",
+    "o": [
+     "denen",
+     "den",
+     "die"
+    ],
+    "a": 0,
+    "x": "der/die/das alone: dative plural is denen (not den)."
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Den nehme ich.",
+    "a": [
+     "I'll take that one.",
+     "I'll take this one.",
+     "I'm taking that one.",
+     "I'm taking this one.",
+     "I take that one."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Den",
+     "habe",
+     "ich",
+     "gestern",
+     "vergessen"
+    ],
+    "a": [
+     "Den habe ich gestern vergessen.",
+     "Gestern habe ich den vergessen.",
+     "Ich habe den gestern vergessen."
+    ],
+    "de": "I forgot that one yesterday."
+   },
+   {
+    "t": "mc",
+    "q": "Which form of der/die/das alone is different from the article?",
+    "o": [
+     "the dative plural: denen (article: den)",
+     "the accusative masculine",
+     "the nominative feminine",
+     "none – they are all the same"
+    ],
+    "a": 0,
+    "x": "Den nehme ich. Die gehört mir. But: Die Häferl gehören denen (dative plural)."
+   },
+   {
+    "t": "zuo",
+    "q": "Which form of der/die/das alone?",
+    "p": [
+     [
+      "Welcher Mantel ist deiner? – … da.",
+      "der"
+     ],
+     [
+      "Welchen Schal nimmst du? – … nehme ich.",
+      "den"
+     ],
+     [
+      "Die Jacke? … habe ich gefunden.",
+      "die"
+     ],
+     [
+      "Das Häferl? … gehört Sabine.",
+      "das"
+     ],
+     [
+      "Gehören die Häferl Lena und Jonas? – Ja, … gehören sie.",
+      "denen"
+     ],
+     [
+      "Der Kollege? Ja, … gehört der Schirm.",
+      "dem"
+     ]
+    ],
+    "h": "Choose the right form for each gap."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze der, die oder das allein.",
+    "txt": [
+     "Welcher Schal ist deiner? – [Der] da.",
+     "Der Regenschirm? [Den] habe ich gestern gefunden.",
+     "Und die Häferl? [Die] sind im Kasten."
+    ],
+    "h": "Jedes Kästchen: der/die/das allein im richtigen Fall – am Satzanfang groß"
+   },
+   {
+    "t": "gap",
+    "q": "Welche Jacke nimmst du? – ___ nehme ich.",
+    "a": [
+     "Die"
+    ],
+    "h": "der, die oder das allein – richtiger Fall"
+   },
+   {
+    "t": "mc",
+    "q": "When do people use „der, die, das“ alone?",
+    "o": [
+     "to point at something or pick it up again – often at the beginning and stressed",
+     "only in formal letters",
+     "only for people",
+     "only in questions"
+    ],
+    "a": 0,
+    "x": "Der da. – Den nehme ich. Very common in speech. In writing er/sie/es sound more neutral."
+   }
+  ],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><i>der, die, das</i> can stand alone = this one, that one: <i>Welcher Schal ist deiner? – Der da.</i></li><li>The forms are those of the article – except the dative plural: <b>denen</b>.</li><li><b>welcher?</b> = which? It has the endings of <i>der</i>: <i>welcher, welche, welches</i>.</li></ul><h3>1. Situation: sorting things after the party</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Welcher Mantel ist deiner? – Der da.</td><td>Which coat is yours? – That one.</td></tr><tr><td>Den habe ich am Freitag vergessen.</td><td>I forgot that one on Friday.</td></tr><tr><td>Welchen Schal nimmst du? – Den nehme ich.</td><td>Which scarf are you taking? – I'll take that one.</td></tr><tr><td>Das Häferl? Das gehört Herrn Gruber.</td><td>The mug? That belongs to Herr Gruber.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Gehört dir einer von den Mänteln?</i><br><b>Aurora:</b> <i>Ja, <b>der</b> da ist meiner. <b>Den</b> habe ich am Freitag vergessen.</i><br><b>Jonas:</b> <i>Und <b>welcher</b> Schal ist Lenas?</i><br><b>Aurora:</b> <i><b>Der</b> rote.</i></p><ul><li>In the dialogue: <i>der da</i> – subject, nominative.</li><li><i>Den habe ich vergessen</i> – object, accusative, at the beginning and stressed.</li><li><i>welcher Schal</i> – the question word has the ending of <i>der</i>.</li></ul><h3>3. Overview: der, die, das alone</h3><table><tr><th>Case</th><th>masculine · feminine · neuter · plural</th></tr><tr><td>Nominativ</td><td>der · die · das · die</td></tr><tr><td>Akkusativ</td><td>den · die · das · die</td></tr><tr><td>Dativ</td><td>dem · der · dem · <b>denen</b></td></tr></table><ul><li>Only the dative plural is different from the article: <i>denen</i>, article <i>den</i>.</li></ul><h3>4. How it is used</h3><ul><li>To point at something: <i>Der da.</i></li><li>To pick something up again: <i>Der Mantel? Den habe ich vergessen.</i></li><li>Often at the beginning of the sentence and stressed: <i>Den nehme ich.</i></li><li>Very common in speech, also for people: <i>Der ist nett.</i> In writing, <i>er, sie, es</i> sound more neutral.</li></ul><h3>5. welcher?</h3><table><tr><th>Case</th><th>Example</th></tr><tr><td>Nominativ</td><td>Welcher Mantel ist deiner?</td></tr><tr><td>Akkusativ</td><td>Welchen Schal nimmst du?</td></tr><tr><td>Dativ</td><td>Welchem Kollegen gehört das Häferl?</td></tr></table><ul><li><i>welcher</i> has the endings of <i>der</i>: <i>welcher, welche, welches, welche</i>.</li></ul><h3>6. Using it: Wem gehört …?</h3><ul><li><i>gehören</i> + dative – see d06b: <i>Wem gehört der Regenschirm? – Der gehört Herrn Gruber.</i></li><li><i>Gehören die Häferl Lena und Jonas? – Ja, denen gehören sie.</i></li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Welchen Schal? – Der nehme ich.</td><td>Welchen Schal? – Den nehme ich.</td></tr><tr><td>Ja, den gehören sie.</td><td>Ja, denen gehören sie.</td></tr><tr><td>Welche Mantel ist deiner?</td><td>Welcher Mantel ist deiner?</td></tr></table>"
  },
  {
   "id": "d08",
