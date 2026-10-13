@@ -60,3 +60,7 @@ Neue Grundsätze: ab d10 5–10 Grundwortschatz-Karten je Thema, Theorie beginnt
 ## 13.10.2026 – Teil-D-Kleinigkeiten (S-1013-12)
 Karten hinten angehängt: d02 Besprechung, Arzttermin; d05 Karte, Blume; d06 Kuchen; d07 Kasten (österr. = Schrank). Quellen: en.wiktionary (`tools/quellen.mjs`) für Genus/Plural, Duden „Kasten“ (Pl. Kästen; Schrank-Bedeutung süddt./österr./schweiz.). d06 `lvl` „A2“, „Partizip II“ einheitlich in d05/d07, d03 ex[49] Variante „am Land“.
 Offen (niedrig): mc-Fragesprache vereinheitlichen, Hinweise ohne Bau-Rezept, E-Card-Schreibung, Imperativ-Ausnahme -e nach Konsonant + m/n.
+
+## 2026-10-13 – Themen nach gleicher Logik, d01–d07 geteilt (S-1013-34 bis -36)
+- Matthias: Themen 1 und 2 zu groß, unvollständig, zu viel Fließtext mit Klammern → „selbst entscheiden … für jedes Thema gleiche Logik: vollständig, klar strukturiert, klar gegliedert, gerne mehrere Unterthemen“.
+- Umsetzung: einheitliche Theorie-Gliederung (lehrplan „Gleiche Logik“), d01–d07 je in zwei Teilthemen (alte Übungen `aus: true`, Kopien in d0xb), d08–d09b neu gegliedert; je Thema `zuo`, `luk`, Regelfragen; Prüfvermerke gesetzt. Quellen: en.wiktionary, duden.de; neue Beispielsätze ohne Quelle.
