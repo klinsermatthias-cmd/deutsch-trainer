@@ -7402,5 +7402,1379 @@
     ]
    }
   ]
+ },
+ {
+  "id": "d08",
+  "title": "Nehmen Sie die Tabletten! – in der Apotheke",
+  "fi": "Take the tablets! – at the pharmacy",
+  "lvl": "A2",
+  "req": [
+   "d01",
+   "d02",
+   "d05",
+   "d06"
+  ],
+  "th": "<h3>1. Situation: at the pharmacy</h3><p>With a <i>Rezept</i> (prescription) from the doctor you get your medicine at the <i>Apotheke</i>. For a cough or a headache you can also ask there without a prescription. In the pharmacy and on the <i>Beipackzettel</i> (package leaflet) you hear and read many <b>requests</b>: the imperative.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich habe Kopfschmerzen und Husten.</td><td>I have a headache and a cough.</td></tr><tr><td>Brauche ich dafür ein Rezept?</td><td>Do I need a prescription for it?</td></tr><tr><td>Nehmen Sie dreimal täglich eine Tablette.</td><td>Take one tablet three times a day.</td></tr><tr><td>Lesen Sie bitte den Beipackzettel.</td><td>Please read the package leaflet.</td></tr></table><h3>2. Short dialogue</h3><p><b>Apothekerin:</b> <i>Grüß Gott! Was kann ich für Sie tun?</i><br><b>Aurora:</b> <i>Ich habe Husten und Kopfschmerzen.</i><br><b>Apothekerin:</b> <i>Nehmen Sie diese Tabletten. Lesen Sie bitte den Beipackzettel.</i><br><b>Aurora:</b> <i>Brauche ich dafür ein Rezept?</i><br><b>Apothekerin:</b> <i>Nein. Nehmen Sie dreimal täglich eine Tablette nach dem Essen ein. Und trinken Sie viel Tee!</i></p><h3>3. Grammar: the imperative – the whole system</h3><table><tr><th>du</th><th>ihr</th><th>Sie</th></tr><tr><td>Komm!</td><td>Kommt!</td><td>Kommen Sie!</td></tr><tr><td>Warte!</td><td>Wartet!</td><td>Warten Sie!</td></tr><tr><td>Nimm!</td><td>Nehmt!</td><td>Nehmen Sie!</td></tr><tr><td>Lies!</td><td>Lest!</td><td>Lesen Sie!</td></tr><tr><td>Sei ruhig!</td><td>Seid ruhig!</td><td>Seien Sie ruhig!</td></tr><tr><td>Nimm … ein!</td><td>Nehmt … ein!</td><td>Nehmen Sie … ein!</td></tr><tr><td>Setz dich!</td><td>Setzt euch!</td><td>Setzen Sie sich!</td></tr></table><h3>Rule 1: how to form the imperative</h3><p class=\"rule\"><b>du:</b> the du-form without <i>-st</i> and without <i>du</i>: <i>du kommst → komm!</i> If the stem ends in <i>-s, -ß, -z</i>, only the <i>-t</i> goes: <i>du liest → lies!, du isst → iss!</i> Verbs with e → i keep the i: <i>du nimmst → nimm!, du hilfst → hilf!</i> Verbs with a → ä do <b>not</b> take the umlaut: <i>du schläfst → schlaf!</i> Stems ending in -t/-d and verbs like <i>öffnen, atmen</i> add -e: <i>warte!, arbeite!, öffne!, atme!</i> Verbs in -eln: <i>sammeln → sammle!</i></p><p class=\"rule\"><b>ihr:</b> the ihr-form without <i>ihr</i>: <i>ihr nehmt → nehmt!</i> <b>Sie:</b> the Sie-form, <i>Sie</i> after the verb: <i>Nehmen Sie!</i> <b>sein</b> is irregular: <i>sei! – seid! – seien Sie!</i> Separable verbs: the prefix goes to the end: <i>Nehmen Sie die Tablette ein!</i></p><p class=\"tip\">An -e in the du-form (<i>komme!, schlafe!</i>) is possible but sounds formal. Add <i>bitte</i> to be polite: <i>Setzen Sie sich bitte.</i> Reflexive verbs (<i>sich setzen</i>) come in detail in the next topic.</p><h3>Rule 2: verb first – question or request?</h3><table><tr><th>Verb first</th><th>Example</th><th>Meaning</th></tr><tr><td>question (Sie)</td><td>Nehmen Sie die Tabletten?</td><td>Do you take …?</td></tr><tr><td>request (Sie)</td><td>Nehmen Sie die Tabletten!</td><td>Take …!</td></tr><tr><td>question (du)</td><td>Nimmst du die Tabletten?</td><td>Do you take …?</td></tr><tr><td>request (du)</td><td>Nimm die Tabletten!</td><td>Take …!</td></tr></table><p class=\"rule\">In both cases the verb comes first. With <i>Sie</i> the words are the same – only the question mark / exclamation mark and the voice (rising ↔ falling) show the difference. With <i>du</i> the forms are different: <i>Nimmst du …?</i> ↔ <i>Nimm …!</i></p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>einnehmen (er nimmt ein)</td><td>nahm ein</td><td>hat eingenommen</td></tr><tr><td>sich setzen</td><td>setzte sich</td><td>hat sich gesetzt</td></tr><tr><td>sich ausruhen</td><td>ruhte sich aus</td><td>hat sich ausgeruht</td></tr></table>",
+  "v": [
+   [
+    "die Apotheke, die Apotheken",
+    "pharmacy, chemist's"
+   ],
+   [
+    "die Tablette, die Tabletten",
+    "tablet, pill"
+   ],
+   [
+    "das Rezept, die Rezepte",
+    "prescription; recipe"
+   ],
+   [
+    "der Beipackzettel, die Beipackzettel",
+    "package leaflet (also: Packungsbeilage)"
+   ],
+   [
+    "die Kopfschmerzen (Pl.)",
+    "headache"
+   ],
+   [
+    "der Husten",
+    "cough"
+   ],
+   [
+    "sich setzen",
+    "to sit down (setzte sich · hat sich gesetzt · wird sich setzen)"
+   ],
+   [
+    "einnehmen",
+    "to take (medicine) (nahm ein · hat eingenommen · wird einnehmen)"
+   ],
+   [
+    "sich ausruhen",
+    "to rest (ruhte sich aus · hat sich ausgeruht · wird sich ausruhen)"
+   ],
+   [
+    "die Salbe, die Salben",
+    "ointment"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Imperativ (du)",
+    "h": "Jedes Kästchen nur das Verb im Imperativ für du, ohne Satzzeichen.",
+    "head": [
+     "Infinitiv",
+     "Imperativ (du)"
+    ],
+    "r": [
+     [
+      "kommen",
+      "[komm|komme]"
+     ],
+     [
+      "warten",
+      "[warte]"
+     ],
+     [
+      "nehmen",
+      "[nimm]"
+     ],
+     [
+      "lesen",
+      "[lies]"
+     ],
+     [
+      "essen",
+      "[iss]"
+     ],
+     [
+      "helfen",
+      "[hilf]"
+     ],
+     [
+      "schlafen",
+      "[schlaf|schlafe]"
+     ],
+     [
+      "sein",
+      "[sei]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Imperativ (ihr)",
+    "h": "Jedes Kästchen nur das Verb im Imperativ für ihr, ohne Satzzeichen.",
+    "head": [
+     "Infinitiv",
+     "Imperativ (ihr)"
+    ],
+    "r": [
+     [
+      "kommen",
+      "[kommt]"
+     ],
+     [
+      "nehmen",
+      "[nehmt]"
+     ],
+     [
+      "lesen",
+      "[lest]"
+     ],
+     [
+      "essen",
+      "[esst]"
+     ],
+     [
+      "sein",
+      "[seid]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Imperativ (Sie)",
+    "h": "Imperativ für Sie, ohne Satzzeichen.",
+    "head": [
+     "Infinitiv",
+     "Imperativ (Sie)"
+    ],
+    "r": [
+     [
+      "kommen",
+      "[kommen Sie]"
+     ],
+     [
+      "warten",
+      "[warten Sie]"
+     ],
+     [
+      "nehmen",
+      "[nehmen Sie]"
+     ],
+     [
+      "sein",
+      "[seien Sie]"
+     ],
+     [
+      "sich setzen",
+      "[setzen Sie sich]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Frage → Aufforderung",
+    "h": "Ganzer Satz im Imperativ, gleiche Person.",
+    "head": [
+     "Frage",
+     "Aufforderung"
+    ],
+    "r": [
+     [
+      "Nehmen Sie die Tablette?",
+      "[Nehmen Sie die Tablette!]"
+     ],
+     [
+      "Nimmst du die Tablette?",
+      "[Nimm die Tablette!]"
+     ],
+     [
+      "Setzt ihr euch?",
+      "[Setzt euch!]"
+     ],
+     [
+      "Ruhst du dich aus?",
+      "[Ruh dich aus!|Ruhe dich aus!]"
+     ],
+     [
+      "Bist du ruhig?",
+      "[Sei ruhig!]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Morgen ___ es dir sicher besser gehen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "wird"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Gestern ___ Jonas zwei Tabletten ein. (einnehmen)",
+    "h": "einnehmen – Präteritum",
+    "a": [
+     "nahm"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Sie bitte im Wartezimmer! (warten)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Warten"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ dich bitte! (sich setzen, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Setz",
+     "Setze"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ dreimal täglich eine Tablette! (nehmen, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Nimm"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ den Beipackzettel genau! (lesen, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Lies"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Sie den Beipackzettel genau! (lesen)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Lesen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ bitte ruhig, Kinder! (sein, ihr)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Seid"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Sie bitte geduldig! (sein)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Seien"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ nicht so viel Kaffee! (trinken, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Trink",
+     "Trinke"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Nehmen Sie die Tabletten nach dem Essen ___!",
+    "h": "trennbares Verb (einnehmen) – fehlender Teil",
+    "a": [
+     "ein"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Kann ich morgen kommen? – Ja, ___ morgen! (kommen, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "komm",
+     "komme"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ bitte das Fenster! (öffnen, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Öffne"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ tief ein und aus! (atmen, du)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Atme"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich brauche ___ Rezept für die Tabletten.",
+    "h": "unbestimmter Artikel im richtigen Fall",
+    "a": [
+     "ein"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich gehe heute nicht arbeiten, ___ ich Fieber habe.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "weil"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe Husten, ___ gehe ich zur Arbeit.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "trotzdem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ ich krank bin, trinke ich viel Tee.",
+    "h": "Bindewort: when (als, wenn oder wann?)",
+    "a": [
+     "Wenn"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Nehmen Sie die Tabletten!“ – Was ist das?",
+    "o": [
+     "eine Aufforderung (Imperativ)",
+     "eine Ja/Nein-Frage",
+     "ein Aussagesatz"
+    ],
+    "a": 0,
+    "x": "Verb first + exclamation mark: a request. With a question mark it would be a yes/no question."
+   },
+   {
+    "t": "mc",
+    "q": "Imperativ (du) von „essen“?",
+    "o": [
+     "Iss!",
+     "Ess!",
+     "Isst!"
+    ],
+    "a": 0,
+    "x": "du isst → iss! The stem ends in -s, so only the -t is dropped; e → i stays."
+   },
+   {
+    "t": "mc",
+    "q": "Imperativ (Sie) von „sein“?",
+    "o": [
+     "Seien Sie …!",
+     "Sind Sie …!",
+     "Sein Sie …!"
+    ],
+    "a": 0,
+    "x": "sein is irregular: sei! – seid! – seien Sie!"
+   },
+   {
+    "t": "mc",
+    "q": "Imperativ (du) von „schlafen“?",
+    "o": [
+     "Schlaf!",
+     "Schläf!",
+     "Schläfst!"
+    ],
+    "a": 0,
+    "x": "a → ä verbs have no umlaut in the imperative: du schläfst → schlaf!"
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Nimm die Tablette ein!",
+     "Einnimm die Tablette!",
+     "Nimmst die Tablette ein!"
+    ],
+    "a": 0,
+    "x": "Separable verb: prefix at the end; du-imperative without -st: nimm … ein!"
+   },
+   {
+    "t": "mc",
+    "q": "How do you form the du-imperative?",
+    "o": [
+     "the du-form without -st (after s/ß/z only without -t) and without du: du nimmst → nimm!",
+     "the infinitive: nehmen!",
+     "the du-form with du: du nimmst!",
+     "the ihr-form: nehmt!"
+    ],
+    "a": 0,
+    "x": "du nimmst → nimm!; after s/ß/z only the -t goes: du liest → lies!, du isst → iss! a → ä verbs lose the umlaut: du schläfst → schlaf!"
+   },
+   {
+    "t": "mc",
+    "q": "„Nehmen Sie die Tabletten?“ ↔ „Nehmen Sie die Tabletten!“ – What is the difference?",
+    "o": [
+     "The first is a yes/no question, the second a request – only the punctuation and the voice show it.",
+     "There is no difference.",
+     "The first is wrong.",
+     "The second is a question."
+    ],
+    "a": 0,
+    "x": "With Sie the verb comes first in both. ? = question (rising voice), ! = request (falling voice)."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Take one tablet three times a day. (Sie)",
+    "a": [
+     "Nehmen Sie dreimal täglich eine Tablette.",
+     "Nehmen Sie dreimal am Tag eine Tablette.",
+     "Nehmen Sie täglich dreimal eine Tablette.",
+     "Nehmen Sie dreimal täglich eine Tablette ein.",
+     "Nehmen Sie dreimal am Tag eine Tablette ein."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Read the package leaflet! (du)",
+    "a": [
+     "Lies den Beipackzettel!",
+     "Lies die Packungsbeilage!",
+     "Lies den Beipackzettel.",
+     "Lies die Packungsbeilage."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Don't drink any alcohol! (Sie)",
+    "a": [
+     "Trinken Sie keinen Alkohol!",
+     "Trinken Sie keinen Alkohol.",
+     "Bitte trinken Sie keinen Alkohol!",
+     "Trinken Sie bitte keinen Alkohol!"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Ruh dich aus und trink viel Tee!",
+    "a": [
+     "Rest and drink a lot of tea!",
+     "Have a rest and drink a lot of tea!",
+     "Get some rest and drink a lot of tea!",
+     "Rest and drink lots of tea!",
+     "Rest and drink plenty of tea!"
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Nehmen",
+     "Sie",
+     "die",
+     "Tabletten",
+     "nach",
+     "dem",
+     "Essen",
+     "ein"
+    ],
+    "a": [
+     "Nehmen Sie die Tabletten nach dem Essen ein!"
+    ],
+    "de": "Take the tablets after meals."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "bleibe",
+     "zu",
+     "Hause",
+     "weil",
+     "ich",
+     "Fieber",
+     "habe"
+    ],
+    "a": [
+     "Ich bleibe zu Hause, weil ich Fieber habe.",
+     "Weil ich Fieber habe, bleibe ich zu Hause."
+    ],
+    "de": "I'm staying at home because I have a temperature."
+   },
+   {
+    "t": "les",
+    "q": "Aus einem Beipackzettel",
+    "txt": [
+     "Nehmen Sie dreimal täglich eine Tablette.",
+     "Nehmen Sie die Tabletten nach dem Essen mit viel Wasser ein.",
+     "Trinken Sie keinen Alkohol.",
+     "Fahren Sie nicht Auto, wenn Sie müde sind.",
+     "Fragen Sie bei Problemen Ihre Ärztin oder in der Apotheke."
+    ],
+    "qs": [
+     {
+      "q": "How often do you take a tablet?",
+      "o": [
+       "three times a day",
+       "once a day",
+       "every hour"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What should you not drink?",
+      "o": [
+       "alcohol",
+       "water",
+       "tea"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What should you not do when you are tired?",
+      "o": [
+       "drive a car",
+       "eat",
+       "read"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Zettel von Mama",
+    "txt": [
+     "Lieber Jonas!",
+     "Ich bin bis sieben Uhr in der Arbeit.",
+     "Nimm deine Tabletten nach dem Essen ein.",
+     "Trink viel Tee und iss etwas Suppe.",
+     "Sei bitte leise, Papa schläft.",
+     "Ruf mich an, wenn du Fieber hast!",
+     "Mama"
+    ],
+    "qs": [
+     {
+      "q": "When does Jonas have to take his tablets?",
+      "o": [
+       "after eating",
+       "before eating",
+       "at seven o'clock"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why should Jonas be quiet?",
+      "o": [
+       "His dad is sleeping.",
+       "His mum is working at home.",
+       "He is ill."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When should Jonas call his mum?",
+      "o": [
+       "if he has a temperature",
+       "at seven o'clock",
+       "after eating"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Tipps aus der Apotheke",
+    "txt": [
+     "Haben Sie Husten?",
+     "Trinken Sie viel Tee mit Honig.",
+     "Schlafen Sie genug und gehen Sie nicht in die Kälte.",
+     "Nehmen Sie diesen Saft zweimal täglich.",
+     "Wenn Sie nach drei Tagen noch Husten haben, gehen Sie bitte zum Arzt."
+    ],
+    "qs": [
+     {
+      "q": "What should you drink?",
+      "o": [
+       "tea with honey",
+       "cold water",
+       "coffee"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How often do you take the syrup?",
+      "o": [
+       "twice a day",
+       "three times a day",
+       "once a day"
+      ],
+      "a": 0
+     },
+     {
+      "q": "When should you go to the doctor?",
+      "o": [
+       "if you still have a cough after three days",
+       "straight away",
+       "never"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "In der Apotheke",
+    "r": [
+     [
+      "Apothekerin",
+      "Grüß Gott! Was kann ich für Sie tun?"
+     ],
+     [
+      "Du",
+      "[Ich habe Kopfschmerzen und Husten.|Ich habe Husten und Kopfschmerzen.]",
+      "Say that you have a headache and a cough."
+     ],
+     [
+      "Apothekerin",
+      "Haben Sie ein Rezept?"
+     ],
+     [
+      "Du",
+      "[Nein, ich habe keins.|Nein, ich habe keines.|Nein, ich habe kein Rezept.|Nein, leider nicht.]",
+      "Say no, you haven't got one."
+     ],
+     [
+      "Apothekerin",
+      "Dann nehmen Sie diese Tabletten. Dreimal täglich eine."
+     ],
+     [
+      "Du",
+      "[Soll ich sie nach dem Essen nehmen?|Soll ich sie nach dem Essen einnehmen?|Muss ich sie nach dem Essen nehmen?|Muss ich sie nach dem Essen einnehmen?]",
+      "Ask whether you should take them after meals."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Lena ist krank",
+    "r": [
+     [
+      "Lena",
+      "Mir geht es nicht gut. Ich habe Fieber."
+     ],
+     [
+      "Du",
+      "[Ruh dich aus!|Ruhe dich aus!|Ruh dich gut aus!|Ruhe dich gut aus!|Du musst dich ausruhen.]",
+      "Tell her to rest."
+     ],
+     [
+      "Lena",
+      "Aber morgen arbeite ich wieder."
+     ],
+     [
+      "Du",
+      "[Geh morgen nicht arbeiten!|Geh morgen nicht zur Arbeit!|Bleib morgen zu Hause!|Bleib morgen zuhause!|Bleib morgen daheim!]",
+      "Tell her not to go to work tomorrow."
+     ],
+     [
+      "Lena",
+      "Okay. Kannst du mir einen Tee machen?"
+     ],
+     [
+      "Du",
+      "[Ja, setz dich!|Ja, gern. Setz dich!|Klar, setz dich!|Ja, setz dich hin!|Ja, gerne. Setz dich!]",
+      "Say yes and tell her to sit down."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Jonas hat Kopfschmerzen",
+    "r": [
+     [
+      "Jonas",
+      "Ich habe so Kopfschmerzen."
+     ],
+     [
+      "Du",
+      "[Nimm eine Tablette!|Nimm doch eine Tablette!|Nimm eine Tablette ein!|Nimm doch eine Tablette ein!]",
+      "Tell him to take a tablet."
+     ],
+     [
+      "Jonas",
+      "Ich habe keine Tabletten mehr."
+     ],
+     [
+      "Du",
+      "[Geh in die Apotheke!|Geh zur Apotheke!|Geh doch in die Apotheke!|Geh doch zur Apotheke!|Gehe in die Apotheke!]",
+      "Tell him to go to the pharmacy."
+     ],
+     [
+      "Jonas",
+      "Die Apotheke ist schon zu."
+     ],
+     [
+      "Du",
+      "[Trink viel Wasser und schlaf!|Trink viel Wasser und schlaf viel!|Trink viel Wasser und geh schlafen!|Trinke viel Wasser und schlafe!|Trink viel Wasser und schlafe!]",
+      "Tell him to drink a lot of water and to sleep."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Your flatmate is ill. Write three instructions (du): rest, drink tea, take the tablets.",
+    "a": [
+     "Ruh dich aus! Trink viel Tee! Nimm die Tabletten!"
+    ],
+    "h": "3 Sätze, Imperativ (du)"
+   },
+   {
+    "t": "sch",
+    "q": "A colleague has a bad cold. Give two pieces of advice (Sie): drink a lot of tea, go home.",
+    "a": [
+     "Trinken Sie viel Tee! Gehen Sie nach Hause!"
+    ],
+    "h": "2 Sätze, Imperativ (Sie)"
+   },
+   {
+    "t": "sch",
+    "q": "Your children (ihr) are noisy and don't eat. Write two requests: be quiet, eat your soup.",
+    "a": [
+     "Seid ruhig! Esst eure Suppe!"
+    ],
+    "h": "2 Sätze, Imperativ (ihr)"
+   }
+  ]
+ },
+ {
+  "id": "d08b",
+  "title": "Ich habe mir den Fuß verletzt – beim Arzt",
+  "fi": "I've hurt my foot – at the doctor's",
+  "lvl": "A2",
+  "req": [
+   "d01",
+   "d02",
+   "d05",
+   "d06",
+   "d08"
+  ],
+  "th": "<h3>1. Situation: at the doctor's</h3><p>In Austria the doctor's practice is called <i>Ordination</i> (Germany: Praxis). At reception you show your <i>E-Card</i> (Austrian health insurance card; Germany: Gesundheitskarte) and wait in the <i>Wartezimmer</i>. If you can't work, you are <i>im Krankenstand</i> (Germany: krankgeschrieben). To catch a cold is <i>sich verkühlen</i> in Austria (Germany: sich erkälten).</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Hier ist meine E-Card.</td><td>Here is my health insurance card.</td></tr><tr><td>Bitte warten Sie im Wartezimmer.</td><td>Please wait in the waiting room.</td></tr><tr><td>Was fehlt Ihnen?</td><td>What's the matter? / What's wrong?</td></tr><tr><td>Der Fuß tut mir weh.</td><td>My foot hurts.</td></tr><tr><td>Ich habe mich verkühlt.</td><td>I've caught a cold.</td></tr><tr><td>Setzen Sie sich bitte.</td><td>Please sit down.</td></tr></table><h3>2. Short dialogue</h3><p><b>Ärztin:</b> <i>Grüß Gott! Setzen Sie sich bitte. Was fehlt Ihnen?</i><br><b>Aurora:</b> <i>Ich habe seit Montag Husten und Kopfschmerzen.</i><br><b>Ärztin:</b> <i>Haben Sie auch Fieber?</i><br><b>Aurora:</b> <i>Ja, gestern hatte ich 38,5.</i><br><b>Ärztin:</b> <i>Machen Sie bitte den Mund auf. … Das ist eine Grippe. Ruhen Sie sich aus und trinken Sie viel Tee.</i><br><b>Aurora:</b> <i>Kann ich morgen arbeiten?</i><br><b>Ärztin:</b> <i>Nein, bleiben Sie zu Hause. Sie sind bis Freitag im Krankenstand.</i></p><h3>Rule 1: reflexive pronouns</h3><table><tr><th>Person</th><th>Akkusativ</th><th>Dativ</th></tr><tr><td>ich</td><td>mich</td><td>mir</td></tr><tr><td>du</td><td>dich</td><td>dir</td></tr><tr><td>er / sie / es</td><td>sich</td><td>sich</td></tr><tr><td>wir</td><td>uns</td><td>uns</td></tr><tr><td>ihr</td><td>euch</td><td>euch</td></tr><tr><td>sie / Sie</td><td>sich</td><td>sich</td></tr></table><p class=\"rule\">A reflexive pronoun refers back to the subject: <i>Ich setze mich. Ich habe mich verletzt.</i> When there is also an accusative object (often a body part), the reflexive pronoun is in the <b>dative</b>: <i>Ich habe <b>mir</b> den Fuß verletzt.</i> Only <i>ich</i> and <i>du</i> have different forms (mich/mir, dich/dir).</p><p class=\"tip\">German uses the article for body parts, not the possessive: <i>Ich habe mir den Fuß verletzt</i> (= I've hurt my foot). Just as common: <i>Ich habe mich am Fuß verletzt.</i> <i>wehtun</i> + dative: <i>Der Kopf tut mir weh. Mir tut der Fuß weh.</i></p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>sich verletzen</td><td>verletzte sich</td><td>hat sich verletzt</td></tr><tr><td>sich verkühlen</td><td>verkühlte sich</td><td>hat sich verkühlt</td></tr><tr><td>untersuchen</td><td>untersuchte</td><td>hat untersucht</td></tr><tr><td>wehtun (es tut weh)</td><td>tat weh</td><td>hat wehgetan</td></tr></table>",
+  "v": [
+   [
+    "die E-Card",
+    "health insurance card (Austria; Germany: Gesundheitskarte)"
+   ],
+   [
+    "das Wartezimmer, die Wartezimmer",
+    "waiting room"
+   ],
+   [
+    "sich verletzen",
+    "to hurt oneself, to get injured (verletzte sich · hat sich verletzt · wird sich verletzen)"
+   ],
+   [
+    "untersuchen",
+    "to examine (untersuchte · hat untersucht · wird untersuchen)"
+   ],
+   [
+    "wehtun",
+    "to hurt (tat weh · hat wehgetan · wird wehtun)"
+   ],
+   [
+    "die Grippe, die Grippen",
+    "flu"
+   ],
+   [
+    "sich verkühlen",
+    "to catch a cold (Austria; Germany: sich erkälten) (verkühlte sich · hat sich verkühlt · wird sich verkühlen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Reflexivpronomen (Akkusativ)",
+    "h": "Nur das Reflexivpronomen.",
+    "head": [
+     "Satz",
+     "Pronomen"
+    ],
+    "r": [
+     [
+      "Ich setze ___.",
+      "[mich]"
+     ],
+     [
+      "Du setzt ___.",
+      "[dich]"
+     ],
+     [
+      "Er setzt ___.",
+      "[sich]"
+     ],
+     [
+      "Wir setzen ___.",
+      "[uns]"
+     ],
+     [
+      "Ihr setzt ___.",
+      "[euch]"
+     ],
+     [
+      "Sie setzen ___. (höflich)",
+      "[sich]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Reflexivpronomen (Dativ)",
+    "h": "Nur das Reflexivpronomen.",
+    "head": [
+     "Satz",
+     "Pronomen"
+    ],
+    "r": [
+     [
+      "Ich habe ___ den Fuß verletzt.",
+      "[mir]"
+     ],
+     [
+      "Du hast ___ den Fuß verletzt.",
+      "[dir]"
+     ],
+     [
+      "Sie hat ___ den Fuß verletzt.",
+      "[sich]"
+     ],
+     [
+      "Wir haben ___ die Hand verletzt.",
+      "[uns]"
+     ],
+     [
+      "Ihr habt ___ die Hand verletzt.",
+      "[euch]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Nur die Form für er/sie, z. B. machte; bei sich-Verben mit sich.",
+    "head": [
+     "Infinitiv",
+     "Präteritum (er/sie)"
+    ],
+    "r": [
+     [
+      "sich verletzen",
+      "[verletzte sich]"
+     ],
+     [
+      "einnehmen",
+      "[nahm ein]"
+     ],
+     [
+      "sich ausruhen",
+      "[ruhte sich aus]"
+     ],
+     [
+      "untersuchen",
+      "[untersuchte]"
+     ],
+     [
+      "wehtun",
+      "[tat weh]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Perfekt (er/sie)",
+    "h": "Hilfsverb (+ sich) + Partizip II, z. B. hat sich gesetzt.",
+    "head": [
+     "Infinitiv",
+     "Perfekt (er/sie)"
+    ],
+    "r": [
+     [
+      "sich verletzen",
+      "[hat sich verletzt]"
+     ],
+     [
+      "einnehmen",
+      "[hat eingenommen]"
+     ],
+     [
+      "sich ausruhen",
+      "[hat sich ausgeruht]"
+     ],
+     [
+      "untersuchen",
+      "[hat untersucht]"
+     ],
+     [
+      "wehtun",
+      "[hat wehgetan|hat weh getan]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Ärztin ___ dich gleich untersuchen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "wird"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ mir gestern den Fuß verletzt.",
+    "h": "haben oder sein – richtige Form im Präsens",
+    "a": [
+     "habe"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Sie sich gut aus! (sich ausruhen)",
+    "h": "Imperativ – Verb in Klammern, richtige Person",
+    "a": [
+     "Ruhen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe ___ den Fuß verletzt.",
+    "h": "Reflexivpronomen im richtigen Fall",
+    "a": [
+     "mir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Hast du ___ verletzt?",
+    "h": "Reflexivpronomen im richtigen Fall",
+    "a": [
+     "dich"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Hast du ___ die Hand verletzt?",
+    "h": "Reflexivpronomen im richtigen Fall",
+    "a": [
+     "dir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir ruhen ___ am Wochenende aus.",
+    "h": "Reflexivpronomen im richtigen Fall",
+    "a": [
+     "uns"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Frau Huber hat ___ in der Küche verletzt.",
+    "h": "Reflexivpronomen im richtigen Fall",
+    "a": [
+     "sich"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ruht ___ gut aus, Lena und Jonas!",
+    "h": "Reflexivpronomen im richtigen Fall",
+    "a": [
+     "euch"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Was fehlt ___? (Sie)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "Ihnen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Der Kopf tut ___ weh. (ich)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "mir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Ärztin sagt, ___ ich mich ausruhen soll.",
+    "h": "Konjunktion (dass oder ob?)",
+    "a": [
+     "dass"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Ärztin fragt, ___ die Schmerzen angefangen haben.",
+    "h": "Bindewort: when (als, wenn oder wann?)",
+    "a": [
+     "wann"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Ich habe ___ den Arm verletzt.“",
+    "o": [
+     "mir",
+     "mich",
+     "sich"
+    ],
+    "a": 0,
+    "x": "There is an accusative object (den Arm), so the reflexive pronoun is dative: mir."
+   },
+   {
+    "t": "mc",
+    "q": "„Setzen Sie ___ bitte!“",
+    "o": [
+     "sich",
+     "Sie",
+     "Ihnen"
+    ],
+    "a": 0,
+    "x": "The reflexive pronoun for Sie is sich (no capital letter)."
+   },
+   {
+    "t": "mc",
+    "q": "„Was fehlt ___?“ (du)",
+    "o": [
+     "dir",
+     "dich",
+     "du"
+    ],
+    "a": 0,
+    "x": "fehlen takes the dative: Was fehlt dir?"
+   },
+   {
+    "t": "mc",
+    "q": "In which persons are the reflexive pronouns different in the accusative and the dative?",
+    "o": [
+     "only ich and du (mich/mir, dich/dir)",
+     "in all persons",
+     "only er, sie, es",
+     "in none"
+    ],
+    "a": 0,
+    "x": "Ich setze mich ↔ Ich habe mir den Fuß verletzt. All other persons: sich, uns, euch in both cases."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Please sit down. (Sie)",
+    "a": [
+     "Setzen Sie sich bitte.",
+     "Bitte setzen Sie sich.",
+     "Setzen Sie sich, bitte."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I've hurt my foot.",
+    "a": [
+     "Ich habe mir den Fuß verletzt.",
+     "Ich habe mich am Fuß verletzt."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Open your mouth, please. (Sie)",
+    "a": [
+     "Machen Sie bitte den Mund auf.",
+     "Bitte machen Sie den Mund auf.",
+     "Machen Sie den Mund auf, bitte.",
+     "Öffnen Sie bitte den Mund.",
+     "Bitte öffnen Sie den Mund."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I've caught a cold.",
+    "a": [
+     "Ich habe mich verkühlt.",
+     "Ich habe mich erkältet."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Was fehlt Ihnen?",
+    "a": [
+     "What's wrong?",
+     "What's the matter?",
+     "What's wrong with you?",
+     "What's the matter with you?",
+     "What seems to be the problem?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Mir tut der Kopf weh.",
+    "a": [
+     "My head hurts.",
+     "I have a headache.",
+     "I've got a headache.",
+     "My head aches."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "habe",
+     "mir",
+     "gestern",
+     "den",
+     "Fuß",
+     "verletzt"
+    ],
+    "a": [
+     "Ich habe mir gestern den Fuß verletzt.",
+     "Gestern habe ich mir den Fuß verletzt.",
+     "Ich habe mir den Fuß gestern verletzt."
+    ],
+    "de": "I hurt my foot yesterday."
+   },
+   {
+    "t": "les",
+    "q": "In der Ordination",
+    "txt": [
+     "Aurora hat seit Montag Husten und Kopfschmerzen.",
+     "Am Mittwoch geht sie in die Ordination.",
+     "Sie gibt der Assistentin ihre E-Card und wartet im Wartezimmer.",
+     "Die Ärztin untersucht sie und sagt: „Sie haben eine Grippe. Ruhen Sie sich aus!“",
+     "Aurora ist bis Freitag im Krankenstand."
+    ],
+    "qs": [
+     {
+      "q": "What does Aurora give the assistant?",
+      "o": [
+       "her health insurance card",
+       "a prescription",
+       "her passport"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Until when is she on sick leave?",
+      "o": [
+       "Friday",
+       "Monday",
+       "Wednesday"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht an Lena",
+    "txt": [
+     "Hallo Lena!",
+     "Ich habe mir gestern beim Laufen den Fuß verletzt.",
+     "Er tut sehr weh, und ich kann nicht gut gehen.",
+     "Kannst du mir aus der Apotheke eine Salbe mitbringen?",
+     "Komm einfach am Abend vorbei! Danke, Aurora"
+    ],
+    "qs": [
+     {
+      "q": "What happened to Aurora?",
+      "o": [
+       "She hurt her foot while running.",
+       "She has a cold.",
+       "She lost her E-Card."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What should Lena bring?",
+      "o": [
+       "an ointment from the pharmacy",
+       "tablets",
+       "tea"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Herr Novak beim Arzt",
+    "txt": [
+     "Herr Novak hat um neun Uhr einen Termin.",
+     "Am Empfang gibt er der Assistentin seine E-Card.",
+     "Dann wartet er zwanzig Minuten im Wartezimmer.",
+     "Der Arzt untersucht ihn und sagt: „Sie haben sich verkühlt. Ruhen Sie sich zwei Tage aus.“"
+    ],
+    "qs": [
+     {
+      "q": "When is Mr Novak's appointment?",
+      "o": [
+       "at nine o'clock",
+       "at ten o'clock",
+       "at twenty past nine"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How long does he wait?",
+      "o": [
+       "twenty minutes",
+       "two hours",
+       "nine minutes"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What is wrong with him?",
+      "o": [
+       "He has caught a cold.",
+       "He has hurt his foot.",
+       "He has the flu."
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Anmeldung in der Ordination",
+    "r": [
+     [
+      "Assistentin",
+      "Guten Morgen! Haben Sie einen Termin?"
+     ],
+     [
+      "Du",
+      "[Ja, um zehn Uhr.|Ja, um zehn.|Ja, um 10 Uhr.|Ja, ich habe um zehn Uhr einen Termin.|Ja, ich habe einen Termin um zehn Uhr.]",
+      "Say yes, at ten o'clock."
+     ],
+     [
+      "Assistentin",
+      "Ihre E-Card, bitte."
+     ],
+     [
+      "Du",
+      "[Hier ist meine E-Card.|Hier, bitte.|Hier bitte.|Bitte schön.|Bitte sehr.]",
+      "Give her your card."
+     ],
+     [
+      "Assistentin",
+      "Danke. Setzen Sie sich bitte ins Wartezimmer."
+     ],
+     [
+      "Du",
+      "[Wie lange muss ich warten?|Danke. Wie lange muss ich warten?|Wie lange dauert es?|Danke. Wie lange dauert es?]",
+      "Ask how long you have to wait."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Beim Arzt",
+    "r": [
+     [
+      "Arzt",
+      "Grüß Gott! Was fehlt Ihnen?"
+     ],
+     [
+      "Du",
+      "[Der Hals tut mir weh.|Mir tut der Hals weh.|Ich habe Halsschmerzen.|Mein Hals tut weh.]",
+      "Say that your throat hurts."
+     ],
+     [
+      "Arzt",
+      "Seit wann haben Sie die Schmerzen?"
+     ],
+     [
+      "Du",
+      "[Seit gestern.|Seit gestern Abend.|Ich habe sie seit gestern.|Seit gestern habe ich sie.]",
+      "Say since yesterday."
+     ],
+     [
+      "Arzt",
+      "Haben Sie auch Fieber?"
+     ],
+     [
+      "Du",
+      "[Nein, ich habe kein Fieber.|Nein, kein Fieber.|Nein, ich habe keins.|Nein, ich habe keines.]",
+      "Say no, you haven't got a temperature."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Lena hat sich verletzt",
+    "r": [
+     [
+      "Lena",
+      "Au! Ich habe mir die Hand verletzt."
+     ],
+     [
+      "Du",
+      "[Tut es sehr weh?|Tut es dir sehr weh?|Tut die Hand sehr weh?|Tut dir die Hand sehr weh?]",
+      "Ask whether it hurts a lot."
+     ],
+     [
+      "Lena",
+      "Ja, sehr."
+     ],
+     [
+      "Du",
+      "[Setz dich!|Setz dich hin!|Setze dich!|Setz dich bitte!|Setz dich bitte hin!|Setz dich doch!]",
+      "Tell her to sit down."
+     ],
+     [
+      "Lena",
+      "Hast du ein Pflaster?"
+     ],
+     [
+      "Du",
+      "[Ja, hier ist ein Pflaster.|Ja, hier ist eins.|Ja, hier bitte.|Ja, hier.|Ja, warte kurz.]",
+      "Say yes, here is one."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write a short message to your boss (Sie): you are ill and the doctor has put you on sick leave until Friday.",
+    "a": [
+     "Sehr geehrter Herr Gruber, ich bin krank und bis Freitag im Krankenstand. Ich habe mir den Fuß verletzt.",
+     "Sehr geehrter Herr Gruber, ich bin krank und bis Freitag krankgeschrieben."
+    ],
+    "h": "2–3 Sätze"
+   },
+   {
+    "t": "sch",
+    "q": "Describe in 2 sentences what hurts and what happened.",
+    "a": [
+     "Mein Fuß tut weh. Ich habe mir gestern den Fuß verletzt."
+    ],
+    "h": "2 Sätze"
+   },
+   {
+    "t": "sch",
+    "q": "You've caught a cold. Write a message to Lena (du): you can't come to dinner today, you are staying in bed and resting.",
+    "a": [
+     "Hallo Lena, ich habe mich verkühlt. Ich kann heute leider nicht zum Essen kommen. Ich bleibe im Bett und ruhe mich aus."
+    ],
+    "h": "2–3 Sätze"
+   }
+  ]
  }
 ]

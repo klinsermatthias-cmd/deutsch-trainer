@@ -44,3 +44,7 @@
 ## 13.10.2026 – Wiederholung d03 und mehr freie Übersetzung in d04–d07 (S-1013-13)
 - Je Thema angehängt: eine Lücke als/wenn/wann (Hinweis wie in d03), eine Lücke konnte/musste (Präteritum Modalverb), zwei tr Englisch → Deutsch. d04-Theorie: „außer in festen Wendungen wie am Markt, zum Markt“ (DWDS „Markt“). GLOSS „unserem“ (Form von unser, en.wiktionary „unser“).
 - Formen aus eigenem Wissen (ohne Einzelquelle): Varianten „günstig“, „borgen“ (wie bereits d06 ex53), „Ist dieser Schal Ihrer?“.
+
+## 13.10.2026 – d08 geteilt und veröffentlicht: d08 Imperativ/Apotheke, d08b Reflexiv/Arzt (S-1013-12/-13)
+- Entwurf d08 (63 Übungen) → d08 (44, Imperativ) + d08b (37, Reflexivpronomen, req + d08); je 3 les/sch/dlg, lvl „A2“, je 1 als/wenn/wann-Lücke, Präteritum/Futur je 2–3 (S-1013-29). Teil-D-Korrekturen: Imperativregel „nach s/ß/z nur -t weg“ (lies!, iss! – en.wiktionary lesen/essen), öffne!/atme!/sammle! (en.wiktionary öffnen/atmen/sammeln), ex21 „Kann ich morgen kommen?“, „Ich habe mich am Fuß verletzt.“ (Duden verletzen), Karten Salbe/Grippe (en.wiktionary), sich verkühlen „besonders österreichisch“ (Duden; DWDS „landschaftlich“).
+- Offen ohne Quelle: Karte E-Card „offizielle Schreibung e-card“ (Duden kennt nur „E-Card“) – nicht übernommen. 43 GLOSS-Einträge (Imperativ- und Partizipformen) für die Wortprüfung.
