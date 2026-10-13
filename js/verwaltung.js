@@ -303,6 +303,7 @@ function buildReport() {
     slipReport() +
     unlearnedReport() +
     exFlagReport() +
+    histReport() +
     poolReport() +
     genReportSection() +
     vocAltReportSection() +
@@ -364,8 +365,9 @@ function poolReport() {
   const lines = L.map(t => {
     const pool = topicPool(t.id, true),
       seen = pool.filter(c => ((S.exLog || {})[exKey(c.src, c.ex)] || {}).n).length,
-      gen = pool.filter(c => c.src.ei < 0).length;
-    return `- ${t.id} ${t.title}: ${t.ex.length} aus der Lektion + ${gen} geprüfte KI-Übungen, ${seen}/${pool.length} schon gesehen, zuletzt geübt ${lastPracticed(t.id) ? fmtDate(lastPracticed(t.id)) : "–"}`;
+      gen = pool.filter(c => c.src.ei < 0).length,
+      rest = pool.length - topicAvail(t.id);
+    return `- ${t.id} ${t.title}: ${t.ex.length} aus der Lektion + ${gen} geprüfte KI-Übungen, ${seen}/${pool.length} schon gesehen, ${rest} ruhen (3× richtig, Zeitraster), zuletzt geübt ${lastPracticed(t.id) ? fmtDate(lastPracticed(t.id)) : "–"}`;
   });
   return `\n\nÜBUNGSSAMMLUNG (Runden wählen daraus aus; nie Gesehenes zuerst):\n${lines.join("\n")}\nLangzeit-Check zuletzt: ${S.longCheck ? fmtDate(S.longCheck) : "noch nie"} · Gemischte Wiederholung zuletzt: ${S.mixDay || "noch nie"}`;
 }
@@ -479,7 +481,7 @@ function renderProgress() {
   let h = `<h2>Fortschritt</h2><div class="grid2" style="margin-bottom:14px">
   <div class="stat"><b>${streakNow()}</b><span>Tage in Folge</span></div><div class="stat"><b>${masteredTopics()}/${TOPICS.length}</b><span>Themen sicher</span></div>
   <div class="stat"><b>${seen.length}</b><span>Wörter gelernt</span></div><div class="stat"><b>${seen.filter(c => c.interval >= 21).length}</b><span>Wörter langfristig sicher</span></div></div>`;
-  h += statsCardHTML() + placementProgressCard();
+  h += statsCardHTML() + histCardHTML() + placementProgressCard();
   h += `<div class="card" id="globalbox">`;
   if (r)
     h += `<div class="label">Analyse von ${APP.teacher} · ${fmtDate(r.d)}</div>${flagLink(r.aid)}<p><span class="level">${esc(r.level)}</span>${esc(r.summary)}</p>${(r.strengths || []).length ? `<h3>Das sitzt</h3><ul>${r.strengths.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${(r.weaknesses || []).length ? `<h3>Daran arbeiten wir</h3><ul>${r.weaknesses.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${(r.tips || []).length ? `<h3>Tipps</h3><ul>${r.tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${

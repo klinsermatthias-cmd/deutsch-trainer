@@ -152,6 +152,44 @@ export default async function befunde(P) {
           if (!openErrors().length || !weakCounts(S.weak[0]) || /NOCH NICHT GELERNT/.test(buildReport())) E.push("„Noch nicht gelernt?“: Zurücknehmen wirkt nicht");
         }
         S.errors = keepE; S.weak = keepW; S.unlearned = []; SESSION = null; S.active = null; }
+      // S-1013-41: Zeitraster + Punkte – 3× richtig ruht 14 Tage, dann 30/60, Fehler hebt auf; ruhende nur als Auffüllung
+      { const keepL = S.exLog, TT = TOPICS.find(t => S.topics[t.id].status !== "locked" && t.ex.length >= 3);
+        S.exLog = {}; const src = { tid: TT.id, ei: 0 }, ex = TT.ex[0], k = exKey(src, ex), near = (v, d) => Math.abs(v - (Date.now() + d * DAY)) < 60000;
+        exLogAdd(src, ex, true); exLogAdd(src, ex, true);
+        if (exResting(S.exLog[k])) E.push("Zeitraster: ruht schon nach 2× richtig");
+        exLogAdd(src, ex, true);
+        if (!exResting(S.exLog[k]) || !near(S.exLog[k].p, 14) || S.exLog[k].z !== 1) E.push("Zeitraster: nach 3× richtig keine 14 Tage Ruhe");
+        const pool = topicPool(TT.id, true), before = topicAvail(TT.id);
+        if (before !== pool.length - 1) E.push("Zeitraster: topicAvail zählt ruhende mit");
+        const picks = pickRound(pool, Math.min(3, pool.length - 1));
+        if (picks.some(c => c.src.ei === 0)) E.push("Zeitraster: ruhende Übung trotz genug anderer gewählt");
+        if (!pickRound(pool, pool.length).some(c => c.src.ei === 0)) E.push("Zeitraster: ruhende Übung füllt nicht auf");
+        if (exScore({ src, ex }, new Set(), true) < exScore({ src, ex }, new Set()) + 15) E.push("Zeitraster: Freischalt-/Lernrunde nicht ausgenommen");
+        S.exLog[k].p = Date.now() - 1000; exLogAdd(src, ex, true);
+        if (!near(S.exLog[k].p, 30) || S.exLog[k].z !== 2) E.push("Zeitraster: zweite Ruhe nicht 30 Tage");
+        const o = { [k]: { ...S.exLog[k], s: S.exLog[k].s - 5000, p: 0, z: 0 } }, M = mergeExLog(o, S.exLog);
+        if (!near(M[k].p, 30)) E.push("Zeitraster: Abgleich verliert die Ruhe");
+        exLogAdd(src, ex, false);
+        if (S.exLog[k].p || S.exLog[k].z || S.exLog[k].c) E.push("Zeitraster: Fehler hebt die Ruhe nicht auf");
+        if (!/ruhen \(3× richtig/.test(buildReport()) && learningTopics().length) E.push("Zeitraster: Bericht nennt ruhende Übungen nicht");
+        S.exLog = keepL; }
+      // S-1013-39: Verlaufsprotokoll – Eintrag nach Analyse/Check/Woche, Trend, neue Schwäche, Bericht, Fortschritt, Abgleich
+      { const keepH = S.history, keepW = S.weak, LT = TOPICS.find(t => S.topics[t.id].status === "learning" && S.topics[t.id].last != null);
+        S.history = []; histAdd("analyse", "A2");
+        const e = S.history[0];
+        if (!e || e.k !== "analyse" || e.lvl !== "A2" || (LT && e.t[LT.id] == null) || typeof e.w !== "number") E.push("Verlauf: Analyse-Eintrag fehlt oder unvollständig");
+        histTick(); if (S.history.length !== 1) E.push("Verlauf: Wochenstand zu früh");
+        S.history[0].d -= 8 * DAY; histTick(); if (S.history.length !== 2 || S.history[0].k !== "woche") E.push("Verlauf: Wochenstand fehlt nach 7 Tagen");
+        const id1 = TOPICS[0].id, id2 = TOPICS[1].id, now = Date.now();
+        S.history = [{ d: now, k: "check", t: { [id1]: 90 }, w: 50, ok: 3, weak: { [id2]: 3 }, sl: 2 }, { d: now - 15 * DAY, k: "analyse", lvl: "A1", t: { [id1]: 70 }, w: 30, ok: 1, weak: {}, sl: 5 }];
+        const tr = histTrend();
+        if (!tr || !tr.up.some(([id, d]) => id === id1 && d === 20) || !tr.newWeak.includes(id2)) E.push("Verlauf: Trend oder neue Schwäche falsch");
+        const rep = buildReport();
+        if (!/VERLAUF \(2 Einträge/.test(rep) || !rep.includes("neu als Schwäche: " + id2)) E.push("Verlauf: Bericht-Abschnitt fehlt");
+        A.tab("progress"); if (!document.querySelector("#app .hist") || !document.querySelector("#app").textContent.includes("neu als Schwäche")) E.push("Verlauf: Karte unter Fortschritt fehlt");
+        const o = JSON.parse(JSON.stringify(S)); o.history = [{ d: now - 30 * DAY, k: "woche", t: {}, w: 10, ok: 0, weak: {}, sl: 0 }];
+        const M = mergeStates(S, o); if (!M.history || M.history.length !== 3) E.push("Abgleich verliert Verlaufseinträge");
+        S.history = keepH; S.weak = keepW; A.tab("today"); }
       // S-1013-37: Prüfmodus – gesperrtes Thema zeigt Theorie und alle Übungen mit Lösung, Lernstand bleibt unverändert
       { const LK = TOPICS.find(t => S.topics[t.id].status === "locked"), OP = TOPICS.find(t => S.topics[t.id].status !== "locked" && t.ex.length);
         SESSION = null; S.active = null; const before = JSON.stringify(S), keep = CFG.pruef;

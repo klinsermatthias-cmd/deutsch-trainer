@@ -148,10 +148,11 @@ function genStock(id) {
 }
 async function genAutoStock() {
   if (SESSION || !aiReady() || !genUnlocked() || S.genAutoDay === todayKey() || genUnreviewed().length >= 30) return;
+  /* S-1013-41: Themen mit wenigen nicht ruhenden Übungen (unter einer Runde) zuerst – so wächst der Vorrat */
   const L = learningTopics()
-    .map(t => ({ id: t.id, n: genStock(t.id) }))
+    .map(t => ({ id: t.id, n: genStock(t.id), a: topicAvail(t.id) }))
     .filter(x => x.n < GEN_STOCK)
-    .sort((a, b) => a.n - b.n);
+    .sort((a, b) => (b.a < ROUND_N) - (a.a < ROUND_N) || a.n - b.n);
   if (!L.length) return;
   S.genAutoDay = todayKey();
   save();
@@ -476,6 +477,7 @@ async function runGlobal(silent) {
     delete j._aid;
     S.reports.unshift({ ...j, d: Date.now(), aid });
     S.reports = S.reports.slice(0, 10);
+    histAdd("analyse", j.level);
     if (!genUnlocked() && j.basicsSolid === true && basicsStatus().ok) {
       S.genUnlock = { on: true, d: Date.now(), reason: j.basicsReason || "" };
       setTimeout(() => toast("Freigeschaltet: Neue Übungen von " + APP.teacher + " – deine Grundlagen sitzen!"), 2600);
