@@ -61,7 +61,7 @@
    ],
    [
     "der Heurige",
-    "traditional wine tavern (Austria)"
+    "traditional wine tavern (Austria; Germany: no exact equivalent, similar: Weinstube)"
    ],
    [
     "die Jause",
@@ -1117,7 +1117,7 @@
    ],
    [
     "im Krankenstand sein",
-    "to be on sick leave (Austria) (war · ist gewesen · wird sein)"
+    "to be on sick leave (Austria; Germany: krankgeschrieben sein) (war · ist gewesen · wird sein)"
    ],
    [
     "sich krankmelden",
@@ -1137,7 +1137,7 @@
    ],
    [
     "die Ordination",
-    "doctor's surgery (Austria)"
+    "doctor's surgery (Austria; Germany: Praxis, Arztpraxis)"
    ],
    [
     "Fieber haben",
@@ -3142,6 +3142,4011 @@
     ],
     "a": 0,
     "x": "Futur I = werden + infinitive: Ich werde ankommen."
+   }
+  ]
+ },
+ {
+  "id": "d04",
+  "title": "Was brauchen wir vom Markt? – der, die, das und Plural",
+  "fi": "What do we need from the market? – der, die, das and the plural",
+  "lvl": "A1",
+  "req": [
+   "d01",
+   "d02"
+  ],
+  "th": "<h3>1. Situation: Saturday at the market</h3><p>On Saturday many people in Vienna shop at a market such as the Brunnenmarkt or the Naschmarkt. In Austria many foods have their own names: <b>Paradeiser</b> (Germany: Tomaten), <b>Erdäpfel</b> (Kartoffeln), <b>Karfiol</b> (Blumenkohl), <b>Semmeln</b> (Brötchen).</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Was brauchen wir noch?</td><td>What else do we need?</td></tr><tr><td>Was darf es sein?</td><td>What would you like? (seller)</td></tr><tr><td>Die Paradeiser sind heute sehr schön.</td><td>The tomatoes are very nice today.</td></tr><tr><td>Was kostet ein Kilo Erdäpfel?</td><td>How much is a kilo of potatoes?</td></tr><tr><td>Zwei Kilo, bitte.</td><td>Two kilos, please.</td></tr><tr><td>Sonst noch etwas?</td><td>Anything else?</td></tr><tr><td>Brauchen Sie ein Sackerl?</td><td>Do you need a bag?</td></tr><tr><td>Die Semmeln sind leider aus.</td><td>Sorry, the rolls are sold out.</td></tr></table><h3>2. Short dialogue</h3><p><b>Verkäuferin:</b> <i>Grüß Gott! Was darf es sein?</i><br><b>Aurora:</b> <i>Ein Kilo Paradeiser und zwei Zwiebeln, bitte. Ist der Karfiol frisch?</i><br><b>Verkäuferin:</b> <i>Ja, der Karfiol ist von heute. Sonst noch etwas?</i><br><b>Aurora:</b> <i>Was kosten die Erdäpfel?</i><br><b>Verkäuferin:</b> <i>Ein Kilo kostet zwei Euro. Brauchen Sie ein Sackerl?</i><br><b>Aurora:</b> <i>Nein danke, ich habe eine Tasche.</i></p><h3>3. Grammar: der, die, das – ein, kein – plural</h3><p>Every German noun has a gender: masculine (<b>der</b>), feminine (<b>die</b>) or neuter (<b>das</b>). In the plural the article is always <b>die</b>. Here is the whole system in the nominative (the subject, and the noun after <i>sein</i>):</p><table><tr><th>Gender</th><th>der / die / das</th><th>ein / kein</th></tr><tr><td>masculine</td><td>der Markt</td><td>ein Markt / kein Markt</td></tr><tr><td>feminine</td><td>die Semmel</td><td>eine Semmel / keine Semmel</td></tr><tr><td>neuter</td><td>das Ei</td><td>ein Ei / kein Ei</td></tr><tr><td>plural</td><td>die Eier</td><td>– / keine Eier</td></tr></table><p class=\"rule\">Learn every noun with its article and its plural: <i>der Markt, die Märkte</i>. The endings below help you guess the gender.</p><h3>Rule 1: endings that show the gender</h3><table><tr><th>Signal</th><th>Gender</th><th>Examples (exceptions)</th></tr><tr><td>-ung, -heit, -keit, -schaft, -ion, -tät</td><td>die (always)</td><td>die Zeitung, die Freiheit, die Möglichkeit, die Freundschaft, die Information, die Universität</td></tr><tr><td>-e</td><td>die (mostly)</td><td>die Einkaufsliste, die Flasche (but: der Käse, der Name, der Kunde, das Ende, das Auge)</td></tr><tr><td>Ge- (… -e)</td><td>das (mostly)</td><td>das Gemüse, das Getränk (but: die Gemeinde, die Geschichte, der Gedanke)</td></tr><tr><td>-chen, -erl</td><td>das</td><td>das Mädchen, das Sackerl (-erl is Austrian: small)</td></tr><tr><td>-nis</td><td>das (mostly)</td><td>das Ergebnis (but: die Erlaubnis)</td></tr><tr><td>-um, -ment</td><td>das (mostly)</td><td>das Zentrum, das Museum, das Dokument (but: der Moment)</td></tr><tr><td>days, months, seasons</td><td>der</td><td>der Montag, der Jänner, der Winter</td></tr><tr><td>-er for people</td><td>der</td><td>der Verkäufer (a woman: die Verkäuferin)</td></tr></table><p class=\"tip\">No signal? Then learn the noun with its article: <i>die Uhr, der Monat, das Brot, die Milch, der Markt</i>. -e is only a rule of thumb – <i>der Käse</i> and <i>das Ende</i> are common exceptions.</p><h3>Rule 2: plural types</h3><table><tr><th>Type</th><th>Singular → plural</th><th>Typical for</th></tr><tr><td>-e / ¨-e</td><td>der Tag → die Tage, der Markt → die Märkte, der Stand → die Stände</td><td>many masculine nouns</td></tr><tr><td>-n / -en</td><td>die Zwiebel → die Zwiebeln, die Packung → die Packungen</td><td>almost all feminine nouns</td></tr><tr><td>-er / ¨-er</td><td>das Ei → die Eier, das Buch → die Bücher</td><td>many short neuter nouns</td></tr><tr><td>no ending / ¨</td><td>der Paradeiser → die Paradeiser, der Erdapfel → die Erdäpfel, das Mädchen → die Mädchen</td><td>masculine and neuter nouns in -er, -el, -en; -chen, -erl</td></tr><tr><td>-s</td><td>das Auto → die Autos, das Kilo → die Kilos</td><td>words ending in -a, -i, -o, -u; many foreign words</td></tr></table><p class=\"tip\">Special plurals: <i>die Kassa → die Kassen, das Museum → die Museen, das Zentrum → die Zentren, die Wurst → die Würste</i>. Austrian -erl words: <i>die Sackerl</i> or <i>die Sackerln</i>. After a number, measure words stay singular: <i>zwei Kilo Erdäpfel, drei Stück</i>.</p><h3>Rule 3: ein / kein in the nominative – nouns with a capital letter</h3><p class=\"rule\"><b>ein, eine, ein</b> = a/an. There is no plural of ein: <i>Das sind Erdäpfel.</i> <b>kein, keine, kein, keine</b> = no / not a: <i>Das ist kein Karfiol. Heute gibt es keine Semmeln.</i></p><p class=\"rule\"><b>kein</b> negates a noun with ein or without an article. <b>nicht</b> negates verbs, adjectives and nouns with der/die/das: <i>Das ist kein Ei.</i> ↔ <i>Das Ei ist nicht frisch.</i></p><p class=\"rule\">All nouns begin with a capital letter, also in the middle of a sentence: <i>Wir brauchen Eier und Semmeln.</i> Verbs can become nouns with <b>das</b>: <i>einkaufen → das Einkaufen, essen → das Essen</i> – here you only need to recognise them: <i>Das Einkaufen am Samstag ist anstrengend.</i></p><p class=\"tip\">The accusative (<i>Ich brauche einen Karfiol.</i>) comes in d05. In this topic, masculine nouns only appear as the subject or after <i>sein</i>.</p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>brauchen</td><td>brauchte</td><td>hat gebraucht</td></tr><tr><td>kosten</td><td>kostete</td><td>hat gekostet</td></tr></table><p class=\"tip\">Futur I (see d01): <i>werden</i> + infinitive at the end: <i>Wir werden mehr Gemüse brauchen.</i></p>",
+  "v": [
+   [
+    "der Markt, die Märkte",
+    "market"
+   ],
+   [
+    "der Stand, die Stände",
+    "(market) stall"
+   ],
+   [
+    "die Einkaufsliste, die Einkaufslisten",
+    "shopping list"
+   ],
+   [
+    "der Paradeiser, die Paradeiser",
+    "tomato (Germany: Tomate)"
+   ],
+   [
+    "der Erdapfel, die Erdäpfel",
+    "potato (Germany: Kartoffel)"
+   ],
+   [
+    "der Karfiol",
+    "cauliflower (Germany: Blumenkohl)"
+   ],
+   [
+    "die Zwiebel, die Zwiebeln",
+    "onion"
+   ],
+   [
+    "die Semmel, die Semmeln",
+    "bread roll (Germany: Brötchen)"
+   ],
+   [
+    "das Ei, die Eier",
+    "egg"
+   ],
+   [
+    "das Sackerl, die Sackerl",
+    "bag, carrier bag (Germany: Tüte)"
+   ],
+   [
+    "die Kassa, die Kassen",
+    "checkout, till (Germany: Kasse)"
+   ],
+   [
+    "die Packung, die Packungen",
+    "packet, pack"
+   ],
+   [
+    "brauchen",
+    "to need (brauchte · hat gebraucht · wird brauchen)"
+   ],
+   [
+    "kosten",
+    "to cost (kostete · hat gekostet · wird kosten)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "der, die oder das?",
+    "h": "Nur der, die oder das eintippen.",
+    "head": [
+     "Nomen",
+     "Artikel"
+    ],
+    "r": [
+     [
+      "Zeitung",
+      "[die]"
+     ],
+     [
+      "Gemüse",
+      "[das]"
+     ],
+     [
+      "Montag",
+      "[der]"
+     ],
+     [
+      "Möglichkeit",
+      "[die]"
+     ],
+     [
+      "Mädchen",
+      "[das]"
+     ],
+     [
+      "Verkäufer",
+      "[der]"
+     ],
+     [
+      "Information",
+      "[die]"
+     ],
+     [
+      "Ergebnis",
+      "[das]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Bilde den Plural",
+    "h": "Plural mit Artikel, z. B. die Tage.",
+    "head": [
+     "Singular",
+     "Plural"
+    ],
+    "r": [
+     [
+      "der Markt",
+      "[die Märkte]"
+     ],
+     [
+      "die Zwiebel",
+      "[die Zwiebeln]"
+     ],
+     [
+      "das Ei",
+      "[die Eier]"
+     ],
+     [
+      "der Paradeiser",
+      "[die Paradeiser]"
+     ],
+     [
+      "der Erdapfel",
+      "[die Erdäpfel]"
+     ],
+     [
+      "die Packung",
+      "[die Packungen]"
+     ],
+     [
+      "das Auto",
+      "[die Autos]"
+     ],
+     [
+      "die Semmel",
+      "[die Semmeln]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "ein oder eine? (Nominativ)",
+    "h": "Artikelwort + Nomen, z. B. ein Tag.",
+    "head": [
+     "Nomen",
+     "ein … / eine …"
+    ],
+    "r": [
+     [
+      "Markt",
+      "[ein Markt]"
+     ],
+     [
+      "Semmel",
+      "[eine Semmel]"
+     ],
+     [
+      "Ei",
+      "[ein Ei]"
+     ],
+     [
+      "Packung",
+      "[eine Packung]"
+     ],
+     [
+      "Stand",
+      "[ein Stand]"
+     ],
+     [
+      "Sackerl",
+      "[ein Sackerl]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "kein oder keine? (Nominativ)",
+    "h": "Artikelwort + Nomen, z. B. kein Tag.",
+    "head": [
+     "Nomen",
+     "kein … / keine …"
+    ],
+    "r": [
+     [
+      "Karfiol",
+      "[kein Karfiol]"
+     ],
+     [
+      "Zwiebel",
+      "[keine Zwiebel]"
+     ],
+     [
+      "Ei",
+      "[kein Ei]"
+     ],
+     [
+      "Eier (Plural)",
+      "[keine Eier]"
+     ],
+     [
+      "Erdäpfel (Plural)",
+      "[keine Erdäpfel]"
+     ],
+     [
+      "Einkaufsliste",
+      "[keine Einkaufsliste]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Welches Genus zeigt die Endung?",
+    "h": "Nur der, die oder das eintippen.",
+    "head": [
+     "Endung",
+     "Artikel"
+    ],
+    "r": [
+     [
+      "-ung",
+      "[die]"
+     ],
+     [
+      "-chen",
+      "[das]"
+     ],
+     [
+      "-heit",
+      "[die]"
+     ],
+     [
+      "-schaft",
+      "[die]"
+     ],
+     [
+      "-tät",
+      "[die]"
+     ],
+     [
+      "-erl (Österreich)",
+      "[das]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Nur die Form für er/sie, z. B. machte.",
+    "head": [
+     "Infinitiv",
+     "Präteritum (er/sie)"
+    ],
+    "r": [
+     [
+      "brauchen",
+      "[brauchte]"
+     ],
+     [
+      "kosten",
+      "[kostete]"
+     ],
+     [
+      "einkaufen",
+      "[kaufte ein]"
+     ],
+     [
+      "wandern",
+      "[wanderte]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Perfekt (er/sie)",
+    "h": "Hilfsverb + Partizip II, z. B. hat gemacht.",
+    "head": [
+     "Infinitiv",
+     "Perfekt (er/sie)"
+    ],
+    "r": [
+     [
+      "brauchen",
+      "[hat gebraucht]"
+     ],
+     [
+      "kosten",
+      "[hat gekostet]"
+     ],
+     [
+      "einkaufen",
+      "[hat eingekauft]"
+     ],
+     [
+      "aufstehen",
+      "[ist aufgestanden]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Am Samstag ___ wir frische Semmeln brauchen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "werden"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Im Winter ___ die Paradeiser mehr kosten.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "werden"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Was ___ die Erdäpfel gekostet?",
+    "h": "haben oder sein – richtige Form im Präsens",
+    "a": [
+     "haben"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Zeitung ist von heute.",
+    "h": "bestimmter Artikel (Nominativ)",
+    "a": [
+     "Die"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Gemüse ist sehr frisch.",
+    "h": "bestimmter Artikel (Nominativ)",
+    "a": [
+     "Das"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Jänner ist in Wien oft kalt.",
+    "h": "bestimmter Artikel (Nominativ)",
+    "a": [
+     "Der"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Information ist wichtig.",
+    "h": "bestimmter Artikel (Nominativ)",
+    "a": [
+     "Die"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Ergebnis ist gut.",
+    "h": "bestimmter Artikel (Nominativ)",
+    "a": [
+     "Das"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir brauchen noch zwei ___. (die Zwiebel)",
+    "h": "Plural – nur das Nomen",
+    "a": [
+     "Zwiebeln"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Im Sackerl sind sechs ___. (das Ei)",
+    "h": "Plural – nur das Nomen",
+    "a": [
+     "Eier"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Am Markt sind viele ___. (der Stand)",
+    "h": "Plural – nur das Nomen",
+    "a": [
+     "Stände"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die ___ sind heute sehr billig. (der Erdapfel)",
+    "h": "Plural – nur das Nomen",
+    "a": [
+     "Erdäpfel"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Hier ist ___ Einkaufsliste.",
+    "h": "unbestimmter Artikel (Nominativ)",
+    "a": [
+     "eine"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ist das ___ Paradeiser?",
+    "h": "unbestimmter Artikel (Nominativ)",
+    "a": [
+     "ein"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Das ist ___ Ei, das ist eine Semmel.",
+    "h": "Verneinung vor dem Nomen",
+    "a": [
+     "kein"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Im Kühlschrank ist ___ Milch mehr.",
+    "h": "Verneinung vor dem Nomen",
+    "a": [
+     "keine"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Leider sind ___ Semmeln mehr da.",
+    "h": "Verneinung vor dem Nomen",
+    "a": [
+     "keine"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Artikel passt? „___ Freundschaft“",
+    "o": [
+     "die",
+     "der",
+     "das"
+    ],
+    "a": 0,
+    "x": "-schaft is always feminine: die Freundschaft."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Artikel passt? „___ Museum“",
+    "o": [
+     "das",
+     "der",
+     "die"
+    ],
+    "a": 0,
+    "x": "-um is mostly neuter: das Museum, das Zentrum."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Artikel passt? „___ Gemeinde“",
+    "o": [
+     "die",
+     "das",
+     "der"
+    ],
+    "a": 0,
+    "x": "Ge-…-e is mostly neuter (das Gemüse), but die Gemeinde and die Geschichte are exceptions."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Artikel passt? „___ Moment“ (a short time)",
+    "o": [
+     "der",
+     "das",
+     "die"
+    ],
+    "a": 0,
+    "x": "-ment is mostly neuter (das Dokument), but der Moment is an exception."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Das ist kein Ei.",
+     "Das ist keine Ei.",
+     "Das ist nicht Ei."
+    ],
+    "a": 0,
+    "x": "Ei is neuter: ein Ei → kein Ei. nicht does not negate a noun without article."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig geschrieben?",
+    "o": [
+     "Am Markt kaufe ich Eier und Semmeln.",
+     "Am Markt kaufe ich eier und semmeln.",
+     "Am markt kaufe ich Eier und Semmeln."
+    ],
+    "a": 0,
+    "x": "All nouns begin with a capital letter: Markt, Eier, Semmeln."
+   },
+   {
+    "t": "mc",
+    "q": "Was ist der Plural von „die Kassa“?",
+    "o": [
+     "die Kassen",
+     "die Kassas",
+     "die Kassa"
+    ],
+    "a": 0,
+    "x": "die Kassa (Austria) → die Kassen, like die Kasse → die Kassen in Germany."
+   },
+   {
+    "t": "mc",
+    "q": "Was ist der Plural von „das Sackerl“?",
+    "o": [
+     "die Sackerl oder die Sackerln",
+     "die Sackerle",
+     "die Säckerl"
+    ],
+    "a": 0,
+    "x": "Austrian -erl words take no ending or -n in the plural: die Sackerl / die Sackerln."
+   },
+   {
+    "t": "mc",
+    "q": "„Das Einkaufen am Samstag ist anstrengend.“ – Was ist „Einkaufen“ hier?",
+    "o": [
+     "ein Nomen (aus dem Verb einkaufen)",
+     "ein Verb",
+     "ein Adjektiv"
+    ],
+    "a": 0,
+    "x": "das + infinitive turns a verb into a noun, so it begins with a capital letter."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The tomatoes are very nice today.",
+    "a": [
+     "Die Paradeiser sind heute sehr schön.",
+     "Heute sind die Paradeiser sehr schön.",
+     "Die Tomaten sind heute sehr schön.",
+     "Heute sind die Tomaten sehr schön."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "That is not a cauliflower.",
+    "a": [
+     "Das ist kein Karfiol.",
+     "Das ist kein Blumenkohl."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Where is the shopping list?",
+    "a": [
+     "Wo ist die Einkaufsliste?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The bread rolls are fresh.",
+    "a": [
+     "Die Semmeln sind frisch.",
+     "Die Brötchen sind frisch."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Wie viel kosten die Erdäpfel?",
+    "a": [
+     "How much are the potatoes?",
+     "How much do the potatoes cost?",
+     "What do the potatoes cost?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Brauchen Sie ein Sackerl?",
+    "a": [
+     "Do you need a bag?",
+     "Would you like a bag?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Ich habe am Markt Eier und Zwiebeln gekauft.",
+    "a": [
+     "I bought eggs and onions at the market.",
+     "I have bought eggs and onions at the market."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Die",
+     "Paradeiser",
+     "sind",
+     "heute",
+     "sehr",
+     "frisch"
+    ],
+    "a": [
+     "Die Paradeiser sind heute sehr frisch.",
+     "Heute sind die Paradeiser sehr frisch."
+    ],
+    "de": "The tomatoes are very fresh today."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "gehe",
+     "heute",
+     "zum",
+     "Markt",
+     "weil",
+     "wir",
+     "keine",
+     "Eier",
+     "mehr",
+     "haben"
+    ],
+    "a": [
+     "Ich gehe heute zum Markt, weil wir keine Eier mehr haben.",
+     "Heute gehe ich zum Markt, weil wir keine Eier mehr haben.",
+     "Weil wir keine Eier mehr haben, gehe ich heute zum Markt."
+    ],
+    "de": "I'm going to the market today because we have no eggs left."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Die",
+     "Semmeln",
+     "sind",
+     "aus",
+     "deshalb",
+     "kaufe",
+     "ich",
+     "Brot"
+    ],
+    "a": [
+     "Die Semmeln sind aus, deshalb kaufe ich Brot.",
+     "Die Semmeln sind aus, ich kaufe deshalb Brot."
+    ],
+    "de": "The rolls are sold out, so I'm buying bread."
+   },
+   {
+    "t": "les",
+    "q": "Samstag am Brunnenmarkt",
+    "txt": [
+     "Am Samstag ist Aurora mit Lena am Brunnenmarkt in Wien.",
+     "Der Markt ist groß, und es gibt viele Stände.",
+     "Die Paradeiser sind heute sehr schön, aber der Karfiol ist teuer.",
+     "Aurora braucht Erdäpfel, Zwiebeln und Eier.",
+     "Lena kauft nur Semmeln, denn sie hat schon Gemüse zu Hause.",
+     "Ein Sackerl brauchen sie nicht – sie haben eine Tasche dabei."
+    ],
+    "qs": [
+     {
+      "q": "What is expensive today?",
+      "o": [
+       "the cauliflower",
+       "the tomatoes",
+       "the eggs"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why does Lena only buy bread rolls?",
+      "o": [
+       "She already has vegetables at home.",
+       "The vegetables are too expensive.",
+       "The market has no vegetables."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Do they need a bag?",
+      "o": [
+       "No, they have a bag with them.",
+       "Yes, two bags.",
+       "Yes, one bag."
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Zettel am Kühlschrank",
+    "txt": [
+     "Liebe Aurora!",
+     "Im Kühlschrank ist keine Milch mehr, und die Eier sind auch aus.",
+     "Wir brauchen auch ein Kilo Erdäpfel und zwei Zwiebeln.",
+     "Paradeiser brauchen wir nicht, die sind noch da.",
+     "Danke! Jonas"
+    ],
+    "qs": [
+     {
+      "q": "What is missing in the fridge?",
+      "o": [
+       "milk and eggs",
+       "tomatoes",
+       "onions"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What do they not need?",
+      "o": [
+       "tomatoes",
+       "potatoes",
+       "onions"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "An der Kassa",
+    "txt": [
+     "Kassierin: Grüß Gott! Brauchen Sie ein Sackerl?",
+     "Aurora: Ja, bitte. Was kostet ein Sackerl?",
+     "Kassierin: Ein Sackerl kostet 30 Cent.",
+     "Aurora: Gut. Sind die Semmeln von heute?",
+     "Kassierin: Ja, die Semmeln sind ganz frisch. Das macht dann 12 Euro 40."
+    ],
+    "qs": [
+     {
+      "q": "How much is a bag?",
+      "o": [
+       "30 cents",
+       "12 euros 40",
+       "40 cents"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Are the bread rolls fresh?",
+      "o": [
+       "Yes, they are from today.",
+       "No, they are from yesterday.",
+       "There are no bread rolls."
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Am Marktstand",
+    "r": [
+     [
+      "Verkäufer",
+      "Grüß Gott! Was darf es sein?"
+     ],
+     [
+      "Du",
+      "[Zwei Kilo Erdäpfel, bitte.|Ich hätte gern zwei Kilo Erdäpfel.|Ich hätte gerne zwei Kilo Erdäpfel.|Ich möchte zwei Kilo Erdäpfel.|Zwei Kilo Kartoffeln, bitte.|Ich hätte gern zwei Kilo Kartoffeln.|Ich hätte gerne zwei Kilo Kartoffeln.|Ich möchte zwei Kilo Kartoffeln.]",
+      "Ask for two kilos of potatoes."
+     ],
+     [
+      "Verkäufer",
+      "Gerne. Sonst noch etwas?"
+     ],
+     [
+      "Du",
+      "[Was kosten die Paradeiser?|Wie viel kosten die Paradeiser?|Was kosten die Tomaten?|Wie viel kosten die Tomaten?]",
+      "Ask what the tomatoes cost."
+     ],
+     [
+      "Verkäufer",
+      "Ein Kilo kostet drei Euro."
+     ],
+     [
+      "Du",
+      "[Danke, das ist alles.|Nein danke, das ist alles.|Danke, das war alles.]",
+      "Say thank you, that's all."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Im Supermarkt: Wo ist …?",
+    "r": [
+     [
+      "Du",
+      "[Entschuldigung, wo sind die Eier?|Entschuldigen Sie, wo sind die Eier?]",
+      "Ask politely where the eggs are."
+     ],
+     [
+      "Verkäuferin",
+      "Die Eier sind gleich da vorne, bei der Milch."
+     ],
+     [
+      "Du",
+      "[Gibt es noch Semmeln?|Und gibt es noch Semmeln?|Haben Sie noch Semmeln?|Gibt es noch Brötchen?|Und gibt es noch Brötchen?|Haben Sie noch Brötchen?]",
+      "Ask if there are still bread rolls."
+     ],
+     [
+      "Verkäuferin",
+      "Nein, leider. Heute gibt es keine Semmeln mehr."
+     ],
+     [
+      "Du",
+      "[Schade. Danke!|Schade, danke.|Okay, danke.]",
+      "Say: what a pity, thanks."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Zu Hause: Was brauchen wir noch?",
+    "r": [
+     [
+      "Lena",
+      "Ich gehe gleich einkaufen. Was brauchen wir noch?"
+     ],
+     [
+      "Du",
+      "[Wir brauchen noch Eier und Zwiebeln.|Wir brauchen Eier und Zwiebeln.|Eier und Zwiebeln.]",
+      "Say: we still need eggs and onions."
+     ],
+     [
+      "Lena",
+      "Und Milch?"
+     ],
+     [
+      "Du",
+      "[Nein, wir haben noch Milch.|Nein, Milch haben wir noch.|Milch haben wir noch.]",
+      "Say: no, we still have milk."
+     ],
+     [
+      "Lena",
+      "Hast du die Einkaufsliste?"
+     ],
+     [
+      "Du",
+      "[Nein, ich habe keine Einkaufsliste.|Nein, ich habe keine.|Nein, leider nicht.]",
+      "Say: no, you don't have a shopping list."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write a short note for your flatmate (2–3 sentences): what do you need from the market, and what don't you need?",
+    "a": [
+     "Wir brauchen Erdäpfel, Zwiebeln und Eier. Paradeiser brauchen wir nicht."
+    ],
+    "h": "2–3 Sätze"
+   },
+   {
+    "t": "sch",
+    "q": "At a market stall: ask how much the cauliflower costs and say that you don't need a bag.",
+    "a": [
+     "Was kostet der Karfiol? Ich brauche kein Sackerl, danke.",
+     "Wie viel kostet der Karfiol? Ein Sackerl brauche ich nicht, danke."
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Describe a market stall in 2–3 sentences: what is there, and what is sold out?",
+    "a": [
+     "Am Stand sind Paradeiser, Zwiebeln und Erdäpfel. Die Zwiebeln sind sehr schön, aber der Karfiol ist leider aus."
+    ],
+    "h": "2–3 Sätze"
+   },
+   {
+    "t": "mc",
+    "q": "Which nouns are always feminine (die)?",
+    "o": [
+     "nouns ending in -ung, -heit, -keit, -schaft, -ion, -tät",
+     "nouns ending in -chen",
+     "all nouns ending in -er",
+     "the days of the week"
+    ],
+    "a": 0,
+    "x": "-ung, -heit, -keit, -schaft, -ion, -tät: always die (die Zeitung). -chen is always das, days of the week are der, and -er can be any gender (der Verkäufer, die Butter, das Fenster)."
+   },
+   {
+    "t": "mc",
+    "q": "Which article do all nouns have in the plural?",
+    "o": [
+     "die",
+     "der",
+     "das",
+     "it depends on the gender"
+    ],
+    "a": 0,
+    "x": "In the plural the article is always die: der Markt → die Märkte, das Ei → die Eier."
+   },
+   {
+    "t": "mc",
+    "q": "When do you use kein and when nicht?",
+    "o": [
+     "kein for a noun with ein or without an article; nicht for verbs, adjectives and nouns with der/die/das",
+     "kein only in the plural",
+     "nicht before every noun",
+     "kein only for masculine nouns"
+    ],
+    "a": 0,
+    "x": "Das ist kein Ei. Heute gibt es keine Semmeln. ↔ Das Ei ist nicht frisch. Ich kaufe heute nicht ein."
+   },
+   {
+    "t": "mc",
+    "q": "Which plural ending do almost all feminine nouns have?",
+    "o": [
+     "-n / -en: die Zwiebeln, die Packungen",
+     "-er: die Eier",
+     "-s: die Autos",
+     "no ending"
+    ],
+    "a": 0,
+    "x": "Feminine nouns: almost always -n/-en. Exceptions with ¨-e: die Wurst → die Würste."
+   }
+  ]
+ },
+ {
+  "id": "d05",
+  "title": "Ein Geschenk für die Kollegin – Nominativ, Akkusativ, Dativ",
+  "fi": "A present for a colleague – nominative, accusative, dative",
+  "lvl": "A1/A2",
+  "req": [
+   "d01",
+   "d02",
+   "d04"
+  ],
+  "th": "<h3>1. Situation: a birthday at the office</h3><p>In many Austrian offices the team gives a colleague a present for his or her birthday. Everybody pays a little, one person buys the present, and on the day the team hands it over with a card.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Sabine hat am Freitag Geburtstag.</td><td>It's Sabine's birthday on Friday.</td></tr><tr><td>Was schenken wir der Kollegin?</td><td>What shall we give our colleague?</td></tr><tr><td>Wir kaufen einen Gutschein.</td><td>We'll buy a voucher.</td></tr><tr><td>Wer sucht das Geschenk aus?</td><td>Who is choosing the present?</td></tr><tr><td>Können Sie das bitte als Geschenk einpacken?</td><td>Could you gift-wrap it, please?</td></tr><tr><td>Ich nehme diesen Blumenstrauß.</td><td>I'll take this bunch of flowers.</td></tr><tr><td>Alles Gute zum Geburtstag!</td><td>Happy birthday!</td></tr></table><h3>2. Short dialogue</h3><p><b>Verkäuferin:</b> <i>Grüß Gott! Suchen Sie etwas?</i><br><b>Aurora:</b> <i>Ja, ich suche ein Geschenk. Eine Kollegin hat morgen Geburtstag.</i><br><b>Verkäuferin:</b> <i>Wir haben schöne Bonbonnieren. Oder vielleicht einen Gutschein?</i><br><b>Aurora:</b> <i>Einen Gutschein schenken wir schon. Ich nehme die Bonbonniere hier. Können Sie das bitte als Geschenk einpacken?</i><br><b>Verkäuferin:</b> <i>Gerne. Brauchen Sie auch eine Glückwunschkarte?</i><br><b>Aurora:</b> <i>Ja, bitte. Welche Karte nehmen die meisten Leute?</i><br><b>Verkäuferin:</b> <i>Diese Karte hier ist sehr beliebt.</i></p><h3>3. Grammar: Nominativ, Akkusativ, Dativ</h3><p>German shows the job of a noun in the sentence (its <b>case</b>) mainly in the article. Here is the whole system – order: masculine · feminine · neuter · plural:</p><table><tr><th>Case (question)</th><th>der-words</th><th>ein-words</th></tr><tr><td>Nominativ (wer? was?)</td><td>der · die · das · die</td><td>ein · eine · ein · keine</td></tr><tr><td>Akkusativ (wen? was?)</td><td>den · die · das · die</td><td>einen · eine · ein · keine</td></tr><tr><td>Dativ (wem?)</td><td>dem · der · dem · den (+ -n)</td><td>einem · einer · einem · keinen (+ -n)</td></tr></table><p class=\"rule\"><b>Nominativ</b> = the subject (who does something) and the noun after <i>sein</i>. <b>Akkusativ</b> = the direct object (the thing or person you buy, take, need, look for …). <b>Dativ</b> = the person who receives something (with <i>schenken, geben, überreichen</i>).</p><p class=\"tip\">Example: <i>Die Kollegin</i> (Nom.) <i>schenkt dem Chef</i> (Dat.) <i>einen Gutschein</i> (Akk.). Because the article shows the case, the order can change: <i>Den Gutschein hat Sabine ausgesucht.</i> = Sabine chose the voucher.</p><h3>Rule 1: Akkusativ – only the masculine changes</h3><table><tr><th>Gender</th><th>Nominativ</th><th>Akkusativ</th></tr><tr><td>masculine</td><td>der / ein / kein Gutschein</td><td><b>den / einen / keinen</b> Gutschein</td></tr><tr><td>feminine</td><td>die / eine / keine Karte</td><td>die / eine / keine Karte</td></tr><tr><td>neuter</td><td>das / ein / kein Geschenk</td><td>das / ein / kein Geschenk</td></tr><tr><td>plural</td><td>die / – / keine Geschenke</td><td>die / – / keine Geschenke</td></tr></table><p class=\"rule\">Verbs like <i>haben, brauchen, kaufen, nehmen, suchen, aussuchen, einpacken, schenken</i> and <i>es gibt</i> take an accusative object: <i>Wir kaufen einen Gutschein. Es gibt keinen Karfiol.</i></p><p class=\"tip\">After <i>sein</i> there is no accusative: <i>Das ist ein Gutschein.</i> (Nom.) ↔ <i>Ich kaufe einen Gutschein.</i> (Akk.). Questions: <b>wen?</b> for people, <b>was?</b> for things: <i>Wen suchst du? – Herrn Gruber. Was kaufst du? – Einen Gutschein.</i></p><h3>Rule 2: Dativ – -m, -r, -m, -n and wer / wen / wem</h3><table><tr><th>Gender</th><th>der-word</th><th>ein-word</th></tr><tr><td>masculine</td><td>dem Freund</td><td>einem / keinem / meinem Freund</td></tr><tr><td>feminine</td><td>der Kollegin</td><td>einer / keiner / meiner Kollegin</td></tr><tr><td>neuter</td><td>dem Kind</td><td>einem / keinem / meinem Kind</td></tr><tr><td>plural</td><td>den Kindern</td><td>keinen / meinen Kindern</td></tr></table><p class=\"rule\">The dative endings are <b>-m · -r · -m · -n</b>. In the plural the noun also gets <b>-n</b>: <i>die Kinder → den Kindern, die Freunde → den Freunden</i>. No extra -n if the plural already ends in -n or -s: <i>den Kolleginnen, den Autos</i>.</p><table><tr><th>Question</th><th>Case</th><th>Example</th></tr><tr><td>Wer?</td><td>Nominativ (person)</td><td>Wer hat Geburtstag? – Sabine.</td></tr><tr><td>Wen?</td><td>Akkusativ (person)</td><td>Wen suchst du? – Herrn Gruber.</td></tr><tr><td>Wem?</td><td>Dativ (person)</td><td>Wem schenkst du die Blumen? – Der Kollegin.</td></tr></table><p class=\"tip\">Two words have special forms – learn them as they are: <i>der Herr → den Herrn, dem Herrn</i> (plural: <i>die Herren</i>); <i>der Kollege → den Kollegen, dem Kollegen</i>. The system behind them comes later. Careful: <i>den Kollegen</i> can also be the dative plural (to the colleagues).</p><h3>Rule 3: der-words and ein-words</h3><table><tr><th>Pattern</th><th>Words</th><th>Endings like</th></tr><tr><td>der-words</td><td>der, dieser (this), welcher? (which?), jeder (every)</td><td>der: dies<b>er</b> · dies<b>e</b> · dies<b>es</b> · dies<b>e</b> / Akk. dies<b>en</b> / Dat. dies<b>em</b> · dies<b>er</b> · dies<b>em</b> · dies<b>en</b></td></tr><tr><td>ein-words</td><td>ein, kein, mein, dein, sein, ihr, unser, euer, Ihr</td><td>ein: mein · mein<b>e</b> · mein · mein<b>e</b> / Akk. mein<b>en</b> / Dat. mein<b>em</b> · mein<b>er</b> · mein<b>em</b> · mein<b>en</b></td></tr></table><table><tr><th>Person</th><th>ein-word</th><th>Example</th></tr><tr><td>ich / du</td><td>mein / dein</td><td>mein Kollege, deine Kollegin</td></tr><tr><td>er, es / sie</td><td>sein / ihr</td><td>sein Geschenk, ihr Geschenk</td></tr><tr><td>wir / ihr</td><td>unser / euer</td><td>unser Team, eure Karte</td></tr><tr><td>sie (plural) / Sie</td><td>ihr / Ihr</td><td>ihr Chef, Ihr Gutschein</td></tr></table><p class=\"rule\">The der-words have the ending in every form: <i>dieser Gutschein</i>. The ein-words have <b>no ending</b> in three places: masculine nominative, neuter nominative and neuter accusative (<i>mein Gutschein, mein Geschenk</i>). <i>ein</i> has no plural – but <i>kein, mein, unser …</i> do: <i>keine Geschenke, meinen Kindern</i>.</p><p class=\"tip\"><i>euer</i> loses its e when it gets an ending: <i>euer Chef</i> but <i>eure Karte, euren Gutschein</i> (rare: <i>euere</i>). <i>ihr</i> (her / their) and <i>Ihr</i> (your, polite) differ only in the capital letter.</p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>schenken</td><td>schenkte</td><td>hat geschenkt</td></tr><tr><td>geben (er gibt)</td><td>gab</td><td>hat gegeben</td></tr><tr><td>einpacken</td><td>packte ein</td><td>hat eingepackt</td></tr><tr><td>aussuchen</td><td>suchte aus</td><td>hat ausgesucht</td></tr><tr><td>überreichen</td><td>überreichte</td><td>hat überreicht</td></tr></table><p class=\"tip\"><i>überreichen</i> is not separable: <i>Wir überreichen das Geschenk.</i> – Partizip without ge-: <i>hat überreicht</i>.</p>",
+  "v": [
+   [
+    "das Geschenk, die Geschenke",
+    "present, gift"
+   ],
+   [
+    "die Kollegin, die Kolleginnen",
+    "colleague (woman)"
+   ],
+   [
+    "der Kollege, die Kollegen",
+    "colleague (man)"
+   ],
+   [
+    "der Herr, die Herren",
+    "gentleman; Mr"
+   ],
+   [
+    "der Geburtstag, die Geburtstage",
+    "birthday"
+   ],
+   [
+    "der Blumenstrauß, die Blumensträuße",
+    "bunch of flowers, bouquet"
+   ],
+   [
+    "die Bonbonniere, die Bonbonnieren",
+    "box of chocolates"
+   ],
+   [
+    "der Gutschein, die Gutscheine",
+    "voucher, gift card"
+   ],
+   [
+    "die Glückwunschkarte, die Glückwunschkarten",
+    "greeting card, birthday card"
+   ],
+   [
+    "schenken",
+    "to give (as a present) (schenkte · hat geschenkt · wird schenken)"
+   ],
+   [
+    "geben",
+    "to give (gab · hat gegeben · wird geben)"
+   ],
+   [
+    "einpacken",
+    "to wrap (up), to pack (packte ein · hat eingepackt · wird einpacken)"
+   ],
+   [
+    "aussuchen",
+    "to choose, to pick out (suchte aus · hat ausgesucht · wird aussuchen)"
+   ],
+   [
+    "überreichen",
+    "to hand over, to present (überreichte · hat überreicht · wird überreichen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "der, den oder dem? Bestimmter Artikel in allen Fällen",
+    "h": "Nur den Artikel eintippen. Reihenfolge: maskulin · feminin · neutral · Plural.",
+    "head": [
+     "Fall und Genus",
+     "Artikel"
+    ],
+    "r": [
+     [
+      "Nominativ maskulin",
+      "[der]"
+     ],
+     [
+      "Nominativ feminin",
+      "[die]"
+     ],
+     [
+      "Nominativ neutral",
+      "[das]"
+     ],
+     [
+      "Nominativ Plural",
+      "[die]"
+     ],
+     [
+      "Akkusativ maskulin",
+      "[den]"
+     ],
+     [
+      "Akkusativ feminin",
+      "[die]"
+     ],
+     [
+      "Akkusativ neutral",
+      "[das]"
+     ],
+     [
+      "Akkusativ Plural",
+      "[die]"
+     ],
+     [
+      "Dativ maskulin",
+      "[dem]"
+     ],
+     [
+      "Dativ feminin",
+      "[der]"
+     ],
+     [
+      "Dativ neutral",
+      "[dem]"
+     ],
+     [
+      "Dativ Plural",
+      "[den]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "kein in allen Fällen",
+    "h": "Nur die Form von kein eintippen. Reihenfolge: maskulin · feminin · neutral · Plural.",
+    "head": [
+     "Fall und Genus",
+     "kein …"
+    ],
+    "r": [
+     [
+      "Nominativ maskulin",
+      "[kein]"
+     ],
+     [
+      "Nominativ feminin",
+      "[keine]"
+     ],
+     [
+      "Nominativ neutral",
+      "[kein]"
+     ],
+     [
+      "Nominativ Plural",
+      "[keine]"
+     ],
+     [
+      "Akkusativ maskulin",
+      "[keinen]"
+     ],
+     [
+      "Akkusativ feminin",
+      "[keine]"
+     ],
+     [
+      "Akkusativ neutral",
+      "[kein]"
+     ],
+     [
+      "Akkusativ Plural",
+      "[keine]"
+     ],
+     [
+      "Dativ maskulin",
+      "[keinem]"
+     ],
+     [
+      "Dativ feminin",
+      "[keiner]"
+     ],
+     [
+      "Dativ neutral",
+      "[keinem]"
+     ],
+     [
+      "Dativ Plural",
+      "[keinen]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Nominativ → Akkusativ",
+    "h": "Jedes Kästchen: Artikelwort + Nomen im Akkusativ, z. B. die Semmel.",
+    "head": [
+     "Nominativ",
+     "Akkusativ"
+    ],
+    "r": [
+     [
+      "der Gutschein",
+      "[den Gutschein]"
+     ],
+     [
+      "die Glückwunschkarte",
+      "[die Glückwunschkarte]"
+     ],
+     [
+      "das Geschenk",
+      "[das Geschenk]"
+     ],
+     [
+      "ein Blumenstrauß",
+      "[einen Blumenstrauß]"
+     ],
+     [
+      "kein Geburtstag",
+      "[keinen Geburtstag]"
+     ],
+     [
+      "mein Kollege",
+      "[meinen Kollegen]"
+     ],
+     [
+      "dieser Herr",
+      "[diesen Herrn]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Nominativ → Dativ",
+    "h": "Jedes Kästchen: Artikelwort + Nomen im Dativ, z. B. der Semmel.",
+    "head": [
+     "Nominativ",
+     "Dativ"
+    ],
+    "r": [
+     [
+      "der Freund",
+      "[dem Freund]"
+     ],
+     [
+      "die Kollegin",
+      "[der Kollegin]"
+     ],
+     [
+      "das Kind",
+      "[dem Kind]"
+     ],
+     [
+      "die Kinder (Plural)",
+      "[den Kindern]"
+     ],
+     [
+      "eine Freundin",
+      "[einer Freundin]"
+     ],
+     [
+      "mein Kollege",
+      "[meinem Kollegen]"
+     ],
+     [
+      "die Freunde (Plural)",
+      "[den Freunden]"
+     ],
+     [
+      "der Herr",
+      "[dem Herrn]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Possessivartikel (Nominativ)",
+    "h": "Nur den Possessivartikel eintippen, passend zum Nomen.",
+    "head": [
+     "Person + Nomen",
+     "Possessivartikel"
+    ],
+    "r": [
+     [
+      "ich – Kollege",
+      "[mein]"
+     ],
+     [
+      "du – Kollegin",
+      "[deine]"
+     ],
+     [
+      "er – Geschenk",
+      "[sein]"
+     ],
+     [
+      "sie (Singular) – Geschenk",
+      "[ihr]"
+     ],
+     [
+      "wir – Team",
+      "[unser]"
+     ],
+     [
+      "ihr – Karte",
+      "[eure|euere]"
+     ],
+     [
+      "Sie – Gutschein",
+      "[Ihr]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "dieser und welcher (maskulin)",
+    "h": "Jedes Kästchen eine eigene Form mit Endung.",
+    "head": [
+     "Fall",
+     "dies- / welch-"
+    ],
+    "r": [
+     [
+      "Nominativ: ___ Gutschein (dies-)",
+      "[dieser]"
+     ],
+     [
+      "Akkusativ: ___ Gutschein (dies-)",
+      "[diesen]"
+     ],
+     [
+      "Dativ: ___ Herrn (dies-)",
+      "[diesem]"
+     ],
+     [
+      "Nominativ: ___ Gutschein? (welch-)",
+      "[welcher|Welcher]"
+     ],
+     [
+      "Akkusativ: ___ Gutschein? (welch-)",
+      "[welchen|Welchen]"
+     ],
+     [
+      "Dativ Singular: ___ Kollegen? (welch-)",
+      "[welchem|Welchem]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Wer, wen, wem oder was?",
+    "h": "Nur das Fragewort eintippen: Frage nach dem Teil in Klammern.",
+    "head": [
+     "Satz (gefragt wird nach …)",
+     "Fragewort"
+    ],
+    "r": [
+     [
+      "Sabine hat Geburtstag. (Sabine)",
+      "[Wer]"
+     ],
+     [
+      "Wir suchen Herrn Gruber. (Herrn Gruber)",
+      "[Wen]"
+     ],
+     [
+      "Wir schenken der Kollegin Blumen. (der Kollegin)",
+      "[Wem]"
+     ],
+     [
+      "Ich kaufe einen Gutschein. (einen Gutschein)",
+      "[Was]"
+     ],
+     [
+      "Der Kollege sucht das Geschenk aus. (der Kollege)",
+      "[Wer]"
+     ],
+     [
+      "Jonas gibt dem Kind eine Semmel. (dem Kind)",
+      "[Wem]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Nur die Form für er/sie, z. B. machte.",
+    "head": [
+     "Infinitiv",
+     "Präteritum (er/sie)"
+    ],
+    "r": [
+     [
+      "schenken",
+      "[schenkte]"
+     ],
+     [
+      "geben",
+      "[gab]"
+     ],
+     [
+      "einpacken",
+      "[packte ein]"
+     ],
+     [
+      "aussuchen",
+      "[suchte aus]"
+     ],
+     [
+      "überreichen",
+      "[überreichte]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Perfekt (er/sie)",
+    "h": "Hilfsverb + Partizip II, z. B. hat gemacht.",
+    "head": [
+     "Infinitiv",
+     "Perfekt (er/sie)"
+    ],
+    "r": [
+     [
+      "schenken",
+      "[hat geschenkt]"
+     ],
+     [
+      "geben",
+      "[hat gegeben]"
+     ],
+     [
+      "einpacken",
+      "[hat eingepackt]"
+     ],
+     [
+      "aussuchen",
+      "[hat ausgesucht]"
+     ],
+     [
+      "überreichen",
+      "[hat überreicht]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Am Freitag ___ wir der Kollegin die Blumen überreichen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "werden"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Was ___ du deinem Freund zum Geburtstag schenken?",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "wirst"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir ___ das Geschenk schon eingepackt.",
+    "h": "haben oder sein – richtige Form im Präsens",
+    "a": [
+     "haben"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir kaufen ___ Gutschein.",
+    "h": "unbestimmter Artikel im richtigen Fall",
+    "a": [
+     "einen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich nehme ___ Bonbonniere hier.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "die"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Hast du ___ Blumenstrauß schon?",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Leider gibt es heute ___ Karfiol.",
+    "h": "Verneinung vor dem Nomen, richtiger Fall",
+    "a": [
+     "keinen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich nehme ___ Gutschein hier. (dies-)",
+    "h": "dies- mit der richtigen Endung",
+    "a": [
+     "diesen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Geschenk suchst du aus? (welch-)",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welches"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Das ist ___ Gutschein.",
+    "h": "unbestimmter Artikel im richtigen Fall",
+    "a": [
+     "ein"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir schenken ___ Kollegin einen Gutschein.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "der"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich gebe ___ Kind eine Semmel.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "dem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir überreichen ___ Kolleginnen die Blumen.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich schenke ___ Freund ein Buch. (mein-)",
+    "h": "mein- mit der richtigen Endung",
+    "a": [
+     "meinem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Was schenkst du ___ Kollegin? (dein-)",
+    "h": "dein- mit der richtigen Endung",
+    "a": [
+     "deiner"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Jonas gibt den ___ Schokolade. (das Kind, Plural)",
+    "h": "nur das Nomen im richtigen Fall",
+    "a": [
+     "Kindern"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich schreibe den ___ eine Karte. (der Freund, Plural)",
+    "h": "nur das Nomen im richtigen Fall",
+    "a": [
+     "Freunden"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Geben Sie die Karte bitte dem ___ dort. (der Herr)",
+    "h": "nur das Nomen im richtigen Fall",
+    "a": [
+     "Herrn"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir schenken dem ___ einen Blumenstrauß. (der Kollege)",
+    "h": "nur das Nomen im richtigen Fall",
+    "a": [
+     "Kollegen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ schenkst du die Blumen? – Der Kollegin.",
+    "h": "Fragewort (wer, wen oder wem?)",
+    "a": [
+     "Wem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ suchen Sie? – Herrn Gruber.",
+    "h": "Fragewort (wer, wen oder wem?)",
+    "a": [
+     "Wen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Sabine hat Geburtstag, ___ kaufen wir einen Blumenstrauß.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "deshalb"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir kaufen keine Bonbonniere, ___ Sabine keine Schokolade mag.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "weil"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Ich kaufe einen Blumenstrauß.",
+     "Ich kaufe ein Blumenstrauß.",
+     "Ich kaufe einem Blumenstrauß."
+    ],
+    "a": 0,
+    "x": "der Blumenstrauß is masculine; kaufen takes the accusative: ein → einen."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Das ist ein Gutschein.",
+     "Das ist einen Gutschein.",
+     "Das ist einem Gutschein."
+    ],
+    "a": 0,
+    "x": "After sein the noun stays in the nominative: Das ist ein Gutschein."
+   },
+   {
+    "t": "mc",
+    "q": "„Wir schenken ___ Kollegin eine Bonbonniere.“",
+    "o": [
+     "der",
+     "die",
+     "den"
+    ],
+    "a": 0,
+    "x": "The person who receives the present is in the dative; feminine dative: der Kollegin."
+   },
+   {
+    "t": "mc",
+    "q": "„Jonas gibt ___ Kindern die Semmeln.“",
+    "o": [
+     "den",
+     "dem",
+     "die"
+    ],
+    "a": 0,
+    "x": "Dative plural: den + noun with -n: den Kindern."
+   },
+   {
+    "t": "mc",
+    "q": "„Das ist ___ Kollegin.“ (wir)",
+    "o": [
+     "unsere",
+     "unser",
+     "unseren"
+    ],
+    "a": 0,
+    "x": "wir → unser; Kollegin is feminine, nominative after sein: unsere Kollegin."
+   },
+   {
+    "t": "mc",
+    "q": "„Habt ihr ___ Geschenk schon eingepackt?“ (ihr)",
+    "o": [
+     "euer",
+     "eure",
+     "euren"
+    ],
+    "a": 0,
+    "x": "Geschenk is neuter; neuter accusative of an ein-word has no ending: euer Geschenk."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Wir geben dem Herrn die Karte.",
+     "Wir geben dem Herr die Karte.",
+     "Wir geben den Herr die Karte."
+    ],
+    "a": 0,
+    "x": "der Herr has special forms: den Herrn, dem Herrn."
+   },
+   {
+    "t": "mc",
+    "q": "„Die Gutscheine sind sehr beliebt.“ – Was ist der Singular?",
+    "o": [
+     "der Gutschein",
+     "die Gutschein",
+     "das Gutschein"
+    ],
+    "a": 0,
+    "x": "der Gutschein, die Gutscheine – no signal ending, learn it with the article."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We're giving our colleague (a woman) a voucher.",
+    "a": [
+     "Wir schenken unserer Kollegin einen Gutschein.",
+     "Unserer Kollegin schenken wir einen Gutschein.",
+     "Einen Gutschein schenken wir unserer Kollegin.",
+     "Wir geben unserer Kollegin einen Gutschein."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'll take this bunch of flowers.",
+    "a": [
+     "Ich nehme diesen Blumenstrauß.",
+     "Diesen Blumenstrauß nehme ich."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Which card are you taking? (du)",
+    "a": [
+     "Welche Karte nimmst du?",
+     "Welche Glückwunschkarte nimmst du?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Could you gift-wrap it, please? (Sie)",
+    "a": [
+     "Können Sie das bitte als Geschenk einpacken?",
+     "Könnten Sie das bitte als Geschenk einpacken?",
+     "Können Sie es bitte als Geschenk einpacken?",
+     "Könnten Sie es bitte als Geschenk einpacken?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Wem schenkst du den Blumenstrauß?",
+    "a": [
+     "Who are you giving the bouquet to?",
+     "Who are you giving the bunch of flowers to?",
+     "To whom are you giving the bouquet?",
+     "Who do you give the bouquet to?",
+     "Who are you giving the flowers to?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Wir haben der Kollegin eine Bonbonniere geschenkt.",
+    "a": [
+     "We gave the colleague a box of chocolates.",
+     "We gave our colleague a box of chocolates.",
+     "We have given the colleague a box of chocolates.",
+     "We gave a box of chocolates to the colleague.",
+     "We gave a box of chocolates to our colleague."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Hast du das Geschenk schon eingepackt?",
+    "a": [
+     "Have you already wrapped the present?",
+     "Have you wrapped the present yet?",
+     "Have you already wrapped the gift?",
+     "Have you wrapped the gift yet?",
+     "Did you already wrap the present?"
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Den",
+     "Gutschein",
+     "hat",
+     "Sabine",
+     "ausgesucht"
+    ],
+    "a": [
+     "Den Gutschein hat Sabine ausgesucht.",
+     "Sabine hat den Gutschein ausgesucht."
+    ],
+    "de": "Sabine chose the voucher."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Wir",
+     "packen",
+     "das",
+     "Geschenk",
+     "heute",
+     "ein"
+    ],
+    "a": [
+     "Wir packen das Geschenk heute ein.",
+     "Heute packen wir das Geschenk ein.",
+     "Das Geschenk packen wir heute ein."
+    ],
+    "de": "We're wrapping the present today."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "kaufe",
+     "einen",
+     "Gutschein",
+     "weil",
+     "die",
+     "Kollegin",
+     "Geburtstag",
+     "hat"
+    ],
+    "a": [
+     "Ich kaufe einen Gutschein, weil die Kollegin Geburtstag hat.",
+     "Weil die Kollegin Geburtstag hat, kaufe ich einen Gutschein.",
+     "Einen Gutschein kaufe ich, weil die Kollegin Geburtstag hat."
+    ],
+    "de": "I'm buying a voucher because our colleague has her birthday."
+   },
+   {
+    "t": "les",
+    "q": "Ein Geburtstag im Büro",
+    "txt": [
+     "Am Freitag hat Sabine Geburtstag.",
+     "Das Team möchte der Kollegin ein Geschenk machen.",
+     "Jonas kauft einen Blumenstrauß, und Aurora sucht eine Bonbonniere aus.",
+     "Herr Gruber schreibt die Glückwunschkarte.",
+     "Am Freitag überreichen die Kollegen Sabine das Geschenk."
+    ],
+    "qs": [
+     {
+      "q": "Who has a birthday?",
+      "o": [
+       "Sabine",
+       "Jonas",
+       "Mr Gruber"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora choose?",
+      "o": [
+       "a box of chocolates",
+       "a bunch of flowers",
+       "the card"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who writes the card?",
+      "o": [
+       "Mr Gruber",
+       "Aurora",
+       "Jonas"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine E-Mail an das Team",
+    "txt": [
+     "Liebe Kolleginnen und Kollegen!",
+     "Nächste Woche hat Herr Gruber Geburtstag.",
+     "Wir möchten dem Kollegen einen Gutschein schenken.",
+     "Wer macht mit? Jede Person gibt fünf Euro.",
+     "Sabine sammelt das Geld bis Mittwoch.",
+     "Liebe Grüße, Aurora"
+    ],
+    "qs": [
+     {
+      "q": "What does the team want to give Mr Gruber?",
+      "o": [
+       "a voucher",
+       "a box of chocolates",
+       "a book"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How much does each person pay?",
+      "o": [
+       "five euros",
+       "nine euros",
+       "nothing"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Im Geschäft",
+    "txt": [
+     "Verkäufer: Grüß Gott! Suchen Sie etwas?",
+     "Aurora: Ja, ich suche ein Geschenk. Meine Kollegin hat Geburtstag.",
+     "Verkäufer: Diese Bonbonnieren hier sind sehr beliebt.",
+     "Aurora: Gut, dann nehme ich diese Bonbonniere. Können Sie das bitte als Geschenk einpacken?",
+     "Verkäufer: Gerne. Brauchen Sie auch eine Glückwunschkarte?",
+     "Aurora: Nein danke, eine Karte haben wir schon."
+    ],
+    "qs": [
+     {
+      "q": "Why does Aurora need a present?",
+      "o": [
+       "Her colleague has a birthday.",
+       "She has a birthday.",
+       "Her friend is moving."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What doesn't she need?",
+      "o": [
+       "a card",
+       "a box of chocolates",
+       "gift wrapping"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Im Geschäft: ein Geschenk aussuchen",
+    "r": [
+     [
+      "Verkäuferin",
+      "Grüß Gott! Suchen Sie etwas?"
+     ],
+     [
+      "Du",
+      "[Ja, ich suche ein Geschenk.|Ich suche ein Geschenk.|Ja, ein Geschenk.]",
+      "Say that you are looking for a present."
+     ],
+     [
+      "Verkäuferin",
+      "Wem möchten Sie etwas schenken?"
+     ],
+     [
+      "Du",
+      "[Einer Kollegin.|Meiner Kollegin.|Ich möchte einer Kollegin etwas schenken.|Ich möchte meiner Kollegin etwas schenken.]",
+      "Say: a colleague (a woman)."
+     ],
+     [
+      "Verkäuferin",
+      "Vielleicht eine Bonbonniere oder einen Blumenstrauß?"
+     ],
+     [
+      "Du",
+      "[Ich nehme den Blumenstrauß.|Den Blumenstrauß, bitte.|Ich nehme den Blumenstrauß, bitte.|Den Blumenstrauß nehme ich.]",
+      "Choose the bunch of flowers."
+     ],
+     [
+      "Verkäuferin",
+      "Gerne. Sonst noch etwas?"
+     ],
+     [
+      "Du",
+      "[Ich brauche auch eine Glückwunschkarte.|Haben Sie auch eine Glückwunschkarte?|Ich nehme auch eine Glückwunschkarte.|Ich hätte gern auch eine Glückwunschkarte.|Ich hätte gerne auch eine Glückwunschkarte.]",
+      "Ask for a greeting card too."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Im Büro: Was schenken wir?",
+    "r": [
+     [
+      "Jonas",
+      "Sabine hat morgen Geburtstag. Was schenken wir der Kollegin?"
+     ],
+     [
+      "Du",
+      "[Wir schenken der Kollegin einen Gutschein.|Wir schenken ihr einen Gutschein.|Vielleicht einen Gutschein?|Einen Gutschein.|Wir kaufen einen Gutschein.]",
+      "Suggest a voucher."
+     ],
+     [
+      "Jonas",
+      "Gute Idee! Wer kauft den Gutschein?"
+     ],
+     [
+      "Du",
+      "[Ich kaufe den Gutschein.|Ich kaufe ihn.|Den Gutschein kaufe ich.|Das mache ich.]",
+      "Say that you will buy it."
+     ],
+     [
+      "Jonas",
+      "Super. Und wer schreibt die Karte?"
+     ],
+     [
+      "Du",
+      "[Herr Gruber schreibt die Karte.|Die Karte schreibt Herr Gruber.|Herr Gruber.]",
+      "Say: Mr Gruber."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Your team wants to give a colleague (a woman) a present for her birthday. Write 2–3 sentences: what do you give her, and who buys what?",
+    "a": [
+     "Wir schenken der Kollegin einen Gutschein und einen Blumenstrauß. Ich kaufe den Gutschein, und Jonas kauft den Blumenstrauß."
+    ],
+    "h": "2–3 Sätze"
+   },
+   {
+    "t": "sch",
+    "q": "In a shop: say what you would like to give your colleague (a man), choose something and ask the shop assistant to gift-wrap it.",
+    "a": [
+     "Ich möchte meinem Kollegen eine Bonbonniere schenken. Ich nehme diese Bonbonniere. Können Sie das bitte als Geschenk einpacken?"
+    ],
+    "h": "2–3 Sätze"
+   },
+   {
+    "t": "sch",
+    "q": "Write 1–2 sentences: what did you give a friend for his or her last birthday, and why?",
+    "a": [
+     "Ich habe meiner Freundin ein Buch geschenkt, weil sie gern liest."
+    ],
+    "h": "1–2 Sätze, Perfekt"
+   },
+   {
+    "t": "mc",
+    "q": "Which forms change from the nominative to the accusative?",
+    "o": [
+     "only the masculine singular: der → den, ein → einen",
+     "all genders",
+     "only the plural",
+     "only the feminine"
+    ],
+    "a": 0,
+    "x": "Only masculine singular changes: der → den, ein → einen, mein → meinen. die, das and the plural stay the same."
+   },
+   {
+    "t": "mc",
+    "q": "In a sentence with schenken or geben, which case is the person who receives something?",
+    "o": [
+     "Dativ (wem?)",
+     "Akkusativ (wen?)",
+     "Nominativ (wer?)",
+     "it depends on the gender"
+    ],
+    "a": 0,
+    "x": "The receiver is in the dative: Wir schenken der Kollegin (wem?) einen Gutschein (was?)."
+   },
+   {
+    "t": "mc",
+    "q": "Which words have the same endings as ein (ein-words)?",
+    "o": [
+     "kein, mein, dein, unser, euer",
+     "dieser, welcher, jeder",
+     "der, die, das",
+     "wer, wen, wem"
+    ],
+    "a": 0,
+    "x": "kein and the possessive articles follow ein (no ending in masculine and neuter nominative). dieser, welcher, jeder follow der."
+   },
+   {
+    "t": "mc",
+    "q": "When does a plural noun get an extra -n in the dative?",
+    "o": [
+     "always, unless the plural already ends in -n or -s",
+     "never",
+     "only feminine nouns",
+     "only after ein"
+    ],
+    "a": 0,
+    "x": "den Kindern, den Freunden – but den Kolleginnen, den Autos (no extra -n)."
+   }
+  ]
+ },
+ {
+  "id": "d06",
+  "title": "Kannst du mir helfen? – Pronomen und Dativverben",
+  "fi": "Can you help me? – pronouns and verbs with the dative",
+  "lvl": "A1++/A2++",
+  "req": [
+   "d01",
+   "d02",
+   "d04",
+   "d05"
+  ],
+  "th": "<h3>1. Situation: asking the neighbours for help</h3><p>In an Austrian block of flats (<i>Wohnhaus</i>) neighbours often help each other: they take in a parcel, lend a ladder or water the plants. Use <i>Sie</i> with neighbours you don't know well and <i>du</i> with friends.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Können Sie mir helfen?</td><td>Can you help me?</td></tr><tr><td>Könnten Sie mein Paket annehmen?</td><td>Could you take in my parcel?</td></tr><tr><td>Ich bin morgen den ganzen Tag weg.</td><td>I'm away all day tomorrow.</td></tr><tr><td>Gehört dieser Schlüssel Ihnen?</td><td>Does this key belong to you?</td></tr><tr><td>Kannst du mir deine Leiter leihen?</td><td>Can you lend me your ladder?</td></tr><tr><td>Kein Problem, ich helfe Ihnen gern.</td><td>No problem, I'm happy to help you.</td></tr><tr><td>Danke, das ist sehr nett!</td><td>Thank you, that's very kind!</td></tr></table><h3>2. Short dialogue</h3><p><b>Aurora:</b> <i>Grüß Gott, Frau Huber! Können Sie mir helfen?</i><br><b>Frau Huber:</b> <i>Gerne. Was gibt's?</i><br><b>Aurora:</b> <i>Morgen kommt ein Paket, aber ich bin den ganzen Tag weg. Könnten Sie das Paket annehmen?</i><br><b>Frau Huber:</b> <i>Ja, natürlich. Ich gebe es Ihnen dann am Abend.</i><br><b>Aurora:</b> <i>Danke, das ist sehr nett. Ich danke Ihnen!</i><br>…<br><b>Frau Huber:</b> <i>Hier ist Ihr Paket. Der Briefträger hat es mir am Vormittag gegeben.</i><br><b>Aurora:</b> <i>Vielen Dank! Und das hier ist ein Kuchen. Ich hoffe, er schmeckt Ihnen.</i></p><h3>3. Grammar: personal pronouns – the whole system</h3><table><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th></tr><tr><td>ich</td><td>mich</td><td>mir</td></tr><tr><td>du</td><td>dich</td><td>dir</td></tr><tr><td>er</td><td>ihn</td><td>ihm</td></tr><tr><td>sie</td><td>sie</td><td>ihr</td></tr><tr><td>es</td><td>es</td><td>ihm</td></tr><tr><td>wir</td><td>uns</td><td>uns</td></tr><tr><td>ihr</td><td>euch</td><td>euch</td></tr><tr><td>sie (plural)</td><td>sie</td><td>ihnen</td></tr><tr><td>Sie (polite)</td><td>Sie</td><td>Ihnen</td></tr></table><h3>Rule 1: pronouns in the accusative and dative</h3><p class=\"rule\">A pronoun takes the case of the noun it replaces – and the gender of the noun, also for things: <i>der Schlüssel → er / ihn / ihm, die Leiter → sie / sie / ihr, das Paket → es / es / ihm</i>. <i>Ich nehme den Schlüssel. → Ich nehme ihn.</i> <i>Ich gebe der Nachbarin das Paket. → Ich gebe ihr das Paket.</i></p><p class=\"tip\">Careful with <b>ihr</b>: it can be <i>ihr</i> (you, plural, Nom.), <i>ihr</i> (to her, Dat.) or the possessive <i>ihr</i> (her / their). <b>uns</b> and <b>euch</b> are the same in Akk. and Dat. Polite <i>Sie / Ihnen</i> always has a capital letter.</p><h3>Rule 2: verbs with the dative</h3><table><tr><th>Verb</th><th>Example</th><th>English</th></tr><tr><td>helfen</td><td>Ich helfe dir.</td><td>I help you.</td></tr><tr><td>danken</td><td>Wir danken Ihnen.</td><td>We thank you.</td></tr><tr><td>gratulieren</td><td>Ich gratuliere dir zum Geburtstag.</td><td>Happy birthday! (I congratulate you)</td></tr><tr><td>gehören</td><td>Der Schlüssel gehört mir.</td><td>The key belongs to me.</td></tr><tr><td>gefallen</td><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>schmecken</td><td>Der Kuchen schmeckt mir.</td><td>I like the cake. (It tastes good to me.)</td></tr><tr><td>passen</td><td>Die Schuhe passen mir. / Passt dir Montag?</td><td>The shoes fit me. / Does Monday suit you?</td></tr></table><p class=\"rule\">These verbs take a <b>dative</b> object, not an accusative: <i>Ich helfe dir</i> (not <i>dich</i>). With <i>gehören, gefallen, schmecken, passen</i> the <b>thing is the subject</b> and the person is in the dative – the verb agrees with the thing: <i>Die Schuhe passen mir. Der Kuchen schmeckt uns.</i></p><p class=\"tip\">English „I like the flat“ ↔ German <i>Die Wohnung gefällt mir</i> (the flat pleases me). For food: <i>Die Suppe schmeckt mir.</i></p><h3>Rule 3: two objects – which comes first?</h3><table><tr><th>Objects</th><th>Example</th><th>Order</th></tr><tr><td>two nouns</td><td>Ich gebe dem Nachbarn das Paket.</td><td>dative before accusative</td></tr><tr><td>pronoun + noun</td><td>Ich gebe ihm das Paket. / Ich gebe es dem Nachbarn.</td><td>pronoun before noun</td></tr><tr><td>two pronouns</td><td>Ich gebe es ihm. / Ich schicke ihn Ihnen.</td><td>accusative before dative</td></tr></table><p class=\"tip\">Short words first: pronouns come before nouns. Only with two pronouns does the accusative come first: <i>Kannst du es mir geben?</i> Like <i>der Kollege</i>, <i>der Nachbar</i> has the forms <i>den Nachbarn, dem Nachbarn</i> (in everyday speech also <i>dem Nachbar</i>).</p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>helfen (er hilft)</td><td>half</td><td>hat geholfen</td></tr><tr><td>gefallen (es gefällt)</td><td>gefiel</td><td>hat gefallen</td></tr><tr><td>annehmen (er nimmt an)</td><td>nahm an</td><td>hat angenommen</td></tr><tr><td>leihen</td><td>lieh</td><td>hat geliehen</td></tr><tr><td>gehören, passen, schmecken, danken, schicken</td><td>gehörte, passte, schmeckte, dankte, schickte</td><td>hat gehört, gepasst, geschmeckt, gedankt, geschickt</td></tr><tr><td>gratulieren</td><td>gratulierte</td><td>hat gratuliert</td></tr></table>",
+  "v": [
+   [
+    "der Nachbar, die Nachbarn",
+    "neighbour (man)"
+   ],
+   [
+    "die Nachbarin, die Nachbarinnen",
+    "neighbour (woman)"
+   ],
+   [
+    "das Paket, die Pakete",
+    "parcel, package"
+   ],
+   [
+    "die Leiter, die Leitern",
+    "ladder"
+   ],
+   [
+    "der Schlüssel, die Schlüssel",
+    "key"
+   ],
+   [
+    "annehmen",
+    "to accept; to take in (a parcel) (nahm an · hat angenommen · wird annehmen)"
+   ],
+   [
+    "helfen",
+    "to help (half · hat geholfen · wird helfen)"
+   ],
+   [
+    "gehören",
+    "to belong to (gehörte · hat gehört · wird gehören)"
+   ],
+   [
+    "gefallen",
+    "to please (I like it = it pleases me) (gefiel · hat gefallen · wird gefallen)"
+   ],
+   [
+    "passen",
+    "to fit; to suit (passte · hat gepasst · wird passen)"
+   ],
+   [
+    "schmecken",
+    "to taste (good) (schmeckte · hat geschmeckt · wird schmecken)"
+   ],
+   [
+    "danken",
+    "to thank (dankte · hat gedankt · wird danken)"
+   ],
+   [
+    "gratulieren",
+    "to congratulate (gratulierte · hat gratuliert · wird gratulieren)"
+   ],
+   [
+    "schicken",
+    "to send (schickte · hat geschickt · wird schicken)"
+   ],
+   [
+    "leihen",
+    "to lend; to borrow (lieh · hat geliehen · wird leihen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Personalpronomen: Nominativ → Akkusativ",
+    "h": "Jedes Kästchen ein Pronomen im Akkusativ.",
+    "head": [
+     "Nominativ",
+     "Akkusativ"
+    ],
+    "r": [
+     [
+      "ich",
+      "[mich]"
+     ],
+     [
+      "du",
+      "[dich]"
+     ],
+     [
+      "er",
+      "[ihn]"
+     ],
+     [
+      "sie (Singular)",
+      "[sie]"
+     ],
+     [
+      "es",
+      "[es]"
+     ],
+     [
+      "wir",
+      "[uns]"
+     ],
+     [
+      "ihr",
+      "[euch]"
+     ],
+     [
+      "sie (Plural)",
+      "[sie]"
+     ],
+     [
+      "Sie (höflich)",
+      "[Sie]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Personalpronomen: Nominativ → Dativ",
+    "h": "Jedes Kästchen ein Pronomen im Dativ.",
+    "head": [
+     "Nominativ",
+     "Dativ"
+    ],
+    "r": [
+     [
+      "ich",
+      "[mir]"
+     ],
+     [
+      "du",
+      "[dir]"
+     ],
+     [
+      "er",
+      "[ihm]"
+     ],
+     [
+      "sie (Singular)",
+      "[ihr]"
+     ],
+     [
+      "es",
+      "[ihm]"
+     ],
+     [
+      "wir",
+      "[uns]"
+     ],
+     [
+      "ihr",
+      "[euch]"
+     ],
+     [
+      "sie (Plural)",
+      "[ihnen]"
+     ],
+     [
+      "Sie (höflich)",
+      "[Ihnen]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Nomen → Pronomen",
+    "h": "Nur das Pronomen, das das Nomen in Klammern ersetzt, im richtigen Fall.",
+    "head": [
+     "Satz",
+     "Pronomen"
+    ],
+    "r": [
+     [
+      "Ich nehme ___. (den Schlüssel)",
+      "[ihn]"
+     ],
+     [
+      "Kannst du ___ halten? (die Leiter)",
+      "[sie]"
+     ],
+     [
+      "Frau Huber nimmt ___ an. (das Paket)",
+      "[es]"
+     ],
+     [
+      "Ich helfe ___. (der Nachbarin)",
+      "[ihr]"
+     ],
+     [
+      "Das Paket gehört ___. (dem Nachbarn)",
+      "[ihm]"
+     ],
+     [
+      "Wir danken ___. (den Nachbarn, Plural)",
+      "[ihnen]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Verben mit Dativ: das richtige Pronomen",
+    "h": "Nur das Pronomen für die Person in Klammern.",
+    "head": [
+     "Satz",
+     "Pronomen"
+    ],
+    "r": [
+     [
+      "Ich helfe ___ gern. (du)",
+      "[dir]"
+     ],
+     [
+      "Der Schlüssel gehört ___. (er)",
+      "[ihm]"
+     ],
+     [
+      "Die Wohnung gefällt ___ sehr. (wir)",
+      "[uns]"
+     ],
+     [
+      "Passt ___ Montag? (Sie)",
+      "[Ihnen]"
+     ],
+     [
+      "Schmeckt ___ der Kuchen? (ihr)",
+      "[euch]"
+     ],
+     [
+      "Ich gratuliere ___ zum Geburtstag. (sie, Singular)",
+      "[ihr]"
+     ],
+     [
+      "Wir danken ___. (sie, Plural)",
+      "[ihnen]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Zwei Objekte: ersetze, was in Klammern steht",
+    "h": "Ganzer Satz, das Subjekt bleibt vorne.",
+    "head": [
+     "Satz",
+     "mit Pronomen"
+    ],
+    "r": [
+     [
+      "Ich gebe dem Nachbarn das Paket. (dem Nachbarn)",
+      "[Ich gebe ihm das Paket.]"
+     ],
+     [
+      "Ich gebe dem Nachbarn das Paket. (das Paket)",
+      "[Ich gebe es dem Nachbarn.]"
+     ],
+     [
+      "Ich gebe dem Nachbarn das Paket. (beide)",
+      "[Ich gebe es ihm.]"
+     ],
+     [
+      "Wir leihen der Nachbarin die Leiter. (der Nachbarin)",
+      "[Wir leihen ihr die Leiter.]"
+     ],
+     [
+      "Wir leihen der Nachbarin die Leiter. (die Leiter)",
+      "[Wir leihen sie der Nachbarin.]"
+     ],
+     [
+      "Wir leihen der Nachbarin die Leiter. (beide)",
+      "[Wir leihen sie ihr.]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Nur die Form für er/sie, z. B. machte.",
+    "head": [
+     "Infinitiv",
+     "Präteritum (er/sie)"
+    ],
+    "r": [
+     [
+      "helfen",
+      "[half]"
+     ],
+     [
+      "gefallen",
+      "[gefiel]"
+     ],
+     [
+      "annehmen",
+      "[nahm an]"
+     ],
+     [
+      "leihen",
+      "[lieh]"
+     ],
+     [
+      "schicken",
+      "[schickte]"
+     ],
+     [
+      "gratulieren",
+      "[gratulierte]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Perfekt (er/sie)",
+    "h": "Hilfsverb + Partizip II, z. B. hat gemacht.",
+    "head": [
+     "Infinitiv",
+     "Perfekt (er/sie)"
+    ],
+    "r": [
+     [
+      "helfen",
+      "[hat geholfen]"
+     ],
+     [
+      "gefallen",
+      "[hat gefallen]"
+     ],
+     [
+      "annehmen",
+      "[hat angenommen]"
+     ],
+     [
+      "leihen",
+      "[hat geliehen]"
+     ],
+     [
+      "schmecken",
+      "[hat geschmeckt]"
+     ],
+     [
+      "gratulieren",
+      "[hat gratuliert]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Am Samstag ___ ich dir helfen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "werde"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Wohnung ___ euch sicher gefallen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "wird"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Frau Huber ___ mein Paket angenommen.",
+    "h": "haben oder sein – richtige Form im Präsens",
+    "a": [
+     "hat"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Kannst du ___ helfen? (ich)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "mir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich besuche ___ morgen. (du)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "dich"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Hast du ___ schon gratuliert? (er)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "ihm"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wo ist die Leiter? – Ich habe ___ der Nachbarin geliehen.",
+    "h": "Pronomen für „die Leiter“",
+    "a": [
+     "sie"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe den Schlüssel gefunden. Ich gebe ___ dir gleich.",
+    "h": "Pronomen für „der Schlüssel“",
+    "a": [
+     "ihn"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wie gefällt ___ die Wohnung, Frau Novak? (Sie)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "Ihnen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Danke, der Kuchen schmeckt ___ sehr gut! (ich)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "mir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir gratulieren ___ zum Geburtstag! (du)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "dir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich danke ___ sehr, Herr Berger! (Sie)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "Ihnen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Lena und Jonas, kann ich ___ helfen? (ihr)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "euch"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Wohnung ___ mir sehr. (gefallen)",
+    "h": "Verb in Klammern – richtige Form im Präsens",
+    "a": [
+     "gefällt"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Schuhe ___ mir nicht. (passen)",
+    "h": "Verb in Klammern – richtige Form im Präsens",
+    "a": [
+     "passen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Die Nachbarn ___ uns oft. (helfen)",
+    "h": "Verb in Klammern – richtige Form im Präsens",
+    "a": [
+     "helfen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wem ___ das Paket? (gehören)",
+    "h": "Verb in Klammern – richtige Form im Präsens",
+    "a": [
+     "gehört"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich helfe ___ Nachbarin.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "der"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Gehört der Schlüssel ___ Nachbarn? (Singular)",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "dem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir danken ___ Nachbarinnen sehr.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich bin morgen weg, ___ nimmt Frau Huber das Paket an.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "deshalb"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich helfe Lena gern, ___ sie mir auch oft hilft.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "weil"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir schenken ___ Nachbarin einen Blumenstrauß.",
+    "h": "unbestimmter Artikel im richtigen Fall",
+    "a": [
+     "einer"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Gehört das Paket ___?“ (Sie)",
+    "o": [
+     "Ihnen",
+     "Sie",
+     "Ihr"
+    ],
+    "a": 0,
+    "x": "gehören takes the dative: Sie → Ihnen."
+   },
+   {
+    "t": "mc",
+    "q": "„Ich helfe ___ gern.“ (du)",
+    "o": [
+     "dir",
+     "dich",
+     "du"
+    ],
+    "a": 0,
+    "x": "helfen takes the dative: du → dir."
+   },
+   {
+    "t": "mc",
+    "q": "„Ich besuche ___ morgen.“ (er)",
+    "o": [
+     "ihn",
+     "ihm",
+     "er"
+    ],
+    "a": 0,
+    "x": "besuchen takes the accusative: er → ihn."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Ich gebe es ihm.",
+     "Ich gebe ihm es.",
+     "Ich es gebe ihm."
+    ],
+    "a": 0,
+    "x": "Two pronouns: accusative (es) before dative (ihm)."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Die Schuhe passen mir nicht.",
+     "Die Schuhe passen mich nicht.",
+     "Ich passe die Schuhe nicht."
+    ],
+    "a": 0,
+    "x": "passen: the thing is the subject, the person is in the dative (mir)."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Der Kuchen schmeckt uns.",
+     "Wir schmecken den Kuchen.",
+     "Uns schmecken den Kuchen."
+    ],
+    "a": 0,
+    "x": "schmecken: the food is the subject, the person is in the dative (uns)."
+   },
+   {
+    "t": "mc",
+    "q": "„Der Schlüssel gehört ___ Nachbarin.“",
+    "o": [
+     "der",
+     "die",
+     "dem"
+    ],
+    "a": 0,
+    "x": "gehören + dative; die Nachbarin → der Nachbarin."
+   },
+   {
+    "t": "mc",
+    "q": "„Kannst du ___ die Leiter leihen?“ (ich)",
+    "o": [
+     "mir",
+     "mich",
+     "ich"
+    ],
+    "a": 0,
+    "x": "The person who receives something is in the dative: mir."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Can you help me? (du)",
+    "a": [
+     "Kannst du mir helfen?",
+     "Könntest du mir helfen?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Does this key belong to you? (Sie)",
+    "a": [
+     "Gehört dieser Schlüssel Ihnen?",
+     "Gehört der Schlüssel Ihnen?",
+     "Gehört Ihnen dieser Schlüssel?",
+     "Gehört Ihnen der Schlüssel?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I like the flat very much.",
+    "a": [
+     "Die Wohnung gefällt mir sehr gut.",
+     "Die Wohnung gefällt mir sehr.",
+     "Mir gefällt die Wohnung sehr gut.",
+     "Mir gefällt die Wohnung sehr."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Could you take in my parcel, please? (Sie)",
+    "a": [
+     "Könnten Sie bitte mein Paket annehmen?",
+     "Könnten Sie mein Paket bitte annehmen?",
+     "Könnten Sie mein Paket annehmen?",
+     "Können Sie bitte mein Paket annehmen?",
+     "Können Sie mein Paket bitte annehmen?",
+     "Können Sie mein Paket annehmen?",
+     "Könnten Sie bitte mein Paket übernehmen?",
+     "Könnten Sie mein Paket bitte übernehmen?",
+     "Könnten Sie mein Paket übernehmen?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Das Paket gehört der Nachbarin.",
+    "a": [
+     "The parcel belongs to the neighbour.",
+     "The parcel belongs to the neighbor.",
+     "The package belongs to the neighbour.",
+     "The package belongs to the neighbor."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Ich habe es ihm gestern gegeben.",
+    "a": [
+     "I gave it to him yesterday.",
+     "Yesterday I gave it to him.",
+     "I gave him it yesterday."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Schmeckt dir die Suppe?",
+    "a": [
+     "Do you like the soup?",
+     "Does the soup taste good?",
+     "Is the soup good?",
+     "Does the soup taste good to you?",
+     "Do you like the taste of the soup?"
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "gebe",
+     "dem",
+     "Nachbarn",
+     "das",
+     "Paket"
+    ],
+    "a": [
+     "Ich gebe dem Nachbarn das Paket.",
+     "Dem Nachbarn gebe ich das Paket.",
+     "Das Paket gebe ich dem Nachbarn."
+    ],
+    "de": "I'm giving the parcel to the neighbour."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "schicke",
+     "ihn",
+     "Ihnen",
+     "morgen"
+    ],
+    "a": [
+     "Ich schicke ihn Ihnen morgen.",
+     "Morgen schicke ich ihn Ihnen."
+    ],
+    "de": "I'll send it (the key) to you tomorrow."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Kannst",
+     "du",
+     "es",
+     "mir",
+     "geben"
+    ],
+    "a": [
+     "Kannst du es mir geben?"
+    ],
+    "de": "Can you give it to me?"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "helfe",
+     "der",
+     "Nachbarin",
+     "weil",
+     "sie",
+     "mir",
+     "oft",
+     "hilft"
+    ],
+    "a": [
+     "Ich helfe der Nachbarin, weil sie mir oft hilft.",
+     "Weil sie mir oft hilft, helfe ich der Nachbarin.",
+     "Der Nachbarin helfe ich, weil sie mir oft hilft."
+    ],
+    "de": "I help the neighbour because she often helps me."
+   },
+   {
+    "t": "les",
+    "q": "Ein Zettel an der Tür",
+    "txt": [
+     "Liebe Frau Huber!",
+     "Morgen kommt ein Paket, aber ich bin den ganzen Tag weg.",
+     "Könnten Sie das Paket bitte annehmen?",
+     "Ich hole es am Abend ab.",
+     "Vielen Dank! Aurora"
+    ],
+    "qs": [
+     {
+      "q": "Why does Aurora write the note?",
+      "o": [
+       "She is away tomorrow and a parcel is coming.",
+       "She has lost her key.",
+       "She needs a ladder."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When will she collect the parcel?",
+      "o": [
+       "in the evening",
+       "in the morning",
+       "next week"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht von Jonas",
+    "txt": [
+     "Hallo Aurora!",
+     "Danke, der Kuchen hat uns sehr gut geschmeckt.",
+     "Die Leiter gehört übrigens nicht mir, sie gehört meinem Bruder.",
+     "Kannst du sie ihm am Montag geben?",
+     "Danke! Jonas"
+    ],
+    "qs": [
+     {
+      "q": "Who does the ladder belong to?",
+      "o": [
+       "Jonas's brother",
+       "Jonas",
+       "Aurora"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What should Aurora do on Monday?",
+      "o": [
+       "give the ladder to Jonas's brother",
+       "bake a cake",
+       "buy a ladder"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Die neue Nachbarin",
+    "txt": [
+     "Frau Novak ist neu im Haus.",
+     "Die Wohnung gefällt ihr sehr gut, aber der Kasten ist zu groß.",
+     "Am Samstag helfen ihr Aurora und Jonas.",
+     "Danach kocht Frau Novak, und das Essen schmeckt allen sehr gut.",
+     "Sie dankt ihnen und sagt: „Ich helfe euch auch gern!“"
+    ],
+    "qs": [
+     {
+      "q": "Does Frau Novak like the flat?",
+      "o": [
+       "yes, very much",
+       "no",
+       "we don't know"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What is the problem?",
+      "o": [
+       "The wardrobe is too big.",
+       "The flat is too small.",
+       "The food is not good."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who helps her on Saturday?",
+      "o": [
+       "Aurora and Jonas",
+       "Frau Huber",
+       "nobody"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Der Nachbar hat Ihr Paket",
+    "r": [
+     [
+      "Herr Berger",
+      "Grüß Gott! Ich habe hier ein Paket für Sie. Der Briefträger hat es mir heute gegeben."
+     ],
+     [
+      "Du",
+      "[Danke, das ist sehr nett!|Vielen Dank, das ist sehr nett!|Danke, das ist sehr nett von Ihnen!|Vielen Dank, das ist sehr nett von Ihnen!|Ich danke Ihnen!]",
+      "Thank him and say that's very kind."
+     ],
+     [
+      "Herr Berger",
+      "Gern geschehen. Gehört dieser Schlüssel auch Ihnen? Er war vor der Tür."
+     ],
+     [
+      "Du",
+      "[Ja, der gehört mir.|Ja, er gehört mir.|Ja, der Schlüssel gehört mir.|Ja, das ist mein Schlüssel.]",
+      "Say yes, it belongs to you."
+     ],
+     [
+      "Herr Berger",
+      "Hier, bitte."
+     ],
+     [
+      "Du",
+      "[Wenn Sie Hilfe brauchen, helfe ich Ihnen gern.|Ich helfe Ihnen auch gern, wenn Sie Hilfe brauchen.|Ich helfe Ihnen auch gern.]",
+      "Offer to help him too some time."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Lena zieht um",
+    "r": [
+     [
+      "Lena",
+      "Kannst du mir am Samstag helfen? Ich ziehe um."
+     ],
+     [
+      "Du",
+      "[Ja, ich helfe dir gern.|Ja, ich helfe dir gerne.|Ja, gern.|Ja, gerne.|Klar, ich helfe dir gern.|Natürlich helfe ich dir.]",
+      "Say yes, you'll gladly help her."
+     ],
+     [
+      "Lena",
+      "Super! Hast du eine Leiter?"
+     ],
+     [
+      "Du",
+      "[Ja, ich leihe sie dir.|Ja, ich kann sie dir leihen.|Ja, ich leihe dir meine Leiter.|Ja, ich borge sie dir.|Ja, ich kann sie dir borgen.]",
+      "Say yes, and that you'll lend it to her."
+     ],
+     [
+      "Lena",
+      "Danke! Passt dir neun Uhr?"
+     ],
+     [
+      "Du",
+      "[Zehn Uhr passt mir besser.|Mir passt zehn Uhr besser.|Um zehn Uhr passt es mir besser.|Zehn passt mir besser.]",
+      "Say that ten o'clock suits you better."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write a note to your neighbour (Sie): a parcel is coming tomorrow and you are away. Ask her to take it in.",
+    "a": [
+     "Liebe Frau Huber, morgen kommt ein Paket, aber ich bin nicht da. Könnten Sie das Paket bitte annehmen? Vielen Dank!"
+    ],
+    "h": "2–3 Sätze, Sie"
+   },
+   {
+    "t": "sch",
+    "q": "Your neighbour (Sie) has helped you and brought you a cake. Write 2 sentences: thank him and say how you liked the cake.",
+    "a": [
+     "Ich danke Ihnen sehr! Der Kuchen hat mir sehr gut geschmeckt."
+    ],
+    "h": "2 Sätze, Sie"
+   },
+   {
+    "t": "sch",
+    "q": "A friend (du) asks if he can borrow your ladder. Answer in 2 sentences: you'll lend it to him, and he can give it back to you on Monday.",
+    "a": [
+     "Ja, ich leihe sie dir gern. Du kannst sie mir am Montag zurückgeben."
+    ],
+    "h": "2 Sätze, du"
+   },
+   {
+    "t": "mc",
+    "q": "„Der Kuchen schmeckt mir.“ – What is the subject of this sentence?",
+    "o": [
+     "der Kuchen",
+     "mir",
+     "schmeckt",
+     "there is no subject"
+    ],
+    "a": 0,
+    "x": "With schmecken, gefallen, passen and gehören the thing is the subject; the person is in the dative (mir)."
+   },
+   {
+    "t": "mc",
+    "q": "Which verbs take a dative object?",
+    "o": [
+     "helfen, danken, gratulieren",
+     "besuchen, fragen, kennen",
+     "kaufen, nehmen, suchen",
+     "haben, brauchen, finden"
+    ],
+    "a": 0,
+    "x": "helfen, danken, gratulieren (and gehören, gefallen, passen, schmecken) take the dative. The others take the accusative."
+   },
+   {
+    "t": "mc",
+    "q": "Two pronouns as objects – which order is correct?",
+    "o": [
+     "accusative before dative: Ich gebe es ihm.",
+     "dative before accusative: Ich gebe ihm es.",
+     "any order",
+     "the longer word first"
+    ],
+    "a": 0,
+    "x": "Two pronouns: accusative first (es ihm, ihn Ihnen). Two nouns: dative first (dem Nachbarn das Paket)."
+   },
+   {
+    "t": "mc",
+    "q": "A pronoun and a noun as objects – which comes first?",
+    "o": [
+     "the pronoun: Ich gebe ihm das Paket. / Ich gebe es dem Nachbarn.",
+     "the noun",
+     "always the dative",
+     "always the accusative"
+    ],
+    "a": 0,
+    "x": "Pronouns come before nouns, whatever their case."
+   }
+  ]
+ },
+ {
+  "id": "d07",
+  "title": "Ist das deiner? – Wem gehört was?",
+  "fi": "Is this yours? – Who does what belong to?",
+  "lvl": "A2",
+  "req": [
+   "d01",
+   "d02",
+   "d04",
+   "d05",
+   "d06"
+  ],
+  "th": "<h3>1. Situation: the morning after the company party</h3><p>After the <i>Firmenfeier</i> (company party) there are always things left at the cloakroom (<i>Garderobe</i>): coats, scarves, umbrellas. In the office kitchen everybody has his or her own mug – in Austria often called <i>Häferl</i> (informal).</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wem gehört dieser Mantel?</td><td>Who does this coat belong to?</td></tr><tr><td>Ist das deiner? – Ja, das ist meiner.</td><td>Is it yours? – Yes, it's mine.</td></tr><tr><td>Nein, meiner ist grau.</td><td>No, mine is grey.</td></tr><tr><td>Welcher Schal ist deiner? – Der da.</td><td>Which scarf is yours? – That one.</td></tr><tr><td>Ich habe meinen Regenschirm vergessen. – Hier ist einer.</td><td>I've forgotten my umbrella. – Here's one.</td></tr><tr><td>Das Häferl gehört nicht mir, das ist Sabines.</td><td>The mug isn't mine, it's Sabine's.</td></tr><tr><td>Hast du Handschuhe? – Nein, ich habe keine.</td><td>Have you got gloves? – No, I haven't got any.</td></tr></table><h3>2. Short dialogue</h3><p><b>Jonas:</b> <i>Die Garderobe ist noch voll: zwei Mäntel, ein Schal und ein Regenschirm. Gehört dir einer von den Mänteln?</i><br><b>Aurora:</b> <i>Ja, der da ist meiner. Den habe ich am Freitag vergessen.</i><br><b>Jonas:</b> <i>Und der Schal? Ist das deiner?</i><br><b>Aurora:</b> <i>Nein, meiner ist rot. Der gehört vielleicht Lena.</i><br><b>Jonas:</b> <i>Und wem gehört der Regenschirm?</i><br><b>Aurora:</b> <i>Keine Ahnung. Ich habe keinen. Vielleicht Herrn Gruber?</i></p><h3>3. Grammar: words that stand alone – the whole system</h3><p>When the noun is clear, German leaves it out: <i>Das ist mein Mantel.</i> → <i>Das ist <b>meiner</b>.</i> Order: masculine · feminine · neuter · plural.</p><table><tr><th>Case</th><th>mein- / dein- / kein- … alone</th><th>der / die / das alone</th></tr><tr><td>Nominativ</td><td>meiner · meine · meins · meine</td><td>der · die · das · die</td></tr><tr><td>Akkusativ</td><td>meinen · meine · meins · meine</td><td>den · die · das · die</td></tr><tr><td>Dativ</td><td>meinem · meiner · meinem · meinen</td><td>dem · der · dem · <b>denen</b></td></tr></table><h3>Rule 1: mein-, dein-, kein-, ein- alone</h3><p class=\"rule\">Alone, the ein-words take the ending of der/die/das in all forms: <i>der Mantel → meiner, das Häferl → meins</i>. Before a noun three forms have no ending (<i>mein Mantel, mein Häferl</i>) – alone they do: <i>Das ist meiner. Das ist meins.</i> All other forms are the same as before a noun: <i>Ich suche meinen Schal. → Ich suche meinen.</i></p><table><tr><th>Before a noun</th><th>Alone</th><th>English</th></tr><tr><td>Ist das dein Schal?</td><td>Ist das deiner?</td><td>Is it yours?</td></tr><tr><td>Hier ist ein Regenschirm.</td><td>Hier ist einer.</td><td>Here's one.</td></tr><tr><td>Ich habe kein Häferl.</td><td>Ich habe keins.</td><td>I haven't got one.</td></tr><tr><td>Ich habe Handschuhe.</td><td>Ich habe welche.</td><td>I've got some.</td></tr></table><p class=\"tip\"><i>meins, deins, eins, keins</i> are the usual forms; <i>meines, deines, eines, keines</i> are also correct (more formal). <i>ein</i> has no plural – alone you say <b>welche</b> (some): <i>Haben wir noch Häferl? – Ja, im Kasten sind welche.</i> Negative: <i>keine</i>.</p><h3>Rule 2: der, die, das alone (= this one / that one)</h3><p class=\"rule\">der/die/das can stand alone to point at something or to pick it up again: <i>Welcher Schal ist deiner? – <b>Der</b> da.</i> <i>Der Mantel? <b>Den</b> habe ich vergessen.</i> The forms are those of the article, except <b>dative plural: denen</b> (article: den).</p><p class=\"tip\">Often at the beginning of the sentence and stressed: <i>Den nehme ich.</i> = I'll take that one. In everyday speech very common, also for people: <i>Der ist nett.</i> In writing, <i>er/sie/es</i> is more neutral.</p><h3>Using it: Wem gehört …? – Welcher …?</h3><p class=\"rule\"><i>gehören</i> + dative (see d06): <i>Wem gehört der Regenschirm? – Der gehört Herrn Gruber.</i> <b>welcher?</b> has the endings of der: <i>Welcher Mantel ist deiner? Welchen nimmst du? Welchem Kollegen gehört das Häferl?</i></p><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>vergessen (er vergisst)</td><td>vergaß</td><td>hat vergessen</td></tr><tr><td>verlieren</td><td>verlor</td><td>hat verloren</td></tr><tr><td>finden</td><td>fand</td><td>hat gefunden</td></tr><tr><td>abholen</td><td>holte ab</td><td>hat abgeholt</td></tr></table><p class=\"tip\"><i>vergessen</i> and <i>verlieren</i> have no ge- in the Partizip (prefix ver-).</p>",
+  "v": [
+   [
+    "die Firmenfeier, die Firmenfeiern",
+    "company party, office party"
+   ],
+   [
+    "die Garderobe, die Garderoben",
+    "cloakroom; coat rack"
+   ],
+   [
+    "der Mantel, die Mäntel",
+    "coat"
+   ],
+   [
+    "die Jacke, die Jacken",
+    "jacket"
+   ],
+   [
+    "der Schal, die Schals",
+    "scarf"
+   ],
+   [
+    "der Regenschirm, die Regenschirme",
+    "umbrella"
+   ],
+   [
+    "der Handschuh, die Handschuhe",
+    "glove"
+   ],
+   [
+    "das Häferl, die Häferl",
+    "mug, cup (Austria, informal; Germany: Becher, Tasse)"
+   ],
+   [
+    "der Kühlschrank, die Kühlschränke",
+    "fridge"
+   ],
+   [
+    "vergessen",
+    "to forget; to leave behind (vergaß · hat vergessen · wird vergessen)"
+   ],
+   [
+    "verlieren",
+    "to lose (verlor · hat verloren · wird verlieren)"
+   ],
+   [
+    "finden",
+    "to find (fand · hat gefunden · wird finden)"
+   ],
+   [
+    "abholen",
+    "to pick up, to collect (holte ab · hat abgeholt · wird abholen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "meiner, meine, meins … in allen Fällen",
+    "h": "Jedes Kästchen eine Form von mein- allein. Reihenfolge: maskulin · feminin · neutral · Plural.",
+    "head": [
+     "Fall und Genus",
+     "mein- allein"
+    ],
+    "r": [
+     [
+      "Nominativ maskulin",
+      "[meiner]"
+     ],
+     [
+      "Nominativ feminin",
+      "[meine]"
+     ],
+     [
+      "Nominativ neutral",
+      "[meins|meines]"
+     ],
+     [
+      "Nominativ Plural",
+      "[meine]"
+     ],
+     [
+      "Akkusativ maskulin",
+      "[meinen]"
+     ],
+     [
+      "Akkusativ feminin",
+      "[meine]"
+     ],
+     [
+      "Akkusativ neutral",
+      "[meins|meines]"
+     ],
+     [
+      "Akkusativ Plural",
+      "[meine]"
+     ],
+     [
+      "Dativ maskulin",
+      "[meinem]"
+     ],
+     [
+      "Dativ feminin",
+      "[meiner]"
+     ],
+     [
+      "Dativ neutral",
+      "[meinem]"
+     ],
+     [
+      "Dativ Plural",
+      "[meinen]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "der, die, das allein in allen Fällen",
+    "h": "Jedes Kästchen eine Form. Reihenfolge: maskulin · feminin · neutral · Plural.",
+    "head": [
+     "Fall und Genus",
+     "der/die/das allein"
+    ],
+    "r": [
+     [
+      "Nominativ maskulin",
+      "[der]"
+     ],
+     [
+      "Nominativ feminin",
+      "[die]"
+     ],
+     [
+      "Nominativ neutral",
+      "[das]"
+     ],
+     [
+      "Nominativ Plural",
+      "[die]"
+     ],
+     [
+      "Akkusativ maskulin",
+      "[den]"
+     ],
+     [
+      "Akkusativ feminin",
+      "[die]"
+     ],
+     [
+      "Akkusativ neutral",
+      "[das]"
+     ],
+     [
+      "Akkusativ Plural",
+      "[die]"
+     ],
+     [
+      "Dativ maskulin",
+      "[dem]"
+     ],
+     [
+      "Dativ feminin",
+      "[der]"
+     ],
+     [
+      "Dativ neutral",
+      "[dem]"
+     ],
+     [
+      "Dativ Plural",
+      "[denen]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Vor dem Nomen → allein",
+    "h": "Nur das Wort, das allein steht (ohne Nomen).",
+    "head": [
+     "Satz",
+     "allein"
+    ],
+    "r": [
+     [
+      "Das ist mein Mantel. → Das ist ___.",
+      "[meiner]"
+     ],
+     [
+      "Das ist meine Jacke. → Das ist ___.",
+      "[meine]"
+     ],
+     [
+      "Das ist mein Häferl. → Das ist ___.",
+      "[meins|meines]"
+     ],
+     [
+      "Das sind meine Handschuhe. → Das sind ___.",
+      "[meine]"
+     ],
+     [
+      "Ist das dein Schal? → Ist das ___?",
+      "[deiner]"
+     ],
+     [
+      "Das ist sein Regenschirm. → Das ist ___.",
+      "[seiner]"
+     ],
+     [
+      "Das ist ihr Mantel. → Das ist ___.",
+      "[ihrer]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "einer, keiner, welche: Antwort ohne Nomen",
+    "h": "Nur das Wort ohne Nomen, im richtigen Fall.",
+    "head": [
+     "Frage – Antwort",
+     "Wort"
+    ],
+    "r": [
+     [
+      "Hast du einen Regenschirm? – Ja, ich habe ___.",
+      "[einen]"
+     ],
+     [
+      "Hast du ein Häferl? – Nein, ich habe ___.",
+      "[keins|keines]"
+     ],
+     [
+      "Brauchst du eine Jacke? – Nein, ich habe ___.",
+      "[eine]"
+     ],
+     [
+      "Hast du Handschuhe? – Ja, ich habe ___.",
+      "[welche]"
+     ],
+     [
+      "Gibt es noch Häferl? – Nein, es gibt ___ mehr.",
+      "[keine]"
+     ],
+     [
+      "Ist hier ein Kühlschrank? – Ja, hier ist ___.",
+      "[einer]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Nur die Form für er/sie, z. B. machte.",
+    "head": [
+     "Infinitiv",
+     "Präteritum (er/sie)"
+    ],
+    "r": [
+     [
+      "vergessen",
+      "[vergaß]"
+     ],
+     [
+      "verlieren",
+      "[verlor]"
+     ],
+     [
+      "finden",
+      "[fand]"
+     ],
+     [
+      "abholen",
+      "[holte ab]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Perfekt (er/sie)",
+    "h": "Hilfsverb + Partizip II, z. B. hat gemacht.",
+    "head": [
+     "Infinitiv",
+     "Perfekt (er/sie)"
+    ],
+    "r": [
+     [
+      "vergessen",
+      "[hat vergessen]"
+     ],
+     [
+      "verlieren",
+      "[hat verloren]"
+     ],
+     [
+      "finden",
+      "[hat gefunden]"
+     ],
+     [
+      "abholen",
+      "[hat abgeholt]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Morgen ___ ich meinen Mantel abholen.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "werde"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Lena ___ ihre Handschuhe sicher wieder verlieren.",
+    "h": "Futur I: werden – richtige Form",
+    "a": [
+     "wird"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ meinen Regenschirm auf der Firmenfeier vergessen.",
+    "h": "haben oder sein – richtige Form im Präsens",
+    "a": [
+     "habe"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ist das dein Schal? – Ja, das ist ___.",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "meiner"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ist das deine Jacke? – Nein, das ist nicht ___.",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "meine"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ist das dein Häferl? – Ja, das ist ___.",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "meins",
+     "meines"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe keinen Regenschirm. Hast du ___?",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "einen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir brauchen noch ein Häferl. – Hier ist ___.",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "eins",
+     "eines"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Hast du Handschuhe? – Nein, ich habe ___.",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "keine"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mein Mantel ist grau. Und ___? (dein-)",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "deiner"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe meinen Schal gefunden. Hast du ___ auch gefunden? (dein-)",
+    "h": "mein-/dein-/ein-/kein- allein, mit der richtigen Endung",
+    "a": [
+     "deinen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Haben wir noch Milch? – Nein, aber ich kaufe ___.",
+    "h": "Wort ohne Nomen (some)",
+    "a": [
+     "welche"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Welcher Mantel gehört dir? – ___ da.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Der"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Welchen Schal nimmst du? – ___ nehme ich.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Welche Jacke ist deine? – ___ da.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Die"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Und das Häferl? – ___ gehört Herrn Gruber.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Das"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Der Regenschirm? ___ habe ich gestern gefunden.",
+    "h": "der, die oder das allein – richtiger Fall",
+    "a": [
+     "Den"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Mantel gehört dir?",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welcher"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Schal nimmst du?",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welchen"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Kollegin gehört das Häferl?",
+    "h": "welch- mit der richtigen Endung",
+    "a": [
+     "Welcher"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Der Regenschirm gehört ___ Kollegen. (der Kollege)",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "dem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe meinen Schal vergessen, ___ hole ich ihn morgen ab.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "deshalb"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe keinen Schirm, ___ gehe ich zu Fuß.",
+    "h": "deshalb, trotzdem oder weil?",
+    "a": [
+     "trotzdem"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Kannst du ___ den Schirm geben? (ich)",
+    "h": "Pronomen im richtigen Fall",
+    "a": [
+     "mir"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich gebe ___ Kollegin das Häferl.",
+    "h": "bestimmter Artikel im richtigen Fall",
+    "a": [
+     "der"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "An der Garderobe hängen noch zwei ___. (der Mantel)",
+    "h": "Plural – nur das Nomen",
+    "a": [
+     "Mäntel"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir kaufen ___ Kühlschrank für die Büroküche.",
+    "h": "unbestimmter Artikel im richtigen Fall",
+    "a": [
+     "einen"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Ist das dein Mantel?“ – „Ja, das ist ___.“",
+    "o": [
+     "meiner",
+     "mein",
+     "meinen"
+    ],
+    "a": 0,
+    "x": "Alone, mein- takes the der-ending: der Mantel → meiner."
+   },
+   {
+    "t": "mc",
+    "q": "„Hast du einen Schirm?“ – „Nein, ich habe ___.“",
+    "o": [
+     "keinen",
+     "keiner",
+     "kein"
+    ],
+    "a": 0,
+    "x": "Accusative masculine: keinen – the same form as before a noun."
+   },
+   {
+    "t": "mc",
+    "q": "„Brauchst du ein Häferl?“ – „Ja, ich brauche ___.“",
+    "o": [
+     "eins",
+     "einer",
+     "ein"
+    ],
+    "a": 0,
+    "x": "Neuter alone: eins (or eines). Before a noun: ein Häferl."
+   },
+   {
+    "t": "mc",
+    "q": "„Welchen Schal nimmst du?“ – „___ nehme ich.“",
+    "o": [
+     "Den",
+     "Der",
+     "Dem"
+    ],
+    "a": 0,
+    "x": "nehmen takes the accusative: der Schal → den."
+   },
+   {
+    "t": "mc",
+    "q": "„Gehören die Häferl Lena und Jonas?“ – „Ja, ___ gehören sie.“",
+    "o": [
+     "denen",
+     "den",
+     "die"
+    ],
+    "a": 0,
+    "x": "der/die/das alone: dative plural is denen (not den)."
+   },
+   {
+    "t": "mc",
+    "q": "„Der Mantel gehört ___.“ (der Herr)",
+    "o": [
+     "dem Herrn",
+     "dem Herr",
+     "den Herr"
+    ],
+    "a": 0,
+    "x": "gehören + dative; der Herr → dem Herrn (d05)."
+   },
+   {
+    "t": "mc",
+    "q": "Was ist der Plural von „der Mantel“?",
+    "o": [
+     "die Mäntel",
+     "die Mantels",
+     "die Mantel"
+    ],
+    "a": 0,
+    "x": "-el nouns take no ending, some get an umlaut: der Mantel → die Mäntel (d04)."
+   },
+   {
+    "t": "mc",
+    "q": "Welcher Satz ist richtig?",
+    "o": [
+     "Ich gebe ihn dir morgen.",
+     "Ich gebe dir ihn morgen.",
+     "Ich gebe ihn morgen dir."
+    ],
+    "a": 0,
+    "x": "Two pronouns: accusative before dative (d06)."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Is this your coat? (du) – Yes, it's mine.",
+    "a": [
+     "Ist das dein Mantel? – Ja, das ist meiner.",
+     "Ist das dein Mantel? Ja, das ist meiner.",
+     "Ist das dein Mantel? – Ja, der ist meiner.",
+     "Ist das dein Mantel? Ja, der ist meiner."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I've forgotten my umbrella.",
+    "a": [
+     "Ich habe meinen Regenschirm vergessen.",
+     "Ich habe meinen Schirm vergessen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Who does the mug belong to?",
+    "a": [
+     "Wem gehört das Häferl?",
+     "Wem gehört die Tasse?",
+     "Wem gehört der Becher?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Den nehme ich.",
+    "a": [
+     "I'll take that one.",
+     "I'll take this one.",
+     "I'm taking that one.",
+     "I'm taking this one.",
+     "I take that one."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Hast du einen Regenschirm? – Nein, ich habe keinen.",
+    "a": [
+     "Do you have an umbrella? – No, I don't have one.",
+     "Have you got an umbrella? – No, I haven't got one.",
+     "Do you have an umbrella? – No, I don't.",
+     "Have you got an umbrella? – No, I haven't."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Welcher Schal ist deiner?",
+    "a": [
+     "Which scarf is yours?",
+     "Which one is your scarf?"
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Der",
+     "Mantel",
+     "gehört",
+     "mir",
+     "nicht"
+    ],
+    "a": [
+     "Der Mantel gehört mir nicht.",
+     "Mir gehört der Mantel nicht."
+    ],
+    "de": "The coat doesn't belong to me."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Den",
+     "habe",
+     "ich",
+     "gestern",
+     "vergessen"
+    ],
+    "a": [
+     "Den habe ich gestern vergessen.",
+     "Gestern habe ich den vergessen.",
+     "Ich habe den gestern vergessen."
+    ],
+    "de": "I forgot that one yesterday."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "glaube",
+     "dass",
+     "der",
+     "Schal",
+     "Lena",
+     "gehört"
+    ],
+    "a": [
+     "Ich glaube, dass der Schal Lena gehört.",
+     "Ich glaube, dass Lena der Schal gehört.",
+     "Dass der Schal Lena gehört, glaube ich."
+    ],
+    "de": "I think the scarf belongs to Lena."
+   },
+   {
+    "t": "les",
+    "q": "Nach der Firmenfeier",
+    "txt": [
+     "Die Firmenfeier war am Freitag.",
+     "Am Montag ist die Garderobe noch voll: zwei Mäntel, ein Schal und drei Regenschirme.",
+     "Ein Mantel gehört Herrn Gruber. Wem der andere gehört, weiß niemand.",
+     "Lena findet ihren Schal sofort.",
+     "Die Regenschirme holt Jonas am Abend ab."
+    ],
+    "qs": [
+     {
+      "q": "Who does one of the coats belong to?",
+      "o": [
+       "Mr Gruber",
+       "Lena",
+       "Jonas"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Lena find?",
+      "o": [
+       "her scarf",
+       "her coat",
+       "an umbrella"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who collects the umbrellas?",
+      "o": [
+       "Jonas",
+       "Mr Gruber",
+       "nobody"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Zettel in der Büroküche",
+    "txt": [
+     "Liebe Kolleginnen und Kollegen!",
+     "Im Kühlschrank steht seit Freitag ein Joghurt. Wem gehört er?",
+     "Bitte heute abholen, sonst werfe ich ihn weg.",
+     "Und noch etwas: Das Häferl mit dem Hund ist meins, nicht eures!",
+     "Danke, Sabine"
+    ],
+    "qs": [
+     {
+      "q": "What has been in the fridge since Friday?",
+      "o": [
+       "a yoghurt",
+       "a mug",
+       "milk"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Whose is the mug with the dog?",
+      "o": [
+       "Sabine's",
+       "the colleagues'",
+       "nobody's"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Im Fundbüro",
+    "txt": [
+     "Beamtin: Grüß Gott! Was haben Sie verloren?",
+     "Aurora: Meinen Regenschirm. Ich habe ihn gestern in der Straßenbahn vergessen.",
+     "Beamtin: Wir haben heute drei Schirme bekommen. Ist einer davon Ihrer?",
+     "Aurora: Ja, der da ist meiner!",
+     "Beamtin: Gut. Dann brauche ich noch Ihren Ausweis."
+    ],
+    "qs": [
+     {
+      "q": "Where did Aurora forget her umbrella?",
+      "o": [
+       "on the tram",
+       "at the party",
+       "in the office"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the official need?",
+      "o": [
+       "Aurora's ID",
+       "her umbrella",
+       "money"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "An der Garderobe",
+    "r": [
+     [
+      "Jonas",
+      "Ist der Mantel da deiner?"
+     ],
+     [
+      "Du",
+      "[Nein, meiner ist grau.|Nein, der ist nicht meiner. Meiner ist grau.|Nein, mein Mantel ist grau.]",
+      "Say no – yours is grey."
+     ],
+     [
+      "Jonas",
+      "Und der Schal?"
+     ],
+     [
+      "Du",
+      "[Ja, der ist meiner.|Ja, das ist meiner.|Ja, der gehört mir.|Ja, das ist mein Schal.]",
+      "Say yes, that one is yours."
+     ],
+     [
+      "Jonas",
+      "Ich habe meine Handschuhe verloren. Hast du welche gesehen?"
+     ],
+     [
+      "Du",
+      "[Nein, ich habe keine gesehen.|Nein, leider nicht.|Nein, ich habe leider keine gesehen.|Nein, leider habe ich keine gesehen.]",
+      "Say no, you haven't seen any."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "In der Büroküche",
+    "r": [
+     [
+      "Herr Gruber",
+      "Entschuldigung, ist das Ihr Häferl?"
+     ],
+     [
+      "Du",
+      "[Nein, meins ist im Kasten.|Nein, meines ist im Kasten.|Nein, das ist nicht meins. Meins ist im Kasten.|Nein, das ist nicht meines. Meines ist im Kasten.|Nein, meins ist im Schrank.|Nein, meines ist im Schrank.|Nein, das ist nicht meins. Meins ist im Schrank.|Nein, das ist nicht meines. Meines ist im Schrank.]",
+      "Say no – yours is in the cupboard (Austria: Kasten)."
+     ],
+     [
+      "Herr Gruber",
+      "Wem gehört es dann?"
+     ],
+     [
+      "Du",
+      "[Vielleicht gehört es Sabine.|Es gehört vielleicht Sabine.|Das gehört vielleicht Sabine.|Vielleicht Sabine.]",
+      "Say: maybe it belongs to Sabine."
+     ],
+     [
+      "Herr Gruber",
+      "Danke. Haben wir noch Milch?"
+     ],
+     [
+      "Du",
+      "[Nein, wir haben keine mehr. Ich kaufe welche.|Nein, leider keine mehr. Ich kaufe welche.|Nein, es gibt keine mehr, aber ich kaufe welche.|Nein, wir haben keine mehr, aber ich kaufe welche.]",
+      "Say there is none left, but you'll buy some."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "The morning after the company party: write a short message to your colleagues (2–3 sentences). You have found a scarf and an umbrella – ask who they belong to.",
+    "a": [
+     "Liebe Kolleginnen und Kollegen, ich habe einen Schal und einen Regenschirm gefunden. Wem gehören sie? Der Schal ist grau."
+    ],
+    "h": "2–3 Sätze"
+   },
+   {
+    "t": "sch",
+    "q": "At the lost-property office: say what you have lost and where you forgot it.",
+    "a": [
+     "Ich habe meinen Mantel verloren. Ich habe ihn gestern auf der Firmenfeier vergessen."
+    ],
+    "h": "2 Sätze, Perfekt"
+   },
+   {
+    "t": "sch",
+    "q": "A colleague asks if the mug is yours. Answer in 2 sentences: it isn't yours, and say whose it is.",
+    "a": [
+     "Nein, das ist nicht meins. Es gehört Herrn Gruber."
+    ],
+    "h": "2 Sätze"
+   },
+   {
+    "t": "mc",
+    "q": "When does mein- have the ending -er (meiner)?",
+    "o": [
+     "when it stands alone for a masculine noun in the nominative (or for a feminine noun in the dative)",
+     "always before masculine nouns",
+     "only in the plural",
+     "never"
+    ],
+    "a": 0,
+    "x": "Alone, mein- takes the der-endings: Das ist meiner (der Mantel). Before a noun: mein Mantel."
+   },
+   {
+    "t": "mc",
+    "q": "„Hast du Handschuhe?“ – „Ja, ich habe …“ Which word fits?",
+    "o": [
+     "welche",
+     "eine",
+     "einen",
+     "keine"
+    ],
+    "a": 0,
+    "x": "ein has no plural; alone you say welche (some). Negative: keine."
+   },
+   {
+    "t": "mc",
+    "q": "Which form of der/die/das alone is different from the article?",
+    "o": [
+     "the dative plural: denen (article: den)",
+     "the accusative masculine",
+     "the nominative feminine",
+     "none – they are all the same"
+    ],
+    "a": 0,
+    "x": "Den nehme ich. Die gehört mir. But: Die Häferl gehören denen (dative plural)."
    }
   ]
  }
