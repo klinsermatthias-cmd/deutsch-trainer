@@ -64,3 +64,6 @@ Offen (niedrig): mc-Fragesprache vereinheitlichen, Hinweise ohne Bau-Rezept, E-C
 ## 2026-10-13 – Themen nach gleicher Logik, d01–d07 geteilt (S-1013-34 bis -36)
 - Matthias: Themen 1 und 2 zu groß, unvollständig, zu viel Fließtext mit Klammern → „selbst entscheiden … für jedes Thema gleiche Logik: vollständig, klar strukturiert, klar gegliedert, gerne mehrere Unterthemen“.
 - Umsetzung: einheitliche Theorie-Gliederung (lehrplan „Gleiche Logik“), d01–d07 je in zwei Teilthemen (alte Übungen `aus: true`, Kopien in d0xb), d08–d09b neu gegliedert; je Thema `zuo`, `luk`, Regelfragen; Prüfvermerke gesetzt. Quellen: en.wiktionary, duden.de; neue Beispielsätze ohne Quelle.
+
+## 13.10.2026 – Grammatikprüfung aller Themen mit Quellen (S-1013-50)
+Alle 18 Themen d01–d09b: Regeln der Theorie und Regelfragen gegen grammis, lingolia, DWDS, Wiktionary geprüft; eigener Prüfvermerk je Thema. Ergebnis: Regeln stimmen; 4 kleine Korrekturen und 4 Vollständigkeitslücken als Vorschlag (S-1013-51/-52), Bericht `opi-suomea/docs/pruefungen/deutsch/grammatik-2026-10-13.md`. Prüfliste Nr. 19: künftige Themen genauso prüfen.
