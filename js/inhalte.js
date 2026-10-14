@@ -612,7 +612,25 @@ const GLOSS_EXTRA = {
   "jonas": {de: "Jonas (male first name)", note: "Vorname"},
   "sabine": {de: "Sabine (female first name)", note: "Vorname"},
   "kaffee": {de: "coffee", note: "der Kaffee, die Kaffees"},
-  "martin": {de: "Martin (male first name)", note: "Vorname"}
+  "martin": {de: "Martin (male first name)", note: "Vorname"},
+  "pizza": {de: "pizza", note: "die Pizza, die Pizzen/Pizzas"},
+  "schwester": {de: "sister", note: "die Schwester, die Schwestern"},
+  "salzburg": {de: "Salzburg (city and province)", note: "Stadt und Bundesland in Österreich"},
+  "dazu": {de: "with it, in addition", note: "Adverb: Dazu habe ich Wasser getrunken."},
+  "getrunken": {de: "drunk", base: "trinken", note: "Partizip II: hat getrunken"},
+  "geschrieben": {de: "written", base: "schreiben", note: "Partizip II: hat geschrieben"},
+  "gesprochen": {de: "spoken", base: "sprechen", note: "Partizip II: hat gesprochen"},
+  "genommen": {de: "taken", base: "nehmen", note: "Partizip II: hat genommen"},
+  "gedacht": {de: "thought", base: "denken", note: "Partizip II: hat gedacht"},
+  "dienstag": {de: "Tuesday", note: "der Dienstag; am Dienstag = on Tuesday"},
+  "linz": {de: "Linz (capital of Upper Austria)", note: "Landeshauptstadt von Oberösterreich"},
+  "aufgewacht": {de: "woken up", base: "aufwachen", note: "Partizip II: ist aufgewacht"},
+  "eingeschlafen": {de: "fallen asleep", base: "einschlafen", note: "Partizip II: ist eingeschlafen"},
+  "elf": {de: "eleven", note: "Zahl 11"},
+  "musste": {de: "had to", base: "müssen", note: "Präteritum: ich/er musste"},
+  "krank": {de: "ill, sick", note: "Adjektiv: Ich bin krank."},
+  "leider": {de: "unfortunately", note: "Adverb"},
+  "verschieben": {de: "to postpone, to move", note: "einen Termin verschieben (verschob · hat verschoben)"}
 };
 
 /* ============================================================
