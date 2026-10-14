@@ -630,7 +630,11 @@ const GLOSS_EXTRA = {
   "musste": {de: "had to", base: "müssen", note: "Präteritum: ich/er musste"},
   "krank": {de: "ill, sick", note: "Adjektiv: Ich bin krank."},
   "leider": {de: "unfortunately", note: "Adverb"},
-  "verschieben": {de: "to postpone, to move", note: "einen Termin verschieben (verschob · hat verschoben)"}
+  "verschieben": {de: "to postpone, to move", note: "einen Termin verschieben (verschob · hat verschoben)"},
+  "museen": {de: "museums", base: "Museum", note: "das Museum, die Museen"},
+  "stück": {de: "piece", note: "das Stück, die Stücke; nach Zahlen: drei Stück"},
+  "triffst": {de: "(you) meet", base: "treffen", note: "du triffst, er trifft"},
+  "toll": {de: "great", note: "Adjektiv, umgangssprachlich: Das ist toll!"}
 };
 
 /* ============================================================
