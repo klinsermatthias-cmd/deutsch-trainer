@@ -716,7 +716,23 @@ const GLOSS_EXTRA = {
   "dasselbe": {de: "the same", base: "derselbe"},
   "demselben": {de: "the same", base: "derselbe"},
   "derselben": {de: "the same", base: "derselbe"},
-  "selben": {de: "same", base: "derselbe", note: "im selben Haus"}
+  "selben": {de: "same", base: "derselbe", note: "im selben Haus"},
+  "gerieben": {de: "grated", base: "reiben", note: "Partizip II"},
+  "geriebener": {de: "grated", base: "reiben", note: "geriebener Käse"},
+  "geriebenem": {de: "grated", base: "reiben", note: "mit geriebenem Käse"},
+  "gekochte": {de: "boiled, cooked", base: "kochen", note: "gekochte Eier"},
+  "freundlichen": {de: "kind, friendly", base: "freundlich", note: "Mit freundlichen Grüßen = Kind regards"},
+  "lade": {de: "(I) invite", base: "einladen", note: "ich lade ein"},
+  "lädt": {de: "invites", base: "einladen", note: "er/sie lädt ein"},
+  "unser": {de: "our", base: "unser"},
+  "unsere": {de: "our", base: "unser"},
+  "balkon": {de: "balcony", base: "der Balkon"},
+  "neuer": {de: "new", base: "neu", note: "ein neuer Tisch"},
+  "neues": {de: "new", base: "neu", note: "ein neues Zimmer"},
+  "großes": {de: "big", base: "groß", note: "ein großes Zimmer"},
+  "frischem": {de: "fresh", base: "frisch", note: "mit frischem Käse"},
+  "frisches": {de: "fresh", base: "frisch", note: "frisches Brot"},
+  "schönem": {de: "nice, beautiful", base: "schön", note: "bei schönem Wetter"}
 };
 
 /* ============================================================
