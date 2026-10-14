@@ -668,7 +668,23 @@ const GLOSS_EXTRA = {
   "stunde": {de: "hour", base: "die Stunde"},
   "später": {de: "later"},
   "fährt": {de: "goes, leaves", base: "fahren"},
-  "virtanen": {de: "Virtanen (Finnish surname)"}
+  "virtanen": {de: "Virtanen (Finnish surname)"},
+  "kino": {de: "cinema", note: "das Kino, die Kinos"},
+  "wohnzimmer": {de: "living room", note: "das Wohnzimmer"},
+  "schlafzimmer": {de: "bedroom", note: "das Schlafzimmer"},
+  "samstagabend": {de: "Saturday evening", note: "der Samstagabend"},
+  "legt": {de: "puts (lying)", base: "legen"},
+  "steht": {de: "stands, is (upright)", base: "stehen"},
+  "lag": {de: "lay, was lying", base: "liegen", note: "Präteritum"},
+  "legte": {de: "put, laid", base: "legen", note: "Präteritum"},
+  "stellte": {de: "put (upright)", base: "stellen", note: "Präteritum"},
+  "saß": {de: "sat, was sitting", base: "sitzen", note: "Präteritum"},
+  "trug": {de: "carried, wore", base: "tragen", note: "Präteritum"},
+  "gestellt": {de: "put (upright)", base: "stellen", note: "Partizip II: hat gestellt"},
+  "gelegt": {de: "put, laid", base: "legen", note: "Partizip II: hat gelegt"},
+  "gelegen": {de: "lain", base: "liegen", note: "Partizip II: ist gelegen (Austria) / hat gelegen (Germany)"},
+  "gestanden": {de: "stood", base: "stehen", note: "Partizip II: ist gestanden (Austria) / hat gestanden (Germany)"},
+  "getragen": {de: "carried, worn", base: "tragen", note: "Partizip II: hat getragen"}
 };
 
 /* ============================================================

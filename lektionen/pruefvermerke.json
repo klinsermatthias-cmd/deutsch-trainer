@@ -142,5 +142,11 @@
     "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
     "h": "29cafee3d088"
+  },
+  "d11": {
+    "d": "2026-10-14",
+    "q": "Duden (liegen/stehen/sitzen/hängen österr. ist-Perfekt, Sessel österr., legen, stellen, setzen, Teppich, Umzug), en./de.wiktionary (alle Nomen- und Verbformen), lingolia (Wechselpräpositionen, liegen/legen, stehen/stellen)",
+    "c": "S",
+    "h": "cbe96f9abcdc"
   }
 }

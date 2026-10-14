@@ -77,3 +77,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 2026-10-14 – Wortschatz-Pakete parallel (S-1014-12)
 - w01–w06 tragen `wort: true`: „Wörter übernehmen“ statt Lernschritten, laufen neben den Grammatikthemen (Engine 96a3c5b, Befund D-1014-24).
+
+## 2026-10-14 – Wechselpräpositionen, Adjektivendungen, Konjunktiv II vorgezogen (S-1014-15/-16)
+- Reihenfolge nach d09b: d11 → d14 → d15 → d16; d11 zuerst, weil d14 darauf aufbaut. d11-`req` ohne d10 (nicht gebaut), dafür mit d06 (Pronomen mich/ihn/es).
+- d11 „Wohin kommt das Sofa?“: Umzug in Graz, 9 Wechselpräpositionen, wo?/wohin?, liegen–legen, stehen–stellen, sitzen–setzen, hängen; 26 Wörter, 55 Übungen in 4 Lernschritten.
+- Österr. Perfekt ist gelegen/gestanden/gesessen/gehangen (Duden) wird gelehrt, hat … als bundesdeutsch genannt; „Fehler finden“ und „Satz umformen“ als `gap` mit ganzem Satz (nicht `sch`, das rotiert).
