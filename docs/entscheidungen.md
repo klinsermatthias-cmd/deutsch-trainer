@@ -77,3 +77,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Prüfliste: eine Regel je Zeile, Beispiele/Herkunft in `lektionen/pruefliste-beispiele.md`, Quellen in `docs/quellen.md`; Zeile 20 mit Vorgriff-Suche geschärft.
 - Lehrplan: gebaute Themen kurz in Lernreihenfolge, geplante voll; Phase 1/2, Themenpool, Stand, Ideen entfernt. Entscheidungen bis 12.10. archiviert, `docs/uebergabe.md` gelöscht (wird beim Umsiedeln neu angelegt).
 - README ohne finnische Beispiele, mit Lernschritten, 30–50 Übungen; ki-qualitaet: Anbieter Gemini direkt; automatisch zusammenfassen ab 150.000 Tokens.
+
+## 2026-10-14 – Thema d14 Adjektivendungen I (S-1014-15)
+- d14 „Die helle Wohnung im zweiten Stock“ nach d11: Adjektiv nach der/die/das, dies-, welch- (Nom/Akk -e/-en, Dativ und Plural -en), Ordinalzahlen und Datum (am fünften Mai, Jänner, Feber), derselbe/im selben; 23 Karten (u. a. Hausverwaltung, Ablöse, Erdgeschoß), 50 Übungen in 4 Lernschritten.
+- req: alle Themen von d01 bis d11 in Lernreihenfolge; Miete/Kaution/Betriebskosten stehen schon in w01, darum nicht doppelt.
+- Quellen im Prüfvermerk; ohne Quelle: Regeltext „-te bis 19, -ste ab 20“, „Germany: Abstand“ zu Ablöse, Natürlichkeit der neuen Sätze. Vorgriff-Hinweis d14 ex49 („, den“) ist Artikel, kein Relativsatz.

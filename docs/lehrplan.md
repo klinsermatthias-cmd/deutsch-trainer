@@ -57,6 +57,7 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d03 | Als ich nach Österreich kam – als, wenn, wann | B1 |
 | d03b | Bevor ich zur Arbeit gehe – während, bevor, nachdem | B1 |
 | d11 | Wohin kommt das Sofa? – Wechselpräpositionen | A2 |
+| d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ |
 
 Wortschatz-Pakete ohne `req`, jederzeit neben den Grammatikthemen (S-1014-5, `wort: true`):
 
@@ -79,7 +80,6 @@ Neue Reihenfolge (S-1014-15): nach d11 kommen d14/d15 (Adjektivendungen) → d16
 | d13 | Wer macht was bis wann? – Wortstellung II | A1+–B2 | Besprechung: Aufgaben und Termine verteilen | Wiederholung Satzklammer + Mittelfeld im Zusammenhang (Zeit – Grund – Art – Ort, Pronomen vor Nomen; Haupt- + Nebensatz); Verbkomplex im Nebensatz (… kommen kann, … hat machen müssen); „nicht“ für den ganzen Satz ↔ einen Teil (nicht heute, sondern morgen) – Detail: muss nicht (= not necessary) ↔ darf nicht (= not allowed) (S-1013-16) – Karten: einen Vorschlag machen, eine Entscheidung treffen | d01, d02, d06, d08, d10, d02b, d04 | geplant |
 | | *Checkpoint 2 (d03, d08–d13; d03 direkt nach d09b, S-1013-16)* | | | | | |
 | | **Block B – B1 festigen** | | | | | |
-| d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ | Wohnungsinserate, Termine mit Datum | Adjektiv nach der/die/das, dies-, welch-; Ordinalzahlen (Detail: erste, dritte, siebte, achte; am fünften Mai); derselbe/dieselbe/dasselbe im Nominativ, Akkusativ, Dativ (Genitiv in d18) – Karten: die Miete, die Betriebskosten (Pl.), die Kaution, die Ablöse | d01, d02, d04, d05, d09, d11, d05b, d07b | geplant |
 | d13b | Am Montag um viertel neun – Zeitangaben | A2 | Termine vereinbaren und verschieben (Ordination, Hausverwaltung, Amt) | temporale Präpositionen am/im/um, in ↔ vor ↔ seit, ab, von … bis; Uhrzeit offiziell ↔ im Alltag, österr. viertel/dreiviertel acht; Datum (am 5. Feber; heuer) – Karten: einen Termin vereinbaren/verschieben, die Frist | d01, d02, d09, d09b, d14 | geplant (S-1013-16/-18) |
 | d15 | Ein großer Balkon, frisches Gemüse – Adjektivendungen II | A2+ (Partizip I: B2+, S-1013-16) | Wohnungsbesichtigung, Rezept, Speisekarte | nach ein-/kein-/mein- (Schwerpunkt Dativ: mit unserem neuen Chef); ohne Artikel (bei schönem Wetter); Partizip als einfaches Adjektiv (fließendes Wasser, geriebener Käse) – Detail: attributiver Komparativ (eine größere Wohnung), substantivierte Adjektive (der Bekannte, etwas Neues) (S-1013-16) | d01, d02, d04, d05, d14, d05b | geplant |
 | d16 | Könnten Sie mir sagen, ob …? – Konjunktiv II höflich | A2++ | Telefonieren mit Hausverwaltung und Firmen, formelle E-Mail | hätte, wäre, könnte, würde + Infinitiv, sollte; Bitte, Rat, gern – lieber – am liebsten; höfliche indirekte Frage ob ↔ wenn („if“) – Detail: Sie/Ihnen/Ihr immer groß, du im Brief wahlweise, Briefanrede; Karte: eine Frage stellen | d01, d02, d03, d06, d02b | geplant |
