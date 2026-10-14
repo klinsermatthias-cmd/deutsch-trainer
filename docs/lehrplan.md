@@ -58,6 +58,7 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d03b | Bevor ich zur Arbeit gehe – während, bevor, nachdem | B1 |
 | d11 | Wohin kommt das Sofa? – Wechselpräpositionen | A2 |
 | d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ |
+| d15 | Ein großer Balkon, frisches Brot – Adjektivendungen II | A2+ |
 
 Wortschatz-Pakete ohne `req`, jederzeit neben den Grammatikthemen (S-1014-5, `wort: true`):
 
@@ -81,7 +82,6 @@ Neue Reihenfolge (S-1014-15): nach d11 kommen d14/d15 (Adjektivendungen) → d16
 | | *Checkpoint 2 (d03, d08–d13; d03 direkt nach d09b, S-1013-16)* | | | | | |
 | | **Block B – B1 festigen** | | | | | |
 | d13b | Am Montag um viertel neun – Zeitangaben | A2 | Termine vereinbaren und verschieben (Ordination, Hausverwaltung, Amt) | temporale Präpositionen am/im/um, in ↔ vor ↔ seit, ab, von … bis; Uhrzeit offiziell ↔ im Alltag, österr. viertel/dreiviertel acht; Datum (am 5. Feber; heuer) – Karten: einen Termin vereinbaren/verschieben, die Frist | d01, d02, d09, d09b, d14 | geplant (S-1013-16/-18) |
-| d15 | Ein großer Balkon, frisches Gemüse – Adjektivendungen II | A2+ (Partizip I: B2+, S-1013-16) | Wohnungsbesichtigung, Rezept, Speisekarte | nach ein-/kein-/mein- (Schwerpunkt Dativ: mit unserem neuen Chef); ohne Artikel (bei schönem Wetter); Partizip als einfaches Adjektiv (fließendes Wasser, geriebener Käse) – Detail: attributiver Komparativ (eine größere Wohnung), substantivierte Adjektive (der Bekannte, etwas Neues) (S-1013-16) | d01, d02, d04, d05, d14, d05b | geplant |
 | d16 | Könnten Sie mir sagen, ob …? – Konjunktiv II höflich | A2++ | Telefonieren mit Hausverwaltung und Firmen, formelle E-Mail | hätte, wäre, könnte, würde + Infinitiv, sollte; Bitte, Rat, gern – lieber – am liebsten; höfliche indirekte Frage ob ↔ wenn („if“) – Detail: Sie/Ihnen/Ihr immer groß, du im Brief wahlweise, Briefanrede; Karte: eine Frage stellen | d01, d02, d03, d06, d02b | geplant |
 | d17 | Der Meldezettel wird ausgefüllt – werden und Passiv I | A2++ (Futur-Gebrauch B1++) | Behördenweg: Meldezettel, Antrag, Konto | werden dreifach (Vollverb ist geworden – Futur für Versprechen/Vorhersage ↔ Präsens + Zeitangabe – Passiv-Hilfsverb); Passiv Präsens (wird ausgefüllt); von + Dativ, man ↔ Passiv – Karte: einen Antrag stellen | d01, d02, d05, d09, d10, d01b | geplant |
 | d18 | Wegen eines Staus zu spät – Genitiv | B1/B1+ | Verspätung entschuldigen, Brief von der Behörde | Genitiv der Artikelwörter + -(e)s (Detail: Adjektiv im Genitiv -en), Genitivattribut; trotz/während/wegen/statt (Hinweis: umgangssprachlich und österr. auch mit Dativ); n-Deklination (des Herrn, dem Nachbarn, den Kollegen) – Detail: innerhalb/außerhalb + Genitiv (S-1013-16) | d01, d02, d04, d05, d09, d15, d05b | geplant |

@@ -82,3 +82,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - d14 „Die helle Wohnung im zweiten Stock“ nach d11: Adjektiv nach der/die/das, dies-, welch- (Nom/Akk -e/-en, Dativ und Plural -en), Ordinalzahlen und Datum (am fünften Mai, Jänner, Feber), derselbe/im selben; 23 Karten (u. a. Hausverwaltung, Ablöse, Erdgeschoß), 50 Übungen in 4 Lernschritten.
 - req: alle Themen von d01 bis d11 in Lernreihenfolge; Miete/Kaution/Betriebskosten stehen schon in w01, darum nicht doppelt.
 - Quellen im Prüfvermerk; ohne Quelle: Regeltext „-te bis 19, -ste ab 20“, „Germany: Abstand“ zu Ablöse, Natürlichkeit der neuen Sätze. Vorgriff-Hinweis d14 ex49 („, den“) ist Artikel, kein Relativsatz.
+
+## 2026-10-14 – Thema d15 Adjektivendungen II (S-1014-15)
+- d15 „Ein großer Balkon, frisches Brot“ nach d14: Adjektiv nach ein/kein/mein (-er/-es als einzige Abweichung), Dativ und Plural -en, ohne Artikel (bei schönem Wetter, mit frischem Topfen), Partizip II als Adjektiv; 23 Karten (u. a. Topfen, Palatschinke, Knödel mit „Germany: …“), 49 Übungen in 4 Lernschritten. Titel „Brot“ statt „Gemüse“, weil Gemüse schon Karte in w05 ist.
+- Nicht gebaut aus dem Plan-Detail: attributiver Komparativ (eine größere Wohnung) und substantivierte Adjektive (der Bekannte, etwas Neues) – offen für ein späteres Thema.
+- Quellen im Prüfvermerk (lingolia, Duden, DWDS, wiktionary); ohne Quelle: genaue Wendungen „bei schönem Wetter“, „geriebener Käse“, „Palatschinken mit Topfen“, „In der Arbeit“, Natürlichkeit der neuen Sätze.
