@@ -638,7 +638,21 @@ const GLOSS_EXTRA = {
   "kenne": {de: "(I) know", base: "kennen", note: "ich kenne, du kennst"},
   "mütze": {de: "cap, hat", note: "die Mütze, die Mützen"},
   "mützen": {de: "caps, hats", base: "Mütze", note: "Plural"},
-  "außer": {de: "except, apart from", note: "Präposition mit Dativ: alle außer meinem Bruder"}
+  "außer": {de: "except, apart from", note: "Präposition mit Dativ: alle außer meinem Bruder"},
+  "stock": {de: "floor, storey", note: "der Stock (Stockwerk): im dritten Stock"},
+  "zweiten": {de: "second", base: "zweite", note: "im zweiten Stock"},
+  "dritten": {de: "third", base: "dritte", note: "im dritten Stock"},
+  "zahlt": {de: "pays", base: "zahlen", note: "er zahlt; zahlen = bezahlen"},
+  "hoch": {de: "high", note: "Wie hoch ist die Miete? = How high is the rent?"},
+  "funktioniert": {de: "works", base: "funktionieren", note: "Die Heizung funktioniert nicht."},
+  "märz": {de: "March", note: "der März; am 1. März"},
+  "interessiere": {de: "(I am) interested", base: "sich interessieren", note: "Ich interessiere mich für …"},
+  "besichtigen": {de: "to view (a flat), to visit", note: "eine Wohnung besichtigen"},
+  "beworben": {de: "applied", base: "sich bewerben", note: "Partizip II: hat sich beworben"},
+  "jahre": {de: "years", base: "Jahr", note: "das Jahr, die Jahre"},
+  "verkauf": {de: "sales, selling", note: "der Verkauf; im Verkauf arbeiten"},
+  "august": {de: "August", note: "der August; im August"},
+  "glück": {de: "luck, happiness", note: "das Glück; zum Glück = luckily"}
 };
 
 /* ============================================================

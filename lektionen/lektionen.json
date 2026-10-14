@@ -18702,5 +18702,1240 @@
     ]
    }
   ]
+ },
+ {
+  "id": "w01",
+  "title": "Wortschatz: Wohnen – Wohnung suchen und mieten",
+  "fi": "Vocabulary: housing – finding and renting a flat",
+  "lvl": "B1",
+  "req": [],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>A vocabulary package: no new grammar, only words for looking for and renting a flat in Austria.</li><li>Learn every noun with its article and plural.</li><li>Austrian words come with the German alternative.</li></ul><h3>1. Situation: looking for a flat in Vienna</h3><p>You read an <i>Inserat</i> (ad), visit the flat and talk to the landlord about the rent.</p><h3>2. Dialogue</h3><p>Vermieterin: Die Wohnung ist im dritten Stock. Es gibt auch einen Lift.<br>Aurora: Wie hoch ist die Miete?<br>Vermieterin: 750 Euro, die Betriebskosten sind dabei. Die Kaution sind drei Monatsmieten.</p><h3>3. The flat: rooms and equipment</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Wohnung, die Wohnungen</td><td>flat</td></tr><tr><td>das Vorzimmer</td><td>hall (Austria)</td></tr><tr><td>das Wohnzimmer / das Schlafzimmer / das Badezimmer</td><td>living room / bedroom / bathroom</td></tr><tr><td>der Balkon</td><td>balcony</td></tr><tr><td>die Heizung</td><td>heating</td></tr><tr><td>das Stockwerk – im dritten Stock</td><td>floor – on the third floor</td></tr><tr><td>die Stiege / der Lift</td><td>stairs (Austria) / lift</td></tr><tr><td>die Möbel (Pl.) – möbliert</td><td>furniture – furnished</td></tr></table><h3>4. Renting and living in the building</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Miete – mieten</td><td>rent – to rent</td></tr><tr><td>der Vermieter / die Vermieterin</td><td>landlord / landlady</td></tr><tr><td>der Mietvertrag</td><td>tenancy agreement</td></tr><tr><td>die Kaution</td><td>deposit</td></tr><tr><td>die Betriebskosten (Pl.)</td><td>service charges for the building (water, rubbish, caretaker …)</td></tr><tr><td>der Strom</td><td>electricity</td></tr><tr><td>der Müll</td><td>rubbish</td></tr><tr><td>die Hausordnung / der Hausmeister</td><td>house rules / caretaker</td></tr><tr><td>einziehen / ausziehen</td><td>to move in / to move out</td></tr></table><h3>5. Austria and Germany</h3><table><tr><th>Austria</th><th>Germany</th></tr><tr><td>die Stiege</td><td>die Treppe</td></tr><tr><td>das Vorzimmer</td><td>der Flur, die Diele</td></tr><tr><td>der Lift</td><td>der Aufzug (also in Austria)</td></tr><tr><td>das Inserat</td><td>die Anzeige (also in Austria)</td></tr></table><p class=\"rule\">⚠ Watch out: die Möbel is plural – Die Möbel <b>sind</b> neu. einziehen and ausziehen take sein: Wir sind eingezogen.</p>",
+  "v": [
+   [
+    "die Wohnung, die Wohnungen",
+    "flat, apartment"
+   ],
+   [
+    "das Vorzimmer, die Vorzimmer",
+    "hall, hallway (Austria; Germany: Flur, Diele)"
+   ],
+   [
+    "das Wohnzimmer, die Wohnzimmer",
+    "living room"
+   ],
+   [
+    "das Schlafzimmer, die Schlafzimmer",
+    "bedroom"
+   ],
+   [
+    "das Badezimmer, die Badezimmer",
+    "bathroom"
+   ],
+   [
+    "der Balkon, die Balkone",
+    "balcony"
+   ],
+   [
+    "die Heizung, die Heizungen",
+    "heating"
+   ],
+   [
+    "das Stockwerk, die Stockwerke",
+    "floor, storey (im dritten Stock = on the third floor)"
+   ],
+   [
+    "die Stiege, die Stiegen",
+    "stairs, staircase (Austria; Germany: Treppe)"
+   ],
+   [
+    "der Lift, die Lifte",
+    "lift, elevator (also: der Aufzug)"
+   ],
+   [
+    "die Möbel (Pl.)",
+    "furniture"
+   ],
+   [
+    "möbliert",
+    "furnished"
+   ],
+   [
+    "die Miete, die Mieten",
+    "rent"
+   ],
+   [
+    "mieten",
+    "to rent (mietete · hat gemietet · wird mieten)"
+   ],
+   [
+    "der Vermieter, die Vermieter",
+    "landlord"
+   ],
+   [
+    "der Mietvertrag, die Mietverträge",
+    "tenancy agreement, lease"
+   ],
+   [
+    "die Kaution, die Kautionen",
+    "deposit"
+   ],
+   [
+    "die Betriebskosten (Pl.)",
+    "service charges (water, rubbish, caretaker …)"
+   ],
+   [
+    "der Strom",
+    "electricity"
+   ],
+   [
+    "der Müll",
+    "rubbish, garbage"
+   ],
+   [
+    "die Hausordnung, die Hausordnungen",
+    "house rules"
+   ],
+   [
+    "der Hausmeister, die Hausmeister",
+    "caretaker, janitor"
+   ],
+   [
+    "das Inserat, die Inserate",
+    "advertisement, ad (also: die Anzeige)"
+   ],
+   [
+    "einziehen",
+    "to move in (zog ein · ist eingezogen · wird einziehen)"
+   ],
+   [
+    "ausziehen",
+    "to move out (zog aus · ist ausgezogen · wird ausziehen)"
+   ],
+   [
+    "putzen",
+    "to clean (putzte · hat geputzt · wird putzen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "zuo",
+    "q": "Which room is it?",
+    "p": [
+     [
+      "das Vorzimmer",
+      "hall"
+     ],
+     [
+      "das Wohnzimmer",
+      "living room"
+     ],
+     [
+      "das Schlafzimmer",
+      "bedroom"
+     ],
+     [
+      "das Badezimmer",
+      "bathroom"
+     ],
+     [
+      "der Balkon",
+      "balcony"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Die Wohnung ist im dritten ___.",
+    "a": [
+     "Stock",
+     "Stockwerk"
+    ],
+    "h": "floor"
+   },
+   {
+    "t": "gap",
+    "q": "Im Winter ist eine gute ___ sehr wichtig.",
+    "a": [
+     "Heizung"
+    ],
+    "h": "heating"
+   },
+   {
+    "t": "gap",
+    "q": "Der ___ ist kaputt, wir gehen über die Stiege.",
+    "a": [
+     "Lift",
+     "Aufzug"
+    ],
+    "h": "lift"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The flat has a big balcony.",
+    "a": [
+     "Die Wohnung hat einen großen Balkon."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm looking for a furnished flat.",
+    "a": [
+     "Ich suche eine möblierte Wohnung."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Die Schuhe bleiben im Vorzimmer.",
+    "a": [
+     "The shoes stay in the hall.",
+     "The shoes stay in the hallway.",
+     "Leave the shoes in the hall."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„die Stiege“ (Austria) – what do people in Germany usually say?",
+    "o": [
+     "die Treppe",
+     "der Flur",
+     "der Lift",
+     "der Stock"
+    ],
+    "a": 0,
+    "x": "Austria: die Stiege – Germany: die Treppe (stairs)."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze die Räume.",
+    "txt": [
+     "Die Wohnung hat ein [Wohnzimmer], ein [Schlafzimmer] und ein [Badezimmer]."
+    ],
+    "h": "je Kästchen ein Raum: living room, bedroom, bathroom"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Die",
+     "Möbel",
+     "sind",
+     "schon",
+     "in",
+     "der",
+     "Wohnung"
+    ],
+    "a": [
+     "Die Möbel sind schon in der Wohnung.",
+     "In der Wohnung sind schon die Möbel."
+    ],
+    "de": "The furniture is already in the flat."
+   },
+   {
+    "t": "sch",
+    "q": "Describe your flat in 2 sentences: which rooms does it have, and on which floor is it?",
+    "w": [
+     "Zimmer",
+     "Stock"
+    ],
+    "a": [
+     "Meine Wohnung hat ein Wohnzimmer, ein Schlafzimmer und ein Badezimmer. Sie ist im zweiten Stock."
+    ],
+    "h": "rooms with ein/eine; im … Stock"
+   },
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Miete",
+      "rent"
+     ],
+     [
+      "die Kaution",
+      "deposit"
+     ],
+     [
+      "der Vermieter",
+      "landlord"
+     ],
+     [
+      "der Mietvertrag",
+      "lease"
+     ],
+     [
+      "die Betriebskosten",
+      "service charges"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Die ___ kostet 750 Euro im Monat.",
+    "a": [
+     "Miete"
+    ],
+    "h": "rent"
+   },
+   {
+    "t": "gap",
+    "q": "Vor dem Einzug zahlt man eine ___.",
+    "a": [
+     "Kaution"
+    ],
+    "h": "deposit"
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze einziehen.",
+    "txt": [
+     "Wir [ziehen] am 1. März [ein]."
+    ],
+    "h": "Form von einziehen (wir) – trennbares Verb, zwei Kästchen"
+   },
+   {
+    "t": "gap",
+    "q": "Bitte trennen Sie den ___.",
+    "a": [
+     "Müll"
+    ],
+    "h": "rubbish"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'd like to rent the flat.",
+    "a": [
+     "Ich möchte die Wohnung mieten.",
+     "Ich würde die Wohnung gern mieten.",
+     "Ich würde die Wohnung gerne mieten."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Who pays for the electricity?",
+    "a": [
+     "Wer zahlt den Strom?",
+     "Wer bezahlt den Strom?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "In der Hausordnung steht, dass man nach 22 Uhr leise sein muss.",
+    "a": [
+     "The house rules say that you have to be quiet after 10 pm.",
+     "The house rules say you must be quiet after 10 pm.",
+     "According to the house rules you have to be quiet after 10 pm."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "What are „Betriebskosten“?",
+    "o": [
+     "extra costs of the building – water, rubbish, caretaker … – paid with the rent",
+     "the price of the flat when you buy it",
+     "the deposit",
+     "the cost of the furniture"
+    ],
+    "a": 0,
+    "x": "Betriebskosten = service charges for the building, paid every month together with the rent."
+   },
+   {
+    "t": "mc",
+    "q": "„Wir sind letzte Woche ___.“ (moved in)",
+    "o": [
+     "eingezogen",
+     "eingezieht",
+     "einzogen",
+     "eingezogt"
+    ],
+    "a": 0,
+    "x": "einziehen – zog ein – ist eingezogen (separable: ge- in the middle; movement → sein)."
+   },
+   {
+    "t": "sch",
+    "q": "Write to a landlord (Sie): you would like to rent the flat. Ask how high the rent and the deposit are.",
+    "w": [
+     "mieten",
+     "Miete",
+     "Kaution"
+    ],
+    "a": [
+     "Ich möchte die Wohnung gern mieten. Wie hoch sind die Miete und die Kaution?"
+    ],
+    "h": "polite: Ich möchte … / Wie hoch ist …?"
+   },
+   {
+    "t": "les",
+    "q": "Ein Inserat",
+    "txt": [
+     "Wien 7., schöne 2-Zimmer-Wohnung, 55 m², 3. Stock mit Lift.",
+     "Vorzimmer, Wohnzimmer, Schlafzimmer, Küche, Bad, kleiner Balkon.",
+     "Miete 750 Euro inklusive Betriebskosten, Kaution: drei Monatsmieten.",
+     "Frei ab 1. März. Bitte melden Sie sich bei Frau Huber."
+    ],
+    "qs": [
+     {
+      "q": "Gibt es einen Lift?",
+      "o": [
+       "ja",
+       "nein",
+       "das steht nicht im Inserat"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was ist in der Miete dabei?",
+      "o": [
+       "die Betriebskosten",
+       "der Strom",
+       "die Möbel"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Ab wann ist die Wohnung frei?",
+      "o": [
+       "ab 1. März",
+       "ab sofort",
+       "ab 1. Mai"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Aus der Hausordnung",
+    "txt": [
+     "Bitte trennen Sie den Müll.",
+     "Nach 22 Uhr ist Ruhe im Haus.",
+     "Fahrräder bleiben nicht auf der Stiege, sondern im Fahrradraum.",
+     "Bei Problemen hilft Ihnen der Hausmeister, Herr Novak."
+    ],
+    "qs": [
+     {
+      "q": "Wo stehen die Fahrräder?",
+      "o": [
+       "im Fahrradraum",
+       "auf der Stiege",
+       "im Vorzimmer"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wer hilft bei Problemen?",
+      "o": [
+       "der Hausmeister",
+       "die Vermieterin",
+       "die Nachbarn"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht an den Hausmeister",
+    "txt": [
+     "Sehr geehrter Herr Novak,",
+     "in meiner Wohnung (Stiege 2, 3. Stock) funktioniert die Heizung nicht.",
+     "Können Sie bitte morgen vorbeikommen?",
+     "Mit freundlichen Grüßen, Aurora"
+    ],
+    "qs": [
+     {
+      "q": "Was ist das Problem?",
+      "o": [
+       "Die Heizung funktioniert nicht.",
+       "Der Lift ist kaputt.",
+       "Der Müll ist nicht abgeholt."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wann soll Herr Novak kommen?",
+      "o": [
+       "morgen",
+       "heute Abend",
+       "nächste Woche"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Die Wohnungsbesichtigung",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Vermieterin",
+      "Grüß Gott! Das ist das Vorzimmer, hier ist das Wohnzimmer."
+     ],
+     [
+      "Du",
+      "[Die Wohnung ist sehr schön.|Sehr schön!|Die Wohnung gefällt mir sehr.]",
+      "Say the flat is very nice."
+     ],
+     [
+      "Vermieterin",
+      "Haben Sie noch Fragen?"
+     ],
+     [
+      "Du",
+      "[Wie hoch ist die Miete?|Was kostet die Miete?|Wie hoch ist die Miete, bitte?]",
+      "Ask how high the rent is."
+     ],
+     [
+      "Vermieterin",
+      "750 Euro, mit Betriebskosten."
+     ],
+     [
+      "Du",
+      "[Und wie hoch ist die Kaution?|Wie hoch ist die Kaution?|Und die Kaution?]",
+      "Ask about the deposit."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Beim Hausmeister",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Hausmeister",
+      "Grüß Gott! Kann ich Ihnen helfen?"
+     ],
+     [
+      "Du",
+      "[Ja, die Heizung funktioniert nicht.|Meine Heizung funktioniert nicht.|Ja, meine Heizung ist kaputt.]",
+      "Say the heating doesn't work."
+     ],
+     [
+      "Hausmeister",
+      "In welchem Stock wohnen Sie?"
+     ],
+     [
+      "Du",
+      "[Im dritten Stock.|Ich wohne im dritten Stock.]",
+      "Say: on the third floor."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Der Umzug",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Lena",
+      "Wann ziehst du in die neue Wohnung ein?"
+     ],
+     [
+      "Du",
+      "[Am 1. März.|Ich ziehe am 1. März ein.|Am ersten März.]",
+      "Say: on 1 March."
+     ],
+     [
+      "Lena",
+      "Ist die Wohnung möbliert?"
+     ],
+     [
+      "Du",
+      "[Nein, ich brauche noch Möbel.|Nein, sie ist nicht möbliert.|Nein, leider nicht.]",
+      "Say no, you still need furniture."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Answer an ad: you are interested in the flat and you would like to see it. Ask when it is free.",
+    "w": [
+     "Wohnung",
+     "frei"
+    ],
+    "a": [
+     "Ich interessiere mich für die Wohnung und möchte sie gern besichtigen. Ab wann ist sie frei?"
+    ],
+    "h": "2–3 sentences, polite (Sie)"
+   },
+   {
+    "t": "mc",
+    "q": "„das Vorzimmer“ (Austria) – what do people in Germany usually say?",
+    "o": [
+     "der Flur / die Diele",
+     "das Wohnzimmer",
+     "die Küche",
+     "der Keller"
+    ],
+    "a": 0,
+    "x": "Austria: das Vorzimmer – Germany: der Flur, die Diele (the room behind the front door)."
+   }
+  ],
+  "steps": [
+   {
+    "t": "Die Wohnung: Räume und Ausstattung",
+    "sec": [
+     1,
+     2,
+     3
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "t": "Mieten und im Haus wohnen",
+    "sec": [
+     4
+    ],
+    "ex": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "t": "Alles zusammen: Inserat, Hausordnung, Besichtigung",
+    "sec": [
+     5
+    ],
+    "ex": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ]
+   }
+  ]
+ },
+ {
+  "id": "w02",
+  "title": "Wortschatz: Arbeit – Stellensuche und Arbeitsalltag",
+  "fi": "Vocabulary: work – finding a job and everyday work",
+  "lvl": "B1",
+  "req": [],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>A vocabulary package: words for looking for a job and for everyday work.</li><li>Learn every noun with its article and plural.</li><li>sich bewerben is reflexive: Ich bewerbe mich um die Stelle.</li></ul><h3>1. Situation: looking for a job</h3><p>You read job ads, write an application and go to a job interview.</p><h3>2. Dialogue</h3><p>Chefin: Haben Sie schon Erfahrung im Verkauf?<br>Aurora: Ja, ich habe zwei Jahre in einer Firma in Helsinki gearbeitet.<br>Chefin: Die Stelle ist Teilzeit, 25 Stunden pro Woche.</p><h3>3. Finding a job</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Stelle</td><td>job, position</td></tr><tr><td>die Bewerbung – sich bewerben um</td><td>application – to apply for</td></tr><tr><td>der Lebenslauf / das Zeugnis</td><td>CV / certificate, reference</td></tr><tr><td>das Vorstellungsgespräch</td><td>job interview</td></tr><tr><td>die Erfahrung / die Ausbildung / das Praktikum</td><td>experience / training / internship</td></tr><tr><td>arbeitslos</td><td>unemployed</td></tr></table><h3>4. At work</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>der Arbeitgeber / der Arbeitnehmer</td><td>employer / employee</td></tr><tr><td>der Arbeitsvertrag</td><td>employment contract</td></tr><tr><td>das Gehalt / der Lohn – verdienen</td><td>salary / wage – to earn</td></tr><tr><td>die Teilzeit / die Vollzeit</td><td>part-time / full-time</td></tr><tr><td>die Überstunde / der Urlaub</td><td>overtime hour / holiday</td></tr><tr><td>die Firma / die Abteilung / der Chef</td><td>company / department / boss</td></tr><tr><td>der Kunde</td><td>customer, client</td></tr><tr><td>die Kündigung – kündigen</td><td>notice, dismissal – to give notice</td></tr></table><h3>5. Austria and Germany</h3><table><tr><th>Austria</th><th>Germany</th></tr><tr><td>der Gehalt (spoken) / das Gehalt</td><td>das Gehalt</td></tr><tr><td>der Dienstgeber (especially Austria)</td><td>der Arbeitgeber</td></tr><tr><td>im Krankenstand sein</td><td>krankgeschrieben sein</td></tr></table><p class=\"rule\">⚠ Watch out: der Kunde is like der Kollege – den Kunden, dem Kunden. die Firma – die Firmen, das Praktikum – die Praktika.</p>",
+  "v": [
+   [
+    "die Stelle, die Stellen",
+    "job, position"
+   ],
+   [
+    "die Bewerbung, die Bewerbungen",
+    "application"
+   ],
+   [
+    "sich bewerben",
+    "to apply (bewarb sich · hat sich beworben · wird sich bewerben)"
+   ],
+   [
+    "der Lebenslauf, die Lebensläufe",
+    "CV, résumé"
+   ],
+   [
+    "das Zeugnis, die Zeugnisse",
+    "certificate, school report, reference"
+   ],
+   [
+    "das Vorstellungsgespräch, die Vorstellungsgespräche",
+    "job interview"
+   ],
+   [
+    "die Erfahrung, die Erfahrungen",
+    "experience"
+   ],
+   [
+    "die Ausbildung, die Ausbildungen",
+    "training, education"
+   ],
+   [
+    "das Praktikum, die Praktika",
+    "internship"
+   ],
+   [
+    "arbeitslos",
+    "unemployed"
+   ],
+   [
+    "der Arbeitgeber, die Arbeitgeber",
+    "employer (also: der Dienstgeber, österr.)"
+   ],
+   [
+    "der Arbeitnehmer, die Arbeitnehmer",
+    "employee"
+   ],
+   [
+    "der Arbeitsvertrag, die Arbeitsverträge",
+    "employment contract"
+   ],
+   [
+    "das Gehalt, die Gehälter",
+    "salary (österr. also: der Gehalt)"
+   ],
+   [
+    "der Lohn, die Löhne",
+    "wage, pay"
+   ],
+   [
+    "verdienen",
+    "to earn (verdiente · hat verdient · wird verdienen)"
+   ],
+   [
+    "die Teilzeit",
+    "part-time (work)"
+   ],
+   [
+    "die Vollzeit",
+    "full-time (work)"
+   ],
+   [
+    "die Überstunde, die Überstunden",
+    "overtime hour"
+   ],
+   [
+    "der Urlaub, die Urlaube",
+    "holiday, vacation, leave"
+   ],
+   [
+    "die Firma, die Firmen",
+    "company, firm"
+   ],
+   [
+    "die Abteilung, die Abteilungen",
+    "department"
+   ],
+   [
+    "der Chef, die Chefs",
+    "boss (female: die Chefin)"
+   ],
+   [
+    "der Kunde, die Kunden",
+    "customer, client (female: die Kundin)"
+   ],
+   [
+    "die Kündigung, die Kündigungen",
+    "notice, dismissal, resignation"
+   ],
+   [
+    "kündigen",
+    "to give notice, to quit, to dismiss (kündigte · hat gekündigt · wird kündigen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Stelle",
+      "job"
+     ],
+     [
+      "die Bewerbung",
+      "application"
+     ],
+     [
+      "der Lebenslauf",
+      "CV"
+     ],
+     [
+      "das Vorstellungsgespräch",
+      "job interview"
+     ],
+     [
+      "das Praktikum",
+      "internship"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Ich bewerbe ___ um die Stelle als Verkäuferin.",
+    "a": [
+     "mich"
+    ],
+    "h": "Reflexivpronomen (ich)"
+   },
+   {
+    "t": "gap",
+    "q": "Bitte schicken Sie uns Ihren ___ und Ihre Zeugnisse.",
+    "a": [
+     "Lebenslauf"
+    ],
+    "h": "CV"
+   },
+   {
+    "t": "gap",
+    "q": "Haben Sie schon ___ in diesem Beruf?",
+    "a": [
+     "Erfahrung"
+    ],
+    "h": "experience"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I have a job interview tomorrow.",
+    "a": [
+     "Ich habe morgen ein Vorstellungsgespräch.",
+     "Morgen habe ich ein Vorstellungsgespräch."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I applied for the job.",
+    "a": [
+     "Ich habe mich um die Stelle beworben.",
+     "Ich habe mich für die Stelle beworben."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Er ist seit drei Monaten arbeitslos.",
+    "a": [
+     "He has been unemployed for three months.",
+     "He's been out of work for three months."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„sich bewerben“ in the Perfekt:",
+    "o": [
+     "Ich habe mich beworben.",
+     "Ich bin mich beworben.",
+     "Ich habe mich bewerbt.",
+     "Ich habe beworben mich."
+    ],
+    "a": 0,
+    "x": "bewerben – bewarb – hat beworben; reflexive verbs take haben."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Ich mache ein [Praktikum] in einer Firma. (internship)",
+     "Danach bekomme ich ein [Zeugnis]. (certificate)"
+    ],
+    "h": "je Kästchen ein Nomen"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: which job are you applying for, and what experience do you have?",
+    "w": [
+     "sich bewerben",
+     "Erfahrung"
+    ],
+    "a": [
+     "Ich bewerbe mich um die Stelle als Verkäuferin. Ich habe zwei Jahre Erfahrung im Verkauf."
+    ],
+    "h": "sich bewerben um + Akkusativ"
+   },
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "das Gehalt",
+      "salary"
+     ],
+     [
+      "die Teilzeit",
+      "part-time"
+     ],
+     [
+      "die Überstunde",
+      "overtime hour"
+     ],
+     [
+      "die Abteilung",
+      "department"
+     ],
+     [
+      "die Kündigung",
+      "notice"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Ich arbeite nur ___, 20 Stunden pro Woche.",
+    "a": [
+     "Teilzeit"
+    ],
+    "h": "part-time"
+   },
+   {
+    "t": "gap",
+    "q": "Wie viel ___ du im Monat? (verdienen)",
+    "a": [
+     "verdienst"
+    ],
+    "h": "Form von verdienen (du)"
+   },
+   {
+    "t": "gap",
+    "q": "Diese Woche habe ich fünf ___ gemacht.",
+    "a": [
+     "Überstunden"
+    ],
+    "h": "overtime hours – Plural"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm going on holiday in August.",
+    "a": [
+     "Im August mache ich Urlaub.",
+     "Ich mache im August Urlaub.",
+     "Im August fahre ich auf Urlaub.",
+     "Ich fahre im August auf Urlaub.",
+     "Im August gehe ich auf Urlaub."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "My boss is very nice.",
+    "a": [
+     "Mein Chef ist sehr nett.",
+     "Meine Chefin ist sehr nett."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Die Firma hat ihm gekündigt.",
+    "a": [
+     "The company dismissed him.",
+     "The company gave him notice.",
+     "The company fired him.",
+     "The company has dismissed him."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Wir haben einen neuen ___.“ (customer)",
+    "o": [
+     "Kunden",
+     "Kunde",
+     "Kundes",
+     "Kunden-"
+    ],
+    "a": 0,
+    "x": "der Kunde is like der Kollege: Akkusativ den Kunden, Dativ dem Kunden."
+   },
+   {
+    "t": "mc",
+    "q": "In Austria you also hear „der Dienstgeber“. What does it mean?",
+    "o": [
+     "der Arbeitgeber (employer)",
+     "der Arbeitnehmer (employee)",
+     "der Kunde",
+     "die Abteilung"
+    ],
+    "a": 0,
+    "x": "Dienstgeber is especially Austrian for Arbeitgeber (employer)."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Ich habe den [Arbeitsvertrag] schon unterschrieben. (employment contract)",
+     "Das [Gehalt] ist gut, aber ich muss oft [Überstunden] machen."
+    ],
+    "h": "je Kästchen ein Nomen: contract, salary, overtime hours"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences about your job: do you work part-time or full-time, and in which department?",
+    "w": [
+     "Teilzeit",
+     "Abteilung"
+    ],
+    "a": [
+     "Ich arbeite Vollzeit. Ich bin in der Abteilung Verkauf."
+    ],
+    "h": "Teilzeit/Vollzeit arbeiten; in der Abteilung …"
+   },
+   {
+    "t": "les",
+    "q": "Ein Stelleninserat",
+    "txt": [
+     "Wir suchen eine Verkäuferin oder einen Verkäufer (Teilzeit, 25 Stunden pro Woche).",
+     "Sie haben Erfahrung im Verkauf und sprechen gut Deutsch und Englisch.",
+     "Wir bieten ein gutes Gehalt und ein nettes Team.",
+     "Bitte schicken Sie Ihre Bewerbung mit Lebenslauf an die Firma Gruber."
+    ],
+    "qs": [
+     {
+      "q": "Wie viele Stunden pro Woche ist die Stelle?",
+      "o": [
+       "25",
+       "40",
+       "20"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was soll man schicken?",
+      "o": [
+       "Bewerbung und Lebenslauf",
+       "nur den Lebenslauf",
+       "ein Foto"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine E-Mail an die Chefin",
+    "txt": [
+     "Liebe Frau Berger,",
+     "ich möchte im August zwei Wochen Urlaub nehmen, vom 4. bis zum 15. August.",
+     "Meine Kollegin Sabine macht in dieser Zeit meine Arbeit.",
+     "Liebe Grüße, Aurora"
+    ],
+    "qs": [
+     {
+      "q": "Wie lange möchte Aurora Urlaub machen?",
+      "o": [
+       "zwei Wochen",
+       "eine Woche",
+       "einen Monat"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wer macht in dieser Zeit ihre Arbeit?",
+      "o": [
+       "Sabine",
+       "Frau Berger",
+       "Jonas"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Jonas hat eine neue Stelle",
+    "txt": [
+     "Jonas war drei Monate arbeitslos.",
+     "Er hat sich bei vielen Firmen beworben.",
+     "Letzte Woche hatte er ein Vorstellungsgespräch – und jetzt hat er die Stelle!",
+     "Er arbeitet Vollzeit in der Abteilung Einkauf."
+    ],
+    "qs": [
+     {
+      "q": "Wie lange war Jonas arbeitslos?",
+      "o": [
+       "drei Monate",
+       "ein Jahr",
+       "zwei Wochen"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wo arbeitet er jetzt?",
+      "o": [
+       "in der Abteilung Einkauf",
+       "im Verkauf",
+       "in einer Bank"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Das Vorstellungsgespräch",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Chefin",
+      "Grüß Gott! Warum bewerben Sie sich bei uns?"
+     ],
+     [
+      "Du",
+      "[Die Stelle interessiert mich sehr.|Ich finde die Stelle sehr interessant.|Die Arbeit interessiert mich sehr.]",
+      "Say the job interests you very much."
+     ],
+     [
+      "Chefin",
+      "Haben Sie Erfahrung?"
+     ],
+     [
+      "Du",
+      "[Ja, ich habe zwei Jahre Erfahrung.|Ja, ich habe schon zwei Jahre in einer Firma gearbeitet.|Ja, zwei Jahre.]",
+      "Say yes, two years of experience."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Urlaub beantragen",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Chef",
+      "Wann möchten Sie Urlaub machen?"
+     ],
+     [
+      "Du",
+      "[Im August, bitte.|Ich möchte im August Urlaub machen.|Im August.]",
+      "Say: in August."
+     ],
+     [
+      "Chef",
+      "Wie lange?"
+     ],
+     [
+      "Du",
+      "[Zwei Wochen.|Zwei Wochen, bitte.|Ich möchte zwei Wochen Urlaub.]",
+      "Say: two weeks."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Mit einer Kollegin in der Pause",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Kollegin",
+      "Du siehst müde aus!"
+     ],
+     [
+      "Du",
+      "[Ja, ich habe gestern Überstunden gemacht.|Ich habe gestern viele Überstunden gemacht.|Ja, gestern habe ich Überstunden gemacht.]",
+      "Say you did overtime yesterday."
+     ],
+     [
+      "Kollegin",
+      "Bekommst du die Überstunden bezahlt?"
+     ],
+     [
+      "Du",
+      "[Ja, zum Glück.|Ja, ich bekomme sie bezahlt.|Nein, leider nicht.]",
+      "Answer."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write a short application (2–3 sentences): which job, why you are interested, and that your CV is attached.",
+    "w": [
+     "sich bewerben",
+     "Lebenslauf"
+    ],
+    "a": [
+     "Ich bewerbe mich um die Stelle als Verkäuferin. Die Arbeit interessiert mich sehr. Meinen Lebenslauf schicke ich mit."
+    ],
+    "h": "polite, short sentences"
+   },
+   {
+    "t": "mc",
+    "q": "„das Gehalt“ or „der Gehalt“?",
+    "o": [
+     "das Gehalt – in Austria you also hear der Gehalt",
+     "only der Gehalt",
+     "only die Gehalt",
+     "das Gehalt is wrong"
+    ],
+    "a": 0,
+    "x": "Standard: das Gehalt, die Gehälter. In Austria der Gehalt is also used."
+   }
+  ],
+  "steps": [
+   {
+    "t": "Eine Stelle suchen und sich bewerben",
+    "sec": [
+     1,
+     2,
+     3
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "t": "Arbeitsalltag: Vertrag, Gehalt, Urlaub",
+    "sec": [
+     4
+    ],
+    "ex": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "t": "Alles zusammen: Inserat, E-Mail, Gespräch",
+    "sec": [
+     5
+    ],
+    "ex": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
  }
 ]
