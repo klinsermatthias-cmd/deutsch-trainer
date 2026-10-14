@@ -74,3 +74,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-14 – Wortschatz-Pakete außerhalb der Grammatik (S-1014-5)
 - Sechs Pakete w01–w06 (Wohnen, Arbeit, Gesundheit, Ämter, Essen, Freizeit/Reisen), je ca. 25 Wörter, 29 Übungen, 3 Lernschritte; `req: []`, damit sie jederzeit neben den Grammatikthemen lernbar sind.
 - Wortwahl nach Goethe/ÖSD-Wortliste B1 (österr. Varianten), Formen en.wiktionary, österr. Wörter Duden/de.wiktionary.
+
+## 2026-10-14 – Wortschatz-Pakete parallel (S-1014-12)
+- w01–w06 tragen `wort: true`: „Wörter übernehmen“ statt Lernschritten, laufen neben den Grammatikthemen (Engine 96a3c5b, Befund D-1014-24).
