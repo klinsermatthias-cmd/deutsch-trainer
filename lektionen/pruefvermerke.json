@@ -109,38 +109,38 @@
   },
   "w01": {
     "d": "2026-10-14",
-    "q": "S-1014-5: Goethe/ÖSD-Wortliste B1 (Wortauswahl, A-Vermerke: Stiege, Aufzug); en.wiktionary (Genus/Plural/Verbformen aller Karten); de.wiktionary Stiege, Vorzimmer (Österreich), Betriebskosten (Plural), Gehalt (der Gehalt österr.); Duden Dienstgeber (besonders österreichisch); Beispielsätze eigene Kenntnis",
+    "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
-    "h": "e82ce266e302"
+    "h": "117c1df357e2"
   },
   "w02": {
     "d": "2026-10-14",
-    "q": "S-1014-5: Goethe/ÖSD-Wortliste B1 (Wortauswahl, A-Vermerke: Stiege, Aufzug); en.wiktionary (Genus/Plural/Verbformen aller Karten); de.wiktionary Stiege, Vorzimmer (Österreich), Betriebskosten (Plural), Gehalt (der Gehalt österr.); Duden Dienstgeber (besonders österreichisch); Beispielsätze eigene Kenntnis",
+    "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
-    "h": "d4dbc9f4f0a5"
+    "h": "a1c2ca7965e2"
   },
   "w03": {
     "d": "2026-10-14",
-    "q": "S-1014-5: Goethe/ÖSD-Wortliste B1 (A-Varianten Marille, Faschierte, Hendl, Obers, Schwammerl, Karotte), en.wiktionary (Formen), Duden (Rettung, Spital, Meldezettel österr.), de.wiktionary Meldezettel; Notruf 144/Trinkgeld/Meldefrist eigene Kenntnis",
+    "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
-    "h": "10c7b28d8879"
+    "h": "27924dfbd74b"
   },
   "w04": {
     "d": "2026-10-14",
-    "q": "S-1014-5: Goethe/ÖSD-Wortliste B1 (A-Varianten Marille, Faschierte, Hendl, Obers, Schwammerl, Karotte), en.wiktionary (Formen), Duden (Rettung, Spital, Meldezettel österr.), de.wiktionary Meldezettel; Notruf 144/Trinkgeld/Meldefrist eigene Kenntnis",
+    "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
-    "h": "1631a1f3aabd"
+    "h": "a70026bbc473"
   },
   "w05": {
     "d": "2026-10-14",
-    "q": "S-1014-5: Goethe/ÖSD-Wortliste B1 (A-Varianten Marille, Faschierte, Hendl, Obers, Schwammerl, Karotte), en.wiktionary (Formen), Duden (Rettung, Spital, Meldezettel österr.), de.wiktionary Meldezettel; Notruf 144/Trinkgeld/Meldefrist eigene Kenntnis",
+    "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
-    "h": "fd6f5af1bcc5"
+    "h": "03b0f535ff87"
   },
   "w06": {
     "d": "2026-10-14",
-    "q": "S-1014-5: Goethe/ÖSD-Wortliste B1 (A-Varianten Marille, Faschierte, Hendl, Obers, Schwammerl, Karotte), en.wiktionary (Formen), Duden (Rettung, Spital, Meldezettel österr.), de.wiktionary Meldezettel; Notruf 144/Trinkgeld/Meldefrist eigene Kenntnis",
+    "q": "S-1014-12: nur Feld wort:true ergänzt (Wortschatz-Paket), Inhalt unverändert; Inhalt geprüft in S-1014-5 (Goethe/ÖSD-Wortliste B1, en.wiktionary, Duden, de.wiktionary)",
     "c": "S",
-    "h": "b166c6c724ab"
+    "h": "29cafee3d088"
   }
 }
