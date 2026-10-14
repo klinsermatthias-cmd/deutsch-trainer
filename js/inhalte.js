@@ -652,7 +652,23 @@ const GLOSS_EXTRA = {
   "jahre": {de: "years", base: "Jahr", note: "das Jahr, die Jahre"},
   "verkauf": {de: "sales, selling", note: "der Verkauf; im Verkauf arbeiten"},
   "august": {de: "August", note: "der August; im August"},
-  "glück": {de: "luck, happiness", note: "das Glück; zum Glück = luckily"}
+  "glück": {de: "luck, happiness", note: "das Glück; zum Glück = luckily"},
+  "tun": {de: "to do", note: "wehtun: Mir tun die Beine weh."},
+  "gebrochen": {de: "broken", base: "brechen", note: "Partizip II: hat gebrochen"},
+  "wieder": {de: "again", note: "Adverb"},
+  "erholt": {de: "recovered", base: "sich erholen", note: "Partizip II: hat sich erholt"},
+  "ausgefüllt": {de: "filled in", base: "ausfüllen", note: "Partizip II: hat ausgefüllt"},
+  "anmelden": {de: "to register", note: "sich anmelden (meldete sich an · hat sich angemeldet)"},
+  "eröffnen": {de: "to open (an account, a shop)", note: "ein Konto eröffnen"},
+  "letzte": {de: "last", note: "letzte Woche = last week"},
+  "mineralwasser": {de: "mineral water", note: "das Mineralwasser"},
+  "stimmt": {de: "is right", base: "stimmen", note: "Stimmt so! = Keep the change."},
+  "so": {de: "so, like this", note: "Stimmt so! = Keep the change."},
+  "paar": {de: "a few", note: "ein paar = a few"},
+  "stunde": {de: "hour", base: "die Stunde"},
+  "später": {de: "later"},
+  "fährt": {de: "goes, leaves", base: "fahren"},
+  "virtanen": {de: "Virtanen (Finnish surname)"}
 };
 
 /* ============================================================

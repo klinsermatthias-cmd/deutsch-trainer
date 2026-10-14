@@ -19937,5 +19937,2378 @@
     ]
    }
   ]
+ },
+ {
+  "id": "w03",
+  "title": "Wortschatz: Gesundheit – Körper, Krankheit, Notfall",
+  "fi": "Vocabulary: health – body, illness, emergency",
+  "lvl": "B1",
+  "req": [],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>A vocabulary package: the body, illnesses and emergencies.</li><li>Pain: Mir tut der Rücken weh. / Ich habe Rückenschmerzen.</li><li>Emergency in Austria: <b>die Rettung</b>, phone number 144.</li></ul><h3>1. Situation: at the doctor's and in an emergency</h3><p>You explain what hurts, understand the doctor and know what to do in an emergency.</p><h3>2. Dialogue</h3><p>Ärztin: Was fehlt Ihnen?<br>Aurora: Mir tut der Rücken weh, und ich habe Schnupfen.<br>Ärztin: Ich untersuche Sie jetzt. Haben Sie eine Allergie?</p><h3>3. The body and pain</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>der Kopf – der Hals – der Rücken</td><td>head – neck, throat – back</td></tr><tr><td>der Bauch – der Arm – das Bein</td><td>stomach, belly – arm – leg</td></tr><tr><td>der Zahn – der Zahnarzt</td><td>tooth – dentist</td></tr><tr><td>der Schmerz, die Schmerzen</td><td>pain</td></tr><tr><td>Mir tut der Hals weh.</td><td>My throat hurts.</td></tr></table><h3>4. Illness, emergency and insurance</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Erkältung / der Schnupfen – husten</td><td>cold / runny nose – to cough</td></tr><tr><td>die Allergie / das Pflaster / die Spritze</td><td>allergy / plaster / injection</td></tr><tr><td>die Verletzung – sich das Bein brechen</td><td>injury – to break one's leg</td></tr><tr><td>der Notfall / die Rettung</td><td>emergency / ambulance (Austria)</td></tr><tr><td>das Krankenhaus / das Spital</td><td>hospital / hospital (Austria)</td></tr><tr><td>die Untersuchung</td><td>examination</td></tr><tr><td>die Krankenkasse / die Versicherung</td><td>health insurance fund / insurance</td></tr><tr><td>gesund – sich erholen</td><td>healthy – to recover</td></tr></table><h3>5. Austria and Germany</h3><table><tr><th>Austria</th><th>Germany</th></tr><tr><td>die Rettung (144)</td><td>der Krankenwagen, der Rettungsdienst (112)</td></tr><tr><td>das Spital</td><td>das Krankenhaus (also in Austria)</td></tr><tr><td>sich verkühlen</td><td>sich erkälten</td></tr></table><p class=\"rule\">⚠ Watch out: Ich habe mir das Bein gebrochen (dative + body part with article, see d08b). der Hals – die Hälse, der Bauch – die Bäuche, der Zahn – die Zähne.</p>",
+  "v": [
+   [
+    "der Hals, die Hälse",
+    "neck, throat"
+   ],
+   [
+    "der Rücken, die Rücken",
+    "back"
+   ],
+   [
+    "der Bauch, die Bäuche",
+    "stomach, belly"
+   ],
+   [
+    "der Arm, die Arme",
+    "arm"
+   ],
+   [
+    "das Bein, die Beine",
+    "leg"
+   ],
+   [
+    "der Zahn, die Zähne",
+    "tooth"
+   ],
+   [
+    "der Zahnarzt, die Zahnärzte",
+    "dentist (female: die Zahnärztin)"
+   ],
+   [
+    "der Schmerz, die Schmerzen",
+    "pain"
+   ],
+   [
+    "husten",
+    "to cough (hustete · hat gehustet · wird husten)"
+   ],
+   [
+    "der Schnupfen",
+    "runny nose, cold"
+   ],
+   [
+    "die Erkältung, die Erkältungen",
+    "cold (illness)"
+   ],
+   [
+    "die Allergie, die Allergien",
+    "allergy"
+   ],
+   [
+    "das Pflaster, die Pflaster",
+    "plaster, band-aid"
+   ],
+   [
+    "die Spritze, die Spritzen",
+    "injection"
+   ],
+   [
+    "die Verletzung, die Verletzungen",
+    "injury"
+   ],
+   [
+    "sich das Bein brechen",
+    "to break one's leg (brach · hat gebrochen · wird brechen)"
+   ],
+   [
+    "der Notfall, die Notfälle",
+    "emergency"
+   ],
+   [
+    "die Rettung",
+    "ambulance, emergency medical service (Austria; Germany: Krankenwagen, Rettungsdienst)"
+   ],
+   [
+    "das Krankenhaus, die Krankenhäuser",
+    "hospital"
+   ],
+   [
+    "das Spital, die Spitäler",
+    "hospital (Austria; Germany: Krankenhaus)"
+   ],
+   [
+    "die Untersuchung, die Untersuchungen",
+    "examination, check-up"
+   ],
+   [
+    "die Krankenkasse, die Krankenkassen",
+    "health insurance fund"
+   ],
+   [
+    "die Versicherung, die Versicherungen",
+    "insurance"
+   ],
+   [
+    "gesund",
+    "healthy"
+   ],
+   [
+    "sich erholen",
+    "to recover, to rest (erholte sich · hat sich erholt · wird sich erholen)"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "zuo",
+    "q": "Which part of the body?",
+    "p": [
+     [
+      "der Hals",
+      "neck, throat"
+     ],
+     [
+      "der Rücken",
+      "back"
+     ],
+     [
+      "der Bauch",
+      "stomach"
+     ],
+     [
+      "das Bein",
+      "leg"
+     ],
+     [
+      "der Zahn",
+      "tooth"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Mir tut der ___ weh. Ich kann nicht gut sitzen.",
+    "a": [
+     "Rücken"
+    ],
+    "h": "back"
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe starke ___ im Bauch.",
+    "a": [
+     "Schmerzen"
+    ],
+    "h": "pain – Plural"
+   },
+   {
+    "t": "gap",
+    "q": "Mein Zahn tut weh, ich muss zum ___.",
+    "a": [
+     "Zahnarzt"
+    ],
+    "h": "dentist (zum + Nomen)"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "My throat hurts.",
+    "a": [
+     "Mir tut der Hals weh.",
+     "Der Hals tut mir weh.",
+     "Ich habe Halsschmerzen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "My legs hurt.",
+    "a": [
+     "Mir tun die Beine weh.",
+     "Die Beine tun mir weh."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Ich habe seit gestern Bauchschmerzen.",
+    "a": [
+     "I have had a stomach ache since yesterday.",
+     "I've had stomach ache since yesterday.",
+     "I've had a stomach ache since yesterday."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Plural of „der Zahn“?",
+    "o": [
+     "die Zähne",
+     "die Zahne",
+     "die Zähnen",
+     "die Zahns"
+    ],
+    "a": 0,
+    "x": "der Zahn – die Zähne (umlaut + -e)."
+   },
+   {
+    "t": "luk",
+    "q": "Was tut weh?",
+    "txt": [
+     "Mir tut der [Kopf] weh. (head)",
+     "Mir tun die [Beine] weh. (legs)"
+    ],
+    "h": "je Kästchen ein Körperteil – achte auf Singular/Plural"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: what hurts, and since when?",
+    "w": [
+     "wehtun",
+     "seit"
+    ],
+    "a": [
+     "Mir tut der Rücken weh. Ich habe seit Montag Schmerzen."
+    ],
+    "h": "Mir tut … weh. / Ich habe seit … Schmerzen."
+   },
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Erkältung",
+      "cold"
+     ],
+     [
+      "die Allergie",
+      "allergy"
+     ],
+     [
+      "das Pflaster",
+      "plaster"
+     ],
+     [
+      "die Spritze",
+      "injection"
+     ],
+     [
+      "der Notfall",
+      "emergency"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Das ist ein ___! Rufen Sie bitte die Rettung!",
+    "a": [
+     "Notfall"
+    ],
+    "h": "emergency"
+   },
+   {
+    "t": "gap",
+    "q": "Er hat sich beim Skifahren das Bein ___.",
+    "a": [
+     "gebrochen"
+    ],
+    "h": "Partizip II von brechen"
+   },
+   {
+    "t": "gap",
+    "q": "Im Urlaub habe ich mich gut ___.",
+    "a": [
+     "erholt"
+    ],
+    "h": "Partizip II von sich erholen"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I have an allergy.",
+    "a": [
+     "Ich habe eine Allergie."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "He is in hospital.",
+    "a": [
+     "Er ist im Krankenhaus.",
+     "Er ist im Spital.",
+     "Er liegt im Krankenhaus.",
+     "Er liegt im Spital."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Die Krankenkasse zahlt die Untersuchung.",
+    "a": [
+     "The health insurance pays for the examination.",
+     "The health insurance fund pays for the examination.",
+     "Health insurance pays for the check-up."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Emergency in Austria – which number do you call for „die Rettung“?",
+    "o": [
+     "144",
+     "110",
+     "118",
+     "911"
+    ],
+    "a": 0,
+    "x": "Rettung (ambulance) in Austria: 144. The European emergency number 112 also works."
+   },
+   {
+    "t": "mc",
+    "q": "„das Spital“ – what is it?",
+    "o": [
+     "a hospital (Austria)",
+     "a pharmacy",
+     "a doctor's surgery",
+     "an ambulance"
+    ],
+    "a": 0,
+    "x": "das Spital, die Spitäler = hospital, used in Austria; Germany: das Krankenhaus."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Ich habe [Schnupfen] und muss viel [husten]. (runny nose, to cough)"
+    ],
+    "h": "je Kästchen ein Wort"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: you have a cold and a cough, so you are staying at home.",
+    "w": [
+     "Erkältung",
+     "husten"
+    ],
+    "a": [
+     "Ich habe eine Erkältung und muss viel husten. Deshalb bleibe ich zu Hause."
+    ],
+    "h": "deshalb + verb in position 2"
+   },
+   {
+    "t": "les",
+    "q": "Beim Arzt",
+    "txt": [
+     "Aurora hat seit drei Tagen Schnupfen und Halsschmerzen.",
+     "Die Ärztin untersucht sie und sagt: „Das ist nur eine Erkältung.“",
+     "Sie bekommt keine Spritze, aber Tabletten. Sie soll sich gut erholen."
+    ],
+    "qs": [
+     {
+      "q": "Was hat Aurora?",
+      "o": [
+       "eine Erkältung",
+       "eine Allergie",
+       "eine Verletzung"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was bekommt sie?",
+      "o": [
+       "Tabletten",
+       "eine Spritze",
+       "ein Pflaster"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Unfall beim Skifahren",
+    "txt": [
+     "Jonas ist beim Skifahren gestürzt.",
+     "Er hat sich das Bein gebrochen, und die Rettung hat ihn ins Spital gebracht.",
+     "Jetzt muss er zwei Wochen zu Hause bleiben."
+    ],
+    "qs": [
+     {
+      "q": "Was ist passiert?",
+      "o": [
+       "Er hat sich das Bein gebrochen.",
+       "Er hat eine Allergie.",
+       "Er hat Zahnschmerzen."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wer hat ihn ins Spital gebracht?",
+      "o": [
+       "die Rettung",
+       "Lena",
+       "sein Chef"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht an Lena",
+    "txt": [
+     "Hallo Lena!",
+     "Ich war heute beim Zahnarzt. Mein Zahn hat sehr wehgetan.",
+     "Jetzt geht es mir besser. Morgen komme ich wieder ins Büro.",
+     "Liebe Grüße, Aurora"
+    ],
+    "qs": [
+     {
+      "q": "Wo war Aurora heute?",
+      "o": [
+       "beim Zahnarzt",
+       "im Spital",
+       "in der Apotheke"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wann kommt sie wieder ins Büro?",
+      "o": [
+       "morgen",
+       "heute",
+       "nächste Woche"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Bei der Ärztin",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Ärztin",
+      "Was fehlt Ihnen?"
+     ],
+     [
+      "Du",
+      "[Mir tut der Bauch weh.|Ich habe Bauchschmerzen.|Der Bauch tut mir weh.]",
+      "Say your stomach hurts."
+     ],
+     [
+      "Ärztin",
+      "Haben Sie eine Allergie?"
+     ],
+     [
+      "Du",
+      "[Nein, ich habe keine Allergie.|Nein.|Nein, keine Allergie.]",
+      "Say no."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Ein Notfall",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Mann",
+      "Hilfe! Meine Frau ist gestürzt!"
+     ],
+     [
+      "Du",
+      "[Ich rufe die Rettung!|Ich rufe sofort die Rettung!|Ich rufe 144 an!]",
+      "Say you are calling the ambulance."
+     ],
+     [
+      "Mann",
+      "Danke! Können Sie hier warten?"
+     ],
+     [
+      "Du",
+      "[Ja, natürlich.|Ja, ich warte hier.|Ja, gerne.]",
+      "Say yes."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Wie geht es dir?",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Lena",
+      "Wie geht es dir? Bist du wieder gesund?"
+     ],
+     [
+      "Du",
+      "[Ja, ich bin wieder gesund.|Ja, danke, es geht mir besser.|Fast, ich habe noch Schnupfen.]",
+      "Answer."
+     ],
+     [
+      "Lena",
+      "Hast du dich gut erholt?"
+     ],
+     [
+      "Du",
+      "[Ja, ich habe mich gut erholt.|Ja, sehr gut.|Ja, danke.]",
+      "Say yes, you have recovered well."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write to your boss (Sie): you have broken your arm and have to stay at home for two weeks.",
+    "w": [
+     "sich den Arm brechen"
+    ],
+    "a": [
+     "Ich habe mir den Arm gebrochen und muss zwei Wochen zu Hause bleiben."
+    ],
+    "h": "Ich habe mir … gebrochen"
+   },
+   {
+    "t": "mc",
+    "q": "„Mir tut der Kopf weh.“ means the same as …",
+    "o": [
+     "Ich habe Kopfschmerzen.",
+     "Ich habe einen Kopf.",
+     "Mein Kopf ist gesund.",
+     "Ich tue mir den Kopf weh."
+    ],
+    "a": 0,
+    "x": "Mir tut … weh = Ich habe …schmerzen (Kopfschmerzen, Bauchschmerzen, Halsschmerzen)."
+   }
+  ],
+  "steps": [
+   {
+    "t": "Der Körper und Schmerzen",
+    "sec": [
+     1,
+     2,
+     3
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "t": "Krankheit, Notfall und Versicherung",
+    "sec": [
+     4
+    ],
+    "ex": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "t": "Alles zusammen: beim Arzt, im Notfall",
+    "sec": [
+     5
+    ],
+    "ex": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ {
+  "id": "w04",
+  "title": "Wortschatz: Ämter und Behörden – Formulare, Dokumente, Anmeldung",
+  "fi": "Vocabulary: offices and authorities – forms, documents, registration",
+  "lvl": "B1",
+  "req": [],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>A vocabulary package: offices, forms and documents.</li><li>In Austria you register your address with the <b>Meldezettel</b> – within three days after moving in.</li><li>Form verbs: ein Formular ausfüllen, unterschreiben, abgeben.</li></ul><h3>1. Situation: at the office</h3><p>You register your new address, apply for a document and pay a fee.</p><h3>2. Dialogue</h3><p>Beamtin: Haben Sie den Meldezettel ausgefüllt?<br>Aurora: Ja, hier ist er. Muss ich auch unterschreiben?<br>Beamtin: Ja, bitte hier. Und ich brauche Ihren Reisepass.</p><h3>3. Forms and documents</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>das Formular – ausfüllen</td><td>form – to fill in</td></tr><tr><td>die Unterschrift – unterschreiben</td><td>signature – to sign</td></tr><tr><td>der Ausweis / der Reisepass</td><td>ID card / passport</td></tr><tr><td>der Meldezettel</td><td>registration form (Austria)</td></tr><tr><td>die Kopie</td><td>copy</td></tr><tr><td>gültig</td><td>valid</td></tr><tr><td>abgeben</td><td>to hand in</td></tr></table><h3>4. At the office</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>das Amt / die Behörde</td><td>office / authority</td></tr><tr><td>der Schalter</td><td>counter</td></tr><tr><td>die Anmeldung – sich anmelden</td><td>registration – to register</td></tr><tr><td>der Antrag – beantragen</td><td>application – to apply for</td></tr><tr><td>die Gebühr / die Frist</td><td>fee / deadline</td></tr><tr><td>die Bestätigung</td><td>confirmation</td></tr><tr><td>die Steuer / das Finanzamt</td><td>tax / tax office</td></tr><tr><td>das Konto</td><td>bank account</td></tr><tr><td>das Visum / die Staatsbürgerschaft</td><td>visa / citizenship</td></tr></table><h3>5. Austria and Germany</h3><table><tr><th>Austria</th><th>Germany</th></tr><tr><td>der Meldezettel</td><td>die Meldebescheinigung</td></tr><tr><td>die Staatsbürgerschaft</td><td>die Staatsangehörigkeit (both are correct)</td></tr></table><p class=\"rule\">⚠ Watch out: unterschreiben is not separable – Ich unterschreibe. Ich habe unterschrieben. ausfüllen and abgeben are separable – Füllen Sie das Formular aus! das Konto – die Konten, das Visum – die Visa.</p>",
+  "v": [
+   [
+    "das Formular, die Formulare",
+    "form"
+   ],
+   [
+    "ausfüllen",
+    "to fill in, to fill out (füllte aus · hat ausgefüllt · wird ausfüllen)"
+   ],
+   [
+    "unterschreiben",
+    "to sign (unterschrieb · hat unterschrieben · wird unterschreiben)"
+   ],
+   [
+    "die Unterschrift, die Unterschriften",
+    "signature"
+   ],
+   [
+    "der Ausweis, die Ausweise",
+    "ID card, identity document"
+   ],
+   [
+    "der Reisepass, die Reisepässe",
+    "passport"
+   ],
+   [
+    "der Meldezettel, die Meldezettel",
+    "registration form for your address (Austria; Germany: Meldebescheinigung)"
+   ],
+   [
+    "die Kopie, die Kopien",
+    "copy"
+   ],
+   [
+    "gültig",
+    "valid"
+   ],
+   [
+    "abgeben",
+    "to hand in (gab ab · hat abgegeben · wird abgeben)"
+   ],
+   [
+    "das Amt, die Ämter",
+    "office, public authority"
+   ],
+   [
+    "die Behörde, die Behörden",
+    "authority, government office"
+   ],
+   [
+    "der Schalter, die Schalter",
+    "counter, desk"
+   ],
+   [
+    "die Anmeldung, die Anmeldungen",
+    "registration"
+   ],
+   [
+    "sich anmelden",
+    "to register (meldete sich an · hat sich angemeldet · wird sich anmelden)"
+   ],
+   [
+    "der Antrag, die Anträge",
+    "application"
+   ],
+   [
+    "beantragen",
+    "to apply for (beantragte · hat beantragt · wird beantragen)"
+   ],
+   [
+    "die Gebühr, die Gebühren",
+    "fee, charge"
+   ],
+   [
+    "die Frist, die Fristen",
+    "deadline, time limit"
+   ],
+   [
+    "die Bestätigung, die Bestätigungen",
+    "confirmation"
+   ],
+   [
+    "die Steuer, die Steuern",
+    "tax"
+   ],
+   [
+    "das Finanzamt, die Finanzämter",
+    "tax office"
+   ],
+   [
+    "das Konto, die Konten",
+    "bank account"
+   ],
+   [
+    "das Visum, die Visa",
+    "visa"
+   ],
+   [
+    "die Staatsbürgerschaft, die Staatsbürgerschaften",
+    "citizenship"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "das Formular",
+      "form"
+     ],
+     [
+      "die Unterschrift",
+      "signature"
+     ],
+     [
+      "der Reisepass",
+      "passport"
+     ],
+     [
+      "die Kopie",
+      "copy"
+     ],
+     [
+      "gültig",
+      "valid"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze ausfüllen.",
+    "txt": [
+     "Bitte [füllen] Sie das Formular [aus]."
+    ],
+    "h": "Form von ausfüllen (Sie) – trennbares Verb, zwei Kästchen"
+   },
+   {
+    "t": "gap",
+    "q": "Sie müssen hier noch ___. (to sign)",
+    "a": [
+     "unterschreiben"
+    ],
+    "h": "Infinitiv am Satzende"
+   },
+   {
+    "t": "gap",
+    "q": "Mein Pass ist nur noch zwei Monate ___.",
+    "a": [
+     "gültig"
+    ],
+    "h": "valid"
+   },
+   {
+    "t": "gap",
+    "q": "Wo kann ich das Formular ___? (to hand in)",
+    "a": [
+     "abgeben"
+    ],
+    "h": "Infinitiv am Satzende"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I need a copy of your passport.",
+    "a": [
+     "Ich brauche eine Kopie von Ihrem Reisepass.",
+     "Ich brauche eine Kopie Ihres Reisepasses.",
+     "Ich brauche eine Kopie von Ihrem Pass."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Have you filled in the form? (Sie)",
+    "a": [
+     "Haben Sie das Formular ausgefüllt?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Bitte unterschreiben Sie hier.",
+    "a": [
+     "Please sign here."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„unterschreiben“ in the Perfekt:",
+    "o": [
+     "Ich habe unterschrieben.",
+     "Ich habe untergeschrieben.",
+     "Ich bin unterschrieben.",
+     "Ich habe geunterschrieben."
+    ],
+    "a": 0,
+    "x": "unterschreiben is not separable here: unterschrieb – hat unterschrieben (no ge-)."
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: you have filled in the form and signed it. Ask where you can hand it in.",
+    "w": [
+     "ausfüllen",
+     "unterschreiben",
+     "abgeben"
+    ],
+    "a": [
+     "Ich habe das Formular ausgefüllt und unterschrieben. Wo kann ich es abgeben?"
+    ],
+    "h": "Perfekt + a W-question"
+   },
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Behörde",
+      "authority"
+     ],
+     [
+      "der Antrag",
+      "application"
+     ],
+     [
+      "die Gebühr",
+      "fee"
+     ],
+     [
+      "die Frist",
+      "deadline"
+     ],
+     [
+      "das Konto",
+      "bank account"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Ich möchte einen neuen Reisepass ___.",
+    "a": [
+     "beantragen"
+    ],
+    "h": "to apply for – Infinitiv am Satzende"
+   },
+   {
+    "t": "gap",
+    "q": "Die ___ für den Antrag kostet 20 Euro.",
+    "a": [
+     "Gebühr"
+    ],
+    "h": "fee"
+   },
+   {
+    "t": "gap",
+    "q": "Nach dem Umzug muss man sich innerhalb von drei Tagen ___.",
+    "a": [
+     "anmelden"
+    ],
+    "h": "to register – Infinitiv"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'd like to open a bank account.",
+    "a": [
+     "Ich möchte ein Konto eröffnen.",
+     "Ich würde gern ein Konto eröffnen.",
+     "Ich möchte gern ein Konto eröffnen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Where is the tax office?",
+    "a": [
+     "Wo ist das Finanzamt?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Die Frist für den Antrag ist am Freitag.",
+    "a": [
+     "The deadline for the application is on Friday.",
+     "The deadline for the application is Friday."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Plural of „das Konto“?",
+    "o": [
+     "die Konten",
+     "die Kontos",
+     "die Konte",
+     "die Kontoen"
+    ],
+    "a": 0,
+    "x": "das Konto – die Konten (like das Museum – die Museen)."
+   },
+   {
+    "t": "mc",
+    "q": "„Ich brauche eine ___ für meinen Arbeitgeber.“ (a written confirmation)",
+    "o": [
+     "Bestätigung",
+     "Frist",
+     "Gebühr",
+     "Steuer"
+    ],
+    "a": 0,
+    "x": "die Bestätigung = confirmation, e.g. Anmeldebestätigung."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Am [Schalter] 3 gibt man den [Antrag] ab. (counter, application)"
+    ],
+    "h": "je Kästchen ein Nomen"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: you want to apply for a visa – ask how high the fee is and when the deadline is.",
+    "w": [
+     "Visum",
+     "Gebühr",
+     "Frist"
+    ],
+    "a": [
+     "Ich möchte ein Visum beantragen. Wie hoch ist die Gebühr und wann ist die Frist?"
+    ],
+    "h": "polite questions"
+   },
+   {
+    "t": "les",
+    "q": "Die Anmeldung in Wien",
+    "txt": [
+     "Wer in Österreich in eine Wohnung zieht, muss sich innerhalb von drei Tagen anmelden.",
+     "Man füllt den Meldezettel aus, unterschreibt ihn und gibt ihn beim Meldeamt ab.",
+     "Man braucht einen gültigen Ausweis oder Reisepass. Die Anmeldung kostet keine Gebühr."
+    ],
+    "qs": [
+     {
+      "q": "Wann muss man sich anmelden?",
+      "o": [
+       "innerhalb von drei Tagen",
+       "innerhalb von einem Monat",
+       "nach einem Jahr"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was kostet die Anmeldung?",
+      "o": [
+       "nichts",
+       "75 Euro",
+       "10 Euro"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Brief vom Finanzamt",
+    "txt": [
+     "Sehr geehrte Frau Virtanen,",
+     "bitte schicken Sie uns bis 30. November eine Kopie Ihres Arbeitsvertrags.",
+     "Wenn Sie die Frist nicht einhalten, müssen Sie eine Gebühr zahlen.",
+     "Mit freundlichen Grüßen, Finanzamt Wien"
+    ],
+    "qs": [
+     {
+      "q": "Was soll Frau Virtanen schicken?",
+      "o": [
+       "eine Kopie ihres Arbeitsvertrags",
+       "ihren Reisepass",
+       "ihre Steuern"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Bis wann?",
+      "o": [
+       "bis 30. November",
+       "bis Freitag",
+       "bis Ende des Jahres"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Am Schalter",
+    "txt": [
+     "Beamter: Nummer 23, bitte zum Schalter 4!",
+     "Aurora: Guten Tag, ich möchte einen neuen Reisepass beantragen.",
+     "Beamter: Haben Sie das Formular schon ausgefüllt?",
+     "Aurora: Ja, hier ist es. Und hier ist mein alter Pass."
+    ],
+    "qs": [
+     {
+      "q": "Was möchte Aurora?",
+      "o": [
+       "einen neuen Reisepass",
+       "ein Visum",
+       "ein Konto"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Zu welchem Schalter geht sie?",
+      "o": [
+       "Schalter 4",
+       "Schalter 23",
+       "Schalter 3"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Beim Meldeamt",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Beamtin",
+      "Guten Tag! Was kann ich für Sie tun?"
+     ],
+     [
+      "Du",
+      "[Ich möchte mich anmelden.|Ich möchte meine neue Adresse anmelden.|Ich möchte mich hier anmelden.]",
+      "Say you want to register."
+     ],
+     [
+      "Beamtin",
+      "Haben Sie den Meldezettel dabei?"
+     ],
+     [
+      "Du",
+      "[Ja, hier ist er.|Ja, bitte.|Ja, ich habe ihn ausgefüllt.]",
+      "Say yes, here it is."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Ein neuer Pass",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Beamter",
+      "Was brauchen Sie?"
+     ],
+     [
+      "Du",
+      "[Ich möchte einen neuen Reisepass beantragen.|Einen neuen Reisepass, bitte.|Ich brauche einen neuen Pass.]",
+      "Say you want to apply for a new passport."
+     ],
+     [
+      "Beamter",
+      "Ihr alter Pass ist nicht mehr gültig."
+     ],
+     [
+      "Du",
+      "[Ja, deshalb brauche ich einen neuen.|Ja, ich weiß.|Genau, deshalb bin ich hier.]",
+      "Answer."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "In der Bank",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Bankangestellte",
+      "Grüß Gott! Wie kann ich Ihnen helfen?"
+     ],
+     [
+      "Du",
+      "[Ich möchte ein Konto eröffnen.|Ich möchte gern ein Konto eröffnen.|Ich brauche ein Konto.]",
+      "Say you'd like to open an account."
+     ],
+     [
+      "Bankangestellte",
+      "Haben Sie einen Ausweis dabei?"
+     ],
+     [
+      "Du",
+      "[Ja, hier ist mein Reisepass.|Ja, hier bitte.|Ja, meinen Reisepass.]",
+      "Say yes, here is your passport."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write to the office (Sie): you moved last week and want to register. Ask which documents you need.",
+    "w": [
+     "sich anmelden",
+     "Dokumente"
+    ],
+    "a": [
+     "Ich bin letzte Woche umgezogen und möchte mich anmelden. Welche Dokumente brauche ich?"
+    ],
+    "h": "Perfekt + question"
+   },
+   {
+    "t": "mc",
+    "q": "„der Meldezettel“ (Austria) is …",
+    "o": [
+     "the form to register your address",
+     "a parking ticket",
+     "a doctor's note",
+     "a tax form"
+    ],
+    "a": 0,
+    "x": "Meldezettel (especially Austrian) = form/document showing your registered address; Germany: Meldebescheinigung."
+   }
+  ],
+  "steps": [
+   {
+    "t": "Formulare und Dokumente",
+    "sec": [
+     1,
+     2,
+     3
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "t": "Auf dem Amt: Antrag, Gebühr, Frist",
+    "sec": [
+     4
+    ],
+    "ex": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "t": "Alles zusammen: anmelden, beantragen, Bank",
+    "sec": [
+     5
+    ],
+    "ex": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ {
+  "id": "w05",
+  "title": "Wortschatz: Essen und Einkaufen – Lebensmittel und Gasthaus",
+  "fi": "Vocabulary: food and shopping – groceries and restaurant",
+  "lvl": "B1",
+  "req": [],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>A vocabulary package: food, shopping and eating out.</li><li>Many food words in Austria are different from Germany – both are correct, but in Austria you hear the Austrian word.</li><li>das Faschierte works like an adjective: das Faschierte, but 500 g Faschiertes.</li></ul><h3>1. Situation: shopping and eating out</h3><p>You buy food at the supermarket and at the market, and you order in a restaurant.</p><h3>2. Dialogue</h3><p>Kellner: Was darf ich Ihnen bringen?<br>Aurora: Als Hauptspeise das Hendl, bitte. Und als Nachspeise Marillenknödel.<br>Kellner: Gerne. Und zu trinken?</p><h3>3. Food</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>das Obst / das Gemüse</td><td>fruit / vegetables</td></tr><tr><td>der Apfel / die Marille</td><td>apple / apricot (Austria)</td></tr><tr><td>die Karotte / das Schwammerl</td><td>carrot / mushroom (Austria)</td></tr><tr><td>das Fleisch / das Faschierte / das Hendl</td><td>meat / minced meat (Austria) / chicken (Austria)</td></tr><tr><td>der Fisch / die Butter / das Schlagobers</td><td>fish / butter / whipped cream (Austria)</td></tr><tr><td>billig / teuer / frisch</td><td>cheap / expensive / fresh</td></tr><tr><td>das Sonderangebot</td><td>special offer</td></tr></table><h3>4. In the restaurant</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Speisekarte</td><td>menu</td></tr><tr><td>die Vorspeise / die Nachspeise</td><td>starter / dessert</td></tr><tr><td>das Getränk</td><td>drink</td></tr><tr><td>der Kellner / die Kellnerin</td><td>waiter / waitress</td></tr><tr><td>bestellen / bezahlen</td><td>to order / to pay</td></tr><tr><td>die Rechnung / das Trinkgeld</td><td>bill / tip</td></tr></table><h3>5. Austria and Germany</h3><table><tr><th>Austria</th><th>Germany</th></tr><tr><td>die Marille</td><td>die Aprikose</td></tr><tr><td>das Faschierte</td><td>das Hackfleisch</td></tr><tr><td>das Hendl</td><td>das Hähnchen</td></tr><tr><td>das Schlagobers</td><td>die Schlagsahne</td></tr><tr><td>das Schwammerl</td><td>der Pilz</td></tr><tr><td>die Karotte</td><td>die Möhre (Karotte also used)</td></tr></table><p class=\"rule\">⚠ Watch out: das Obst, das Gemüse, das Fleisch, die Butter have no plural in normal use. der Apfel – die Äpfel.</p>",
+  "v": [
+   [
+    "das Obst",
+    "fruit"
+   ],
+   [
+    "das Gemüse",
+    "vegetables"
+   ],
+   [
+    "der Apfel, die Äpfel",
+    "apple"
+   ],
+   [
+    "die Marille, die Marillen",
+    "apricot (Austria; Germany: Aprikose)"
+   ],
+   [
+    "die Karotte, die Karotten",
+    "carrot (Germany also: Möhre)"
+   ],
+   [
+    "das Schwammerl, die Schwammerln",
+    "mushroom (Austria; Germany: Pilz)"
+   ],
+   [
+    "das Fleisch",
+    "meat"
+   ],
+   [
+    "das Faschierte",
+    "minced meat (Austria; Germany: Hackfleisch) – 500 g Faschiertes"
+   ],
+   [
+    "das Hendl, die Hendln",
+    "chicken (Austria; Germany: Hähnchen)"
+   ],
+   [
+    "der Fisch, die Fische",
+    "fish"
+   ],
+   [
+    "die Butter",
+    "butter"
+   ],
+   [
+    "das Schlagobers",
+    "whipped cream (Austria; Germany: Schlagsahne)"
+   ],
+   [
+    "billig",
+    "cheap"
+   ],
+   [
+    "teuer",
+    "expensive"
+   ],
+   [
+    "frisch",
+    "fresh"
+   ],
+   [
+    "das Sonderangebot, die Sonderangebote",
+    "special offer"
+   ],
+   [
+    "die Speisekarte, die Speisekarten",
+    "menu"
+   ],
+   [
+    "die Vorspeise, die Vorspeisen",
+    "starter"
+   ],
+   [
+    "die Nachspeise, die Nachspeisen",
+    "dessert"
+   ],
+   [
+    "das Getränk, die Getränke",
+    "drink"
+   ],
+   [
+    "der Kellner, die Kellner",
+    "waiter (female: die Kellnerin)"
+   ],
+   [
+    "bestellen",
+    "to order (bestellte · hat bestellt · wird bestellen)"
+   ],
+   [
+    "bezahlen",
+    "to pay (bezahlte · hat bezahlt · wird bezahlen)"
+   ],
+   [
+    "die Rechnung, die Rechnungen",
+    "bill, invoice"
+   ],
+   [
+    "das Trinkgeld, die Trinkgelder",
+    "tip"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "zuo",
+    "q": "Austria → Germany",
+    "p": [
+     [
+      "die Marille",
+      "die Aprikose"
+     ],
+     [
+      "das Faschierte",
+      "das Hackfleisch"
+     ],
+     [
+      "das Hendl",
+      "das Hähnchen"
+     ],
+     [
+      "das Schlagobers",
+      "die Schlagsahne"
+     ],
+     [
+      "das Schwammerl",
+      "der Pilz"
+     ]
+    ],
+    "h": "zu jedem österreichischen Wort das Wort in Deutschland wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Ich kaufe ein Kilo ___ und ein Kilo Äpfel. (apricots)",
+    "a": [
+     "Marillen",
+     "Aprikosen"
+    ],
+    "h": "apricots – Plural"
+   },
+   {
+    "t": "gap",
+    "q": "Für die Spaghetti brauche ich 500 g ___.",
+    "a": [
+     "Faschiertes",
+     "Hackfleisch"
+    ],
+    "h": "minced meat – ohne Artikel"
+   },
+   {
+    "t": "gap",
+    "q": "Die Erdbeeren sind heute im ___: nur 2 Euro!",
+    "a": [
+     "Sonderangebot"
+    ],
+    "h": "special offer"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The vegetables are very fresh.",
+    "a": [
+     "Das Gemüse ist sehr frisch."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Fish is expensive today.",
+    "a": [
+     "Der Fisch ist heute teuer.",
+     "Heute ist der Fisch teuer.",
+     "Fisch ist heute teuer."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Möchtest du Schlagobers zum Kuchen?",
+    "a": [
+     "Would you like whipped cream with the cake?",
+     "Do you want whipped cream with the cake?",
+     "Would you like cream with the cake?"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Das Obst ___ frisch.“",
+    "o": [
+     "ist",
+     "sind",
+     "bist",
+     "seid"
+    ],
+    "a": 0,
+    "x": "das Obst, das Gemüse, das Fleisch are singular words: Das Obst ist frisch."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Auf meiner Einkaufsliste stehen [Äpfel], [Karotten] und [Butter]. (apples, carrots, butter)"
+    ],
+    "h": "je Kästchen ein Lebensmittel – Plural, wo man zählen kann"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: what fruit and vegetables do you buy at the market, and what is cheap today?",
+    "w": [
+     "Obst",
+     "Gemüse",
+     "billig"
+    ],
+    "a": [
+     "Am Markt kaufe ich Äpfel, Marillen und Karotten. Heute sind die Schwammerln billig."
+    ],
+    "h": "plural for things you can count"
+   },
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Speisekarte",
+      "menu"
+     ],
+     [
+      "die Vorspeise",
+      "starter"
+     ],
+     [
+      "die Nachspeise",
+      "dessert"
+     ],
+     [
+      "die Rechnung",
+      "bill"
+     ],
+     [
+      "das Trinkgeld",
+      "tip"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Können wir bitte die ___ sehen? Wir möchten bestellen.",
+    "a": [
+     "Speisekarte"
+    ],
+    "h": "menu"
+   },
+   {
+    "t": "gap",
+    "q": "Die ___, bitte! Wir möchten zahlen.",
+    "a": [
+     "Rechnung"
+    ],
+    "h": "bill"
+   },
+   {
+    "t": "gap",
+    "q": "In Österreich gibt man meistens etwa zehn Prozent ___.",
+    "a": [
+     "Trinkgeld"
+    ],
+    "h": "tip"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'd like to order, please.",
+    "a": [
+     "Ich möchte bitte bestellen.",
+     "Ich möchte bestellen, bitte.",
+     "Ich würde gern bestellen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "What would you like as a starter? (Sie)",
+    "a": [
+     "Was möchten Sie als Vorspeise?",
+     "Was nehmen Sie als Vorspeise?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Wir zahlen getrennt, bitte.",
+    "a": [
+     "We'll pay separately, please.",
+     "We're paying separately, please.",
+     "Separate bills, please."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "„Zahlen, bitte!“ – who says it?",
+    "o": [
+     "the guest who wants the bill",
+     "the waiter",
+     "the cook",
+     "the shop assistant"
+    ],
+    "a": 0,
+    "x": "In Austria guests often say „Zahlen, bitte!“ when they want to pay."
+   },
+   {
+    "t": "mc",
+    "q": "„Als ___ nehme ich Marillenknödel.“ (dessert)",
+    "o": [
+     "Nachspeise",
+     "Vorspeise",
+     "Getränk",
+     "Rechnung"
+    ],
+    "a": 0,
+    "x": "die Nachspeise = dessert; die Vorspeise = starter."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Der [Kellner] bringt die Getränke. Danach [bestellen] wir das Essen. (waiter, to order)"
+    ],
+    "h": "je Kästchen ein Wort"
+   },
+   {
+    "t": "sch",
+    "q": "Order in a restaurant (2 sentences): a starter, a main course and a drink.",
+    "w": [
+     "als Vorspeise",
+     "bestellen"
+    ],
+    "a": [
+     "Als Vorspeise nehme ich eine Suppe. Dann hätte ich gern das Hendl und ein Mineralwasser, bitte."
+    ],
+    "h": "polite: ich nehme / ich hätte gern"
+   },
+   {
+    "t": "les",
+    "q": "Die Speisekarte",
+    "txt": [
+     "Vorspeisen: Frittatensuppe 4,50 € · Salat 5,90 €",
+     "Hauptspeisen: Wiener Schnitzel 15,90 € · Backhendl 14,50 € · Schwammerlsauce mit Knödel 12,90 €",
+     "Nachspeisen: Marillenknödel 6,50 € · Kaiserschmarrn 8,90 €"
+    ],
+    "qs": [
+     {
+      "q": "Was kostet das Backhendl?",
+      "o": [
+       "14,50 €",
+       "15,90 €",
+       "12,90 €"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Welche Nachspeise ist mit Marillen?",
+      "o": [
+       "Marillenknödel",
+       "Kaiserschmarrn",
+       "Frittatensuppe"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Im Supermarkt",
+    "txt": [
+     "Diese Woche im Sonderangebot: Äpfel aus der Steiermark, 1 kg nur 1,49 €.",
+     "Frisches Hendl: 20 % billiger.",
+     "Schlagobers: zwei Packungen zum Preis von einer."
+    ],
+    "qs": [
+     {
+      "q": "Woher kommen die Äpfel?",
+      "o": [
+       "aus der Steiermark",
+       "aus Italien",
+       "aus Wien"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was ist 20 % billiger?",
+      "o": [
+       "das Hendl",
+       "die Äpfel",
+       "das Schlagobers"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht von Lena",
+    "txt": [
+     "Hallo Aurora!",
+     "Kannst du auf dem Heimweg einkaufen? Wir brauchen Gemüse, 500 g Faschiertes und Butter.",
+     "Fisch brauchen wir nicht, der ist zu teuer.",
+     "Danke! Lena"
+    ],
+    "qs": [
+     {
+      "q": "Was braucht Lena?",
+      "o": [
+       "Gemüse, Faschiertes und Butter",
+       "Fisch und Obst",
+       "Schlagobers"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Warum kein Fisch?",
+      "o": [
+       "Er ist zu teuer.",
+       "Er ist nicht frisch.",
+       "Lena mag keinen Fisch."
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Im Gasthaus",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Kellner",
+      "Grüß Gott! Was darf ich Ihnen bringen?"
+     ],
+     [
+      "Du",
+      "[Ich hätte gern das Schnitzel.|Das Schnitzel, bitte.|Ich nehme das Schnitzel.]",
+      "Order the schnitzel."
+     ],
+     [
+      "Kellner",
+      "Und zu trinken?"
+     ],
+     [
+      "Du",
+      "[Ein Mineralwasser, bitte.|Ich nehme ein Mineralwasser.|Ein Wasser, bitte.]",
+      "Order a mineral water."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Zahlen, bitte!",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Du",
+      "[Zahlen, bitte!|Die Rechnung, bitte!|Ich möchte bitte zahlen.]",
+      "Ask for the bill."
+     ],
+     [
+      "Kellnerin",
+      "Zusammen oder getrennt?"
+     ],
+     [
+      "Du",
+      "[Zusammen, bitte.|Getrennt, bitte.]",
+      "Say: together (or separately)."
+     ],
+     [
+      "Kellnerin",
+      "Das macht 23,40 Euro."
+     ],
+     [
+      "Du",
+      "[25 Euro, bitte. Stimmt so.|Machen Sie 25.|25, bitte.]",
+      "Pay 25 euros (with tip)."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Am Markt",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Verkäuferin",
+      "Was darf es sein?"
+     ],
+     [
+      "Du",
+      "[Ein Kilo Marillen, bitte.|Ich hätte gern ein Kilo Marillen.|Ein Kilo Marillen.]",
+      "Ask for a kilo of apricots."
+     ],
+     [
+      "Verkäuferin",
+      "Sonst noch etwas?"
+     ],
+     [
+      "Du",
+      "[Ja, ein paar Schwammerl, bitte.|Ein paar Schwammerln, bitte.|Nein, danke, das ist alles.]",
+      "Answer."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write a shopping list in 2 sentences for a dinner: meat or fish, vegetables, dessert.",
+    "w": [
+     "Fleisch",
+     "Gemüse",
+     "Nachspeise"
+    ],
+    "a": [
+     "Wir brauchen ein Hendl und frisches Gemüse. Als Nachspeise kaufen wir Marillen und Schlagobers."
+    ],
+    "h": "short sentences"
+   },
+   {
+    "t": "mc",
+    "q": "„Stimmt so!“ when paying means …",
+    "o": [
+     "Keep the change (the rest is the tip).",
+     "The bill is wrong.",
+     "Please check the bill.",
+     "I don't want to pay."
+    ],
+    "a": 0,
+    "x": "„Stimmt so!“ = keep the change – the difference is your tip."
+   }
+  ],
+  "steps": [
+   {
+    "t": "Lebensmittel – österreichisch und deutsch",
+    "sec": [
+     1,
+     2,
+     3
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "t": "Im Gasthaus: bestellen und zahlen",
+    "sec": [
+     4
+    ],
+    "ex": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "t": "Alles zusammen: Speisekarte, Supermarkt, Markt",
+    "sec": [
+     5
+    ],
+    "ex": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
+ },
+ {
+  "id": "w06",
+  "title": "Wortschatz: Freizeit und Reisen – Hobbys, Kultur, unterwegs",
+  "fi": "Vocabulary: free time and travel – hobbies, culture, on the road",
+  "lvl": "B1",
+  "req": [],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>A vocabulary package: free time, culture, travelling by train, plane and car.</li><li>Movement verbs take sein in the Perfekt: Wir sind geschwommen (Austria) / haben geschwommen (also correct).</li><li>Many words from English: das Hobby, das Ticket, das Hotel – plural with -s.</li></ul><h3>1. Situation: weekend and holidays</h3><p>You talk about hobbies, buy tickets and travel by train or car.</p><h3>2. Dialogue</h3><p>Lena: Was machst du in deiner Freizeit?<br>Aurora: Ich schwimme gern und bin in einem Laufverein. Und am Wochenende gehe ich oft ins Kino.<br>Lena: Ins Kino? Dann kaufe ich zwei Tickets für Samstag!</p><h3>3. Free time and culture</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Freizeit / das Hobby</td><td>free time / hobby</td></tr><tr><td>der Verein / der Sport</td><td>club / sport</td></tr><tr><td>schwimmen / Rad fahren – das Fahrrad</td><td>to swim / to cycle – bicycle</td></tr><tr><td>das Kino / das Theater / das Konzert</td><td>cinema / theatre / concert</td></tr><tr><td>die Ausstellung</td><td>exhibition</td></tr><tr><td>das Ticket</td><td>ticket</td></tr></table><h3>4. Travelling</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>die Reise / das Hotel / der Koffer</td><td>trip / hotel / suitcase</td></tr><tr><td>der Zug / der Bahnsteig / das Gleis</td><td>train / platform / track</td></tr><tr><td>die Verspätung</td><td>delay</td></tr><tr><td>der Flughafen</td><td>airport</td></tr><tr><td>der Führerschein / tanken / parken</td><td>driving licence / to fill up / to park</td></tr><tr><td>die Autobahn / der Stau</td><td>motorway / traffic jam</td></tr></table><h3>5. Useful phrases</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Der Zug hat zehn Minuten Verspätung.</td><td>The train is ten minutes late.</td></tr><tr><td>Der Zug fährt von Gleis 7 ab.</td><td>The train leaves from platform 7.</td></tr><tr><td>Auf der Autobahn ist Stau.</td><td>There is a traffic jam on the motorway.</td></tr><tr><td>Ich bin in einem Verein.</td><td>I am in a club.</td></tr></table><p class=\"rule\">⚠ Watch out: der Zug – die Züge, das Fahrrad – die Fahrräder, der Flughafen – die Flughäfen. Rad fahren is two words: Ich fahre gern Rad.</p>",
+  "v": [
+   [
+    "die Freizeit",
+    "free time, leisure time"
+   ],
+   [
+    "das Hobby, die Hobbys",
+    "hobby"
+   ],
+   [
+    "der Verein, die Vereine",
+    "club, association"
+   ],
+   [
+    "der Sport",
+    "sport"
+   ],
+   [
+    "schwimmen",
+    "to swim (schwamm · ist/hat geschwommen · wird schwimmen)"
+   ],
+   [
+    "Rad fahren",
+    "to cycle (fuhr Rad · ist Rad gefahren · wird Rad fahren)"
+   ],
+   [
+    "das Fahrrad, die Fahrräder",
+    "bicycle"
+   ],
+   [
+    "das Kino, die Kinos",
+    "cinema"
+   ],
+   [
+    "das Theater, die Theater",
+    "theatre"
+   ],
+   [
+    "das Konzert, die Konzerte",
+    "concert"
+   ],
+   [
+    "die Ausstellung, die Ausstellungen",
+    "exhibition"
+   ],
+   [
+    "das Ticket, die Tickets",
+    "ticket"
+   ],
+   [
+    "die Reise, die Reisen",
+    "trip, journey"
+   ],
+   [
+    "das Hotel, die Hotels",
+    "hotel"
+   ],
+   [
+    "der Koffer, die Koffer",
+    "suitcase"
+   ],
+   [
+    "der Zug, die Züge",
+    "train"
+   ],
+   [
+    "der Bahnsteig, die Bahnsteige",
+    "platform"
+   ],
+   [
+    "das Gleis, die Gleise",
+    "track, platform (Gleis 7)"
+   ],
+   [
+    "die Verspätung, die Verspätungen",
+    "delay"
+   ],
+   [
+    "der Flughafen, die Flughäfen",
+    "airport"
+   ],
+   [
+    "der Führerschein, die Führerscheine",
+    "driving licence"
+   ],
+   [
+    "tanken",
+    "to fill up (with petrol) (tankte · hat getankt · wird tanken)"
+   ],
+   [
+    "parken",
+    "to park (parkte · hat geparkt · wird parken)"
+   ],
+   [
+    "die Autobahn, die Autobahnen",
+    "motorway"
+   ],
+   [
+    "der Stau, die Staus",
+    "traffic jam"
+   ]
+  ],
+  "ex": [
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Freizeit",
+      "free time"
+     ],
+     [
+      "der Verein",
+      "club"
+     ],
+     [
+      "die Ausstellung",
+      "exhibition"
+     ],
+     [
+      "das Konzert",
+      "concert"
+     ],
+     [
+      "das Fahrrad",
+      "bicycle"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "In meiner ___ lese ich gern.",
+    "a": [
+     "Freizeit"
+    ],
+    "h": "free time"
+   },
+   {
+    "t": "gap",
+    "q": "Am Sonntag fahre ich mit dem ___ an die Donau.",
+    "a": [
+     "Fahrrad",
+     "Rad"
+    ],
+    "h": "bicycle"
+   },
+   {
+    "t": "gap",
+    "q": "Ich bin seit zwei Jahren in einem ___.",
+    "a": [
+     "Verein"
+    ],
+    "h": "club"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "What are your hobbies? (du)",
+    "a": [
+     "Was sind deine Hobbys?",
+     "Was hast du für Hobbys?",
+     "Welche Hobbys hast du?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Shall we go to the cinema on Saturday?",
+    "a": [
+     "Gehen wir am Samstag ins Kino?",
+     "Wollen wir am Samstag ins Kino gehen?",
+     "Sollen wir am Samstag ins Kino gehen?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Ich fahre jeden Tag mit dem Rad zur Arbeit.",
+    "a": [
+     "I cycle to work every day.",
+     "I ride my bike to work every day.",
+     "Every day I cycle to work."
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Plural of „das Hobby“?",
+    "o": [
+     "die Hobbys",
+     "die Hobbies",
+     "die Hobbye",
+     "die Hobbyen"
+    ],
+    "a": 0,
+    "x": "English words in German often take -s: das Hobby – die Hobbys, das Ticket – die Tickets, das Hotel – die Hotels."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Am Freitag gehen wir ins [Theater], am Samstag in eine [Ausstellung]. (theatre, exhibition)"
+    ],
+    "h": "je Kästchen ein Nomen"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences about your free time: what do you like doing, and where do you go at the weekend?",
+    "w": [
+     "Freizeit",
+     "gern"
+    ],
+    "a": [
+     "In meiner Freizeit schwimme ich gern. Am Wochenende gehe ich oft ins Kino."
+    ],
+    "h": "gern + verb"
+   },
+   {
+    "t": "zuo",
+    "q": "What does it mean?",
+    "p": [
+     [
+      "die Verspätung",
+      "delay"
+     ],
+     [
+      "der Bahnsteig",
+      "platform"
+     ],
+     [
+      "der Flughafen",
+      "airport"
+     ],
+     [
+      "der Führerschein",
+      "driving licence"
+     ],
+     [
+      "der Stau",
+      "traffic jam"
+     ]
+    ],
+    "h": "zu jedem Wort die Bedeutung wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Der Zug hat leider 20 Minuten ___.",
+    "a": [
+     "Verspätung"
+    ],
+    "h": "delay"
+   },
+   {
+    "t": "gap",
+    "q": "Der Zug nach Salzburg fährt von ___ 7 ab.",
+    "a": [
+     "Gleis",
+     "Bahnsteig"
+    ],
+    "h": "platform / track"
+   },
+   {
+    "t": "gap",
+    "q": "Wir müssen noch ___, der Tank ist fast leer.",
+    "a": [
+     "tanken"
+    ],
+    "h": "to fill up – Infinitiv"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "There is a traffic jam on the motorway.",
+    "a": [
+     "Auf der Autobahn ist Stau.",
+     "Auf der Autobahn ist ein Stau.",
+     "Auf der Autobahn gibt es einen Stau.",
+     "Es gibt einen Stau auf der Autobahn."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Where can I park?",
+    "a": [
+     "Wo kann ich parken?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "fi",
+    "q": "Hast du schon deinen Koffer gepackt?",
+    "a": [
+     "Have you packed your suitcase yet?",
+     "Have you already packed your suitcase?",
+     "Did you pack your suitcase already?"
+    ]
+   },
+   {
+    "t": "mc",
+    "q": "Plural of „der Zug“?",
+    "o": [
+     "die Züge",
+     "die Zuge",
+     "die Zügen",
+     "die Zugs"
+    ],
+    "a": 0,
+    "x": "der Zug – die Züge (umlaut + -e)."
+   },
+   {
+    "t": "mc",
+    "q": "„Hast du einen ___?“ – „Ja, ich darf Auto fahren.“",
+    "o": [
+     "Führerschein",
+     "Fahrschein",
+     "Flughafen",
+     "Koffer"
+    ],
+    "a": 0,
+    "x": "der Führerschein = driving licence; der Fahrschein = ticket for bus/train."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze.",
+    "txt": [
+     "Wir fliegen vom [Flughafen] Wien. Das [Hotel] ist direkt am Meer. (airport, hotel)"
+    ],
+    "h": "je Kästchen ein Nomen"
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: your train is late, so you will arrive one hour later.",
+    "w": [
+     "Zug",
+     "Verspätung"
+    ],
+    "a": [
+     "Mein Zug hat Verspätung. Ich komme eine Stunde später an."
+    ],
+    "h": "short sentences"
+   },
+   {
+    "t": "les",
+    "q": "Eine Durchsage am Bahnhof",
+    "txt": [
+     "Achtung am Bahnsteig 3!",
+     "Der Zug nach Salzburg, Abfahrt 10:15 Uhr, hat heute circa 20 Minuten Verspätung.",
+     "Wir bitten um Entschuldigung."
+    ],
+    "qs": [
+     {
+      "q": "Wohin fährt der Zug?",
+      "o": [
+       "nach Salzburg",
+       "nach Graz",
+       "nach Linz"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Wie viel Verspätung hat er?",
+      "o": [
+       "circa 20 Minuten",
+       "10 Minuten",
+       "eine Stunde"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Wochenende in Graz",
+    "txt": [
+     "Am Samstag sind Lena und Jonas mit dem Zug nach Graz gefahren.",
+     "Am Nachmittag haben sie eine Ausstellung im Kunsthaus besucht.",
+     "Am Abend waren sie in einem Konzert. Sie haben in einem kleinen Hotel geschlafen."
+    ],
+    "qs": [
+     {
+      "q": "Wie sind sie nach Graz gefahren?",
+      "o": [
+       "mit dem Zug",
+       "mit dem Auto",
+       "mit dem Fahrrad"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was haben sie am Abend gemacht?",
+      "o": [
+       "ein Konzert besucht",
+       "eine Ausstellung besucht",
+       "Rad fahren"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht von Jonas",
+    "txt": [
+     "Hallo Aurora!",
+     "Ich komme später: Auf der Autobahn ist Stau, und ich muss auch noch tanken.",
+     "Kannst du schon die Tickets für das Kino kaufen?",
+     "Bis gleich, Jonas"
+    ],
+    "qs": [
+     {
+      "q": "Warum kommt Jonas später?",
+      "o": [
+       "Auf der Autobahn ist Stau.",
+       "Der Zug hat Verspätung.",
+       "Er hat keinen Führerschein."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Was soll Aurora kaufen?",
+      "o": [
+       "die Kinotickets",
+       "Benzin",
+       "ein Zugticket"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Am Bahnhof",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Du",
+      "[Entschuldigung, von welchem Gleis fährt der Zug nach Linz?|Von welchem Gleis fährt der Zug nach Linz?|Wo fährt der Zug nach Linz ab?]",
+      "Ask which platform the train to Linz leaves from."
+     ],
+     [
+      "Mitarbeiterin",
+      "Von Gleis 5. Aber er hat heute zehn Minuten Verspätung."
+     ],
+     [
+      "Du",
+      "[Danke für die Information!|Danke schön!|Okay, danke!]",
+      "Thank her."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Was machst du am Wochenende?",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Lena",
+      "Was machst du am Wochenende?"
+     ],
+     [
+      "Du",
+      "[Ich gehe ins Kino.|Am Samstag gehe ich ins Kino.|Ich fahre Rad.]",
+      "Say what you are doing."
+     ],
+     [
+      "Lena",
+      "Darf ich mitkommen?"
+     ],
+     [
+      "Du",
+      "[Ja, gern!|Ja, natürlich!|Gerne, komm mit!]",
+      "Say yes."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Im Hotel",
+    "h": "Deine Zeilen auf Deutsch schreiben – kurze Antworten reichen",
+    "r": [
+     [
+      "Rezeptionist",
+      "Guten Abend! Haben Sie reserviert?"
+     ],
+     [
+      "Du",
+      "[Ja, auf den Namen Virtanen.|Ja, ich habe ein Zimmer reserviert.|Ja, für zwei Nächte.]",
+      "Say yes, you have a reservation."
+     ],
+     [
+      "Rezeptionist",
+      "Brauchen Sie einen Parkplatz?"
+     ],
+     [
+      "Du",
+      "[Nein, danke, ich bin mit dem Zug gekommen.|Nein, danke.|Ja, bitte.]",
+      "Answer."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write 2–3 sentences about your last trip: where did you go, how, and what did you do there?",
+    "w": [
+     "fahren",
+     "Reise"
+    ],
+    "a": [
+     "Letzten Sommer bin ich mit dem Zug nach Salzburg gefahren. Dort habe ich eine Ausstellung besucht und bin in einem Verein schwimmen gegangen."
+    ],
+    "h": "Perfekt: sein for movement"
+   },
+   {
+    "t": "mc",
+    "q": "„Ich bin gestern eine Stunde ___.“ (swum) – which form is used in Austria?",
+    "o": [
+     "geschwommen (Perfekt with sein)",
+     "geschwimmt",
+     "schwamm",
+     "geschwämmt"
+    ],
+    "a": 0,
+    "x": "schwimmen – schwamm – ist geschwommen (Austria and south; also hat geschwommen)."
+   }
+  ],
+  "steps": [
+   {
+    "t": "Freizeit, Hobbys und Kultur",
+    "sec": [
+     1,
+     2,
+     3
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "t": "Unterwegs: Zug, Flugzeug, Auto",
+    "sec": [
+     4
+    ],
+    "ex": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "t": "Alles zusammen: Durchsage, Wochenende, Hotel",
+    "sec": [
+     5
+    ],
+    "ex": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ]
+   }
+  ]
  }
 ]

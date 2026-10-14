@@ -70,3 +70,7 @@ Alle 18 Themen d01–d09b: Regeln der Theorie und Regelfragen gegen grammis, lin
 
 ## 14.10.2026 – Lernschritte für alle Themen (S-1014-1)
 d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schritt, kein Vorgriff), über 150 neue Übungen im gewohnten Mix (Lücke, Lückentext, Tabelle, Zuordnen, Satz ordnen, Übersetzen, Lesen, Schreiben, Dialog, Regelfragen). Dabei S-1013-51/-52 erledigt: d01 Ersatzinfinitiv-Hinweis, d02 ex28 Erklärung, d04 Gebäude, d07 unseres/eures, d06b antworten/glauben/zuhören, d08 wir-Imperativ, d08b „Wir treffen uns“, d09 außer. Prüfliste 20; neue Themen bekommen Lernschritte vor der Veröffentlichung (lehrplan.md).
+
+## 2026-10-14 – Wortschatz-Pakete außerhalb der Grammatik (S-1014-5)
+- Sechs Pakete w01–w06 (Wohnen, Arbeit, Gesundheit, Ämter, Essen, Freizeit/Reisen), je ca. 25 Wörter, 29 Übungen, 3 Lernschritte; `req: []`, damit sie jederzeit neben den Grammatikthemen lernbar sind.
+- Wortwahl nach Goethe/ÖSD-Wortliste B1 (österr. Varianten), Formen en.wiktionary, österr. Wörter Duden/de.wiktionary.
