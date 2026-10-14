@@ -2,6 +2,8 @@
 
 Startdatei für den nächsten Chat (Regel „Umsiedeln“, D-1009-6). **Ohne Privates** – Auroras Testergebnisse, Antworten und die ausführliche Auswertung bekommt der neue Chat nur per `send_message` bzw. liegen im privaten Repo `klinsermatthias-cmd/lernprotokoll-privat`.
 
+**Aktueller Chat: session_017SEJWh5rb7wU9fdPyGJgMD** (seit 14.10.2026, Generation 2 der Kette, Vorgänger archiviert).
+
 Stand: 14.10.2026 · abgebende Generation: session_01KaffgwpuMKAomR4aCnKT21 (Simulation/Analyse 14.10.; gestartet parallel zu Generation 2 session_016DDMpBd2CwhYdxw8FXXc6M, davor session_01XDLQ2V6tk1eM7bLtG3XZRH). Höchstens 8 Generationen in Folge.
 
 ## Zuerst lesen
@@ -49,8 +51,8 @@ Letzter vergebener Code: **D-1014-28**. Nächster: D-MMTT-1 mit neuem Datum.
 ## Session-IDs der anderen Chats (Stand: opi-suomea `docs/chats/sessions.md`)
 | Chat | Session |
 |---|---|
-| App-Engine: Funktionen | session_01RDQuEyYTikM25QrUxLnCu5 – `send_message` am 14.10. „not found“ |
-| Opi suomea (Lerninhalte) | session_01YUsnSxvNQWW2UiiXtsb9th |
+| App-Engine: Funktionen | session_01RDQuEyYTikM25QrUxLnCu5 – `send_message` am 14.10. zweimal „not found“ (Text über Matthias) |
+| Opi suomea (Lerninhalte) | session_01YUsnSxvNQWW2UiiXtsb9th – `send_message` am 14.10. „not found“ (Text über Matthias) |
 | Simulation (Hauptchat seit 13.10.) | session_01U4uxmr5RFBqjHYDRT6uBXS, zweites Konto – `send_message` erreicht ihn nicht, Text über Matthias |
 
 ## Routinen
