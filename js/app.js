@@ -45,6 +45,20 @@ const APP = {
   },
   doneTitle: "Super gemacht!",
   askPlaceholder: "z. B. Warum heißt es „dem Kollegen“?",
+  /* S-1014-4: Fehlerarten für die laufende Analyse; neue Arten („neu: …“ im Bericht) nach der Auswertung hier ergänzen */
+  errorKinds: [
+    "Verbstellung",
+    "Artikel/Genus",
+    "Kasus (Akkusativ/Dativ)",
+    "Adjektivendung",
+    "Präposition",
+    "Hilfsverb haben/sein",
+    "Konjugation/Verbform",
+    "Pluralform",
+    "Groß-/Kleinschreibung",
+    "Rechtschreibung",
+    "Wortwahl"
+  ],
   /* Beispiele im Auftrag „Neue Übungen von Coach“ (dir "de" = Übersetzung in die Lernsprache) */
   genExamples: `{"t":"gap","q":"Gestern ___ ich mit meiner Schwester ins Kino gegangen.","h":"sein – Perfekt","a":["bin"]}
 {"t":"tr","dir":"de","q":"I have been living in Linz for two years.","a":["Ich wohne seit zwei Jahren in Linz","Seit zwei Jahren wohne ich in Linz"]}
