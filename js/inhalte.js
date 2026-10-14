@@ -634,7 +634,11 @@ const GLOSS_EXTRA = {
   "museen": {de: "museums", base: "Museum", note: "das Museum, die Museen"},
   "stück": {de: "piece", note: "das Stück, die Stücke; nach Zahlen: drei Stück"},
   "triffst": {de: "(you) meet", base: "treffen", note: "du triffst, er trifft"},
-  "toll": {de: "great", note: "Adjektiv, umgangssprachlich: Das ist toll!"}
+  "toll": {de: "great", note: "Adjektiv, umgangssprachlich: Das ist toll!"},
+  "kenne": {de: "(I) know", base: "kennen", note: "ich kenne, du kennst"},
+  "mütze": {de: "cap, hat", note: "die Mütze, die Mützen"},
+  "mützen": {de: "caps, hats", base: "Mütze", note: "Plural"},
+  "außer": {de: "except, apart from", note: "Präposition mit Dativ: alle außer meinem Bruder"}
 };
 
 /* ============================================================

@@ -67,3 +67,6 @@ Offen (niedrig): mc-Fragesprache vereinheitlichen, Hinweise ohne Bau-Rezept, E-C
 
 ## 13.10.2026 – Grammatikprüfung aller Themen mit Quellen (S-1013-50)
 Alle 18 Themen d01–d09b: Regeln der Theorie und Regelfragen gegen grammis, lingolia, DWDS, Wiktionary geprüft; eigener Prüfvermerk je Thema. Ergebnis: Regeln stimmen; 4 kleine Korrekturen und 4 Vollständigkeitslücken als Vorschlag (S-1013-51/-52), Bericht `opi-suomea/docs/pruefungen/deutsch/grammatik-2026-10-13.md`. Prüfliste Nr. 19: künftige Themen genauso prüfen.
+
+## 14.10.2026 – Lernschritte für alle Themen (S-1014-1)
+d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schritt, kein Vorgriff), über 150 neue Übungen im gewohnten Mix (Lücke, Lückentext, Tabelle, Zuordnen, Satz ordnen, Übersetzen, Lesen, Schreiben, Dialog, Regelfragen). Dabei S-1013-51/-52 erledigt: d01 Ersatzinfinitiv-Hinweis, d02 ex28 Erklärung, d04 Gebäude, d07 unseres/eures, d06b antworten/glauben/zuhören, d08 wir-Imperativ, d08b „Wir treffen uns“, d09 außer. Prüfliste 20; neue Themen bekommen Lernschritte vor der Veröffentlichung (lehrplan.md).

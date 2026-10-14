@@ -139,3 +139,6 @@ Umfang: 30 neue Themen ≈ 30–60 Wochen; Block C wird beim Checkpoint 4 neu ge
 
 ## Ideen für später (noch nicht umgesetzt)
 - Oktober 2026 (Matthias, D-1011-1): **Zu jedem Theorieteil eigene Karten**, z. B. „Wie bildet man eine Ja/Nein-Frage?“ (Theoriefragen als `mc`/`tr` mit Erklärung), dazu genug Übungen je Theorieteil – die Zahl der Übungen pro Thema darf dafür deutlich steigen. Ziel: Theorie und Anwendung zu allen Themen in ausreichender Anzahl. Umgesetzt ab d01: je Theorieteil Regel- und Theoriefragen (`mc` mit Erklärung), 32–37 Übungen pro Thema.
+
+## Lernschritte (S-1014-1, 14.10.2026)
+Alle Themen d01–d09b haben `steps` (3–5 Lernschritte, je ≥ 8 Übungen in ≥ 3 Arten, kein Vorgriff). **Jedes neue Thema (ab d10) bekommt vor der Veröffentlichung ebenfalls Lernschritte** und wird nach Prüfliste 19 (Grammatik und Vollständigkeit mit Quellen) und 20 (Lernschritte ohne Vorgriff) geprüft.
