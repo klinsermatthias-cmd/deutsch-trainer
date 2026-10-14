@@ -148,5 +148,11 @@
     "q": "S-1014-26 Verbformen: en.wiktionary de-verb (Präteritum, Partizip, Hilfsverb, Präsens 3. Sg.) für alle 81 Verben; de.wiktionary verkühlen, kündigen, passieren, tun; Hilfsverb sein regional bei hängen/liegen/sitzen/stehen (de.wiktionary Hilfsverb*, Anmerkung hängen); du-Formen nach Regel aus der 3. Sg. (eigene Kenntnis)",
     "c": "S",
     "h": "3f74aed17bd0"
+  },
+  "d14": {
+    "d": "2026-10-14",
+    "q": "Duden (Adjektivdeklination ruhig, Sprachratgeber Artikelwörter/dasselbe-oder-das-gleiche, Ordinalzahlen erste…zwanzigste, derselbe, selbe, Erdgeschoss/Erdgeschoß, Jänner, Feber, Ablöse, Vorzimmer, Stock, Hausverwaltung, Besichtigung, Quadratmeter, dunkel, teuer, renovieren, Altbau, Neubau); DWDS (Stock, selb, Ablöse, Stockwerk); de/en.wiktionary via quellen.mjs (derselbe, neunzehnte, einundzwanzigste, dreißigste); grammis rechtschreibung/6200",
+    "c": "D",
+    "h": "f3e8628e5193"
   }
 }
