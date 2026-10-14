@@ -381,7 +381,8 @@
     "a": [
      "aufgestanden"
     ],
-    "h": "Partizip II von „aufstehen“ – ein Wort"
+    "h": "Partizip II von „aufstehen“ – ein Wort",
+    "aus": true
    },
    {
     "t": "gap",
@@ -389,7 +390,8 @@
     "a": [
      "passiert"
     ],
-    "h": "Partizip II von „passieren“"
+    "h": "Partizip II von „passieren“",
+    "aus": true
    },
    {
     "t": "gap",
@@ -397,7 +399,8 @@
     "a": [
      "geblieben"
     ],
-    "h": "Partizip II von „bleiben“"
+    "h": "Partizip II von „bleiben“",
+    "aus": true
    },
    {
     "t": "gap",
@@ -881,7 +884,8 @@
     "a": [
      "aufgestanden"
     ],
-    "h": "Partizip II von „aufstehen“ – ein Wort"
+    "h": "Partizip II von „aufstehen“ – ein Wort",
+    "aus": true
    },
    {
     "t": "gap",
@@ -983,7 +987,8 @@
      "Wir sind um sieben Uhr aufgestanden.",
      "Um sieben Uhr sind wir aufgestanden."
     ],
-    "de": "We got up at seven o'clock."
+    "de": "We got up at seven o'clock.",
+    "aus": true
    },
    {
     "t": "ord",
@@ -1104,7 +1109,8 @@
       "[Ja, es hat uns sehr gut gefallen.|Ja, sehr gut.]",
       "Say yes, you liked it very much."
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tab",
@@ -1147,7 +1153,8 @@
       "aufstehen",
       "[stand auf]"
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tab",
@@ -1182,7 +1189,8 @@
       "passieren",
       "[ist passiert]"
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -1671,6 +1679,159 @@
     ],
     "a": 0,
     "x": "Still true now → Präsens + seit. „Ich habe zwei Jahre hier gewohnt“ means: I lived here for two years – and not any more."
+   },
+   {
+    "t": "gap",
+    "q": "Am Samstag sind wir nach Salzburg ___. (fahren)",
+    "a": [
+     "gefahren"
+    ],
+    "h": "Partizip II von „fahren“"
+   },
+   {
+    "t": "gap",
+    "q": "Am Sonntag ___ wir nach Graz gefahren.",
+    "a": [
+     "sind"
+    ],
+    "h": "Form von haben oder sein"
+   },
+   {
+    "t": "gap",
+    "q": "Lena ___ am Wochenende nach Linz gefahren.",
+    "a": [
+     "ist"
+    ],
+    "h": "Form von haben oder sein"
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ gestern Pizza gegessen.",
+    "a": [
+     "habe"
+    ],
+    "h": "Form von haben oder sein"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Wir",
+     "sind",
+     "am",
+     "Samstag",
+     "nach",
+     "Wien",
+     "gefahren"
+    ],
+    "a": [
+     "Wir sind am Samstag nach Wien gefahren.",
+     "Am Samstag sind wir nach Wien gefahren.",
+     "Nach Wien sind wir am Samstag gefahren."
+    ],
+    "de": "We went to Vienna on Saturday."
+   },
+   {
+    "t": "tab",
+    "q": "Perfekt (er/sie)",
+    "h": "Hilfsverb + Partizip II, z. B. hat gemacht",
+    "head": [
+     "Infinitiv",
+     "er/sie (Perfekt)"
+    ],
+    "r": [
+     [
+      "wandern",
+      "[ist gewandert]"
+     ],
+     [
+      "ausschlafen",
+      "[hat ausgeschlafen]"
+     ],
+     [
+      "besuchen",
+      "[hat besucht]"
+     ],
+     [
+      "fliegen",
+      "[ist geflogen]"
+     ],
+     [
+      "einkaufen",
+      "[hat eingekauft]"
+     ],
+     [
+      "fahren",
+      "[ist gefahren]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Präteritum für er/sie, z. B. machen → machte; trennbare Verben in zwei Wörtern",
+    "head": [
+     "Infinitiv",
+     "er/sie (Präteritum)"
+    ],
+    "r": [
+     [
+      "einkaufen",
+      "[kaufte ein]"
+     ],
+     [
+      "wandern",
+      "[wanderte]"
+     ],
+     [
+      "besuchen",
+      "[besuchte]"
+     ],
+     [
+      "treffen",
+      "[traf]"
+     ],
+     [
+      "fliegen",
+      "[flog]"
+     ],
+     [
+      "bleiben",
+      "[blieb]"
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Beim Heurigen vom Urlaub erzählen",
+    "r": [
+     [
+      "Freundin",
+      "Und, was habt ihr im Urlaub gemacht?"
+     ],
+     [
+      "Du",
+      "[Wir sind nach Kroatien gefahren.|Wir sind nach Kroatien ans Meer gefahren.|Wir waren in Kroatien.]",
+      "Say you went to Croatia."
+     ],
+     [
+      "Freundin",
+      "Wie lange seid ihr geblieben?"
+     ],
+     [
+      "Du",
+      "[Wir sind zwei Wochen geblieben.|Zwei Wochen.]",
+      "Say: two weeks."
+     ],
+     [
+      "Freundin",
+      "Und was habt ihr dort gemacht?"
+     ],
+     [
+      "Du",
+      "[Wir haben viel gegessen und viel geschlafen.|Wir haben viel gegessen und geschlafen.|Wir haben viel geschlafen und viel gegessen.|Wir haben viel geschlafen und gegessen.]",
+      "Say you ate a lot and slept a lot."
+     ]
+    ]
    }
   ],
   "steps": [
@@ -1685,7 +1846,6 @@
     ],
     "ex": [
      0,
-     8,
      27,
      32,
      55,
@@ -1693,13 +1853,10 @@
      68,
      69,
      70,
-     71,
      72,
      73,
-     74,
      75,
-     76,
-     77
+     76
     ]
    },
    {
@@ -1721,7 +1878,11 @@
      83,
      84,
      85,
-     86
+     86,
+     8,
+     71,
+     74,
+     77
     ]
    },
    {
@@ -1756,18 +1917,18 @@
      8
     ],
     "ex": [
-     10,
-     11,
-     12,
-     44,
      51,
-     54,
      93,
      94,
      95,
      96,
      97,
-     98
+     98,
+     100,
+     101,
+     102,
+     103,
+     104
     ]
    },
    {
@@ -1786,13 +1947,13 @@
      26,
      57,
      58,
-     59,
-     60,
      62,
      63,
      64,
      99,
-     61
+     105,
+     106,
+     107
     ]
    }
   ]
@@ -1934,7 +2095,8 @@
      "Ich bin am Wochenende mit dem Zug nach Wien gefahren.",
      "Am Wochenende bin ich mit der Bahn nach Wien gefahren.",
      "Ich bin am Wochenende mit der Bahn nach Wien gefahren."
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -2366,7 +2528,8 @@
     "q": "I drove my sister to the station.",
     "a": [
      "Ich habe meine Schwester zum Bahnhof gefahren."
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -2422,7 +2585,8 @@
       "[waren]",
       "[hatten]"
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "mc",
@@ -2622,6 +2786,35 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze war oder hatte.",
+    "txt": [
+     "Gestern [war] ich krank. (sein)",
+     "Lena [hatte] am Wochenende keine Zeit. (haben)",
+     "Wie [war] dein Urlaub? (sein)"
+    ],
+    "h": "Jedes Kästchen eine Form im Präteritum: war oder hatte"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "At the weekend I went to Vienna.",
+    "a": [
+     "Am Wochenende bin ich nach Wien gefahren.",
+     "Ich bin am Wochenende nach Wien gefahren.",
+     "Am Wochenende bin ich nach Wien gegangen.",
+     "Ich bin am Wochenende nach Wien gegangen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I drove my sister to Linz.",
+    "a": [
+     "Ich habe meine Schwester nach Linz gefahren."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>sein</b>: movement from A to B, change of state, and <i>sein, bleiben, passieren</i>.</li><li><b>haben</b>: all other verbs – also <i>fahren</i> with an object and all reflexive verbs.</li><li>In Austria: <i>ich bin gesessen, gestanden, gelegen</i>.</li></ul><h3>1. Situation: telling a friend about your weekend</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Was ist passiert?</td><td>What happened?</td></tr><tr><td>Ich bin um sechs aufgewacht.</td><td>I woke up at six.</td></tr><tr><td>Ich habe meine Schwester zum Bahnhof gefahren.</td><td>I drove my sister to the station.</td></tr><tr><td>Dann bin ich nach Hause gefahren.</td><td>Then I drove home.</td></tr><tr><td>Ich habe mich schnell umgezogen.</td><td>I quickly got changed.</td></tr><tr><td>Wir sind zu Hause geblieben.</td><td>We stayed at home.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Was <b>ist</b> am Samstag <b>passiert</b>?</i><br><b>Aurora:</b> <i>Nichts Schlimmes! Ich <b>bin</b> um sechs <b>aufgewacht</b> und <b>habe</b> meine Schwester zum Bahnhof <b>gefahren</b>. Dann <b>bin</b> ich nach Hause <b>gefahren</b> und wieder <b>eingeschlafen</b>.</i></p><ul><li>In the dialogue: <i>ist passiert</i> – passieren takes sein.</li><li><i>bin aufgewacht, bin eingeschlafen</i> – change of state.</li><li><i>habe meine Schwester gefahren</i> – fahren with an object takes haben; <i>bin nach Hause gefahren</i> – movement takes sein.</li></ul><h3>3. Overview</h3><table><tr><th>Group</th><th>Example</th></tr><tr><td>movement from A to B</td><td>Er ist nach Linz gefahren.</td></tr><tr><td>change of state</td><td>Er ist eingeschlafen.</td></tr><tr><td>sein, bleiben, passieren</td><td>Er ist zu Hause geblieben.</td></tr><tr><td>everything else</td><td>Er hat lange geschlafen.</td></tr><tr><td>fahren with an object</td><td>Er hat das Auto gefahren.</td></tr><tr><td>reflexive verbs</td><td>Er hat sich umgezogen.</td></tr></table><p>The first three groups take <b>sein</b>, the last three take <b>haben</b>.</p><table><tr><th>Person</th><th>sein</th></tr><tr><td>ich</td><td>bin</td></tr><tr><td>du</td><td>bist</td></tr><tr><td>er / sie / es</td><td>ist</td></tr><tr><td>wir</td><td>sind</td></tr><tr><td>ihr</td><td>seid</td></tr><tr><td>sie / Sie</td><td>sind</td></tr></table><h3>4. sein: movement from A to B</h3><ul><li>gehen, kommen, fahren, fliegen, laufen, wandern, umziehen, aufstehen</li><li><i>Wir sind am Samstag wandern gegangen.</i></li><li><i>Im Mai bin ich nach Linz umgezogen.</i></li></ul><h3>5. sein: change of state</h3><ul><li>aufwachen, einschlafen, werden – something changes: awake → asleep, child → adult.</li><li><i>Ich bin um sechs aufgewacht.</i></li><li>But no change: <i>Ich habe lange geschlafen.</i></li></ul><h3>6. sein: sein, bleiben, passieren</h3><ul><li>These three take sein, although there is no movement.</li><li><i>Ich bin krank gewesen. – Wir sind zu Hause geblieben. – Was ist passiert?</i></li></ul><h3>7. haben: the two traps</h3><table><tr><th>Verb</th><th>Example</th><th>Why?</th></tr><tr><td>fahren without an object</td><td>Ich bin nach Graz gefahren.</td><td>movement → sein</td></tr><tr><td>fahren with an object</td><td>Ich habe meinen Sohn zur Schule gefahren.</td><td>someone or something is driven → haben</td></tr><tr><td>umziehen</td><td>Ich bin nach Linz umgezogen.</td><td>moved house → sein</td></tr><tr><td>sich umziehen</td><td>Ich habe mich umgezogen.</td><td>reflexive → haben</td></tr></table><h3>8. Speaking about the past: war, hatte, musste</h3><ul><li>For <i>sein</i>, <i>haben</i> and modal verbs people mostly use the Präteritum: <i>Es war schön. Ich hatte keine Zeit. Ich musste arbeiten.</i></li><li>In Austria you also often hear the Perfekt: <i>Ich bin krank gewesen. Ich habe keine Zeit gehabt.</i> Both are correct.</li></ul><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>sitzen, stehen, liegen</i> take <b>sein</b>: <i>Ich bin lange im Wartezimmer gesessen.</i></li><li>In northern and central Germany: <i>Ich habe gesessen.</i> Both are correct.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich habe nach Hause gegangen.</td><td>Ich bin nach Hause gegangen.</td></tr><tr><td>Er ist das Auto gefahren.</td><td>Er hat das Auto gefahren.</td></tr><tr><td>Ich bin mich umgezogen.</td><td>Ich habe mich umgezogen.</td></tr><tr><td>Was hat passiert?</td><td>Was ist passiert?</td></tr></table>",
@@ -2639,7 +2832,6 @@
      2,
      5,
      6,
-     7,
      8,
      9,
      11,
@@ -2651,7 +2843,8 @@
      31,
      32,
      52,
-     53
+     53,
+     57
     ]
    },
    {
@@ -2696,8 +2889,8 @@
      40,
      41,
      42,
-     43,
-     55
+     55,
+     58
     ]
    },
    {
@@ -2711,11 +2904,11 @@
      44,
      45,
      46,
-     47,
      48,
      49,
      50,
-     51
+     51,
+     56
     ]
    }
   ]
@@ -3529,7 +3722,8 @@
      "Ich gehe morgen zum Arzt.",
      "Morgen gehe ich zur Ärztin.",
      "Ich gehe morgen zur Ärztin."
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -4314,6 +4508,17 @@
      "Morgen fahre ich mit dem Bus zur Arbeit."
     ],
     "de": "Tomorrow I'm going to work by bus."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Tomorrow I'm going shopping.",
+    "a": [
+     "Morgen gehe ich einkaufen.",
+     "Ich gehe morgen einkaufen.",
+     "Morgen kaufe ich ein.",
+     "Ich kaufe morgen ein."
+    ]
    }
   ],
   "steps": [
@@ -4326,16 +4531,15 @@
      4
     ],
     "ex": [
-     9,
      23,
-     45,
      69,
      70,
      71,
      72,
      73,
      74,
-     75
+     75,
+     92
     ]
    },
    {
@@ -4419,7 +4623,8 @@
      61,
      64,
      65,
-     91
+     91,
+     9
     ]
    }
   ]
@@ -5796,7 +6001,8 @@
       "[Wenn es geschneit hat, bin ich Ski gefahren.|Dann bin ich Ski gefahren.|Wenn es geschneit hat, bin ich Schi gefahren.|Dann bin ich Schi gefahren.]",
       "Say: whenever it snowed, you went skiing."
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "mc",
@@ -5866,7 +6072,8 @@
      "at the beginning"
     ],
     "a": 0,
-    "x": "They start a subordinate clause: …, als ich ein Kind war."
+    "x": "They start a subordinate clause: …, als ich ein Kind war.",
+    "aus": true
    },
    {
     "t": "mc",
@@ -6043,7 +6250,8 @@
      "Als ich klein war, habe ich auf dem Land gewohnt.",
      "Als ich ein Kind war, habe ich am Land gewohnt.",
      "Als Kind habe ich am Land gewohnt."
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -6223,7 +6431,8 @@
       "[Während ich koche, höre ich Radio auf Deutsch.|Ich höre Radio auf Deutsch.]",
       "Say you listen to the radio in German while cooking."
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tab",
@@ -6262,7 +6471,8 @@
       "sich wohlfühlen",
       "[fühlte sich wohl]"
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tab",
@@ -6473,6 +6683,126 @@
      "Als ich nach Österreich gekommen bin, hatte ich keine Wohnung. Wenn ich Heimweh habe, rufe ich meine Familie an."
     ],
     "h": "one event in the past → als; every time → wenn"
+   },
+   {
+    "t": "mc",
+    "q": "Where does the conjugated verb go after als and wenn?",
+    "o": [
+     "at the end of the clause",
+     "at position 2",
+     "at the beginning"
+    ],
+    "a": 0,
+    "x": "als and wenn start a subordinate clause: …, als ich ein Kind war. / Wenn ich Zeit habe, …"
+   },
+   {
+    "t": "tab",
+    "q": "Präteritum (er/sie)",
+    "h": "Präteritum für er/sie, z. B. machen → machte",
+    "head": [
+     "Infinitiv",
+     "er/sie (Präteritum)"
+    ],
+    "r": [
+     [
+      "ankommen",
+      "[kam an]"
+     ],
+     [
+      "kommen",
+      "[kam]"
+     ],
+     [
+      "gehen",
+      "[ging]"
+     ],
+     [
+      "wohnen",
+      "[wohnte]"
+     ],
+     [
+      "sein",
+      "[war]"
+     ],
+     [
+      "können",
+      "[konnte]"
+     ],
+     [
+      "sich wohlfühlen",
+      "[fühlte sich wohl]"
+     ]
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "When I was a child, I lived in Salzburg.",
+    "a": [
+     "Als ich ein Kind war, habe ich in Salzburg gewohnt.",
+     "Als ich ein Kind war, wohnte ich in Salzburg.",
+     "Als Kind habe ich in Salzburg gewohnt.",
+     "Ich habe in Salzburg gewohnt, als ich ein Kind war.",
+     "Als ich klein war, habe ich in Salzburg gewohnt.",
+     "Als ich klein war, wohnte ich in Salzburg."
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Erinnerungen an die Kindheit",
+    "r": [
+     [
+      "Freund",
+      "Wo hast du als Kind gewohnt?"
+     ],
+     [
+      "Du",
+      "[Als Kind habe ich in Salzburg gewohnt.|Ich habe in Salzburg gewohnt.|Ich habe als Kind in Salzburg gewohnt.|In Salzburg.]",
+      "Say you lived in Salzburg as a child."
+     ],
+     [
+      "Freund",
+      "Und was hast du gemacht, wenn es geschneit hat?"
+     ],
+     [
+      "Du",
+      "[Wenn es geschneit hat, bin ich Ski gefahren.|Dann bin ich Ski gefahren.|Wenn es geschneit hat, bin ich Schi gefahren.|Dann bin ich Schi gefahren.]",
+      "Say: whenever it snowed, you went skiing."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Als, wenn oder wann?",
+    "r": [
+     [
+      "Freundin",
+      "Wann hast du Deutsch gelernt?"
+     ],
+     [
+      "Du",
+      "[Als ich nach Österreich gekommen bin.|Als ich nach Österreich kam.]",
+      "Say: when you came to Austria."
+     ],
+     [
+      "Freundin",
+      "Und wann übst du jetzt?"
+     ],
+     [
+      "Du",
+      "[Immer wenn ich Zeit habe.|Wenn ich Zeit habe.]",
+      "Say: whenever you have time."
+     ],
+     [
+      "Freundin",
+      "Weißt du schon, wann der nächste Kurs beginnt?"
+     ],
+     [
+      "Du",
+      "[Nein, ich weiß nicht, wann der Kurs beginnt.|Nein, ich weiß nicht, wann der nächste Kurs beginnt.|Nein, ich weiß nicht, wann er beginnt.]",
+      "Say no, you don't know when the course starts."
+     ]
+    ]
    }
   ],
   "steps": [
@@ -6514,13 +6844,13 @@
      17,
      21,
      23,
-     26,
      27,
      36,
      41,
-     49,
      67,
-     68
+     68,
+     79,
+     80
     ]
    },
    {
@@ -6554,12 +6884,12 @@
      29,
      42,
      55,
-     59,
      65,
      66,
      72,
      73,
-     74
+     74,
+     81
     ]
    },
    {
@@ -6570,14 +6900,14 @@
     ],
     "ex": [
      22,
-     32,
-     60,
      61,
      62,
      63,
      64,
      75,
-     76
+     76,
+     77,
+     78
     ]
    }
   ]
@@ -6741,7 +7071,8 @@
      "Bevor ich ins Bett gehe, lese ich ein Buch.",
      "Ich lese ein Buch, bevor ich ins Bett gehe.",
      "Bevor ich schlafen gehe, lese ich ein Buch."
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -7007,6 +7338,15 @@
      "war"
     ],
     "h": "hatte oder war? – richtige Form"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Before I go to sleep, I read a book.",
+    "a": [
+     "Bevor ich schlafen gehe, lese ich ein Buch.",
+     "Ich lese ein Buch, bevor ich schlafen gehe."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>während</b> = while, at the same time.</li><li><b>bevor</b> = before. <b>nachdem</b> = after – the nachdem-clause is one tense earlier.</li><li>All three start a subordinate clause: the verb goes to the end.</li><li>Same idea, three word types: <i>vor dem Essen – bevor ich esse – vorher</i>.</li></ul><h3>1. Situation: your day and your first days in Austria</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</td><td>Before I go to work, I drink coffee.</td></tr><tr><td>Während ich koche, höre ich Radio.</td><td>While I'm cooking, I listen to the radio.</td></tr><tr><td>Nachdem ich angekommen war, habe ich meine Mutter angerufen.</td><td>After I had arrived, I called my mother.</td></tr><tr><td>Vor dem Essen gehe ich einkaufen.</td><td>Before the meal I go shopping.</td></tr><tr><td>Danach gehen wir spazieren.</td><td>After that we go for a walk.</td></tr></table><h3>2. Dialogue</h3><p><b>Kollegin:</b> <i>Was hast du am ersten Tag in Österreich gemacht?</i><br><b>Aurora:</b> <i><b>Nachdem</b> ich angekommen <b>war</b>, habe ich meine Mutter angerufen. <b>Danach</b> bin ich in die Stadt gegangen.</i></p><ul><li>In the dialogue: <i>Nachdem ich angekommen war</i> – the arrival happened first, so the Plusquamperfekt.</li><li><i>Danach bin ich …</i> – <i>danach</i> is an adverb: the verb follows directly.</li></ul><h3>3. Overview: preposition, conjunction or adverb?</h3><table><tr><th>preposition + noun</th><th>conjunction + clause</th><th>adverb + verb</th></tr><tr><td>vor dem Essen</td><td>bevor ich esse</td><td>vorher esse ich</td></tr><tr><td>nach dem Essen</td><td>nachdem ich gegessen habe</td><td>danach gehe ich</td></tr><tr><td>während des Essens</td><td>während ich esse</td><td>–</td></tr></table><ul><li>Conjunction: verb at the end. Adverb: position 1, the verb follows directly.</li></ul><h3>4. während</h3><ul><li>Two things happen at the same time.</li><li><i>Während du kochst, decke ich den Tisch.</i></li><li><i>Während die Kinder schlafen, lese ich ein Buch.</i></li></ul><h3>5. bevor</h3><ul><li><i>bevor</i> + clause: <i>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</i></li><li><i>vor</i> + noun: <i>vor der Arbeit</i>. Never: <i>vor ich gehe</i>.</li></ul><h3>6. nachdem: one tense earlier</h3><table><tr><th>Main clause</th><th>nachdem-clause</th><th>Example</th></tr><tr><td>Präsens</td><td>Perfekt</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Perfekt or Präteritum</td><td>Plusquamperfekt</td><td>Nachdem wir gegessen hatten, sind wir spazieren gegangen.</td></tr></table><ul><li>Plusquamperfekt = <b>hatte</b> or <b>war</b> + Partizip II.</li><li>haben or sein: the same rules as in the Perfekt – see d01b. <i>Nachdem ich angekommen war, …</i></li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wasch dir die Hände, vor du isst.</td><td>Wasch dir die Hände, bevor du isst.</td></tr><tr><td>Nachdem ich angekommen habe, …</td><td>Nachdem ich angekommen war, …</td></tr><tr><td>Nachdem ich esse, gehe ich spazieren.</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Danach ich gehe spazieren.</td><td>Danach gehe ich spazieren.</td></tr></table>",
@@ -7042,11 +7382,11 @@
      8,
      10,
      12,
-     13,
      17,
      18,
      28,
-     29
+     29,
+     32
     ]
    },
    {
@@ -8046,7 +8386,8 @@
     "a": [
      "Als"
     ],
-    "h": "Bindewort: when (als, wenn oder wann?)"
+    "h": "Bindewort: when (als, wenn oder wann?)",
+    "aus": true
    },
    {
     "t": "gap",
@@ -8054,7 +8395,8 @@
     "a": [
      "konnte"
     ],
-    "h": "können – Präteritum"
+    "h": "können – Präteritum",
+    "aus": true
    },
    {
     "t": "tr",
@@ -8232,6 +8574,22 @@
      ]
     ],
     "h": "zu jedem Nomen den Artikel wählen"
+   },
+   {
+    "t": "gap",
+    "q": "Heute gibt es am Markt ___ Paradeiser mehr. (kein)",
+    "a": [
+     "keine"
+    ],
+    "h": "kein- mit der richtigen Endung"
+   },
+   {
+    "t": "gap",
+    "q": "Die Bäckerei ist geschlossen, ich habe heute keine Semmeln ___. (kaufen)",
+    "a": [
+     "gekauft"
+    ],
+    "h": "Partizip II von „kaufen“"
    }
   ],
   "steps": [
@@ -8322,8 +8680,8 @@
      49,
      50,
      51,
-     56,
-     57
+     68,
+     69
     ]
    }
   ]
@@ -9247,7 +9605,8 @@
       "dieser Herr",
       "[diesen Herrn]"
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tab",
@@ -10189,7 +10548,8 @@
     "a": [
      "konnte"
     ],
-    "h": "können – Präteritum"
+    "h": "können – Präteritum",
+    "aus": true
    },
    {
     "t": "tr",
@@ -10496,6 +10856,72 @@
       "Say you'll take a voucher."
      ]
     ]
+   },
+   {
+    "t": "tab",
+    "q": "Nominativ → Akkusativ",
+    "h": "Jedes Kästchen: Artikelwort + Nomen im Akkusativ, z. B. die Semmel.",
+    "head": [
+     "Nominativ",
+     "Akkusativ"
+    ],
+    "r": [
+     [
+      "der Gutschein",
+      "[den Gutschein]"
+     ],
+     [
+      "die Glückwunschkarte",
+      "[die Glückwunschkarte]"
+     ],
+     [
+      "das Geschenk",
+      "[das Geschenk]"
+     ],
+     [
+      "ein Blumenstrauß",
+      "[einen Blumenstrauß]"
+     ],
+     [
+      "kein Geburtstag",
+      "[keinen Geburtstag]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Nominativ → Akkusativ: dieser, mein, unser",
+    "h": "Jedes Kästchen: Artikelwort + Nomen im Akkusativ, z. B. diese Karte.",
+    "head": [
+     "Nominativ",
+     "Akkusativ"
+    ],
+    "r": [
+     [
+      "dieser Gutschein",
+      "[diesen Gutschein]"
+     ],
+     [
+      "mein Blumenstrauß",
+      "[meinen Blumenstrauß]"
+     ],
+     [
+      "unser Geschenk",
+      "[unser Geschenk]"
+     ],
+     [
+      "deine Glückwunschkarte",
+      "[deine Glückwunschkarte]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Zum Geburtstag kaufe ich meiner Kollegin ___ Blumenstrauß. (ein)",
+    "a": [
+     "einen"
+    ],
+    "h": "ein- im Akkusativ"
    }
   ],
   "steps": [
@@ -10508,7 +10934,6 @@
      4
     ],
     "ex": [
-     2,
      12,
      13,
      14,
@@ -10523,7 +10948,8 @@
      58,
      67,
      68,
-     70
+     70,
+     86
     ]
    },
    {
@@ -10562,7 +10988,8 @@
      80,
      81,
      82,
-     83
+     83,
+     87
     ]
    },
    {
@@ -10584,9 +11011,9 @@
      51,
      52,
      63,
-     64,
      84,
-     85
+     85,
+     88
     ]
    }
   ]
@@ -11280,7 +11707,6 @@
      25,
      26,
      29,
-     32,
      33
     ]
    },
@@ -11322,7 +11748,8 @@
      21,
      24,
      28,
-     30
+     30,
+     32
     ]
    }
   ]
@@ -12498,7 +12925,8 @@
     "a": [
      "konnte"
     ],
-    "h": "können – Präteritum"
+    "h": "können – Präteritum",
+    "aus": true
    },
    {
     "t": "tr",
@@ -12786,6 +13214,14 @@
      "Die Leiter? Ich brauche sie morgen.",
      "Die Leiter? Morgen brauche ich sie."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich rufe ___ morgen an. (du)",
+    "a": [
+     "dich"
+    ],
+    "h": "Pronomen im Akkusativ"
    }
   ],
   "steps": [
@@ -12802,12 +13238,12 @@
      11,
      32,
      37,
-     63,
      64,
      74,
      75,
      76,
-     77
+     77,
+     82
     ]
    },
    {
@@ -14607,7 +15043,8 @@
     "a": [
      "Als"
     ],
-    "h": "Bindewort: when (als, wenn oder wann?)"
+    "h": "Bindewort: when (als, wenn oder wann?)",
+    "aus": true
    },
    {
     "t": "gap",
@@ -14615,7 +15052,8 @@
     "a": [
      "musste"
     ],
-    "h": "müssen – Präteritum"
+    "h": "müssen – Präteritum",
+    "aus": true
    },
    {
     "t": "tr",
@@ -14730,6 +15168,22 @@
     ],
     "a": 0,
     "x": "Alone, neuter nominative: unseres. Before a noun: unser Häferl."
+   },
+   {
+    "t": "gap",
+    "q": "Ist das dein Schirm? – Ja, das ist ___.",
+    "a": [
+     "meiner"
+    ],
+    "h": "mein- ohne Nomen"
+   },
+   {
+    "t": "gap",
+    "q": "Ist das deine Jacke? – Nein, das ist nicht ___.",
+    "a": [
+     "meine"
+    ],
+    "h": "mein- ohne Nomen"
    }
   ],
   "steps": [
@@ -14820,9 +15274,9 @@
      52,
      55,
      56,
-     62,
-     63,
-     64
+     64,
+     73,
+     74
     ]
    }
   ]
@@ -18484,7 +18938,8 @@
     "h": "Bindewort: when (als, wenn oder wann?)",
     "a": [
      "Als"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -19039,6 +19494,14 @@
     "a": [
      "Ich komme aus Finnland."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich wohne ___ drei Jahren in Graz.",
+    "a": [
+     "seit"
+    ],
+    "h": "seit oder vor?"
    }
   ],
   "steps": [
@@ -19114,7 +19577,6 @@
      2,
      3,
      11,
-     12,
      13,
      27,
      28,
@@ -19122,7 +19584,8 @@
      30,
      34,
      35,
-     36
+     36,
+     48
     ]
    }
   ]

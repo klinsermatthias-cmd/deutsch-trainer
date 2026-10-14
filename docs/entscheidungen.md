@@ -85,3 +85,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 2026-10-14 – Verbkarten: Zeitformen mit Pronomen untereinander (S-1014-26)
 - 83 Verbkarten umgestellt: englische Seite nur Bedeutung, deutsche Seite vier Zeilen Präsens/Präteritum/Perfekt/Futur mit Pronomen (ich · du · er/sie/es bei Vokalwechsel, sein/haben, reflexiven Verben). Formen nach en.wiktionary (de-verb), de.wiktionary (verkühlen, kündigen, passieren, „ist gehangen“ regional).
+
+## 2026-10-14 – Vorgriffe in Lernschritten behoben (D-1014-57/-58/-59)
+- Übungen, die eine Form aus einem späteren Schritt verlangen, in den passenden Schritt verschoben (d01 ex 8/71/74/77 → S2, d02 ex 9 → S5, d05b ex 32 → S3).
+- Vorgriffe auf spätere Themen (als/konnte/musste vor d03, Dativ- und Wechselpräpositionen, während, gefallen + Dativ) ausgeblendet (`aus`) und durch gleichwertige Übungen im selben Schritt ersetzt; d01 Schritt 4 übt nur noch „Bewegung → sein“.
+- d05 ex 2 ausgeblendet statt verschoben: „meinen Kollegen/diesen Herrn“ braucht die n-Deklination, die d05 nicht erklärt; Ersatz-Tabellen in S1 (ohne Possessiv) und S3 (dieser/mein/unser). d08 ex 40 bleibt: „Geh zur Apotheke!“ ist erlaubt, sobald d09 vor d06–d08b kommt (D-1014-60).
