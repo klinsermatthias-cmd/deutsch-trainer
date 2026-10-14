@@ -82,3 +82,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Reihenfolge nach d09b: d11 → d14 → d15 → d16; d11 zuerst, weil d14 darauf aufbaut. d11-`req` ohne d10 (nicht gebaut), dafür mit d06 (Pronomen mich/ihn/es).
 - d11 „Wohin kommt das Sofa?“: Umzug in Graz, 9 Wechselpräpositionen, wo?/wohin?, liegen–legen, stehen–stellen, sitzen–setzen, hängen; 26 Wörter, 55 Übungen in 4 Lernschritten.
 - Österr. Perfekt ist gelegen/gestanden/gesessen/gehangen (Duden) wird gelehrt, hat … als bundesdeutsch genannt; „Fehler finden“ und „Satz umformen“ als `gap` mit ganzem Satz (nicht `sch`, das rotiert).
+
+## 2026-10-14 – Verbkarten: Zeitformen mit Pronomen untereinander (S-1014-26)
+- 83 Verbkarten umgestellt: englische Seite nur Bedeutung, deutsche Seite vier Zeilen Präsens/Präteritum/Perfekt/Futur mit Pronomen (ich · du · er/sie/es bei Vokalwechsel, sein/haben, reflexiven Verben). Formen nach en.wiktionary (de-verb), de.wiktionary (verkühlen, kündigen, passieren, „ist gehangen“ regional).

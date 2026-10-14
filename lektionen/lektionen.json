@@ -17,47 +17,135 @@
    ],
    [
     "einen Ausflug machen",
-    "to go on a trip, to go on an outing (machte · hat gemacht · wird machen)"
+    "to go on a trip, to go on an outing",
+    {
+     "f": [
+      "Präsens: er/sie/es macht einen Ausflug",
+      "Präteritum: er/sie/es machte einen Ausflug",
+      "Perfekt: er/sie/es hat einen Ausflug gemacht",
+      "Futur: er/sie/es wird einen Ausflug machen"
+     ]
+    }
    ],
    [
     "wandern",
-    "to hike (wanderte · ist gewandert · wird wandern)"
+    "to hike",
+    {
+     "f": [
+      "Präsens: er/sie/es wandert",
+      "Präteritum: er/sie/es wanderte",
+      "Perfekt: er/sie/es ist gewandert",
+      "Futur: er/sie/es wird wandern"
+     ]
+    }
    ],
    [
     "ausschlafen",
-    "to sleep in (schlief aus · hat ausgeschlafen · wird ausschlafen)"
+    "to sleep in",
+    {
+     "f": [
+      "Präsens: ich schlafe aus · du schläfst aus · er/sie/es schläft aus",
+      "Präteritum: er/sie/es schlief aus",
+      "Perfekt: er/sie/es hat ausgeschlafen",
+      "Futur: er/sie/es wird ausschlafen"
+     ]
+    }
    ],
    [
     "einkaufen",
-    "to do the shopping (kaufte ein · hat eingekauft · wird einkaufen)"
+    "to do the shopping",
+    {
+     "f": [
+      "Präsens: er/sie/es kauft ein",
+      "Präteritum: er/sie/es kaufte ein",
+      "Perfekt: er/sie/es hat eingekauft",
+      "Futur: er/sie/es wird einkaufen"
+     ]
+    }
    ],
    [
     "besuchen",
-    "to visit (besuchte · hat besucht · wird besuchen)"
+    "to visit",
+    {
+     "f": [
+      "Präsens: er/sie/es besucht",
+      "Präteritum: er/sie/es besuchte",
+      "Perfekt: er/sie/es hat besucht",
+      "Futur: er/sie/es wird besuchen"
+     ]
+    }
    ],
    [
     "treffen",
-    "to meet (traf · hat getroffen · wird treffen)"
+    "to meet",
+    {
+     "f": [
+      "Präsens: ich treffe · du triffst · er/sie/es trifft",
+      "Präteritum: er/sie/es traf",
+      "Perfekt: er/sie/es hat getroffen",
+      "Futur: er/sie/es wird treffen"
+     ]
+    }
    ],
    [
     "fliegen",
-    "to fly (flog · ist geflogen · wird fliegen)"
+    "to fly",
+    {
+     "f": [
+      "Präsens: er/sie/es fliegt",
+      "Präteritum: er/sie/es flog",
+      "Perfekt: er/sie/es ist geflogen",
+      "Futur: er/sie/es wird fliegen"
+     ]
+    }
    ],
    [
     "umziehen",
-    "to move (house) (zog um · ist umgezogen · wird umziehen)"
+    "to move (house)",
+    {
+     "f": [
+      "Präsens: er/sie/es zieht um",
+      "Präteritum: er/sie/es zog um",
+      "Perfekt: er/sie/es ist umgezogen",
+      "Futur: er/sie/es wird umziehen"
+     ]
+    }
    ],
    [
     "bleiben",
-    "to stay (blieb · ist geblieben · wird bleiben)"
+    "to stay",
+    {
+     "f": [
+      "Präsens: er/sie/es bleibt",
+      "Präteritum: er/sie/es blieb",
+      "Perfekt: er/sie/es ist geblieben",
+      "Futur: er/sie/es wird bleiben"
+     ]
+    }
    ],
    [
     "passieren",
-    "to happen (passierte · ist passiert · wird passieren)"
+    "to happen",
+    {
+     "f": [
+      "Präsens: er/sie/es passiert",
+      "Präteritum: er/sie/es passierte",
+      "Perfekt: er/sie/es ist passiert",
+      "Futur: er/sie/es wird passieren"
+     ]
+    }
    ],
    [
     "aufstehen",
-    "to get up (stand auf · ist aufgestanden · wird aufstehen)"
+    "to get up",
+    {
+     "f": [
+      "Präsens: er/sie/es steht auf",
+      "Präteritum: er/sie/es stand auf",
+      "Perfekt: er/sie/es ist aufgestanden",
+      "Futur: er/sie/es wird aufstehen"
+     ]
+    }
    ],
    [
     "der Heurige",
@@ -2649,23 +2737,63 @@
    ],
    [
     "im Krankenstand sein",
-    "to be on sick leave (Austria; Germany: krankgeschrieben sein) (war · ist gewesen · wird sein)"
+    "to be on sick leave (Austria; Germany: krankgeschrieben sein)",
+    {
+     "f": [
+      "Präsens: ich bin · du bist · er/sie/es ist im Krankenstand",
+      "Präteritum: ich war · du warst · er/sie/es war im Krankenstand",
+      "Perfekt: er/sie/es ist im Krankenstand gewesen",
+      "Futur: er/sie/es wird im Krankenstand sein"
+     ]
+    }
    ],
    [
     "sich krankmelden",
-    "to call in sick (meldete sich krank · hat sich krankgemeldet · wird sich krankmelden)"
+    "to call in sick",
+    {
+     "f": [
+      "Präsens: ich melde mich krank · du meldest dich krank · er/sie/es meldet sich krank",
+      "Präteritum: er/sie/es meldete sich krank",
+      "Perfekt: er/sie/es hat sich krankgemeldet",
+      "Futur: er/sie/es wird sich krankmelden"
+     ]
+    }
    ],
    [
     "einen Termin vereinbaren",
-    "to make an appointment (vereinbarte · hat vereinbart · wird vereinbaren)"
+    "to make an appointment",
+    {
+     "f": [
+      "Präsens: er/sie/es vereinbart einen Termin",
+      "Präteritum: er/sie/es vereinbarte einen Termin",
+      "Perfekt: er/sie/es hat einen Termin vereinbart",
+      "Futur: er/sie/es wird einen Termin vereinbaren"
+     ]
+    }
    ],
    [
     "einen Termin verschieben",
-    "to postpone an appointment (verschob · hat verschoben · wird verschieben)"
+    "to postpone an appointment",
+    {
+     "f": [
+      "Präsens: er/sie/es verschiebt einen Termin",
+      "Präteritum: er/sie/es verschob einen Termin",
+      "Perfekt: er/sie/es hat einen Termin verschoben",
+      "Futur: er/sie/es wird einen Termin verschieben"
+     ]
+    }
    ],
    [
     "absagen",
-    "to cancel (sagte ab · hat abgesagt · wird absagen)"
+    "to cancel",
+    {
+     "f": [
+      "Präsens: er/sie/es sagt ab",
+      "Präteritum: er/sie/es sagte ab",
+      "Perfekt: er/sie/es hat abgesagt",
+      "Futur: er/sie/es wird absagen"
+     ]
+    }
    ],
    [
     "die Ordination",
@@ -2673,11 +2801,27 @@
    ],
    [
     "Fieber haben",
-    "to have a temperature, to have a fever (hatte · hat gehabt · wird haben)"
+    "to have a temperature, to have a fever",
+    {
+     "f": [
+      "Präsens: ich habe · du hast · er/sie/es hat Fieber",
+      "Präteritum: ich hatte · du hattest · er/sie/es hatte Fieber",
+      "Perfekt: er/sie/es hat Fieber gehabt",
+      "Futur: er/sie/es wird Fieber haben"
+     ]
+    }
    ],
    [
     "Bescheid sagen",
-    "to let someone know (sagte · hat gesagt · wird sagen)"
+    "to let someone know",
+    {
+     "f": [
+      "Präsens: er/sie/es sagt Bescheid",
+      "Präteritum: er/sie/es sagte Bescheid",
+      "Perfekt: er/sie/es hat Bescheid gesagt",
+      "Futur: er/sie/es wird Bescheid sagen"
+     ]
+    }
    ],
    [
     "leider",
@@ -5133,7 +5277,15 @@
    ],
    [
     "ankommen",
-    "to arrive (kam an · ist angekommen · wird ankommen)"
+    "to arrive",
+    {
+     "f": [
+      "Präsens: er/sie/es kommt an",
+      "Präteritum: er/sie/es kam an",
+      "Perfekt: er/sie/es ist angekommen",
+      "Futur: er/sie/es wird ankommen"
+     ]
+    }
    ],
    [
     "die Kindheit",
@@ -5141,7 +5293,15 @@
    ],
    [
     "sich wohlfühlen",
-    "to feel good, to feel well, to feel at home (fühlte sich wohl · hat sich wohlgefühlt · wird sich wohlfühlen)"
+    "to feel good, to feel well, to feel at home",
+    {
+     "f": [
+      "Präsens: ich fühle mich wohl · du fühlst dich wohl · er/sie/es fühlt sich wohl",
+      "Präteritum: er/sie/es fühlte sich wohl",
+      "Perfekt: er/sie/es hat sich wohlgefühlt",
+      "Futur: er/sie/es wird sich wohlfühlen"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -6975,11 +7135,27 @@
    ],
    [
     "brauchen",
-    "to need (brauchte · hat gebraucht · wird brauchen)"
+    "to need",
+    {
+     "f": [
+      "Präsens: er/sie/es braucht",
+      "Präteritum: er/sie/es brauchte",
+      "Perfekt: er/sie/es hat gebraucht",
+      "Futur: er/sie/es wird brauchen"
+     ]
+    }
    ],
    [
     "kosten",
-    "to cost (kostete · hat gekostet · wird kosten)"
+    "to cost",
+    {
+     "f": [
+      "Präsens: er/sie/es kostet",
+      "Präteritum: er/sie/es kostete",
+      "Perfekt: er/sie/es hat gekostet",
+      "Futur: er/sie/es wird kosten"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -8846,23 +9022,63 @@
    ],
    [
     "schenken",
-    "to give (as a present) (schenkte · hat geschenkt · wird schenken)"
+    "to give (as a present)",
+    {
+     "f": [
+      "Präsens: er/sie/es schenkt",
+      "Präteritum: er/sie/es schenkte",
+      "Perfekt: er/sie/es hat geschenkt",
+      "Futur: er/sie/es wird schenken"
+     ]
+    }
    ],
    [
     "geben",
-    "to give (gab · hat gegeben · wird geben)"
+    "to give",
+    {
+     "f": [
+      "Präsens: ich gebe · du gibst · er/sie/es gibt",
+      "Präteritum: er/sie/es gab",
+      "Perfekt: er/sie/es hat gegeben",
+      "Futur: er/sie/es wird geben"
+     ]
+    }
    ],
    [
     "einpacken",
-    "to wrap (up), to pack (packte ein · hat eingepackt · wird einpacken)"
+    "to wrap (up), to pack",
+    {
+     "f": [
+      "Präsens: er/sie/es packt ein",
+      "Präteritum: er/sie/es packte ein",
+      "Perfekt: er/sie/es hat eingepackt",
+      "Futur: er/sie/es wird einpacken"
+     ]
+    }
    ],
    [
     "aussuchen",
-    "to choose, to pick out (suchte aus · hat ausgesucht · wird aussuchen)"
+    "to choose, to pick out",
+    {
+     "f": [
+      "Präsens: er/sie/es sucht aus",
+      "Präteritum: er/sie/es suchte aus",
+      "Perfekt: er/sie/es hat ausgesucht",
+      "Futur: er/sie/es wird aussuchen"
+     ]
+    }
    ],
    [
     "überreichen",
-    "to hand over, to present (überreichte · hat überreicht · wird überreichen)"
+    "to hand over, to present",
+    {
+     "f": [
+      "Präsens: er/sie/es überreicht",
+      "Präteritum: er/sie/es überreichte",
+      "Perfekt: er/sie/es hat überreicht",
+      "Futur: er/sie/es wird überreichen"
+     ]
+    }
    ],
    [
     "die Karte, die Karten",
@@ -11150,43 +11366,123 @@
    ],
    [
     "annehmen",
-    "to accept; to take in (a parcel) (nahm an · hat angenommen · wird annehmen)"
+    "to accept; to take in (a parcel)",
+    {
+     "f": [
+      "Präsens: ich nehme an · du nimmst an · er/sie/es nimmt an",
+      "Präteritum: er/sie/es nahm an",
+      "Perfekt: er/sie/es hat angenommen",
+      "Futur: er/sie/es wird annehmen"
+     ]
+    }
    ],
    [
     "helfen",
-    "to help (half · hat geholfen · wird helfen)"
+    "to help",
+    {
+     "f": [
+      "Präsens: ich helfe · du hilfst · er/sie/es hilft",
+      "Präteritum: er/sie/es half",
+      "Perfekt: er/sie/es hat geholfen",
+      "Futur: er/sie/es wird helfen"
+     ]
+    }
    ],
    [
     "gehören",
-    "to belong to (gehörte · hat gehört · wird gehören)"
+    "to belong to",
+    {
+     "f": [
+      "Präsens: er/sie/es gehört",
+      "Präteritum: er/sie/es gehörte",
+      "Perfekt: er/sie/es hat gehört",
+      "Futur: er/sie/es wird gehören"
+     ]
+    }
    ],
    [
     "gefallen",
-    "to please (I like it = it pleases me) (gefiel · hat gefallen · wird gefallen)"
+    "to please (I like it = it pleases me)",
+    {
+     "f": [
+      "Präsens: ich gefalle · du gefällst · er/sie/es gefällt",
+      "Präteritum: er/sie/es gefiel",
+      "Perfekt: er/sie/es hat gefallen",
+      "Futur: er/sie/es wird gefallen"
+     ]
+    }
    ],
    [
     "passen",
-    "to fit; to suit (passte · hat gepasst · wird passen)"
+    "to fit; to suit",
+    {
+     "f": [
+      "Präsens: er/sie/es passt",
+      "Präteritum: er/sie/es passte",
+      "Perfekt: er/sie/es hat gepasst",
+      "Futur: er/sie/es wird passen"
+     ]
+    }
    ],
    [
     "schmecken",
-    "to taste (good) (schmeckte · hat geschmeckt · wird schmecken)"
+    "to taste (good)",
+    {
+     "f": [
+      "Präsens: er/sie/es schmeckt",
+      "Präteritum: er/sie/es schmeckte",
+      "Perfekt: er/sie/es hat geschmeckt",
+      "Futur: er/sie/es wird schmecken"
+     ]
+    }
    ],
    [
     "danken",
-    "to thank (dankte · hat gedankt · wird danken)"
+    "to thank",
+    {
+     "f": [
+      "Präsens: er/sie/es dankt",
+      "Präteritum: er/sie/es dankte",
+      "Perfekt: er/sie/es hat gedankt",
+      "Futur: er/sie/es wird danken"
+     ]
+    }
    ],
    [
     "gratulieren",
-    "to congratulate (gratulierte · hat gratuliert · wird gratulieren)"
+    "to congratulate",
+    {
+     "f": [
+      "Präsens: er/sie/es gratuliert",
+      "Präteritum: er/sie/es gratulierte",
+      "Perfekt: er/sie/es hat gratuliert",
+      "Futur: er/sie/es wird gratulieren"
+     ]
+    }
    ],
    [
     "schicken",
-    "to send (schickte · hat geschickt · wird schicken)"
+    "to send",
+    {
+     "f": [
+      "Präsens: er/sie/es schickt",
+      "Präteritum: er/sie/es schickte",
+      "Perfekt: er/sie/es hat geschickt",
+      "Futur: er/sie/es wird schicken"
+     ]
+    }
    ],
    [
     "leihen",
-    "to lend; to borrow (lieh · hat geliehen · wird leihen)"
+    "to lend; to borrow",
+    {
+     "f": [
+      "Präsens: er/sie/es leiht",
+      "Präteritum: er/sie/es lieh",
+      "Perfekt: er/sie/es hat geliehen",
+      "Futur: er/sie/es wird leihen"
+     ]
+    }
    ],
    [
     "der Kuchen, die Kuchen",
@@ -13315,19 +13611,51 @@
    ],
    [
     "vergessen",
-    "to forget; to leave behind (vergaß · hat vergessen · wird vergessen)"
+    "to forget; to leave behind",
+    {
+     "f": [
+      "Präsens: ich vergesse · du vergisst · er/sie/es vergisst",
+      "Präteritum: er/sie/es vergaß",
+      "Perfekt: er/sie/es hat vergessen",
+      "Futur: er/sie/es wird vergessen"
+     ]
+    }
    ],
    [
     "verlieren",
-    "to lose (verlor · hat verloren · wird verlieren)"
+    "to lose",
+    {
+     "f": [
+      "Präsens: er/sie/es verliert",
+      "Präteritum: er/sie/es verlor",
+      "Perfekt: er/sie/es hat verloren",
+      "Futur: er/sie/es wird verlieren"
+     ]
+    }
    ],
    [
     "finden",
-    "to find (fand · hat gefunden · wird finden)"
+    "to find",
+    {
+     "f": [
+      "Präsens: er/sie/es findet",
+      "Präteritum: er/sie/es fand",
+      "Perfekt: er/sie/es hat gefunden",
+      "Futur: er/sie/es wird finden"
+     ]
+    }
    ],
    [
     "abholen",
-    "to pick up, to collect (holte ab · hat abgeholt · wird abholen)"
+    "to pick up, to collect",
+    {
+     "f": [
+      "Präsens: er/sie/es holt ab",
+      "Präteritum: er/sie/es holte ab",
+      "Perfekt: er/sie/es hat abgeholt",
+      "Futur: er/sie/es wird abholen"
+     ]
+    }
    ],
    [
     "der Kasten, die Kästen",
@@ -15182,15 +15510,39 @@
    ],
    [
     "sich setzen",
-    "to sit down (setzte sich · hat sich gesetzt · wird sich setzen)"
+    "to sit down",
+    {
+     "f": [
+      "Präsens: ich setze mich · du setzt dich · er/sie/es setzt sich",
+      "Präteritum: er/sie/es setzte sich",
+      "Perfekt: er/sie/es hat sich gesetzt",
+      "Futur: er/sie/es wird sich setzen"
+     ]
+    }
    ],
    [
     "einnehmen",
-    "to take (medicine) (nahm ein · hat eingenommen · wird einnehmen)"
+    "to take (medicine)",
+    {
+     "f": [
+      "Präsens: ich nehme ein · du nimmst ein · er/sie/es nimmt ein",
+      "Präteritum: er/sie/es nahm ein",
+      "Perfekt: er/sie/es hat eingenommen",
+      "Futur: er/sie/es wird einnehmen"
+     ]
+    }
    ],
    [
     "sich ausruhen",
-    "to rest (ruhte sich aus · hat sich ausgeruht · wird sich ausruhen)"
+    "to rest",
+    {
+     "f": [
+      "Präsens: ich ruhe mich aus · du ruhst dich aus · er/sie/es ruht sich aus",
+      "Präteritum: er/sie/es ruhte sich aus",
+      "Perfekt: er/sie/es hat sich ausgeruht",
+      "Futur: er/sie/es wird sich ausruhen"
+     ]
+    }
    ],
    [
     "die Salbe, die Salben",
@@ -16099,15 +16451,39 @@
    ],
    [
     "sich verletzen",
-    "to hurt oneself, to get injured (verletzte sich · hat sich verletzt · wird sich verletzen)"
+    "to hurt oneself, to get injured",
+    {
+     "f": [
+      "Präsens: ich verletze mich · du verletzt dich · er/sie/es verletzt sich",
+      "Präteritum: er/sie/es verletzte sich",
+      "Perfekt: er/sie/es hat sich verletzt",
+      "Futur: er/sie/es wird sich verletzen"
+     ]
+    }
    ],
    [
     "untersuchen",
-    "to examine (untersuchte · hat untersucht · wird untersuchen)"
+    "to examine",
+    {
+     "f": [
+      "Präsens: er/sie/es untersucht",
+      "Präteritum: er/sie/es untersuchte",
+      "Perfekt: er/sie/es hat untersucht",
+      "Futur: er/sie/es wird untersuchen"
+     ]
+    }
    ],
    [
     "wehtun",
-    "to hurt (tat weh · hat wehgetan · wird wehtun)"
+    "to hurt",
+    {
+     "f": [
+      "Präsens: er/sie/es tut weh",
+      "Präteritum: er/sie/es tat weh",
+      "Perfekt: er/sie/es hat wehgetan",
+      "Futur: er/sie/es wird wehtun"
+     ]
+    }
    ],
    [
     "die Grippe, die Grippen",
@@ -16115,7 +16491,15 @@
    ],
    [
     "sich verkühlen",
-    "to catch a cold (Austria; Germany: sich erkälten) (verkühlte sich · hat sich verkühlt · wird sich verkühlen)"
+    "to catch a cold (Austria; Germany: sich erkälten)",
+    {
+     "f": [
+      "Präsens: ich verkühle mich · du verkühlst dich · er/sie/es verkühlt sich",
+      "Präteritum: er/sie/es verkühlte sich",
+      "Perfekt: er/sie/es hat sich verkühlt",
+      "Futur: er/sie/es wird sich verkühlen"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -16909,19 +17293,51 @@
    ],
    [
     "umsteigen",
-    "to change (trains, lines) (stieg um · ist umgestiegen · wird umsteigen)"
+    "to change (trains, lines)",
+    {
+     "f": [
+      "Präsens: er/sie/es steigt um",
+      "Präteritum: er/sie/es stieg um",
+      "Perfekt: er/sie/es ist umgestiegen",
+      "Futur: er/sie/es wird umsteigen"
+     ]
+    }
    ],
    [
     "aussteigen",
-    "to get off, to get out (stieg aus · ist ausgestiegen · wird aussteigen)"
+    "to get off, to get out",
+    {
+     "f": [
+      "Präsens: er/sie/es steigt aus",
+      "Präteritum: er/sie/es stieg aus",
+      "Perfekt: er/sie/es ist ausgestiegen",
+      "Futur: er/sie/es wird aussteigen"
+     ]
+    }
    ],
    [
     "abbiegen",
-    "to turn (left/right) (bog ab · ist abgebogen · wird abbiegen)"
+    "to turn (left/right)",
+    {
+     "f": [
+      "Präsens: er/sie/es biegt ab",
+      "Präteritum: er/sie/es bog ab",
+      "Perfekt: er/sie/es ist abgebogen",
+      "Futur: er/sie/es wird abbiegen"
+     ]
+    }
    ],
    [
     "erledigen",
-    "to get done, to run (errands) (erledigte · hat erledigt · wird erledigen)"
+    "to get done, to run (errands)",
+    {
+     "f": [
+      "Präsens: er/sie/es erledigt",
+      "Präteritum: er/sie/es erledigte",
+      "Perfekt: er/sie/es hat erledigt",
+      "Futur: er/sie/es wird erledigen"
+     ]
+    }
    ],
    [
     "geradeaus",
@@ -17904,7 +18320,15 @@
    ],
    [
     "ziehen",
-    "to pull; to move (house) (zog · hat/ist gezogen · wird ziehen)"
+    "to pull; to move (house)",
+    {
+     "f": [
+      "Präsens: er/sie/es zieht",
+      "Präteritum: er/sie/es zog",
+      "Perfekt: er/sie/es hat gezogen (pull) · ist gezogen (move)",
+      "Futur: er/sie/es wird ziehen"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -18785,39 +19209,111 @@
    ],
    [
     "liegen",
-    "to lie, to be lying (lag · hat/ist gelegen · wird liegen)"
+    "to lie, to be lying",
+    {
+     "f": [
+      "Präsens: er/sie/es liegt",
+      "Präteritum: er/sie/es lag",
+      "Perfekt: er/sie/es ist gelegen (Germany: hat gelegen)",
+      "Futur: er/sie/es wird liegen"
+     ]
+    }
    ],
    [
     "legen",
-    "to lay, to put down flat (legte · hat gelegt · wird legen)"
+    "to lay, to put down flat",
+    {
+     "f": [
+      "Präsens: er/sie/es legt",
+      "Präteritum: er/sie/es legte",
+      "Perfekt: er/sie/es hat gelegt",
+      "Futur: er/sie/es wird legen"
+     ]
+    }
    ],
    [
     "stehen",
-    "to stand, to be standing (stand · hat/ist gestanden · wird stehen)"
+    "to stand, to be standing",
+    {
+     "f": [
+      "Präsens: er/sie/es steht",
+      "Präteritum: er/sie/es stand",
+      "Perfekt: er/sie/es ist gestanden (Germany: hat gestanden)",
+      "Futur: er/sie/es wird stehen"
+     ]
+    }
    ],
    [
     "stellen",
-    "to put, to stand (something) upright (stellte · hat gestellt · wird stellen)"
+    "to put, to stand (something) upright",
+    {
+     "f": [
+      "Präsens: er/sie/es stellt",
+      "Präteritum: er/sie/es stellte",
+      "Perfekt: er/sie/es hat gestellt",
+      "Futur: er/sie/es wird stellen"
+     ]
+    }
    ],
    [
     "sitzen",
-    "to sit, to be sitting (saß · hat/ist gesessen · wird sitzen)"
+    "to sit, to be sitting",
+    {
+     "f": [
+      "Präsens: er/sie/es sitzt",
+      "Präteritum: er/sie/es saß",
+      "Perfekt: er/sie/es ist gesessen (Germany: hat gesessen)",
+      "Futur: er/sie/es wird sitzen"
+     ]
+    }
    ],
    [
     "setzen",
-    "to put, to seat (someone) (setzte · hat gesetzt · wird setzen)"
+    "to put, to seat (someone)",
+    {
+     "f": [
+      "Präsens: er/sie/es setzt",
+      "Präteritum: er/sie/es setzte",
+      "Perfekt: er/sie/es hat gesetzt",
+      "Futur: er/sie/es wird setzen"
+     ]
+    }
    ],
    [
     "hängen",
-    "to hang, to be hanging (hing · hat/ist gehangen · wird hängen)"
+    "to hang, to be hanging",
+    {
+     "f": [
+      "Präsens: er/sie/es hängt",
+      "Präteritum: er/sie/es hing",
+      "Perfekt: er/sie/es ist gehangen (Germany: hat gehangen)",
+      "Futur: er/sie/es wird hängen"
+     ]
+    }
    ],
    [
     "etwas an die Wand hängen",
-    "to hang something on the wall (hängte · hat gehängt · wird hängen)"
+    "to hang something on the wall",
+    {
+     "f": [
+      "Präsens: er/sie/es hängt etwas an die Wand",
+      "Präteritum: er/sie/es hängte etwas an die Wand",
+      "Perfekt: er/sie/es hat etwas an die Wand gehängt",
+      "Futur: er/sie/es wird etwas an die Wand hängen"
+     ]
+    }
    ],
    [
     "tragen",
-    "to carry; to wear (trug · hat getragen · wird tragen)"
+    "to carry; to wear",
+    {
+     "f": [
+      "Präsens: ich trage · du trägst · er/sie/es trägt",
+      "Präteritum: er/sie/es trug",
+      "Perfekt: er/sie/es hat getragen",
+      "Futur: er/sie/es wird tragen"
+     ]
+    }
    ],
    [
     "der Tisch, die Tische",
@@ -19891,7 +20387,15 @@
    ],
    [
     "mieten",
-    "to rent (mietete · hat gemietet · wird mieten)"
+    "to rent",
+    {
+     "f": [
+      "Präsens: er/sie/es mietet",
+      "Präteritum: er/sie/es mietete",
+      "Perfekt: er/sie/es hat gemietet",
+      "Futur: er/sie/es wird mieten"
+     ]
+    }
    ],
    [
     "der Vermieter, die Vermieter",
@@ -19931,15 +20435,39 @@
    ],
    [
     "einziehen",
-    "to move in (zog ein · ist eingezogen · wird einziehen)"
+    "to move in",
+    {
+     "f": [
+      "Präsens: er/sie/es zieht ein",
+      "Präteritum: er/sie/es zog ein",
+      "Perfekt: er/sie/es ist eingezogen",
+      "Futur: er/sie/es wird einziehen"
+     ]
+    }
    ],
    [
     "ausziehen",
-    "to move out (zog aus · ist ausgezogen · wird ausziehen)"
+    "to move out",
+    {
+     "f": [
+      "Präsens: er/sie/es zieht aus",
+      "Präteritum: er/sie/es zog aus",
+      "Perfekt: er/sie/es ist ausgezogen",
+      "Futur: er/sie/es wird ausziehen"
+     ]
+    }
    ],
    [
     "putzen",
-    "to clean (putzte · hat geputzt · wird putzen)"
+    "to clean",
+    {
+     "f": [
+      "Präsens: er/sie/es putzt",
+      "Präteritum: er/sie/es putzte",
+      "Perfekt: er/sie/es hat geputzt",
+      "Futur: er/sie/es wird putzen"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -20482,7 +21010,15 @@
    ],
    [
     "sich bewerben",
-    "to apply (bewarb sich · hat sich beworben · wird sich bewerben)"
+    "to apply",
+    {
+     "f": [
+      "Präsens: ich bewerbe mich · du bewirbst dich · er/sie/es bewirbt sich",
+      "Präteritum: er/sie/es bewarb sich",
+      "Perfekt: er/sie/es hat sich beworben",
+      "Futur: er/sie/es wird sich bewerben"
+     ]
+    }
    ],
    [
     "der Lebenslauf, die Lebensläufe",
@@ -20534,7 +21070,15 @@
    ],
    [
     "verdienen",
-    "to earn (verdiente · hat verdient · wird verdienen)"
+    "to earn",
+    {
+     "f": [
+      "Präsens: er/sie/es verdient",
+      "Präteritum: er/sie/es verdiente",
+      "Perfekt: er/sie/es hat verdient",
+      "Futur: er/sie/es wird verdienen"
+     ]
+    }
    ],
    [
     "die Teilzeit",
@@ -20574,7 +21118,15 @@
    ],
    [
     "kündigen",
-    "to give notice, to quit, to dismiss (kündigte · hat gekündigt · wird kündigen)"
+    "to give notice, to quit, to dismiss",
+    {
+     "f": [
+      "Präsens: er/sie/es kündigt",
+      "Präteritum: er/sie/es kündigte",
+      "Perfekt: er/sie/es hat gekündigt",
+      "Futur: er/sie/es wird kündigen"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -21108,7 +21660,15 @@
    ],
    [
     "husten",
-    "to cough (hustete · hat gehustet · wird husten)"
+    "to cough",
+    {
+     "f": [
+      "Präsens: er/sie/es hustet",
+      "Präteritum: er/sie/es hustete",
+      "Perfekt: er/sie/es hat gehustet",
+      "Futur: er/sie/es wird husten"
+     ]
+    }
    ],
    [
     "der Schnupfen",
@@ -21136,7 +21696,15 @@
    ],
    [
     "sich das Bein brechen",
-    "to break one's leg (brach · hat gebrochen · wird brechen)"
+    "to break one's leg",
+    {
+     "f": [
+      "Präsens: ich breche mir · du brichst dir · er/sie/es bricht sich das Bein",
+      "Präteritum: er/sie/es brach sich das Bein",
+      "Perfekt: er/sie/es hat sich das Bein gebrochen",
+      "Futur: er/sie/es wird sich das Bein brechen"
+     ]
+    }
    ],
    [
     "der Notfall, die Notfälle",
@@ -21172,7 +21740,15 @@
    ],
    [
     "sich erholen",
-    "to recover, to rest (erholte sich · hat sich erholt · wird sich erholen)"
+    "to recover, to rest",
+    {
+     "f": [
+      "Präsens: ich erhole mich · du erholst dich · er/sie/es erholt sich",
+      "Präteritum: er/sie/es erholte sich",
+      "Perfekt: er/sie/es hat sich erholt",
+      "Futur: er/sie/es wird sich erholen"
+     ]
+    }
    ]
   ],
   "ex": [
@@ -21673,11 +22249,27 @@
    ],
    [
     "ausfüllen",
-    "to fill in, to fill out (füllte aus · hat ausgefüllt · wird ausfüllen)"
+    "to fill in, to fill out",
+    {
+     "f": [
+      "Präsens: er/sie/es füllt aus",
+      "Präteritum: er/sie/es füllte aus",
+      "Perfekt: er/sie/es hat ausgefüllt",
+      "Futur: er/sie/es wird ausfüllen"
+     ]
+    }
    ],
    [
     "unterschreiben",
-    "to sign (unterschrieb · hat unterschrieben · wird unterschreiben)"
+    "to sign",
+    {
+     "f": [
+      "Präsens: er/sie/es unterschreibt",
+      "Präteritum: er/sie/es unterschrieb",
+      "Perfekt: er/sie/es hat unterschrieben",
+      "Futur: er/sie/es wird unterschreiben"
+     ]
+    }
    ],
    [
     "die Unterschrift, die Unterschriften",
@@ -21705,7 +22297,15 @@
    ],
    [
     "abgeben",
-    "to hand in (gab ab · hat abgegeben · wird abgeben)"
+    "to hand in",
+    {
+     "f": [
+      "Präsens: ich gebe ab · du gibst ab · er/sie/es gibt ab",
+      "Präteritum: er/sie/es gab ab",
+      "Perfekt: er/sie/es hat abgegeben",
+      "Futur: er/sie/es wird abgeben"
+     ]
+    }
    ],
    [
     "das Amt, die Ämter",
@@ -21725,7 +22325,15 @@
    ],
    [
     "sich anmelden",
-    "to register (meldete sich an · hat sich angemeldet · wird sich anmelden)"
+    "to register",
+    {
+     "f": [
+      "Präsens: ich melde mich an · du meldest dich an · er/sie/es meldet sich an",
+      "Präteritum: er/sie/es meldete sich an",
+      "Perfekt: er/sie/es hat sich angemeldet",
+      "Futur: er/sie/es wird sich anmelden"
+     ]
+    }
    ],
    [
     "der Antrag, die Anträge",
@@ -21733,7 +22341,15 @@
    ],
    [
     "beantragen",
-    "to apply for (beantragte · hat beantragt · wird beantragen)"
+    "to apply for",
+    {
+     "f": [
+      "Präsens: er/sie/es beantragt",
+      "Präteritum: er/sie/es beantragte",
+      "Perfekt: er/sie/es hat beantragt",
+      "Futur: er/sie/es wird beantragen"
+     ]
+    }
    ],
    [
     "die Gebühr, die Gebühren",
@@ -22344,11 +22960,27 @@
    ],
    [
     "bestellen",
-    "to order (bestellte · hat bestellt · wird bestellen)"
+    "to order",
+    {
+     "f": [
+      "Präsens: er/sie/es bestellt",
+      "Präteritum: er/sie/es bestellte",
+      "Perfekt: er/sie/es hat bestellt",
+      "Futur: er/sie/es wird bestellen"
+     ]
+    }
    ],
    [
     "bezahlen",
-    "to pay (bezahlte · hat bezahlt · wird bezahlen)"
+    "to pay",
+    {
+     "f": [
+      "Präsens: er/sie/es bezahlt",
+      "Präteritum: er/sie/es bezahlte",
+      "Perfekt: er/sie/es hat bezahlt",
+      "Futur: er/sie/es wird bezahlen"
+     ]
+    }
    ],
    [
     "die Rechnung, die Rechnungen",
@@ -22877,11 +23509,27 @@
    ],
    [
     "schwimmen",
-    "to swim (schwamm · ist/hat geschwommen · wird schwimmen)"
+    "to swim",
+    {
+     "f": [
+      "Präsens: er/sie/es schwimmt",
+      "Präteritum: er/sie/es schwamm",
+      "Perfekt: er/sie/es ist geschwommen (auch: hat geschwommen)",
+      "Futur: er/sie/es wird schwimmen"
+     ]
+    }
    ],
    [
     "Rad fahren",
-    "to cycle (fuhr Rad · ist Rad gefahren · wird Rad fahren)"
+    "to cycle",
+    {
+     "f": [
+      "Präsens: ich fahre · du fährst · er/sie/es fährt Rad",
+      "Präteritum: er/sie/es fuhr Rad",
+      "Perfekt: er/sie/es ist Rad gefahren",
+      "Futur: er/sie/es wird Rad fahren"
+     ]
+    }
    ],
    [
     "das Fahrrad, die Fahrräder",
@@ -22945,11 +23593,27 @@
    ],
    [
     "tanken",
-    "to fill up (with petrol) (tankte · hat getankt · wird tanken)"
+    "to fill up (with petrol)",
+    {
+     "f": [
+      "Präsens: er/sie/es tankt",
+      "Präteritum: er/sie/es tankte",
+      "Perfekt: er/sie/es hat getankt",
+      "Futur: er/sie/es wird tanken"
+     ]
+    }
    ],
    [
     "parken",
-    "to park (parkte · hat geparkt · wird parken)"
+    "to park",
+    {
+     "f": [
+      "Präsens: er/sie/es parkt",
+      "Präteritum: er/sie/es parkte",
+      "Perfekt: er/sie/es hat geparkt",
+      "Futur: er/sie/es wird parken"
+     ]
+    }
    ],
    [
     "die Autobahn, die Autobahnen",
