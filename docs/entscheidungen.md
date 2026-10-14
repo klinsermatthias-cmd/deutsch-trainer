@@ -90,3 +90,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Übungen, die eine Form aus einem späteren Schritt verlangen, in den passenden Schritt verschoben (d01 ex 8/71/74/77 → S2, d02 ex 9 → S5, d05b ex 32 → S3).
 - Vorgriffe auf spätere Themen (als/konnte/musste vor d03, Dativ- und Wechselpräpositionen, während, gefallen + Dativ) ausgeblendet (`aus`) und durch gleichwertige Übungen im selben Schritt ersetzt; d01 Schritt 4 übt nur noch „Bewegung → sein“.
 - d05 ex 2 ausgeblendet statt verschoben: „meinen Kollegen/diesen Herrn“ braucht die n-Deklination, die d05 nicht erklärt; Ersatz-Tabellen in S1 (ohne Possessiv) und S3 (dieser/mein/unser). d08 ex 40 bleibt: „Geh zur Apotheke!“ ist erlaubt, sobald d09 vor d06–d08b kommt (D-1014-60).
+
+## 2026-10-14 – d09/d09b vor d06; req ergänzt; d13b nach d14 (D-1014-60/-51/-52)
+- d09/d09b stehen jetzt direkt nach d05b; d06–d08b haben d09 in `req`. Damit sind Wendungen wie „zur Apotheke“, „mit dem Bus“ in d06–d08b keine Vorgriffe mehr. Bereits freie Themen bleiben frei (`refreshUnlocks` sperrt nie zurück), Fortschritt geht nicht verloren.
+- Geplante Themen: `req` um die b-Themen ergänzt, auf denen sie aufbauen (D-1014-51); d13b Zeitangaben kommt nach d14 und baut darauf auf (D-1014-52).
