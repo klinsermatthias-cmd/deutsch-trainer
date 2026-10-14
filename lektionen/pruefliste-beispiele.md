@@ -1,0 +1,26 @@
+# Prüfliste – Beispiele und Herkunft
+
+Zu jeder Zeile in `lektionen/pruefliste.md` (gleiche Nummer): Beispiel und woher die Regel kommt. Neue Zeilen hier mit derselben Nummer anhängen.
+
+| # | Beispiel | Herkunft |
+|---|---|---|
+| 1 | „Ich mache ein Foto“ statt „Ich nehme ein Foto“ (Lehnübersetzung aus dem Englischen) | D-1009-5, D-1009-7, E-1009-26 |
+| 2 | „kirjasto ___“ ohne Kontext → jeder Fall passt (Opi suomea) | F-1009-10, E-1009-12/-14 |
+| 3 | Übung verlangt „Kaution“, das in keiner Wortliste steht | F-1009-10, E-1009-3 |
+| 4 | „der Termin“ in d01 und d03 | F-1009-10 |
+| 5 | „am/beim Bahnhof“, „das/der Gehalt“, „gern/gerne“ | F-1009-10, D-1007-1, D-1007-2 |
+| 6 | Konjugationstabelle: Person · Präsens · Perfekt | F-1009-10 |
+| 7 | „die Entscheidung“, „Können Sie …“ | E-1008-9 |
+| 8 | „fährt“, nicht „fahrt“ | E-1008-3 |
+| 9 | „Morgen fahre ich nach Linz.“ / „Ich fahre morgen nach Linz.“ | E-1008-6 |
+| 10 | Einstufungstest A8.3 „Trotz d___ schlecht___ Wetter___“ | D-1007-1 |
+| 11 | „appointment (Termin …)“ | E-1008-57 |
+| 12 | – | CLAUDE.md |
+| 13 | „e-card“ (Sozialversicherung) und „E-Card“ (Duden) | D-1010-1 |
+| 14 | A18 ergänzt „da“, „falls“, „wo/was“, Plural, Imperativ „Sie“ … | D-1010-2 |
+| 15 | d01–d03: 60, 55, 60 Übungen | D-1011-5 |
+| 16 | „Präsens: ich fahre · du fährst · er/sie/es fährt“ / „Perfekt: er/sie/es ist gefahren“ | D-1011-6, S-1014-26 |
+| 17 | Kasten → auch Schrank (d07 Dialog 54); „die Ordination“ → „Germany: Praxis, Arztpraxis“ | Matthias 12.10., D-1013-4 |
+| 18 | d01 vorher: Perfekt, haben/sein, Präteritum, Futur und Modalverb-Perfekt in einem Thema, Regeln in Fließtext mit Klammern | Matthias 13.10.2026, S-1013-34 |
+| 19 | d04 „das Getränk“ als Beispiel für Ge-…-e; Kurzliste ohne „außer“ | Matthias 13.10. („auch zukünftige Themen so prüfen“) |
+| 20 | d01: Tabelle „ist passiert“ erst im letzten Schritt (passieren + sein kommt in d01b); d04 ex 57 verlangte „konnte“ (d03 kommt später); d01b ex 7 „mit dem Zug“ vor d05b/d09 | Matthias 14.10., Simulation 14.10. (D-1014-57/-58/-62) |
