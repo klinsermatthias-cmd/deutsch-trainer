@@ -1,0 +1,70 @@
+{
+ "order": [
+  "d01",
+  "d01b",
+  "d02",
+  "d02b",
+  "d04",
+  "d04b",
+  "d05",
+  "d05b",
+  "d06",
+  "d06b",
+  "d07",
+  "d07b",
+  "d08",
+  "d08b",
+  "d09",
+  "d09b",
+  "d03",
+  "d03b",
+  "d10",
+  "d11"
+ ],
+ "marker": {
+  "d03": [
+   "\\b[Aa]ls (ich|du|er|sie|wir|ihr)\\b",
+   "\\b(konnte|musste|wollte|durfte|sollte)(st|n|t)?\\b"
+  ],
+  "d03b": [
+   "\\b([Ww]ährend|[Bb]evor|[Nn]achdem) (ich|du|er|sie|wir|ihr|die|der|das)\\b",
+   "\\b(hatte|war)(st|en|t)? \\w+ge\\w+(en|t)\\b"
+  ],
+  "d05b": [
+   "\\b(mit|bei|von|aus|nach|zu|seit) (dem|einem|meinem|deinem|ihrem|unserem)\\b",
+   "\\b(im|am|zum|zur|beim|vom)\\b"
+  ],
+  "d06": [
+   "\\b(mir|dir|ihm|uns|euch|Ihnen|ihnen)\\b"
+  ],
+  "d08": [
+   "^(Gib|Nimm|Komm|Geh|Mach|Seid|Sei|Bring|Ruf|Nehmen Sie|Kommen Sie|Gehen Sie)\\b"
+  ],
+  "d09": [
+   "\\b(zum|zur|beim|vom)\\b",
+   "\\b(gegenüber|durch|ohne|gegen) "
+  ],
+  "d10": [
+   "\\bhabe \\w+ (müssen|können|wollen|dürfen)\\b"
+  ],
+  "d11": [
+   "\\b(ins|ans) ",
+   "\\b(in|auf|an|unter|über|neben|zwischen|vor|hinter) (den|die|das|dem|der) "
+  ],
+  "d14": [
+   "\\b(der|die|das|dem|den|des|ein|eine|einen|einem|einer|kein\\w*|mein\\w*) \\w+(e|en|er|es|em) [A-ZÄÖÜ]\\w+"
+  ],
+  "d16": [
+   "\\b(hätte|wäre|könnte|würde)\\w*\\b"
+  ],
+  "d17": [
+   "\\b(wird|werden) \\w+ ?ge\\w+t\\b"
+  ],
+  "d18": [
+   "\\b(wegen|trotz|statt) (des|der|eines|einer)\\b"
+  ],
+  "d19": [
+   ", (der|die|das|den|dem|denen) "
+  ]
+ }
+}
