@@ -11238,7 +11238,8 @@
     "a": [
      "wenn"
     ],
-    "h": "Bindewort: when (als, wenn oder wann?)"
+    "h": "Bindewort: when (als, wenn oder wann?)",
+    "aus": true
    },
    {
     "t": "gap",
@@ -11654,6 +11655,15 @@
     "a": [
      "Jonas hat den Gutschein eingepackt."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "___ ich Zeit habe, kaufe ich einen Kuchen für das Büro.",
+    "a": [
+     "Wenn",
+     "wenn"
+    ],
+    "h": "Bindewort: if"
    }
   ],
   "steps": [
@@ -11745,11 +11755,11 @@
      50,
      51,
      52,
-     63,
      84,
      85,
      88,
-     92
+     92,
+     93
     ]
    }
   ]
@@ -15317,7 +15327,8 @@
     "a": [
      "Kannst du mir helfen?",
      "Könntest du mir helfen?"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -15328,7 +15339,8 @@
      "Gehört der Schlüssel Ihnen?",
      "Gehört Ihnen dieser Schlüssel?",
      "Gehört Ihnen der Schlüssel?"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "tr",
@@ -15594,7 +15606,8 @@
       "[Wenn Sie Hilfe brauchen, helfe ich Ihnen gern.|Ich helfe Ihnen auch gern, wenn Sie Hilfe brauchen.|Ich helfe Ihnen auch gern.]",
       "Offer to help him too some time."
      ]
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "dlg",
@@ -15745,7 +15758,8 @@
     "a": [
      "wann"
     ],
-    "h": "Bindewort: when (als, wenn oder wann?)"
+    "h": "Bindewort: when (als, wenn oder wann?)",
+    "aus": true
    },
    {
     "t": "gap",
@@ -16083,6 +16097,65 @@
     "a": [
      "Lena hat sie mir geliehen."
     ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Can you give me the key? (du)",
+    "a": [
+     "Kannst du mir den Schlüssel geben?",
+     "Könntest du mir den Schlüssel geben?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'll send it to you tomorrow. (it = das Paket, Sie)",
+    "a": [
+     "Ich schicke es Ihnen morgen.",
+     "Morgen schicke ich es Ihnen."
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Der Nachbar hat Ihr Paket",
+    "r": [
+     [
+      "Herr Berger",
+      "Grüß Gott! Ich habe hier ein Paket für Sie. Der Briefträger hat es mir heute gegeben."
+     ],
+     [
+      "Du",
+      "[Danke, das ist sehr nett!|Vielen Dank, das ist sehr nett!|Danke, das ist sehr nett von Ihnen!|Vielen Dank, das ist sehr nett von Ihnen!]",
+      "Thank him and say that's very kind."
+     ],
+     [
+      "Herr Berger",
+      "Gern geschehen. Ist das auch Ihr Schlüssel? Er war vor der Tür."
+     ],
+     [
+      "Du",
+      "[Ja, das ist mein Schlüssel.|Ja, das ist mein Schlüssel. Danke!|Ja, danke!]",
+      "Say yes, it's your key."
+     ],
+     [
+      "Herr Berger",
+      "Hier, bitte."
+     ],
+     [
+      "Du",
+      "[Danke! Morgen bringe ich Ihnen einen Kuchen.|Danke! Ich bringe Ihnen morgen einen Kuchen.|Vielen Dank! Morgen bringe ich Ihnen einen Kuchen.]",
+      "Thank him and say you'll bring him a cake tomorrow."
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich weiß nicht, ___ Lena umzieht.",
+    "a": [
+     "wann"
+    ],
+    "h": "Fragewort: when"
    }
   ],
   "steps": [
@@ -16141,7 +16214,6 @@
      45,
      46,
      47,
-     52,
      56,
      59,
      60,
@@ -16150,7 +16222,8 @@
      69,
      70,
      72,
-     85
+     85,
+     89
     ]
    },
    {
@@ -16166,15 +16239,15 @@
      9,
      27,
      28,
-     38,
-     39,
      41,
      48,
      49,
      54,
-     62,
      65,
-     86
+     86,
+     87,
+     88,
+     90
     ]
    }
   ]

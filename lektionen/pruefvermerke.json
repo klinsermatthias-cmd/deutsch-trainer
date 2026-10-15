@@ -49,9 +49,9 @@
   },
   "d05": {
     "d": "2026-10-15",
-    "q": "en.wiktionary (fahren, wandern, fliegen, ausschlafen, treffen, bleiben, ankommen, gehen, besuchen, können), Duden fahren (ist/hat gefahren), DWDS fahren (transitiv mit haben), Vorgriff-Suchlauf D-1014-58 | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (geliehen, eingepackt, ausgesucht, gebraucht, Märkte, Eier, Kollege schwach, Freunden, Kindern, Paradeiser; Genus Einkaufsliste, Packung, Gutschein, Zwiebel, Schlüssel), de.wiktionary (Leiter), DWDS (helfen, gehören + Dativ); ohne Quelle: Possessiv- und Pronomenformen, Akkusativ vor Dativ bei zwei Pronomen (nur Theorie)",
+    "q": "en.wiktionary (fahren, wandern, fliegen, ausschlafen, treffen, bleiben, ankommen, gehen, besuchen, können), Duden fahren (ist/hat gefahren), DWDS fahren (transitiv mit haben), Vorgriff-Suchlauf D-1014-58 | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (geliehen, eingepackt, ausgesucht, gebraucht, Märkte, Eier, Kollege schwach, Freunden, Kindern, Paradeiser; Genus Einkaufsliste, Packung, Gutschein, Zwiebel, Schlüssel), de.wiktionary (Leiter), DWDS (helfen, gehören + Dativ); ohne Quelle: Possessiv- und Pronomenformen, Akkusativ vor Dativ bei zwei Pronomen (nur Theorie) | D-1015-3: Vorgriffe auf d03/d06b ausgeblendet, Ersatz mit geben/schicken/bringen + Dativ + Akkusativ (en.wiktionary bringen/schicken/geben; Stellung nach d06 Abschnitt 6), wenn = if (d02b), wann im indirekten Fragesatz (d02b)",
     "c": "D",
-    "h": "2ddd1fc3e47b"
+    "h": "a78022c3a1d3"
   },
   "d05b": {
     "d": "2026-10-15",
@@ -61,9 +61,9 @@
   },
   "d06": {
     "d": "2026-10-15",
-    "q": "nur req geändert (d09 ergänzt, D-1014-60); Vorgriff-Suchlauf mit neuer Lernreihenfolge | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (geliehen, eingepackt, ausgesucht, gebraucht, Märkte, Eier, Kollege schwach, Freunden, Kindern, Paradeiser; Genus Einkaufsliste, Packung, Gutschein, Zwiebel, Schlüssel), de.wiktionary (Leiter), DWDS (helfen, gehören + Dativ); ohne Quelle: Possessiv- und Pronomenformen, Akkusativ vor Dativ bei zwei Pronomen (nur Theorie)",
+    "q": "nur req geändert (d09 ergänzt, D-1014-60); Vorgriff-Suchlauf mit neuer Lernreihenfolge | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (geliehen, eingepackt, ausgesucht, gebraucht, Märkte, Eier, Kollege schwach, Freunden, Kindern, Paradeiser; Genus Einkaufsliste, Packung, Gutschein, Zwiebel, Schlüssel), de.wiktionary (Leiter), DWDS (helfen, gehören + Dativ); ohne Quelle: Possessiv- und Pronomenformen, Akkusativ vor Dativ bei zwei Pronomen (nur Theorie) | D-1015-3: Vorgriffe auf d03/d06b ausgeblendet, Ersatz mit geben/schicken/bringen + Dativ + Akkusativ (en.wiktionary bringen/schicken/geben; Stellung nach d06 Abschnitt 6), wenn = if (d02b), wann im indirekten Fragesatz (d02b)",
     "c": "D",
-    "h": "48f895f0f48d"
+    "h": "6781b615f204"
   },
   "d06b": {
     "d": "2026-10-15",

@@ -752,6 +752,7 @@ const GLOSS_EXTRA = {
   "füße": {de: "feet", base: "der Fuß", note: "Plural: die Füße"},
   "laufen": {de: "to run", base: "laufen", note: "beim Laufen = while running"},
   "arm": {de: "arm", base: "der Arm"},
+  "bringe": {de: "(I) bring", base: "bringen", note: "ich bringe Ihnen einen Kuchen"},
   "größer": {de: "bigger", base: "groß", note: "Komparativ"},
   "größere": {de: "bigger", base: "groß", note: "eine größere Wohnung"},
   "größeres": {de: "bigger", base: "groß", note: "ein größeres Zimmer"},
