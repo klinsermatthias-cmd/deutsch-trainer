@@ -106,3 +106,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 15.10.2026 – Eigene Wörter wie Kurskarten (S-1014-50, S-1014-51)
 - `js/app.js`: `ownRule` (Nomen mit Artikel + Plural, „(Austria; Germany: …)“) und `ownForms` (vier Formzeilen wie S-1014-26) für eigene Wörter; Engine dazu in opi-suomea.
 - Bericht-Auswertung prüft jedes eigene Wort mit Quelle (`docs/ablauf-bericht.md` 9b, Prüfliste 21).
+
+## 2026-10-15 – Übungszahl, d15-Ergänzung, lange Lesetexte (D-1014-76, D-1014-45, über Simulation)
+- D-1014-76: je Thema ~50 Übungen im Hintergrund, eine Runde zieht 20; nichts kürzen (Prüfliste Regel 22).
+- d15 hinten ergänzt: Abschnitt 8 Komparativ vor dem Nomen (größer, älter, teurer …; ein größeres Zimmer), Abschnitt 9 Adjektive als Nomen (der Bekannte/ein Bekannter, der Deutsche, etwas Gutes, Alles Gute!), 3 Karten, neuer Schritt 5 mit 12 Übungen. „der/die Alte“ bewusst nicht (umgangssprachlich, kann abwertend klingen). Abweichung: Schritt 4 mischt, Schritt 5 kommt danach (Schritte nur anhängen).
+- Lange Lesetexte (150–190 Wörter, 4 Fragen) in d11, d14, d15, d16, jeweils im Mischschritt; neue Wörter mit GLOSS-Eintrag. les-Format reicht; Wunsch an die Engine: bei langen Texten Fragen näher am Text (scrollen).
