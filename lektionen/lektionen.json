@@ -22014,6 +22014,54 @@
      "We carried the cupboard into the bedroom.",
      "We carried the closet into the bedroom."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Der Umzug nach Graz (längerer Text)",
+    "txt": [
+     "Lena zieht im März von Linz nach Graz. Sie hat dort eine neue Arbeit gefunden. Am Samstag kommen ihr Bruder Thomas und zwei Freunde und helfen ihr beim Umzug.",
+     "Am Morgen tragen sie die Kisten in die Wohnung. Thomas stellt das Sofa an die Wand. Lena stellt die Bücher ins Regal und hängt das Bild von ihrer Oma über das Sofa. Und wohin kommt der Tisch? Die Freunde stellen ihn ans Fenster, denn dort ist es am Nachmittag hell.",
+     "Zu Mittag sind alle müde und hungrig. Sie sitzen auf dem Boden in der Küche und essen Pizza, denn die Sessel stehen noch im Auto. Am Nachmittag tragen sie auch die Sessel und den Kasten in die Wohnung. Den Kasten stellen sie ins Schlafzimmer neben das Bett. Die Lampe hängt Thomas über den Tisch.",
+     "Am Abend ist alles fertig. Die Lampe hängt über dem Tisch, die Bücher stehen im Regal, und die Pflanzen stehen auf dem Balkon. Nur ein Bild liegt noch unter dem Bett – das findet Lena erst am Sonntag. Lena ist sehr froh und sagt: „Vielen Dank! Nächsten Samstag koche ich für euch.“"
+    ],
+    "qs": [
+     {
+      "q": "Why does Lena move to Graz?",
+      "o": [
+       "She has found a new job there.",
+       "Her brother lives there.",
+       "Her flat in Linz is too small."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where do they put the table?",
+      "o": [
+       "by the window",
+       "in the bedroom",
+       "on the balcony"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why do they eat on the floor?",
+      "o": [
+       "The chairs are still in the car.",
+       "There is no table.",
+       "The kitchen is too small."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Lena promise her helpers?",
+      "o": [
+       "She will cook for them next Saturday.",
+       "She will help them move.",
+       "She will buy them a pizza."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -22104,7 +22152,8 @@
      51,
      52,
      53,
-     54
+     54,
+     55
     ]
    }
   ]
@@ -23012,6 +23061,54 @@
       "Say no – you don't need the old wardrobe."
      ]
     ]
+   },
+   {
+    "t": "les",
+    "q": "Wohnungssuche in Wien (längerer Text)",
+    "txt": [
+     "Aurora sucht seit Jänner eine neue Wohnung. Die alte Wohnung ist zu klein und zu dunkel, und die Straße vor dem Haus ist sehr laut. Jeden Abend liest sie die Anzeigen im Internet.",
+     "Am fünften März ruft sie Frau Berger von der Hausverwaltung an. Frau Berger sagt: „Die helle Wohnung im zweiten Stock ist noch frei. Sie hat zwei Zimmer, eine Küche, ein Bad und einen Balkon. Die Miete ist 850 Euro im Monat, mit Betriebskosten.“",
+     "Die Besichtigung ist am zehnten März um fünf Uhr. Aurora gefällt die Wohnung sehr: Das große Zimmer hat zwei Fenster, und die kleine Küche ist ganz neu. Nur das alte Bad ist nicht so schön. Die Wohnung hat keine Ablöse, aber Aurora muss eine Kaution bezahlen.",
+     "Am Abend schreibt Aurora Frau Berger: Sie möchte die Wohnung nehmen. Am fünfzehnten März unterschreibt sie den Mietvertrag. Am ersten April zieht sie um. Im selben Haus wohnt auch eine Kollegin aus der Arbeit – so kann Aurora am Morgen mit ihr zur Arbeit gehen."
+    ],
+    "qs": [
+     {
+      "q": "Why is Aurora looking for a new flat?",
+      "o": [
+       "Her flat is too small and too dark.",
+       "Her flat is too expensive.",
+       "She has a new job in Vienna."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When is the viewing?",
+      "o": [
+       "on 10 March at five o'clock",
+       "on 5 March at ten o'clock",
+       "on 15 March in the evening"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora not like?",
+      "o": [
+       "the old bathroom",
+       "the small kitchen",
+       "the big room"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who else lives in the same building?",
+      "o": [
+       "a colleague from work",
+       "Frau Berger",
+       "Aurora's sister"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -23097,7 +23194,8 @@
      46,
      47,
      48,
-     49
+     49,
+     50
     ]
    }
   ]
@@ -23125,7 +23223,7 @@
    "d11",
    "d14"
   ],
-  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>After <b>ein, kein</b> and <b>mein, dein, sein, ihr, unser, euer, Ihr</b> the endings are almost the same as after <i>der, die, das</i> (d14): <i>eine neue Küche, einen neuen Tisch, mit einem neuen Tisch</i>.</li><li>Only <b>three forms</b> are different, because there <i>ein</i> has no ending: <i>ein neu<b>er</b> Tisch</i> (Nominativ masculine) and <i>ein neu<b>es</b> Zimmer</i> (Nominativ and Akkusativ neuter).</li><li>With <b>no article</b> the adjective takes the ending of <i>der, die, das</i> itself: <i>frischer Käse, frische Milch, frisches Brot, mit frischem Brot</i>.</li><li>A <b>Partizip II</b> can be an adjective with the same endings: <i>geriebener Käse, gekochte Eier</i>.</li></ul><h3>1. Situation: an invitation to the new flat</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich habe eine neue Wohnung mit einem großen Balkon.</td><td>I have a new flat with a big balcony.</td></tr><tr><td>Am Samstag lade ich ein paar Gäste ein.</td><td>On Saturday I'm inviting a few guests.</td></tr><tr><td>Ich koche eine warme Suppe.</td><td>I'm cooking a warm soup.</td></tr><tr><td>Es gibt Palatschinken mit frischem Topfen.</td><td>There are pancakes with fresh curd cheese.</td></tr><tr><td>Kannst du ein frisches Brot mitbringen?</td><td>Can you bring a fresh loaf of bread?</td></tr><tr><td>Bei schönem Wetter sitzen wir auf dem Balkon.</td><td>When the weather is nice, we sit on the balcony.</td></tr></table><h3>2. Dialogue</h3><p><b>Mia:</b> <i>Hallo Aurora! Wie ist deine neue Wohnung?</i><br><b>Aurora:</b> <i>Super! Sie hat <b>einen großen</b> Balkon und <b>eine helle</b> Küche. Am Samstag lade ich ein paar Gäste ein. Kommst du auch?</i><br><b>Mia:</b> <i>Gern! Was kochst du?</i><br><b>Aurora:</b> <i><b>Eine warme</b> Suppe und Palatschinken mit <b>frischem</b> Topfen.</i><br><b>Mia:</b> <i>Mmh! Soll ich etwas mitbringen?</i><br><b>Aurora:</b> <i>Ja, vielleicht <b>ein frisches</b> Brot. <b>Bei schönem</b> Wetter sitzen wir auf dem Balkon.</i><br><b>Mia:</b> <i>Super. Darf ich <b>meinen neuen</b> Freund mitbringen?</i><br><b>Aurora:</b> <i>Natürlich! Bis Samstag!</i></p><ul><li><i>einen großen Balkon, eine helle Küche, eine warme Suppe, meinen neuen Freund</i> – Akkusativ: the same endings as after <i>den, die</i> (d14).</li><li><i>ein frisches Brot</i> – neuter: <i>ein</i> has no ending, so the adjective shows the gender: <b>-es</b> like <i>das</i>.</li><li><i>mit frischem Topfen, bei schönem Wetter</i> – no article: the adjective takes the ending of <i>dem</i> → <b>-em</b>.</li><li><i>der Freund</i> = friend; also boyfriend.</li></ul><h3>3. Overview: adjective endings after ein, kein, mein</h3><table><tr><th>Fall</th><th>Singular</th><th>Plural (keine, meine …)</th></tr><tr><td>Nominativ</td><td>ein neu<b>er</b> Tisch · eine neu<b>e</b> Küche · ein neu<b>es</b> Zimmer</td><td>meine neu<b>en</b> Nachbarn</td></tr><tr><td>Akkusativ</td><td>einen neu<b>en</b> Tisch · eine neu<b>e</b> Küche · ein neu<b>es</b> Zimmer</td><td>meine neu<b>en</b> Nachbarn</td></tr><tr><td>Dativ</td><td>einem neu<b>en</b> Tisch · einer neu<b>en</b> Küche · einem neu<b>en</b> Zimmer</td><td>meinen neu<b>en</b> Nachbarn</td></tr></table><p>Compare with d14: <i>der neue Tisch → ein neu<b>er</b> Tisch</i>, <i>das neue Zimmer → ein neu<b>es</b> Zimmer</i>. Everything else stays the same. <i>kein</i> and all possessive words (<i>mein, dein, sein, ihr, unser, euer, Ihr</i>) take the same endings as <i>ein</i>. <i>ein</i> has no plural; after <i>keine, meine, unsere …</i> the plural always has <b>-en</b>.</p><h3>4. Nominativ and Akkusativ: -er and -es</h3><table><tr><th>Nominativ</th><th>Akkusativ</th></tr><tr><td>Ein neu<b>er</b> Tisch steht im Wohnzimmer.</td><td>Ich kaufe einen neu<b>en</b> Tisch.</td></tr><tr><td>Eine warm<b>e</b> Suppe ist gut.</td><td>Ich koche eine warm<b>e</b> Suppe.</td></tr><tr><td>Ein groß<b>es</b> Zimmer ist frei.</td><td>Wir suchen ein groß<b>es</b> Zimmer.</td></tr><tr><td>Mein alt<b>er</b> Kasten ist schön.</td><td>Ich verkaufe meinen alt<b>en</b> Kasten.</td></tr></table><ul><li><b>-er</b> only in the Nominativ masculine (<i>ein neuer Tisch</i>). In the Akkusativ <i>einen</i> already shows the case → <i>einen neuen Tisch</i>.</li><li><b>-es</b> in the Nominativ and Akkusativ neuter: <i>ein großes Zimmer, unser neues Sofa</i>.</li><li><i>kein</i> works like <i>ein</i>: <i>Wir haben keinen großen Balkon.</i> – <i>Das ist kein gutes Zimmer.</i></li><li><b>Spelling</b> as in d14: <i>dunkel → ein dunkles Zimmer</i>.</li></ul><h3>5. Dativ and plural: always -en</h3><table><tr><th>Form</th><th>Beispiel</th></tr><tr><td>Dativ maskulin</td><td>Ich koche mit einem gut<b>en</b> Freund.</td></tr><tr><td>Dativ feminin</td><td>Wir wohnen in einer klein<b>en</b> Wohnung.</td></tr><tr><td>Dativ neutral</td><td>Mia wohnt in einem alt<b>en</b> Haus.</td></tr><tr><td>Plural Nominativ/Akkusativ</td><td>Das sind meine neu<b>en</b> Nachbarn.</td></tr><tr><td>Plural Dativ</td><td>Ich spreche mit meinen neu<b>en</b> Nachbarn.</td></tr></table><ul><li><i>einem, einer, meinem, unserer …</i> show the case clearly → the adjective has <b>-en</b>, exactly as after <i>dem, der</i> in d14.</li><li>Plural after <i>keine, meine, unsere …</i>: always <b>-en</b>. In the Dativ plural the noun gets <b>-n</b> too: <i>mit meinen neuen Nachbarn</i>.</li></ul><h3>6. No article – and Partizip II as an adjective</h3><table><tr><th>Fall</th><th>Singular</th><th>Plural</th></tr><tr><td>Nominativ</td><td>frisch<b>er</b> Käse · frisch<b>e</b> Milch · frisch<b>es</b> Brot</td><td>frisch<b>e</b> Eier</td></tr><tr><td>Akkusativ</td><td>frisch<b>en</b> Käse · frisch<b>e</b> Milch · frisch<b>es</b> Brot</td><td>frisch<b>e</b> Eier</td></tr><tr><td>Dativ</td><td>mit frisch<b>em</b> Käse · mit frisch<b>er</b> Milch · mit frisch<b>em</b> Brot</td><td>mit frisch<b>en</b> Eiern</td></tr></table><ul><li>No article → the adjective takes the article's ending: <i>der → -er, den → -en, dem → -em, die → -e, das → -es</i>; Dativ feminine <i>der → -er</i>; Dativ plural <i>den → -en</i>.</li><li>Typical: food and drinks (<i>frisches Brot, warme Milch</i>), the plural without article (<i>neue Nachbarn</i>), after numbers (<i>zwei große Zimmer</i>).</li><li>Fixed phrases: <i>bei schönem Wetter, Guten Appetit!, Mit freundlichen Grüßen</i> (end of a letter or e-mail).</li><li><b>Partizip II as an adjective:</b> <i>reiben → gerieben → geriebener Käse, mit geriebenem Käse</i>; <i>kochen → gekocht → gekochte Eier</i>. The same endings as every other adjective.</li></ul><p class=\"warn\">⚠ <b>Watch out</b></p><table><tr><th>✗</th><th>✓</th></tr><tr><td>Das ist ein neue Tisch.</td><td>Das ist ein neuer Tisch.</td></tr><tr><td>Wir suchen ein großer Zimmer.</td><td>Wir suchen ein großes Zimmer.</td></tr><tr><td>Ich kaufe einen neuer Tisch.</td><td>Ich kaufe einen neuen Tisch.</td></tr><tr><td>Wir wohnen in einer kleine Wohnung.</td><td>Wir wohnen in einer kleinen Wohnung.</td></tr><tr><td>Das sind meine neue Nachbarn.</td><td>Das sind meine neuen Nachbarn.</td></tr><tr><td>Brot mit frischen Käse</td><td>Brot mit frischem Käse</td></tr><tr><td>bei schönen Wetter</td><td>bei schönem Wetter</td></tr></table><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>der Topfen</i> = curd cheese (Germany: <i>Quark</i>).</li><li><i>die Palatschinke, die Palatschinken</i> = thin pancake, rolled up with a filling (Germany: <i>Pfannkuchen, Eierkuchen</i>).</li><li><i>der Knödel</i> = dumpling (Germany also: <i>Kloß</i>): <i>Semmelknödel, Marillenknödel</i>.</li><li>From d04: <i>frische Paradeiser</i> (Germany: <i>Tomaten</i>), <i>gekochte Erdäpfel</i> (Germany: <i>Kartoffeln</i>).</li></ul><h3>7. Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>einladen (du lädst ein, er lädt ein)</td><td>lud ein</td><td>hat eingeladen</td></tr><tr><td>mitbringen</td><td>brachte mit</td><td>hat mitgebracht</td></tr><tr><td>kochen</td><td>kochte</td><td>hat gekocht</td></tr><tr><td>schneiden</td><td>schnitt</td><td>hat geschnitten</td></tr><tr><td>reiben</td><td>rieb</td><td>hat gerieben</td></tr></table>",
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>After <b>ein, kein</b> and <b>mein, dein, sein, ihr, unser, euer, Ihr</b> the endings are almost the same as after <i>der, die, das</i> (d14): <i>eine neue Küche, einen neuen Tisch, mit einem neuen Tisch</i>.</li><li>Only <b>three forms</b> are different, because there <i>ein</i> has no ending: <i>ein neu<b>er</b> Tisch</i> (Nominativ masculine) and <i>ein neu<b>es</b> Zimmer</i> (Nominativ and Akkusativ neuter).</li><li>With <b>no article</b> the adjective takes the ending of <i>der, die, das</i> itself: <i>frischer Käse, frische Milch, frisches Brot, mit frischem Brot</i>.</li><li>A <b>Partizip II</b> can be an adjective with the same endings: <i>geriebener Käse, gekochte Eier</i>.</li></ul><h3>1. Situation: an invitation to the new flat</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich habe eine neue Wohnung mit einem großen Balkon.</td><td>I have a new flat with a big balcony.</td></tr><tr><td>Am Samstag lade ich ein paar Gäste ein.</td><td>On Saturday I'm inviting a few guests.</td></tr><tr><td>Ich koche eine warme Suppe.</td><td>I'm cooking a warm soup.</td></tr><tr><td>Es gibt Palatschinken mit frischem Topfen.</td><td>There are pancakes with fresh curd cheese.</td></tr><tr><td>Kannst du ein frisches Brot mitbringen?</td><td>Can you bring a fresh loaf of bread?</td></tr><tr><td>Bei schönem Wetter sitzen wir auf dem Balkon.</td><td>When the weather is nice, we sit on the balcony.</td></tr></table><h3>2. Dialogue</h3><p><b>Mia:</b> <i>Hallo Aurora! Wie ist deine neue Wohnung?</i><br><b>Aurora:</b> <i>Super! Sie hat <b>einen großen</b> Balkon und <b>eine helle</b> Küche. Am Samstag lade ich ein paar Gäste ein. Kommst du auch?</i><br><b>Mia:</b> <i>Gern! Was kochst du?</i><br><b>Aurora:</b> <i><b>Eine warme</b> Suppe und Palatschinken mit <b>frischem</b> Topfen.</i><br><b>Mia:</b> <i>Mmh! Soll ich etwas mitbringen?</i><br><b>Aurora:</b> <i>Ja, vielleicht <b>ein frisches</b> Brot. <b>Bei schönem</b> Wetter sitzen wir auf dem Balkon.</i><br><b>Mia:</b> <i>Super. Darf ich <b>meinen neuen</b> Freund mitbringen?</i><br><b>Aurora:</b> <i>Natürlich! Bis Samstag!</i></p><ul><li><i>einen großen Balkon, eine helle Küche, eine warme Suppe, meinen neuen Freund</i> – Akkusativ: the same endings as after <i>den, die</i> (d14).</li><li><i>ein frisches Brot</i> – neuter: <i>ein</i> has no ending, so the adjective shows the gender: <b>-es</b> like <i>das</i>.</li><li><i>mit frischem Topfen, bei schönem Wetter</i> – no article: the adjective takes the ending of <i>dem</i> → <b>-em</b>.</li><li><i>der Freund</i> = friend; also boyfriend.</li></ul><h3>3. Overview: adjective endings after ein, kein, mein</h3><table><tr><th>Fall</th><th>Singular</th><th>Plural (keine, meine …)</th></tr><tr><td>Nominativ</td><td>ein neu<b>er</b> Tisch · eine neu<b>e</b> Küche · ein neu<b>es</b> Zimmer</td><td>meine neu<b>en</b> Nachbarn</td></tr><tr><td>Akkusativ</td><td>einen neu<b>en</b> Tisch · eine neu<b>e</b> Küche · ein neu<b>es</b> Zimmer</td><td>meine neu<b>en</b> Nachbarn</td></tr><tr><td>Dativ</td><td>einem neu<b>en</b> Tisch · einer neu<b>en</b> Küche · einem neu<b>en</b> Zimmer</td><td>meinen neu<b>en</b> Nachbarn</td></tr></table><p>Compare with d14: <i>der neue Tisch → ein neu<b>er</b> Tisch</i>, <i>das neue Zimmer → ein neu<b>es</b> Zimmer</i>. Everything else stays the same. <i>kein</i> and all possessive words (<i>mein, dein, sein, ihr, unser, euer, Ihr</i>) take the same endings as <i>ein</i>. <i>ein</i> has no plural; after <i>keine, meine, unsere …</i> the plural always has <b>-en</b>.</p><h3>4. Nominativ and Akkusativ: -er and -es</h3><table><tr><th>Nominativ</th><th>Akkusativ</th></tr><tr><td>Ein neu<b>er</b> Tisch steht im Wohnzimmer.</td><td>Ich kaufe einen neu<b>en</b> Tisch.</td></tr><tr><td>Eine warm<b>e</b> Suppe ist gut.</td><td>Ich koche eine warm<b>e</b> Suppe.</td></tr><tr><td>Ein groß<b>es</b> Zimmer ist frei.</td><td>Wir suchen ein groß<b>es</b> Zimmer.</td></tr><tr><td>Mein alt<b>er</b> Kasten ist schön.</td><td>Ich verkaufe meinen alt<b>en</b> Kasten.</td></tr></table><ul><li><b>-er</b> only in the Nominativ masculine (<i>ein neuer Tisch</i>). In the Akkusativ <i>einen</i> already shows the case → <i>einen neuen Tisch</i>.</li><li><b>-es</b> in the Nominativ and Akkusativ neuter: <i>ein großes Zimmer, unser neues Sofa</i>.</li><li><i>kein</i> works like <i>ein</i>: <i>Wir haben keinen großen Balkon.</i> – <i>Das ist kein gutes Zimmer.</i></li><li><b>Spelling</b> as in d14: <i>dunkel → ein dunkles Zimmer</i>.</li></ul><h3>5. Dativ and plural: always -en</h3><table><tr><th>Form</th><th>Beispiel</th></tr><tr><td>Dativ maskulin</td><td>Ich koche mit einem gut<b>en</b> Freund.</td></tr><tr><td>Dativ feminin</td><td>Wir wohnen in einer klein<b>en</b> Wohnung.</td></tr><tr><td>Dativ neutral</td><td>Mia wohnt in einem alt<b>en</b> Haus.</td></tr><tr><td>Plural Nominativ/Akkusativ</td><td>Das sind meine neu<b>en</b> Nachbarn.</td></tr><tr><td>Plural Dativ</td><td>Ich spreche mit meinen neu<b>en</b> Nachbarn.</td></tr></table><ul><li><i>einem, einer, meinem, unserer …</i> show the case clearly → the adjective has <b>-en</b>, exactly as after <i>dem, der</i> in d14.</li><li>Plural after <i>keine, meine, unsere …</i>: always <b>-en</b>. In the Dativ plural the noun gets <b>-n</b> too: <i>mit meinen neuen Nachbarn</i>.</li></ul><h3>6. No article – and Partizip II as an adjective</h3><table><tr><th>Fall</th><th>Singular</th><th>Plural</th></tr><tr><td>Nominativ</td><td>frisch<b>er</b> Käse · frisch<b>e</b> Milch · frisch<b>es</b> Brot</td><td>frisch<b>e</b> Eier</td></tr><tr><td>Akkusativ</td><td>frisch<b>en</b> Käse · frisch<b>e</b> Milch · frisch<b>es</b> Brot</td><td>frisch<b>e</b> Eier</td></tr><tr><td>Dativ</td><td>mit frisch<b>em</b> Käse · mit frisch<b>er</b> Milch · mit frisch<b>em</b> Brot</td><td>mit frisch<b>en</b> Eiern</td></tr></table><ul><li>No article → the adjective takes the article's ending: <i>der → -er, den → -en, dem → -em, die → -e, das → -es</i>; Dativ feminine <i>der → -er</i>; Dativ plural <i>den → -en</i>.</li><li>Typical: food and drinks (<i>frisches Brot, warme Milch</i>), the plural without article (<i>neue Nachbarn</i>), after numbers (<i>zwei große Zimmer</i>).</li><li>Fixed phrases: <i>bei schönem Wetter, Guten Appetit!, Mit freundlichen Grüßen</i> (end of a letter or e-mail).</li><li><b>Partizip II as an adjective:</b> <i>reiben → gerieben → geriebener Käse, mit geriebenem Käse</i>; <i>kochen → gekocht → gekochte Eier</i>. The same endings as every other adjective.</li></ul><p class=\"warn\">⚠ <b>Watch out</b></p><table><tr><th>✗</th><th>✓</th></tr><tr><td>Das ist ein neue Tisch.</td><td>Das ist ein neuer Tisch.</td></tr><tr><td>Wir suchen ein großer Zimmer.</td><td>Wir suchen ein großes Zimmer.</td></tr><tr><td>Ich kaufe einen neuer Tisch.</td><td>Ich kaufe einen neuen Tisch.</td></tr><tr><td>Wir wohnen in einer kleine Wohnung.</td><td>Wir wohnen in einer kleinen Wohnung.</td></tr><tr><td>Das sind meine neue Nachbarn.</td><td>Das sind meine neuen Nachbarn.</td></tr><tr><td>Brot mit frischen Käse</td><td>Brot mit frischem Käse</td></tr><tr><td>bei schönen Wetter</td><td>bei schönem Wetter</td></tr></table><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>der Topfen</i> = curd cheese (Germany: <i>Quark</i>).</li><li><i>die Palatschinke, die Palatschinken</i> = thin pancake, rolled up with a filling (Germany: <i>Pfannkuchen, Eierkuchen</i>).</li><li><i>der Knödel</i> = dumpling (Germany also: <i>Kloß</i>): <i>Semmelknödel, Marillenknödel</i>.</li><li>From d04: <i>frische Paradeiser</i> (Germany: <i>Tomaten</i>), <i>gekochte Erdäpfel</i> (Germany: <i>Kartoffeln</i>).</li></ul><h3>7. Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>einladen (du lädst ein, er lädt ein)</td><td>lud ein</td><td>hat eingeladen</td></tr><tr><td>mitbringen</td><td>brachte mit</td><td>hat mitgebracht</td></tr><tr><td>kochen</td><td>kochte</td><td>hat gekocht</td></tr><tr><td>schneiden</td><td>schnitt</td><td>hat geschnitten</td></tr><tr><td>reiben</td><td>rieb</td><td>hat gerieben</td></tr></table><h3>8. The comparative in front of a noun</h3><p>The comparative (bigger, cheaper …) is the adjective + <b>-er</b>: <i>billig → billiger, klein → kleiner, hell → heller</i>. Many short adjectives also get an umlaut: <i>groß → größer, alt → älter, warm → wärmer, kalt → kälter</i>. Special forms: <i>teuer → teurer, dunkel → dunkler, gut → besser</i>.</p><table><tr><th>Adjektiv</th><th>vor dem Nomen</th></tr><tr><td>groß → größer</td><td>Wir suchen ein größer<b>es</b> Zimmer.</td></tr><tr><td>billig → billiger</td><td>Die billiger<b>e</b> Wohnung ist im Erdgeschoß.</td></tr><tr><td>klein → kleiner</td><td>Ich nehme den kleiner<b>en</b> Tisch.</td></tr><tr><td>hell → heller</td><td>Wir wohnen jetzt in einer heller<b>en</b> Wohnung.</td></tr><tr><td>teuer → teurer</td><td>Das ist eine teurer<b>e</b> Wohnung.</td></tr></table><ul><li>First <b>-er</b> for the comparative, then the normal ending from d14 and this topic: <i>ein größer + es → ein größeres Zimmer</i>, <i>den kleiner + en → den kleineren Tisch</i>.</li><li>Without a noun the comparative has no ending: <i>Das Zimmer ist größer.</i></li></ul><h3>9. Adjectives as nouns</h3><p>An adjective can be a noun: it starts with a capital letter, but it keeps the <b>adjective endings</b>.</p><table><tr><th>mit der/die</th><th>mit ein/eine</th></tr><tr><td>der Bekannte (a man)</td><td>ein Bekannt<b>er</b></td></tr><tr><td>die Bekannte (a woman)</td><td>eine Bekannt<b>e</b></td></tr><tr><td>die Bekannt<b>en</b> (Plural)</td><td>Bekannt<b>e</b> (Plural, ohne Artikel)</td></tr><tr><td>der Deutsche</td><td>ein Deutsch<b>er</b></td></tr></table><ul><li><i>der/die Bekannte</i> = acquaintance. The ending changes like an adjective: <i>Ich treffe einen Bekannt<b>en</b>. – mit meinen Bekannt<b>en</b></i>.</li><li><b>etwas, nichts, viel</b> + adjective as a noun: capital letter and <b>-es</b>: <i>etwas Gutes, nichts Neues, viel Schönes</i>. ✗ <i>etwas gutes</i> → ✓ <i>etwas Gutes</i>.</li><li>Fixed phrase: <i>Alles Gute!</i> = All the best! (after <i>alles</i>: <b>-e</b>).</li><li>✗ <i>Er ist ein Bekannte.</i> → ✓ <i>Er ist ein Bekannter.</i> – after <i>ein</i> the masculine has <b>-er</b>, as in section 4.</li></ul>",
   "v": [
    [
     "die Einladung, die Einladungen",
@@ -23258,6 +23356,18 @@
    [
     "scharf",
     "spicy, hot; sharp"
+   ],
+   [
+    "der/die Bekannte, die Bekannten",
+    "acquaintance (ein Bekannter, eine Bekannte)"
+   ],
+   [
+    "etwas Neues",
+    "something new"
+   ],
+   [
+    "Alles Gute!",
+    "All the best!"
    ]
   ],
   "ex": [
@@ -24002,6 +24112,215 @@
       "Say: a spicy soup and sweet pancakes."
      ]
     ]
+   },
+   {
+    "t": "mc",
+    "q": "Which form is correct? Wir suchen ___ Zimmer.",
+    "o": [
+     "ein größeres",
+     "ein größer",
+     "ein großeres",
+     "ein größerer"
+    ],
+    "a": 0,
+    "x": "Comparative groß → größer (with umlaut), then the normal ending: Zimmer is neuter, Akkusativ after ein → -es: ein größeres Zimmer."
+   },
+   {
+    "t": "mc",
+    "q": "How do you write „something good“?",
+    "o": [
+     "etwas Gutes",
+     "etwas gutes",
+     "etwas Gute",
+     "etwas Guten"
+    ],
+    "a": 0,
+    "x": "After etwas, nichts, viel the adjective becomes a noun: capital letter and -es: etwas Gutes, nichts Neues."
+   },
+   {
+    "t": "mc",
+    "q": "Gestern habe ich ___ getroffen. (a male acquaintance)",
+    "o": [
+     "einen Bekannten",
+     "einen Bekannter",
+     "ein Bekannter",
+     "einen Bekannte"
+    ],
+    "a": 0,
+    "x": "der Bekannte keeps adjective endings. treffen + Akkusativ, masculine → einen … -en: einen Bekannten (like einen neuen Tisch)."
+   },
+   {
+    "t": "gap",
+    "q": "Die billiger___ Wohnung ist im Erdgeschoß.",
+    "h": "Nur die Endung eintippen – Nominativ",
+    "a": [
+     "e"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir wohnen jetzt in einer heller___ Wohnung.",
+    "h": "Nur die Endung eintippen – Dativ",
+    "a": [
+     "en"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich nehme den ___ Tisch. (klein)",
+    "h": "Komparativ von klein + Endung (Akkusativ)",
+    "a": [
+     "kleineren"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mia ist eine ___ von mir. (bekannt)",
+    "h": "Adjektiv als Nomen, nach eine",
+    "a": [
+     "Bekannte"
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Komparativ vor dem Nomen",
+    "h": "Jedes Kästchen: ein + Komparativ + Zimmer",
+    "head": [
+     "Adjektiv",
+     "ein … Zimmer"
+    ],
+    "r": [
+     [
+      "groß",
+      "[ein größeres Zimmer]"
+     ],
+     [
+      "klein",
+      "[ein kleineres Zimmer]"
+     ],
+     [
+      "hell",
+      "[ein helleres Zimmer]"
+     ],
+     [
+      "billig",
+      "[ein billigeres Zimmer]"
+     ],
+     [
+      "teuer",
+      "[ein teureres Zimmer]"
+     ]
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Is there anything new?",
+    "a": [
+     "Gibt es etwas Neues?",
+     "Gibt's etwas Neues?",
+     "Gibt es was Neues?",
+     "Gibt's was Neues?"
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Wir",
+     "suchen",
+     "eine",
+     "größere",
+     "Wohnung"
+    ],
+    "a": [
+     "Wir suchen eine größere Wohnung.",
+     "Eine größere Wohnung suchen wir."
+    ],
+    "de": "We're looking for a bigger flat."
+   },
+   {
+    "t": "dlg",
+    "q": "Am Montag in der Arbeit",
+    "r": [
+     [
+      "Kollegin",
+      "Na, wie war dein Wochenende?"
+     ],
+     [
+      "Du",
+      "[Gut, ich habe einen Bekannten getroffen.|Gut! Ich habe einen Bekannten getroffen.|Sehr gut, ich habe einen Bekannten getroffen.|Gut, ich habe eine Bekannte getroffen.]",
+      "Say: good – you met an acquaintance."
+     ],
+     [
+      "Kollegin",
+      "Und gibt es sonst etwas Neues?"
+     ],
+     [
+      "Du",
+      "[Ja, wir suchen eine größere Wohnung.|Ja, wir suchen jetzt eine größere Wohnung.|Wir suchen eine größere Wohnung.|Ja, ich suche eine größere Wohnung.]",
+      "Say yes – you're looking for a bigger flat."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: what kind of flat would you like, and something good from your week?",
+    "w": [
+     "eine größere …",
+     "etwas Gutes"
+    ],
+    "a": [
+     "Ich möchte eine größere Wohnung mit einem helleren Zimmer. Diese Woche ist etwas Gutes passiert."
+    ],
+    "h": "2 Sätze"
+   },
+   {
+    "t": "les",
+    "q": "Ein Abend mit Freunden (längerer Text)",
+    "txt": [
+     "Am Freitag lädt Aurora vier Freunde in ihre neue Wohnung ein. Sie hat nur einen kleinen Tisch, aber einen großen Balkon. Aurora freut sich sehr, denn es ist das erste Fest in der neuen Wohnung. Bei schönem Wetter wollen alle draußen sitzen.",
+     "Am Nachmittag kauft Aurora am Markt frisches Gemüse, ein großes Brot und guten Käse. Zu Hause kocht sie eine warme Suppe mit frischen Paradeisern. Als Nachspeise gibt es Palatschinken mit Topfen und Marillenmarmelade.",
+     "Um sieben Uhr kommen die Gäste. Mia bringt einen süßen Kuchen mit, und ihr neuer Freund Jonas bringt eine Flasche Wein. Lena hat leider keine Zeit, denn ihr kleiner Sohn ist krank.",
+     "Leider ist das Wetter am Abend nicht schön: Es regnet, und es ist kalt. Also essen alle in der kleinen Küche. Aber das macht nichts. Die Suppe ist heiß, die Palatschinken sind süß, und alle lachen viel. Um Mitternacht gehen die Gäste nach Hause. „Danke für den schönen Abend!“, sagt Mia."
+    ],
+    "qs": [
+     {
+      "q": "What does Aurora buy at the market?",
+      "o": [
+       "fresh vegetables, a big loaf of bread and good cheese",
+       "a sweet cake and a bottle of wine",
+       "pancakes and curd cheese"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why doesn't Lena come?",
+      "o": [
+       "Her little son is ill.",
+       "She has to work.",
+       "She doesn't like soup."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where do they eat in the end?",
+      "o": [
+       "in the small kitchen",
+       "on the big balcony",
+       "in a restaurant"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Jonas bring?",
+      "o": [
+       "a bottle of wine",
+       "a sweet cake",
+       "fresh bread"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -24086,7 +24405,29 @@
      45,
      46,
      47,
-     48
+     48,
+     61
+    ]
+   },
+   {
+    "t": "Komparativ vor dem Nomen und Adjektive als Nomen",
+    "sec": [
+     8,
+     9
+    ],
+    "ex": [
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60
     ]
    }
   ]
@@ -25057,6 +25398,54 @@
       "Thank her and say goodbye (on the phone)."
      ]
     ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Anruf bei der Internetfirma (längerer Text)",
+    "txt": [
+     "Seit Montag funktioniert Auroras Internet nicht. Sie ruft die Firma an, aber das Telefon ist immer besetzt. Am Mittwoch hat sie endlich Glück.",
+     "„Grüß Gott, hier spricht Herr Wagner. Was kann ich für Sie tun?“ – „Grüß Gott! Mein Internet funktioniert seit Montag nicht. Könnten Sie mir bitte helfen?“ Herr Wagner stellt ein paar Fragen. Dann sagt er: „Das Problem ist leider nicht so einfach. Ein Techniker sollte zu Ihnen kommen.“",
+     "„Wäre morgen Vormittag möglich?“, fragt Herr Wagner. – „Am Vormittag arbeite ich leider. Hätten Sie auch am Nachmittag einen Termin?“ – „Ja, morgen um vier Uhr.“ – „Super, das wäre perfekt. Könnten Sie mir noch sagen, ob die Reparatur etwas kostet?“ – „Nein, die Reparatur kostet nichts.“",
+     "Am Donnerstag kommt der Techniker pünktlich um vier Uhr. Nach einer halben Stunde funktioniert das Internet wieder. Am Abend schreibt Aurora ihrer Freundin Mia: „Endlich habe ich wieder Internet! Am liebsten würde ich jetzt den ganzen Abend Serien schauen.“"
+    ],
+    "qs": [
+     {
+      "q": "Since when has the internet not been working?",
+      "o": [
+       "since Monday",
+       "since Wednesday",
+       "since Thursday"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why does Aurora not want an appointment in the morning?",
+      "o": [
+       "She works in the morning.",
+       "She sleeps late.",
+       "The technician has no time."
+      ],
+      "a": 0
+     },
+     {
+      "q": "How much does the repair cost?",
+      "o": [
+       "nothing",
+       "a little",
+       "the company doesn't know yet"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What would Aurora like to do most in the evening?",
+      "o": [
+       "watch series all evening",
+       "call Mia",
+       "go out with friends"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -25143,7 +25532,8 @@
      47,
      48,
      49,
-     50
+     50,
+     51
     ]
    }
   ]
