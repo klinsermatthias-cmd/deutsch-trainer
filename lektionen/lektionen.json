@@ -1867,6 +1867,54 @@
     "a": [
      "Am Samstag bin ich nach Wien gefahren und habe Lena getroffen."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Montag im Büro (längerer Text)",
+    "txt": [
+     "Es ist Montag, acht Uhr. Aurora und Lena arbeiten zusammen. Lena trinkt Kaffee und fragt: „Wie war dein Wochenende? Was hast du gemacht?“",
+     "Aurora erzählt: „Am Samstag habe ich lange geschlafen. Am Vormittag habe ich eingekauft: Brot, Käse und Äpfel. Am Nachmittag habe ich eine Freundin getroffen. Wir haben Kaffee getrunken und viel gesprochen. Am Abend habe ich gekocht und ein Buch gelesen. Das Buch ist sehr spannend.“",
+     "„Und am Sonntag?“, fragt Lena. „Am Sonntag bin ich früh aufgestanden und nach Salzburg gefahren“, sagt Aurora. „Dort habe ich Thomas besucht. Thomas wohnt seit Jänner in Salzburg und arbeitet dort. Salzburg ist sehr schön. Wir sind lange gewandert und haben am Abend Pizza gegessen. Um neun Uhr bin ich nach Wien zurückgefahren.“",
+     "Dann erzählt Lena: „Ich habe am Wochenende nicht viel gemacht. Am Samstag habe ich die Wohnung geputzt und am Abend ferngesehen. Am Sonntag hat es viel geregnet. Ich habe ausgeschlafen, Kuchen gebacken und lange telefoniert.“ Aurora lacht: „Das klingt auch schön! Und hast du Kuchen mitgebracht?“ – „Nein, den Kuchen habe ich schon gegessen!“, sagt Lena. Dann beginnt die Arbeit."
+    ],
+    "qs": [
+     {
+      "q": "What did Aurora do on Saturday afternoon?",
+      "o": [
+       "She met a friend.",
+       "She went to Salzburg.",
+       "She cleaned the flat."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who did Aurora visit on Sunday?",
+      "o": [
+       "Thomas",
+       "Lena",
+       "her parents"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Since when has Thomas lived in Salzburg?",
+      "o": [
+       "since January",
+       "since last weekend",
+       "since March"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What was the weather like on Sunday where Lena was?",
+      "o": [
+       "It rained a lot.",
+       "It was sunny.",
+       "It snowed."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -1992,7 +2040,8 @@
      105,
      106,
      107,
-     111
+     111,
+     112
     ]
    }
   ]
@@ -3006,6 +3055,54 @@
      "Letzte Woche war ich krank.",
      "Ich war letzte Woche krank."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Ein langer Samstag (längerer Text)",
+    "txt": [
+     "Am Montag telefonieren Aurora und Mia. Mia fragt: „Aurora, was ist am Samstag passiert? Ich habe ein Fest gemacht, aber du bist nicht gekommen. Du warst nicht da, und das Telefon war aus.“",
+     "Aurora erzählt: „Ach, der Samstag war lang! Um sechs Uhr hat das Telefon geklingelt, und ich bin aufgewacht. Jonas hatte ein Problem: Das Auto war kaputt, und er hatte um acht Uhr einen Termin in Linz. Also bin ich schnell aufgestanden, habe mich angezogen und habe Jonas nach Linz gefahren.“",
+     "„In Linz bin ich zwei Stunden gesessen und habe gewartet. Um elf Uhr ist Jonas endlich gekommen. Ich hatte kein Buch dabei. Dann ist etwas passiert: Es hat stark geregnet, und ich hatte keinen Schirm. Ich bin ganz nass geworden!“",
+     "„Am Nachmittag sind wir nach Wien zurückgefahren. Daheim habe ich mich schnell umgezogen und Tee getrunken. Dann bin ich eingeschlafen und erst am Abend wieder aufgewacht.“ Mia lacht: „Und am Sonntag?“ – „Am Sonntag bin ich zu Hause geblieben. Ich war sehr müde.“ Mia sagt: „Ich mache bald wieder ein Fest. Hast du dann Zeit?“ – „Ja, sicher!“"
+    ],
+    "qs": [
+     {
+      "q": "Why did Aurora drive Jonas to Linz?",
+      "o": [
+       "His car was broken.",
+       "He was ill.",
+       "He had missed the train."
+      ],
+      "a": 0
+     },
+     {
+      "q": "How long did Aurora wait in Linz?",
+      "o": [
+       "two hours",
+       "half an hour",
+       "six hours"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why did Aurora get wet?",
+      "o": [
+       "It rained and she had no umbrella.",
+       "She went swimming.",
+       "She fell into a river."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did Aurora do on Sunday?",
+      "o": [
+       "She stayed at home.",
+       "She drove to Linz again.",
+       "She met Mia."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>sein</b>: movement from A to B, change of state, and <i>sein, bleiben, passieren</i>.</li><li><b>haben</b>: all other verbs – also <i>fahren</i> with an object and all reflexive verbs.</li><li>In Austria: <i>ich bin gesessen, gestanden, gelegen</i>.</li></ul><h3>1. Situation: telling a friend about your weekend</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Was ist passiert?</td><td>What happened?</td></tr><tr><td>Ich bin um sechs aufgewacht.</td><td>I woke up at six.</td></tr><tr><td>Ich habe meine Schwester zum Bahnhof gefahren.</td><td>I drove my sister to the station.</td></tr><tr><td>Dann bin ich nach Hause gefahren.</td><td>Then I drove home.</td></tr><tr><td>Ich habe mich schnell umgezogen.</td><td>I quickly got changed.</td></tr><tr><td>Wir sind zu Hause geblieben.</td><td>We stayed at home.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Was <b>ist</b> am Samstag <b>passiert</b>?</i><br><b>Aurora:</b> <i>Nichts Schlimmes! Ich <b>bin</b> um sechs <b>aufgewacht</b> und <b>habe</b> meine Schwester zum Bahnhof <b>gefahren</b>. Dann <b>bin</b> ich nach Hause <b>gefahren</b> und wieder <b>eingeschlafen</b>.</i></p><ul><li>In the dialogue: <i>ist passiert</i> – passieren takes sein.</li><li><i>bin aufgewacht, bin eingeschlafen</i> – change of state.</li><li><i>habe meine Schwester gefahren</i> – fahren with an object takes haben; <i>bin nach Hause gefahren</i> – movement takes sein.</li></ul><h3>3. Overview</h3><table><tr><th>Group</th><th>Example</th></tr><tr><td>movement from A to B</td><td>Er ist nach Linz gefahren.</td></tr><tr><td>change of state</td><td>Er ist eingeschlafen.</td></tr><tr><td>sein, bleiben, passieren</td><td>Er ist zu Hause geblieben.</td></tr><tr><td>everything else</td><td>Er hat lange geschlafen.</td></tr><tr><td>fahren with an object</td><td>Er hat das Auto gefahren.</td></tr><tr><td>reflexive verbs</td><td>Er hat sich umgezogen.</td></tr></table><p>The first three groups take <b>sein</b>, the last three take <b>haben</b>.</p><table><tr><th>Person</th><th>sein</th></tr><tr><td>ich</td><td>bin</td></tr><tr><td>du</td><td>bist</td></tr><tr><td>er / sie / es</td><td>ist</td></tr><tr><td>wir</td><td>sind</td></tr><tr><td>ihr</td><td>seid</td></tr><tr><td>sie / Sie</td><td>sind</td></tr></table><h3>4. sein: movement from A to B</h3><ul><li>gehen, kommen, fahren, fliegen, laufen, wandern, umziehen, aufstehen</li><li><i>Wir sind am Samstag wandern gegangen.</i></li><li><i>Im Mai bin ich nach Linz umgezogen.</i></li></ul><h3>5. sein: change of state</h3><ul><li>aufwachen, einschlafen, werden – something changes: awake → asleep, child → adult.</li><li><i>Ich bin um sechs aufgewacht.</i></li><li>But no change: <i>Ich habe lange geschlafen.</i></li></ul><h3>6. sein: sein, bleiben, passieren</h3><ul><li>These three take sein, although there is no movement.</li><li><i>Ich bin krank gewesen. – Wir sind zu Hause geblieben. – Was ist passiert?</i></li></ul><h3>7. haben: the two traps</h3><table><tr><th>Verb</th><th>Example</th><th>Why?</th></tr><tr><td>fahren without an object</td><td>Ich bin nach Graz gefahren.</td><td>movement → sein</td></tr><tr><td>fahren with an object</td><td>Ich habe meinen Sohn zur Schule gefahren.</td><td>someone or something is driven → haben</td></tr><tr><td>umziehen</td><td>Ich bin nach Linz umgezogen.</td><td>moved house → sein</td></tr><tr><td>sich umziehen</td><td>Ich habe mich umgezogen.</td><td>reflexive → haben</td></tr></table><h3>8. Speaking about the past: war, hatte, musste</h3><ul><li>For <i>sein</i>, <i>haben</i> and modal verbs people mostly use the Präteritum: <i>Es war schön. Ich hatte keine Zeit. Ich musste arbeiten.</i></li><li>In Austria you also often hear the Perfekt: <i>Ich bin krank gewesen. Ich habe keine Zeit gehabt.</i> Both are correct.</li></ul><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>sitzen, stehen, liegen</i> take <b>sein</b>: <i>Ich bin lange im Wartezimmer gesessen.</i></li><li>In northern and central Germany: <i>Ich habe gesessen.</i> Both are correct.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich habe nach Hause gegangen.</td><td>Ich bin nach Hause gegangen.</td></tr><tr><td>Er ist das Auto gefahren.</td><td>Er hat das Auto gefahren.</td></tr><tr><td>Ich bin mich umgezogen.</td><td>Ich habe mich umgezogen.</td></tr><tr><td>Was hat passiert?</td><td>Was ist passiert?</td></tr></table>",
@@ -3103,7 +3200,8 @@
      50,
      51,
      56,
-     62
+     62,
+     63
     ]
    }
   ]
@@ -4750,6 +4848,54 @@
      "Ich habe Fieber, ich bleibe deshalb heute zu Hause.",
      "Ich habe Fieber, ich bleibe deshalb heute zuhause."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Aurora ist krank (längerer Text)",
+    "txt": [
+     "Am Dienstag wacht Aurora um sechs Uhr auf. Sie hat Kopfweh und Fieber, und sie ist sehr müde. Heute kann sie nicht arbeiten. Deshalb ruft sie um halb acht die Chefin an.",
+     "„Grüß Gott, Frau Gruber! Ich bin leider krank. Seit gestern habe ich Fieber, deshalb bleibe ich heute zu Hause. Die Besprechung um zwei Uhr muss ich leider absagen.“ Frau Gruber antwortet: „Oje! Das ist kein Problem. Dann machen wir die Besprechung am Freitag. Haben Sie schon einen Arzttermin?“ – „Nein, noch nicht. Ich rufe jetzt die Ordination an.“",
+     "„Ordination Dr. Huber, grüß Gott!“ – „Grüß Gott, hier spricht Aurora. Ich habe Fieber und möchte einen Termin vereinbaren. Hat die Ärztin heute Zeit?“ – „Heute ist leider alles voll. Morgen um neun Uhr geht es. Passt das?“ – „Ja, das passt. Brauche ich die E-Card?“ – „Ja, die E-Card brauchen Sie.“",
+     "Am Abend ruft Lena an: „Kommst du morgen wieder?“ – „Nein, morgen habe ich einen Arzttermin. Am Donnerstag komme ich vielleicht wieder. Ich sage morgen Bescheid.“ Aurora ist müde, trotzdem kocht sie noch eine Suppe. Dann geht sie früh schlafen."
+    ],
+    "qs": [
+     {
+      "q": "Why does Aurora call her boss?",
+      "o": [
+       "She is ill and is staying at home.",
+       "She is going to be late.",
+       "She wants to take a holiday."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora cancel?",
+      "o": [
+       "the meeting at two o'clock",
+       "a dinner with Lena",
+       "a trip to Graz"
+      ],
+      "a": 0
+     },
+     {
+      "q": "When is the doctor's appointment?",
+      "o": [
+       "tomorrow at nine",
+       "today at nine",
+       "on Friday"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora need for the appointment?",
+      "o": [
+       "her e-card",
+       "a letter from her boss",
+       "her passport"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -4859,7 +5005,8 @@
      64,
      65,
      91,
-     9
+     9,
+     97
     ]
    }
   ]
@@ -5717,6 +5864,54 @@
     "a": [
      "Ich komme heute nicht, weil ich Fieber habe."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Der Arzttermin (längerer Text)",
+    "txt": [
+     "Am Mittwoch ist Aurora immer noch krank. Sie weiß nicht, ob sie am Donnerstag arbeiten kann. Deshalb ruft sie am Morgen die Chefin an. „Ich glaube, dass ich noch Fieber habe. Ich komme heute nicht, weil ich um neun Uhr einen Arzttermin habe.“",
+     "Frau Gruber fragt, wann Aurora wieder kommen kann. „Das weiß ich noch nicht“, sagt Aurora. „Wenn ich morgen kein Fieber mehr habe, komme ich am Freitag.“ – „Gut. Ich hoffe, dass Sie schnell gesund werden.“",
+     "Um neun Uhr ist Aurora da. Das Wartezimmer ist voll, weil viele Leute krank sind. Aurora fragt: „Wissen Sie, wie lange ich noch warten muss?“ – „Das weiß ich leider nicht, weil heute so viele Leute da sind.“ Aurora wartet eine Stunde, obwohl sie sehr müde ist.",
+     "Endlich kommt Frau Dr. Huber. Sie sagt, dass Aurora eine Grippe hat. Aurora fragt, ob sie am Freitag wieder arbeiten kann. „Nur wenn Sie kein Fieber mehr haben“, sagt die Ärztin. Am Abend ruft Lena an. Aurora sagt: „Ich bleibe bis Freitag daheim, weil ich eine Grippe habe. Aber am Montag komme ich sicher wieder.“"
+    ],
+    "qs": [
+     {
+      "q": "Why doesn't Aurora go to work on Wednesday?",
+      "o": [
+       "She has a doctor's appointment.",
+       "She has to drive her sister.",
+       "The office is closed."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When will Aurora come back if she has no fever on Thursday?",
+      "o": [
+       "on Friday",
+       "on Thursday afternoon",
+       "next Wednesday"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why is the waiting room full?",
+      "o": [
+       "Many people are ill.",
+       "The doctor is on holiday.",
+       "It is Monday."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the doctor say?",
+      "o": [
+       "Aurora has the flu.",
+       "Aurora can work tomorrow.",
+       "Aurora has to go to hospital."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>After <i>weil, da, dass, ob, wenn, obwohl</i> and question words in indirect questions the conjugated verb goes to the <b>end</b>.</li><li>With two verbs the conjugated verb is the <b>very last</b> word: <i>…, ob ich kommen kann.</i></li><li>Subordinate clause first: the main clause starts with the verb – <i>Weil ich krank bin, bleibe ich …</i></li><li>Always a comma between main clause and subordinate clause.</li></ul><h3>1. Situation: giving reasons, asking politely</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich kann nicht kommen, weil ich krank bin.</td><td>I can't come because I'm ill.</td></tr><tr><td>Ich glaube, dass der Termin morgen ist.</td><td>I think the appointment is tomorrow.</td></tr><tr><td>Ich weiß nicht, ob ich morgen kommen kann.</td><td>I don't know whether I can come tomorrow.</td></tr><tr><td>Können Sie mir sagen, wann die Ärztin Zeit hat?</td><td>Can you tell me when the doctor has time?</td></tr><tr><td>Weil ich Fieber habe, bleibe ich zu Hause.</td><td>Because I have a temperature, I'm staying at home.</td></tr></table><h3>2. Dialogue</h3><p><b>Chefin:</b> <i>Kommst du morgen wieder?</i><br><b>Aurora:</b> <i>Ich weiß noch nicht, ob ich morgen kommen <b>kann</b>. Ich glaube, dass ich noch Fieber <b>habe</b>.</i></p><ul><li>In the dialogue: <i>ob ich morgen kommen kann</i> – <i>kann</i> is the last word.</li><li><i>dass ich noch Fieber habe</i> – <i>habe</i> at the end.</li></ul><h3>3. Overview: words that start a subordinate clause</h3><table><tr><th>Word</th><th>Meaning</th><th>Example</th></tr><tr><td>weil, da</td><td>because</td><td>…, weil ich krank bin.</td></tr><tr><td>dass</td><td>that</td><td>…, dass der Termin morgen ist.</td></tr><tr><td>ob</td><td>whether, if</td><td>…, ob er heute kommt.</td></tr><tr><td>wann, wo, wie, warum …</td><td>indirect question</td><td>…, wann die Ärztin Zeit hat.</td></tr><tr><td>wenn</td><td>if, when</td><td>…, wenn ich Zeit habe.</td></tr><tr><td>obwohl</td><td>although</td><td>…, obwohl ich krank bin.</td></tr></table><ul><li><i>da</i> = like <i>weil</i>, a bit more formal, often at the beginning: <i>Da ich krank bin, …</i></li><li><i>als</i> and <i>wenn</i> in the past: topic d03.</li></ul><h3>4. The verb goes to the end</h3><table><tr><th>Main clause</th><th>Subordinate clause</th></tr><tr><td>Ich bleibe zu Hause,</td><td>weil ich krank <b>bin</b>.</td></tr><tr><td>Ich glaube,</td><td>dass der Termin morgen <b>ist</b>.</td></tr><tr><td>Können Sie mir sagen,</td><td>wann die Ärztin Zeit <b>hat</b>?</td></tr></table><h3>5. Two verbs in the subordinate clause</h3><p class=\"rule\">The conjugated verb is the very last word.</p><table><tr><th>Verb</th><th>Example</th></tr><tr><td>modal verb</td><td>…, ob er heute kommen <b>kann</b>.</td></tr><tr><td>Perfekt</td><td>…, dass er das Paket abgeschickt <b>hat</b>.</td></tr><tr><td>Futur</td><td>…, dass ich morgen kommen <b>werde</b>.</td></tr><tr><td>separable verb</td><td>…, weil ich den Termin <b>absage</b>.</td></tr></table><ul><li>Separable verbs are one word again at the end: <i>Ich sage den Termin ab.</i> → <i>…, weil ich den Termin absage.</i></li></ul><h3>6. Subordinate clause first</h3><table><tr><th>Position 1</th><th>Verb</th><th>Rest</th></tr><tr><td>Weil ich krank bin,</td><td>bleibe</td><td>ich zu Hause.</td></tr><tr><td>Wenn ich Zeit habe,</td><td>komme</td><td>ich.</td></tr></table><ul><li>The whole subordinate clause is position 1.</li><li>So the main clause starts with the verb: verb – comma – verb.</li></ul><h3>7. weil or denn?</h3><table><tr><th>Word</th><th>Word order</th><th>Example</th></tr><tr><td>weil</td><td>verb at the end</td><td>Ich bleibe zu Hause, weil ich krank <b>bin</b>.</td></tr><tr><td>denn</td><td>normal word order</td><td>Ich bleibe zu Hause, denn ich <b>bin</b> krank.</td></tr></table><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>…, weil ich bin krank.</td><td>…, weil ich krank bin.</td></tr><tr><td>…, ob er kann heute kommen.</td><td>…, ob er heute kommen kann.</td></tr><tr><td>…, dass er hat das Paket abgeschickt.</td><td>…, dass er das Paket abgeschickt hat.</td></tr><tr><td>Weil ich krank bin, ich bleibe zu Hause.</td><td>Weil ich krank bin, bleibe ich zu Hause.</td></tr></table>",
@@ -5794,7 +5989,8 @@
      42,
      43,
      46,
-     47
+     47,
+     48
     ]
    }
   ]
@@ -7210,6 +7406,54 @@
      "Ich weiß nicht, wann der Bus kommt.",
      "Ich weiß nicht, ob der Bus kommt."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Als ich nach Österreich kam (längerer Text)",
+    "txt": [
+     "Als ich vor zwei Jahren nach Österreich kam, konnte ich nur wenig Deutsch. Ich hatte keine Wohnung, deshalb habe ich zuerst bei meiner Freundin Mia in Wien gewohnt. Damals war alles neu: die Sprache und das Essen, auch die Öffis.",
+     "Immer wenn ich einkaufen gegangen bin, musste ich lange suchen. Viele Wörter habe ich nicht verstanden: Was sind Paradeiser? Was ist Topfen? Als ich zum ersten Mal beim Arzt war, musste Mia mitkommen und übersetzen. Ich war sehr nervös, aber der Arzt war nett.",
+     "Ich hatte oft Heimweh. Immer wenn ich Heimweh hatte, habe ich meine Familie angerufen. Der Winter war kalt und dunkel, aber das kenne ich aus Finnland. Als ich nach sechs Monaten eine Arbeit gefunden habe, war ich sehr glücklich.",
+     "Heute fühle ich mich in Wien wohl. Ich habe eine Arbeit, eine Wohnung und viele Freunde. Wenn ich jetzt einkaufen gehe, verstehe ich fast alles. Meine Kollegen fragen manchmal: „Wann fährst du wieder nach Finnland?“ Das weiß ich noch nicht. Aber bald werden meine Eltern nach Wien kommen. Dann zeige ich ihnen meine Stadt."
+    ],
+    "qs": [
+     {
+      "q": "How much German could Aurora speak when she came to Austria?",
+      "o": [
+       "only a little",
+       "none at all",
+       "very good German"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where did Aurora live at first?",
+      "o": [
+       "with her friend Mia",
+       "in her own flat",
+       "with a colleague"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did Aurora do whenever she was homesick?",
+      "o": [
+       "She called her family.",
+       "She flew to Finland.",
+       "She went shopping."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who will come to Vienna soon?",
+      "o": [
+       "her parents",
+       "her sister",
+       "her colleagues"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -7318,7 +7562,8 @@
      75,
      76,
      77,
-     78
+     78,
+     86
     ]
    }
   ]
@@ -7904,6 +8149,54 @@
      "Nachdem ich gearbeitet hatte, bin ich nach Hause gegangen.",
      "Nachdem ich gearbeitet hatte, ging ich nach Hause."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Lenas Tag (längerer Text)",
+    "txt": [
+     "Lena steht jeden Tag um sechs Uhr auf. Bevor sie frühstückt, duscht sie. Während der Kaffee kocht, hört sie Radio. Sie isst eine Semmel mit Butter und Marmelade und liest die Zeitung. Danach fährt sie mit der Straßenbahn zur Arbeit.",
+     "Lena arbeitet bei einer Bank. Am Vormittag hat sie viele Termine. Zu Mittag isst sie mit Jonas, ihrem Kollegen. Während sie essen, erzählt Jonas von seinem Wochenende. Nach dem Essen trinken sie noch schnell einen Kaffee.",
+     "Nachdem Lena die Arbeit beendet hat, geht sie einkaufen. Sie kauft Paradeiser, Erdäpfel und Brot. Zu Hause kocht sie. Während die Erdäpfel kochen, deckt ihre Mitbewohnerin Mia den Tisch. Vor dem Essen waschen sich beide die Hände. Nach dem Essen gehen sie noch spazieren. Bevor Lena schlafen geht, liest sie noch ein Buch.",
+     "Gestern war der Tag aber anders. Nachdem Lena aufgestanden war, hat sie gesehen: Es war schon acht! Sie hatte den Wecker nicht gehört. Sie hat nicht gefrühstückt und ist sofort zur Arbeit gefahren. Erst nachdem sie angekommen war, hat sie einen Kaffee getrunken."
+    ],
+    "qs": [
+     {
+      "q": "What does Lena do while the coffee is brewing?",
+      "o": [
+       "She listens to the radio.",
+       "She takes a shower.",
+       "She reads the newspaper."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Lena do after work?",
+      "o": [
+       "She goes shopping.",
+       "She goes for a walk with Jonas.",
+       "She goes to the bank."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who sets the table?",
+      "o": [
+       "Mia",
+       "Lena",
+       "Jonas"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why was Lena late yesterday?",
+      "o": [
+       "She hadn't heard her alarm clock.",
+       "The tram was late.",
+       "She had to go to the doctor."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>während</b> = while, at the same time.</li><li><b>bevor</b> = before. <b>nachdem</b> = after – the nachdem-clause is one tense earlier.</li><li>All three start a subordinate clause: the verb goes to the end.</li><li>Same idea, three word types: <i>vor dem Essen – bevor ich esse – vorher</i>.</li></ul><h3>1. Situation: your day and your first days in Austria</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</td><td>Before I go to work, I drink coffee.</td></tr><tr><td>Während ich koche, höre ich Radio.</td><td>While I'm cooking, I listen to the radio.</td></tr><tr><td>Nachdem ich angekommen war, habe ich meine Mutter angerufen.</td><td>After I had arrived, I called my mother.</td></tr><tr><td>Vor dem Essen gehe ich einkaufen.</td><td>Before the meal I go shopping.</td></tr><tr><td>Danach gehen wir spazieren.</td><td>After that we go for a walk.</td></tr></table><h3>2. Dialogue</h3><p><b>Kollegin:</b> <i>Was hast du am ersten Tag in Österreich gemacht?</i><br><b>Aurora:</b> <i><b>Nachdem</b> ich angekommen <b>war</b>, habe ich meine Mutter angerufen. <b>Danach</b> bin ich in die Stadt gegangen.</i></p><ul><li>In the dialogue: <i>Nachdem ich angekommen war</i> – the arrival happened first, so the Plusquamperfekt.</li><li><i>Danach bin ich …</i> – <i>danach</i> is an adverb: the verb follows directly.</li></ul><h3>3. Overview: preposition, conjunction or adverb?</h3><table><tr><th>preposition + noun</th><th>conjunction + clause</th><th>adverb + verb</th></tr><tr><td>vor dem Essen</td><td>bevor ich esse</td><td>vorher esse ich</td></tr><tr><td>nach dem Essen</td><td>nachdem ich gegessen habe</td><td>danach gehe ich</td></tr><tr><td>während des Essens</td><td>während ich esse</td><td>–</td></tr></table><ul><li>Conjunction: verb at the end. Adverb: position 1, the verb follows directly.</li></ul><h3>4. während</h3><ul><li>Two things happen at the same time.</li><li><i>Während du kochst, decke ich den Tisch.</i></li><li><i>Während die Kinder schlafen, lese ich ein Buch.</i></li></ul><h3>5. bevor</h3><ul><li><i>bevor</i> + clause: <i>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</i></li><li><i>vor</i> + noun: <i>vor der Arbeit</i>. Never: <i>vor ich gehe</i>.</li></ul><h3>6. nachdem: one tense earlier</h3><table><tr><th>Main clause</th><th>nachdem-clause</th><th>Example</th></tr><tr><td>Präsens</td><td>Perfekt</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Perfekt or Präteritum</td><td>Plusquamperfekt</td><td>Nachdem wir gegessen hatten, sind wir spazieren gegangen.</td></tr></table><ul><li>Plusquamperfekt = <b>hatte</b> or <b>war</b> + Partizip II.</li><li>haben or sein: the same rules as in the Perfekt – see d01b. <i>Nachdem ich angekommen war, …</i></li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wasch dir die Hände, vor du isst.</td><td>Wasch dir die Hände, bevor du isst.</td></tr><tr><td>Nachdem ich angekommen habe, …</td><td>Nachdem ich angekommen war, …</td></tr><tr><td>Nachdem ich esse, gehe ich spazieren.</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Danach ich gehe spazieren.</td><td>Danach gehe ich spazieren.</td></tr></table>",
@@ -7968,7 +8261,8 @@
      30,
      31,
      35,
-     36
+     36,
+     37
     ]
    }
   ]
@@ -9183,6 +9477,54 @@
     "a": [
      "Wir haben keine Zwiebeln gebraucht."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Samstag am Brunnenmarkt (längerer Text)",
+    "txt": [
+     "Es ist Samstag. Aurora und Jonas brauchen Gemüse für das Wochenende. Jonas schreibt eine Einkaufsliste: ein Karfiol, eine Zwiebel, Erdäpfel, Semmeln, Käse und Milch. Um zehn Uhr gehen sie los. Der Brunnenmarkt ist nicht weit.",
+     "Am Markt ist es laut, und es gibt Obst, Gemüse, Käse und Brot. Eine Verkäuferin fragt: „Grüß Gott! Was darf es sein?“ Jonas fragt: „Ist der Karfiol frisch?“ – „Ja, der Karfiol ist von heute. Er kostet zwei Euro fünfzig.“ Aurora fragt: „Und die Paradeiser?“ – „Die Paradeiser sind heute leider nicht so schön.“ Sie nehmen einen Karfiol, eine Zwiebel und Erdäpfel.",
+     "Ein Stand verkauft Brot. Aurora fragt: „Haben Sie noch Semmeln?“ – „Nein, die Semmeln sind leider aus. Aber ich habe noch ein Brot.“ Das Brot ist frisch und noch warm. „Sonst noch etwas?“ – „Nein danke.“ – „Brauchen Sie ein Sackerl?“ – „Nein danke, ich habe eine Tasche.“",
+     "Zu Hause schaut Jonas die Einkaufsliste an. „Oje! Wir haben keinen Käse, und die Milch ist auch nicht da.“ Aurora lacht: „Kein Problem. Der Supermarkt ist nicht weit, und er ist heute bis sechs Uhr offen.“"
+    ],
+    "qs": [
+     {
+      "q": "Is the cauliflower fresh?",
+      "o": [
+       "Yes, it is from today.",
+       "No, it is from yesterday.",
+       "The seller doesn't know."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why don't they buy rolls?",
+      "o": [
+       "The rolls are sold out.",
+       "The rolls are too expensive.",
+       "Jonas doesn't like rolls."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Does Aurora need a bag?",
+      "o": [
+       "No, she has her own bag.",
+       "Yes, she buys one.",
+       "Yes, she gets one for free."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What is missing when they get home?",
+      "o": [
+       "cheese and milk",
+       "bread and onions",
+       "potatoes and tomatoes"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -9278,7 +9620,8 @@
      51,
      68,
      69,
-     73
+     73,
+     74
     ]
    }
   ]
@@ -9949,6 +10292,54 @@
     "a": [
      "Ich nehme zwei Packungen Milch."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Einkaufen für ein Fest (längerer Text)",
+    "txt": [
+     "Am Sonntag macht Mia ein Fest, und zehn Leute kommen. Am Freitag schreiben Mia und Thomas eine Einkaufsliste: drei Kilo Erdäpfel, zwei Kilo Paradeiser, sechs Zwiebeln, zwölf Eier, zehn Würste, zwanzig Semmeln, zwei Packungen Butter und zwanzig Deka Käse.",
+     "Am Samstag um acht Uhr gehen sie los. Am Markt gibt es viele Stände, und viele Leute kaufen Obst, Gemüse und Blumen. Ein Verkäufer ruft: „Paradeiser! Heute sehr günstig!“ Mia kauft drei Kilo Erdäpfel und zwei Kilo Paradeiser. Die Zwiebeln kauft Thomas: sechs Stück.",
+     "Ein Stand verkauft Würste. Thomas fragt: „Was kosten die Würste?“ – „Ein Stück kostet einen Euro achtzig.“ Thomas nimmt zehn Stück. Dann fragt Mia: „Gibt es noch Semmeln?“ – „Nein, die Semmeln sind leider schon aus.“ Aber der Supermarkt hat noch Semmeln, Butter und Käse, und Mia kauft dort alles.",
+     "Die Kassierin sagt: „Das macht zweiundzwanzig Euro vierzig. Brauchen Sie Sackerln?“ – „Ja, zwei Sackerln, bitte.“ Zu Hause packt Mia die Sackerln aus. „Oje! Wir haben keine Eier gekauft!“ Thomas lacht: „Kein Problem. Jonas kommt morgen auch, und er bringt zwölf Eier mit.“"
+    ],
+    "qs": [
+     {
+      "q": "How many people are coming to Mia's party?",
+      "o": [
+       "ten",
+       "six",
+       "twenty"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How many kilos of potatoes does Mia buy?",
+      "o": [
+       "three",
+       "two",
+       "six"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where do they get the rolls?",
+      "o": [
+       "at the supermarket",
+       "at the market",
+       "from Jonas"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did they forget to buy?",
+      "o": [
+       "eggs",
+       "sausages",
+       "onions"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>In the plural the article is always <b>die</b>.</li><li>There are five plural types. Learn every noun with its plural: <i>der Markt, die Märkte</i>.</li><li>Almost all feminine nouns: <b>-n / -en</b>.</li><li>After a number, measure words stay singular: <i>zwei Kilo, drei Stück</i>.</li></ul><h3>1. Situation: shopping list and market</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wir brauchen zwei Kilo Erdäpfel.</td><td>We need two kilos of potatoes.</td></tr><tr><td>Drei Zwiebeln, bitte.</td><td>Three onions, please.</td></tr><tr><td>Im Sackerl sind sechs Eier.</td><td>There are six eggs in the bag.</td></tr><tr><td>Am Markt gibt es viele Stände.</td><td>There are many stalls at the market.</td></tr><tr><td>Die Semmeln sind aus.</td><td>The rolls are sold out.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Was steht auf der Einkaufsliste?</i><br><b>Aurora:</b> <i>Zwei <b>Kilo</b> Erdäpfel, drei <b>Zwiebeln</b> und sechs <b>Eier</b>.</i></p><ul><li>In the dialogue: <i>zwei Kilo</i> – measure word after a number, singular.</li><li><i>die Zwiebeln</i> – feminine, -n.</li><li><i>die Eier</i> – short neuter noun, -er.</li></ul><h3>3. Overview: five plural types</h3><table><tr><th>Type</th><th>Examples</th><th>Typical for</th></tr><tr><td>-e / ¨-e</td><td>der Tag → die Tage, der Markt → die Märkte</td><td>many masculine nouns</td></tr><tr><td>-n / -en</td><td>die Zwiebel → die Zwiebeln, die Packung → die Packungen</td><td>almost all feminine nouns</td></tr><tr><td>-er / ¨-er</td><td>das Ei → die Eier, das Buch → die Bücher</td><td>many short neuter nouns</td></tr><tr><td>no ending / ¨</td><td>der Paradeiser → die Paradeiser, der Erdapfel → die Erdäpfel</td><td>masculine and neuter nouns in -er, -el, -en, -chen, -erl</td></tr><tr><td>-s</td><td>das Auto → die Autos, das Kilo → die Kilos</td><td>words ending in -a, -i, -o, -u, many foreign words</td></tr></table><h3>4. Special plurals</h3><table><tr><th>Singular</th><th>Plural</th></tr><tr><td>die Kassa</td><td>die Kassen</td></tr><tr><td>das Museum</td><td>die Museen</td></tr><tr><td>das Zentrum</td><td>die Zentren</td></tr><tr><td>die Wurst</td><td>die Würste</td></tr><tr><td>das Sackerl</td><td>die Sackerl or die Sackerln</td></tr></table><h3>5. Plural and articles</h3><ul><li>The article is always <i>die</i>: <i>der Markt → die Märkte</i>.</li><li>No plural of <i>ein</i>: <i>Das sind Erdäpfel.</i></li><li><i>kein</i> in the plural: <i>keine</i> – <i>Es gibt keine Semmeln.</i></li></ul><h3>6. Numbers and measure words</h3><ul><li>After a number, measure words stay singular: <i>zwei Kilo Erdäpfel, drei Stück, zwei Packungen</i> – but <i>Packung</i> is a normal noun and takes the plural.</li><li>The thing you buy is plural: <i>zwei Kilo Erdäpfel</i>.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>die Zwiebele</td><td>die Zwiebeln</td></tr><tr><td>die Eis</td><td>die Eier</td></tr><tr><td>zwei Kilos Erdäpfel</td><td>zwei Kilo Erdäpfel</td></tr><tr><td>die Erdapfels</td><td>die Erdäpfel</td></tr></table>",
@@ -10020,7 +10411,8 @@
      36,
      37,
      38,
-     42
+     42,
+     43
     ]
    }
   ]
@@ -11664,6 +12056,54 @@
      "wenn"
     ],
     "h": "Bindewort: if"
+   },
+   {
+    "t": "les",
+    "q": "Ein Geschenk für Sabine (längerer Text)",
+    "txt": [
+     "Sabine hat am Freitag Geburtstag. Sie arbeitet schon zwölf Jahre hier, und alle finden Sabine sehr nett. Das Team möchte ein Geschenk kaufen. Aber wer sucht das Geschenk aus? Jonas hat diese Woche keine Zeit, und Herr Huber hat keine Idee. Deshalb kauft Aurora das Geschenk.",
+     "Zuerst fragt Aurora die Kollegin Lena: „Was mag Sabine? Hast du eine Idee?“ Lena sagt: „Sabine trinkt gern Kaffee und liest viel. Vielleicht einen Gutschein?“ Aurora findet einen Gutschein ein bisschen langweilig. Und den Gutschein hat Jonas schon gekauft – für ein Café in Wien.",
+     "Am Mittwoch sucht Aurora lange. Die Verkäuferin zeigt Bücher, Karten und Bonbonnieren. Aurora nimmt eine Bonbonniere und einen Blumenstrauß. Sie kauft auch eine Glückwunschkarte. Dann fragt sie: „Können Sie das bitte als Geschenk einpacken?“ – „Gerne“, sagt die Verkäuferin. Am Donnerstag unterschreiben alle Kollegen die Karte.",
+     "Am Freitag um neun Uhr überreicht das Team das Geschenk. Alle singen, und Sabine ist sehr froh. Sie öffnet die Bonbonniere und fragt: „Wer hat das Geschenk ausgesucht? Die Blumen sind wunderschön!“ Jonas lacht: „Das war Aurora. Und den Gutschein habe ich gekauft.“"
+    ],
+    "qs": [
+     {
+      "q": "Why does Aurora buy the present?",
+      "o": [
+       "Jonas has no time and Herr Huber has no idea.",
+       "Sabine has asked her.",
+       "She works with Sabine every day."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora think of a voucher?",
+      "o": [
+       "It is a bit boring.",
+       "It is too expensive.",
+       "It is the best idea."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora buy?",
+      "o": [
+       "a box of chocolates, a bunch of flowers and a card",
+       "a book and a voucher",
+       "coffee and a card"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who bought the voucher?",
+      "o": [
+       "Jonas",
+       "Lena",
+       "Herr Huber"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -11759,7 +12199,8 @@
      85,
      88,
      92,
-     93
+     93,
+     94
     ]
    }
   ]
@@ -12542,6 +12983,54 @@
     "a": [
      "Wir schenken dem Kollegen einen Gutschein."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Herr Gruber wird Pensionist (längerer Text)",
+    "txt": [
+     "Herr Gruber ist 65. Er arbeitet nur noch bis Freitag, dann ist er Pensionist. Das Team plant eine Feier. Aber was schenkt das Team Herrn Gruber? Jonas hat eine Idee: Herr Gruber wandert gern. Deshalb kaufen alle Herrn Gruber einen Rucksack und eine Wanderkarte.",
+     "Herr Gruber hat zwei Enkelkinder, Paul und Sophie. Die Kinder kommen auch. Lena kauft den Kindern Schokolade. Und Frau Gruber? Sie bekommt auch etwas: Aurora schenkt Frau Gruber einen Blumenstrauß. Jonas schreibt den Kolleginnen und Kollegen eine E-Mail, und alle unterschreiben die Karte.",
+     "Am Freitag um drei Uhr beginnt die Feier. Die Chefin, Frau Moser, sagt ein paar Worte. Dann gibt sie Herrn Gruber den Rucksack. Jonas überreicht dem Kollegen die Karte. Lena gibt den Kindern die Schokolade. Aber wo ist der Blumenstrauß? Aurora sucht lange. Den Blumenstrauß hat sie zu Hause vergessen!",
+     "Aurora schreibt Frau Gruber eine Nachricht: „Entschuldigung, die Blumen kommen morgen!“ Am Samstag bringt Aurora Frau Gruber den Blumenstrauß. Frau Gruber ist sehr froh und zeigt Aurora den Garten. Und Herr Gruber? Er zeigt den Enkelkindern den Rucksack. Am Sonntag geht er schon wandern."
+    ],
+    "qs": [
+     {
+      "q": "Why does the team give Herr Gruber a rucksack?",
+      "o": [
+       "He likes hiking.",
+       "He travels a lot.",
+       "He has asked for one."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who gets chocolate?",
+      "o": [
+       "Herr Gruber's grandchildren",
+       "Frau Gruber",
+       "the boss"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What goes wrong at the party?",
+      "o": [
+       "Aurora has forgotten the flowers at home.",
+       "The boss forgets the rucksack.",
+       "Herr Gruber does not come."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When does Frau Gruber get the flowers?",
+      "o": [
+       "on Saturday",
+       "on Friday",
+       "on Sunday"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>Dativ</b> = the person who receives something – question <b>wem?</b></li><li>Endings: <b>-m · -r · -m · -n</b> – <i>dem, der, dem, den</i>.</li><li>Dative plural: the noun also gets <b>-n</b> – <i>den Kindern</i>.</li><li><i>der Herr → dem Herrn</i>, <i>der Kollege → dem Kollegen</i>.</li></ul><h3>1. Situation: handing over the present</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wir schenken der Kollegin einen Gutschein.</td><td>We're giving our colleague a voucher.</td></tr><tr><td>Wem schenkst du die Blumen? – Der Kollegin.</td><td>Who are you giving the flowers to? – To the colleague.</td></tr><tr><td>Ich gebe dem Chef die Karte.</td><td>I'm giving the card to the boss.</td></tr><tr><td>Wir schreiben den Kollegen eine Karte.</td><td>We're writing a card to the colleagues.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Sabine kommt gleich. <b>Wem</b> geben wir zuerst die Karte?</i><br><b>Aurora:</b> <i>Wir geben <b>der</b> Kollegin zuerst die Karte. Dann überreichen wir <b>ihr</b> den Blumenstrauß.</i></p><ul><li>In the dialogue: <i>der Kollegin</i> – the person who receives, feminine dative.</li><li><i>den Blumenstrauß</i> – the thing, accusative.</li><li><i>ihr</i> = to her – pronouns come in d06.</li></ul><h3>3. Overview: the three cases</h3><table><tr><th>Case</th><th>der-words</th><th>ein-words</th></tr><tr><td>Nominativ – wer? was?</td><td>der · die · das · die</td><td>ein · eine · ein · keine</td></tr><tr><td>Akkusativ – wen? was?</td><td><b>den</b> · die · das · die</td><td><b>einen</b> · eine · ein · keine</td></tr><tr><td>Dativ – wem?</td><td>dem · der · dem · den + -n</td><td>einem · einer · einem · keinen + -n</td></tr></table><h3>4. Dativ endings: -m, -r, -m, -n</h3><table><tr><th>Gender</th><th>der-word</th><th>ein-word</th></tr><tr><td>masculine</td><td>dem Freund</td><td>einem / keinem / meinem Freund</td></tr><tr><td>feminine</td><td>der Kollegin</td><td>einer / keiner / meiner Kollegin</td></tr><tr><td>neuter</td><td>dem Kind</td><td>einem / keinem / meinem Kind</td></tr><tr><td>plural</td><td>den Kindern</td><td>keinen / meinen Kindern</td></tr></table><ul><li>der-words like <i>dieser, welcher</i>: <i>diesem Kollegen, welcher Kollegin</i>.</li><li>Verbs with a person in the dative and a thing in the accusative: <i>schenken, geben, überreichen, schreiben, kaufen</i>.</li></ul><h3>5. Dative plural: + -n</h3><table><tr><th>Plural</th><th>Dative plural</th></tr><tr><td>die Kinder</td><td>den Kindern</td></tr><tr><td>die Freunde</td><td>den Freunden</td></tr><tr><td>die Kolleginnen</td><td>den Kolleginnen – already -n</td></tr><tr><td>die Autos</td><td>den Autos – no -n after -s</td></tr></table><h3>6. Questions: wer, wen, wem</h3><table><tr><th>Question</th><th>Case</th><th>Example</th></tr><tr><td>Wer?</td><td>Nominativ</td><td>Wer hat Geburtstag? – Sabine.</td></tr><tr><td>Wen?</td><td>Akkusativ</td><td>Wen suchst du? – Herrn Gruber.</td></tr><tr><td>Wem?</td><td>Dativ</td><td>Wem schenkst du die Blumen? – Der Kollegin.</td></tr></table><h3>7. Two special nouns</h3><table><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th></tr><tr><td>der Herr</td><td>den Herrn</td><td>dem Herrn</td></tr><tr><td>der Kollege</td><td>den Kollegen</td><td>dem Kollegen</td></tr></table><ul><li>Learn them as they are – the system behind them comes later.</li><li>Careful: <i>den Kollegen</i> can also be the dative plural – to the colleagues.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wir schenken die Kollegin einen Gutschein.</td><td>Wir schenken der Kollegin einen Gutschein.</td></tr><tr><td>Jonas gibt den Kinder Schokolade.</td><td>Jonas gibt den Kindern Schokolade.</td></tr><tr><td>Wir geben dem Herr die Karte.</td><td>Wir geben dem Herrn die Karte.</td></tr><tr><td>Wen schenkst du die Blumen?</td><td>Wem schenkst du die Blumen?</td></tr></table>",
@@ -12613,7 +13102,8 @@
      28,
      30,
      32,
-     41
+     41,
+     42
     ]
    }
   ]
@@ -13600,6 +14090,54 @@
      "An der Ampel sind wir links abgebogen.",
      "Wir sind an der Ampel links abgebogen."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Der Weg zum Bezirksamt (längerer Text)",
+    "txt": [
+     "Aurora hat am Mittwoch einen Termin beim Bezirksamt. Sie war noch nie dort, deshalb fragt sie ihre Freundin Mia. Mia erklärt ihr den Weg: „Fahr mit der U-Bahn bis zum Karlsplatz. Dort steigst du um und fährst zwei Stationen. Dann gehst du zu Fuß: geradeaus bis zur Kreuzung und dann links. Das Amt ist gegenüber der Post.“",
+     "Am Mittwoch fährt Aurora um acht Uhr los. Sie hat ihren Fahrschein und ihren Pass dabei – ohne den Pass geht es nicht. Sie fährt bis zum Karlsplatz, steigt um und steigt nach zwei Stationen aus. Dann geht sie geradeaus bis zur Kreuzung. Aber jetzt weiß sie nicht mehr: links oder rechts?",
+     "Sie fragt einen Mann: „Entschuldigung, wie komme ich zum Bezirksamt?“ Der Mann sagt: „Gehen Sie links und dann durch den Park. Dann sehen Sie die Post. Das Bezirksamt ist gegenüber der Post.“ Um Viertel vor neun ist Aurora dort – pünktlich! Sie gibt der Beamtin das Formular.",
+     "Nach dem Termin geht Aurora noch zur Post, denn sie schickt ein Paket nach Finnland. Am Nachmittag fährt sie mit der Straßenbahn nach Hause. Die Bim ist voll, aber Aurora ist froh: Sie hat alles erledigt. Sie ruft Mia an: „Danke für die Hilfe! Dein Weg war perfekt.“"
+    ],
+    "qs": [
+     {
+      "q": "Where does Aurora change trains?",
+      "o": [
+       "at Karlsplatz",
+       "at the post office",
+       "at the crossroads"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What must Aurora not forget?",
+      "o": [
+       "her passport",
+       "her umbrella",
+       "her bank card"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where is the district office?",
+      "o": [
+       "opposite the post office",
+       "next to the station",
+       "behind the park"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How does Aurora get home?",
+      "o": [
+       "by tram",
+       "by underground",
+       "on foot"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -13696,7 +14234,8 @@
      42,
      43,
      44,
-     59
+     59,
+     60
     ]
    }
   ]
@@ -14499,6 +15038,54 @@
     "a": [
      "Aurora ist von Wien nach Graz gezogen."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Der Kollege aus Salzburg (längerer Text)",
+    "txt": [
+     "Thomas ist Auroras Kollege. Er arbeitet erst seit einer Woche hier. Zu Mittag essen sie zusammen, und Thomas fragt: „Woher kommst du eigentlich?“ – „Aus Finnland. Ich bin vor zwei Jahren nach Österreich gekommen. Und seit einem Jahr wohne ich hier in Wien.“",
+     "Thomas erzählt: „Ich komme aus Salzburg. Ich bin vor einem Monat nach Wien gezogen. Meine Familie wohnt noch in Salzburg. Am Wochenende fahre ich oft nach Hause.“ Aurora fragt: „Und wo wohnst du hier in Wien?“ – „Bei einem Freund. Aber ich suche eine Wohnung.“",
+     "„Seit wann suchst du schon?“, fragt Aurora. „Seit drei Wochen. Das ist nicht leicht.“ Da hat Aurora eine Idee: „Meine Nachbarin, Frau Huber, zieht bald nach Linz. Ihre Wohnung ist frei! Komm doch am Samstag zu mir, dann zeigt sie dir die Wohnung.“",
+     "Am Samstag kommt Thomas zu Aurora. Er kommt direkt vom Bahnhof, denn er war in Salzburg bei seiner Familie. Frau Huber zeigt ihm die Wohnung. Sie gefällt ihm sehr. Am Abend ruft Thomas Aurora an: „Ich bin jetzt zu Hause. Danke! Vielleicht sind wir bald Nachbarn!“"
+    ],
+    "qs": [
+     {
+      "q": "How long has Aurora lived in Vienna?",
+      "o": [
+       "for one year",
+       "for two years",
+       "for one month"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where does Thomas's family live?",
+      "o": [
+       "in Salzburg",
+       "in Graz",
+       "in Vienna"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where is Thomas living at the moment?",
+      "o": [
+       "with a friend",
+       "with his family",
+       "with Aurora"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where does Thomas come from on Saturday?",
+      "o": [
+       "straight from the station",
+       "straight from work",
+       "from his friend's flat"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -14586,7 +15173,8 @@
      35,
      36,
      48,
-     52
+     52,
+     53
     ]
    }
   ]
@@ -16156,6 +16744,54 @@
      "wann"
     ],
     "h": "Fragewort: when"
+   },
+   {
+    "t": "les",
+    "q": "Nachbarn helfen (längerer Text)",
+    "txt": [
+     "Aurora wohnt in Wien. Ihre Nachbarin heißt Frau Huber. Sie ist 70 und sehr nett. Am Montag kommt ein Paket für Aurora, aber Aurora arbeitet bis sechs Uhr. Deshalb fragt sie Frau Huber am Sonntag: „Morgen kommt ein Paket. Können Sie es bitte annehmen?“ – „Ja, natürlich“, sagt Frau Huber. „Ich gebe es Ihnen dann am Abend.“",
+     "Am Montag um sieben Uhr klingelt Aurora. Frau Huber gibt ihr das Paket. „Der Briefträger hat es mir am Vormittag gegeben“, sagt sie. Ihre Freundin Mia hat das Paket geschickt. Aurora öffnet es sofort: Es ist Schokolade! Sie gibt Frau Huber ein Stück. „Danke, das ist sehr nett!“",
+     "Am Mittwoch möchte Aurora eine Lampe aufhängen. Aber sie hat keine Leiter. Ihr Nachbar Thomas hat eine. Aurora fragt ihn: „Kannst du mir deine Leiter leihen?“ – „Ja, ich leihe sie dir gern“, sagt Thomas. Er bringt sie sofort, und Aurora ist schnell fertig.",
+     "Am Freitag fährt Thomas nach Salzburg. Er hat eine Katze, und die Katze braucht Futter. Deshalb gibt er Aurora seinen Schlüssel. Aurora gibt der Katze jeden Tag Futter. Am Sonntag kommt Thomas zurück. Aurora gibt ihm den Schlüssel und die Leiter. Aber Thomas sagt: „Die Leiter brauche ich nicht. Du kannst sie noch behalten.“"
+    ],
+    "qs": [
+     {
+      "q": "Who sent the parcel?",
+      "o": [
+       "her friend Mia",
+       "Thomas",
+       "Frau Huber"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora give Frau Huber?",
+      "o": [
+       "a piece of chocolate",
+       "flowers",
+       "a cake"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why does Aurora need a ladder?",
+      "o": [
+       "to hang up a lamp",
+       "to clean the windows",
+       "to paint the kitchen"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora do while Thomas is in Salzburg?",
+      "o": [
+       "She feeds his cat.",
+       "She waters his plants.",
+       "She takes in his parcels."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -16247,7 +16883,8 @@
      86,
      87,
      88,
-     90
+     90,
+     91
     ]
    }
   ]
@@ -16980,6 +17617,54 @@
     "a": [
      "Der Kuchen hat uns sehr gut geschmeckt."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Ein Strudel für Frau Huber (längerer Text)",
+    "txt": [
+     "Frau Huber hat Aurora oft geholfen. Sie hat das Paket angenommen, und sie gießt Auroras Blumen, wenn Aurora nicht da ist. Aurora möchte Frau Huber danken. Deshalb backt sie am Samstag einen Apfelstrudel. Lena hat ihr das Rezept gegeben.",
+     "Am Sonntag klingelt Aurora. „Grüß Gott, Frau Huber! Ich danke Ihnen für die Hilfe. Und das hier ist ein Apfelstrudel. Ich hoffe, er schmeckt Ihnen.“ Frau Huber ist sehr froh: „Danke, das ist sehr nett! Haben Sie Zeit? Wir trinken einen Kaffee.“",
+     "Frau Hubers Wohnung ist klein, aber sie gefällt Aurora sehr. Überall sind Bilder und Pflanzen. Der Strudel schmeckt Frau Huber sehr gut. Sie isst zwei Stücke. Dann zeigt sie Aurora ein Foto: „Das ist mein Enkel Paul. Er hat heute Geburtstag.“ Frau Huber ruft Paul an und gratuliert ihm. Paul ist 18 und wohnt in Graz.",
+     "Dann fragt Frau Huber: „Gefallen Ihnen diese Schuhe? Sie gehören meiner Tochter, aber sie passen ihr nicht.“ Aurora probiert die Schuhe an. Sie passen ihr genau, und sie sind sehr bequem! Aurora darf die Schuhe behalten. Sie sagt: „Vielen Dank! Ich helfe Ihnen gern, wenn Sie Hilfe brauchen.“"
+    ],
+    "qs": [
+     {
+      "q": "Why does Aurora bake a strudel?",
+      "o": [
+       "to thank Frau Huber for her help",
+       "for Frau Huber's birthday",
+       "for a party at work"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora think of Frau Huber's flat?",
+      "o": [
+       "She likes it.",
+       "It is too small for her.",
+       "It has too many pictures."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Frau Huber do for her grandson?",
+      "o": [
+       "She phones him and wishes him a happy birthday.",
+       "She sends him a strudel.",
+       "She visits him in Graz."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why can Aurora keep the shoes?",
+      "o": [
+       "They don't fit Frau Huber's daughter.",
+       "Frau Huber doesn't like them.",
+       "Aurora has helped Frau Huber."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>Some verbs take a <b>dative</b> object: <i>helfen, danken, gratulieren</i> – <i>Ich helfe dir</i>, not <i>dich</i>.</li><li>With <i>gehören, gefallen, schmecken, passen</i> the thing is the subject and the person is in the dative.</li><li>The verb agrees with the thing: <i>Die Schuhe passen mir.</i></li><li>English „I like …“ is often <i>… gefällt mir</i> or, for food, <i>… schmeckt mir</i>.</li></ul><h3>1. Situation: thanking and talking about what you like</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Kann ich dir helfen?</td><td>Can I help you?</td></tr><tr><td>Ich danke Ihnen!</td><td>Thank you!</td></tr><tr><td>Ich gratuliere dir zum Geburtstag!</td><td>Happy birthday!</td></tr><tr><td>Gehört dieser Schlüssel Ihnen?</td><td>Does this key belong to you?</td></tr><tr><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>Der Kuchen schmeckt mir.</td><td>I like the cake.</td></tr></table><h3>2. Dialogue</h3><p><b>Aurora:</b> <i>Vielen Dank für das Paket! Und das hier ist ein Kuchen. Ich hoffe, er <b>schmeckt Ihnen</b>.</i><br><b>Frau Huber:</b> <i>Danke, das ist sehr nett! Ich <b>helfe Ihnen</b> gern.</i></p><ul><li>In the dialogue: <i>er schmeckt Ihnen</i> – <i>er</i> = der Kuchen is the subject, the person is in the dative.</li><li><i>Ich helfe Ihnen</i> – helfen takes the dative.</li></ul><h3>3. Overview: the dative verbs</h3><table><tr><th>Verb</th><th>Example</th><th>English</th></tr><tr><td>helfen</td><td>Ich helfe dir.</td><td>I help you.</td></tr><tr><td>danken</td><td>Wir danken Ihnen.</td><td>We thank you.</td></tr><tr><td>gratulieren</td><td>Ich gratuliere dir zum Geburtstag.</td><td>Happy birthday!</td></tr><tr><td>gehören</td><td>Der Schlüssel gehört mir.</td><td>The key belongs to me.</td></tr><tr><td>gefallen</td><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>schmecken</td><td>Der Kuchen schmeckt mir.</td><td>I like the cake.</td></tr><tr><td>passen</td><td>Die Schuhe passen mir. – Passt dir Montag?</td><td>The shoes fit me. – Does Monday suit you?</td></tr></table><h3>4. helfen, danken, gratulieren</h3><ul><li>The person is in the dative: <i>Ich helfe der Nachbarin. Wir danken dem Nachbarn.</i></li><li>Also with the dative: <b>antworten</b> – <i>Ich antworte dir morgen.</i> · <b>glauben</b> (a person) – <i>Ich glaube dir.</i> · <b>zuhören</b> – <i>Wir hören der Lehrerin zu.</i></li><li>Compare accusative verbs: <i>Ich besuche dich. Ich frage ihn.</i></li></ul><h3>5. gehören, gefallen, schmecken, passen</h3><table><tr><th>Subject – the thing</th><th>Verb</th><th>Dative – the person</th></tr><tr><td>Die Wohnung</td><td>gefällt</td><td>mir.</td></tr><tr><td>Die Schuhe</td><td>passen</td><td>mir.</td></tr><tr><td>Der Kuchen</td><td>schmeckt</td><td>uns.</td></tr></table><ul><li>The thing is the subject, so the verb agrees with the thing: <i>Die Schuhe passen</i> – plural.</li><li>The dative can also come first: <i>Mir gefällt die Wohnung.</i></li></ul><h3>6. English „like“</h3><table><tr><th>English</th><th>Deutsch</th></tr><tr><td>I like the flat.</td><td>Die Wohnung gefällt mir.</td></tr><tr><td>I like the soup.</td><td>Die Suppe schmeckt mir.</td></tr><tr><td>I like cooking.</td><td>Ich koche gern.</td></tr></table><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich helfe dich.</td><td>Ich helfe dir.</td></tr><tr><td>Ich gefalle die Wohnung.</td><td>Die Wohnung gefällt mir.</td></tr><tr><td>Die Schuhe passt mir.</td><td>Die Schuhe passen mir.</td></tr><tr><td>Wir schmecken den Kuchen.</td><td>Der Kuchen schmeckt uns.</td></tr></table>",
@@ -17052,7 +17737,8 @@
      31,
      33,
      36,
-     43
+     43,
+     44
     ]
    }
   ]
@@ -18287,6 +18973,54 @@
      "Lena hat ihren Schal gefunden, aber ich habe meinen nicht gefunden.",
      "Lena hat ihren Schal gefunden, aber meinen habe ich nicht gefunden."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Die Garderobe ist voll (längerer Text)",
+    "txt": [
+     "Am Donnerstag war die Firmenfeier. Alle haben lange gegessen, getrunken und getanzt. Am Freitag um acht Uhr ist die Garderobe noch voll: zwei Mäntel, eine Jacke, ein Schal, drei Regenschirme und ein Handschuh. Jonas und Aurora sind schon da.",
+     "Jonas fragt: „Aurora, ist der Schal deiner?“ – „Nein, meiner ist rot. Der Schal ist grau. Aber die Jacke ist meine! Ich habe sie gestern vergessen.“ Jonas sucht seinen Regenschirm. Es gibt drei Regenschirme, aber keiner ist blau. Und seiner ist blau! Hat Jonas ihn verloren?",
+     "Dann trinken alle Kaffee. Jeder hat ein Häferl, aber Lena findet ihr Häferl nicht. „Kann ich deins nehmen?“, fragt sie Aurora. – „Nein, meins brauche ich selbst. Aber Herr Huber hat welche. Er hat immer drei oder vier.“ Herr Huber lacht und gibt Lena eins.",
+     "Am Nachmittag kommt Thomas und holt seinen Mantel ab. „Ist der Mantel deiner?“, fragt Jonas. – „Ja, das ist meiner. Und ich habe einen Regenschirm mitgenommen. Ist das deiner?“ Ja, der Regenschirm gehört Jonas! Jonas ist froh: Jetzt hat er wieder einen. Nur der Handschuh gehört keinem."
+    ],
+    "qs": [
+     {
+      "q": "What colour is Aurora's scarf?",
+      "o": [
+       "red",
+       "grey",
+       "blue"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why can't Jonas find his umbrella in the cloakroom?",
+      "o": [
+       "Thomas took it with him.",
+       "Lena has borrowed it.",
+       "Herr Huber has put it away."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why doesn't Aurora give Lena her mug?",
+      "o": [
+       "She needs it herself.",
+       "It is dirty.",
+       "It belongs to Jonas."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What belongs to nobody?",
+      "o": [
+       "the glove",
+       "the coat",
+       "the jacket"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -18383,7 +19117,8 @@
      64,
      73,
      74,
-     78
+     78,
+     79
     ]
    }
   ]
@@ -19054,6 +19789,54 @@
      "Denen gehören die Häferl.",
      "Die Häferl gehören denen."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Wem gehört das alles? (längerer Text)",
+    "txt": [
+     "Am Samstag hat Aurora eine Party gemacht. Zwölf Gäste waren da, und es war sehr lustig. Aurora ist müde, aber froh. Am Sonntag sieht Aurora: Die Gäste haben viel vergessen! Da sind eine Haube, zwei Schals, ein Regenschirm und zwei Paar Handschuhe. Wem gehört das alles?",
+     "Am Vormittag kommt Lena. Aurora fragt: „Da sind zwei Schals. Welcher ist deiner?“ – „Der da! Den habe ich gestern lange gesucht.“ Lena nimmt auch die Haube. „Die gehört Mia. Ich sehe Mia morgen, dann gebe ich sie ihr.“",
+     "Am Nachmittag kommen Jonas und Thomas. Jonas sieht den Schal. „Den kenne ich. Der ist meiner!“ Aurora fragt: „Und wem gehören die Handschuhe?“ Thomas sagt: „Kennst du Anna und Paul? Denen gehören die Handschuhe. Die zwei wohnen ganz nah. Ich nehme sie mit.“",
+     "Nur den Regenschirm kennt niemand. Welchem Gast gehört er? Am Abend ruft Frau Huber an, Auroras Nachbarin: „Haben Sie meinen Regenschirm? Den habe ich am Samstag vergessen.“ Aurora lacht: „Ja, der ist hier. Ich bringe ihn gleich.“ Jetzt hat jeder Gast seine Sachen wieder."
+    ],
+    "qs": [
+     {
+      "q": "Who does the hat belong to?",
+      "o": [
+       "Mia",
+       "Lena",
+       "Frau Huber"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who takes the gloves?",
+      "o": [
+       "Thomas",
+       "Jonas",
+       "Lena"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who does the second scarf belong to?",
+      "o": [
+       "Jonas",
+       "Thomas",
+       "Anna"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Whose umbrella is it?",
+      "o": [
+       "Frau Huber's – she is Aurora's neighbour",
+       "Jonas's",
+       "Paul's"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><i>der, die, das</i> can stand alone = this one, that one: <i>Welcher Schal ist deiner? – Der da.</i></li><li>The forms are those of the article – except the dative plural: <b>denen</b>.</li><li><b>welcher?</b> = which? It has the endings of <i>der</i>: <i>welcher, welche, welches</i>.</li></ul><h3>1. Situation: sorting things after the party</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Welcher Mantel ist deiner? – Der da.</td><td>Which coat is yours? – That one.</td></tr><tr><td>Den habe ich am Freitag vergessen.</td><td>I forgot that one on Friday.</td></tr><tr><td>Welchen Schal nimmst du? – Den nehme ich.</td><td>Which scarf are you taking? – I'll take that one.</td></tr><tr><td>Das Häferl? Das gehört Herrn Gruber.</td><td>The mug? That belongs to Herr Gruber.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Gehört dir einer von den Mänteln?</i><br><b>Aurora:</b> <i>Ja, <b>der</b> da ist meiner. <b>Den</b> habe ich am Freitag vergessen.</i><br><b>Jonas:</b> <i>Und <b>welcher</b> Schal ist Lenas?</i><br><b>Aurora:</b> <i><b>Der</b> rote.</i></p><ul><li>In the dialogue: <i>der da</i> – subject, nominative.</li><li><i>Den habe ich vergessen</i> – object, accusative, at the beginning and stressed.</li><li><i>welcher Schal</i> – the question word has the ending of <i>der</i>.</li></ul><h3>3. Overview: der, die, das alone</h3><table><tr><th>Case</th><th>masculine · feminine · neuter · plural</th></tr><tr><td>Nominativ</td><td>der · die · das · die</td></tr><tr><td>Akkusativ</td><td>den · die · das · die</td></tr><tr><td>Dativ</td><td>dem · der · dem · <b>denen</b></td></tr></table><ul><li>Only the dative plural is different from the article: <i>denen</i>, article <i>den</i>.</li></ul><h3>4. How it is used</h3><ul><li>To point at something: <i>Der da.</i></li><li>To pick something up again: <i>Der Mantel? Den habe ich vergessen.</i></li><li>Often at the beginning of the sentence and stressed: <i>Den nehme ich.</i></li><li>Very common in speech, also for people: <i>Der ist nett.</i> In writing, <i>er, sie, es</i> sound more neutral.</li></ul><h3>5. welcher?</h3><table><tr><th>Case</th><th>Example</th></tr><tr><td>Nominativ</td><td>Welcher Mantel ist deiner?</td></tr><tr><td>Akkusativ</td><td>Welchen Schal nimmst du?</td></tr><tr><td>Dativ</td><td>Welchem Kollegen gehört das Häferl?</td></tr></table><ul><li><i>welcher</i> has the endings of <i>der</i>: <i>welcher, welche, welches, welche</i>.</li></ul><h3>6. Using it: Wem gehört …?</h3><ul><li><i>gehören</i> + dative – see d06b: <i>Wem gehört der Regenschirm? – Der gehört Herrn Gruber.</i></li><li><i>Gehören die Häferl Lena und Jonas? – Ja, denen gehören sie.</i></li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Welchen Schal? – Der nehme ich.</td><td>Welchen Schal? – Den nehme ich.</td></tr><tr><td>Ja, den gehören sie.</td><td>Ja, denen gehören sie.</td></tr><tr><td>Welche Mantel ist deiner?</td><td>Welcher Mantel ist deiner?</td></tr></table>",
@@ -19122,7 +19905,8 @@
      30,
      34,
      35,
-     39
+     39,
+     40
     ]
    }
   ]
@@ -20030,6 +20814,54 @@
      "Nimm die Tabletten nach dem Essen ein!",
      "Nimm die Tabletten nach dem Essen ein."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Aurora hat Husten (längerer Text)",
+    "txt": [
+     "Es ist Montag. Aurora ist müde und hat Kopfschmerzen. Am Wochenende war sie noch gesund, aber heute hat sie auch Husten. Sie ruft die Chefin an und sagt: „Ich kann heute leider nicht kommen, weil ich krank bin.“ Die Chefin antwortet: „Kein Problem. Bleib zu Hause und trink viel Tee!“",
+     "Am Nachmittag geht Aurora los, denn sie braucht Medikamente. Die Apotheke ist nicht weit. Die Apothekerin sagt: „Grüß Gott! Was kann ich für Sie tun?“ Aurora erklärt: „Ich habe Husten und Kopfschmerzen. Brauche ich ein Rezept?“",
+     "„Nein, dafür brauchen Sie kein Rezept“, sagt die Apothekerin. „Nehmen Sie diese Tabletten. Nehmen Sie dreimal täglich eine Tablette ein. Und hier ist ein Hustensaft. Nehmen Sie am Abend einen Löffel. Lesen Sie bitte auch den Beipackzettel.“ Aurora fragt: „Darf ich Kaffee trinken?“ – „Ja, aber nur wenig. Trinken Sie viel Wasser und schlafen Sie viel!“ Aurora bezahlt und geht nach Hause.",
+     "Am Abend kommt die Nachbarin Mia. Sie bringt Suppe und sagt: „Setz dich! Iss die Suppe und ruh dich aus! Und nimm deine Tabletten!“ Am Mittwoch hat Aurora keine Kopfschmerzen mehr, nur der Husten ist noch da. Sie schreibt Mia: „Danke! Du hast mir sehr geholfen.“"
+    ],
+    "qs": [
+     {
+      "q": "Why doesn't Aurora go to work on Monday?",
+      "o": [
+       "She is ill.",
+       "Her boss is on holiday.",
+       "She has to go to the doctor."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Does Aurora need a prescription?",
+      "o": [
+       "No, she doesn't need one.",
+       "Yes, she has to see a doctor first.",
+       "Yes, but she already has one."
+      ],
+      "a": 0
+     },
+     {
+      "q": "How often should Aurora take a tablet?",
+      "o": [
+       "three times a day",
+       "twice a day",
+       "once in the evening"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Mia bring in the evening?",
+      "o": [
+       "soup",
+       "tea",
+       "cough syrup"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -20121,7 +20953,8 @@
      34,
      35,
      38,
-     54
+     54,
+     55
     ]
    }
   ]
@@ -20905,6 +21738,54 @@
      "Jonas hat sich beim Laufen den Arm verletzt.",
      "Jonas hat sich den Arm beim Laufen verletzt."
     ]
+   },
+   {
+    "t": "les",
+    "q": "Aurora hat sich verletzt (längerer Text)",
+    "txt": [
+     "Am Sonntag sind Aurora und Jonas laufen gegangen. Es hat geregnet, und der Weg war nass. Plötzlich ist Aurora hingefallen und hat sich den Fuß verletzt. Der Fuß hat ihr sehr wehgetan. Jonas hat sie nach Hause gebracht.",
+     "Am Montag ruft Aurora Frau Doktor Steiner an. Sie ist ihre Hausärztin, und die Ordination ist nicht weit. Aurora bekommt einen Termin um neun Uhr. Sie zeigt ihre E-Card und wartet. Das Wartezimmer ist voll: Ein Kind hat Fieber, und ein Mann hustet. Dann ist Aurora dran.",
+     "Die Ärztin sagt: „Grüß Gott! Setzen Sie sich bitte. Was fehlt Ihnen?“ Aurora erzählt: „Ich bin gestern hingefallen und habe mir den Fuß verletzt. Er tut mir sehr weh.“ Die Ärztin untersucht den Fuß. „Er ist nicht gebrochen“, sagt sie. „Aber Sie husten ja auch. Haben Sie sich verkühlt?“ – „Ja, ein bisschen. Es war sehr kalt und nass.“ – „Ruhen Sie sich aus und bleiben Sie drei Tage zu Hause. Sie dürfen nicht arbeiten.“",
+     "Am Abend ruft Aurora die Chefin an: „Ich habe mich verletzt und kann drei Tage nicht kommen.“ Die Chefin sagt: „Erhol dich gut!“ Später besucht Jonas Aurora und bringt Schokolade. „Wie geht es dir? Tut der Fuß noch weh?“ – „Ein bisschen. Aber ich freue mich, dass du da bist!“"
+    ],
+    "qs": [
+     {
+      "q": "What happened on Sunday?",
+      "o": [
+       "Aurora fell over while running and hurt her foot.",
+       "Aurora broke her arm.",
+       "Aurora caught a cold at work."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the doctor say about the foot?",
+      "o": [
+       "It is not broken.",
+       "It is broken.",
+       "Aurora has to go to hospital."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What other problem does Aurora have?",
+      "o": [
+       "She has caught a cold.",
+       "She has a temperature.",
+       "She has a headache."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the doctor tell her to do?",
+      "o": [
+       "Rest and stay at home for three days.",
+       "Go back to work tomorrow.",
+       "Come back in one week."
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "steps": [
@@ -20979,7 +21860,8 @@
      36,
      38,
      45,
-     46
+     46,
+     47
     ]
    }
   ]

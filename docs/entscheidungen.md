@@ -120,3 +120,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-15 – D-1015-1 und D-1015-3 (OK Matthias: „Alles umsetzen, dass du empfiehlst“)
 - D-1015-1: Die immer sichtbare Einleitung („The most important things“) zählt als gelehrte Regel, wenn sie die Bildung vollständig nennt; die Schritt-Marker bleiben wie gesetzt.
 - D-1015-3: Vorgriffe zwischen Themen ausgeblendet (`aus: true`) und Ersatz im selben Schritt angehängt: d05 ex63 → ex93 (wenn = if), d06 ex38 → ex87 (geben + Dativ), ex39 → ex88 (es Ihnen schicken), ex52 → ex89 (Dialog ohne gehören/helfen), ex62 → ex90 (Hinweis ohne als/wenn). d09 ex42/44 („in die U-Bahn umsteigen“, nur im Muster freier Schreibaufgaben) bleiben als Wendung.
+
+## 2026-10-15 – Lange Lesetexte für d01–d09b (D-1015-4)
+- Je Thema ein `les` mit 171–207 Wörtern, 4 Absätzen und 4 Fragen, hinten angehängt im Mischschritt (18 Texte). Nur Grammatik des Themas und früherer Themen der Lernreihenfolge: vor d05b/d09 keine Präposition + Dativ (nur Zeitwendungen wie „am Samstag“), keine Wechselpräpositionen, keine Adjektivendungen, Nebensätze erst ab d02b; Satz für Satz gegen die Marker geprüft.
+- Aurora-Geschichte einheitlich (vor zwei Jahren nach Österreich, wohnt in Wien), keine erfundenen Familiendetails, keine Nachnamen echter Personen; Namen ohne Doppelrollen (Chefin Gruber/Moser, Ärztin Steiner, Nachbarin Huber).
+- 162 neue GLOSS-Einträge für antippbare Wörter (auch Fehlzuordnungen wie neun → „neue“, Wien → „wie“), „paar“ um „Paar = pair“ ergänzt. Quellen je Thema im Prüfvermerk; Hinweis „3 Varianten je Art“ für les in d03b/d05b (je 1 Text) bleibt offen.
