@@ -97,3 +97,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Je Thema 4 neue `gap`-Übungen mit ganzem Satz (2 × „Finde den Fehler“, 2 × Umformen: ins Perfekt/Präteritum, Plural, mit weil/ob/wenn, Pronomen, Kurzformen …), hinten angehängt und auf die Lernschritte verteilt, die die Regel lehren; `h` nennt nur das Format. Zusammen 72 Übungen.
 - Vorgriff-Hinweise der neuen Übungen („am Samstag“, „zum Arzt“, „zur Schule“, „ins Büro“, „im Café“) stehen fertig im Aufgabensatz und werden nur abgeschrieben – kein Vorgriff. Neue GLOSS-Einträge: Schule, glaube, zeigen, Jahr, Park, Bank, Füße, laufen, Arm.
 - Quellen als Nachtrag im Prüfvermerk je Thema; ohne Quelle: Wortstellungs-, Pronomen- und Possessivregeln, die nur aus der Theorie der Themen stammen.
+
+## 2026-10-15 – Eigene Wortlisten für d01b–d07b (S-1014-16)
+- Die sieben Teilthemen hatten keine Karten; jetzt je 11–15 (zusammen 97): vor allem Wörter, die in Theorie und Übungen schon vorkommen, dazu B1-Alltagswörter zur Situation (z. B. Deka, Kassierin, Haube, daheim mit „Germany: …“). Verbkarten im Format S-1014-26.
+- Dubletten zwischen den Listen bleiben im Thema, das in der Lernreihenfolge zuerst kommt (Museum d01b, glauben d02b, Buch d04b; Büro/Kind d05b).
+- Quellen als Nachtrag im Prüfvermerk (en.wiktionary, Duden, DWDS); ohne Quelle: „Herzlichen Glückwunsch!“ als Wendung, meins, Germany: Kassiererin, mir/dir in „sich die Hände waschen“.
