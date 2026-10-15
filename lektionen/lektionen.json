@@ -22810,7 +22810,7 @@
    ],
    [
     "der Rat",
-    "advice"
+    "advice (no plural)"
    ],
    [
     "die Auskunft, die Auskünfte",
@@ -22890,7 +22890,7 @@
    ],
    [
     "kaputt",
-    "broken"
+    "broken (informal)"
    ],
    [
     "möglich",
@@ -23393,10 +23393,10 @@
     "t": "mc",
     "q": "Which start of a formal e-mail is correct?",
     "o": [
-     "Sehr geehrte Frau Berger, ich schreibe Ihnen, weil die Heizung kaputt ist.",
-     "Sehr geehrter Frau Berger, ich schreibe Ihnen, weil die Heizung kaputt ist.",
-     "Sehr geehrte Frau Berger, ich schreibe ihnen, weil die Heizung kaputt ist.",
-     "Sehr geehrte Frau Berger, ich schreibe Ihnen, weil die Heizung ist kaputt."
+     "Sehr geehrte Frau Berger, ich schreibe Ihnen, weil die Heizung nicht funktioniert.",
+     "Sehr geehrter Frau Berger, ich schreibe Ihnen, weil die Heizung nicht funktioniert.",
+     "Sehr geehrte Frau Berger, ich schreibe ihnen, weil die Heizung nicht funktioniert.",
+     "Sehr geehrte Frau Berger, ich schreibe Ihnen, weil die Heizung funktioniert nicht."
     ],
     "a": 0,
     "x": "Sehr geehrte Frau … (geehrter only for Herr), polite Ihnen with a capital I, verb at the end after weil."
@@ -23701,12 +23701,12 @@
     "t": "sch",
     "q": "The heating is broken again. Write 3 polite sentences to the Hausverwaltung.",
     "w": [
-     "kaputt",
+     "funktioniert nicht",
      "Könnten Sie …?",
      "Wäre … möglich?"
     ],
     "a": [
-     "Die Heizung ist wieder kaputt. Könnten Sie bitte einen Installateur schicken? Wäre morgen Vormittag möglich?"
+     "Die Heizung funktioniert wieder nicht. Könnten Sie bitte einen Installateur schicken? Wäre morgen Vormittag möglich?"
     ],
     "h": "3 Sätze, höflich"
    },
