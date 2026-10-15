@@ -732,7 +732,17 @@ const GLOSS_EXTRA = {
   "großes": {de: "big", base: "groß", note: "ein großes Zimmer"},
   "frischem": {de: "fresh", base: "frisch", note: "mit frischem Käse"},
   "frisches": {de: "fresh", base: "frisch", note: "frisches Brot"},
-  "schönem": {de: "nice, beautiful", base: "schön", note: "bei schönem Wetter"}
+  "schönem": {de: "nice, beautiful", base: "schön", note: "bei schönem Wetter"},
+  "wäre": {de: "would be", base: "sein", note: "Konjunktiv II: Das wäre super!"},
+  "wären": {de: "would be", base: "sein", note: "Konjunktiv II: wir/sie/Sie wären"},
+  "könnte": {de: "could", base: "können", note: "Konjunktiv II: Könnten Sie …?"},
+  "würde": {de: "would", base: "werden", note: "Konjunktiv II: würde + Infinitiv"},
+  "würdest": {de: "would", base: "werden", note: "Konjunktiv II: Würdest du …?"},
+  "sollten": {de: "should", base: "sollen", note: "Sie sollten … = you should …"},
+  "bezahlen": {de: "to pay", base: "bezahlen"},
+  "heizung": {de: "heating", base: "die Heizung"},
+  "wissen": {de: "to know", base: "wissen", note: "Wissen Sie, ob …?"},
+  "aurora": {de: "Aurora (name)", base: "Aurora"}
 };
 
 /* ============================================================
