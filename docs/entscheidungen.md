@@ -87,3 +87,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - d15 „Ein großer Balkon, frisches Brot“ nach d14: Adjektiv nach ein/kein/mein (-er/-es als einzige Abweichung), Dativ und Plural -en, ohne Artikel (bei schönem Wetter, mit frischem Topfen), Partizip II als Adjektiv; 23 Karten (u. a. Topfen, Palatschinke, Knödel mit „Germany: …“), 49 Übungen in 4 Lernschritten. Titel „Brot“ statt „Gemüse“, weil Gemüse schon Karte in w05 ist.
 - Nicht gebaut aus dem Plan-Detail: attributiver Komparativ (eine größere Wohnung) und substantivierte Adjektive (der Bekannte, etwas Neues) – offen für ein späteres Thema.
 - Quellen im Prüfvermerk (lingolia, Duden, DWDS, wiktionary); ohne Quelle: genaue Wendungen „bei schönem Wetter“, „geriebener Käse“, „Palatschinken mit Topfen“, „In der Arbeit“, Natürlichkeit der neuen Sätze.
+
+## 2026-10-15 – Thema d16 Konjunktiv II höflich (S-1014-15)
+- d16 „Könnten Sie mir sagen, ob …?“ nach d15: hätte, wäre, könnte, würde + Infinitiv, sollte (Rat), gern – lieber – am liebsten, höfliche indirekte Frage (ob/Fragewort), formelle E-Mail (Anrede mit Komma, klein weiter, Sie/Ihnen groß, du/Du im Brief); Situation Anruf bei der Hausverwaltung wegen der Heizung. 22 Karten, 51 Übungen in 4 Lernschritten; req wie d15 plus d08, d03, d15.
+- Quellen im Prüfvermerk (wiktionary-Flexion, lingolia, Duden-Regeln D 83/84/132, DWDS, ostarrichi). „kaputt“ ist laut Duden umgangssprachlich: in E-Mail-Übungen „funktioniert nicht“. Installateur ≈ Klempner (DE); Spengler ist nicht der Wasserinstallateur.
+- Ohne Quelle: „bei haben/sein eher hätte/wäre als würde“, „Grüß Gott“ speziell am Telefon, Natürlichkeit der neuen Sätze. Vorgriff-Hinweis ex13 „, das“ ist Demonstrativ, kein Relativsatz.
