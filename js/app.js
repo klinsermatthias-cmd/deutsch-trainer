@@ -30,6 +30,11 @@ const APP = {
     keys: ["ä", "ö", "ü", "ß"] // Sonderzeichen-Tasten unter Eingabefeldern (finnische Tastatur hat kein ü und ß)
   },
   base: { name: "Englisch", adj: "englisch", ins: "ins Englische" },
+  /* Eigene Wörter wie die Kurskarten (S-1014-50): Nomen mit Artikel und Plural, Österreich-Hinweis, Verben mit Formzeilen (S-1014-26) */
+  ownRule:
+    'Deutsch ("fi"): Nomen immer mit Artikel und Plural wie im Kurs, z. B. „der Sohn, die Söhne“ (ohne Plural nur, wenn es keinen gibt). Englisch ("de"): bei österreichischen Wörtern „(Austria; Germany: …)“ anhängen, z. B. „snack (Austria; Germany: Imbiss)“.',
+  ownForms:
+    "nur bei Verben, sonst leer: vier Zeilen wie im Kurs – „Präsens: er/sie/es fährt“ (bei Vokalwechsel, sein/haben/werden/wissen, Modalverben und reflexiven Verben „Präsens: ich … · du … · er/sie/es …“), „Präteritum: er/sie/es fuhr“, „Perfekt: er/sie/es ist gefahren“, „Futur: er/sie/es wird fahren“; trennbare und reflexive Verben ganz ausschreiben; Österreich: „Perfekt: er/sie/es ist gesessen (Germany: hat gesessen)“",
   locale: "de-AT",
   vocabName: "Wörter", // Überschrift der Wortkarten-Seite (S-1013-22)
   pruefVarianten: 3, // Prüfskript: mindestens 3 les/sch/dlg je Thema (Prüfliste 15, S-1013-23)

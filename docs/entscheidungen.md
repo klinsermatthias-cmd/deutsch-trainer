@@ -102,3 +102,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Die sieben Teilthemen hatten keine Karten; jetzt je 11–15 (zusammen 97): vor allem Wörter, die in Theorie und Übungen schon vorkommen, dazu B1-Alltagswörter zur Situation (z. B. Deka, Kassierin, Haube, daheim mit „Germany: …“). Verbkarten im Format S-1014-26.
 - Dubletten zwischen den Listen bleiben im Thema, das in der Lernreihenfolge zuerst kommt (Museum d01b, glauben d02b, Buch d04b; Büro/Kind d05b).
 - Quellen als Nachtrag im Prüfvermerk (en.wiktionary, Duden, DWDS); ohne Quelle: „Herzlichen Glückwunsch!“ als Wendung, meins, Germany: Kassiererin, mir/dir in „sich die Hände waschen“.
+
+## 15.10.2026 – Eigene Wörter wie Kurskarten (S-1014-50, S-1014-51)
+- `js/app.js`: `ownRule` (Nomen mit Artikel + Plural, „(Austria; Germany: …)“) und `ownForms` (vier Formzeilen wie S-1014-26) für eigene Wörter; Engine dazu in opi-suomea.
+- Bericht-Auswertung prüft jedes eigene Wort mit Quelle (`docs/ablauf-bericht.md` 9b, Prüfliste 21).
