@@ -742,7 +742,16 @@ const GLOSS_EXTRA = {
   "bezahlen": {de: "to pay", base: "bezahlen"},
   "heizung": {de: "heating", base: "die Heizung"},
   "wissen": {de: "to know", base: "wissen", note: "Wissen Sie, ob …?"},
-  "aurora": {de: "Aurora (name)", base: "Aurora"}
+  "aurora": {de: "Aurora (name)", base: "Aurora"},
+  "schule": {de: "school", base: "die Schule"},
+  "glaube": {de: "(I) think, believe", base: "glauben", note: "Ich glaube, dass …"},
+  "zeigen": {de: "to show", base: "zeigen", note: "jemandem etwas zeigen"},
+  "jahr": {de: "year", base: "das Jahr", note: "seit einem Jahr"},
+  "park": {de: "park", base: "der Park"},
+  "bank": {de: "bank; bench", base: "die Bank", note: "zur Bank gehen"},
+  "füße": {de: "feet", base: "der Fuß", note: "Plural: die Füße"},
+  "laufen": {de: "to run", base: "laufen", note: "beim Laufen = while running"},
+  "arm": {de: "arm", base: "der Arm"}
 };
 
 /* ============================================================

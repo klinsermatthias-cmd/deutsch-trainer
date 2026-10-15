@@ -1832,6 +1832,41 @@
       "Say you ate a lot and slept a lot."
      ]
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich habe am Samstag gekauft Brot.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich habe am Samstag Brot gekauft.",
+     "Am Samstag habe ich Brot gekauft.",
+     "Brot habe ich am Samstag gekauft."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Ich trinke Kaffee.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Ich habe Kaffee getrunken."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich habe am Samstag mit Lena getelefoniert.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich habe am Samstag mit Lena telefoniert.",
+     "Am Samstag habe ich mit Lena telefoniert."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Am Samstag fahre ich nach Wien und treffe Lena.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Am Samstag …",
+    "a": [
+     "Am Samstag bin ich nach Wien gefahren und habe Lena getroffen."
+    ]
    }
   ],
   "steps": [
@@ -1856,7 +1891,8 @@
      72,
      73,
      75,
-     76
+     76,
+     108
     ]
    },
    {
@@ -1882,7 +1918,8 @@
      8,
      71,
      74,
-     77
+     77,
+     109
     ]
    },
    {
@@ -1908,7 +1945,8 @@
      89,
      90,
      91,
-     92
+     92,
+     110
     ]
    },
    {
@@ -1953,7 +1991,8 @@
      99,
      105,
      106,
-     107
+     107,
+     111
     ]
    }
   ]
@@ -2815,6 +2854,41 @@
     "a": [
      "Ich habe meine Schwester nach Linz gefahren."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wir haben am Samstag nach Linz gefahren.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Wir sind am Samstag nach Linz gefahren.",
+     "Am Samstag sind wir nach Linz gefahren."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Ich wache um sechs Uhr auf.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Ich bin um sechs Uhr aufgewacht.",
+     "Um sechs Uhr bin ich aufgewacht."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Lena ist ihren Sohn zur Schule gefahren.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Lena hat ihren Sohn zur Schule gefahren."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Präteritum: „Letzte Woche bin ich krank gewesen.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Letzte Woche war ich krank.",
+     "Ich war letzte Woche krank."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>sein</b>: movement from A to B, change of state, and <i>sein, bleiben, passieren</i>.</li><li><b>haben</b>: all other verbs – also <i>fahren</i> with an object and all reflexive verbs.</li><li>In Austria: <i>ich bin gesessen, gestanden, gelegen</i>.</li></ul><h3>1. Situation: telling a friend about your weekend</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Was ist passiert?</td><td>What happened?</td></tr><tr><td>Ich bin um sechs aufgewacht.</td><td>I woke up at six.</td></tr><tr><td>Ich habe meine Schwester zum Bahnhof gefahren.</td><td>I drove my sister to the station.</td></tr><tr><td>Dann bin ich nach Hause gefahren.</td><td>Then I drove home.</td></tr><tr><td>Ich habe mich schnell umgezogen.</td><td>I quickly got changed.</td></tr><tr><td>Wir sind zu Hause geblieben.</td><td>We stayed at home.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Was <b>ist</b> am Samstag <b>passiert</b>?</i><br><b>Aurora:</b> <i>Nichts Schlimmes! Ich <b>bin</b> um sechs <b>aufgewacht</b> und <b>habe</b> meine Schwester zum Bahnhof <b>gefahren</b>. Dann <b>bin</b> ich nach Hause <b>gefahren</b> und wieder <b>eingeschlafen</b>.</i></p><ul><li>In the dialogue: <i>ist passiert</i> – passieren takes sein.</li><li><i>bin aufgewacht, bin eingeschlafen</i> – change of state.</li><li><i>habe meine Schwester gefahren</i> – fahren with an object takes haben; <i>bin nach Hause gefahren</i> – movement takes sein.</li></ul><h3>3. Overview</h3><table><tr><th>Group</th><th>Example</th></tr><tr><td>movement from A to B</td><td>Er ist nach Linz gefahren.</td></tr><tr><td>change of state</td><td>Er ist eingeschlafen.</td></tr><tr><td>sein, bleiben, passieren</td><td>Er ist zu Hause geblieben.</td></tr><tr><td>everything else</td><td>Er hat lange geschlafen.</td></tr><tr><td>fahren with an object</td><td>Er hat das Auto gefahren.</td></tr><tr><td>reflexive verbs</td><td>Er hat sich umgezogen.</td></tr></table><p>The first three groups take <b>sein</b>, the last three take <b>haben</b>.</p><table><tr><th>Person</th><th>sein</th></tr><tr><td>ich</td><td>bin</td></tr><tr><td>du</td><td>bist</td></tr><tr><td>er / sie / es</td><td>ist</td></tr><tr><td>wir</td><td>sind</td></tr><tr><td>ihr</td><td>seid</td></tr><tr><td>sie / Sie</td><td>sind</td></tr></table><h3>4. sein: movement from A to B</h3><ul><li>gehen, kommen, fahren, fliegen, laufen, wandern, umziehen, aufstehen</li><li><i>Wir sind am Samstag wandern gegangen.</i></li><li><i>Im Mai bin ich nach Linz umgezogen.</i></li></ul><h3>5. sein: change of state</h3><ul><li>aufwachen, einschlafen, werden – something changes: awake → asleep, child → adult.</li><li><i>Ich bin um sechs aufgewacht.</i></li><li>But no change: <i>Ich habe lange geschlafen.</i></li></ul><h3>6. sein: sein, bleiben, passieren</h3><ul><li>These three take sein, although there is no movement.</li><li><i>Ich bin krank gewesen. – Wir sind zu Hause geblieben. – Was ist passiert?</i></li></ul><h3>7. haben: the two traps</h3><table><tr><th>Verb</th><th>Example</th><th>Why?</th></tr><tr><td>fahren without an object</td><td>Ich bin nach Graz gefahren.</td><td>movement → sein</td></tr><tr><td>fahren with an object</td><td>Ich habe meinen Sohn zur Schule gefahren.</td><td>someone or something is driven → haben</td></tr><tr><td>umziehen</td><td>Ich bin nach Linz umgezogen.</td><td>moved house → sein</td></tr><tr><td>sich umziehen</td><td>Ich habe mich umgezogen.</td><td>reflexive → haben</td></tr></table><h3>8. Speaking about the past: war, hatte, musste</h3><ul><li>For <i>sein</i>, <i>haben</i> and modal verbs people mostly use the Präteritum: <i>Es war schön. Ich hatte keine Zeit. Ich musste arbeiten.</i></li><li>In Austria you also often hear the Perfekt: <i>Ich bin krank gewesen. Ich habe keine Zeit gehabt.</i> Both are correct.</li></ul><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>sitzen, stehen, liegen</i> take <b>sein</b>: <i>Ich bin lange im Wartezimmer gesessen.</i></li><li>In northern and central Germany: <i>Ich habe gesessen.</i> Both are correct.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich habe nach Hause gegangen.</td><td>Ich bin nach Hause gegangen.</td></tr><tr><td>Er ist das Auto gefahren.</td><td>Er hat das Auto gefahren.</td></tr><tr><td>Ich bin mich umgezogen.</td><td>Ich habe mich umgezogen.</td></tr><tr><td>Was hat passiert?</td><td>Was ist passiert?</td></tr></table>",
@@ -2844,7 +2918,8 @@
      32,
      52,
      53,
-     57
+     57,
+     59
     ]
    },
    {
@@ -2866,7 +2941,8 @@
      37,
      38,
      39,
-     54
+     54,
+     60
     ]
    },
    {
@@ -2890,7 +2966,8 @@
      41,
      42,
      55,
-     58
+     58,
+     61
     ]
    },
    {
@@ -2908,7 +2985,8 @@
      49,
      50,
      51,
-     56
+     56,
+     62
     ]
    }
   ]
@@ -4519,6 +4597,42 @@
      "Morgen kaufe ich ein.",
      "Ich kaufe morgen ein."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Morgen ich gehe zum Arzt.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Morgen gehe ich zum Arzt.",
+     "Ich gehe morgen zum Arzt."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Als Ja/Nein-Frage: „Du kommst morgen ins Büro.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Kommst du morgen ins Büro?"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „müssen“: „Ich verschiebe den Termin.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich …",
+    "a": [
+     "Ich muss den Termin verschieben."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich habe Fieber, deshalb ich bleibe heute zu Hause.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich habe Fieber, deshalb bleibe ich heute zu Hause.",
+     "Ich habe Fieber, deshalb bleibe ich heute zuhause.",
+     "Ich habe Fieber, ich bleibe deshalb heute zu Hause.",
+     "Ich habe Fieber, ich bleibe deshalb heute zuhause."
+    ]
    }
   ],
   "steps": [
@@ -4539,7 +4653,8 @@
      73,
      74,
      75,
-     92
+     92,
+     93
     ]
    },
    {
@@ -4556,7 +4671,8 @@
      80,
      81,
      82,
-     83
+     83,
+     94
     ]
    },
    {
@@ -4575,7 +4691,8 @@
      87,
      88,
      89,
-     90
+     90,
+     95
     ]
    },
    {
@@ -4599,7 +4716,8 @@
      48,
      51,
      63,
-     67
+     67,
+     96
     ]
    },
    {
@@ -5347,6 +5465,40 @@
     ],
     "a": 0,
     "x": "denn does not change the word order (position 0); weil sends the verb to the end: …, weil ich krank bin."
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich glaube, dass der Termin ist morgen.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich glaube, dass der Termin morgen ist.",
+     "Ich glaube, dass morgen der Termin ist."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „ob“: „Kann er morgen kommen?“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich weiß nicht, …",
+    "a": [
+     "Ich weiß nicht, ob er morgen kommen kann."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Weil ich keine Zeit habe, ich sage den Termin ab.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Weil ich keine Zeit habe, sage ich den Termin ab.",
+     "Ich sage den Termin ab, weil ich keine Zeit habe."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „weil“ statt „denn“: „Ich komme heute nicht, denn ich habe Fieber.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich komme heute nicht, …",
+    "a": [
+     "Ich komme heute nicht, weil ich Fieber habe."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>After <i>weil, da, dass, ob, wenn, obwohl</i> and question words in indirect questions the conjugated verb goes to the <b>end</b>.</li><li>With two verbs the conjugated verb is the <b>very last</b> word: <i>…, ob ich kommen kann.</i></li><li>Subordinate clause first: the main clause starts with the verb – <i>Weil ich krank bin, bleibe ich …</i></li><li>Always a comma between main clause and subordinate clause.</li></ul><h3>1. Situation: giving reasons, asking politely</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich kann nicht kommen, weil ich krank bin.</td><td>I can't come because I'm ill.</td></tr><tr><td>Ich glaube, dass der Termin morgen ist.</td><td>I think the appointment is tomorrow.</td></tr><tr><td>Ich weiß nicht, ob ich morgen kommen kann.</td><td>I don't know whether I can come tomorrow.</td></tr><tr><td>Können Sie mir sagen, wann die Ärztin Zeit hat?</td><td>Can you tell me when the doctor has time?</td></tr><tr><td>Weil ich Fieber habe, bleibe ich zu Hause.</td><td>Because I have a temperature, I'm staying at home.</td></tr></table><h3>2. Dialogue</h3><p><b>Chefin:</b> <i>Kommst du morgen wieder?</i><br><b>Aurora:</b> <i>Ich weiß noch nicht, ob ich morgen kommen <b>kann</b>. Ich glaube, dass ich noch Fieber <b>habe</b>.</i></p><ul><li>In the dialogue: <i>ob ich morgen kommen kann</i> – <i>kann</i> is the last word.</li><li><i>dass ich noch Fieber habe</i> – <i>habe</i> at the end.</li></ul><h3>3. Overview: words that start a subordinate clause</h3><table><tr><th>Word</th><th>Meaning</th><th>Example</th></tr><tr><td>weil, da</td><td>because</td><td>…, weil ich krank bin.</td></tr><tr><td>dass</td><td>that</td><td>…, dass der Termin morgen ist.</td></tr><tr><td>ob</td><td>whether, if</td><td>…, ob er heute kommt.</td></tr><tr><td>wann, wo, wie, warum …</td><td>indirect question</td><td>…, wann die Ärztin Zeit hat.</td></tr><tr><td>wenn</td><td>if, when</td><td>…, wenn ich Zeit habe.</td></tr><tr><td>obwohl</td><td>although</td><td>…, obwohl ich krank bin.</td></tr></table><ul><li><i>da</i> = like <i>weil</i>, a bit more formal, often at the beginning: <i>Da ich krank bin, …</i></li><li><i>als</i> and <i>wenn</i> in the past: topic d03.</li></ul><h3>4. The verb goes to the end</h3><table><tr><th>Main clause</th><th>Subordinate clause</th></tr><tr><td>Ich bleibe zu Hause,</td><td>weil ich krank <b>bin</b>.</td></tr><tr><td>Ich glaube,</td><td>dass der Termin morgen <b>ist</b>.</td></tr><tr><td>Können Sie mir sagen,</td><td>wann die Ärztin Zeit <b>hat</b>?</td></tr></table><h3>5. Two verbs in the subordinate clause</h3><p class=\"rule\">The conjugated verb is the very last word.</p><table><tr><th>Verb</th><th>Example</th></tr><tr><td>modal verb</td><td>…, ob er heute kommen <b>kann</b>.</td></tr><tr><td>Perfekt</td><td>…, dass er das Paket abgeschickt <b>hat</b>.</td></tr><tr><td>Futur</td><td>…, dass ich morgen kommen <b>werde</b>.</td></tr><tr><td>separable verb</td><td>…, weil ich den Termin <b>absage</b>.</td></tr></table><ul><li>Separable verbs are one word again at the end: <i>Ich sage den Termin ab.</i> → <i>…, weil ich den Termin absage.</i></li></ul><h3>6. Subordinate clause first</h3><table><tr><th>Position 1</th><th>Verb</th><th>Rest</th></tr><tr><td>Weil ich krank bin,</td><td>bleibe</td><td>ich zu Hause.</td></tr><tr><td>Wenn ich Zeit habe,</td><td>komme</td><td>ich.</td></tr></table><ul><li>The whole subordinate clause is position 1.</li><li>So the main clause starts with the verb: verb – comma – verb.</li></ul><h3>7. weil or denn?</h3><table><tr><th>Word</th><th>Word order</th><th>Example</th></tr><tr><td>weil</td><td>verb at the end</td><td>Ich bleibe zu Hause, weil ich krank <b>bin</b>.</td></tr><tr><td>denn</td><td>normal word order</td><td>Ich bleibe zu Hause, denn ich <b>bin</b> krank.</td></tr></table><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>…, weil ich bin krank.</td><td>…, weil ich krank bin.</td></tr><tr><td>…, ob er kann heute kommen.</td><td>…, ob er heute kommen kann.</td></tr><tr><td>…, dass er hat das Paket abgeschickt.</td><td>…, dass er das Paket abgeschickt hat.</td></tr><tr><td>Weil ich krank bin, ich bleibe zu Hause.</td><td>Weil ich krank bin, bleibe ich zu Hause.</td></tr></table>",
@@ -5374,7 +5526,8 @@
      36,
      37,
      38,
-     39
+     39,
+     44
     ]
    },
    {
@@ -5395,7 +5548,8 @@
      25,
      30,
      31,
-     35
+     35,
+     45
     ]
    },
    {
@@ -5420,7 +5574,9 @@
      40,
      41,
      42,
-     43
+     43,
+     46,
+     47
     ]
    }
   ]
@@ -6803,6 +6959,39 @@
       "Say no, you don't know when the course starts."
      ]
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Präteritum: „Wir können nur wenig Deutsch.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Wir konnten nur wenig Deutsch."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wenn ich ein Kind war, habe ich in Salzburg gewohnt.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Als ich ein Kind war, habe ich in Salzburg gewohnt."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „wenn“: „Ich habe Zeit. Ich rufe dich an.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Wenn ich …",
+    "a": [
+     "Wenn ich Zeit habe, rufe ich dich an."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich weiß nicht, wenn der Bus kommt.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich weiß nicht, wann der Bus kommt.",
+     "Ich weiß nicht, ob der Bus kommt."
+    ]
    }
   ],
   "steps": [
@@ -6828,7 +7017,8 @@
      47,
      48,
      51,
-     53
+     53,
+     82
     ]
    },
    {
@@ -6850,7 +7040,8 @@
      67,
      68,
      79,
-     80
+     80,
+     83
     ]
    },
    {
@@ -6869,7 +7060,8 @@
      57,
      69,
      70,
-     71
+     71,
+     84
     ]
    },
    {
@@ -6889,7 +7081,8 @@
      72,
      73,
      74,
-     81
+     81,
+     85
     ]
    },
    {
@@ -7347,6 +7540,39 @@
      "Bevor ich schlafen gehe, lese ich ein Buch.",
      "Ich lese ein Buch, bevor ich schlafen gehe."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „während“: „Die Kinder schlafen. Ich lese die Zeitung.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Während die Kinder …",
+    "a": [
+     "Während die Kinder schlafen, lese ich die Zeitung."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich trinke Kaffee, vor ich zur Arbeit gehe.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich trinke Kaffee, bevor ich zur Arbeit gehe."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Nachdem sie in Wien angekommen hatte, hat sie Kaffee getrunken.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Nachdem sie in Wien angekommen war, hat sie Kaffee getrunken."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „nachdem“: „Ich habe gearbeitet. Danach bin ich nach Hause gegangen.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Nachdem ich …",
+    "a": [
+     "Nachdem ich gearbeitet hatte, bin ich nach Hause gegangen.",
+     "Nachdem ich gearbeitet hatte, ging ich nach Hause."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>während</b> = while, at the same time.</li><li><b>bevor</b> = before. <b>nachdem</b> = after – the nachdem-clause is one tense earlier.</li><li>All three start a subordinate clause: the verb goes to the end.</li><li>Same idea, three word types: <i>vor dem Essen – bevor ich esse – vorher</i>.</li></ul><h3>1. Situation: your day and your first days in Austria</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</td><td>Before I go to work, I drink coffee.</td></tr><tr><td>Während ich koche, höre ich Radio.</td><td>While I'm cooking, I listen to the radio.</td></tr><tr><td>Nachdem ich angekommen war, habe ich meine Mutter angerufen.</td><td>After I had arrived, I called my mother.</td></tr><tr><td>Vor dem Essen gehe ich einkaufen.</td><td>Before the meal I go shopping.</td></tr><tr><td>Danach gehen wir spazieren.</td><td>After that we go for a walk.</td></tr></table><h3>2. Dialogue</h3><p><b>Kollegin:</b> <i>Was hast du am ersten Tag in Österreich gemacht?</i><br><b>Aurora:</b> <i><b>Nachdem</b> ich angekommen <b>war</b>, habe ich meine Mutter angerufen. <b>Danach</b> bin ich in die Stadt gegangen.</i></p><ul><li>In the dialogue: <i>Nachdem ich angekommen war</i> – the arrival happened first, so the Plusquamperfekt.</li><li><i>Danach bin ich …</i> – <i>danach</i> is an adverb: the verb follows directly.</li></ul><h3>3. Overview: preposition, conjunction or adverb?</h3><table><tr><th>preposition + noun</th><th>conjunction + clause</th><th>adverb + verb</th></tr><tr><td>vor dem Essen</td><td>bevor ich esse</td><td>vorher esse ich</td></tr><tr><td>nach dem Essen</td><td>nachdem ich gegessen habe</td><td>danach gehe ich</td></tr><tr><td>während des Essens</td><td>während ich esse</td><td>–</td></tr></table><ul><li>Conjunction: verb at the end. Adverb: position 1, the verb follows directly.</li></ul><h3>4. während</h3><ul><li>Two things happen at the same time.</li><li><i>Während du kochst, decke ich den Tisch.</i></li><li><i>Während die Kinder schlafen, lese ich ein Buch.</i></li></ul><h3>5. bevor</h3><ul><li><i>bevor</i> + clause: <i>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</i></li><li><i>vor</i> + noun: <i>vor der Arbeit</i>. Never: <i>vor ich gehe</i>.</li></ul><h3>6. nachdem: one tense earlier</h3><table><tr><th>Main clause</th><th>nachdem-clause</th><th>Example</th></tr><tr><td>Präsens</td><td>Perfekt</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Perfekt or Präteritum</td><td>Plusquamperfekt</td><td>Nachdem wir gegessen hatten, sind wir spazieren gegangen.</td></tr></table><ul><li>Plusquamperfekt = <b>hatte</b> or <b>war</b> + Partizip II.</li><li>haben or sein: the same rules as in the Perfekt – see d01b. <i>Nachdem ich angekommen war, …</i></li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wasch dir die Hände, vor du isst.</td><td>Wasch dir die Hände, bevor du isst.</td></tr><tr><td>Nachdem ich angekommen habe, …</td><td>Nachdem ich angekommen war, …</td></tr><tr><td>Nachdem ich esse, gehe ich spazieren.</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Danach ich gehe spazieren.</td><td>Danach gehe ich spazieren.</td></tr></table>",
@@ -7368,7 +7594,8 @@
      24,
      25,
      26,
-     27
+     27,
+     33
     ]
    },
    {
@@ -7386,7 +7613,8 @@
      18,
      28,
      29,
-     32
+     32,
+     34
     ]
    },
    {
@@ -7407,7 +7635,9 @@
      21,
      22,
      30,
-     31
+     31,
+     35,
+     36
     ]
    }
   ]
@@ -8590,6 +8820,38 @@
      "gekauft"
     ],
     "h": "Partizip II von „kaufen“"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wo ist das Einkaufsliste?“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Wo ist die Einkaufsliste?"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Das Packung kostet zwei Euro.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Die Packung kostet zwei Euro."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Verneine mit „kein“: „Das ist ein Paradeiser.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Das ist …",
+    "a": [
+     "Das ist kein Paradeiser."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Wir brauchen keine Zwiebeln.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Wir haben …",
+    "a": [
+     "Wir haben keine Zwiebeln gebraucht."
+    ]
    }
   ],
   "steps": [
@@ -8611,7 +8873,8 @@
      64,
      65,
      66,
-     67
+     67,
+     70
     ]
    },
    {
@@ -8633,7 +8896,8 @@
      27,
      52,
      60,
-     62
+     62,
+     71
     ]
    },
    {
@@ -8655,7 +8919,8 @@
      42,
      44,
      54,
-     61
+     61,
+     72
     ]
    },
    {
@@ -8681,7 +8946,8 @@
      50,
      51,
      68,
-     69
+     69,
+     73
     ]
    }
   ]
@@ -9255,6 +9521,38 @@
       "Ask for three onions."
      ]
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Die Paradeisers sind heute sehr frisch.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Die Paradeiser sind heute sehr frisch."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Im Plural: „Der Markt ist groß.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Die …",
+    "a": [
+     "Die Märkte sind groß."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Im Plural: „Das ist kein Ei.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Das sind …",
+    "a": [
+     "Das sind keine Eier."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich nehme zwei Packung Milch.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich nehme zwei Packungen Milch."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>In the plural the article is always <b>die</b>.</li><li>There are five plural types. Learn every noun with its plural: <i>der Markt, die Märkte</i>.</li><li>Almost all feminine nouns: <b>-n / -en</b>.</li><li>After a number, measure words stay singular: <i>zwei Kilo, drei Stück</i>.</li></ul><h3>1. Situation: shopping list and market</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wir brauchen zwei Kilo Erdäpfel.</td><td>We need two kilos of potatoes.</td></tr><tr><td>Drei Zwiebeln, bitte.</td><td>Three onions, please.</td></tr><tr><td>Im Sackerl sind sechs Eier.</td><td>There are six eggs in the bag.</td></tr><tr><td>Am Markt gibt es viele Stände.</td><td>There are many stalls at the market.</td></tr><tr><td>Die Semmeln sind aus.</td><td>The rolls are sold out.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Was steht auf der Einkaufsliste?</i><br><b>Aurora:</b> <i>Zwei <b>Kilo</b> Erdäpfel, drei <b>Zwiebeln</b> und sechs <b>Eier</b>.</i></p><ul><li>In the dialogue: <i>zwei Kilo</i> – measure word after a number, singular.</li><li><i>die Zwiebeln</i> – feminine, -n.</li><li><i>die Eier</i> – short neuter noun, -er.</li></ul><h3>3. Overview: five plural types</h3><table><tr><th>Type</th><th>Examples</th><th>Typical for</th></tr><tr><td>-e / ¨-e</td><td>der Tag → die Tage, der Markt → die Märkte</td><td>many masculine nouns</td></tr><tr><td>-n / -en</td><td>die Zwiebel → die Zwiebeln, die Packung → die Packungen</td><td>almost all feminine nouns</td></tr><tr><td>-er / ¨-er</td><td>das Ei → die Eier, das Buch → die Bücher</td><td>many short neuter nouns</td></tr><tr><td>no ending / ¨</td><td>der Paradeiser → die Paradeiser, der Erdapfel → die Erdäpfel</td><td>masculine and neuter nouns in -er, -el, -en, -chen, -erl</td></tr><tr><td>-s</td><td>das Auto → die Autos, das Kilo → die Kilos</td><td>words ending in -a, -i, -o, -u, many foreign words</td></tr></table><h3>4. Special plurals</h3><table><tr><th>Singular</th><th>Plural</th></tr><tr><td>die Kassa</td><td>die Kassen</td></tr><tr><td>das Museum</td><td>die Museen</td></tr><tr><td>das Zentrum</td><td>die Zentren</td></tr><tr><td>die Wurst</td><td>die Würste</td></tr><tr><td>das Sackerl</td><td>die Sackerl or die Sackerln</td></tr></table><h3>5. Plural and articles</h3><ul><li>The article is always <i>die</i>: <i>der Markt → die Märkte</i>.</li><li>No plural of <i>ein</i>: <i>Das sind Erdäpfel.</i></li><li><i>kein</i> in the plural: <i>keine</i> – <i>Es gibt keine Semmeln.</i></li></ul><h3>6. Numbers and measure words</h3><ul><li>After a number, measure words stay singular: <i>zwei Kilo Erdäpfel, drei Stück, zwei Packungen</i> – but <i>Packung</i> is a normal noun and takes the plural.</li><li>The thing you buy is plural: <i>zwei Kilo Erdäpfel</i>.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>die Zwiebele</td><td>die Zwiebeln</td></tr><tr><td>die Eis</td><td>die Eier</td></tr><tr><td>zwei Kilos Erdäpfel</td><td>zwei Kilo Erdäpfel</td></tr><tr><td>die Erdapfels</td><td>die Erdäpfel</td></tr></table>",
@@ -9280,7 +9578,9 @@
      16,
      21,
      22,
-     23
+     23,
+     39,
+     40
     ]
    },
    {
@@ -9303,7 +9603,8 @@
      28,
      29,
      30,
-     31
+     31,
+     41
     ]
    },
    {
@@ -9322,7 +9623,8 @@
      35,
      36,
      37,
-     38
+     38,
+     42
     ]
    }
   ]
@@ -10922,6 +11224,40 @@
      "einen"
     ],
     "h": "ein- im Akkusativ"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wir suchen ein Gutschein aus.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Wir suchen einen Gutschein aus.",
+     "Einen Gutschein suchen wir aus."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Frag nach „Sabine“: „Sabine hat den Gutschein ausgesucht.“ → ___",
+    "h": "Die ganze Frage schreiben.",
+    "a": [
+     "Wer hat den Gutschein ausgesucht?"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Sabine sucht ihren Karte aus.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Sabine sucht ihre Karte aus.",
+     "Ihre Karte sucht Sabine aus."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Jonas packt den Gutschein ein.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Jonas hat …",
+    "a": [
+     "Jonas hat den Gutschein eingepackt."
+    ]
    }
   ],
   "steps": [
@@ -10949,7 +11285,8 @@
      67,
      68,
      70,
-     86
+     86,
+     89
     ]
    },
    {
@@ -10967,7 +11304,8 @@
      75,
      76,
      77,
-     78
+     78,
+     90
     ]
    },
    {
@@ -10989,7 +11327,8 @@
      81,
      82,
      83,
-     87
+     87,
+     91
     ]
    },
    {
@@ -11013,7 +11352,8 @@
      63,
      84,
      85,
-     88
+     88,
+     92
     ]
    }
   ]
@@ -11682,6 +12022,39 @@
      "Wir schenken den Kindern Schokolade.",
      "Den Kindern geben wir Schokolade."
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich schenke meine Kollegin einen Blumenstrauß.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich schenke meiner Kollegin einen Blumenstrauß.",
+     "Meiner Kollegin schenke ich einen Blumenstrauß."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wir zeigen den Freunde das Geschenk.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Wir zeigen den Freunden das Geschenk."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „die Kinder“ statt „das Kind“: „Ich gebe dem Kind Schokolade.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich gebe …",
+    "a": [
+     "Ich gebe den Kindern Schokolade."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „der Kollege“ statt „die Kollegin“: „Wir schenken der Kollegin einen Gutschein.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Wir schenken …",
+    "a": [
+     "Wir schenken dem Kollegen einen Gutschein."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>Dativ</b> = the person who receives something – question <b>wem?</b></li><li>Endings: <b>-m · -r · -m · -n</b> – <i>dem, der, dem, den</i>.</li><li>Dative plural: the noun also gets <b>-n</b> – <i>den Kindern</i>.</li><li><i>der Herr → dem Herrn</i>, <i>der Kollege → dem Kollegen</i>.</li></ul><h3>1. Situation: handing over the present</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wir schenken der Kollegin einen Gutschein.</td><td>We're giving our colleague a voucher.</td></tr><tr><td>Wem schenkst du die Blumen? – Der Kollegin.</td><td>Who are you giving the flowers to? – To the colleague.</td></tr><tr><td>Ich gebe dem Chef die Karte.</td><td>I'm giving the card to the boss.</td></tr><tr><td>Wir schreiben den Kollegen eine Karte.</td><td>We're writing a card to the colleagues.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Sabine kommt gleich. <b>Wem</b> geben wir zuerst die Karte?</i><br><b>Aurora:</b> <i>Wir geben <b>der</b> Kollegin zuerst die Karte. Dann überreichen wir <b>ihr</b> den Blumenstrauß.</i></p><ul><li>In the dialogue: <i>der Kollegin</i> – the person who receives, feminine dative.</li><li><i>den Blumenstrauß</i> – the thing, accusative.</li><li><i>ihr</i> = to her – pronouns come in d06.</li></ul><h3>3. Overview: the three cases</h3><table><tr><th>Case</th><th>der-words</th><th>ein-words</th></tr><tr><td>Nominativ – wer? was?</td><td>der · die · das · die</td><td>ein · eine · ein · keine</td></tr><tr><td>Akkusativ – wen? was?</td><td><b>den</b> · die · das · die</td><td><b>einen</b> · eine · ein · keine</td></tr><tr><td>Dativ – wem?</td><td>dem · der · dem · den + -n</td><td>einem · einer · einem · keinen + -n</td></tr></table><h3>4. Dativ endings: -m, -r, -m, -n</h3><table><tr><th>Gender</th><th>der-word</th><th>ein-word</th></tr><tr><td>masculine</td><td>dem Freund</td><td>einem / keinem / meinem Freund</td></tr><tr><td>feminine</td><td>der Kollegin</td><td>einer / keiner / meiner Kollegin</td></tr><tr><td>neuter</td><td>dem Kind</td><td>einem / keinem / meinem Kind</td></tr><tr><td>plural</td><td>den Kindern</td><td>keinen / meinen Kindern</td></tr></table><ul><li>der-words like <i>dieser, welcher</i>: <i>diesem Kollegen, welcher Kollegin</i>.</li><li>Verbs with a person in the dative and a thing in the accusative: <i>schenken, geben, überreichen, schreiben, kaufen</i>.</li></ul><h3>5. Dative plural: + -n</h3><table><tr><th>Plural</th><th>Dative plural</th></tr><tr><td>die Kinder</td><td>den Kindern</td></tr><tr><td>die Freunde</td><td>den Freunden</td></tr><tr><td>die Kolleginnen</td><td>den Kolleginnen – already -n</td></tr><tr><td>die Autos</td><td>den Autos – no -n after -s</td></tr></table><h3>6. Questions: wer, wen, wem</h3><table><tr><th>Question</th><th>Case</th><th>Example</th></tr><tr><td>Wer?</td><td>Nominativ</td><td>Wer hat Geburtstag? – Sabine.</td></tr><tr><td>Wen?</td><td>Akkusativ</td><td>Wen suchst du? – Herrn Gruber.</td></tr><tr><td>Wem?</td><td>Dativ</td><td>Wem schenkst du die Blumen? – Der Kollegin.</td></tr></table><h3>7. Two special nouns</h3><table><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th></tr><tr><td>der Herr</td><td>den Herrn</td><td>dem Herrn</td></tr><tr><td>der Kollege</td><td>den Kollegen</td><td>dem Kollegen</td></tr></table><ul><li>Learn them as they are – the system behind them comes later.</li><li>Careful: <i>den Kollegen</i> can also be the dative plural – to the colleagues.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wir schenken die Kollegin einen Gutschein.</td><td>Wir schenken der Kollegin einen Gutschein.</td></tr><tr><td>Jonas gibt den Kinder Schokolade.</td><td>Jonas gibt den Kindern Schokolade.</td></tr><tr><td>Wir geben dem Herr die Karte.</td><td>Wir geben dem Herrn die Karte.</td></tr><tr><td>Wen schenkst du die Blumen?</td><td>Wem schenkst du die Blumen?</td></tr></table>",
@@ -11707,7 +12080,8 @@
      25,
      26,
      29,
-     33
+     33,
+     38
     ]
    },
    {
@@ -11725,7 +12099,9 @@
      34,
      35,
      36,
-     37
+     37,
+     39,
+     40
     ]
    },
    {
@@ -11749,7 +12125,8 @@
      24,
      28,
      30,
-     32
+     32,
+     41
     ]
    }
   ]
@@ -12703,6 +13080,39 @@
      "um"
     ],
     "h": "Präposition für die genaue Uhrzeit"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Lena wohnt seit ein Jahr in Wien.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Lena wohnt seit einem Jahr in Wien."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Sie gehen durch dem Park, dann sind Sie gleich da.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Sie gehen durch den Park, dann sind Sie gleich da."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit Kurzformen: „Ich komme von dem Arzt und gehe zu der Bank.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Ich komme vom Arzt und gehe zur Bank."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „An der Ampel biegen wir links ab.“ → ___",
+    "h": "Den ganzen Satz im Perfekt schreiben.",
+    "a": [
+     "An der Ampel sind wir links abgebogen.",
+     "Wir sind an der Ampel links abgebogen."
+    ]
    }
   ],
   "steps": [
@@ -12726,7 +13136,8 @@
      50,
      51,
      52,
-     53
+     53,
+     56
     ]
    },
    {
@@ -12746,7 +13157,8 @@
      45,
      47,
      54,
-     55
+     55,
+     57
     ]
    },
    {
@@ -12764,7 +13176,8 @@
      30,
      34,
      46,
-     48
+     48,
+     58
     ]
    },
    {
@@ -12795,7 +13208,8 @@
      41,
      42,
      43,
-     44
+     44,
+     59
     ]
    }
   ]
@@ -13560,6 +13974,44 @@
      "seit"
     ],
     "h": "seit oder vor?"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Ich gehe jetzt bei Lena.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Ich gehe jetzt zu Lena.",
+     "Ich bin jetzt bei Lena."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Nach der Arbeit gehe ich zu Hause.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Nach der Arbeit gehe ich nach Hause.",
+     "Nach der Arbeit gehe ich nachhause.",
+     "Nach der Arbeit gehe ich heim.",
+     "Nach der Arbeit bin ich zu Hause.",
+     "Nach der Arbeit bin ich zuhause.",
+     "Nach der Arbeit bin ich daheim."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „seit“: „Ich bin vor zwei Jahren nach Graz gezogen.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich wohne …",
+    "a": [
+     "Ich wohne seit zwei Jahren in Graz."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Aurora zieht von Wien nach Graz.“ → ___",
+    "h": "Den ganzen Satz im Perfekt schreiben.",
+    "a": [
+     "Aurora ist von Wien nach Graz gezogen."
+    ]
    }
   ],
   "steps": [
@@ -13580,7 +14032,8 @@
      42,
      43,
      44,
-     45
+     45,
+     49
     ]
    },
    {
@@ -13600,7 +14053,8 @@
      25,
      37,
      46,
-     47
+     47,
+     50
     ]
    },
    {
@@ -13621,7 +14075,8 @@
      26,
      32,
      38,
-     39
+     39,
+     51
     ]
    },
    {
@@ -13643,7 +14098,8 @@
      34,
      35,
      36,
-     48
+     48,
+     52
     ]
    }
   ]
@@ -15117,6 +15573,39 @@
      "dich"
     ],
     "h": "Pronomen im Akkusativ"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Lena besucht wir am Sonntag.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Lena besucht uns am Sonntag.",
+     "Am Sonntag besucht uns Lena."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Das Paket ist da. Frau Huber hat ihn angenommen.“ → ___",
+    "h": "Den ganzen Text verbessert schreiben.",
+    "a": [
+     "Das Paket ist da. Frau Huber hat es angenommen."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ersetze beide Objekte durch Pronomen: „Frau Huber gibt der Nachbarin den Schlüssel.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Frau Huber gibt …",
+    "a": [
+     "Frau Huber gibt ihn ihr."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Lena leiht sie mir.“ (sie = die Leiter) → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Lena hat …",
+    "a": [
+     "Lena hat sie mir geliehen."
+    ]
    }
   ],
   "steps": [
@@ -15138,7 +15627,8 @@
      75,
      76,
      77,
-     82
+     82,
+     83
     ]
    },
    {
@@ -15158,7 +15648,8 @@
      78,
      79,
      80,
-     81
+     81,
+     84
     ]
    },
    {
@@ -15181,7 +15672,8 @@
      68,
      69,
      70,
-     72
+     72,
+     85
     ]
    },
    {
@@ -15204,7 +15696,8 @@
      49,
      54,
      62,
-     65
+     65,
+     86
     ]
    }
   ]
@@ -15813,6 +16306,41 @@
      "Ich gratuliere [ihr] zum Geburtstag. (sie, Singular)"
     ],
     "h": "je Kästchen das Personalpronomen im Dativ"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wir helfen die Nachbarin am Samstag.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Wir helfen der Nachbarin am Samstag.",
+     "Am Samstag helfen wir der Nachbarin."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Die Paradeiser schmeckt mir sehr gut.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Die Paradeiser schmecken mir sehr gut.",
+     "Mir schmecken die Paradeiser sehr gut.",
+     "Der Paradeiser schmeckt mir sehr gut."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „gehören“: „Das ist mein Schlüssel.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Der Schlüssel …",
+    "a": [
+     "Der Schlüssel gehört mir."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Der Kuchen schmeckt uns sehr gut.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Der Kuchen hat …",
+    "a": [
+     "Der Kuchen hat uns sehr gut geschmeckt."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>Some verbs take a <b>dative</b> object: <i>helfen, danken, gratulieren</i> – <i>Ich helfe dir</i>, not <i>dich</i>.</li><li>With <i>gehören, gefallen, schmecken, passen</i> the thing is the subject and the person is in the dative.</li><li>The verb agrees with the thing: <i>Die Schuhe passen mir.</i></li><li>English „I like …“ is often <i>… gefällt mir</i> or, for food, <i>… schmeckt mir</i>.</li></ul><h3>1. Situation: thanking and talking about what you like</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Kann ich dir helfen?</td><td>Can I help you?</td></tr><tr><td>Ich danke Ihnen!</td><td>Thank you!</td></tr><tr><td>Ich gratuliere dir zum Geburtstag!</td><td>Happy birthday!</td></tr><tr><td>Gehört dieser Schlüssel Ihnen?</td><td>Does this key belong to you?</td></tr><tr><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>Der Kuchen schmeckt mir.</td><td>I like the cake.</td></tr></table><h3>2. Dialogue</h3><p><b>Aurora:</b> <i>Vielen Dank für das Paket! Und das hier ist ein Kuchen. Ich hoffe, er <b>schmeckt Ihnen</b>.</i><br><b>Frau Huber:</b> <i>Danke, das ist sehr nett! Ich <b>helfe Ihnen</b> gern.</i></p><ul><li>In the dialogue: <i>er schmeckt Ihnen</i> – <i>er</i> = der Kuchen is the subject, the person is in the dative.</li><li><i>Ich helfe Ihnen</i> – helfen takes the dative.</li></ul><h3>3. Overview: the dative verbs</h3><table><tr><th>Verb</th><th>Example</th><th>English</th></tr><tr><td>helfen</td><td>Ich helfe dir.</td><td>I help you.</td></tr><tr><td>danken</td><td>Wir danken Ihnen.</td><td>We thank you.</td></tr><tr><td>gratulieren</td><td>Ich gratuliere dir zum Geburtstag.</td><td>Happy birthday!</td></tr><tr><td>gehören</td><td>Der Schlüssel gehört mir.</td><td>The key belongs to me.</td></tr><tr><td>gefallen</td><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>schmecken</td><td>Der Kuchen schmeckt mir.</td><td>I like the cake.</td></tr><tr><td>passen</td><td>Die Schuhe passen mir. – Passt dir Montag?</td><td>The shoes fit me. – Does Monday suit you?</td></tr></table><h3>4. helfen, danken, gratulieren</h3><ul><li>The person is in the dative: <i>Ich helfe der Nachbarin. Wir danken dem Nachbarn.</i></li><li>Also with the dative: <b>antworten</b> – <i>Ich antworte dir morgen.</i> · <b>glauben</b> (a person) – <i>Ich glaube dir.</i> · <b>zuhören</b> – <i>Wir hören der Lehrerin zu.</i></li><li>Compare accusative verbs: <i>Ich besuche dich. Ich frage ihn.</i></li></ul><h3>5. gehören, gefallen, schmecken, passen</h3><table><tr><th>Subject – the thing</th><th>Verb</th><th>Dative – the person</th></tr><tr><td>Die Wohnung</td><td>gefällt</td><td>mir.</td></tr><tr><td>Die Schuhe</td><td>passen</td><td>mir.</td></tr><tr><td>Der Kuchen</td><td>schmeckt</td><td>uns.</td></tr></table><ul><li>The thing is the subject, so the verb agrees with the thing: <i>Die Schuhe passen</i> – plural.</li><li>The dative can also come first: <i>Mir gefällt die Wohnung.</i></li></ul><h3>6. English „like“</h3><table><tr><th>English</th><th>Deutsch</th></tr><tr><td>I like the flat.</td><td>Die Wohnung gefällt mir.</td></tr><tr><td>I like the soup.</td><td>Die Suppe schmeckt mir.</td></tr><tr><td>I like cooking.</td><td>Ich koche gern.</td></tr></table><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich helfe dich.</td><td>Ich helfe dir.</td></tr><tr><td>Ich gefalle die Wohnung.</td><td>Die Wohnung gefällt mir.</td></tr><tr><td>Die Schuhe passt mir.</td><td>Die Schuhe passen mir.</td></tr><tr><td>Wir schmecken den Kuchen.</td><td>Der Kuchen schmeckt uns.</td></tr></table>",
@@ -15840,7 +16368,8 @@
      32,
      37,
      38,
-     39
+     39,
+     40
     ]
    },
    {
@@ -15862,7 +16391,9 @@
      21,
      27,
      34,
-     35
+     35,
+     41,
+     42
     ]
    },
    {
@@ -15881,7 +16412,8 @@
      30,
      31,
      33,
-     36
+     36,
+     43
     ]
    }
   ]
@@ -17081,6 +17613,41 @@
      "meine"
     ],
     "h": "mein- ohne Nomen"
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Das Häferl mit dem Hund ist meiner.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Das Häferl mit dem Hund ist meins.",
+     "Das Häferl mit dem Hund ist meines."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ohne Nomen: „Ich kaufe heute Häferl.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich kaufe …",
+    "a": [
+     "Ich kaufe heute welche."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Der Mantel gehört mich nicht.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Der Mantel gehört mir nicht.",
+     "Mir gehört der Mantel nicht."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Lena findet ihren Schal, aber ich finde meinen nicht.“ → ___",
+    "h": "Den ganzen Satz im Perfekt schreiben.",
+    "a": [
+     "Lena hat ihren Schal gefunden, aber ich habe meinen nicht gefunden.",
+     "Lena hat ihren Schal gefunden, aber meinen habe ich nicht gefunden."
+    ]
    }
   ],
   "steps": [
@@ -17109,7 +17676,8 @@
      65,
      66,
      67,
-     68
+     68,
+     75
     ]
    },
    {
@@ -17133,7 +17701,8 @@
      69,
      70,
      71,
-     72
+     72,
+     76
     ]
    },
    {
@@ -17149,7 +17718,8 @@
      40,
      43,
      47,
-     49
+     49,
+     77
     ]
    },
    {
@@ -17173,7 +17743,8 @@
      56,
      64,
      73,
-     74
+     74,
+     78
     ]
    }
   ]
@@ -17750,6 +18321,39 @@
       "Say yes, tomorrow."
      ]
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Der Regenschirm? Der habe ich gestern gefunden.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Der Regenschirm? Den habe ich gestern gefunden."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Welche Regenschirm gehört dir?“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Welcher Regenschirm gehört dir?"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „welch-“ fragen: „Lena nimmt einen Schal.“ → ___",
+    "h": "Den ganzen Satz als Frage schreiben.",
+    "a": [
+     "Welchen Schal nimmt Lena?"
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit der, die, das allein statt „den Kindern“: „Die Häferl gehören den Kindern.“ → ___",
+    "h": "Den ganzen Satz schreiben.",
+    "a": [
+     "Denen gehören die Häferl.",
+     "Die Häferl gehören denen."
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><i>der, die, das</i> can stand alone = this one, that one: <i>Welcher Schal ist deiner? – Der da.</i></li><li>The forms are those of the article – except the dative plural: <b>denen</b>.</li><li><b>welcher?</b> = which? It has the endings of <i>der</i>: <i>welcher, welche, welches</i>.</li></ul><h3>1. Situation: sorting things after the party</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Welcher Mantel ist deiner? – Der da.</td><td>Which coat is yours? – That one.</td></tr><tr><td>Den habe ich am Freitag vergessen.</td><td>I forgot that one on Friday.</td></tr><tr><td>Welchen Schal nimmst du? – Den nehme ich.</td><td>Which scarf are you taking? – I'll take that one.</td></tr><tr><td>Das Häferl? Das gehört Herrn Gruber.</td><td>The mug? That belongs to Herr Gruber.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Gehört dir einer von den Mänteln?</i><br><b>Aurora:</b> <i>Ja, <b>der</b> da ist meiner. <b>Den</b> habe ich am Freitag vergessen.</i><br><b>Jonas:</b> <i>Und <b>welcher</b> Schal ist Lenas?</i><br><b>Aurora:</b> <i><b>Der</b> rote.</i></p><ul><li>In the dialogue: <i>der da</i> – subject, nominative.</li><li><i>Den habe ich vergessen</i> – object, accusative, at the beginning and stressed.</li><li><i>welcher Schal</i> – the question word has the ending of <i>der</i>.</li></ul><h3>3. Overview: der, die, das alone</h3><table><tr><th>Case</th><th>masculine · feminine · neuter · plural</th></tr><tr><td>Nominativ</td><td>der · die · das · die</td></tr><tr><td>Akkusativ</td><td>den · die · das · die</td></tr><tr><td>Dativ</td><td>dem · der · dem · <b>denen</b></td></tr></table><ul><li>Only the dative plural is different from the article: <i>denen</i>, article <i>den</i>.</li></ul><h3>4. How it is used</h3><ul><li>To point at something: <i>Der da.</i></li><li>To pick something up again: <i>Der Mantel? Den habe ich vergessen.</i></li><li>Often at the beginning of the sentence and stressed: <i>Den nehme ich.</i></li><li>Very common in speech, also for people: <i>Der ist nett.</i> In writing, <i>er, sie, es</i> sound more neutral.</li></ul><h3>5. welcher?</h3><table><tr><th>Case</th><th>Example</th></tr><tr><td>Nominativ</td><td>Welcher Mantel ist deiner?</td></tr><tr><td>Akkusativ</td><td>Welchen Schal nimmst du?</td></tr><tr><td>Dativ</td><td>Welchem Kollegen gehört das Häferl?</td></tr></table><ul><li><i>welcher</i> has the endings of <i>der</i>: <i>welcher, welche, welches, welche</i>.</li></ul><h3>6. Using it: Wem gehört …?</h3><ul><li><i>gehören</i> + dative – see d06b: <i>Wem gehört der Regenschirm? – Der gehört Herrn Gruber.</i></li><li><i>Gehören die Häferl Lena und Jonas? – Ja, denen gehören sie.</i></li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Welchen Schal? – Der nehme ich.</td><td>Welchen Schal? – Den nehme ich.</td></tr><tr><td>Ja, den gehören sie.</td><td>Ja, denen gehören sie.</td></tr><tr><td>Welche Mantel ist deiner?</td><td>Welcher Mantel ist deiner?</td></tr></table>",
@@ -17777,7 +18381,8 @@
      18,
      19,
      20,
-     31
+     31,
+     36
     ]
    },
    {
@@ -17796,7 +18401,9 @@
      25,
      26,
      32,
-     33
+     33,
+     37,
+     38
     ]
    },
    {
@@ -17814,7 +18421,8 @@
      29,
      30,
      34,
-     35
+     35,
+     39
     ]
    }
   ]
@@ -18684,6 +19292,44 @@
      "[Warten] wir noch fünf Minuten! (warten, wir)"
     ],
     "h": "je Kästchen der Imperativ – ihr, Sie oder wir"
+   },
+   {
+    "t": "gap",
+    "q": "Als Aufforderung (Sie): „Sie lesen den Beipackzettel.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Lesen …",
+    "a": [
+     "Lesen Sie den Beipackzettel!",
+     "Lesen Sie den Beipackzettel."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Nehme dreimal täglich eine Tablette!“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Nimm dreimal täglich eine Tablette!",
+     "Nimm dreimal täglich eine Tablette.",
+     "Nehmen Sie dreimal täglich eine Tablette!",
+     "Nehmen Sie dreimal täglich eine Tablette."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Einnehmen Sie die Tablette nach dem Essen!“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Nehmen Sie die Tablette nach dem Essen ein!",
+     "Nehmen Sie die Tablette nach dem Essen ein."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Als Aufforderung: „Nimmst du die Tabletten nach dem Essen ein?“ → ___",
+    "h": "Den ganzen Satz schreiben, gleiche Person.",
+    "a": [
+     "Nimm die Tabletten nach dem Essen ein!",
+     "Nimm die Tabletten nach dem Essen ein."
+    ]
    }
   ],
   "steps": [
@@ -18707,7 +19353,8 @@
      47,
      48,
      49,
-     50
+     50,
+     51
     ]
    },
    {
@@ -18727,7 +19374,8 @@
      27,
      30,
      40,
-     46
+     46,
+     52
     ]
    },
    {
@@ -18750,7 +19398,8 @@
      41,
      43,
      44,
-     45
+     45,
+     53
     ]
    },
    {
@@ -18771,7 +19420,8 @@
      32,
      34,
      35,
-     38
+     38,
+     54
     ]
    }
   ]
@@ -19521,6 +20171,40 @@
     ],
     "a": 0,
     "x": "In the plural uns, euch, sich can mean each other: Wir treffen uns. Sie kennen sich."
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Wir treffen sich morgen im Café.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Wir treffen uns morgen im Café."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Mit „den Fuß“: „Ich habe mich verletzt.“ → ___",
+    "h": "Den ganzen Satz schreiben, Anfang: Ich habe …",
+    "a": [
+     "Ich habe mir den Fuß verletzt."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Finde den Fehler: „Die Füße tun mich weh.“ → ___",
+    "h": "Den ganzen Satz verbessert schreiben.",
+    "a": [
+     "Die Füße tun mir weh.",
+     "Mir tun die Füße weh."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Ins Perfekt: „Jonas verletzt sich beim Laufen den Arm.“ → ___",
+    "h": "Den ganzen Satz im Perfekt schreiben.",
+    "a": [
+     "Jonas hat sich beim Laufen den Arm verletzt.",
+     "Jonas hat sich den Arm beim Laufen verletzt."
+    ]
    }
   ],
   "steps": [
@@ -19543,7 +20227,8 @@
      24,
      40,
      41,
-     42
+     42,
+     43
     ]
    },
    {
@@ -19561,7 +20246,8 @@
      22,
      27,
      37,
-     39
+     39,
+     44
     ]
    },
    {
@@ -19591,7 +20277,9 @@
      34,
      35,
      36,
-     38
+     38,
+     45,
+     46
     ]
    }
   ]
