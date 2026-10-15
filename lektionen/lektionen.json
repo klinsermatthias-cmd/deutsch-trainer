@@ -2005,7 +2005,124 @@
   "req": [
    "d01"
   ],
-  "v": [],
+  "v": [
+   [
+    "aufwachen",
+    "to wake up",
+    {
+     "f": [
+      "Präsens: er/sie/es wacht auf",
+      "Präteritum: er/sie/es wachte auf",
+      "Perfekt: er/sie/es ist aufgewacht",
+      "Futur: er/sie/es wird aufwachen"
+     ]
+    }
+   ],
+   [
+    "einschlafen",
+    "to fall asleep",
+    {
+     "f": [
+      "Präsens: ich schlafe ein · du schläfst ein · er/sie/es schläft ein",
+      "Präteritum: er/sie/es schlief ein",
+      "Perfekt: er/sie/es ist eingeschlafen",
+      "Futur: er/sie/es wird einschlafen"
+     ]
+    }
+   ],
+   [
+    "sich umziehen",
+    "to change (clothes), to get changed",
+    {
+     "f": [
+      "Präsens: ich ziehe mich um · du ziehst dich um · er/sie/es zieht sich um",
+      "Präteritum: er/sie/es zog sich um",
+      "Perfekt: er/sie/es hat sich umgezogen",
+      "Futur: er/sie/es wird sich umziehen"
+     ]
+    }
+   ],
+   [
+    "sich anziehen",
+    "to get dressed",
+    {
+     "f": [
+      "Präsens: ich ziehe mich an · du ziehst dich an · er/sie/es zieht sich an",
+      "Präteritum: er/sie/es zog sich an",
+      "Perfekt: er/sie/es hat sich angezogen",
+      "Futur: er/sie/es wird sich anziehen"
+     ]
+    }
+   ],
+   [
+    "werden",
+    "to become",
+    {
+     "f": [
+      "Präsens: ich werde · du wirst · er/sie/es wird",
+      "Präteritum: er/sie/es wurde",
+      "Perfekt: er/sie/es ist geworden",
+      "Futur: er/sie/es wird werden"
+     ]
+    }
+   ],
+   [
+    "laufen",
+    "to run",
+    {
+     "f": [
+      "Präsens: ich laufe · du läufst · er/sie/es läuft",
+      "Präteritum: er/sie/es lief",
+      "Perfekt: er/sie/es ist gelaufen",
+      "Futur: er/sie/es wird laufen"
+     ]
+    }
+   ],
+   [
+    "abfahren",
+    "to leave, to depart",
+    {
+     "f": [
+      "Präsens: ich fahre ab · du fährst ab · er/sie/es fährt ab",
+      "Präteritum: er/sie/es fuhr ab",
+      "Perfekt: er/sie/es ist abgefahren",
+      "Futur: er/sie/es wird abfahren"
+     ]
+    }
+   ],
+   [
+    "die Schwester, die Schwestern",
+    "sister"
+   ],
+   [
+    "der Sohn, die Söhne",
+    "son"
+   ],
+   [
+    "der Bus, die Busse",
+    "bus"
+   ],
+   [
+    "das Museum, die Museen",
+    "museum"
+   ],
+   [
+    "der Berg, die Berge",
+    "mountain"
+   ],
+   [
+    "daheim",
+    "at home; Austria (Germany: zu Hause)"
+   ],
+   [
+    "früh",
+    "early"
+   ],
+   [
+    "spät",
+    "late"
+   ]
+  ],
   "ex": [
    {
     "t": "tab",
@@ -4757,7 +4874,108 @@
    "d01b",
    "d02"
   ],
-  "v": [],
+  "v": [
+   [
+    "glauben",
+    "to believe, to think",
+    {
+     "f": [
+      "Präsens: er/sie/es glaubt",
+      "Präteritum: er/sie/es glaubte",
+      "Perfekt: er/sie/es hat geglaubt",
+      "Futur: er/sie/es wird glauben"
+     ]
+    }
+   ],
+   [
+    "wissen",
+    "to know (a fact)",
+    {
+     "f": [
+      "Präsens: ich weiß · du weißt · er/sie/es weiß",
+      "Präteritum: er/sie/es wusste",
+      "Perfekt: er/sie/es hat gewusst",
+      "Futur: er/sie/es wird wissen"
+     ]
+    }
+   ],
+   [
+    "anrufen",
+    "to call, to ring",
+    {
+     "f": [
+      "Präsens: er/sie/es ruft an",
+      "Präteritum: er/sie/es rief an",
+      "Perfekt: er/sie/es hat angerufen",
+      "Futur: er/sie/es wird anrufen"
+     ]
+    }
+   ],
+   [
+    "abschicken",
+    "to send off",
+    {
+     "f": [
+      "Präsens: er/sie/es schickt ab",
+      "Präteritum: er/sie/es schickte ab",
+      "Perfekt: er/sie/es hat abgeschickt",
+      "Futur: er/sie/es wird abschicken"
+     ]
+    }
+   ],
+   [
+    "verpassen",
+    "to miss (a bus, a train)",
+    {
+     "f": [
+      "Präsens: er/sie/es verpasst",
+      "Präteritum: er/sie/es verpasste",
+      "Perfekt: er/sie/es hat verpasst",
+      "Futur: er/sie/es wird verpassen"
+     ]
+    }
+   ],
+   [
+    "obwohl",
+    "although (verb at the end)"
+   ],
+   [
+    "denn",
+    "because (normal word order)"
+   ],
+   [
+    "der Arzt, die Ärzte",
+    "doctor (man)"
+   ],
+   [
+    "die Ärztin, die Ärztinnen",
+    "doctor (woman)"
+   ],
+   [
+    "die Chefin, die Chefinnen",
+    "boss (woman)"
+   ],
+   [
+    "der Termin, die Termine",
+    "appointment"
+   ],
+   [
+    "geöffnet",
+    "open (shop, surgery)"
+   ],
+   [
+    "müde",
+    "tired"
+   ],
+   [
+    "Was ist los?",
+    "What's the matter? What's wrong?"
+   ],
+   [
+    "Kein Problem!",
+    "No problem!"
+   ]
+  ],
   "ex": [
    {
     "t": "tab",
@@ -7119,7 +7337,120 @@
    "d09b",
    "d03"
   ],
-  "v": [],
+  "v": [
+   [
+    "spazieren gehen",
+    "to go for a walk",
+    {
+     "f": [
+      "Präsens: er/sie/es geht spazieren",
+      "Präteritum: er/sie/es ging spazieren",
+      "Perfekt: er/sie/es ist spazieren gegangen",
+      "Futur: er/sie/es wird spazieren gehen"
+     ]
+    }
+   ],
+   [
+    "lesen",
+    "to read",
+    {
+     "f": [
+      "Präsens: ich lese · du liest · er/sie/es liest",
+      "Präteritum: er/sie/es las",
+      "Perfekt: er/sie/es hat gelesen",
+      "Futur: er/sie/es wird lesen"
+     ]
+    }
+   ],
+   [
+    "telefonieren",
+    "to be on the phone",
+    {
+     "f": [
+      "Präsens: er/sie/es telefoniert",
+      "Präteritum: er/sie/es telefonierte",
+      "Perfekt: er/sie/es hat telefoniert",
+      "Futur: er/sie/es wird telefonieren"
+     ]
+    }
+   ],
+   [
+    "den Tisch decken",
+    "to set the table",
+    {
+     "f": [
+      "Präsens: er/sie/es deckt den Tisch",
+      "Präteritum: er/sie/es deckte den Tisch",
+      "Perfekt: er/sie/es hat den Tisch gedeckt",
+      "Futur: er/sie/es wird den Tisch decken"
+     ]
+    }
+   ],
+   [
+    "duschen",
+    "to (have a) shower",
+    {
+     "f": [
+      "Präsens: er/sie/es duscht",
+      "Präteritum: er/sie/es duschte",
+      "Perfekt: er/sie/es hat geduscht",
+      "Futur: er/sie/es wird duschen"
+     ]
+    }
+   ],
+   [
+    "sich die Hände waschen",
+    "to wash one's hands",
+    {
+     "f": [
+      "Präsens: ich wasche mir die Hände · du wäschst dir die Hände · er/sie/es wäscht sich die Hände",
+      "Präteritum: er/sie/es wusch sich die Hände",
+      "Perfekt: er/sie/es hat sich die Hände gewaschen",
+      "Futur: er/sie/es wird sich die Hände waschen"
+     ]
+    }
+   ],
+   [
+    "frühstücken",
+    "to have breakfast",
+    {
+     "f": [
+      "Präsens: er/sie/es frühstückt",
+      "Präteritum: er/sie/es frühstückte",
+      "Perfekt: er/sie/es hat gefrühstückt",
+      "Futur: er/sie/es wird frühstücken"
+     ]
+    }
+   ],
+   [
+    "vorher",
+    "before, beforehand"
+   ],
+   [
+    "danach",
+    "after that, afterwards"
+   ],
+   [
+    "die Hand, die Hände",
+    "hand"
+   ],
+   [
+    "die Zeitung, die Zeitungen",
+    "newspaper"
+   ],
+   [
+    "das Radio, die Radios",
+    "radio"
+   ],
+   [
+    "die Musik",
+    "music"
+   ],
+   [
+    "der Alltag",
+    "everyday life, daily routine"
+   ]
+  ],
   "ex": [
    {
     "t": "gap",
@@ -8964,7 +9295,72 @@
    "d02b",
    "d04"
   ],
-  "v": [],
+  "v": [
+   [
+    "das Kilo, die Kilo",
+    "kilo, kilogram"
+   ],
+   [
+    "das Deka, die Deka",
+    "10 grams; Austria (Germany: 10 Gramm)"
+   ],
+   [
+    "das Stück, die Stücke",
+    "piece"
+   ],
+   [
+    "die Wurst, die Würste",
+    "sausage"
+   ],
+   [
+    "der Supermarkt, die Supermärkte",
+    "supermarket"
+   ],
+   [
+    "der Bäcker, die Bäcker",
+    "baker"
+   ],
+   [
+    "der Verkäufer, die Verkäufer",
+    "seller, shop assistant (man)"
+   ],
+   [
+    "die Kassierin, die Kassierinnen",
+    "cashier (woman); Austria (Germany: Kassiererin)"
+   ],
+   [
+    "verkaufen",
+    "to sell",
+    {
+     "f": [
+      "Präsens: er/sie/es verkauft",
+      "Präteritum: er/sie/es verkaufte",
+      "Perfekt: er/sie/es hat verkauft",
+      "Futur: er/sie/es wird verkaufen"
+     ]
+    }
+   ],
+   [
+    "die Leute (Pl.)",
+    "people"
+   ],
+   [
+    "der Tag, die Tage",
+    "day"
+   ],
+   [
+    "das Auto, die Autos",
+    "car"
+   ],
+   [
+    "das Buch, die Bücher",
+    "book"
+   ],
+   [
+    "das Zentrum, die Zentren",
+    "centre"
+   ]
+  ],
   "ex": [
    {
     "t": "tab",
@@ -11372,7 +11768,88 @@
    "d04b",
    "d05"
   ],
-  "v": [],
+  "v": [
+   [
+    "der Freund, die Freunde",
+    "friend; boyfriend"
+   ],
+   [
+    "die Freundin, die Freundinnen",
+    "friend (woman); girlfriend"
+   ],
+   [
+    "das Kind, die Kinder",
+    "child"
+   ],
+   [
+    "die Mutter, die Mütter",
+    "mother"
+   ],
+   [
+    "die Schokolade, die Schokoladen",
+    "chocolate"
+   ],
+   [
+    "die Feier, die Feiern",
+    "celebration, party"
+   ],
+   [
+    "die Verkäuferin, die Verkäuferinnen",
+    "seller, shop assistant (woman)"
+   ],
+   [
+    "das Geschäft, die Geschäfte",
+    "shop; business"
+   ],
+   [
+    "das Büro, die Büros",
+    "office"
+   ],
+   [
+    "das Team, die Teams",
+    "team"
+   ],
+   [
+    "die Idee, die Ideen",
+    "idea"
+   ],
+   [
+    "zeigen",
+    "to show",
+    {
+     "f": [
+      "Präsens: er/sie/es zeigt",
+      "Präteritum: er/sie/es zeigte",
+      "Perfekt: er/sie/es hat gezeigt",
+      "Futur: er/sie/es wird zeigen"
+     ]
+    }
+   ],
+   [
+    "kaufen",
+    "to buy",
+    {
+     "f": [
+      "Präsens: er/sie/es kauft",
+      "Präteritum: er/sie/es kaufte",
+      "Perfekt: er/sie/es hat gekauft",
+      "Futur: er/sie/es wird kaufen"
+     ]
+    }
+   ],
+   [
+    "suchen",
+    "to look for",
+    {
+     "f": [
+      "Präsens: er/sie/es sucht",
+      "Präteritum: er/sie/es suchte",
+      "Perfekt: er/sie/es hat gesucht",
+      "Futur: er/sie/es wird suchen"
+     ]
+    }
+   ]
+  ],
   "ex": [
    {
     "t": "tab",
@@ -15719,7 +16196,96 @@
    "d06",
    "d09"
   ],
-  "v": [],
+  "v": [
+   [
+    "antworten",
+    "to answer, to reply",
+    {
+     "f": [
+      "Präsens: er/sie/es antwortet",
+      "Präteritum: er/sie/es antwortete",
+      "Perfekt: er/sie/es hat geantwortet",
+      "Futur: er/sie/es wird antworten"
+     ]
+    }
+   ],
+   [
+    "zuhören",
+    "to listen (to)",
+    {
+     "f": [
+      "Präsens: er/sie/es hört zu",
+      "Präteritum: er/sie/es hörte zu",
+      "Perfekt: er/sie/es hat zugehört",
+      "Futur: er/sie/es wird zuhören"
+     ]
+    }
+   ],
+   [
+    "fragen",
+    "to ask",
+    {
+     "f": [
+      "Präsens: er/sie/es fragt",
+      "Präteritum: er/sie/es fragte",
+      "Perfekt: er/sie/es hat gefragt",
+      "Futur: er/sie/es wird fragen"
+     ]
+    }
+   ],
+   [
+    "hoffen",
+    "to hope",
+    {
+     "f": [
+      "Präsens: er/sie/es hofft",
+      "Präteritum: er/sie/es hoffte",
+      "Perfekt: er/sie/es hat gehofft",
+      "Futur: er/sie/es wird hoffen"
+     ]
+    }
+   ],
+   [
+    "die Hilfe",
+    "help"
+   ],
+   [
+    "der Schuh, die Schuhe",
+    "shoe"
+   ],
+   [
+    "der Bruder, die Brüder",
+    "brother"
+   ],
+   [
+    "das Café, die Cafés",
+    "café"
+   ],
+   [
+    "der Kaffee",
+    "coffee"
+   ],
+   [
+    "die Lehrerin, die Lehrerinnen",
+    "teacher (woman)"
+   ],
+   [
+    "übrigens",
+    "by the way"
+   ],
+   [
+    "nett",
+    "nice, kind"
+   ],
+   [
+    "bequem",
+    "comfortable"
+   ],
+   [
+    "Herzlichen Glückwunsch!",
+    "Congratulations!"
+   ]
+  ],
   "ex": [
    {
     "t": "tab",
@@ -17768,7 +18334,68 @@
    "d07",
    "d09"
   ],
-  "v": [],
+  "v": [
+   [
+    "welcher, welche, welches",
+    "which?"
+   ],
+   [
+    "meiner, meine, meins",
+    "mine"
+   ],
+   [
+    "die Mütze, die Mützen",
+    "cap"
+   ],
+   [
+    "die Haube, die Hauben",
+    "woolly hat; Austria (Germany: Mütze)"
+   ],
+   [
+    "die Farbe, die Farben",
+    "colour"
+   ],
+   [
+    "grau",
+    "grey"
+   ],
+   [
+    "rot",
+    "red"
+   ],
+   [
+    "blau",
+    "blue"
+   ],
+   [
+    "der Hund, die Hunde",
+    "dog"
+   ],
+   [
+    "kennen",
+    "to know (a person or thing)",
+    {
+     "f": [
+      "Präsens: er/sie/es kennt",
+      "Präteritum: er/sie/es kannte",
+      "Perfekt: er/sie/es hat gekannt",
+      "Futur: er/sie/es wird kennen"
+     ]
+    }
+   ],
+   [
+    "mitnehmen",
+    "to take (with you)",
+    {
+     "f": [
+      "Präsens: ich nehme mit · du nimmst mit · er/sie/es nimmt mit",
+      "Präteritum: er/sie/es nahm mit",
+      "Perfekt: er/sie/es hat mitgenommen",
+      "Futur: er/sie/es wird mitnehmen"
+     ]
+    }
+   ]
+  ],
   "ex": [
    {
     "t": "tab",
