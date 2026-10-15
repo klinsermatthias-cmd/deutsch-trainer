@@ -23,5 +23,5 @@ Zu jeder Zeile in `lektionen/pruefliste.md` (gleiche Nummer): Beispiel und woher
 | 17 | Kasten → auch Schrank (d07 Dialog 54); „die Ordination“ → „Germany: Praxis, Arztpraxis“ | Matthias 12.10., D-1013-4 |
 | 18 | d01 vorher: Perfekt, haben/sein, Präteritum, Futur und Modalverb-Perfekt in einem Thema, Regeln in Fließtext mit Klammern | Matthias 13.10.2026, S-1013-34 |
 | 19 | d04 „das Getränk“ als Beispiel für Ge-…-e; Kurzliste ohne „außer“ | Matthias 13.10. („auch zukünftige Themen so prüfen“) |
-| 20 | d01: Tabelle „ist passiert“ erst im letzten Schritt (passieren + sein kommt in d01b); d04 ex 57 verlangte „konnte“ (d03 kommt später); d01b ex 7 „mit dem Zug“ vor d05b/d09 | Matthias 14.10., Simulation 14.10. (D-1014-57/-58/-62) |
+| 20 | d01: Tabelle „ist passiert“ erst im letzten Schritt (passieren + sein kommt in d01b); d04 ex 57 verlangte „konnte“ (d03 kommt später); d01b ex 7 „mit dem Zug“ vor d05b/d09; d01 Schritt 1 ex 73 „gearbeitet“ – Abschnitt 4 zeigt die Form nur als Beispiel, die Bildungsregel kommt erst in Schritt 2 | Matthias 14.10., Simulation 14.10. (D-1014-57/-58/-62), Matthias 15.10. (S-1014-52) |
 | 22 | d14–d16 mit je ~50 Übungen in 4 Schritten bleiben so; eine Runde zieht 20 daraus | Matthias 15.10.2026 (über Simulation, D-1014-76) |
