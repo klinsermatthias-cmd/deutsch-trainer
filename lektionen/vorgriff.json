@@ -68,6 +68,159 @@
   ],
   "d19": [
    ", (der|die|das|den|dem|denen) "
+  ],
+  "d01/2": [
+   "\\bge(?!hen\\b|ben\\b|gen\\b|ht\\b|stern\\b|nug\\b|rne\\b|nau\\b)[a-zäöüß]{2,}(t|en)\\b"
+  ],
+  "d01/3": [
+   "\\b(ein|aus|auf|an|ab|mit|zu|vor|weg|zurück|fern|um|nach|los|her|hin)ge[a-zäöüß]+(t|en)\\b",
+   "\\b(besucht|bestellt|bezahlt|bekommen|verstanden|vergessen|verkauft|verdient|verpasst|erzählt|erklärt|erlebt|entschieden|begonnen|beantwortet|versucht|vereinbart|verschoben|gewonnen)\\b",
+   "\\b[a-zäöü]+iert\\b"
+  ],
+  "d01/4": [
+   "^(bin|bist|ist|sind|seid)$",
+   "\\b(bin|bist|ist|sind|seid)\\b[^.?!,]*\\b(gefahren|gegangen|gekommen|geflogen|gelaufen|gewandert|umgezogen|aufgestanden|geblieben|gewesen|angekommen|passiert)\\b"
+  ],
+  "d01/5": [
+   "\\b(werde|wirst|wird|werdet)\\b",
+   "\\bwerden\\b.*\\b\\w+en[.!?]?$",
+   "\\b(kaufte|wanderte|schlief|besuchte|traf|flog|zog|blieb|passierte|stand|machte|ging|kam|fuhr)\\b",
+   "\\bseit\\b"
+  ],
+  "d01b/2": [
+   "\\b(aufgewacht|eingeschlafen|geworden|gestorben|geblieben|gewesen|passiert)\\b"
+  ],
+  "d01b/3": [
+   "\\b(habe|hast|hat|haben|habt) (mich|dich|sich|uns|euch)\\b",
+   "\\b(habe|hast|hat|haben|habt)\\b[^.?!,]*\\bgefahren\\b"
+  ],
+  "d01b/4": [
+   "\\b(war|warst|waren|wart|hatte|hattest|hatten|hattet|musste|musstest|mussten|musstet|konnte|konntest|konnten|konntet)\\b",
+   "\\b(gesessen|gestanden|gelegen)\\b"
+  ],
+  "d02/2": [
+   "^(?!W)[A-ZÄÖÜ][a-zäöü]+ (du|Sie|ihr|er|sie|es|wir|ich)\\b[^,]*\\?$",
+   "^[A-ZÄÖÜ][a-zäöü]+ Sie bitte\\b",
+   "!$"
+  ],
+  "d02/3": [
+   "\\b(kann|kannst|können|könnt|muss|musst|müssen|müsst|will|willst|wollen|darf|darfst|dürfen|soll|sollst|sollen|möchte|möchtest|möchten)\\b[^,]* [a-zäöüß]+en[.!?]?$",
+   " (ab|an|auf|aus|ein|mit|zu|vor|zurück|weg|fest|los|nach)[.!?]?$"
+  ],
+  "d02/4": [
+   "\\b(denn|sondern)\\b"
+  ],
+  "d02b/2": [
+   "(weil|dass|ob|wenn|obwohl|da|wann|wo|wie|warum)\\b[^,.]* (?!morgen |gestern |heuten )[a-zäöüß]+(en|t) (kann|kannst|können|muss|musst|müssen|will|darf|soll|möchte|möchtest|habe|hast|hat|haben|bin|bist|ist|sind|werde|wirst|wird|werden)\\b",
+   "(weil|dass|ob|wenn|obwohl|da)\\b[^,.]* (ab|an|auf|aus|ein|mit|zu|vor|zurück)[a-zäöüß]+(e|st|t|en)[.!?]?$"
+  ],
+  "d02b/3": [
+   "^(Weil|Wenn|Obwohl|Da|Dass|Ob|Wann|Wo|Wie|Warum) [^,]+, [a-zäöüß]+"
+  ],
+  "d03/2": [
+   "\\b[Aa]ls (ich|du|er|sie|es|wir|ihr|Sie|man|mein\\w*|dein\\w*|der|die|das|Kind|Student\\w*|Jugendliche\\w*)\\b"
+  ],
+  "d03/3": [
+   "\\b([Ii]mmer|[Jj]edes Mal,?) wenn\\b",
+   "\\b[Ww]enn\\b[^,.]*\\b(war|warst|waren|hatte\\w*|konnte\\w*|musste\\w*|ge[a-zäöüß]+(t|en) (hat|hatte|ist|war))\\b"
+  ],
+  "d03b/2": [
+   "\\b[Bb]evor\\b"
+  ],
+  "d03b/3": [
+   "\\b[Nn]achdem\\b",
+   "\\b(hatte|hattest|hatten|hattet|war|warst|waren|wart)\\b[^,.]* (ge[a-zäöüß]+(t|en)|[a-zäöü]+ge[a-zäöüß]+(t|en))\\b",
+   "\\b[Ww]ährend (des|der|eines|einer)\\b",
+   "\\b[Vv]orher\\b"
+  ],
+  "d04/3": [
+   "\\b[Kk]ein(e|en|em|er)?\\b"
+  ],
+  "d04b/2": [
+   "\\b(Kassen|Museen|Zentren|Würste|Sackerln?)\\b",
+   "\\b[Kk]eine [A-ZÄÖÜ]\\w*(n|er|s)\\b"
+  ],
+  "d04b/3": [
+   "\\b([Ee]in|[Ee]ine|[Zz]wei|[Dd]rei|[Vv]ier|[Ff]ünf|[Ss]echs|[Ss]ieben|[Aa]cht|[Nn]eun|[Zz]ehn|\\d+) (Kilo|Stück|Gramm|Deka|Dekagramm|Liter|Packung|Packungen|Flasche|Flaschen|Dose|Dosen)\\b"
+  ],
+  "d05/2": [
+   "\\b[Ww]en\\b"
+  ],
+  "d05/3": [
+   "\\b([Dd]ies|[Ww]elch|[Jj]ed)(er|e|es|en|em)\\b",
+   "\\b([Mm]ein|[Dd]ein|[Ss]ein|[Ii]hr|[Uu]nser|[Ee]ur)(e|en|em|er|es)\\b",
+   "\\b([Mm]ein|[Dd]ein|[Uu]nser|[Ee]uer) [A-ZÄÖÜ]"
+  ],
+  "d05/4": [
+   "(?<![\\wäöüß])(schenkte|gab|packte|suchte|überreichte)\\b"
+  ],
+  "d05b/2": [
+   "\\b(Kindern|Freunden|Freundinnen|Leuten|Männern|Eltern)\\b",
+   "\\b(den|meinen|deinen|unseren|euren|ihren|seinen|keinen|diesen) (Kolleginnen|Nachbarinnen|Nachbarn|Autos)\\b"
+  ],
+  "d05b/3": [
+   "\\b[Ww]em\\b",
+   "\\bHerrn\\b",
+   "\\b(dem|einem|meinem|deinem|seinem|ihrem|unserem|eurem|diesem) (Kollegen|Nachbarn)\\b"
+  ],
+  "d06/3": [
+   "\\b(es|ihn|sie) (mir|dir|ihm|ihr|uns|euch|ihnen|Ihnen)\\b"
+  ],
+  "d06/4": [
+   "\\b(half|gefiel|nahm|lieh|schickte|gratulierte|gehörte|passte|schmeckte|dankte)\\b"
+  ],
+  "d06b/2": [
+   "\\b(gefällt|gefallen|schmeckt|schmecken|gehört|gehören) (mir|dir|ihm|ihr|uns|euch|ihnen|Ihnen)\\b",
+   "\\b(Mir|Dir|Ihm|Ihr|Uns|Euch|Ihnen) (gefällt|gefallen|schmeckt|schmecken|gehört|gehören|passt|passen)\\b",
+   "\\b(passen) (mir|dir|ihm|ihr|uns|euch|ihnen|Ihnen)\\b"
+  ],
+  "d07/2": [
+   "\\bwelche\\b",
+   "\\b([Uu]nseres|[Ee]ures|[Uu]nsres)\\b"
+  ],
+  "d07/4": [
+   "\\b(vergaß|verlor|fand|holte)(?![\\wäöüß])"
+  ],
+  "d08/2": [
+   "(^|[.!?,] |\\[| / )(Lies|Iss|Sieh|Öffne|Atme|Warte|Arbeite|Schlaf|Sammle)\\b",
+   "^(lies|iss|warte|schlaf|schlafe|öffne|atme)$"
+  ],
+  "d08/3": [
+   "\\b[Ss]eien Sie\\b",
+   "(^|[.!?] )[Ss]ei\\b",
+   "^sei$",
+   "\\b(Setz|Ruh|Setzt|Ruht|Setzen Sie|Ruhen Sie) (dich|euch|sich)\\b"
+  ],
+  "d09/3": [
+   "\\b([Zz]um|[Zz]ur|[Bb]eim|[Vv]om)\\b"
+  ],
+  "d11/3": [
+   "\\b(leg|stell|lieg|steh|sitz)(e|st|t|en)\\b",
+   "\\b(hängt|hängen|hänge|hängst)\\b"
+  ],
+  "d11/4": [
+   "\\b(lag|lagen|stand|standen|saß|saßen|hing|hingen|trug|trugen|legte|stellte|hängte)\\b",
+   "\\b(gelegen|gestanden|gesessen|gelegt|gestellt|getragen|gehangen|gehängt)\\b"
+  ],
+  "d14/3": [
+   "\\b(erst|zweit|dritt|viert|fünft|sechst|siebt|siebent|acht|neunt|zehnt|elft|zwölft|\\w+zehnt|\\w*zigst|\\w*ßigst)(e|en|er|es|em)\\b",
+   "\\b(der|die|das|den|dem)selben?\\b",
+   "\\b(im|am|zum|zur|beim|vom) selben\\b"
+  ],
+  "d15/5": [
+   "\\b(?!unser|euer|ander)[a-zäöüß]+er(e|en|em|er|es) [A-ZÄÖÜ]",
+   "\\b(größer|kleiner|heller|billiger|teurer|besser|älter|wärmer|kälter|dunkler)(e|en|em|er|es)\\b",
+   "\\b(etwas|nichts|viel|was) [A-ZÄÖÜ][a-zäöüß]+es\\b",
+   "\\b[Bb]ekannte[nr]?\\b",
+   "\\bAlles Gute\\b"
+  ],
+  "d16/2": [
+   "\\b(lieber|liebsten)\\b"
+  ],
+  "d16/3": [
+   "[Gg]eehrte",
+   "[Ff]reundlichen Grüßen",
+   "\\b[Ii]ch schreibe Ihnen\\b"
   ]
  }
 }

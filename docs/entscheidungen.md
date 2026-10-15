@@ -111,3 +111,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - D-1014-76: je Thema ~50 Übungen im Hintergrund, eine Runde zieht 20; nichts kürzen (Prüfliste Regel 22).
 - d15 hinten ergänzt: Abschnitt 8 Komparativ vor dem Nomen (größer, älter, teurer …; ein größeres Zimmer), Abschnitt 9 Adjektive als Nomen (der Bekannte/ein Bekannter, der Deutsche, etwas Gutes, Alles Gute!), 3 Karten, neuer Schritt 5 mit 12 Übungen. „der/die Alte“ bewusst nicht (umgangssprachlich, kann abwertend klingen). Abweichung: Schritt 4 mischt, Schritt 5 kommt danach (Schritte nur anhängen).
 - Lange Lesetexte (150–190 Wörter, 4 Fragen) in d11, d14, d15, d16, jeweils im Mischschritt; neue Wörter mit GLOSS-Eintrag. les-Format reicht; Wunsch an die Engine: bei langen Texten Fragen näher am Text (scrollen).
+
+## 2026-10-15 – Vorgriffe innerhalb der Lernschritte (S-1014-52/-53)
+- Regel 20 ergänzt: ein Beispiel in der Theorie reicht nicht, die Bildungsregel muss im selben oder einem früheren Schritt stehen. Alle 21 Themen mit Lernschritten geprüft; verschoben (nur Zuordnung): d01 ex73 „gearbeitet“ Schritt 1 → 2, d03 ex80 „Wenn es geschneit hat …“ Schritt 2 → 3. Alle Schritte behalten ≥ 8 Übungen in ≥ 3 Arten.
+- 38 Schritt-Marker `<id>/<k>` in `lektionen/vorgriff.json` (d01–d16), Reihenfolge um d14–d16 ergänzt; danach 1 Treffer (d01 ex108 „gekauft“ steht schon im Fehlersatz – Fehlalarm).
+- Offen: Die immer sichtbare Einleitung („The most important things“) fasst in vielen Themen die Regeln späterer Schritte schon zusammen; sie zählte hier nicht als Bildungsregel, Marker dafür fehlen deshalb nicht – Entscheidung bei Matthias.
