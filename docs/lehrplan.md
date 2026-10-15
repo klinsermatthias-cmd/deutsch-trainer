@@ -107,5 +107,5 @@ Neue Reihenfolge (S-1014-15): nach d11 kommen d14/d15 (Adjektivendungen) → d16
 Umfang: 30 neue Themen ≈ 30–60 Wochen; Block C wird beim Checkpoint 4 neu geplant.
 
 ## Nächste Schritte
-1. d14, d15, d16 gebaut (S-1014-15); weiter: Umformen/Fehler finden in d01–d09b, Wortlisten d01b–d07b (S-1014-16).
+1. d14, d15, d16 gebaut; Fehler finden/Umformen in d01–d09b ergänzt (S-1014-15); weiter: Wortlisten d01b–d07b und B1-Wörter (S-1014-16).
 2. Nach d07: Checkpoint 1 (Bericht → Analyse → Neuplanung, mit den Wiederholungsitems aus S-1013-17).

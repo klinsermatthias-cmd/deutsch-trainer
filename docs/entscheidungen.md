@@ -92,3 +92,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - d16 „Könnten Sie mir sagen, ob …?“ nach d15: hätte, wäre, könnte, würde + Infinitiv, sollte (Rat), gern – lieber – am liebsten, höfliche indirekte Frage (ob/Fragewort), formelle E-Mail (Anrede mit Komma, klein weiter, Sie/Ihnen groß, du/Du im Brief); Situation Anruf bei der Hausverwaltung wegen der Heizung. 22 Karten, 51 Übungen in 4 Lernschritten; req wie d15 plus d08, d03, d15.
 - Quellen im Prüfvermerk (wiktionary-Flexion, lingolia, Duden-Regeln D 83/84/132, DWDS, ostarrichi). „kaputt“ ist laut Duden umgangssprachlich: in E-Mail-Übungen „funktioniert nicht“. Installateur ≈ Klempner (DE); Spengler ist nicht der Wasserinstallateur.
 - Ohne Quelle: „bei haben/sein eher hätte/wäre als würde“, „Grüß Gott“ speziell am Telefon, Natürlichkeit der neuen Sätze. Vorgriff-Hinweis ex13 „, das“ ist Demonstrativ, kein Relativsatz.
+
+## 2026-10-15 – Fehler finden und Satz umformen in d01–d09b (S-1014-15 Teil 2)
+- Je Thema 4 neue `gap`-Übungen mit ganzem Satz (2 × „Finde den Fehler“, 2 × Umformen: ins Perfekt/Präteritum, Plural, mit weil/ob/wenn, Pronomen, Kurzformen …), hinten angehängt und auf die Lernschritte verteilt, die die Regel lehren; `h` nennt nur das Format. Zusammen 72 Übungen.
+- Vorgriff-Hinweise der neuen Übungen („am Samstag“, „zum Arzt“, „zur Schule“, „ins Büro“, „im Café“) stehen fertig im Aufgabensatz und werden nur abgeschrieben – kein Vorgriff. Neue GLOSS-Einträge: Schule, glaube, zeigen, Jahr, Park, Bank, Füße, laufen, Arm.
+- Quellen als Nachtrag im Prüfvermerk je Thema; ohne Quelle: Wortstellungs-, Pronomen- und Possessivregeln, die nur aus der Theorie der Themen stammen.
