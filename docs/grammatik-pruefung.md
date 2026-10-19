@@ -167,3 +167,19 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Umfang:** 3 Regeln (Dativ-Person, Ding als Subjekt, „I like“) ✓.
 - **Klarheit:** sehr gut – das ist eines der klarsten Themen; die Gegenüberstellung „Ding = Subjekt, Verb richtet sich nach dem Ding“ ist für Englisch-Sprechende genau die Stolperstelle.
 - **Vorschlag:** inhaltlich nichts; nur 45 Übungen → Punkt 11.
+
+#### d07 Ist das deiner? – meiner, einer, keiner (A2) – 6 Abschnitte + 🇦🇹 + Verbformen, 4 Lernschritte, 64 Übungen (+ 16 ausgeblendet)
+- **Inhalt richtig:** Possessivpronomen ohne Nomen mit den Endungen von *der/die/das* (*meiner, meine, meins*), Abweichung nur in Nom. Mask. sowie Nom./Akk. Neutrum, *unseres, eures* – lingolia „Possessivpronomen“ (Deklinationstabellen, „abweichende Endungen … hervorgehoben“) ✓. *meins* = Nom./Akk. Sg. Neutrum „bei nicht attributivem Gebrauch“, Nebenform *meines* – Wiktionary „meins“ ✓. *welche* als Indefinitpronomen im Plural, Synonym *einige*, Singular *einer, eine, eins/eines* – Wiktionary „welche“ (Indefinitpronomen, Bedeutung [4]–[6]) ✓. *keiner* = „nicht einer“ – Wiktionary „keiner“ ✓. *vergessen – vergaß – vergessen*, *verlieren – verlor – verloren*, *finden – fand – gefunden*, *abholen* (trennbar, schwach) – Wiktionary ✓.
+- **🇦🇹 belegt:** *das Häferl* – Duden: „österreichisch umgangssprachlich“, Bedeutung „Tasse“, Plural *die Häferl, Häferln* ✓ („informal“ steht schon in der App ✓). *der Kasten* = Schrank – Duden: „süddeutsch, österreichisch, schweizerisch“ ✓.
+- **Ohne Quelle:** „*meines, deines …* are also correct – **more formal**“ – Wiktionary nennt *meines* nur als Nebenform, ohne Stilangabe; lingolia nennt es nicht. → „also correct (less common)“ oder nur „also correct“.
+- **Technik:** Lernschritt 3 „Wiederholung: Dativ, Pronomen, Plural“ hat kein `sec` (wird ohne Theorieabschnitt gezeigt) – laut `lektionen/README.md` zulässig für Wiederholungsschritte? → bei Punkt 10 (App-Prüfung) nachsehen.
+- **Umfang:** 3 Teilregeln (Endungen, meins/meines, welche) ✓; Übungsmix breit (10 Formate) ✓.
+- **Klarheit:** gut; die Zeile „Only three forms are different“ ist die Kernaussage und sollte unter „Wichtigstes“ stehen (dort steht nur die Endungsregel).
+- **Vorschlag:** „more formal“ ersetzen; Kernsatz „nur drei Formen anders“ nach oben.
+
+#### d07b Den nehme ich! – der, die, das allein und welcher? (A2) – 6 Abschnitte, 3 Lernschritte, 41 Übungen
+- **Inhalt richtig:** *der/die/das* als Demonstrativpronomen haben die Formen des Artikels, betont gesprochen; ohne Nomen im Dativ Plural *denen* – lingolia „Demonstrativpronomen“ („Als Ersatz (ohne Nomen) verwenden wir im Dativ Plural *denen*“) ✓; Duden „der (Demonstrativpronomen)“: „immer betont“, Beispiel *denen muss man gute Noten geben* ✓. „Very common in speech, also for people; in writing *er/sie/es* more neutral“ – Duden: „statt des Personalpronomens, Gebrauch umgangssprachlich: *Suchst du deinen Bruder? Der (er) kommt gleich*“ ✓. *welcher/welche/welches* fragt nach einer Auswahl, Endungen von *der* – lingolia „Interrogativpronomen“ (Deklinationstabelle, Beispiel *Welcher (Hund) gehört Manuela? – Der kleine.*) ✓. *Gehören die Häferl …* – Duden Plural *die Häferl* ✓.
+- **🇦🇹:** kein eigener Kasten, Häferl aus d07 ✓; keine Verbformen-Tabelle (keine neuen Verben) ✓.
+- **Umfang:** 3 Teilregeln ✓.
+- **Klarheit:** sehr gut, knapp; ⚠-Tabelle trifft die typischen Fehler (*Der nehme ich*, *den gehören*).
+- **Vorschlag:** inhaltlich nichts; nur 41 Übungen (unter D-1014-76 ≈ 50) → Punkt 11.
