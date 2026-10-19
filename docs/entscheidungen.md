@@ -125,3 +125,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Je Thema ein `les` mit 171–207 Wörtern, 4 Absätzen und 4 Fragen, hinten angehängt im Mischschritt (18 Texte). Nur Grammatik des Themas und früherer Themen der Lernreihenfolge: vor d05b/d09 keine Präposition + Dativ (nur Zeitwendungen wie „am Samstag“), keine Wechselpräpositionen, keine Adjektivendungen, Nebensätze erst ab d02b; Satz für Satz gegen die Marker geprüft.
 - Aurora-Geschichte einheitlich (vor zwei Jahren nach Österreich, wohnt in Wien), keine erfundenen Familiendetails, keine Nachnamen echter Personen; Namen ohne Doppelrollen (Chefin Gruber/Moser, Ärztin Steiner, Nachbarin Huber).
 - 162 neue GLOSS-Einträge für antippbare Wörter (auch Fehlzuordnungen wie neun → „neue“, Wien → „wie“), „paar“ um „Paar = pair“ ergänzt. Quellen je Thema im Prüfvermerk; Hinweis „3 Varianten je Art“ für les in d03b/d05b (je 1 Text) bleibt offen.
+
+## 2026-10-19 – Prüfläufe auf Ubuntu 24.04 (D-1019-8)
+- GitHub hat `ubuntu-latest` auf 26.04 umgestellt; Playwright 1.56.1 startet dort kein Chromium, jeder Push blieb rot. Die Playwright-Jobs in `pruefen-und-veroeffentlichen.yml` und `engine-uebernehmen.yml` laufen jetzt auf `ubuntu-24.04`, gleich wie in Opi suomea.
+- Workflow-Dateien übernimmt „Engine übernehmen“ nicht; sie werden bei Engine-Änderungen von Hand angeglichen.
