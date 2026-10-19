@@ -152,3 +152,18 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Verweis ohne Ziel:** „Countries with an article take *in*: *in die Schweiz* – later.“ – im `docs/lehrplan.md` und in `lektionen.json` gibt es kein Thema dazu → hier direkt zwei Beispiele geben: *in die Türkei* (wohin) – *in der Schweiz* (wo) – *aus der Schweiz* (woher); lingolia „Lokale Präpositionen“ („Länder mit Artikel“: *aus der Schweiz … Urlaub in der Schweiz*; *Wir reisen in die Türkei* (nicht: *zur Türkei*)) ✓.
 - **Umfang:** 3 Regeln (wo/wohin/woher, zu/nach Hause, seit/vor) ✓.
 - **Vorschlag:** 🇦🇹-Zeile *heim* korrigieren; doppelten *ziehen*-Hinweis streichen; „later“-Verweis auflösen.
+
+#### d06 Personalpronomen (A2) – 6 Abschnitte + Verbformen, 4 Lernschritte, 57 Übungen (+ 35 ausgeblendet)
+- **Inhalt richtig:** Tabelle Nominativ/Akkusativ/Dativ inkl. *euch – euch*, *ihnen/Ihnen* – lingolia „Personalpronomen“ (Deklinationstabelle) ✓; Pronomen ersetzt ein schon genanntes Nomen und übernimmt dessen Genus – lingolia „Personalpronomen“ ✓. Wortstellung: zwei Nomen Dativ vor Akkusativ – lingolia „Deklination“ („Normalerweise verwenden wir das Dativobjekt vor dem Akkusativobjekt“) ✓; Pronomen vor Nomen und zwei Pronomen Akkusativ vor Dativ – lingolia „Hauptsätze“ („Wenn das direkte Objekt ein Pronomen ist, steht es vor dem indirekten Objekt“) ✓. Formen *leihen – lieh – geliehen*, *annehmen – nahm an – angenommen*, *helfen – half – geholfen*, *gefallen – gefiel – gefallen* – Wiktionary ✓.
+- **Fraglich:** „Like *der Kollege*: der Nachbar – den Nachbarn – dem Nachbarn. In everyday speech also *dem Nachbar*.“ – Duden „Nachbar“: Genitiv *des Nachbarn* (selten: *des Nachbars*); Wiktionary führt *dem Nachbar* als zweite Singularform, aber ohne Stilangabe → „everyday speech“ ist **ohne Quelle**. Vorschlag: die Zusatzzeile streichen oder „also seen: *dem Nachbar*“; für Aurora genügt *dem Nachbarn*.
+- **Verbformen-Tabelle passt nicht zum Thema:** Sie listet vor allem die Verben aus d06b (*gefallen, gehören, passen, schmecken, danken, gratulieren*); das Hauptverb dieses Themas, *geben* (*gab – hat gegeben*), fehlt. → Tabelle auf *geben, annehmen, leihen, schicken, helfen* beschränken, die übrigen nach d06b (Lehrplan-Regel Verbkarten, Punkt 7).
+- **Umfang:** 3 Teilregeln (Fälle, Genus bei Dingen, Reihenfolge) + §5 „gleiche Formen“ als Hilfe ✓.
+- **Klarheit:** gut; der Satz „Only with two pronouns does the accusative come first“ ist die Kernregel und steht schon unter „Wichtigstes“ ✓. `req` enthält *d09*, das in der Datei vor d06 steht – Reihenfolge → Punkt 6.
+- **Vorschlag:** *dem Nachbar*-Zeile anpassen; Verbformen-Tabelle neu zuschneiden.
+
+#### d06b Verben mit Dativ (A2) – 6 Abschnitte, 3 Lernschritte, 45 Übungen
+- **Inhalt richtig (Duden, jeweils Beispielsätze):** *kann ich dir helfen?* (helfen) ✓; *wir danken Ihnen für dieses Gespräch* (danken) ✓; *jemandem zum Geburtstag gratulieren* (gratulieren) ✓; *das Buch gehört mir* (gehören) ✓; *das Bild gefällt mir* (gefallen) ✓; *das Essen hat [mir] geschmeckt* (schmecken) ✓; *der Mantel passt [mir] nicht* und *um 15 Uhr passt es mir gut* (passen, auch „Passt dir Montag?“) ✓; *er hat mir noch nicht geantwortet* (antworten) ✓; *glaubt ihm jedes Wort* (glauben + Person) ✓; *einem Gespräch zuhören* (zuhören) ✓.
+- **🇦🇹:** keine Austriazismen im Thema; Situation (Kuchen für die Nachbarin) ist alltagsnah ✓.
+- **Umfang:** 3 Regeln (Dativ-Person, Ding als Subjekt, „I like“) ✓.
+- **Klarheit:** sehr gut – das ist eines der klarsten Themen; die Gegenüberstellung „Ding = Subjekt, Verb richtet sich nach dem Ding“ ist für Englisch-Sprechende genau die Stolperstelle.
+- **Vorschlag:** inhaltlich nichts; nur 45 Übungen → Punkt 11.
