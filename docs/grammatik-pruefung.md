@@ -4,7 +4,7 @@ Auftrag D-1019-1: alle 22 Grammatik-Themen und w01–w06 gegen Online-Quellen pr
 Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/quellen.md`.
 
 ## Checkliste (Zwischenstand – wird laufend gespeichert)
-- [ ] 1 Einstufungstest und Simulationsbefunde lesen (privat)
+- [x] 1 Einstufungstest und Simulationsbefunde lesen (privat)
 - [ ] 2 Rahmencurriculum/Einstufungsmatrix ÖIF A1–B2 laden → Grammatik-Liste je Niveau
 - [ ] 3 Vollständigkeit: Liste gegen gebaute + geplante Themen
 - [ ] 4 Themen einzeln (Klarheit, Beispiele, Aufbau, Vergleich lingolia/grammis/mein-deutschbuch/dw)
@@ -16,6 +16,8 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - [ ] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
 - [ ] 8 `docs/quellen.md` aktualisieren (D-1019-2)
 - [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
+- [ ] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
+- [ ] 11 Übungs-Audit je Thema: reicht Menge/Vielfalt (Regeln D-1014-76 u. a.), was Quellen vorschlagen, verständlich, richtig, wirksam; Vorschlag Anzahl/Mix
 
 ## Ergebnisse
 (folgen)
