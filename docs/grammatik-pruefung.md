@@ -84,3 +84,14 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Inhalt richtig:** 3 sein-Gruppen (Bewegung A→B, Zustandsänderung, *sein/bleiben/passieren*) gegenüber haben (alle anderen + Fallen *fahren* mit Akkusativ, reflexive Verben) – lingolia „Perfekt“ (200) nennt dieselben Gruppen inkl. *gelingen, geschehen*. 🇦🇹 *bin gesessen*: Duden „sitzen“ (200): „süddeutsch, österreichisch, schweizerisch: ist gesessen“ ✓.
 - **Klarheit gut:** Überblick → je Gruppe ein Abschnitt → ⚠-Tabelle mit typischen Fehlern. Bestes Beispiel für S-1013-34.
 - **Umfang:** §8 *war/hatte/musste* ist eine 4. Regel (Präteritum-Gebrauch), wiederholt in d03 §8. Vorschlag: in d01b behalten (passt zum Erzählen), in d03 §8 als Wiederholung kennzeichnen.
+
+#### d02 Wortstellung I: Hauptsatz (A2) – 8 Abschnitte + Verbformen, 5 Lernschritte, 65 Übungen
+- **Inhalt richtig:** Verb auf Position 2, Inversion bei anderem Satzanfang (lingolia „Hauptsätze“, 200); *und/aber/oder/denn* auf Position 0, *deshalb/trotzdem/dann* als Adverb auf Position 1 mit Inversion (lingolia „Konjunktionen“, 200); „Zeit vor Ort“ (lingolia „Hauptsätze“ ✓). Merkwort **TeKaMoLo**: ohne Quelle (DaF-Faustregel; Wikipedia-Artikel 404). 🇦🇹 *Ordination* (Duden: „Medizin, österreichisch“ ✓), *im Krankenstand sein* (Duden: „österreichisch“ ✓).
+- **Umfang zu groß:** 5 Teilregeln (Position 2, Position 1, Verbklammer, Position 0/1, Satzmitte). Laut Lehrplan ≤ 3.
+- **Vorschlag:** §8 Satzmitte (TeKaMoLo, Pronomen früh) nach d06 verschieben – lingolia behandelt die Mittelfeld-Ordnung zusammen mit der Objekt-Reihenfolge (Pronomen-Akkusativ vor Dativ), die d06 ohnehin braucht. In d02 nur „Zeit vor Ort“ als Satz behalten. Futur-Tabelle wie bei d01 durch Verweis ersetzen. Umsetzung nur anhängen/ausblenden.
+
+#### d02b Wortstellung II: Nebensatz (A2) – 7 Abschnitte, 3 Lernschritte, 49 Übungen
+- **Inhalt richtig:** Verb am Ende, zwei Verben (Modal/Perfekt) am Ende mit konjugiertem Verb zuletzt, Nebensatz zuerst → Hauptsatz beginnt mit Verb; *weil/da/obwohl* (lingolia „Konjunktionalsätze“, 200); *ob* in indirekten Fragen ohne Fragewort (lingolia „Indirekte Fragen“: „Gibt es kein Fragewort, verwenden wir … ob“ ✓); *weil* ↔ *denn* (lingolia „Konjunktionen“ ✓).
+- **Umfang:** 3 Regeln ✓. *obwohl* ist laut DTZ B1 – im A2-Thema vertretbar, da Wortstellung gleich.
+- **Lücke:** d03 verweist „*if* im Sinn von *whether* = *ob*, nicht *wenn* – siehe d02b“, d02b hat aber nur die Überblickszeilen „ob = whether, if“ / „wenn = if, when“, keinen Kontrast.
+- **Vorschlag:** ⚠-Zeile anhängen: *Ich weiß nicht, wenn er kommt* ✗ → *ob er kommt* ✓ („if = whether → ob“), plus 2 Lückenübungen ob/wenn. Ersatzinfinitiv-Ausnahme bleibt bei d10 (richtig so).
