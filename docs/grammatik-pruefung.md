@@ -214,3 +214,14 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Klarheit:** sehr gut – die Gegenüberstellungstabelle in §6 ist der Kern; der Dialog markiert jede Form mit *wo?/wohin?*.
 - **Reihenfolge:** `req` passend (d05/d05b Kasus, d09/d09b feste Präpositionen) ✓.
 - **Vorschlag:** *an*-Zeile neu formulieren; ⚠-Zeile präzisieren.
+
+#### d14 Die helle Wohnung im zweiten Stock – Adjektivendungen I (A2+) – 7 Abschnitte + ⚠ + 🇦🇹 + Verbformen, 4 Lernschritte, 51 Übungen
+- **Inhalt richtig:** Endungen nach bestimmtem Artikel: *-e* im Nominativ Singular und im Akkusativ Singular f/n, sonst *-en* (Akk. m, ganzer Dativ, ganzer Plural) – lingolia „Adjektiv-Deklination“, Tabelle „mit dem bestimmten Artikel“ ✓; dieselbe Tabelle gilt nach *dieser, jeder, welcher, alle, derselbe* – lingolia ✓; *dunkel → die dunkle Küche*, *teuer → das teure Zimmer* – lingolia („nicht dunkeler“, „nicht teueres“) ✓. Ordinalzahlen: *dritte, siebente* (neben *siebte*), *zwanzigste* – Duden ✓; *derselbe* mit beiden Teilen dekliniert (*demselben, denselben*) – Duden „derselbe“ ✓; *am selben Tag, zur selben Zeit* nach Verschmelzung nur *selb-* – Duden „selbe“ (a), genau diese Beispiele ✓; *in demselben* ebenfalls richtig – Duden „derselbe“ (*aus demselben Dorf*) ✓. *besichtigen, renovieren* regelmäßig schwach – Wiktionary ✓.
+- **🇦🇹 belegt (Duden):** *Jänner* „österreichisch, seltener süddeutsch“ ✓; *Feber* „österreichisch, besonders Amtssprache“ ✓ (= „mostly in official texts“); *Erdgeschoß* „süddeutsch, österreichisch“ ✓; *Stock* = Geschoss „das höher liegt als das Erdgeschoss“ ✓ (→ *erster Stock* über dem Erdgeschoß); *Kasten* = Schrank „süddeutsch, österreichisch, schweizerisch“ ✓; *Vorzimmer* = Diele „österreichisch“ ✓.
+- **Zu ungenau:** *Ablöse* – Duden: „österreichisch, sonst umgangssprachlich“, Synonym *Abstand*. Auch in Deutschland sagt man umgangssprachlich *Ablöse*; → „(Germany officially: *Abstand*; colloquially also *Ablöse*)“.
+- **Ohne Quelle:** die Faustregel „bis 19 *-te*, ab 20 *-ste*“ als Regel (Einzelformen *dritte, siebente, zwanzigste* belegt; Duden „neunzehnte“ ohne eigene Seite).
+- **Umfang:** 3 Teilregeln (§4 Nom/Akk, §5 Dativ/Plural, §6 Ordinalzahlen + *derselbe*) ✓ – §6 bündelt aber zwei verschiedene Dinge; Schritte 14/11/15/11 ✓; 10 Übungstypen ✓.
+- **Technik:** Schritt 4 „Alles zusammen“ zeigt als Theorie nur §7 (Verbformen-Tabelle) – wie d07, d11 → Punkt 8.
+- **Klarheit:** sehr gut – die Kernregel steht als zwei Zeilen ganz oben; ein Satzpaar je Genus (*Der alte Kasten … / den alten Kasten*) macht die einzige Änderung (Akk. m) sichtbar. Genitiv fehlt bewusst (A2+), die Regel „sonst -en“ deckt ihn mit ab ✓.
+- **Reihenfolge:** `req` mit 15 Themen inkl. d11 passend; *d09* steht wieder in `req` (vgl. Punkt 6).
+- **Vorschlag:** *Ablöse*-Zeile ergänzen; *derselbe* in §6 als eigene Unterüberschrift „derselbe = the same“ absetzen.
