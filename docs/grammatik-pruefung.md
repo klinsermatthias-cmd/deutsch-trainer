@@ -110,7 +110,7 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Vorschlag:** 🇦🇹-Zeile anhängen: „*nachdem* in Austria often also = *since/because* (*Nachdem es regnet, bleiben wir daheim*)“ – Beispiel vorher mit Matthias abstimmen.
 
 #### d04 der, die, das (A1) – 6 Abschnitte + Verbformen, 4 Lernschritte, 61 Übungen
-- **Inhalt richtig:** Nominativ-Tabelle der/die/das, ein/eine/ein, kein/keine (lingolia „Artikel“ ✓). *kein* verneint Nomen mit unbestimmtem/ohne Artikel, *nicht* alles andere (lingolia „Negation“ ✓). Großschreibung aller Nomen ✓. Genus-Endungen: Die femininen Endungen *-ung/-heit/-keit/-schaft/-ion/-tät* werden indirekt durch lingolia „Plural“ belegt („feminine Nomen auf *-ung, -ion* … Plural *-en*“). Die Liste selbst (*-chen* das, *Ge-…-e* meist das, Tage/Monate der) steht so nicht auf lingolia → **ohne Online-Quelle** (Standardwissen der Duden-Grammatik, nicht abrufbar). *-erl* = das: Duden „Sackerl, das“ ✓.
+- **Inhalt richtig:** Nominativ-Tabelle der/die/das, ein/eine/ein, kein/keine (lingolia „Artikel“ ✓). *kein* verneint Nomen mit unbestimmtem/ohne Artikel, *nicht* alles andere (lingolia „Verneinung“ ✓). Großschreibung aller Nomen ✓. Genus-Endungen: Die femininen Endungen sind durch lingolia „Plural“ belegt („feminine Nomen mit den Endungen *e, in, ion, ik, heit, keit, schaft, tät, ung*“ ✓). Die Liste selbst (*-chen* das, *Ge-…-e* meist das, Tage/Monate der) steht so nicht auf lingolia → **ohne Online-Quelle** (Standardwissen der Duden-Grammatik, nicht abrufbar). *-erl* = das: Duden „Sackerl, das“ ✓.
 - **🇦🇹 belegt (Duden, Gebrauch „österreichisch“):** *Paradeiser* der, *Erdapfel* der, *Karfiol* der, *Semmel* die (bayrisch, österr.), *Sackerl* das, *Kassa* die (Plural *Kassen*), *Jänner* der ✓.
 - **Umfang:** 3 Regeln (Genus-Endungen, ein/kein/nicht, Großschreibung) ✓.
 - **Klarheit:** Endungsliste ist lang (13 Zeilen) – für A1 besser in „immer“ (*-ung, -heit, -keit, -schaft, -ion, -tät, -chen, -erl*) und „meistens“ trennen, Ausnahmen als eigene ⚠-Zeile. Futur-Zeile in den Verbformen („see d01“) → wie bei d01: Futur kommt erst mit d17.
@@ -118,8 +118,37 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Vorschlag:** Endungsliste zweiteilen (immer/meistens), Futur-Zeile durch Verweis ersetzen.
 
 #### d04b Plural (A1) – 6 Abschnitte, 3 Lernschritte, 44 Übungen
-- **Inhalt richtig:** Fünf Pluraltypen (-e, -(e)n, -er, -s, ohne Endung, teils mit Umlaut) – lingolia „Plural“ ✓: feminine Nomen auf *-e/-in/-ion/-ung* → *-n/-en*; *-s* nach Vokal (*Auto, Kino*); keine Endung bei Maskulina/Neutra auf *-el/-en/-er* und *-chen/-lein*; „feminine Nomen bilden den Plural nie auf *-er*“ ✓. Pluralartikel immer *die*, Negation *keine* ✓. Maßangaben bleiben Singular (*zwei Kilo*) ✓ (lingolia „Mengenangaben“).
+- **Inhalt richtig:** Fünf Pluraltypen (-e, -(e)n, -er, -s, ohne Endung, teils mit Umlaut) – lingolia „Plural“ ✓: feminine Nomen auf *-e/-in/-ion/-ung* → *-n/-en*; *-s* nach Vokal (*Auto, Kino*); keine Endung bei Maskulina/Neutra auf *-el/-en/-er* und *-chen/-lein*; „feminine Nomen bilden den Plural nie auf *-er*“ ✓. Pluralartikel immer *die*, Negation *keine* ✓. Maßangaben bleiben Singular (*zwei Kilo*) – ohne Quelle (keine abrufbare Seite gefunden).
 - **🇦🇹 belegt (Duden):** *Sackerl* → *Sackerl/Sackerln* ✓, *Paradeiser* → *Paradeiser* ✓, *Erdäpfel* ✓, *Semmeln* ✓, *Kassa* → *Kassen* ✓; *Museum → Museen*, *Zentrum → Zentren* ✓.
 - **Umfang:** 3 Regeln ✓, aber nur 44 Übungen (Ziel ≈ 50) → Punkt 11.
-- **Klarheit:** Gut: Faustregeln nach Genus geordnet. Fehlt: Hinweis, dass man den Plural mit der Vokabel lernen muss (Lernstrategie) – eine Zeile „Learn every noun as *der Tisch, die Tische*“.
+- **Klarheit:** Gut: Faustregeln nach Genus geordnet. Fehlt: Hinweis, dass man den Plural mit der Vokabel lernen muss (lingolia: „immer besser, die Pluralform … gleich mitzulernen“ ✓) – eine Zeile „Learn every noun as *der Tisch, die Tische*“.
 - **Vorschlag:** Lernstrategie-Zeile anhängen; Übungen auf ≈ 50 aufstocken (Punkt 11).
+
+#### d05 Nominativ und Akkusativ (A1/A2) – 6 Abschnitte + Verbformen, 4 Lernschritte, 61 Übungen
+- **Inhalt richtig:** Akkusativ: nur das Maskulinum ändert sich (*der → den, ein → einen*) – lingolia „Artikel“ (Deklinationstabelle) ✓; Fragen *wer/wen/was* – lingolia „Deklination“ („Nach dem Akkusativ fragt man mit *Wen/Was*“) ✓; *sein* + Nominativ ✓. Possessivartikel: *euer* verliert das *e* vor Endung – lingolia „Possessivpronomen“ („Bei *euer* entfällt dann das *e*“) ✓.
+- **🇦🇹:** *Bonbonniere* „mostly in Austria“ – Duden („hübsch aufgemachte Pralinenpackung“, ohne Gebrauchsangabe österr.) und Wiktionary (ohne Regionalangabe) kennen das Wort, belegen aber **nicht**, dass es vor allem österreichisch ist → ohne Quelle (Variantenwörterbuch nicht abrufbar).
+- **Umfang:** 3 Regeln (Akkusativ Maskulinum, wer/wen/was, der-/ein-Wörter mit Possessiven) ✓ – §6 ist dicht (Endungslogik + 8 Possessive + *euer* + *ihr/Ihr*).
+- **Klarheit:** §5 „*Wen suchst du? – Herrn Gruber*“ setzt die n-Deklination (*Herr → Herrn*) voraus, die erst d05b §7 bringt → Beispiel tauschen (*Den Chef*). „ein-words have no ending in three places“ ist gut, aber abstrakt – eine Mini-Tabelle mit den drei leeren Feldern hervorgehoben wäre klarer.
+- **Vorschlag:** Beispiel §5 tauschen; 🇦🇹-Zeile umformulieren („*Bonbonniere* = box of chocolates; in Germany more often *Pralinenschachtel*“) oder als „ohne Quelle“ mit Matthias klären.
+
+#### d05b Dativ (A2) – 7 Abschnitte, 3 Lernschritte, 43 Übungen
+- **Inhalt richtig:** Endungen *-m · -r · -m · -n* ✓ (lingolia „Artikel“); Dativ Plural *+n*, außer nach *-s* und *-n* – lingolia „Nomen Deklination“ („Nomen, die im Plural nicht auf *-s* oder *-n* enden, bekommen im Dativ Plural ein *-n*“) ✓; *wem?* – lingolia „Deklination“ ✓; *Herr → Herrn*, *Kollege → Kollegen* – lingolia „Nomen Deklination“ (n-Deklination) ✓. Verben mit Dativ-Person + Akkusativ-Sache (*schenken, geben …*) ✓.
+- **Umfang:** 4 Teilregeln (Endungen, Plural-*n*, *wem*, n-Nomen) – knapp über 3; §7 ist bewusst als „Learn them as they are“ markiert ✓ (vertretbar). Nur 43 Übungen → Punkt 11.
+- **Klarheit:** gut; Überblick §3 wiederholt d05 §3 wörtlich (gewollt, als Anker).
+- **Vorschlag:** keine inhaltliche Änderung; Übungen auf ≈ 50 (Punkt 11).
+
+#### d09 Präpositionen mit festem Kasus (A2) – 8 Abschnitte + Verbformen, 4 Lernschritte, 61 Übungen
+- **Inhalt richtig:** Dativ-Präpositionen *aus, außer, bei, mit, nach, seit, von, zu, gegenüber* und Akkusativ-Präpositionen *durch, für, gegen, ohne, um* – lingolia „Präpositionen Liste“ (Kasus-Spalte) und „Deklination“ („mit bestimmten Präpositionen *aus … außer, bei … gegenüber, mit, nach, seit, von, zu*“) ✓; Kurzformen *beim, vom, zum, zur* ✓. *gegenüber* + Dativ – Duden „gegenüber (Präposition)“: „Präposition mit Dativ“, *gegenüber dem Rathaus / dem Rathaus gegenüber* ✓.
+- **🇦🇹 belegt:** *die Öffis* – Duden „Öffi“: „besonders österreichisch umgangssprachlich“, Plural *Öffis* ✓. *die Bim* – Duden „Bim“: „österreichisch umgangssprachlich“ = Straßenbahn ✓ – die App sagt „tram **in Vienna**“; Duden schränkt nicht auf Wien ein → „tram, informal Austrian“.
+- **Zu korrigieren:** „In everyday speech: *gegenüber vom Bahnhof*. In writing: *gegenüber dem Bahnhof*.“ – Duden „gegenüber (Adverb)“ führt *Ludwigshafen liegt gegenüber von Mannheim* **ohne** Stilangabe „umgangssprachlich“ → beides ist Standard; besser: „Also correct: *gegenüber vom Bahnhof*.“
+- **Umfang:** 3 Teilregeln (Dativ-Liste, Akkusativ-Liste, Kurzformen) + Wegbeschreibung §7 als Wortschatz ✓.
+- **Klarheit:** gut; ⚠ *für den Kollege* setzt die n-Deklination aus d05b voraus – d05b steht in `req` ✓.
+- **Vorschlag:** 🇦🇹-Zeilen *Bim* und *gegenüber vom* umformulieren (2 Zeilen, kein Umbau).
+
+#### d09b wo/wohin/woher; seit und vor (A2) – 6 Abschnitte + Verbformen, 4 Lernschritte, 53 Übungen
+- **Inhalt richtig:** *aus Österreich, vor zwei Jahren … gezogen* – lingolia „Lokale Präpositionen“ ✓; *seit* (Beginn in der Vergangenheit, dauert an) und *vor* (Zeitpunkt in der Vergangenheit) – lingolia „Temporale Präpositionen“ ✓; beide + Dativ ✓.
+- **🇦🇹:** *daheim* – Duden: „besonders süddeutsch, österreichisch, schweizerisch“ ✓. *heim* – Duden „heim“ hat **keine** regionale Angabe → die Zeile „In Austria and southern Germany also … *heim* = nach Hause“ stimmt so nicht; besser: „*daheim* = zu Hause (Austria, southern Germany). *heim* = nach Hause (everywhere).“
+- **Doppelt:** Der Hinweis „*ziehen* … in the sense ‚to move house‘ it takes *sein*“ steht im ⚠-Block **und** unter den Verbformen → einmal genügt (unter den Verbformen streichen geht nicht ohne Löschen – nur die ⚠-Zeile behalten ist eine Textänderung im `th`, kein Übungs-Eingriff).
+- **Verweis ohne Ziel:** „Countries with an article take *in*: *in die Schweiz* – later.“ – im `docs/lehrplan.md` und in `lektionen.json` gibt es kein Thema dazu → entweder hier zwei Beispiele geben (*in die Schweiz, in die Türkei, in den Iran* / *in der Schweiz*) oder „later“ streichen.
+- **Umfang:** 3 Regeln (wo/wohin/woher, zu/nach Hause, seit/vor) ✓.
+- **Vorschlag:** 🇦🇹-Zeile *heim* korrigieren; doppelten *ziehen*-Hinweis streichen; „later“-Verweis auflösen.
