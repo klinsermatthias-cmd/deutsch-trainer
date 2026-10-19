@@ -12,7 +12,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
   - [x] d06 [x] d06b [x] d07 [x] d07b [x] d08 [x] d08b [x] d11 [x] d14 [x] d15 [x] d16
   - [x] w01–w06
 - [x] 5 Offene „ohne Quelle“-Punkte aus der Prüfung vom 13.10 (D-1019-9)
-- [ ] 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
+- [x] 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
 - [ ] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
 - [ ] 8 `docs/quellen.md` aktualisieren (D-1019-2)
 - [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
@@ -356,3 +356,71 @@ Ausgangspunkt: Prüfung S-1013-50 (Bericht im Repo `opi-suomea`). Deren Korrektu
 Meine Einschätzung: Alle Wendungen sind korrektes, übliches Deutsch. Nichts davon ist ein Fehler. Es fehlt nur der Nachweis.
 
 **Neu zugänglich:** de.wikipedia.org antwortete am 19.10. wieder (Status 200, bei schnellen Abrufen 429). wien.gv.at, chipkarte.at und wienerlinien.at sind weiter gesperrt (403). Das fließt in Punkt 8 ein.
+
+### 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
+Grundlage: Themen-Reihenfolge und `req` in `lektionen.json` (nachgerechnet mit einem Skript, 19.10.), Regeln in `lektionen/README.md` Z. 9 und `docs/ablauf-thema.md` Z. 14, Lehrplan `docs/lehrplan.md`, Engine `js/ansichten.js`/`js/uebungen.js` (nur gelesen).
+
+**So arbeitet die App (Engine, nicht änderbar):**
+- **Themenliste:** Die App zeigt die Themen in Dateireihenfolge. „Als Nächstes“ wählt das erste Thema der Datei, dessen Voraussetzungen erfüllt sind.
+- **Freischalten:** Jede Voraussetzung braucht beim letzten Ergebnis mindestens 80 %. Ein bereits freies Thema wird nie wieder gesperrt.
+- **Gemischte Runden gibt es schon:**
+  - „Gemischte Wiederholung“: 10 Übungen aus allen gelernten Themen, höchstens 3 je Thema, schwächere Themen öfter (E-1007-16).
+  - „Langzeit-Check“: Themen, die über 30 Tage ruhen.
+  - „Zeigen, dass ich es kann“: bis zu 25 Übungen.
+
+**Ist-Reihenfolge (Datei):**
+- d01, d01b, d02, d02b (A2)
+- d03, d03b (B1)
+- d04, d04b (A1) · d05 (A1/A2) · d05b (A2)
+- d09, d09b, d06, d06b, d07, d07b, d08, d08b, d11 (A2)
+- d14, d15 (A2+) · d16 (A2++)
+- w01–w06 (B1, ohne `req`)
+
+**Begründete Abweichungen (keine Änderung nötig):**
+- **A1 nach A2:** d04–d05b (A1/A2) stehen nach d01–d02b (A2). Das ist so beschlossen: Start mit Perfekt und Wortstellung, weil der Einstufungstest dort die größten Lücken zeigte. Genus, Plural und Kasus kommen danach als Wiederholung.
+  - Vorschlag: Im Lehrplan einen Satz ergänzen: „d04–d05 sind A1/A2-Wiederholung, darum nach d02b“.
+- **d09/d09b vor d06:** beschlossen in D-1014-60 (Vorgriff „Geh zur Apotheke!“). Darum stehen d09/d09b auch in `req` von d06, d08, d08b.
+- **Wortpakete ab Start frei:** Ich habe w01–w06 durchsucht. Ich fand kein Passiv, keinen Genitiv, keinen Relativsatz, keinen zu-Infinitiv und kein Konjunktiv II außer dem festen „ich hätte gern“ (w05). Ohne `req` ist das also unbedenklich. Das Etikett „B1“ bezieht sich auf den Wortschatz.
+
+**Auffälligkeiten:**
+1. **d03/d03b (B1) stehen in der Datei vor d04, werden aber erst nach d09b frei.**
+   - In der Themenliste sieht Aurora zwei gesperrte B1-Themen zwischen A2 und A1. Das ist nicht falsch, aber verwirrend.
+   - Themen zu verschieben ist nicht durch „nur hinten anhängen“ verboten (die Regel gilt für Vokabeln und Übungen; d09 wurde nach D-1014-60 schon verschoben). Es ändert aber, was „Als Nächstes“ anbietet.
+   - Vorschlag: d03/d03b in der Datei direkt hinter d09b setzen. Dort sieht sie auch der Lehrplan („d03 direkt nach d09b“, S-1013-16).
+2. **`req` ist nicht überall vollständig.** Die README verlangt „**alle** Themen, auf denen das Thema aufbaut“. Nachgerechnet über alle Voraussetzungs-Ketten fehlen:
+   - in **d03 und d03b**: d04, d04b, d05, d05b (nur über d09 enthalten)
+   - in **d08 und d08b**: d04, d04b (nur über d05 enthalten)
+   - **Korrektur meiner früheren Notiz:** d11 (ohne d06b/d07/d07b) und d16 (ohne d08b/d03b) sind **keine** Lücken. Diese Themen bauen inhaltlich nicht darauf auf, und keine Voraussetzungs-Kette führt dorthin.
+   - **Wirkung:**
+     - Beim ersten Freischalten keine, weil d09 bzw. d05 erst mit d04/d05 frei werden.
+     - Sinkt später ein Ergebnis von d04/d04b unter 80 %, wird d08 trotzdem frei.
+   - Vorschlag: die fehlenden IDs **hinten** in `req` anhängen. Das ist eine kleine Datenänderung und sperrt nichts wieder.
+3. **Lehrplan ↔ README widersprechen sich leicht:**
+   - Lehrplan Z. 29: „mindestens d01, d02 und alle Themen, deren Stoff es braucht“
+   - README Z. 9: „alle Themen, auf denen es aufbaut“
+   - Vorschlag: eine Formulierung für beide: „alle Themen, deren Stoff das Thema verwendet, auch indirekt (Kette prüfen)“. Dazu eine Zeile in der Prüfliste: „`req` mit Kette nachrechnen“.
+
+**Fehlende Themen (aus §3) – wo einordnen?** Neue Themen bekommen neue IDs (ab d34). Die Position in der Datei richtet sich nach dem Lernstand. Vorschläge:
+
+| Vorschlag | Niveau | wo | `req` (Entwurf) | Begründung |
+|---|---|---|---|---|
+| **Komparation** (*billiger als, so … wie, am besten, gern/lieber/am liebsten*) | A2 | vor d14, sonst als nächstes neues Thema | d01, d01b, d02, d02b, d04, d04b, d05, d05b | d15 §8 setzt den Komparativ voraus; Alltag Einkaufen/Wohnung vergleichen |
+| **Indefinitpronomen und Artikelwörter** (*jemand, niemand, etwas, nichts, alles, man; jed-, alle, einige, manche*) | A2/B1 | wie geplant als Detail in d12 (Lehrplan Z. 81, S-1013-16) – **kein eigenes Thema** | – | **Korrektur zu §3:** Das ist schon im Plan (d12), nur noch nicht gebaut. *derselbe* passt zu d14 (siehe §4). |
+| **Richtungspräfixe** *hin/her, rein/raus/rauf/runter* | B1 | nach d11 (Wechselpräpositionen, wohin) oder als Detail in d12/d13 | d09b, d11 | Österreichischer Alltag (*eini, aussi* verstehen), knüpft an wohin/woher an |
+| **Wortbildung** (-ung, -heit/-keit, -er/-in, un-, -bar, -lich; Komposita: Genus des letzten Worts) | A2/B1 | als Abschnitt in den Wortpaketen (z. B. w07+) oder bei d04 „Genus-Tipps“ | – | Hilft beim Wortschatz-Wachstum; d04 nennt Endungen schon teilweise |
+| *(nicht) brauchen zu*, reziprok *einander* | B1 | Detail in d20 bzw. d08b | – | klein |
+| **Futur I** | B1 | eigener Lernschritt in d17 (Lehrplan) | – | reicht, wenn klar als eigener Schritt |
+
+**Übersichtsthemen:** Gemischte Runden gibt es schon (siehe oben). Sie mischen aber zufällig und **vergleichen** nicht. Was fehlt, sind kurze Themen, die verwandte Regeln nebeneinanderstellen. Dazu zwei Belege:
+- *Interleaving* (gemischtes statt blockweises Üben) und Wiederholen früherer Kapitel verbessern das Behalten: en.wikipedia „Spacing effect“ (Rohrer & Taylor 2007 „The shuffling of mathematics problems improves learning“) und „Desirable difficulty“ (Abschnitt *Spacing and interleaving*). Beide Seiten habe ich am 19.10. abgerufen.
+- Der Lehrplan sieht nach etwa 6 Themen einen kurzen Wiederholungstest vor (Z. 22) und Checkpoints (Z. 83, 89, 97). Ein Übersichtsthema würde den Checkpoint in der App vorbereiten.
+
+Vorschlag: höchstens 3 Übersichtsthemen. Jedes hat eine Theorie-Seite mit **einer** Gesamttabelle und eine ⚠-Zeile mit typischen Verwechslungen, dazu ca. 30–40 **Kontrast-Übungen** aus den Bausteinen, aber neu formuliert (also keine Kopien, damit die Spaced Repetition der alten Themen sauber bleibt). Keine neuen Regeln, keine neuen Wörter:
+
+| Arbeitstitel | Stoff | wann (`req`) |
+|---|---|---|
+| Ü1 „Wer? Wen? Wem? – alle Fälle zusammen“ | Artikel, Pronomen, feste und Wechselpräpositionen in einer Tabelle; Akk ↔ Dat bei Verben/Präpositionen | nach d11: d04–d07b, d09, d09b, d11 |
+| Ü2 „Wohin mit dem Verb? – Satzbau zusammen“ | Hauptsatz, Inversion, Nebensatz, als/wenn/wann, Zeitkonjunktionen ↔ Präpositionen | nach d03b: d02, d02b, d03, d03b |
+| Ü3 „Der, ein, kein – Artikelwörter und Adjektive“ | d07/d07b/d14/d15 zusammen | nach d15 |
+
+Die Engine braucht dafür nichts Neues: Das sind normale Themen. Wer ein Übersichtsthema schon kann, kommt mit „Zeigen, dass ich es kann“ schnell durch. Offene Frage für Punkt 9: Lohnt Ü1–Ü3 den Aufwand, oder reicht die vorhandene gemischte Wiederholung? Meine Empfehlung: **Ü1 ja** (die Kasus sind die häufigste Fehlerquelle laut §4: d05b, d06, d09, d11), Ü2/Ü3 erst nach dem nächsten Checkpoint entscheiden.
