@@ -1,4 +1,4 @@
-# Grammatik-Prüfung D-1019 (Stand: in Arbeit)
+# Grammatik-Prüfung D-1019 (Stand 19.10.2026: fertig, Vorschläge offen)
 
 Auftrag D-1019-1: alle 22 Grammatik-Themen und w01–w06 gegen Online-Quellen prüfen – Vollständigkeit, Verständlichkeit, Beispiele, Aufbau (S-1013-34), Reihenfolge A1→B2, Methode, Übersichtsthemen, Systemlücken.
 Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/quellen.md`.
@@ -15,7 +15,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - [x] 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
 - [x] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
 - [x] 8 `docs/quellen.md` aktualisieren (D-1019-2)
-- [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
+- [x] 9 Vorschläge mit Codes (D-1019-10, D-1019-50 bis -75) an Matthias
 - [x] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
 - [x] 11 Übungs-Audit je Thema: reicht Menge/Vielfalt (Regeln D-1014-76 u. a.), was Quellen vorschlagen, verständlich, richtig, wirksam; Vorschlag Anzahl/Mix
 
@@ -620,3 +620,59 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
 - Zusammen sind das etwa 50 neue Übungen.
 - Jede bekommt eine Quelle für neue Formen, wird dem passenden Schritt zugeordnet und mit der Vorgriff-Prüfung (Prüfliste 20) geprüft.
 - Das sollte pro Thema in einem eigenen kurzen Durchgang geschehen (T-1012).
+
+### 9 Vorschläge zur Entscheidung (Codes)
+
+**Hinweis zu den Codes:** Auf main haben andere Sitzungen am 19.10. schon D-1019-4, -8, -9 und -11 für Engine-Funktionen vergeben. Damit es keine Verwechslung gibt, beginnt diese Liste bei **D-1019-50**. D-1019-10 (§5) bleibt. Den Vorschlag zur Code-Regel enthält D-1019-75.
+
+**Inhalt korrigieren (Theorie und Wortpakete, nur ändern, anhängen oder ausblenden):**
+
+| Code | Vorschlag | Fundstelle |
+|---|---|---|
+| D-1019-50 | **w03: Zeile zu 112 korrigieren**. 112 gilt auch in Österreich: „144 = Rettung in Austria; 112 works in all EU countries, also in Austria“. Das ist sicherheitsrelevant und hat Vorrang. | §4 w03 |
+| D-1019-51 | Kleine Theorie-Korrekturen in d01b–d16: einzelne ⚠- und 🇦🇹-Zeilen umformulieren, Beispiele tauschen, Wiederholungen kennzeichnen; ein kurzer Durchgang je Thema | §4 je Thema |
+| D-1019-52 | d01 §10 (Präteritum/Futur) auf einen Verweis kürzen; die Futur-Tabellen in d02/d03 durch Verweise ersetzen | §4 d01–d03 |
+| D-1019-53 | d02 §8 (Satzmitte, TeKaMoLo) nach d06 verschieben; in d02 bleibt ein Satz | §4 d02 |
+| D-1019-54 | d15 §8/§9 (Komparativ vor dem Nomen, Adjektiv als Nomen) in ein Teilthema d15b auslagern | §4 d15 |
+| D-1019-55 | Korrekturen in w01–w06 außer 112 (Inserat, Teilzeit, *Visen*, Gemüse, Karotten, *schwimmen*, Plurale) | §4 w01–w06 |
+| D-1019-56 | *E-Card* → *e-card* (amtliche Schreibung); Hinweise zu *Station* und *Kaffee* anpassen | §5 |
+| D-1019-10 | Grammatikregeln, die noch ohne Quelle sind, mit grammis und lingolia prüfen, Wendungen mit DWDS-Beispielen | §5 |
+
+**Reihenfolge und neue Themen:**
+
+| Code | Vorschlag | Fundstelle |
+|---|---|---|
+| D-1019-57 | d03/d03b in der Datei hinter d09b setzen (so steht es im Lehrplan) | §6 |
+| D-1019-58 | Fehlende `req` hinten anhängen: d03/d03b + d04, d04b, d05, d05b; d08/d08b + d04, d04b | §6 |
+| D-1019-59 | Eine einheitliche `req`-Formulierung in README, ablauf-thema und Lehrplan; im Lehrplan der Satz „d04–d05 sind A1/A2-Wiederholung“ | §6 |
+| D-1019-60 | Neues Thema **Komparation** (A2: *billiger als, so … wie, am besten, lieber*), vor d14 einordnen | §3, §6 |
+| D-1019-61 | Neues Thema **Richtungspräfixe** (B1: *hin/her, rein/raus*, 🇦🇹 *eini/aussi* verstehen) nach d11 | §3, §6 |
+| D-1019-62 | **Wortbildung** (-ung, -heit/-keit, -in, un-, Genus von Komposita) als Abschnitt in neuen Wortpaketen und bei d04 | §3, §6 |
+| D-1019-63 | Übersichtsthema **Ü1 „Wer? Wen? Wem?“** (alle Fälle zusammen, Kontrastübungen). Ü2/Ü3 erst nach dem nächsten Checkpoint entscheiden | §6 |
+
+**Übungen und Wörterbuch:**
+
+| Code | Vorschlag | Fundstelle |
+|---|---|---|
+| D-1019-64 | Rund 50 Übungen laut Tabelle in §11 anhängen (d03b, d05b, d06b, d09, d04, d08, d11 sowie Übungen für fehlende Wörter), je Thema ein Durchgang | §11 |
+| D-1019-65 | Etwa 100 fehlende Wörter in `GLOSS_EXTRA` ergänzen, damit Antippen auch offline erklärt | §10 |
+| D-1019-66 | Zwei fehlende Lösungsvarianten anhängen: d01b Nr. 58 *gebracht*, w06 Nr. 15 *darf* | §11 |
+
+**Regeln (README, ablauf-thema, Prüfliste, CLAUDE.md):**
+
+| Code | Vorschlag | Fundstelle |
+|---|---|---|
+| D-1019-67 | Übungszahl einheitlich „etwa 50, mindestens 40, je Schritt ≥ 8“; eigene Regel für Wortpakete (20–30 Wörter, etwa 30 Übungen, jedes Wort in einer Übung) | §7, §11 |
+| D-1019-68 | Mix für neue Themen: ≥ 40 % Satzbildung, ≤ 30 % `gap`, ≤ 6 `mc` mit gleich langen Optionen, `x` bei typischen Fallen | §7, §11 |
+| D-1019-69 | Futur-Regel in README Z. 19: bis d17 nur auf der Verbkarte, keine neuen Futur-Lücken | §7 |
+| D-1019-70 | Teilregel definieren: „eine eigene Bildungsregel“; Überblick, Vergleich und Wortschatz zählen nicht | §7 |
+| D-1019-71 | Neue Prüflisten-Zeilen 23–26 (`req`-Kette, ✓ nur mit gelesener Fundstelle, Mix, Wortpakete) | §7 |
+| D-1019-72 | `docs/ablauf-thema.md` Z. 3: „Entwürfe kommen oft vom Chat Simulation“ streichen (passt zu D-1019-8) | §10 |
+| D-1019-73 | In CLAUDE.md unter „Abläufe“ auf dieses Prüfdokument verweisen, bis alles erledigt ist; `docs/ki-qualitaet.md` als „noch keine Auswertung“ kennzeichnen | §10 |
+
+**An andere Chats und Code-Regel:**
+
+| Code | Vorschlag | Fundstelle |
+|---|---|---|
+| D-1019-74 | An „App-Engine: Funktionen“ melden: (1) Der Antipp-Test kennt kein ü, ß oder é (`\p{L}` mit Flag `u` verwenden). (2) `docs/engine.md` Z. 44 verweist auf eine Datei, die es nicht gibt, und auf den Simulation-Chat. | §10 |
+| D-1019-75 | Code-Regel: D-Codes vergibt nur dieser Chat. Engine-Sitzungen nutzen E. Läuft parallel eine zweite D-Sitzung, nimmt sie Nummern ab 50 bzw. 100 und nennt das in ihrer ersten Meldung. Die Regel kommt in CLAUDE.md Z. 15. | §10 |
