@@ -248,3 +248,56 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Klarheit:** sehr gut – „vier Formen“ als Kern, Herleitung aus dem Präteritum, Gegenüberstellung direkt/höflich; *wenn* vs. *ob* steht im ⚠ ✓.
 - **Reihenfolge:** `req` mit 19 Themen inkl. d03 (Präteritum), d08 (Imperativ), d15 passend ✓; d03b und d08b fehlen in `req`, werden aber nicht vorausgesetzt.
 - **Vorschlag:** ⚠-Zeile *würde … haben* ersetzen; 🇦🇹-Zeile *Installateur* umformulieren; in §6 die formelle E-Mail als eigene Unterüberschrift.
+
+#### Wortpakete w01–w06 – gemeinsamer Befund
+- **Aufbau (alle sechs gleich):** 5 Abschnitte (Situation, Dialog, zwei Wortfelder, 🇦🇹/🇩🇪 bzw. Wendungen), 3 Lernschritte (Abschnitte 1–3 / 4 / 5), `req` leer, Niveau B1 – entspricht S-1014-5/S-1014-12 ✓.
+- **Mengen:** 25–26 Wörter; 29 Übungen (w01: 30, zusätzlich 1 *ord*); Mischung je 2 zuo / 6 gap / 6 tr / 4 mc / 2 luk / 3 sch / 3 les / 3 dlg = 8 Typen ✓; Schritte 10–11/11/8 – Schritt 3 hat **8** Übungen, genau an der Untergrenze von S-1014-1 ✓. Gegenüber D-1014-76 (≈ 50 je Thema, 20 je Runde) deutlich weniger → Punkt 11.
+- **Technik:** Schritt 3 „Alles zusammen“ zeigt nur Abschnitt 5 (🇦🇹-Tabelle bzw. Wendungen) als Theorie – für Wortpakete vertretbar, da die Wörter in den Karten stecken.
+
+#### w01 Wortschatz: Wohnen (B1) – 5 Abschnitte, 26 Wörter, 3 Lernschritte, 30 Übungen
+- **🇦🇹 belegt (Duden):** *Stiege* = Treppe „süddeutsch, österreichisch“ ✓; *Vorzimmer* (österreichisch = Diele/Flur) ✓; *Lift* ohne Regionalmarkierung (wird auch nicht als österreichisch behauptet) ✓.
+- **Inhalt richtig (Duden):** *Kaution* Bed. 2 (Mietkaution) ✓; *Betriebskosten* nur Plural ✓; *Möbel* „meist im Plural“ ✓; *einziehen/ausziehen* (Wohnung) mit *ist* ✓.
+- **Ohne Quelle:** *Inserat* als österreichisches Wort – Duden ohne Regionalmarkierung; die Häufigkeit in Österreich ist plausibel, aber nicht belegt → Zeile „more common in Austria“ oder streichen. Dialogsatz „Die Kaution **sind** drei Monatsmieten“ – Subjekt *die Kaution* (Singular) verlangt das Verb im Singular; → „Die Kaution **beträgt** drei Monatsmieten.“
+- **Klein:** *Möbel* „usually plural; one piece: *das Möbelstück*“; *Hausbesorger* (Duden: österreichisch = Hausmeister) als 🇦🇹-Wort ergänzen; Falle *ausziehen* (Kleidung) mit *hat* – ein Satz unter dem Perfekt-Hinweis.
+- **Klarheit:** gut – Situation (Wohnungssuche in Wien) und Dialog passen, Wortfelder klar getrennt.
+- **Vorschlag:** Dialogsatz korrigieren; *Inserat*-Zeile umformulieren; *Hausbesorger*, *Möbelstück* ergänzen.
+
+#### w02 Wortschatz: Arbeit (B1) – 5 Abschnitte, 26 Wörter, 3 Lernschritte, 29 Übungen
+- **🇦🇹 belegt (Duden):** *der Gehalt* „österreichisch“ neben *das Gehalt* ✓; *Dienstgeber* „besonders österreichisch“ = Arbeitgeber ✓; *Krankenstand* „österreichisch“ ✓.
+- **Inhalt richtig:** Plurale *Praktika, Firmen* (Duden) ✓; *der Kunde* n-Deklination (*den/dem/des Kunden*) – Duden ✓; *bewerben* stark (*bewarb, hat beworben*) – Duden ✓.
+- **Ohne Quelle:** der Zusatz „(spoken)“ bei *der Gehalt* – Duden sagt nur „österreichisch“, ohne Stilangabe → „(Austria, also *das Gehalt*)“. „Die Stelle ist Teilzeit“ – umgangssprachlich üblich, aber nicht belegt → „Es ist eine Teilzeitstelle.“
+- **Info:** Duden kennt auch *die Kunde* (österreichisch, = Kundschaft) – für B1 nicht nötig.
+- **Klarheit:** gut.
+- **Vorschlag:** „(spoken)“ ersetzen; Teilzeit-Satz umformulieren.
+
+#### w03 Wortschatz: Gesundheit (B1) – 5 Abschnitte, 25 Wörter, 3 Lernschritte, 29 Übungen
+- **🇦🇹 belegt (Duden):** *Rettung* = Rettungsdienst und Rettungswagen, beide „österreichisch“ ✓; *Spital* = Krankenhaus „österreichisch, schweizerisch, landschaftlich, sonst veraltet“ ✓; *sich verkühlen* = sich erkälten „besonders österreichisch“ (Beispiel „ich habe mich ein bisschen verkühlt“) ✓.
+- **Inhalt richtig:** Plurale *Hälse* (Duden), *Bäuche, Zähne* (Wiktionary) ✓; „Was fehlt Ihnen?“ – Duden *fehlen* „fehlt dir etwas? (bist du krank?)“ ✓. Notrufnummern 144 (Rettung) und 112 (Euro-Notruf) – oesterreich.gv.at „Notrufnummern“ ✓.
+- **Zu ungenau:** Die 🇦🇹/🇩🇪-Tabelle stellt 144 (Österreich) neben 112 (Deutschland) – das legt nahe, dass 112 in Österreich nicht gilt. 112 funktioniert EU-weit, auch in Österreich (oesterreich.gv.at) → „144 = Rettung in Austria; 112 works in all EU countries, also in Austria“.
+- **Ohne Quelle:** *Krankenwagen* als bundesdeutsches Gegenwort nicht eigens nachgeschlagen.
+- **Klarheit:** gut – Notfall-Dialog praxisnah.
+- **Vorschlag:** 112-Zeile korrigieren (sicherheitsrelevant, Priorität hoch).
+
+#### w04 Wortschatz: Ämter und Behörden (B1) – 5 Abschnitte, 25 Wörter, 3 Lernschritte, 29 Übungen
+- **🇦🇹 belegt:** *Meldezettel* „besonders österreichisch“, „Formular, Bestätigung für polizeiliche Anmeldung“ (Duden) ✓; Anmeldefrist drei Tage – oesterreich.gv.at „Anmeldung eines neuen Hauptwohnsitzes oder Nebenwohnsitzes“ ✓; *Staatsbürgerschaft* – Duden ohne Regionalmarkierung (= Staatsangehörigkeit), österreichisches Gesetz heißt „Staatsbürgerschaftsgesetz 1985 (StbG)“ (RIS, ris.bka.gv.at) → stützt „Austria: *Staatsbürgerschaft*“ ✓.
+- **Inhalt richtig (Duden):** *unterschreiben* untrennbar (*unterschreibt, unterschrieb, hat unterschrieben*) ✓; *Konto – Konten* (selten *Kontos, Konti*) ✓; *Visum – Visa, Visen* ✓.
+- **Ohne Quelle:** *Meldebescheinigung* als bundesdeutsches Gegenwort – kein Duden-Eintrag; gesetze-im-internet.de (Bundesmeldegesetz) ist vom Proxy gesperrt.
+- **Klein:** Plural *Visa* „(also *Visen*)“ ergänzen.
+- **Klarheit:** gut.
+- **Vorschlag:** *Visen* ergänzen; Meldebescheinigung bei nächster Gelegenheit belegen.
+
+#### w05 Wortschatz: Essen und Einkaufen (B1) – 5 Abschnitte, 25 Wörter, 3 Lernschritte, 29 Übungen
+- **🇦🇹 belegt (Duden):** *Marille* „österreichisch, sonst landschaftlich“ ✓; *Faschiertes* „österreichisch“, substantiviertes Adjektiv (*das Faschierte / ein Faschiertes*) ✓; *Hendl* „bayrisch, österreichisch“ ✓; *Schlagobers* „österreichisch“ ✓; *Schwammerl* „bayrisch, österreichisch“ (das, bayrisch auch der) ✓.
+- **Inhalt richtig (Duden):** *Obst, Butter* „ohne Plural“ ✓; *Fleisch* ohne Pluralangabe ✓; *Nachspeise* unmarkiert (nicht als österreichisch behauptet) ✓.
+- **Zu ungenau:** *Gemüse* „no plural in normal use“ – Duden nennt „Plural: die Gemüse“ → „plural rare“.
+- **Ohne Quelle:** *Karotte* als österreichisches Wort – Duden unmarkiert (Bedeutung „[zarte, junge] Möhre“), *Möhre* ebenfalls unmarkiert → Zeile umformulieren oder streichen.
+- **Klein:** Plurale ergänzen: *die Hendl[n]*, *die Schwammerl[n]* (Duden).
+- **Klarheit:** gut – Speisekarte und Markt sind typische Alltagssituationen.
+- **Vorschlag:** Gemüse- und Karotten-Zeile anpassen, Plurale ergänzen.
+
+#### w06 Wortschatz: Freizeit und Reisen (B1) – 5 Abschnitte, 25 Wörter, 3 Lernschritte, 29 Übungen
+- **Inhalt richtig:** *Rad fahren* getrennt (Duden „sie lernt Rad fahren“) ✓; *Hobbys, Tickets* (Duden) ✓; *Züge, Fahrräder, Flughäfen* (Wiktionary) ✓.
+- **Zu ungenau:** „Wir sind geschwommen (Austria) / haben geschwommen (also correct)“ – Duden *schwimmen*: Fortbewegung irgendwohin nur *ist*; „zum Vergnügen, um sich sportlich zu betätigen: Perfektbildung mit ‚ist‘ oder ‚hat‘“ – **ohne** Regionalangabe. Die Markierung „(Austria)“ ist nicht belegt → „Wir **sind** geschwommen. As a sport/hobby also: Wir **haben** geschwommen.“
+- **Technik:** Abschnitt 5 heißt „Useful phrases“ und hat keine 🇦🇹/🇩🇪-Tabelle – anders als w01–w05.
+- **Klarheit:** gut.
+- **Vorschlag:** *schwimmen*-Zeile korrigieren; Abschnitt 5 um 🇦🇹-Wörter ergänzen (Kandidaten erst mit Quelle prüfen).
