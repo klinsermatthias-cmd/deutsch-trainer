@@ -16,7 +16,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - [x] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
 - [x] 8 `docs/quellen.md` aktualisieren (D-1019-2)
 - [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
-- [ ] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
+- [x] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
 - [ ] 11 Übungs-Audit je Thema: reicht Menge/Vielfalt (Regeln D-1014-76 u. a.), was Quellen vorschlagen, verständlich, richtig, wirksam; Vorschlag Anzahl/Mix
 
 ## Ergebnisse
@@ -493,3 +493,42 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
   - 24 Ein ✓ nur mit selbst gelesener Fundstelle (Abruf 200). 403, 404 und gesperrte Seiten heißen „ohne Quelle“.
   - 25 Übungsmix in neuen Themen: ≥ 40 % Satzbildung, ≤ 6 `mc`, `x` bei typischen Fallen.
   - 26 Wortpakete: eigene Zahlen (Punkt 11).
+
+### 10 Repo- und App-Audit (Stand 19.10.2026)
+
+**Stabilität und Funktion – in Ordnung:**
+- `node tools/pruefen.mjs` meldet „Alles in Ordnung · 1 Hinweis · 102 Prüfungen“. Der eine Hinweis betrifft d03b/d05b mit nur 1 `les`, siehe Punkt 11.
+- Die CI auf main ist grün (letzter Lauf erfolgreich, jetzt auf Ubuntu 24.04).
+- Die Icons aus dem Manifest sind vorhanden, alle Dateien aus `sw.js` gibt es.
+- `.claude/settings.json` passt (Effort `medium`, Zusammenfassen ab 150.000 Tokens).
+
+**Funde, die dieses Repo betreffen (Vorschläge in Punkt 9):**
+1. **Antippen ohne Wörterbuch-Eintrag:** Rund 100 Wörter aus Theorie und Übungen haben keinen GLOSS-Eintrag. Sie werden beim Antippen nur über die KI erklärt und offline gar nicht. Betroffen sind z. B.:
+   - d01: denken, bestellt, getelefoniert
+   - d05: packen, schenke
+   - d08b: Kopf, angefangen
+   - d16: Wiederhören, geehrte, Damen
+   - w03: Bauchschmerzen, Skifahren
+   - w05: Erdbeeren, Prozent
+   - w06: Donau, Tank, leer
+   - dazu Anweisungswörter wie Verneine, Ersetze, Präteritum
+   - Vorschlag: In `GLOSS_EXTRA` (`js/inhalte.js`) ergänzen, mit Quelle, aufgeteilt nach Themen. Die vollständige Liste liegt in der Prüfung (Scratchpad) vor und wird beim Umsetzen neu erzeugt.
+2. **Veraltete Chat-Angaben:**
+   - CLAUDE.md Z. 38 nennt „Simulation“ als Hauptchat.
+   - `docs/ablauf-thema.md` Z. 3: „Entwürfe kommen oft vom Chat Simulation“.
+   - Beides wird mit D-1019-8 geändert. Historische Erwähnungen in `entscheidungen.md` und `pruefliste-beispiele.md` bleiben.
+3. **`docs/ki-qualitaet.md`:** Die Tabelle hat noch keine Zeile. Entweder beim nächsten Bericht füllen oder die Datei als „noch keine Auswertung“ kennzeichnen.
+4. **Code-Kollision:** Eine parallele Sitzung (Feedback-Funktion) hat D-1019-8 für „Prüfläufe auf Ubuntu 24.04“ vergeben. Hier steht D-1019-8 für „Chat Simulation entfällt“. Vorschlag: Laufende Nummern je Tag nur von einer Sitzung vergeben lassen oder ein Unterpräfix verwenden (z. B. `D-1019-G1` für diese Prüfung).
+
+**Funde in Engine-Dateien (nur melden, nicht ändern → Chat „App-Engine: Funktionen“):**
+1. **Antipp-Test erkennt ü, ß und é nicht:**
+   - `tools/pruefen/inhalte.mjs` Z. 49 verwendet `/[A-Za-zÄÖÅäöå][A-Za-zÄÖÅäöå'’-]+/g`. Für Deutsch fehlen Ü, ü, ß und é.
+   - Folge: Wörter zerfallen in Bruchstücke wie „Gem“, „se“, „Stra“, „enbahn“, und echte Lücken gehen in der Liste unter.
+   - Die App selbst (`js/woerterbuch.js`) erkennt die Wörter richtig.
+   - Vorschlag: `\p{L}` mit Flag `u`.
+2. **Toter Verweis:** `docs/engine.md` Z. 44 verweist auf `docs/chats/simulation.md`, die Datei gibt es nicht. Nach D-1019-8 sollte der Absatz entfallen oder auf „historisch“ gesetzt werden.
+
+**Auffindbarkeit für neue Chats:**
+- Der Einstieg über CLAUDE.md und die Abläufe funktioniert.
+- Prüfergebnisse und Quellen liegen in `docs/grammatik-pruefung.md` und `docs/quellen.md`.
+- Vorschlag: In CLAUDE.md unter „Abläufe“ eine Zeile „Prüfung 19.10. mit offenen Vorschlägen: `docs/grammatik-pruefung.md`“ ergänzen. Sie entfällt, sobald alles erledigt ist.
