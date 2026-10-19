@@ -13,7 +13,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
   - [x] w01–w06
 - [x] 5 Offene „ohne Quelle“-Punkte aus der Prüfung vom 13.10 (D-1019-9)
 - [x] 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
-- [ ] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
+- [x] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
 - [ ] 8 `docs/quellen.md` aktualisieren (D-1019-2)
 - [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
 - [ ] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
@@ -424,3 +424,72 @@ Vorschlag: höchstens 3 Übersichtsthemen. Jedes hat eine Theorie-Seite mit **ei
 | Ü3 „Der, ein, kein – Artikelwörter und Adjektive“ | d07/d07b/d14/d15 zusammen | nach d15 |
 
 Die Engine braucht dafür nichts Neues: Das sind normale Themen. Wer ein Übersichtsthema schon kann, kommt mit „Zeigen, dass ich es kann“ schnell durch. Offene Frage für Punkt 9: Lohnt Ü1–Ü3 den Aufwand, oder reicht die vorhandene gemischte Wiederholung? Meine Empfehlung: **Ü1 ja** (die Kasus sind die häufigste Fehlerquelle laut §4: d05b, d06, d09, d11), Ü2/Ü3 erst nach dem nächsten Checkpoint entscheiden.
+
+### 7 Methode, Übungsmix, Regeln – Vorschläge
+
+Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
+- „Testing effect“: Abrufen schlägt Wiedererkennen und Wiederlesen.
+- „Generation effect“: Was man selbst bildet, behält man besser als Gelesenes.
+- „Spacing effect“.
+- „Desirable difficulty“: Mischen und Abstände helfen, Feedback ist dabei entscheidend.
+
+**Was schon gut ist (✓ mit diesen Quellen):**
+- Die App fragt ab, statt nur zu zeigen (Testing effect).
+- Wiederholung in Abständen: Spaced Repetition und Langzeit-Check nach 30 Tagen (Spacing effect).
+- Gemischt wird im letzten Lernschritt und in der gemischten Wiederholung, 10 Übungen mit höchstens 3 je Thema (Desirable difficulty).
+- Nach jeder Antwort kommt sofort Feedback: Musterlösung, Coach, falsche Übungen wiederholen.
+
+**Übungsmix heute:** 1386 aktive Übungen in 28 Themen.
+
+| Format | Anzahl | Anteil |
+|---|---|---|
+| `gap` | 456 | 33 % |
+| `mc` | 226 | 16 % |
+| `tr` | 169 | 12 % |
+| `les` | 100 | 7 % |
+| `sch` | 95 | 7 % |
+| `dlg` | 86 | 6 % |
+| `tab` | 81 | 6 % |
+| `ord` | 67 | 5 % |
+| `luk` | 61 | 4 % |
+| `zuo` | 45 | 3 % |
+
+**Befunde:**
+1. **Wenig selbst gebildete Sätze.**
+   - `tr`, `sch`, `ord` und `dlg` sind zusammen 417 Übungen, also 30 %.
+   - Prüfliste 15 verlangt einen „Schwerpunkt auf selbst gebildeten Sätzen“. `gap` übt nur eine Form.
+   - Vorschlag: In neuen Themen und beim Auffüllen (Punkt 11) mindestens 40 % Satzbildung und höchstens 30 % `gap`.
+2. **Viele `mc`.**
+   - Die Regel sieht 2–4 Regelfragen vor. Tatsächlich hat jedes Grammatikthema 5–16 `mc`: d01 16, d01b 13, d03 12, d15 12, d02b 11.
+   - `mc` ist Wiedererkennen, und das wirkt schwächer als Abrufen (Testing effect).
+   - Vorschlag: In neuen Themen höchstens 6 `mc` (Regelfragen und Situationswahl). Bestehende `mc` bleiben, weil sie richtig sind.
+3. **Erklärung `x` nur bei `mc`.**
+   - Die Engine zeigt `x` nach dem Prüfen bei jedem Format an (`js/uebungen.js` Z. 1349, nur gelesen).
+   - Trotzdem hat keine einzige Nicht-`mc`-Übung ein `x`.
+   - Ohne KI (offline oder bei Störung) bekommt Aurora bei einer falschen Lücke also nur die Musterlösung, kein Warum.
+   - Vorschlag: neue `gap`- und `tr`-Übungen mit typischer Falle bekommen ein `x` mit einem englischen Satz. Für bestehende Übungen ist das optional.
+4. **Pflichtformate fehlen:** d03b hat 1 `les` und 0 `dlg`, d05b hat 1 `les`. Verlangt sind je ≥ 3 (Prüfliste 15). `pruefen.mjs` erkennt das nicht. Wird in Punkt 11 aufgefüllt.
+5. **Futur dreimal, eingeführt nie** (siehe §4 d01):
+   - README Z. 19 verlangt „Lücken im Futur“ in jedem Thema.
+   - Futur I ist B1 (DTZ) und als Thema erst in d17 geplant.
+   - Vorschlag: Die README-Regel lautet bis d17 nur noch „Futur steht auf der Verbkarte“; keine Futur-Lücken mehr und keine weiteren Futur-Abschnitte in neuen Themen.
+6. **Mehr als 3 Teilregeln:** betrifft d01, d02 und d15.
+   - Diese Themen jetzt noch zu teilen kostet viel und bringt wenig, denn Aurora hat sie schon durchgearbeitet.
+   - Vorschlag: In ablauf-thema und Prüfliste 18 festlegen: Eine Teilregel ist eine eigene Bildungsregel. Überblick, Vergleich, Strategie und Wortschatz zählen nicht.
+   - In neuen Themen gilt die Regel dann streng. d01 §10 wird trotzdem gekürzt (§4).
+
+**Regeln, die sich widersprechen oder fehlen:**
+- **Übungszahl:** README und ablauf-thema sagen „30–50 (über etwa 35 lieber teilen)“, Prüfliste 22 und D-1014-76 sagen „etwa 50, Runde 20“. Vorschlag: README und ablauf-thema auf „etwa 50, mindestens 40, je Schritt ≥ 8“ ändern. Prüfliste 15 bleibt stehen, weil Zeile 22 sie schon ersetzt.
+- **Wortpakete ohne Regel:**
+  - „8–15 Vokabeln“ gilt für Grammatikthemen. w01–w06 haben 25–26 Wörter und 29–30 Übungen.
+  - Vorschlag: eine eigene Zeile in README und Prüfliste für Wortpakete. Die Zahlen kommen in Punkt 11.
+- **`req`:** Es gibt drei Formulierungen (README, ablauf-thema, lehrplan Z. 29), siehe §6.
+- **Chat „Simulation“:**
+  - CLAUDE.md Z. 38 nennt ihn noch als Hauptchat, ablauf-thema Z. 3 sagt „Entwürfe kommen oft vom Chat Simulation“. Beides ist nach D-1019-8 überholt.
+  - CLAUDE.md wird mit D-1019-8 geändert; ablauf-thema Z. 3 gleich mit.
+  - docs/engine.md und architektur.md sind Engine-Dateien. Dort ändere ich nichts; das geht an „App-Engine“.
+- **Neue Prüflisten-Zeilen (Vorschlag):**
+  - 23 `req` mit der ganzen Kette nachrechnen (§6).
+  - 24 Ein ✓ nur mit selbst gelesener Fundstelle (Abruf 200). 403, 404 und gesperrte Seiten heißen „ohne Quelle“.
+  - 25 Übungsmix in neuen Themen: ≥ 40 % Satzbildung, ≤ 6 `mc`, `x` bei typischen Fallen.
+  - 26 Wortpakete: eigene Zahlen (Punkt 11).
