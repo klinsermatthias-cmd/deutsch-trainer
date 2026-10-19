@@ -53,10 +53,10 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 | Doppelkonnektoren, je … desto (B1) | – | d25 |
 | damit, so … dass (B1) | – | d20 (damit), d32 (so … dass, B2) |
 | Ordinalzahlen, Datum (B1) | nur Beispiel in d14 | teilweise d13b |
-| Komparation, gern/lieber/am liebsten (A2) | **nicht als Thema** | **fehlt** |
+| Komparation, gern/lieber/am liebsten (A2) | nur „Komparativ vor dem Nomen“ (d15 §8) | **fehlt als Grundregel** |
 
 **Fehlt im Plan ganz (Vorschlag folgt in Punkt 9):**
-1. **Komparation** (*billiger als, so groß wie, am besten, lieber*) – A2-Kernstoff, weder gebaut noch geplant; im Alltag (Einkaufen, Wohnung vergleichen) sehr häufig.
+1. **Komparation** (*billiger als, so groß wie, am besten, lieber*) – A2-Kernstoff; d15 §8 setzt den Komparativ voraus (*den kleineren Tisch*), die Grundregel (Bildung, Umlaut, gut/besser/am besten, als ↔ wie, Superlativ) wird nirgends erklärt; im Alltag (Einkaufen, Wohnung vergleichen) sehr häufig.
 2. **Indefinitpronomen** *jemand/niemand/etwas/nichts/alles, man* – Inventar A2/B1; in keinem Thema erklärt.
 3. **Artikelwörter** *jed-, alle, einige, manche, derselbe* – nur nebenbei.
 4. **Wortbildung** (-ung, -er, -in, -heit/-keit, un-, -los, -bar, -lich, Komposita mit Genus des letzten Worts) – A2/B1, nirgends; nützlich für Wortschatz-Wachstum.
