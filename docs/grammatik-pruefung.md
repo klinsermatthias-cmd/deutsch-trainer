@@ -68,3 +68,19 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - d04/d04b (A1: Genus, Plural) setzen d01–d02b (A2: Perfekt, Wortstellung) voraus. Bewusst so (Aurora startete auf A2-Niveau), aber die Etiketten A1 nach A2 wirken für Leser falsch.
 - d03/d03b (B1) setzen d09/d09b voraus, stehen in der Datei aber vor d04 – die App wählt nach Dateireihenfolge das erste freie Thema, daher wirkungslos, nur verwirrend beim Lesen.
 
+
+### 4 Themen einzeln
+
+Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilregeln laut Lehrplan), **Klarheit**, **Vorschlag**. Quellen-Abruf 19.10.2026; „ohne Quelle“ = nicht belegt.
+
+#### d01 Perfekt I (A2) – 10 Abschnitte + Verbformen, 5 Lernschritte, 80 Übungen
+- **Inhalt richtig:** Perfekt = haben/sein + Partizip II; -ieren ohne ge- (*studiert*); sein bei Ortswechsel/Zustandsänderung, *bleiben, sein, werden* (lingolia „Perfekt“, 200). Untrennbare Präfixe be-, emp-, ent-, er-, ge-, miss-, ver-, zer- (Duden-Grammatik-Standardliste; Seite lingolia „Partizip II“ liefert 404 → hier ohne Online-Abruf). Perfekt ≈ englisches *simple past* im Gespräch, *seit* + Präsens: richtig (ohne Quelle, Standardwissen DaF). Österreich spricht fast nur Perfekt, *war* bleibt: Wikipedia „Oberdeutscher Präteritumschwund“ (200) bestätigt, dass *sein* und einige Hilfs-/Modalverben ihr Präteritum behalten.
+- **Umfang zu groß:** neben den 3 Kernregeln (Bildung + Satzklammer, Partizip-Typen, haben/sein-Grundregel) kommen §3 Zeitformen-Überblick, §9 Vergleich Englisch, §10 Präteritum + Futur-Tabelle und der Nebensatz-Hinweis in §5 dazu. Für Aurora (Bericht: Verwirrung) zu viel auf einmal.
+- **Verweis unscharf:** §10 „Separable verbs in the Präteritum … More in d03“ – d03 §8 behandelt nur *war/hatte/Modalverben*, nicht trennbare Verben im Präteritum.
+- **Futur-Tabelle dreifach:** dieselbe *werden*-Tabelle steht in d01 §10, d02 und d03 (Regel `lektionen/README.md` Z. 19 „Lücken im Futur“ je Thema). Futur wird so dreimal „kurz“ gezeigt, aber nie eingeführt (geplant d17).
+- **Vorschlag:** §10 kürzen auf einen Satz „Präteritum/Futur: später (d03, d17)“; §3 und §9 zu je 2 Zeilen; Futur-Tabelle in d02/d03 durch Verweis ersetzen (nur anhängen/ausblenden, nichts löschen). → Code in Punkt 9.
+
+#### d01b Perfekt II: haben oder sein (A2) – 8 Abschnitte, 4 Lernschritte, 61 Übungen
+- **Inhalt richtig:** 3 sein-Gruppen (Bewegung A→B, Zustandsänderung, *sein/bleiben/passieren*) gegenüber haben (alle anderen + Fallen *fahren* mit Akkusativ, reflexive Verben) – lingolia „Perfekt“ (200) nennt dieselben Gruppen inkl. *gelingen, geschehen*. 🇦🇹 *bin gesessen*: Duden „sitzen“ (200): „süddeutsch, österreichisch, schweizerisch: ist gesessen“ ✓.
+- **Klarheit gut:** Überblick → je Gruppe ein Abschnitt → ⚠-Tabelle mit typischen Fehlern. Bestes Beispiel für S-1013-34.
+- **Umfang:** §8 *war/hatte/musste* ist eine 4. Regel (Präteritum-Gebrauch), wiederholt in d03 §8. Vorschlag: in d01b behalten (passt zum Erzählen), in d03 §8 als Wiederholung kennzeichnen.
