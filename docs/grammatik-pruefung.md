@@ -65,7 +65,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 7. **Futur I** nur als Teil von d17 – reicht, wenn d17 es klar als eigenen Lernschritt führt (Lehrplan sagt „Futur-Gebrauch B1++“; DTZ verlangt es schon B1).
 
 **Reihenfolge-Auffälligkeiten (Details in Punkt 6):**
-- d04/d04b (A1: Genus, Plural) setzen d01–d02b (A2: Perfekt, Wortstellung) voraus. Bewusst so (Aurora startete auf A2-Niveau), aber die Etiketten A1 nach A2 wirken für Leser falsch.
+- d04/d04b (A1: Genus, Plural) setzen d01–d02b (A2: Perfekt, Wortstellung) voraus. Bewusst so (Start mit Perfekt und Wortstellung laut Lehrplan), aber die Etiketten A1 nach A2 wirken für Leser falsch.
 - d03/d03b (B1) setzen d09/d09b voraus, stehen in der Datei aber vor d04 – die App wählt nach Dateireihenfolge das erste freie Thema, daher wirkungslos, nur verwirrend beim Lesen.
 
 
@@ -378,7 +378,7 @@ Grundlage: Themen-Reihenfolge und `req` in `lektionen.json` (nachgerechnet mit e
 - w01–w06 (B1, ohne `req`)
 
 **Begründete Abweichungen (keine Änderung nötig):**
-- **A1 nach A2:** d04–d05b (A1/A2) stehen nach d01–d02b (A2). Das ist so beschlossen: Start mit Perfekt und Wortstellung, weil der Einstufungstest dort die größten Lücken zeigte. Genus, Plural und Kasus kommen danach als Wiederholung.
+- **A1 nach A2:** d04–d05b (A1/A2) stehen nach d01–d02b (A2). Das ist so beschlossen: Start mit Perfekt und Wortstellung (Lehrplan). Genus, Plural und Kasus kommen danach als Wiederholung.
   - Vorschlag: Im Lehrplan einen Satz ergänzen: „d04–d05 sind A1/A2-Wiederholung, darum nach d02b“.
 - **d09/d09b vor d06:** beschlossen in D-1014-60 (Vorgriff „Geh zur Apotheke!“). Darum stehen d09/d09b auch in `req` von d06, d08, d08b.
 - **Wortpakete ab Start frei:** Ich habe w01–w06 durchsucht. Ich fand kein Passiv, keinen Genitiv, keinen Relativsatz, keinen zu-Infinitiv und kein Konjunktiv II außer dem festen „ich hätte gern“ (w05). Ohne `req` ist das also unbedenklich. Das Etikett „B1“ bezieht sich auf den Wortschatz.
@@ -475,7 +475,7 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
    - Futur I ist B1 (DTZ) und als Thema erst in d17 geplant.
    - Vorschlag: Die README-Regel lautet bis d17 nur noch „Futur steht auf der Verbkarte“; keine Futur-Lücken mehr und keine weiteren Futur-Abschnitte in neuen Themen.
 6. **Mehr als 3 Teilregeln:** betrifft d01, d02 und d15.
-   - Diese Themen jetzt noch zu teilen kostet viel und bringt wenig, denn Aurora hat sie schon durchgearbeitet.
+   - Diese Themen jetzt noch zu teilen kostet viel und bringt wenig, denn die Themen sind schon im Einsatz.
    - Vorschlag: In ablauf-thema und Prüfliste 18 festlegen: Eine Teilregel ist eine eigene Bildungsregel. Überblick, Vergleich, Strategie und Wortschatz zählen nicht.
    - In neuen Themen gilt die Regel dann streng. d01 §10 wird trotzdem gekürzt (§4).
 

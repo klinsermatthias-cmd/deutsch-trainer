@@ -129,3 +129,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-19 – Prüfläufe auf Ubuntu 24.04 (D-1019-8)
 - GitHub hat `ubuntu-latest` auf 26.04 umgestellt; Playwright 1.56.1 startet dort kein Chromium, jeder Push blieb rot. Die Playwright-Jobs in `pruefen-und-veroeffentlichen.yml` und `engine-uebernehmen.yml` laufen jetzt auf `ubuntu-24.04`, gleich wie in Opi suomea.
 - Workflow-Dateien übernimmt „Engine übernehmen“ nicht; sie werden bei Engine-Änderungen von Hand angeglichen.
+
+## 2026-10-19 – Grammatik-Prüfung (D-1019-1, -2, -4, -7, -9 und D-1019-8 „Simulation“; OK Matthias)
+- Alle 22 Grammatikthemen und w01–w06 gegen Quellen geprüft, ebenso Reihenfolge, Methode, Repo und Übungen. Ergebnis und Vorschläge stehen in `docs/grammatik-pruefung.md`; Quellenstand 19.10. in `docs/quellen.md`; Bezüge zu Aurora nur im privaten Lernprotokoll.
+- D-1019-8 hier: CLAUDE.md nennt den Chat „Simulation“ nicht mehr als Hauptchat. Berichte gehen nur an Matthias. **Achtung:** Dieselbe Nummer steht oben für „Ubuntu 24.04“, auch D-1019-4/-9/-11 sind in Engine-Sitzungen doppelt vergeben. Neue Vorschläge dieser Prüfung tragen darum D-1019-50 bis -75 (dazu D-1019-10); die Code-Regel ist als D-1019-75 vorgeschlagen.
+- Inhalte (Themen, Übungen, `req`, GLOSS) sind noch nicht geändert; das geschieht erst mit OK zu den einzelnen Codes.
