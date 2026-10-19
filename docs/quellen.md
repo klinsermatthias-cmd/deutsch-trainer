@@ -13,7 +13,12 @@
 | **osd.at** (ÖSD) | Prüfungsformat und Modellsätze A1–C2 (ZB1, ZDÖ B1, ZB2) | PDFs auf den Seiten `/portfolio-item/osd-zertifikat-…` |
 | **Goethe/ÖSD-Wortliste Zertifikat B1** | B1-Grundwortschatz mit Vermerken A/D/CH (z. B. „die Praxis → A: Ordination“) | PDF: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf (am 13.10.2026 erreichbar) |
 | goethe.de (übrige Seiten), coe.int, rm.coe.int | – | freigegeben, aber die Seiten blocken automatische Abrufe (403) |
+| **duden.de/sprachwissen/rechtschreibregeln** | amtliche Regeln mit Nummer (z. B. D 132 Bindestrich bei Abkürzungen), Getrennt- und Zusammenschreibung | Seite `/sprachwissen/rechtschreibregeln/<Thema>` (am 19.10.2026 erreichbar) |
+| **de.wikipedia.org** | Sachwissen zu Österreich (Behörden, e-card, Verkehr), wenn die Amtsseiten gesperrt sind | mit Browser-Kennung abrufen (`curl -A "Mozilla/5.0 …"`), 5–10 s Pause zwischen Abrufen; am 19.10.2026 erreichbar |
+| **en.wikipedia.org** | Lernmethode: *Testing effect*, *Spacing effect*, *Generation effect*, *Desirable difficulty* (Belege für Abfragen, Spacing, Satzbildung, gemischte Wiederholung) | wie de.wikipedia; Seiten zu *Interleaving* gibt es dort nicht (404) |
 
 Am 13.10.2026 antworteten lingolia, dw.com und schubert-verlag.de wieder (Status 200, Gesamtprüfung S-1013-23) – vor Gebrauch kurz testen. Vom Netz gesperrt (Stand 10.10.2026, nicht verwenden): openthesaurus, korrekturen.de, lingolia, mein-deutschbuch, dw.com, oesterreichisches-woerterbuch.at, rechtschreibrat.com, leo, linguee, verbformen.de, schubert-verlag, sprachportal.integrationsfonds.at, oesterreich.gv.at, wien.gv.at, de.wikipedia.org, telc.net.
+
+**Stand 19.10.2026 (Grammatik-Prüfung D-1019-1):** erreichbar: duden.de, dwds.de, wiktionary, lingolia, dw.com, de./en.wikipedia.org, ÖIF- und Goethe-PDFs. Gesperrt (keine Antwort oder 403): oesterreich.gv.at, ris.bka.gv.at, wien.gv.at, chipkarte.at, wienerlinien.at, gesetze-im-internet.de, verbformen.de, korrekturen.de, goethe.de-Seiten. Ersatz für Amtsseiten: de.wikipedia (als Sachquelle angeben, nicht als Amtsquelle).
 
 Erster Schritt für Formen: `node tools/quellen.mjs --sprache de <Wort>` (englisches Wiktionary, Abschnitt „German“, kompakt); danach Duden/DWDS wie oben. Grammatikregeln: grammis bzw. lingolia (S-1013-50).

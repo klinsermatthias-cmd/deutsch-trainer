@@ -14,7 +14,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - [x] 5 Offene „ohne Quelle“-Punkte aus der Prüfung vom 13.10 (D-1019-9)
 - [x] 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
 - [x] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
-- [ ] 8 `docs/quellen.md` aktualisieren (D-1019-2)
+- [x] 8 `docs/quellen.md` aktualisieren (D-1019-2)
 - [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
 - [ ] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
 - [ ] 11 Übungs-Audit je Thema: reicht Menge/Vielfalt (Regeln D-1014-76 u. a.), was Quellen vorschlagen, verständlich, richtig, wirksam; Vorschlag Anzahl/Mix
