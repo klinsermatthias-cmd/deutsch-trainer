@@ -95,3 +95,31 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Umfang:** 3 Regeln ✓. *obwohl* ist laut DTZ B1 – im A2-Thema vertretbar, da Wortstellung gleich.
 - **Lücke:** d03 verweist „*if* im Sinn von *whether* = *ob*, nicht *wenn* – siehe d02b“, d02b hat aber nur die Überblickszeilen „ob = whether, if“ / „wenn = if, when“, keinen Kontrast.
 - **Vorschlag:** ⚠-Zeile anhängen: *Ich weiß nicht, wenn er kommt* ✗ → *ob er kommt* ✓ („if = whether → ob“), plus 2 Lückenübungen ob/wenn. Ersatzinfinitiv-Ausnahme bleibt bei d10 (richtig so).
+
+#### d03 als, wenn, wann (B1) – 8 Abschnitte + Verbformen + Futur, 5 Lernschritte, 64 Übungen
+- **Inhalt richtig:** *als* temporal für Vergangenes (Duden „als (temporal)“, 200: „drückt die Vor-, Gleich- oder Nachzeitigkeit aus … damals, als sie noch klein war“); *wenn* für Bedingung, Zukunft und „mehrfache [regelmäßige] Wiederholung; sooft … jedes Mal, wenn“ (Duden „wenn“, 200 ✓); *als* und *wenn* als Temporal-Subjunktionen mit Verb am Ende (lingolia „Konjunktionalsätze“ ✓). Die Faustregel „*als* = einmal/ein Zeitraum in der Vergangenheit“ ist so wörtlich nur in DaF-Lehrwerken zu finden (ohne Online-Quelle, aber durch die Duden-Beispiele gedeckt). *konnte* ↔ *könnte* (Präteritum ohne Umlaut, Konjunktiv II mit): lingolia „Konjunktiv“ ✓. *war/hatte/Modalverben* bleiben im Präteritum: Wikipedia „Oberdeutscher Präteritumschwund“ ✓, lingolia „Präteritum“ („im Mündlichen meist Perfekt“) ✓. *als* = Duden B1-Wortschatz ✓.
+- **Umfang:** 3 Kernregeln (als/wenn/wann) ✓ + §8 Präteritum (Wiederholung aus d01b §8) + Futur-Tabelle (Dopplung, siehe d01).
+- **Klarheit:** Überblick §3 als Entscheidungsfrage („Ask yourself“) ist sehr gut. Erster Lernschritt ist aber §8 Präteritum – das Thema heißt „als, wenn, wann“, beginnt aber mit einer Wiederholung. Verweis „*ob* – see d02b“ ohne Inhalt dort (siehe d02b).
+- **Vorschlag:** §8 als „Wiederholung aus d01b“ kennzeichnen; Futur-Tabelle → Verweis; ⚠-Zeile *ob* ↔ *wenn* in d02b ergänzen (dann stimmt der Verweis).
+
+#### d03b während, bevor, nachdem (B1) – 6 Abschnitte, 3 Lernschritte, 37 Übungen
+- **Inhalt richtig:** *nachdem* „drückt die Vorzeitigkeit … aus: nachdem ich gegessen hatte, legte ich mich hin“ (Duden „nachdem“, 200 ✓); Plusquamperfekt = *hatte/war* + Partizip II für das Frühere (lingolia „Plusquamperfekt“ ✓); *bevor/während/nachdem* als Subjunktionen, Verb am Ende, Nebensatz auf Position 1 (lingolia „Konjunktionalsätze“ ✓). Tabelle Präposition – Konjunktion – Adverb: sachlich richtig, lingolia „Präpositionen temporal“ (*vor, nach, während* + Genitiv) ✓.
+- **Hinweis Quelle:** lingolia hat auch *nachdem jeder Gast ein Zimmer hat* (gleiche Zeit bei Zustand). Die Regel „eine Zeit früher“ gilt für Handlungen – für B1 richtig vereinfacht.
+- **🇦🇹 fehlt:** Duden kennt *nachdem* kausal = „da, weil“ (landschaftlich): *Nachdem du eh da bist, kannst du helfen.* In Österreich häufig – fürs Verstehen wichtig.
+- **Umfang:** 3 Regeln ✓, nur 37 Übungen (Ziel laut D-1014-76 ≈ 50) → in Punkt 11.
+- **Vorschlag:** 🇦🇹-Zeile anhängen: „*nachdem* in Austria often also = *since/because* (*Nachdem es regnet, bleiben wir daheim*)“ – Beispiel vorher mit Matthias abstimmen.
+
+#### d04 der, die, das (A1) – 6 Abschnitte + Verbformen, 4 Lernschritte, 61 Übungen
+- **Inhalt richtig:** Nominativ-Tabelle der/die/das, ein/eine/ein, kein/keine (lingolia „Artikel“ ✓). *kein* verneint Nomen mit unbestimmtem/ohne Artikel, *nicht* alles andere (lingolia „Negation“ ✓). Großschreibung aller Nomen ✓. Genus-Endungen: Die femininen Endungen *-ung/-heit/-keit/-schaft/-ion/-tät* werden indirekt durch lingolia „Plural“ belegt („feminine Nomen auf *-ung, -ion* … Plural *-en*“). Die Liste selbst (*-chen* das, *Ge-…-e* meist das, Tage/Monate der) steht so nicht auf lingolia → **ohne Online-Quelle** (Standardwissen der Duden-Grammatik, nicht abrufbar). *-erl* = das: Duden „Sackerl, das“ ✓.
+- **🇦🇹 belegt (Duden, Gebrauch „österreichisch“):** *Paradeiser* der, *Erdapfel* der, *Karfiol* der, *Semmel* die (bayrisch, österr.), *Sackerl* das, *Kassa* die (Plural *Kassen*), *Jänner* der ✓.
+- **Umfang:** 3 Regeln (Genus-Endungen, ein/kein/nicht, Großschreibung) ✓.
+- **Klarheit:** Endungsliste ist lang (13 Zeilen) – für A1 besser in „immer“ (*-ung, -heit, -keit, -schaft, -ion, -tät, -chen, -erl*) und „meistens“ trennen, Ausnahmen als eigene ⚠-Zeile. Futur-Zeile in den Verbformen („see d01“) → wie bei d01: Futur kommt erst mit d17.
+- **Reihenfolge:** A1-Thema steht hinter A2/B1-Themen (d01–d03b) → Punkt 6.
+- **Vorschlag:** Endungsliste zweiteilen (immer/meistens), Futur-Zeile durch Verweis ersetzen.
+
+#### d04b Plural (A1) – 6 Abschnitte, 3 Lernschritte, 44 Übungen
+- **Inhalt richtig:** Fünf Pluraltypen (-e, -(e)n, -er, -s, ohne Endung, teils mit Umlaut) – lingolia „Plural“ ✓: feminine Nomen auf *-e/-in/-ion/-ung* → *-n/-en*; *-s* nach Vokal (*Auto, Kino*); keine Endung bei Maskulina/Neutra auf *-el/-en/-er* und *-chen/-lein*; „feminine Nomen bilden den Plural nie auf *-er*“ ✓. Pluralartikel immer *die*, Negation *keine* ✓. Maßangaben bleiben Singular (*zwei Kilo*) ✓ (lingolia „Mengenangaben“).
+- **🇦🇹 belegt (Duden):** *Sackerl* → *Sackerl/Sackerln* ✓, *Paradeiser* → *Paradeiser* ✓, *Erdäpfel* ✓, *Semmeln* ✓, *Kassa* → *Kassen* ✓; *Museum → Museen*, *Zentrum → Zentren* ✓.
+- **Umfang:** 3 Regeln ✓, aber nur 44 Übungen (Ziel ≈ 50) → Punkt 11.
+- **Klarheit:** Gut: Faustregeln nach Genus geordnet. Fehlt: Hinweis, dass man den Plural mit der Vokabel lernen muss (Lernstrategie) – eine Zeile „Learn every noun as *der Tisch, die Tische*“.
+- **Vorschlag:** Lernstrategie-Zeile anhängen; Übungen auf ≈ 50 aufstocken (Punkt 11).
