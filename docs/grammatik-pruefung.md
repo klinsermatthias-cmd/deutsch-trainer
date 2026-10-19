@@ -272,14 +272,15 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 
 #### w03 Wortschatz: Gesundheit (B1) – 5 Abschnitte, 25 Wörter, 3 Lernschritte, 29 Übungen
 - **🇦🇹 belegt (Duden):** *Rettung* = Rettungsdienst und Rettungswagen, beide „österreichisch“ ✓; *Spital* = Krankenhaus „österreichisch, schweizerisch, landschaftlich, sonst veraltet“ ✓; *sich verkühlen* = sich erkälten „besonders österreichisch“ (Beispiel „ich habe mich ein bisschen verkühlt“) ✓.
-- **Inhalt richtig:** Plurale *Hälse* (Duden), *Bäuche, Zähne* (Wiktionary) ✓; „Was fehlt Ihnen?“ – Duden *fehlen* „fehlt dir etwas? (bist du krank?)“ ✓. Notrufnummern 144 (Rettung) und 112 (Euro-Notruf) – oesterreich.gv.at „Notrufnummern“ ✓.
-- **Zu ungenau:** Die 🇦🇹/🇩🇪-Tabelle stellt 144 (Österreich) neben 112 (Deutschland) – das legt nahe, dass 112 in Österreich nicht gilt. 112 funktioniert EU-weit, auch in Österreich (oesterreich.gv.at) → „144 = Rettung in Austria; 112 works in all EU countries, also in Austria“.
+- **Inhalt richtig:** Plurale *Hälse* (Duden), *Bäuche, Zähne* (Wiktionary) ✓; „Was fehlt Ihnen?“ – Duden *fehlen* „fehlt dir etwas? (bist du krank?)“ ✓. Notrufnummern 144 (Rettung) und 112 (Euro-Notruf) – oesterreich.gv.at „Notrufnummern“ (Websuche-Auszug vom 19.10.; Seite selbst gesperrt, vor Einbau erneut prüfen) ✓.
+- **Zu ungenau:** Die 🇦🇹/🇩🇪-Tabelle stellt 144 (Österreich) neben 112 (Deutschland) – das legt nahe, dass 112 in Österreich nicht gilt. 112 funktioniert EU-weit, auch in Österreich (oesterreich.gv.at (Websuche-Auszug vom 19.10.; Seite selbst gesperrt, vor Einbau erneut prüfen)) → „144 = Rettung in Austria; 112 works in all EU countries, also in Austria“.
+- **Nachgeprüft 19.10. (Abruf 200):** de.wikipedia „Notrufnummer“, Tabelle Österreich: Polizei „112 oder 133“, Feuerwehr 122, Rettung 144 ✓ – 112 gilt also auch in Österreich.
 - **Ohne Quelle:** *Krankenwagen* als bundesdeutsches Gegenwort nicht eigens nachgeschlagen.
 - **Klarheit:** gut – Notfall-Dialog praxisnah.
 - **Vorschlag:** 112-Zeile korrigieren (sicherheitsrelevant, Priorität hoch).
 
 #### w04 Wortschatz: Ämter und Behörden (B1) – 5 Abschnitte, 25 Wörter, 3 Lernschritte, 29 Übungen
-- **🇦🇹 belegt:** *Meldezettel* „besonders österreichisch“, „Formular, Bestätigung für polizeiliche Anmeldung“ (Duden) ✓; Anmeldefrist drei Tage – oesterreich.gv.at „Anmeldung eines neuen Hauptwohnsitzes oder Nebenwohnsitzes“ ✓; *Staatsbürgerschaft* – Duden ohne Regionalmarkierung (= Staatsangehörigkeit), österreichisches Gesetz heißt „Staatsbürgerschaftsgesetz 1985 (StbG)“ (RIS, ris.bka.gv.at) → stützt „Austria: *Staatsbürgerschaft*“ ✓.
+- **🇦🇹 belegt:** *Meldezettel* „besonders österreichisch“, „Formular, Bestätigung für polizeiliche Anmeldung“ (Duden) ✓; Anmeldefrist drei Tage – oesterreich.gv.at „Anmeldung eines neuen Hauptwohnsitzes oder Nebenwohnsitzes“ (Websuche-Auszug vom 19.10.; Seite selbst gesperrt, vor Einbau erneut prüfen) ✓; *Staatsbürgerschaft* – Duden ohne Regionalmarkierung (= Staatsangehörigkeit), österreichisches Gesetz heißt „Staatsbürgerschaftsgesetz 1985 (StbG)“ (RIS, ris.bka.gv.at (Websuche-Auszug vom 19.10.; Seite selbst gesperrt, vor Einbau erneut prüfen)) → stützt „Austria: *Staatsbürgerschaft*“ ✓.
 - **Inhalt richtig (Duden):** *unterschreiben* untrennbar (*unterschreibt, unterschrieb, hat unterschrieben*) ✓; *Konto – Konten* (selten *Kontos, Konti*) ✓; *Visum – Visa, Visen* ✓.
 - **Ohne Quelle:** *Meldebescheinigung* als bundesdeutsches Gegenwort – kein Duden-Eintrag; gesetze-im-internet.de (Bundesmeldegesetz) ist vom Proxy gesperrt.
 - **Klein:** Plural *Visa* „(also *Visen*)“ ergänzen.
