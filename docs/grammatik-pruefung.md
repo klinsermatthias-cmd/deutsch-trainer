@@ -203,3 +203,14 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Klarheit:** sehr gut; die Gegenüberstellung *mich verkühlt* / *mir den Fuß verletzt* im Dialog ist genau das Muster.
 - **Reihenfolge:** `req` enthält *d09* → Punkt 6.
 - **Vorschlag:** Possessiv-Regel abschwächen, ⚠-Zeile ändern, Übung 22 ergänzen.
+
+#### d11 Wohin kommt das Sofa? – Wechselpräpositionen (A2) – 6 Abschnitte + ⚠ + 🇦🇹 + Verbformen, 4 Lernschritte, 56 Übungen
+- **Inhalt richtig:** genau neun Wechselpräpositionen *an, auf, hinter, in, neben, über, unter, vor, zwischen* – lingolia „Liste der Präpositionen“ (Filter „Wechselpräpositionen“) ✓; *wo?* = Position → Dativ, *wohin?* = Richtung → Akkusativ – lingolia „Lokale Präpositionen“ ✓; *im/am/ins/ans* ✓; Musterpaare (*setzen sich an den Tisch / sitzen am Tisch*, *zwischen die zwei Stühle stellen*) wie bei lingolia ✓. Verbpaare: *liegen, stehen, sitzen* stark (*lag, stand, saß*), *legen, stellen, setzen* schwach – Wiktionary ✓; *hängen – hing – gehangen* (Position) und *hängen – hängte – gehängt* (Handlung) – Duden „hängen (gehangen)“ und „hängen (gehängt)“ ✓.
+- **🇦🇹 belegt (Duden):** Perfekt mit *sein* bei *liegen* („ist gelegen“), *stehen*, *sitzen*, *hängen (hing)* – jeweils „süddeutsch, österreichisch, schweizerisch: ist …“ ✓; *der Sessel* = Stuhl „Gebrauch österreichisch“ ✓; *der Kasten* = Schrank (bei d07 belegt) ✓.
+- **Zu ungenau:** „*an* = on a vertical surface such as a wall“ – Duden „an (Präposition)“: „zur Angabe der Lage, der Nähe, der Berührung“ (*Trier liegt an der Mosel*, *die Leiter lehnt an einem Baum*); „vertical“ steht in keiner geprüften Quelle und passt nicht zu *am Tisch sitzen*, *an der Mosel*. → „*an* = at, touching the side of something (*an der Wand, am Fenster, am Tisch*); *auf* = on top of something.“
+- **Klein:** ⚠-Zeile ✗ *Ich gehe in der Küche.* ist nur falsch, wenn eine Richtung gemeint ist (*in der Küche auf und ab gehen* ist richtig) – als Hinweis „(= into the kitchen)“ ergänzen.
+- **Umfang:** 3 Teilregeln (wo?, wohin?, Verbpaare) ✓; Schritte 13/13/15/15 ✓.
+- **Technik:** Schritt 4 „Alles zusammen“ zeigt als Theorie nur §7 (Verbformen-Tabelle) – wie bei d07 ein Wiederholungsschritt ohne eigene Regel → Punkt 8 (Wiederholungsschritte ausdrücklich erlauben).
+- **Klarheit:** sehr gut – die Gegenüberstellungstabelle in §6 ist der Kern; der Dialog markiert jede Form mit *wo?/wohin?*.
+- **Reihenfolge:** `req` passend (d05/d05b Kasus, d09/d09b feste Präpositionen) ✓.
+- **Vorschlag:** *an*-Zeile neu formulieren; ⚠-Zeile präzisieren.
