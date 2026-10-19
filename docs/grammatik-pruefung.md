@@ -17,7 +17,7 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - [x] 8 `docs/quellen.md` aktualisieren (D-1019-2)
 - [ ] 9 Vorschläge mit Codes ab D-1019-10 an Matthias
 - [x] 10 Repo- und App-Audit (Regeln, Texte, Auffindbarkeit für neue Chats, Token, alte Dateien, Stabilität, Funktion)
-- [ ] 11 Übungs-Audit je Thema: reicht Menge/Vielfalt (Regeln D-1014-76 u. a.), was Quellen vorschlagen, verständlich, richtig, wirksam; Vorschlag Anzahl/Mix
+- [x] 11 Übungs-Audit je Thema: reicht Menge/Vielfalt (Regeln D-1014-76 u. a.), was Quellen vorschlagen, verständlich, richtig, wirksam; Vorschlag Anzahl/Mix
 
 ## Ergebnisse
 
@@ -532,3 +532,90 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
 - Der Einstieg über CLAUDE.md und die Abläufe funktioniert.
 - Prüfergebnisse und Quellen liegen in `docs/grammatik-pruefung.md` und `docs/quellen.md`.
 - Vorschlag: In CLAUDE.md unter „Abläufe“ eine Zeile „Prüfung 19.10. mit offenen Vorschlägen: `docs/grammatik-pruefung.md`“ ergänzen. Sie entfällt, sobald alles erledigt ist.
+
+### 11 Übungs-Audit je Thema (Stand 19.10.2026)
+
+**Wie die App eine Runde zusammenstellt** (`js/uebungen.js`, nur gelesen):
+- Eine Runde hat 20 Übungen.
+- Zuerst kommt je Übungsart die mit den meisten Punkten dran. Danach wird nach Punkten aufgefüllt.
+- Höchstens 2 `mc` pro Runde. Ein `mc` ruht schon nach 2 richtigen Antworten, und zwar doppelt so lange.
+- Höchstens 1 `les`, 1 `sch` und 1 `dlg` pro Runde.
+- Folge: Die restlichen etwa 10 Plätze kommen fast nur aus `gap`, `tr`, `tab`, `ord`, `luk` und `zuo`. Ihre Menge im Thema bestimmt also, was Aurora übt.
+
+**Messung** (nur aktive Übungen; „Satzbildung“ = `tr` Englisch→Deutsch, `ord`, `sch`, `dlg`; die Runde ist eine Schätzung nach der Regel oben):
+
+| Thema | aktiv | Schritte (min. je Schritt) | Satzbildung im Thema | davon pro Runde | `gap` pro Runde | `mc` | Lücken |
+|---|---|---|---|---|---|---|---|
+| d01 | 80 | 5 (12) | 25 % | 5,6 | 6,3 | 16 | – |
+| d01b | 61 | 4 (12) | 21 % | 5,4 | 7,4 | 13 | – |
+| d02 | 65 | 5 (10) | 32 % | 6,6 | 5,2 | 10 | – |
+| d02b | 49 | 3 (14) | 34 % | 7,9 | 6,2 | 11 | – |
+| d03 | 64 | 5 (10) | 25 % | 5,8 | 6,3 | 12 | – |
+| d03b | 37 | 3 (11) | 29 % | 5,5 | 7,3 | 6 | **1 `les`, 0 `dlg`** |
+| d04 | 61 | 4 (12) | 19 % | 4,8 | 6,8 | 10 | – |
+| d04b | 44 | 3 (13) | 29 % | 6,4 | 7,7 | 8 | – |
+| d05 | 61 | 4 (11) | 24 % | 5,8 | 6,7 | 9 | – |
+| d05b | 43 | 3 (12) | 23 % | 4,1 | 7,2 | 7 | **1 `les`**, 0 `ord` |
+| d09 | 61 | 4 (11) | 19 % | 4,8 | **8,2** | 6 | – |
+| d09b | 53 | 4 (11) | 24 % | 5,7 | 7,8 | 10 | – |
+| d06 | 57 | 4 (12) | 29 % | 6,5 | 6,1 | 7 | – |
+| d06b | 45 | 3 (13) | **15 %** | **2,7** | **10,1** | 8 | 0 `ord`, 1 `tr` de |
+| d07 | 64 | 4 (12) | 21 % | 5,4 | 7,4 | 10 | – |
+| d07b | 41 | 3 (12) | 26 % | 5,3 | 7,7 | 5 | – |
+| d08 | 56 | 4 (13) | 21 % | 5,1 | 7,9 | 9 | – |
+| d08b | 48 | 3 (11) | 25 % | 5,3 | 7,3 | 6 | – |
+| d11 | 56 | 4 (13) | 23 % | 5,0 | 6,6 | 8 | – |
+| d14 | 51 | 4 (11) | 35 % | 7,5 | 5,6 | 9 | – |
+| d15 | 62 | 5 (11) | 32 % | 6,6 | 6,8 | 12 | – |
+| d16 | 52 | 4 (11) | 32 % | 6,8 | 6,2 | 10 | – |
+| w01–w06 | 29–30 | 3 (8) | 34–36 % | 5,7–6,5 | 5,2–5,6 | 4 | 0 `tab` (passt zu Wortpaketen) |
+
+**Was in Ordnung ist:**
+- Jeder Schritt hat mindestens 8 Übungen in mindestens 4 Arten, und jede aktive Übung gehört zu einem Schritt.
+- Jede `gap` hat ein `h`, jedes `mc` hat ein `x`.
+- Alle `ord`-Lösungen bestehen genau aus den vorgegebenen Wörtern, und es gibt keine doppelten Übungen.
+- Die Optionen bei `mc` werden gemischt (`js/formate.js` Z. 31). Dass im Inhalt immer `a: 0` steht, ist also harmlos.
+- Wörter: In den Übungen fehlen je Thema höchstens 1–4 Wörter aus der Wortliste (grobe Stammsuche).
+  - Fehlend sind z. B. d14 Altbau, Neubau, renovieren; d06b zuhören; w02 Ausbildung, Lohn; w05 Apfel, bezahlen.
+
+**Befunde:**
+1. **Zu wenig Satzbildung pro Runde:**
+   - Geschätzt sind es 4–8 von 20 Aufgaben (Ziel nach §7: ≥ 8, also 40 %). Den größten Teil machen `gap` mit 5–10 von 20 aus.
+   - Laut Forschung wirken selbst gebildete Antworten und Abrufen stärker als Wiedererkennen und Einsetzen (en.wikipedia „Testing effect“, „Generation effect“, Abruf 19.10., siehe `docs/quellen.md`).
+   - Abhilfe ist nur durch Anhängen möglich (Regel „nur hinten anhängen“). Jede neue `tr` (de) oder `ord` erhöht den Anteil der Satzbildung beim Auffüllen.
+2. **Viele `mc` kommen kaum dran:**
+   - d01 hat 16, d01b 13, d03 und d15 je 12. Bei höchstens 2 pro Runde und doppelter Ruhezeit sieht Aurora die meisten davon selten.
+   - Vorschlag: keine neuen `mc` in diesen Themen. Bestehende bleiben.
+3. **Länge verrät die Lösung:**
+   - In 124 von 226 `mc` ist die richtige Antwort die längste Option. Bei gleich verteilten Längen wäre das etwa ein Drittel.
+   - Das ist ein typischer Hinweis, den geübte Testteilnehmer ausnutzen („test-wiseness“, en.wikipedia „Multiple choice“, Abruf 19.10.).
+   - Vorschlag: In neuen `mc` sind die Optionen etwa gleich lang. Bestehende Übungen werden nicht umgeschrieben.
+4. **`tr` Englisch→Deutsch mit nur einer Lösung:** 21 Übungen. Fast alle sind eindeutig. Bei zwei fehlt eine natürliche Variante (Formen vor dem Einbau mit Quelle prüfen):
+   - d01b Nr. 58: „Ich habe meine Schwester nach Linz gebracht.“
+   - w06 Nr. 15: „Wo darf ich parken?“
+
+**Empfehlung zu Anzahl und Mix:**
+- Grammatikthemen:
+  - Etwa 50 aktive Übungen (D-1014-76), mindestens 40, je Schritt ≥ 8.
+  - Mix: ≥ 40 % Satzbildung, ≤ 30 % `gap`, ≤ 6 `mc`, je 3 `les`/`sch`/`dlg`, 1 `zuo`, 1 `luk`, ≥ 1 `tab`.
+  - Bestehende Themen nicht kürzen; anhängen nur dort, wo Formate fehlen oder pro Runde < 5 Aufgaben zur Satzbildung kommen.
+- Wortpakete:
+  - 20–30 Wörter und etwa 30 Übungen in 3 Schritten zu je ≥ 8.
+  - Kein `tab` nötig, je 3 `les`/`sch`/`dlg`.
+  - Jedes Wort kommt in mindestens einer Übung vor (Vokabelkarten üben ohnehin beide Richtungen).
+  - Der Stand von w01–w06 passt dazu, nur je 1–2 Wörter fehlen in den Übungen.
+
+**Konkret anzuhängen (Vorschlag, Reihenfolge = Priorität; nur `tr` de, `ord`, `les`, `dlg`, `sch`, keine neuen `gap`/`mc`):**
+
+| Thema | anhängen | danach aktiv | Grund |
+|---|---|---|---|
+| d03b | 2 `les`, 3 `dlg`, 4 `tr` de | 46 | Pflichtformate fehlen |
+| d05b | 2 `les`, 4 `tr` de | 49 | Pflicht-`les`; kein `ord`, die Reihenfolge zweier Objekte kommt erst in d06 §6 (Vorgriff) |
+| d06b | 6 `tr` de, 3 `ord` | 54 | Satzbildung 2,7 von 20 |
+| d09 | 5 `tr` de, 2 `ord` | 68 | `gap` 8,2 von 20 |
+| d04, d08, d11 | je 4 `tr` de | 65 / 60 / 60 | Satzbildung ≈ 5 von 20 |
+| d14, d06b, w02, w05 | je 1–3 Übungen mit den fehlenden Wörtern | – | Wortabdeckung |
+
+- Zusammen sind das etwa 50 neue Übungen.
+- Jede bekommt eine Quelle für neue Formen, wird dem passenden Schritt zugeordnet und mit der Vorgriff-Prüfung (Prüfliste 20) geprüft.
+- Das sollte pro Thema in einem eigenen kurzen Durchgang geschehen (T-1012).
