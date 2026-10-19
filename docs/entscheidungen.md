@@ -134,3 +134,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Alle 22 Grammatikthemen und w01–w06 gegen Quellen geprüft, ebenso Reihenfolge, Methode, Repo und Übungen. Ergebnis und Vorschläge stehen in `docs/grammatik-pruefung.md`; Quellenstand 19.10. in `docs/quellen.md`; Bezüge zu Aurora nur im privaten Lernprotokoll.
 - D-1019-8 hier: CLAUDE.md nennt den Chat „Simulation“ nicht mehr als Hauptchat. Berichte gehen nur an Matthias. **Achtung:** Dieselbe Nummer steht oben für „Ubuntu 24.04“, auch D-1019-4/-9/-11 sind in Engine-Sitzungen doppelt vergeben. Neue Vorschläge dieser Prüfung tragen darum D-1019-50 bis -75 (dazu D-1019-10); die Code-Regel ist als D-1019-75 vorgeschlagen.
 - Inhalte (Themen, Übungen, `req`, GLOSS) sind noch nicht geändert; das geschieht erst mit OK zu den einzelnen Codes.
+
+## 2026-10-19 – Ein Chat für alles, Prüfregel (D-1019-11)
+- Die getrennten Chats gibt es nicht mehr: dieser Chat macht Engine (in opi-suomea), Inhalte beider Apps und Simulationen; `CLAUDE.md` angepasst.
+- Matthias: Prüfungen/Simulationen, die kaum Tokens kosten, laufen weiter, wenn sinnvoll; alles andere kritisch hinterfragen und nur wenn wirklich nötig.
