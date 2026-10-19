@@ -7,11 +7,11 @@ Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/q
 - [x] 1 Einstufungstest und Simulationsbefunde lesen (privat)
 - [x] 2 Rahmencurriculum/Einstufungsmatrix ÖIF A1–B2 laden → Grammatik-Liste je Niveau
 - [x] 3 Vollständigkeit: Liste gegen gebaute + geplante Themen
-- [ ] 4 Themen einzeln (Klarheit, Beispiele, Aufbau, Vergleich lingolia/grammis/mein-deutschbuch/dw)
-  - [ ] d01 [ ] d01b [ ] d02 [ ] d02b [ ] d03 [ ] d03b [ ] d04 [ ] d04b [ ] d05 [ ] d05b [ ] d09 [ ] d09b
-  - [ ] d06 [ ] d06b [ ] d07 [ ] d07b [ ] d08 [ ] d08b [ ] d11 [ ] d14 [ ] d15 [ ] d16
-  - [ ] w01–w06
-- [ ] 5 Offene „ohne Quelle“-Punkte aus der Prüfung vom 13.10 (D-1019-9)
+- [x] 4 Themen einzeln (Klarheit, Beispiele, Aufbau, Vergleich lingolia/grammis/mein-deutschbuch/dw)
+  - [x] d01 [x] d01b [x] d02 [x] d02b [x] d03 [x] d03b [x] d04 [x] d04b [x] d05 [x] d05b [x] d09 [x] d09b
+  - [x] d06 [x] d06b [x] d07 [x] d07b [x] d08 [x] d08b [x] d11 [x] d14 [x] d15 [x] d16
+  - [x] w01–w06
+- [x] 5 Offene „ohne Quelle“-Punkte aus der Prüfung vom 13.10 (D-1019-9)
 - [ ] 6 Reihenfolge, `req`, Übersichtsthemen – Vorschlag
 - [ ] 7 Methode, Übungsmix, Regeln/Prüfliste – Verbesserungsvorschläge
 - [ ] 8 `docs/quellen.md` aktualisieren (D-1019-2)
@@ -301,3 +301,58 @@ Bewertung je Thema: **Inhalt** (richtig? Quelle), **Umfang** (≤ 3 neue Teilreg
 - **Technik:** Abschnitt 5 heißt „Useful phrases“ und hat keine 🇦🇹/🇩🇪-Tabelle – anders als w01–w05.
 - **Klarheit:** gut.
 - **Vorschlag:** *schwimmen*-Zeile korrigieren; Abschnitt 5 um 🇦🇹-Wörter ergänzen (Kandidaten erst mit Quelle prüfen).
+
+### 5 Offene „ohne Quelle“-Punkte der Prüfung vom 13.10. (D-1019-9)
+Ausgangspunkt: Prüfung S-1013-50 (Bericht im Repo `opi-suomea`). Deren Korrekturen S-1013-51/-52 sind seit 14.10. umgesetzt (siehe `docs/entscheidungen.md`). Offen waren noch die „ohne Quelle“-Vermerke in `lektionen/pruefvermerke.json` und `docs/entscheidungen.md`. Am 19.10. habe ich sie nachgeschlagen (Duden online, Wikipedia). Ergebnis je Thema:
+
+| Thema | Punkt | Ergebnis |
+|---|---|---|
+| d02 | *E-Card* | belegt: de.wikipedia „e-card (Chipkarte), die österreichische Krankenversicherungskarte“ ✓. Die amtliche Schreibung ist klein: **e-card**. Die App schreibt *E-Card* → Vorschlag: auf *e-card* angleichen. Großgeschrieben nur am Satzanfang. |
+| d03b | *Semmel ↔ Brötchen* | belegt: Duden *Semmel* „besonders österreichisch, bayrisch“ = Brötchen; *Brötchen* „…; Semmel“ ✓ |
+| d04b | *Kassiererin* als Wort in Deutschland/Standard | belegt: Duden *Kassiererin* ohne Regionalmarkierung; Synonyme „(österreichisch) Inkassantin“, „(süddeutsch, österreichisch) Kassierin“ ✓ |
+| d06 | *klingeln / läuten* | belegt: Duden *läuten* 2a/2b „klingeln“, Gebrauch „süddeutsch, österreichisch, schweizerisch, sonst gehoben“ („das Telefon läutet“, „an der Tür läuten“); *klingeln* ohne Markierung ✓ |
+| d06 | *Futter, behalten* | belegt: Duden *Futter* „Nahrung für [Haus]tiere“; *behalten* „in seinem Besitz lassen“ („den Rest des Geldes können Sie behalten“) ✓ |
+| d06b | *Herzlichen Glückwunsch!* | belegt: Duden *Glückwunsch*, Beispiel „herzlichen Glückwunsch zum Geburtstag“ ✓ |
+| d06b | *Kaffee* ohne Plural auf der Karte | Duden: „Plural: die Kaffees“. Das Weglassen ist zulässig, weil die Karten bei Nomen keinen Plural zeigen müssen. Fehlerhaft wäre nur die Aussage „kein Plural“, und die steht nirgends ✓. Aussprache laut Duden „österreichisch nur [kaˈfeː]“ → Vorschlag für eine 🇦🇹-Notiz (betontes *-fee*) |
+| d06b | *die Schuhe probieren* | belegt: Duden *anprobieren* „Schuhe anprobieren“, Synonym „probieren“; *probieren* „auf seine Eignung prüfen“ ✓. Die Behauptung „in Österreich üblich“ ist nicht nötig und bleibt ohne Quelle. |
+| d06b | *backt / bäckt* | belegt: Duden *backen* (herstellen) „du bäckst oder backst, er/sie bäckt oder backt“ → beide Formen richtig ✓ |
+| d07b | *ganz nah wohnen* | belegt in der Bedeutung: Duden *nahe/nah* (Adjektiv) „nicht weit entfernt; leicht erreichbar“, Schreibung *nah* zulässig ✓. Die Wendung selbst ist dort nicht als Beispiel angeführt. |
+| d07–d09b | *nach Hause / heim / daheim* | belegt: Duden *heim* „wieder nach Hause“; *daheim* „besonders süddeutsch, österreichisch, schweizerisch“ ✓ |
+| d08 | *Hustensaft* „in Österreich üblich“ | Duden *Hustensaft* und *Hustensirup* ohne Regionalmarkierung → das Wort ist richtig und allgemein standardsprachlich. In der App steht es nur im Lesetext, ohne 🇦🇹-Behauptung ✓. Kein Handlungsbedarf. |
+| d08b | *dran sein* | belegt: Duden *dran* „dran sein (umgangssprachlich für an der Reihe sein)“ ✓. Steht nur im Lesetext („Dann ist Aurora dran.“), passt zur Erzählung. Kein Handlungsbedarf. |
+| d08b | *Erhol dich gut!* | teilweise: Duden *erholen* („ich habe mich gut erholt“) ✓. Die Wunschformel selbst ist nicht belegt → ohne Quelle (als Imperativ grammatisch richtig). |
+| d09 | *Station* (Wiener Linien) | Duden *Station* „Haltestelle (eines öffentlichen Verkehrsmittels)“ ✓. Die Wiener Besonderheit bleibt ohne Quelle, weil wienerlinien.at gesperrt ist. Vorschlag: „Station = stop“ ohne Wien-Zusatz. |
+| d09 | *Magistratisches Bezirksamt* | belegt: de.wikipedia „Magistrat der Stadt Wien“, Abschnitt „Magistratische Bezirksämter“, Abkürzung „MBA, verbunden mit der … Zahl des Bezirks (MBA 10, MBA 13/14)“ ✓. Duden *Bezirksamt* allgemein „Verwaltungsbehörde eines Bezirks“. wien.gv.at ist gesperrt. |
+| d15 | *einen Bekannten* | belegt: Duden *Bekannte/Bekannter* als substantiviertes Adjektiv ✓ |
+
+**Noch ohne Quelle:** Diese Punkte sind Wendungen, Natürlichkeit oder Grammatikregeln. Ein Wörterbuch belegt sie nicht. Vorschlag D-1019-10 (siehe §9): Grammatikregeln mit grammis (IDS) und lingolia prüfen, Wendungen mit DWDS-Korpus-Beispielen.
+- **Nur Theorie:**
+  - Wortstellung, *als/wenn/wann*, Plusquamperfekt nach *nachdem* (d01–d03b)
+  - Possessivformen, Akkusativ vor Dativ bei zwei Pronomen (d04–d06b)
+  - *gehören* + Dativ, *der/die/das* allein, Sie-Imperativ, *bei/zu* (d07–d09b)
+- **Einzelne Formen:** d01 klingt/mitgebracht/geputzt; d01b angezogen/umgezogen/eingeschlafen/aufgewacht. Sie sind nach Regel gebildet und waren schon früher über Wiktionary belegt. Hier fehlt nur der Vermerk → nachtragen mit `node tools/quellen.mjs`.
+- **Wendungen:**
+  - d02 „Hier spricht …“
+  - d02b „Frau Dr. Huber“
+  - d03 *als* + Perfekt
+  - d03b *mir/dir/sich* in „sich die Hände waschen“, „Erst nachdem …“
+  - d04 „Was darf es sein?“, „Sonst noch etwas?“, „Die Semmeln sind aus“, „offen“
+  - d04b „Das macht … Euro“
+  - d05 „als Geschenk einpacken“, „zwölf Jahre hier arbeiten“
+  - d05b „ein paar Worte sagen“, „wandern gehen“
+  - d07 „Jeder hat ein Häferl“, „Er hat immer drei oder vier“
+  - d07b *meins*
+  - d09b „Komm doch …“
+  - d11/d14 „am fünften März“, „draußen sitzen“
+  - d15 „bei schönem Wetter“, „geriebener Käse“, „Palatschinken mit Topfen“, „In der Arbeit“
+  - d16: *hätte/wäre* statt *würde*, „Grüß Gott“ am Telefon, „Ich hätte eine Bitte“, „Könnten Sie mir sagen, ob …“, „Wäre morgen Nachmittag möglich?“, „Hätten Sie auch am Nachmittag einen Termin?“, „Ein Techniker sollte zu Ihnen kommen“
+- **Aus `entscheidungen.md`:**
+  - „Ja, vier Uhr passt gut.“
+  - „Wir packen heute das Geschenk ein.“
+  - Regel „-te bis 19 / -ste ab 20“
+  - *Abstand/Ablöse*: siehe d14 in §4
+  - *Installateur/Klempner*: in d16 (§4) über DWDS/ostarrichi belegt ✓
+
+Meine Einschätzung: Alle Wendungen sind korrektes, übliches Deutsch. Nichts davon ist ein Fehler. Es fehlt nur der Nachweis.
+
+**Neu zugänglich:** de.wikipedia.org antwortete am 19.10. wieder (Status 200, bei schnellen Abrufen 429). wien.gv.at, chipkarte.at und wienerlinien.at sind weiter gesperrt (403). Das fließt in Punkt 8 ein.
