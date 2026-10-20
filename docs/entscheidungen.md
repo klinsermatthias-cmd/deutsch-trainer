@@ -178,3 +178,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 2026-10-20 – Zielniveau bleibt B2 (D-1020-22)
 - Matthias: Lehrplan und Prüfungen bleiben bei A1–B2 (Ziel für Aurora); C1/C2 wird nicht geplant oder geprüft.
+
+## 2026-10-20 – Wortkarten neu (D-1020-24 bis -27, -29, -31)
+- 126 Verben: regelmäßig/unregelmäßig (+ trennbar/reflexiv/Modalverb), Stammformen, Präsens/Präteritum/Perfekt für alle Personen (DWDS-Konjugationstabellen), Gebrauch bei Dativ-/Akkusativverben; Futur entfällt.
+- Nomen: 10 Plurale ergänzt, sonst „ohne Plural“/„meist ohne Plural“ (DWDS, Duden); n-Nomen mit den/dem-Form. 33 Adjektive mit Steigerung (DWDS, Wiktionary). Alle übrigen Karten mit Wortart; Wortliste nach Wortart (Engine opi-suomea a7660b6).
+- Anonyme Kurzfassung der Simulation D-1020-23: docs/simulation-2026-10-20.md.
