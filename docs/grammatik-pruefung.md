@@ -676,3 +676,14 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
 |---|---|---|
 | D-1019-74 | An „App-Engine: Funktionen“ melden: (1) Der Antipp-Test kennt kein ü, ß oder é (`\p{L}` mit Flag `u` verwenden). (2) `docs/engine.md` Z. 44 verweist auf eine Datei, die es nicht gibt, und auf den Simulation-Chat. | §10 |
 | D-1019-75 | Code-Regel: D-Codes vergibt nur dieser Chat. Engine-Sitzungen nutzen E. Läuft parallel eine zweite D-Sitzung, nimmt sie Nummern ab 50 bzw. 100 und nennt das in ihrer ersten Meldung. Die Regel kommt in CLAUDE.md Z. 15. | §10 |
+
+### 12 Umsetzung (OK Matthias 20.10.: „alle Vorschläge umsetzen, die du empfiehlst“)
+Nicht empfohlen und darum offen: D-1019-60/-61/-62 (Komparation, Richtungspräfixe, Wortbildung – später). D-1019-74/-75 überholt durch CLAUDE.md „ein Chat für alles“; der Antipp-Test wird direkt in opi-suomea repariert.
+- [x] D-1019-50 w03: 112 gilt auch in Österreich
+- [ ] D-1020-1 Klartext-Standard für die Theorie: Pilot d01 – **wartet auf OK von Matthias**. Danach gehen D-1019-51/-52/-53/-54 in den Neufassungen je Thema auf.
+- [ ] D-1019-55/-56 Wortpakete w01–w06, e-card, Station/Kaffee
+- [ ] D-1019-57/-58/-59 Reihenfolge d03/d03b, `req` anhängen, `req`-Formulierung
+- [ ] D-1019-67 bis -73 Regeln (README, ablauf-thema, Prüfliste 23–26, CLAUDE.md, ki-qualitaet)
+- [ ] D-1019-66 zwei Lösungsvarianten; D-1019-65 GLOSS_EXTRA; D-1019-64 Übungen anhängen (d03b, d05b, d06b, d09, d04, d08, d11)
+- [ ] D-1019-63 Übersichtsthema Ü1 „Wer? Wen? Wem?“
+- [ ] D-1019-10 Regeln ohne Quelle mit grammis prüfen; D-1019-74 Antipp-Test in opi-suomea
