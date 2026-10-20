@@ -147,3 +147,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Vertiefte Analyse auf Matthias' Hinweis (Erklärungen teils schwer und schlecht gegliedert): alle Theorien gelesen und mit lingolia/grammis verglichen (§13–§17 in `docs/grammatik-pruefung.md`), Entwürfe je Thema in `docs/theorie-entwuerfe.md`. D-1020-1 (Längenziel) überholt: keine Höchstgrenzen.
 - D-1020-2: 7 Leitlinien „Theorie verständlich schreiben“ in `docs/ablauf-thema.md`, Prüflisten-Zeile 23.
 - D-1020-6: Kurzfassung oben im Prüfdokument, Verweis in CLAUDE.md („nur den Abschnitt zum Thema lesen“), Prüfliste Z. 5 auf „Engine in opi-suomea“.
+
+## 2026-10-20 – Übungen repariert (D-1020-5, OK Matthias)
+- 19 Futur-Lücken in 12 Themen ausgeblendet (Futur erst d17); 14 Lücken mit dem verwirrenden Hinweis „richtige Form im Präsens“ ausgeblendet und mit „haben oder sein? – die passende Form“ hinten neu angehängt (gleicher Schritt).
+- Ersetzt: d01 Nr. 65 (`zuo` mit überlappenden Kategorien → „Where does ge- go?“, Nr. 113), d02 Nr. 6/43 (Hinweis „because – Position 0“, Nr. 98/99), d16 Nr. 10 (ohne die Variante „bitte mich“, Nr. 52). Varianten ergänzt: *Tüten, Tomaten, Aprikosen* (Prüfliste 17), *Ich mag die Wohnung sehr* (d06b Nr. 20); fünf Dialogaufgaben „Answer.“ konkret formuliert.
+- Belegt: Trinkgeld in Österreich 5–10 % (de.wikipedia „Trinkgeld“), Anmeldung spätestens drei Tage nach dem Einzug (de.wikipedia „Meldegesetz 1991“). Ohne Quelle, unverändert: „Anmeldung kostet nichts“ (w04-Lesetext).

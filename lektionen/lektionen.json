@@ -1198,7 +1198,8 @@
     "a": [
      "werde"
     ],
-    "h": "Futur: werden – richtige Form"
+    "h": "Futur: werden – richtige Form",
+    "aus": true
    },
    {
     "t": "gap",
@@ -1206,7 +1207,8 @@
     "a": [
      "werden"
     ],
-    "h": "Futur: werden – richtige Form"
+    "h": "Futur: werden – richtige Form",
+    "aus": true
    },
    {
     "t": "mc",
@@ -1257,7 +1259,8 @@
       "no ge-"
      ]
     ],
-    "h": "Choose the type for each Partizip II."
+    "h": "Choose the type for each Partizip II.",
+    "aus": true
    },
    {
     "t": "luk",
@@ -1915,6 +1918,45 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "zuo",
+    "q": "Where does ge- go in the Partizip II?",
+    "p": [
+     [
+      "gemacht",
+      "ge- at the front"
+     ],
+     [
+      "gefahren",
+      "ge- at the front"
+     ],
+     [
+      "eingekauft",
+      "ge- in the middle"
+     ],
+     [
+      "aufgestanden",
+      "ge- in the middle"
+     ],
+     [
+      "angerufen",
+      "ge- in the middle"
+     ],
+     [
+      "besucht",
+      "no ge-"
+     ],
+     [
+      "verstanden",
+      "no ge-"
+     ],
+     [
+      "telefoniert",
+      "no ge-"
+     ]
+    ],
+    "h": "Choose for each Partizip II where ge- is."
    }
   ],
   "steps": [
@@ -1986,7 +2028,6 @@
      41,
      48,
      53,
-     65,
      66,
      87,
      88,
@@ -1994,7 +2035,8 @@
      90,
      91,
      92,
-     110
+     110,
+     113
     ]
    },
    {
@@ -2033,8 +2075,6 @@
      26,
      57,
      58,
-     62,
-     63,
      64,
      99,
      105,
@@ -2257,7 +2297,8 @@
     "a": [
      "sind"
     ],
-    "h": "haben oder sein – richtige Form im Präsens"
+    "h": "haben oder sein – richtige Form im Präsens",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2265,7 +2306,8 @@
     "a": [
      "habe"
     ],
-    "h": "haben oder sein – richtige Form im Präsens"
+    "h": "haben oder sein – richtige Form im Präsens",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2273,7 +2315,8 @@
     "a": [
      "hast"
     ],
-    "h": "haben oder sein – richtige Form im Präsens"
+    "h": "haben oder sein – richtige Form im Präsens",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2281,7 +2324,8 @@
     "a": [
      "ist"
     ],
-    "h": "haben oder sein – richtige Form im Präsens"
+    "h": "haben oder sein – richtige Form im Präsens",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2410,7 +2454,8 @@
     "a": [
      "sind"
     ],
-    "h": "haben oder sein – richtige Form im Präsens"
+    "h": "haben oder sein – richtige Form im Präsens",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2418,7 +2463,8 @@
     "a": [
      "habt"
     ],
-    "h": "haben oder sein – Präsens, ihr-Form"
+    "h": "haben oder sein – Präsens, ihr-Form",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2426,7 +2472,8 @@
     "a": [
      "haben"
     ],
-    "h": "haben oder sein – richtige Form im Präsens"
+    "h": "haben oder sein – richtige Form im Präsens",
+    "aus": true
    },
    {
     "t": "gap",
@@ -2434,7 +2481,8 @@
     "a": [
      "bist"
     ],
-    "h": "haben oder sein – Präsens, du-Form"
+    "h": "haben oder sein – Präsens, du-Form",
+    "aus": true
    },
    {
     "t": "tr",
@@ -3103,6 +3151,70 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Am Samstag ___ wir nach Salzburg gefahren.",
+    "a": [
+     "sind"
+    ],
+    "h": "haben oder sein? – die passende Form"
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ am Sonntag lange ausgeschlafen.",
+    "a": [
+     "habe"
+    ],
+    "h": "haben oder sein? – die passende Form"
+   },
+   {
+    "t": "gap",
+    "q": "Was ___ du am Wochenende gemacht?",
+    "a": [
+     "hast"
+    ],
+    "h": "haben oder sein? – die passende Form"
+   },
+   {
+    "t": "gap",
+    "q": "Meine Freundin ___ am Freitag nach Graz geflogen.",
+    "a": [
+     "ist"
+    ],
+    "h": "haben oder sein? – die passende Form"
+   },
+   {
+    "t": "gap",
+    "q": "Letzten Sommer ___ wir zwei Wochen in Kärnten geblieben.",
+    "a": [
+     "sind"
+    ],
+    "h": "haben oder sein? – die passende Form"
+   },
+   {
+    "t": "gap",
+    "q": "Was ___ ihr am Samstag gemacht?",
+    "a": [
+     "habt"
+    ],
+    "h": "haben oder sein? – ihr-Form"
+   },
+   {
+    "t": "gap",
+    "q": "Meine Eltern ___ uns im Juli besucht.",
+    "a": [
+     "haben"
+    ],
+    "h": "haben oder sein? – die passende Form"
+   },
+   {
+    "t": "gap",
+    "q": "Wann ___ du gestern ins Bett gegangen?",
+    "a": [
+     "bist"
+    ],
+    "h": "haben oder sein? – du-Form"
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>sein</b>: movement from A to B, change of state, and <i>sein, bleiben, passieren</i>.</li><li><b>haben</b>: all other verbs – also <i>fahren</i> with an object and all reflexive verbs.</li><li>In Austria: <i>ich bin gesessen, gestanden, gelegen</i>.</li></ul><h3>1. Situation: telling a friend about your weekend</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Was ist passiert?</td><td>What happened?</td></tr><tr><td>Ich bin um sechs aufgewacht.</td><td>I woke up at six.</td></tr><tr><td>Ich habe meine Schwester zum Bahnhof gefahren.</td><td>I drove my sister to the station.</td></tr><tr><td>Dann bin ich nach Hause gefahren.</td><td>Then I drove home.</td></tr><tr><td>Ich habe mich schnell umgezogen.</td><td>I quickly got changed.</td></tr><tr><td>Wir sind zu Hause geblieben.</td><td>We stayed at home.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Was <b>ist</b> am Samstag <b>passiert</b>?</i><br><b>Aurora:</b> <i>Nichts Schlimmes! Ich <b>bin</b> um sechs <b>aufgewacht</b> und <b>habe</b> meine Schwester zum Bahnhof <b>gefahren</b>. Dann <b>bin</b> ich nach Hause <b>gefahren</b> und wieder <b>eingeschlafen</b>.</i></p><ul><li>In the dialogue: <i>ist passiert</i> – passieren takes sein.</li><li><i>bin aufgewacht, bin eingeschlafen</i> – change of state.</li><li><i>habe meine Schwester gefahren</i> – fahren with an object takes haben; <i>bin nach Hause gefahren</i> – movement takes sein.</li></ul><h3>3. Overview</h3><table><tr><th>Group</th><th>Example</th></tr><tr><td>movement from A to B</td><td>Er ist nach Linz gefahren.</td></tr><tr><td>change of state</td><td>Er ist eingeschlafen.</td></tr><tr><td>sein, bleiben, passieren</td><td>Er ist zu Hause geblieben.</td></tr><tr><td>everything else</td><td>Er hat lange geschlafen.</td></tr><tr><td>fahren with an object</td><td>Er hat das Auto gefahren.</td></tr><tr><td>reflexive verbs</td><td>Er hat sich umgezogen.</td></tr></table><p>The first three groups take <b>sein</b>, the last three take <b>haben</b>.</p><table><tr><th>Person</th><th>sein</th></tr><tr><td>ich</td><td>bin</td></tr><tr><td>du</td><td>bist</td></tr><tr><td>er / sie / es</td><td>ist</td></tr><tr><td>wir</td><td>sind</td></tr><tr><td>ihr</td><td>seid</td></tr><tr><td>sie / Sie</td><td>sind</td></tr></table><h3>4. sein: movement from A to B</h3><ul><li>gehen, kommen, fahren, fliegen, laufen, wandern, umziehen, aufstehen</li><li><i>Wir sind am Samstag wandern gegangen.</i></li><li><i>Im Mai bin ich nach Linz umgezogen.</i></li></ul><h3>5. sein: change of state</h3><ul><li>aufwachen, einschlafen, werden – something changes: awake → asleep, child → adult.</li><li><i>Ich bin um sechs aufgewacht.</i></li><li>But no change: <i>Ich habe lange geschlafen.</i></li></ul><h3>6. sein: sein, bleiben, passieren</h3><ul><li>These three take sein, although there is no movement.</li><li><i>Ich bin krank gewesen. – Wir sind zu Hause geblieben. – Was ist passiert?</i></li></ul><h3>7. haben: the two traps</h3><table><tr><th>Verb</th><th>Example</th><th>Why?</th></tr><tr><td>fahren without an object</td><td>Ich bin nach Graz gefahren.</td><td>movement → sein</td></tr><tr><td>fahren with an object</td><td>Ich habe meinen Sohn zur Schule gefahren.</td><td>someone or something is driven → haben</td></tr><tr><td>umziehen</td><td>Ich bin nach Linz umgezogen.</td><td>moved house → sein</td></tr><tr><td>sich umziehen</td><td>Ich habe mich umgezogen.</td><td>reflexive → haben</td></tr></table><h3>8. Speaking about the past: war, hatte, musste</h3><ul><li>For <i>sein</i>, <i>haben</i> and modal verbs people mostly use the Präteritum: <i>Es war schön. Ich hatte keine Zeit. Ich musste arbeiten.</i></li><li>In Austria you also often hear the Perfekt: <i>Ich bin krank gewesen. Ich habe keine Zeit gehabt.</i> Both are correct.</li></ul><p class=\"tip\">🇦🇹 <b>Austria</b></p><ul><li><i>sitzen, stehen, liegen</i> take <b>sein</b>: <i>Ich bin lange im Wartezimmer gesessen.</i></li><li>In northern and central Germany: <i>Ich habe gesessen.</i> Both are correct.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich habe nach Hause gegangen.</td><td>Ich bin nach Hause gegangen.</td></tr><tr><td>Er ist das Auto gefahren.</td><td>Er hat das Auto gefahren.</td></tr><tr><td>Ich bin mich umgezogen.</td><td>Ich habe mich umgezogen.</td></tr><tr><td>Was hat passiert?</td><td>Was ist passiert?</td></tr></table>",
@@ -3117,15 +3229,12 @@
     ],
     "ex": [
      0,
-     2,
-     5,
      6,
      8,
      9,
      11,
      14,
      15,
-     19,
      23,
      30,
      31,
@@ -3133,7 +3242,10 @@
      52,
      53,
      57,
-     59
+     59,
+     64,
+     67,
+     71
     ]
    },
    {
@@ -3143,7 +3255,6 @@
      6
     ],
     "ex": [
-     16,
      20,
      21,
      28,
@@ -3156,7 +3267,8 @@
      38,
      39,
      54,
-     60
+     60,
+     68
     ]
    },
    {
@@ -3166,11 +3278,7 @@
     ],
     "ex": [
      1,
-     3,
-     4,
      10,
-     17,
-     18,
      22,
      24,
      25,
@@ -3181,7 +3289,11 @@
      42,
      55,
      58,
-     61
+     61,
+     65,
+     66,
+     69,
+     70
     ]
    },
    {
@@ -3444,7 +3556,8 @@
     "a": [
      "denn"
     ],
-    "h": "Bindewort: because"
+    "h": "Bindewort: because",
+    "aus": true
    },
    {
     "t": "gap",
@@ -3995,7 +4108,8 @@
     "a": [
      "denn"
     ],
-    "h": "Bindewort: because"
+    "h": "Bindewort: because",
+    "aus": true
    },
    {
     "t": "tr",
@@ -4263,7 +4377,8 @@
     "a": [
      "werde"
     ],
-    "h": "Futur: werden – richtige Form"
+    "h": "Futur: werden – richtige Form",
+    "aus": true
    },
    {
     "t": "gap",
@@ -4271,7 +4386,8 @@
     "a": [
      "wird"
     ],
-    "h": "Futur: werden – richtige Form"
+    "h": "Futur: werden – richtige Form",
+    "aus": true
    },
    {
     "t": "mc",
@@ -4896,6 +5012,22 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich komme nicht mit, ___ ich bin krank.",
+    "a": [
+     "denn"
+    ],
+    "h": "Bindewort: because – bleibt auf Position 0, die Wortstellung ändert sich nicht"
+   },
+   {
+    "t": "gap",
+    "q": "Ich habe keine Zeit, ___ ich muss arbeiten.",
+    "a": [
+     "denn"
+    ],
+    "h": "Bindewort: because – bleibt auf Position 0, die Wortstellung ändert sich nicht"
    }
   ],
   "steps": [
@@ -4966,7 +5098,6 @@
     "ex": [
      1,
      3,
-     6,
      7,
      12,
      14,
@@ -4975,12 +5106,13 @@
      26,
      34,
      41,
-     43,
      48,
      51,
      63,
      67,
-     96
+     96,
+     98,
+     99
     ]
    },
    {
@@ -4998,8 +5130,6 @@
      54,
      55,
      56,
-     57,
-     58,
      60,
      61,
      64,
@@ -7081,7 +7211,8 @@
     "a": [
      "werden"
     ],
-    "h": "Futur: werden – richtige Form"
+    "h": "Futur: werden – richtige Form",
+    "aus": true
    },
    {
     "t": "gap",
@@ -7089,7 +7220,8 @@
     "a": [
      "wirst"
     ],
-    "h": "Futur: werden – du-Form"
+    "h": "Futur: werden – du-Form",
+    "aus": true
    },
    {
     "t": "mc",
@@ -7556,8 +7688,6 @@
     "ex": [
      22,
      61,
-     62,
-     63,
      64,
      75,
      76,
@@ -8606,7 +8736,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werden"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -8614,7 +8745,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werden"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -8622,7 +8754,8 @@
     "h": "haben oder sein – richtige Form im Präsens",
     "a": [
      "haben"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -9525,6 +9658,14 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Was ___ die Erdäpfel gekostet?",
+    "h": "haben oder sein? – die passende Form",
+    "a": [
+     "haben"
+    ]
    }
   ],
   "steps": [
@@ -9605,9 +9746,6 @@
     "ex": [
      5,
      6,
-     7,
-     8,
-     9,
      29,
      32,
      43,
@@ -9621,7 +9759,8 @@
      68,
      69,
      73,
-     74
+     74,
+     75
     ]
    }
   ]
@@ -9889,7 +10028,8 @@
     "q": "We need three bags.",
     "a": [
      "Wir brauchen drei Sackerl.",
-     "Wir brauchen drei Sackerln."
+     "Wir brauchen drei Sackerln.",
+     "Wir brauchen drei Tüten."
     ]
    },
    {
@@ -10141,7 +10281,7 @@
      ],
      [
       "Du",
-      "[Ja, bitte zwei Sackerl.|Ja, zwei Sackerl, bitte.|Ja, bitte zwei Sackerln.]",
+      "[Ja, bitte zwei Sackerl.|Ja, zwei Sackerl, bitte.|Ja, bitte zwei Sackerln.|Ja, bitte zwei Tüten.|Ja, zwei Tüten, bitte.]",
       "Say yes, two bags please."
      ],
      [
@@ -10247,7 +10387,7 @@
      ],
      [
       "Du",
-      "[Ein Kilo Paradeiser, bitte.|Ich hätte gern ein Kilo Paradeiser.|Ich hätte gerne ein Kilo Paradeiser.]",
+      "[Ein Kilo Paradeiser, bitte.|Ich hätte gern ein Kilo Paradeiser.|Ich hätte gerne ein Kilo Paradeiser.|Ein Kilo Tomaten, bitte.|Ich hätte gern ein Kilo Tomaten.|Ich hätte gerne ein Kilo Tomaten.]",
       "Ask for one kilo of tomatoes."
      ],
      [
@@ -10921,7 +11061,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werden"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10929,7 +11070,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "wirst"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -10937,7 +11079,8 @@
     "h": "haben oder sein – richtige Form im Präsens",
     "a": [
      "haben"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -12104,6 +12247,14 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir ___ das Geschenk schon eingepackt.",
+    "h": "haben oder sein? – die passende Form",
+    "a": [
+     "haben"
+    ]
    }
   ],
   "steps": [
@@ -12185,9 +12336,6 @@
     "ex": [
      7,
      8,
-     9,
-     10,
-     11,
      30,
      31,
      43,
@@ -12200,7 +12348,8 @@
      88,
      92,
      93,
-     94
+     94,
+     95
     ]
    }
   ]
@@ -13393,7 +13542,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "wird"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -14213,7 +14363,6 @@
     ],
     "ex": [
      3,
-     4,
      18,
      20,
      21,
@@ -14356,7 +14505,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werde"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -14364,7 +14514,8 @@
     "h": "haben oder sein – richtige Form im Präsens",
     "a": [
      "sind"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -15086,6 +15237,14 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Wir ___ am Karlsplatz umgestiegen.",
+    "h": "haben oder sein? – die passende Form",
+    "a": [
+     "sind"
+    ]
    }
   ],
   "steps": [
@@ -15161,8 +15320,6 @@
     "ex": [
      0,
      1,
-     2,
-     3,
      11,
      13,
      27,
@@ -15174,7 +15331,8 @@
      36,
      48,
      52,
-     53
+     53,
+     54
     ]
    }
   ]
@@ -15623,7 +15781,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werde"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -15631,7 +15790,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "wird"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -15639,7 +15799,8 @@
     "h": "haben oder sein – richtige Form im Präsens",
     "a": [
      "hat"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -16792,6 +16953,14 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Frau Huber ___ mein Paket angenommen.",
+    "h": "haben oder sein? – die passende Form",
+    "a": [
+     "hat"
+    ]
    }
   ],
   "steps": [
@@ -16870,9 +17039,6 @@
     "ex": [
      5,
      6,
-     7,
-     8,
-     9,
      27,
      28,
      41,
@@ -16884,7 +17050,8 @@
      87,
      88,
      90,
-     91
+     91,
+     92
     ]
    }
   ]
@@ -17211,7 +17378,9 @@
      "Die Wohnung gefällt mir sehr gut.",
      "Die Wohnung gefällt mir sehr.",
      "Mir gefällt die Wohnung sehr gut.",
-     "Mir gefällt die Wohnung sehr."
+     "Mir gefällt die Wohnung sehr.",
+     "Ich mag die Wohnung sehr.",
+     "Ich mag die Wohnung sehr gern."
     ]
    },
    {
@@ -18106,7 +18275,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werde"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -18114,7 +18284,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "wird"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -18122,7 +18293,8 @@
     "h": "haben oder sein – richtige Form im Präsens",
     "a": [
      "habe"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -19021,6 +19193,14 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ meinen Regenschirm auf der Firmenfeier vergessen.",
+    "h": "haben oder sein? – die passende Form",
+    "a": [
+     "habe"
+    ]
    }
   ],
   "steps": [
@@ -19103,9 +19283,6 @@
     "ex": [
      4,
      5,
-     6,
-     7,
-     8,
      27,
      28,
      42,
@@ -19118,7 +19295,8 @@
      73,
      74,
      78,
-     79
+     79,
+     80
     ]
    }
   ]
@@ -20137,7 +20315,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "wird"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -20942,7 +21121,6 @@
     ],
     "ex": [
      3,
-     4,
      5,
      18,
      19,
@@ -21174,7 +21352,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "wird"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -21182,7 +21361,8 @@
     "h": "haben oder sein – richtige Form im Präsens",
     "a": [
      "habe"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -21786,6 +21966,14 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "gap",
+    "q": "Ich ___ mir gestern den Fuß verletzt.",
+    "h": "haben oder sein? – die passende Form",
+    "a": [
+     "habe"
+    ]
    }
   ],
   "steps": [
@@ -21819,7 +22007,6 @@
     ],
     "ex": [
      1,
-     5,
      7,
      9,
      17,
@@ -21828,7 +22015,8 @@
      27,
      37,
      39,
-     44
+     44,
+     48
     ]
    },
    {
@@ -21840,7 +22028,6 @@
     "ex": [
      2,
      3,
-     4,
      13,
      14,
      15,
@@ -22811,7 +22998,8 @@
     "h": "Futur I: werden – richtige Form",
     "a": [
      "werden"
-    ]
+    ],
+    "aus": true
    },
    {
     "t": "gap",
@@ -23096,7 +23284,6 @@
     "ex": [
      41,
      42,
-     43,
      44,
      45,
      46,
@@ -25719,7 +25906,8 @@
      "Könnten Sie mich bitte zurückrufen?",
      "Könnten Sie bitte mich zurückrufen?"
     ],
-    "de": "Could you call me back, please?"
+    "de": "Could you call me back, please?",
+    "aus": true
    },
    {
     "t": "tr",
@@ -26401,6 +26589,20 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Könnten",
+     "Sie",
+     "mich",
+     "bitte",
+     "zurückrufen"
+    ],
+    "a": [
+     "Könnten Sie mich bitte zurückrufen?"
+    ],
+    "de": "Could you call me back, please?"
    }
   ],
   "steps": [
@@ -26423,10 +26625,10 @@
      7,
      8,
      9,
-     10,
      11,
      12,
-     13
+     13,
+     52
     ]
    },
    {
@@ -27698,7 +27900,7 @@
      [
       "Du",
       "[Ja, zum Glück.|Ja, ich bekomme sie bezahlt.|Nein, leider nicht.]",
-      "Answer."
+      "Say whether you get paid for it – yes, fortunately, or no, unfortunately not."
      ]
     ]
    },
@@ -28307,7 +28509,7 @@
      [
       "Du",
       "[Ja, ich bin wieder gesund.|Ja, danke, es geht mir besser.|Fast, ich habe noch Schnupfen.]",
-      "Answer."
+      "Say that you are healthy again – or almost: you still have a runny nose."
      ],
      [
       "Lena",
@@ -28921,7 +29123,7 @@
      [
       "Du",
       "[Ja, deshalb brauche ich einen neuen.|Ja, ich weiß.|Genau, deshalb bin ich hier.]",
-      "Answer."
+      "Agree: that is why you need a new one."
      ]
     ]
    },
@@ -29552,7 +29754,7 @@
      ],
      [
       "Du",
-      "[Ein Kilo Marillen, bitte.|Ich hätte gern ein Kilo Marillen.|Ein Kilo Marillen.]",
+      "[Ein Kilo Marillen, bitte.|Ich hätte gern ein Kilo Marillen.|Ein Kilo Marillen.|Ein Kilo Aprikosen, bitte.|Ich hätte gern ein Kilo Aprikosen.|Ein Kilo Aprikosen.]",
       "Ask for a kilo of apricots."
      ],
      [
@@ -29562,7 +29764,7 @@
      [
       "Du",
       "[Ja, ein paar Schwammerl, bitte.|Ein paar Schwammerln, bitte.|Nein, danke, das ist alles.]",
-      "Answer."
+      "Ask for some mushrooms (Schwammerl) – or say that is all."
      ]
     ]
    },
@@ -30187,7 +30389,7 @@
      [
       "Du",
       "[Nein, danke, ich bin mit dem Zug gekommen.|Nein, danke.|Ja, bitte.]",
-      "Answer."
+      "Say no, thank you – you came by train."
      ]
     ]
    },
