@@ -213,3 +213,134 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 
 **Quellen:** lingolia „Aussagesätze“ (Position 2, Umstellung, Zeit vor Ort, Pronomen vor Objekt) ✓; lingolia „Verneinung“ (*nicht*-Stellung) ✓; lingolia „Konjunktionen“ (*und/aber/oder/denn/sondern* ohne Einfluss auf die Wortstellung) ✓ (§4). TeKaMoLo: ohne Quelle (DaF-Merkwort, Wikipedia-Artikel 404).
 **Lernschritte:** 1 → §1–4 · 2 → §5 · 3 → §6 · 4 → §7 · 5 → §8, §9, Verbformen, Futur. **Folgen für Übungen:** §8 *nicht* ist neu → im Schritt 5 neue Übungen anhängen (Vorschlag in 14.4).
+
+---
+
+## d02b Wortstellung II: der Nebensatz
+
+**Quellenvergleich:** lingolia „Indirekte Fragen“ zeigt jede Regel als **Paar** direkte → indirekte Frage (*Wann hat er Zeit? – Ich weiß nicht, wann er Zeit hat.*), sagt „ohne Fragewort → *ob*“ und erklärt das Satzzeichen (Punkt, Fragezeichen nur wenn der ganze Satz eine Frage ist). lingolia „Konjunktionalsätze“: Wortstellung im Nebensatz gleich, egal ob er vorn oder hinten steht; Hauptsatz danach: Nebensatz = Position 1. In d02b fehlen die Paare, der Kontrast *ob* ↔ *wenn* (obwohl d03 darauf verweist) und das Satzzeichen; die Komma-Regel steht nur im Kurz-Kasten; Futur steht in der Tabelle.
+
+**Was sich ändert:** Kurz-Kasten einfacher; Umbau-Paare direkte → indirekte Frage; *ob* ↔ *wenn* als eigener Punkt; Komma und Satzzeichen in §4; Futur-Zeile → Satz „Later“.
+
+**Entwurf:**
+
+> **The most important things**
+> - Words like *weil, dass, ob, wenn, obwohl* send the conjugated verb **to the end**: *…, weil ich krank **bin**.*
+> - Two verbs at the end: the conjugated verb is the **very last** word: *…, ob ich kommen **kann**.*
+> - Subordinate clause first → the main clause starts with the verb: *Weil ich krank bin, **bleibe** ich zu Hause.*
+>
+> **Words used here:** **subordinate clause** (Nebensatz) = a part of a sentence that cannot stand alone; it starts with a word like *weil, dass, ob* and has its own verb.
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher · **3. Overview: words that start a subordinate clause** = wie bisher
+>
+> **4. The verb goes to the end** (Tabelle = wie bisher), plus:
+> - There is **always a comma** between the main clause and the subordinate clause.
+>
+> **5. Questions inside a sentence (indirect questions)** *(neu gegliedert)*
+>
+> | Direct question | Indirect question |
+> |---|---|
+> | **Wann** hat die Ärztin Zeit? | Können Sie mir sagen, **wann** die Ärztin Zeit **hat**? |
+> | **Wo** ist die Ordination? | Ich weiß nicht, **wo** die Ordination **ist**. |
+> | **Kommt** er heute? (yes/no) | Ich weiß nicht, **ob** er heute **kommt**. |
+>
+> - With a question word: keep the word (*wann, wo, wie, warum …*). Without a question word: use **ob**.
+> - **ob or wenn?** English *if* = *whether* → **ob**: *Ich weiß nicht, **ob** er kommt.* English *if* = *when, in case* → **wenn**: ***Wenn** er kommt, essen wir.*
+> - Question mark only if the whole sentence is a question: *Können Sie mir sagen, wann …**?*** – but *Ich weiß nicht, wann …**.***
+>
+> **6. Two verbs in the subordinate clause** – Tabelle ohne Futur-Zeile = sonst wie bisher. Later (d17): *…, dass ich morgen kommen **werde**.*
+>
+> **7. Subordinate clause first** = wie bisher (Merksatz „verb – comma – verb“ bleibt)
+>
+> **8. weil or denn?** = wie bisher
+>
+> **⚠ Watch out** = wie bisher, plus Zeile ✗ *Ich weiß nicht, wenn er kommt.* → ✓ *Ich weiß nicht, ob er kommt.*
+
+**Quellen:** lingolia „Indirekte Fragen“ (Paare, *ob*, Satzzeichen) ✓; lingolia „Konjunktionalsätze“ (Verb am Ende, Nebensatz = Position 1) ✓.
+**Lernschritte:** 1 → §1–5 · 2 → §6 · 3 → §7–8. Die Abschnittsnummern verschieben sich um eins; `sec` wird beim Einbau angepasst. **Folgen für Übungen:** 2 neue Übungen *ob/wenn* (bereits als D-1019-51 empfohlen).
+
+---
+
+## d03 als, wenn, wann
+
+**Quellenvergleich:** lingolia führt *als/wenn* in der Liste der Temporalsätze (*als* einmalig in der Vergangenheit, *wenn/immer wenn* wiederholt) und *ob/wann* bei den indirekten Fragen; die Präteritum-Formen der Modalverben stehen bei lingolia „Modalverben“ als **vollständige** Tabelle (*musste, konnte, durfte, sollte, wollte, mochte*). d03: der Überblick „Ask yourself“ ist vorbildlich. Aber: Lernschritt 1 ist das Präteritum (§8), das im Text erst nach als/wenn/wann kommt; nur *können/müssen* stehen als Tabelle; Wortstellung (§7) ist von den Regeln getrennt; der Hinweis *konnte/könnte* steht hinter der ⚠-Tabelle; Futur am Ende.
+
+**Was sich ändert:** Präteritum-Abschnitt an den Anfang (= Lernschritt 1); vollständige Präteritum-Tabelle der Modalverben (*dürfen, sollen, wollen* ergänzt; *mögen → mochte* als Info); *konnte/könnte* in diesen Abschnitt; Wortstellung als Satz in §4–6; *kam, wohnte, ging* als „nur erkennen, d22“; Futur → „Later“.
+
+**Entwurf:**
+
+> **The most important things**
+> - German has three words for *when*: **als** (one time in the past), **wenn** (repeated, now, future, *if*), **wann** (questions).
+> - Telling about the past: *war, hatte* and the modal verbs (*konnte, musste …*) in the **Präteritum**, the other verbs in the Perfekt.
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher
+>
+> **3. Präteritum of sein, haben and the modal verbs** (bisher §8, nach vorn)
+> - Tabellen *sein/haben* = wie bisher; Tabelle Modalverben erweitert:
+>
+> | Person | können | müssen | dürfen | sollen | wollen |
+> |---|---|---|---|---|---|
+> | ich | konnte | musste | durfte | sollte | wollte |
+> | du | konntest | musstest | durftest | solltest | wolltest |
+> | er/sie/es | konnte | musste | durfte | sollte | wollte |
+> | wir | konnten | mussten | durften | sollten | wollten |
+> | ihr | konntet | musstet | durftet | solltet | wolltet |
+> | sie/Sie | konnten | mussten | durften | sollten | wollten |
+>
+> - Pattern: no umlaut + *-te*: *können → konnte, dürfen → durfte, müssen → musste*. (*mögen → mochte*: rare; you say *ich wollte, ich hätte gern*.)
+> - **No umlaut!** *konnte* = could, was able to (past). *könnte* = could possibly (polite form, d16).
+> - Other verbs in the Präteritum (*kam, wohnte, ging*) you only need to **recognise** in texts for now – topic d22.
+>
+> **4. Overview: als, wenn or wann?** (bisher §3, „Ask yourself“) = wie bisher, plus: *All three start a subordinate clause – the verb goes to the end (d02b).*
+>
+> **5. als** = wie bisher · **6. wenn** = wie bisher (Verweis *ob* bleibt, stimmt dann mit d02b §5) · **7. wann** = wie bisher
+> (bisher §7 „Word order“ entfällt als eigener Abschnitt – sein Inhalt steht in §4 und in den Beispielen; der Satz „If the clause comes first, the main clause starts with the verb“ kommt unter §5.)
+>
+> **⚠ Watch out** = wie bisher (der *könnte*-Hinweis steht jetzt in §3)
+>
+> **Verb forms** = wie bisher · **Later: Futur I – topic d17** (bisher am Ende) = wie bisher
+
+**Quellen:** lingolia „Modalverben“ (Präteritum-Tabelle *musste, konnte, durfte, sollte, wollte, mochte*) ✓; lingolia „Konjunktionalsätze“ (*als*, *wenn/immer wenn*) ✓; Duden *als/wenn* ✓ (§4).
+**Lernschritte:** 1 → §1–3 · 2 → §4–5 · 3 → §6 · 4 → §7 · 5 → Verbformen, Futur. **Folgen für Übungen:** neue Formen *durfte/sollte/wollte* → 3–4 Übungen im Schritt 1 anhängen. Vorgriff-Prüfung nötig (Schritt-Marker `d03/1` in `lektionen/vorgriff.json`).
+
+---
+
+## d03b während, bevor, nachdem
+
+**Quellenvergleich:** lingolia „Konjunktionalsätze“: *bevor, nachdem, während* (dazu *bis, sobald, seit/seitdem, solange* – im Lehrplan als d21 geplant). Die Zeitenfolge bei *nachdem* erklärt lingolia mit der Regel „Vorzeitigkeit“; das Plusquamperfekt hat bei lingolia eine eigene Seite mit Formen. d03b ist klar; schwer sind nur „one tense earlier“ (abstrakt) und das Plusquamperfekt in einer Zeile ohne Formen.
+
+**Was sich ändert:** Kurz-Satz zu *nachdem* konkret; Plusquamperfekt mit kleiner Formentabelle; Genitiv in *während des Essens* gekennzeichnet; Hinweis auf d21.
+
+**Entwurf:**
+
+> **The most important things**
+> - *während* = while (same time) · *bevor* = before · *nachdem* = after.
+> - All three start a subordinate clause: the verb goes to the end.
+> - *nachdem*: what happened **first** goes one step further into the past: *Nachdem ich **gegessen habe**, gehe ich spazieren.*
+>
+> **1.–5.** = wie bisher (im Überblick §3 bei *während des Essens* der Zusatz „Genitiv – you only need to recognise it, topic d18“)
+>
+> **6. nachdem: one step further into the past**
+>
+> | Main clause (later action) | nachdem-clause (first action) | Example |
+> |---|---|---|
+> | Präsens | Perfekt | Nachdem ich gegessen **habe**, gehe ich spazieren. |
+> | Perfekt or Präteritum | Plusquamperfekt | Nachdem wir gegessen **hatten**, sind wir spazieren gegangen. |
+>
+> **Plusquamperfekt** = *hatte* or *war* (d03) + Partizip II:
+>
+> | haben-verbs | sein-verbs |
+> |---|---|
+> | ich **hatte** gegessen | ich **war** angekommen |
+> | du **hattest** gegessen | du **warst** angekommen |
+> | er/sie **hatte** gegessen | er/sie **war** angekommen |
+> | wir **hatten** gegessen | wir **waren** angekommen |
+>
+> - haben or sein: the same rules as in the Perfekt (d01b).
+> - Later (d21): more time words – *seitdem, bis, sobald*.
+>
+> **⚠ Watch out** = wie bisher
+> **🇦🇹 Good to know** *(neu, Beispiel vor Einbau abstimmen)*: *nachdem* can also mean *because/since*: *Nachdem es regnet, bleiben wir daheim.* (Duden: „landschaftlich“; dass es in Österreich häufig ist: ohne Quelle)
+
+**Quellen:** Duden „nachdem“ (Vorzeitigkeit; kausal landschaftlich) ✓; lingolia „Konjunktionalsätze“ ✓; Plusquamperfekt-Formen = *hatte/war* (d03-Tabelle) + Partizip II, lingolia „Perfekt/Plusquamperfekt“ (§4) ✓.
+**Lernschritte:** unverändert. **Folgen für Übungen:** keine Pflicht; *nachdem* kausal nur erkennen.
