@@ -434,3 +434,91 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 
 **Quellen:** lingolia „Plural“ ✓ (§4). Maßwort-Regel (Maskulina/Neutra im Singular, Feminina im Plural): ohne Quelle – in 14.3 mit Duden belegen.
 **Lernschritte:** unverändert. **Folgen für Übungen:** prüfen, ob eine Übung *Kilos* verlangt (14.4).
+
+---
+
+## d05 Nominativ und Akkusativ
+
+**Quellenvergleich:** lingolia „Deklination“ erklärt die Fälle über **Fragen** an einen Satz (*Wer/Was kommt …? → die Chefin* = Nominativ; *Wen/Was bringt sie mit? → frisches Obst* = Akkusativ) und nennt beim Nominativ auch *sein, werden, bleiben*. d05 nennt die Fragen erst in §5 und erklärt „Fall“ abstrakt („the job of a noun“). Für Englischsprachige fehlt die nächstliegende Brücke: Englisch zeigt den Fall nur bei Pronomen (*he/him, who/whom*). §3 zeigt schon die Dativ-Zeile; §6 bündelt der-Wörter, ein-Wörter, acht Possessive, *euer* und *ihr/Ihr* in einem Abschnitt; „no ending in three places“ ist abstrakt.
+
+**Was sich ändert:** Brücke zum Englischen und „Ask: wer? wen?“ nach vorn; Überblick nur Nominativ und Akkusativ; Beispiel *Herrn Gruber* → *den Chef*; §6 in zwei Abschnitte mit voller Tabelle für *mein*; 🇦🇹-Zeile umformuliert.
+
+**Entwurf:**
+
+> **The most important things**
+> - English shows the job of a word only with pronouns: ***he** sees **him***, ***who** – **whom***. German shows it in the **article**: ***der** Chef sieht **den** Kollegen*. This "job" is called the **case**.
+> - **Nominativ** = the subject (who or what does something?) – and the noun after *sein*.
+> - **Akkusativ** = the direct object (whom or what?). Only the masculine changes: *der → den, ein → einen*.
+>
+> **Words used here:** **subject** = who or what does the action: ***Sabine** kauft …* · **direct object** = whom or what the action is done to: *Sabine kauft **einen Gutschein***.
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher
+>
+> **3. Ask the question – then you know the case** *(neu, vor der Tabelle)*
+>
+> | Question | Answer | Case |
+> |---|---|---|
+> | **Wer** kauft den Gutschein? | *Sabine* | Nominativ |
+> | **Was** kauft Sabine? | *einen Gutschein* | Akkusativ |
+> | **Wen** fragst du? | *den Chef* | Akkusativ |
+>
+> **4. Akkusativ: only the masculine changes** (Tabelle Nominativ/Akkusativ = wie bisher; Verben mit Akkusativ und *nach sein kein Akkusativ* = wie bisher; Satz „The article shows the case, so the order can change“ = wie bisher)
+>
+> **5. der-words: dieser, welcher, jeder**
+> They have the same endings as *der, die, das*: *dieser Gutschein → diesen Gutschein*, *welche Karte*, *jedes Geschenk*.
+>
+> **6. ein-words: kein, mein, dein …**
+>
+> | | masculine | feminine | neuter | plural |
+> |---|---|---|---|---|
+> | Nominativ | mein Chef | meine Karte | mein Geschenk | meine Geschenke |
+> | Akkusativ | mein**en** Chef | meine Karte | mein Geschenk | meine Geschenke |
+>
+> - The same endings for *ein, kein, dein, sein, ihr, unser, euer, Ihr*. (*ein* has no plural; *keine, meine* do.)
+> - Personen-Tabelle *mein/dein … Ihr* = wie bisher; *euer → eure* und *ihr/Ihr* = wie bisher.
+>
+> **⚠ Watch out** = wie bisher
+> **🇦🇹 Austria**: *die Bonbonniere = box of chocolates (Germany more often: Pralinenschachtel)* – Häufigkeit ohne Quelle (§4)
+> **Verb forms** = wie bisher
+> (Die Dativ-Zeile des alten Überblicks steht in d05b §3 – nichts geht verloren.)
+
+**Quellen:** lingolia „Deklination“ (Fragen wer/was, wen/was; Nominativ nach *sein/werden/bleiben*) ✓; lingolia „Artikel“ (Tabellen) ✓; lingolia „Possessivpronomen“ (*euer → eure*) ✓ (§4).
+**Lernschritte:** 1 → §1–4 · 2 → §3 (Fragen) ist schon in Schritt 1 – der bisherige Schritt 2 „Fragen“ bekommt §3+§4-Wiederholung; besser: 1 → §1–2, §4 · 2 → §3 · 3 → §5–6 · 4 → ⚠, Verbformen (= heutige Schrittaufteilung, nur mit neuer Reihenfolge der Abschnitte). **Folgen für Übungen:** keine.
+
+---
+
+## d05b der Dativ
+
+**Quellenvergleich:** lingolia „n-Deklination“ nennt das System hinter *Herr/Kollege*: maskuline Nomen für Lebewesen, die im Plural auf *-n/-en* enden, bekommen außer im Nominativ Singular *-n/-en* (*der Kollege → dem Kollegen*, *der Student → dem Studenten*, *der Herr → dem Herrn*). d05b sagt dazu nur „Learn them as they are – the system comes later“. lingolia „Aussagesätze“: zwei Nomen → das indirekte Objekt (Dativ) steht vor dem direkten (Akkusativ) – d05b benutzt diese Reihenfolge in jedem Beispiel, erklärt sie aber nicht (erst d06).
+
+**Was sich ändert:** Reihenfolge Person (Dativ) vor Sache (Akkusativ) als Regel; n-Nomen als einfaches Muster mit mehr Beispielen.
+
+**Entwurf:**
+
+> **Kurz-Kasten** = wie bisher
+>
+> **1.–3.** = wie bisher
+>
+> **4. Dativ endings** = wie bisher, plus:
+> - **Order with two nouns**: usually the person (Dativ) first, then the thing (Akkusativ): *Wir schenken **der Kollegin** **einen Gutschein**.* With pronouns: d06.
+>
+> **5.–6.** = wie bisher
+>
+> **7. Nouns with -n in all cases**
+> Some **masculine nouns for people** add *-n* or *-en* in every form **except** the nominative:
+>
+> | Nominativ | Akkusativ | Dativ |
+> |---|---|---|
+> | der Kollege | den Kollege**n** | dem Kollege**n** |
+> | der Kunde | den Kunde**n** | dem Kunde**n** |
+> | der Nachbar | den Nachbar**n** | dem Nachbar**n** |
+> | der Student | den Student**en** | dem Student**en** |
+> | der Herr | den Herr**n** | dem Herr**n** |
+>
+> - Typical: masculine people ending in *-e* (*Kollege, Kunde, Junge*) and in *-ent, -ist, -ant* (*Student, Polizist*).
+> - *den Kollegen* can also be the dative plural – to the colleagues. More in d18.
+>
+> **⚠ Watch out** = wie bisher
+
+**Quellen:** lingolia „n-Deklination“ (Lebewesen, *-e* → *-n*, *-ent/-ist/-ant* → *-en*, *Herr → Herrn*) ✓; lingolia „Aussagesätze“ (indirektes vor direktem Objekt) ✓; *Nachbar → Nachbarn*: Duden „Nachbar“ (Genitiv *des Nachbarn*) ✓ (§4).
+**Lernschritte:** unverändert. **Folgen für Übungen:** neue Nomen *Kunde, Student, Nachbar* → 2–3 Übungen im Schritt 3; *Nachbar* klärt auch die strittige Zeile in d06 (D-1019-51).
