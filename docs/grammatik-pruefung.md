@@ -739,7 +739,7 @@ Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Auf
 - [x] 14.2 (Entwürfe für alle 22 Themen und w01–w06 in `docs/theorie-entwuerfe.md`) Je Thema: wie erklären lingolia, DW, mein-deutschbuch, Wikipedia dasselbe? Konkreter Vorschlag für eine einfachere Erklärung – vollständig, ohne Höchstgrenzen, als Vorher/Nachher-Entwurf (nicht eingebaut)
 - [x] 14.3 Fehlende Teile mit Quelle belegt (20.10.): Komposita-Genus (de.wikipedia „Komposition (Grammatik)“, Kopf rechts) ✓; Maßwörter (Duden *vier Kilo, 5 Stück, zwei Bier, drei Flaschen, zwei Tassen*) ✓; Bewegung innerhalb eines Ortes (Duden „Park“: *im Park spazieren gehen*) ✓; Ordinalzahlen *-te/-ste* (de.wikipedia „Zahlwort“) ✓; *mögen* (lingolia „Modalverben“) ✓; adjektivisches Prinzip stark/schwach (de.wikipedia „Deutsche Deklination“) ✓; Länder mit Artikel und *woher/wo/wohin*-Matrix (lingolia „Artikel“, „Lokale Präpositionen“) ✓; n-Deklination (lingolia) ✓. Noch ohne Quelle: Abgrenzung *gefallen* (erleben) ↔ *mögen* (allgemein) als Formulierung; Merkkette der Präpositionen; TeKaMoLo; Intonation (alle als Lernhilfe gekennzeichnet). Gesperrt: lernhelfer.de (000), Wikipedia „Wechselpräposition“ (404).
 - [x] 14.4 (§15) Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
-- [ ] 14.5 Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
+- [x] 14.5 (§16) Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
 - [ ] 14.6 Bericht an Matthias mit Codes
 
 ### 15 Übungen inhaltlich gelesen (14.4, 20.10.)
@@ -781,3 +781,18 @@ Gelesen: alle aktiven `gap`, `tr`, `mc`, `ord`, `luk`, `zuo`, `sch` aller 28 The
 - les (100 Fragen gelesen): Texte und Antworten stimmig; Fragesprache gemischt (d01b, d04, w01–w06 deutsch, sonst englisch) – vereinheitlichen oder bewusst ab einem Niveau Deutsch; Sachangaben ohne Quelle: w04-Text „Anmeldung kostet nichts“, „innerhalb von drei Tagen“.
 
 **Was Quellen an Übungsformen empfehlen:** lingolia bietet je Kapitel Lückentext, Auswahl, Satzbau und Umformung – die App hat alle diese Formen und mehr (Übersetzung in beide Richtungen, Dialog, Lesen, freies Schreiben mit KI-Bewertung). Forschung (en.wikipedia „Testing effect“, „Generation effect“, „Spacing effect“, §7): selbst gebildete Antworten und gemischtes, verteiltes Üben wirken am stärksten – das spricht für mehr `tr` (de), `ord`, `sch` statt `gap` (§11) und für die Übersichtsthemen (§6). Neue Formen sind nicht nötig.
+
+### 16 Repo-Audit vertieft (14.5, 20.10.)
+**Stabilität und Funktion:**
+- `node tools/pruefen.mjs --lang`: 103 von 103 Prüfungen bestanden, 1 Hinweis (d03b/d05b nur 1 `les`), Laufzeit 47 s. CI auf main grün.
+- Simulation `DAYS=60 node tools/simulation.mjs`: 33 simulierte Tage ohne App-Fehler (Rundgänge Bericht, Sicherung, Einstellungen, Prüfmodus, Hören … „ok“); danach von mir wegen des 10-Minuten-Zeitlimits abgebrochen – kein App-Fehler. Der lokale Speicher bleibt bei 1,0–1,5 MB (Sicherungen rotieren) – unkritisch.
+- Bekannter Fehler im Engine-Test: Antipp-Prüfung erkennt *ü, ß, é* nicht (§10).
+
+**Dateien:** 71 Dateien, jede wird irgendwo verwendet oder verwiesen; keine verwaiste Datei. `lektionen/ki-pruefung.json` ist leer (`{}`), wird aber von den Prüfwerkzeugen gelesen – bleibt. `docs/archiv/` enthält nur das alte Entscheidungsprotokoll – passt.
+
+**Veraltete Texte (nach „ein Chat für alles“, CLAUDE.md 19.10.):**
+- `docs/ablauf-thema.md` Z. 3: „Entwürfe kommen oft vom Chat Simulation“ (D-1019-72).
+- `lektionen/pruefliste.md` Z. 5: „fehlt ein Test → App-Engine: Funktionen“ → „fehlt ein Test → Engine in opi-suomea ergänzen“.
+- `docs/engine.md` Z. 44 (Engine-Datei, nur in opi-suomea ändern): Verweis „Altstand in `docs/chats/simulation.md`“ – die Datei gibt es nicht.
+
+**Tokenkosten für einen neuen Chat:** Pflichtlektüre (CLAUDE.md, Prüfliste, README, ablauf-thema, Lehrplan, Quellen) ≈ 38.000 Zeichen ≈ 10.000 Tokens – angemessen. **Neu teuer:** `docs/grammatik-pruefung.md` (102 KB) und `docs/theorie-entwuerfe.md` (61 KB) ≈ 45.000 Tokens zusammen. Vorschlag: oben eine Kurzfassung (Stand, offene Codes, wo was steht) und in CLAUDE.md „nur den Abschnitt zum jeweiligen Thema lesen“; nach der Umsetzung beide Dateien nach `docs/archiv/`.
