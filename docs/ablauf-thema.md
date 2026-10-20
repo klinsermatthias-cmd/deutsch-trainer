@@ -1,9 +1,9 @@
 # Ablauf: Thema bauen oder ändern
 
-Vorher lesen: `lektionen/pruefliste.md`, `lektionen/README.md`, Plan in `docs/lehrplan.md`. Formate nur bei Bedarf: `docs/uebungsformate.md`. Entwürfe kommen oft vom Chat „Simulation“; dieser Chat prüft, hängt an und pusht nach Matthias' OK (D-1012-19).
+Vorher lesen: `lektionen/pruefliste.md`, `lektionen/README.md`, Plan in `docs/lehrplan.md`. Formate nur bei Bedarf: `docs/uebungsformate.md`. Dieser Chat entwirft, prüft, hängt an und pusht nach Matthias' OK (D-1019-72).
 
 ## Aufbau eines Themas
-- **Situation + Grammatik:** eine Alltagssituation in Österreich und der Grammatik-Baustein, den sie braucht; höchstens 3 neue Teilregeln, sonst teilen (`aus: true` im alten Thema, Teilthema `…b`).
+- **Situation + Grammatik:** eine Alltagssituation in Österreich und der Grammatik-Baustein, den sie braucht; höchstens 3 neue Teilregeln (Teilregel = eine eigene Bildungsregel; Überblick, Vergleich, Strategie und Wortschatz zählen nicht, D-1019-70), sonst teilen (`aus: true` im alten Thema, Teilthema `…b`).
 - **Theorie (Englisch, S-1013-34):** „The most important things“ (Liste) → 1. Situation (Tabelle) → 2. Dialogue (Zielformen fett, darunter „In the dialogue: …“) → 3. Overview (ganzes System als Tabelle) → je Teilregel eine nummerierte `<h3>`-Überschrift mit kurzer Liste und Beispieltabelle → „⚠ Watch out“ (✗/✓ mit Auroras typischen Fehlern) → „🇦🇹 Austria“ → Verbformen. Keine Klammer-Einschübe, ein Gedanke je Listenpunkt; vollständige Tabellen (≤ 3 Spalten).
 - **Theorie verständlich schreiben (D-1020-2, Matthias 20.10.: vollständig vor kurz, keine Höchstgrenzen):**
   1. „The most important things“ = nur die Kernregeln, jede mit einem Beispiel; keine Verweise auf andere Themen.
@@ -17,7 +17,7 @@ Vorher lesen: `lektionen/pruefliste.md`, `lektionen/README.md`, Plan in `docs/le
 - **Verbkarten (S-1014-26):** Englisch nur die Bedeutung; Deutsch `{"f": [...]}` mit vier Zeilen und Pronomen:
   `Präsens: ich fahre · du fährst · er/sie/es fährt` · `Präteritum: er/sie/es fuhr` · `Perfekt: er/sie/es ist gefahren` · `Futur: er/sie/es wird fahren`.
   Alle drei Pronomen im Präsens bei Vokalwechsel und bei sein/haben/werden/wissen/Modalverben, im Präteritum bei Modalverben, sein, haben. Trennbare und reflexive Verben ausgeschrieben; österreichisch „ist gesessen (Germany: hat gesessen)“.
-- **Übungen:** 30–50, ≥ 6 Formate, Schwerpunkt `tr`, `gap`, `ord`, `sch`, `dlg`; je ≥ 3 `les`, `sch`, `dlg`; 2–4 Regelfragen (`mc` mit `x`), 1 `zuo`, 1 `luk`; `h` nur, wo das Format missverständlich ist (sagt, was gesucht ist, nicht wie man es baut). Etwa 70 % zu Auroras Schwächen, 30 % Kontrast und Mischung.
+- **Übungen:** etwa 50, mindestens 40, je Lernschritt ≥ 8 (D-1019-67); Mix: ≥ 40 % Satzbildung, ≤ 30 % `gap`, ≤ 6 `mc` mit gleich langen Optionen, `x` bei typischen Fallen (D-1019-68); Wortpakete: 20–30 Wörter, etwa 30 Übungen, jedes Wort in einer Übung; ≥ 6 Formate, Schwerpunkt `tr`, `gap`, `ord`, `sch`, `dlg`; je ≥ 3 `les`, `sch`, `dlg`; 2–4 Regelfragen (`mc` mit `x`, zählen zu den ≤ 6 `mc`), 1 `zuo`, 1 `luk`; `h` nur, wo das Format missverständlich ist (sagt, was gesucht ist, nicht wie man es baut). Etwa 70 % zu Auroras Schwächen, 30 % Kontrast und Mischung.
 - **Lernschritte (`steps`, S-1014-1):** 2–5 Schritte `{t, sec, ex}`; `sec` = Theorie-Abschnitte (`<h3>`-Teile) des Schritts; je ≥ 8 Übungen in ≥ 3 Arten; nur der letzte („Alles zusammen“) mischt. **Kein Vorgriff** (Prüfliste 20): jede Pflichtantwort ist in den Abschnitten bis zu diesem Schritt oder in einem früheren Thema gelehrt. Ausgeblendete Übungen stehen in keinem Schritt.
 - **`req` (D-1019-59):** alle Themen, deren Stoff das Thema verwendet, auch indirekt (Kette nachrechnen), in Lernreihenfolge (die App sperrt bereits freie Themen nicht wieder).
 

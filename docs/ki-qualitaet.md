@@ -4,5 +4,7 @@ Claude wertet bei jedem Bericht das **KI-PROTOKOLL** aus und trägt hier nur ein
 
 **Anbieter (D-1014-77):** Gemini direkt (Google AI), wie der Bericht ihn ausweist. Ein Zwischenstand mit OpenRouter (Oktober 2026, D-1009-2) gilt nicht mehr. Urteile je Modell getrennt bewerten (KI-Protokoll, „QUALITÄT JE MODELL“); auf Kontingent-Fehler und Token-Verbrauch achten.
 
+**Stand 20.10.2026: noch keine Auswertung** – es kam noch kein Bericht mit KI-Protokoll (D-1019-73).
+
 | Datum | Anbieter / Modelle | Geprüft | Fehlurteile | Auffälligkeiten | Token/Monat (hochgerechnet) |
 |---|---|---|---|---|---|
