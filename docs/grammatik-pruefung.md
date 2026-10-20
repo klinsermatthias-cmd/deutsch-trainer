@@ -687,3 +687,48 @@ Nicht empfohlen und darum offen: D-1019-60/-61/-62 (Komparation, Richtungspräfi
 - [ ] D-1019-66 zwei Lösungsvarianten; D-1019-65 GLOSS_EXTRA; D-1019-64 Übungen anhängen (d03b, d05b, d06b, d09, d04, d08, d11)
 - [ ] D-1019-63 Übersichtsthema Ü1 „Wer? Wen? Wem?“
 - [ ] D-1019-10 Regeln ohne Quelle mit grammis prüfen; D-1019-74 Antipp-Test in opi-suomea
+
+### 13 Einfachheit und Aufbau der Erklärungen (20.10., alle 22 Themen und w01–w06 vollständig gelesen)
+Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Aufbau der passenden lingolia-Kapitel verglichen (Regel → eine Tabelle → Beispiele; Abruf 19.10.). Noch nichts geändert (Matthias 20.10.: „noch nichts ändern, keine Höchstgrenzen“).
+
+**Muster über alle Themen:**
+- A Kasten „The most important things“ überladen (4–5 lange Punkte) und mit Verweis-Zeilen („The next topic …“): d01, d02, d04, d05, d06, d07, d11, d14, d15, d16.
+- B Vorschauen mitten im Stoff: Futur (d01, d02, d02b, d03, d04), Präteritum (d01), Dativ-Zeile (d05), „later“ ohne Ziel (d09b).
+- C Textreihenfolge ≠ Lernreihenfolge: d03 (Schritt 1 = §8), d15 (§8/§9 nach den Verbformen), Futur-Abschnitte nach den Verbformen.
+- D Die Kernidee steht nicht oben oder nicht als Prinzip: d07 „nur drei Formen anders“ erst in §4; d14/d15 kein gemeinsames Prinzip; d05 Begriff „Fall“ nur abstrakt.
+- E Entscheidungswege fehlen, wo man zwischen Formen wählt: d01 Partizip II, d01b haben/sein, d08 du-Imperativ, d11 wo/wohin. Vorbild: d03 „Ask yourself“.
+- F Fachwörter nie erklärt: stem, inseparable prefix, Partizip II, position 0, case, ¨.
+- G Ein Abschnitt bündelt mehrere Dinge: d02 §8, d05 §6, d14 §6, d16 §5 und §6.
+- H Beispiele mit ungelerntem Stoff: d05 *Herrn Gruber*, d07b *der rote*, *Lenas*, d09 *am/an der*, d09b *in Wien*.
+- I Widersprüche: d04b „das Kilo → die Kilos“ neben „zwei Kilo“; d04b §6 Maßwörter; d08 „drei Formen“, gelehrt werden vier.
+
+**Je Thema:**
+- d01: Zeitformen-Überblick §3 + Prät/Futur §10 + Modal-Ausnahme lenken ab; PII auf §6/§7 verteilt, kein Entscheidungsweg; Fachwörter (stem, inseparable prefix, Partizip II) nie erklärt; §9 Englisch und ⚠ doppeln sich; Meta-Zeile "next topic d01b".
+- d01b: gut. §3 mischt Gruppen-Tabelle + sein-Konjugation; §7 Titel "haben: traps" enthält sein-Zeilen, doppelt mit ⚠; Entscheidungsfrage fehlt ("Bewegt sich jemand von A nach B oder ändert sich ein Zustand?"); Bewegung ohne Ortswechsel (tanzen) → haben fehlt.
+- d02: Kurz 4 Punkte + Meta; "Position 1 = ein Satzteil" (Kernidee) nur 1 Satz, zu wenig Beispiele; §6 Klammer enthält Futur (nicht gelehrt); "Position 0" Fachwort; sondern nie erklärt; §8 TeKaMoLo 4 Kategorien schwer; Futur nach Verbformen; FEHLT: Stellung von nicht (nur im ⚠-Beispiel).
+- d02b: klar. Kurz Zeile 1 überladen (6 Wörter + indirekte Fragen); Futur-Zeile in §5; FEHLT: ob↔wenn-Kontrast; Umbau direkte→indirekte Frage (Wann hat sie Zeit? → …, wann sie Zeit hat) nur als Tabellenzeile; Komma-Regel nur im Kurz-Kasten.
+- d03: Lernschritt 1 = §8 Präteritum, steht aber im Text hinter als/wenn/wann (Reihenfolge Text ≠ Lernreihenfolge); Kurz-Kasten mischt 2 Themen; „Ask yourself“-Überblick sehr gut; §7 Wortstellung abgetrennt statt in als/wenn; konnte/könnte-Hinweis hinter der ⚠-Tabelle; Futur nach Verbformen; FEHLT: Präteritum von wollen, dürfen, sollen, mögen (nur können/müssen); „kam, wohnte, ging“ ohne Bildungsregel (Präteritum normaler Verben nirgends gelehrt).
+- d03b: sehr klar. Kurz „one tense earlier“ abstrakt → „what happened first goes one tense back“; Plusquamperfekt nur 1 Zeile (Formen hatte/war fehlen als Tabelle); Überblick nutzt Genitiv „während des Essens“ (nicht gelehrt, nur erkennen – kennzeichnen).
+- d04: Kurz mit Meta-Zeile; §4 Endungsliste 8 Zeilen + 5 Ausnahmen, immer/meistens gemischt; §6 „Verben als Nomen“ Nebenwissen; Futur-Tipp; FEHLT: Komposita – das letzte Wort bestimmt das Genus (die Einkaufsliste, der Gemüsemarkt); Stellung von nicht.
+- d04b: klar. Widerspruch: -s-Beispiel „das Kilo → die Kilos“, aber Regel „zwei Kilo“ – anderes Beispiel (Kino); ¨ nie erklärt; §6 Maßwörter widersprüchlich („stay singular: … zwei Packungen – but Packung…“) – Regel: Maskulina/Neutra (Kilo, Liter, Stück) Singular, Feminina (Flasche, Packung) Plural – Quelle prüfen. Korrektur §4 meiner Prüfung: Lerntipp „Plural mitlernen“ steht schon im Kurz-Kasten.
+- d05: Kurz 5 Punkte + Meta; Kernbegriff „Fall/Subjekt/Objekt“ nur abstrakt – FEHLT Brücke zum Englischen (he/him, who/whom = Nominativ/Akkusativ) und „Wie finde ich das Subjekt? Wer tut etwas?“; §3 zeigt schon Dativ-Zeile (Vorschau); §6 bündelt 4 Dinge (der-/ein-Wörter, „keine Endung an drei Stellen“ abstrakt, 8 Possessive, euer, ihr/Ihr) – besser: volle Tabelle mein in Nom/Akk; Herrn-Beispiel Vorgriff.
+- d05b: klar. FEHLT: Regel zur Reihenfolge Person (Dativ) vor Sache (Akkusativ) – steht in allen Beispielen, gelehrt erst in d06; §7 „system comes later“ – Muster einfach benennbar (männliche Personen auf -e: Kollege, Kunde, Junge → überall -n außer Nominativ), weitere Beispiele Kunde, Nachbar, Name fehlen (kommen in w02/d06 vor).
+- d09: klar, aber Listen-Lernen ohne Merkhilfe; Kurz nennt 8, Überblick 9 Präpositionen (außer fehlt im Kurz); mehrere Bedeutungen je Präposition in einer Zelle (nach = to/after, gegen = against/around); nach↔zu doppelt mit d09b (dort besser); Beispiele mit am/an der (Wechselpräp., erst d11) unmarkiert.
+- d09b: klar. Überblick nutzt in Wien (d11) und von zu Hause; heim falsch; „in die Schweiz – later“ ohne Ziel (FEHLT: Länder mit Artikel); aus↔von „starting point“ vage; ziehen-Hinweis doppelt.
+- d06: gut. Kurz mit Meta; Nachbar-Zeile in §6 fehl am Platz (n-Deklination); Verbformen-Tabelle gehört zu d06b; FEHLT: Pronomen nach Präpositionen (mit mir, für dich, zu ihm) – kommt in d09b-Dialog vor („zu mir“), nirgends erklärt.
+- d06b: sehr klar. FEHLT: mögen („Ich mag Kuchen“) in der „I like“-Tabelle – häufigste Form, Abgrenzung mag / gefällt / schmeckt / gern; gratulieren mit „Happy birthday“ übersetzt statt wörtlich „congratulate“.
+- d07: Reihenfolge: §3 zeigt erst 12 Formen, erst §4 sagt „nur drei sind anders“ – Kernsatz gehört nach oben; „more formal“ ohne Quelle; Schritt 3 ohne Theorie; Kurz mit Meta; welche = some (d07) und welche? = which (d07b) – gleiches Wort, Unterschied nirgends erklärt.
+- d07b: sehr klar. Dialog nutzt „Der rote“ (Adjektivendung erst d14) und „Lenas“ (Genitiv-s bei Namen, nirgends erklärt).
+- d08: Kurz sagt „drei Formen“, Schritt 1 lehrt vier (wir-Form) – Widerspruch; §3 zeigt reflexive/trennbare Formen vor ihrer Erklärung; §4 du-Regeln: 6 Zeilen gleichrangig, Formulierung „only -t goes“ unklar → Grundregel + 3 Ausnahmen; -eln-Zeile ohne Übung; Intonation ohne Quelle; optional: mal/doch zum Abschwächen (ohne Quelle).
+- d08b: klar bis auf Possessiv-Regel (zu streng); FEHLT: Liste häufiger reflexiver Verben (sich setzen, verkühlen, ausruhen, freuen, anziehen, waschen) – nur verstreut; Muster „sich die Hände waschen“ nur über Körperteile verletzt.
+- d11: gut, aber lang; Kurz 5 Punkte; Artikel und Kurzformen in §4/§5 je wiederholt; FEHLT: Bewegung innerhalb eines Ortes = wo? + Dativ (Ich gehe im Park spazieren; ⚠ „Ich gehe in der Küche“ ohne diese Erklärung); FEHLT: bei Zeitangaben immer Dativ (am Montag, im Mai, vor einer Woche); Entscheidungsweg (1. eine der neun? 2. wo oder wohin? 3. Verb mit Objekt?) nur verstreut.
+- d14: Kernregel gut, Kurz 5 lange Punkte; Überblickstabelle: die 5 -e-Formen nicht hervorgehoben (Fettdruck würde das Muster sichtbar machen); §6 bündelt Ordinalzahlen/Datum und derselbe (zwei Themen); Ablöse-Zeile ungenau.
+- d15: Kern gut, aber 5 Regeln; §8/§9 nach Verbformen; Kurz 4 lange Punkte; §6 Kette „der → -er, den → -en, dem → -em …“ schwer lesbar; FEHLT (für d14+d15): EIN gemeinsames Prinzip, einmal oben erklärt – „Ein Wort muss Genus und Fall zeigen: tut es der Artikel, hat das Adjektiv nur -e/-en; kann der Artikel es nicht (ein ohne Endung, kein Artikel), zeigt es das Adjektiv“ – steht nur bruchstückhaft in §2/§3.
+- d16: klar und vollständig, aber §5 mischt Bitten, gern/lieber/am liebsten (Vergleich), Rat und Wendungen; §6 mischt indirekte Fragen (Wiederholung d02b), Großschreibung Sie und E-Mail-Form – je zwei Unterüberschriften; optional „Dürfte ich …?“.
+- w01–w06: klar gegliedert; der Kasten sagt „Learn every noun with its article and plural“, die Tabellen zeigen den Plural aber nur beim ersten Wort (er steht auf den Karten).
+
+**Lücken (Vollständigkeit), mit Quelle:**
+- Stellung von *nicht* (d02/d04): lingolia „Verneinung“ – *nicht* am Satzende bei Verben, vor dem Vollverb bei zusammengesetzten Zeiten, sonst vor dem Verneinten ✓.
+- Präteritum *wollte, durfte, sollte, mochte* (d03): lingolia „Modalverben“, Präteritum-Tabelle ✓.
+- Zeitangaben mit *an, in, vor, zwischen* + Dativ (d11/d09b): lingolia „Temporale Präpositionen“ ✓.
+- Ohne Quelle (Standard-DaF, vor Einbau belegen): Genus von Komposita (letztes Wort), Bewegung innerhalb eines Ortes + Dativ, Maßwörter (Maskulina/Neutra Singular, Feminina Plural), Pronomen nach Präpositionen, *mögen* neben *gefallen*, Länder mit Artikel, *ob* ↔ *wenn*, n-Deklination als Muster, reflexive Verben als Liste.
