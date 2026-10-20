@@ -669,3 +669,133 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 
 **Quellen:** lingolia „Modalverben“ (*mögen* meist ohne Vollverb: *ich mag dich*) ✓; Duden-Beispiele zu den Dativ-Verben ✓ (§4). Die Abgrenzung „gefallen = sehen/erleben“: ohne eigene Quelle (Duden *gefallen* „jemandem angenehm sein“ – vor Einbau Formulierung prüfen).
 **Lernschritte:** unverändert. **Folgen für Übungen:** 2–3 Übungen *mögen* ↔ *gefallen* anhängen (Schritt 3).
+
+---
+
+## d07 meiner, einer, keiner
+
+**Quellenvergleich:** lingolia „Possessivpronomen“ zeigt die Formen ohne Nomen als Tabelle und **hebt die abweichenden Endungen hervor**. d07 bringt erst die volle Tabelle mit 12 Formen (§3) und sagt erst in §4, dass nur drei Formen anders sind. *meines* „more formal“ ist ohne Quelle (§4). *welche* = some (d07) und *welche?* = which (d07b) sind dasselbe Wort mit zwei Bedeutungen – das wird nirgends gesagt.
+
+**Was sich ändert:** Kernsatz nach oben; Tabelle mit hervorgehobenen drei Formen; *meines* „also correct“; Hinweis *welche* ↔ *welche?*; Wiederholungsschritt 3 bekommt einen eigenen kurzen Theorie-Abschnitt.
+
+**Entwurf:**
+
+> **The most important things**
+> - When it's clear what you mean, German leaves the noun out: *Das ist mein Mantel. → Das ist **meiner**.*
+> - Alone, *mein-, dein-, ein-, kein-* take the endings of *der, die, das*.
+> - **Only three forms are different** from the form before a noun: *meiner* (masculine, Nominativ) and *meins* (neuter, Nominativ and Akkusativ).
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher
+>
+> **3. Before a noun and alone**
+>
+> | | before a noun | alone |
+> |---|---|---|
+> | masculine Nominativ | mein Mantel | **meiner** |
+> | neuter Nominativ | mein Häferl | **meins** |
+> | neuter Akkusativ | mein Häferl | **meins** |
+> | all other forms | meine Tasche, meinen Schal, meinem Freund … | the same: meine, meinen, meinem … |
+>
+> Volle Tabelle aller Fälle (bisher §3) = wie bisher, direkt darunter, die drei Formen fett.
+> Beispiele „Before a noun / Alone“ (bisher §4) = wie bisher.
+>
+> **4. meins or meines?**
+> - *meins, deins, eins, keins* are the usual forms. *meines, deines, eines, keines* are also correct, but less common.
+> - *unser, euer*: neuter *unseres, eures* = wie bisher.
+>
+> **5. welche = some**
+> - = wie bisher, plus: *Careful: welche? with a question mark means which? – topic d07b.*
+>
+> **6. Practise again: Dativ, pronouns, plural** *(neu, für den Wiederholungsschritt)* – drei Beispielsätze, die den Schritt erklären: *Wem gehört der Schal? – Er gehört mir. – Hast du deine Handschuhe? – Nein, ich habe keine.*
+>
+> **⚠ Watch out** = wie bisher · **🇦🇹 Austria** = wie bisher · **Verb forms** = wie bisher
+
+**Quellen:** lingolia „Possessivpronomen“ (Formen, hervorgehobene Abweichungen) ✓; Wiktionary „meins“ (Nebenform *meines*) ✓ (§4).
+**Lernschritte:** 1 → §1–3 · 2 → §4–5 · 3 → §6 (statt `sec` leer) · 4 → ⚠, Verbformen. **Folgen für Übungen:** keine.
+
+---
+
+## d07b der, die, das allein und welcher?
+
+**Quellenvergleich:** lingolia „Demonstrativpronomen“ (*denen* im Dativ Plural ohne Nomen) und „Interrogativpronomen“ (*welcher* mit den Endungen von *der*; Beispiel *Welcher Hund …? – Der kleine.*) – d07b folgt dem genau. Einzige Stolpersteine: Der Dialog benutzt *der rote* (Adjektivendung, erst d14) und *Lenas* (Genitiv-s bei Namen, nirgends erklärt).
+
+**Entwurf (nur kleine Änderungen):**
+> - Dialog: *Und welcher Schal ist Lenas? – Der rote.* → Fußnote: *Lenas = Lena's; der rote = the red one (adjective endings: d14).* Oder Satz ersetzen: *Und welcher Schal gehört Lena? – Der da.*
+> - §6: Hinweis *welche = some* (d07) ergänzen.
+> - Alles andere = wie bisher.
+
+**Quellen:** lingolia ✓ (§4). **Lernschritte/Übungen:** unverändert.
+
+---
+
+## d08 der Imperativ
+
+**Quellenvergleich:** lingolia „Imperativ“: vier Formen (*du, ihr, Sie* **und** *wir*); Bildung je Person in einem Satz; Sonderfälle *e → i* (immer, nie mit *-e*), *a → ä* gilt nicht, *-d/-t* und Konsonant + *m/n* immer mit *-e*; Info-Kasten: der Imperativ ist im Deutschen sehr üblich und nicht unhöflich gemeint – mit *bitte* höflicher. d08 sagt im Kurz-Kasten „three forms“, lehrt aber vier (*wir*); die *du*-Regeln stehen als sechs gleichrangige Zeilen; die Intonationsregel ist ohne Quelle; der Hinweis zur Höflichkeit fehlt.
+
+**Was sich ändert:** „three forms + wir“; *du*-Form als Grundregel + drei Ausnahmen; Höflichkeits-Info (lingolia); Intonation als „usually“.
+
+**Entwurf:**
+
+> **The most important things**
+> - Three forms for other people: ***Komm!*** (du) – ***Kommt!*** (ihr) – ***Kommen Sie!*** (Sie). Plus *wir* for a suggestion: ***Gehen wir!***
+> - *du*: the *du*-form without *-st* and without *du*: *du kommst → **komm!***
+> - Separable verbs: the prefix goes to the end – *Nehmen Sie die Tablette **ein**!*
+>
+> **Good to know:** Germans and Austrians use the imperative a lot – it is not rude. Add ***bitte*** to be polite: *Setzen Sie sich bitte.*
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher · **3. Overview** = wie bisher
+>
+> **4. The du-imperative: one rule, three exceptions**
+> **Rule:** take the *du*-form and drop *-st* and *du*: *du kommst → komm!, du nimmst → nimm!, du hilfst → hilf!*
+>
+> | Exception | Example |
+> |---|---|
+> | *a → ä* in the *du*-form: the umlaut goes | *du fährst → **fahr!**, du schläfst → **schlaf!*** |
+> | stem ends in *-s, -ß, -z*: only the *-t* is left out | *du liest → **lies!**, du isst → **iss!*** |
+> | stem ends in *-d, -t* or consonant + *m/n*: add *-e* | *warte!, arbeite!, atme!, öffne!* |
+>
+> - *komme!, schlafe!* with *-e* are possible but sound old-fashioned or formal.
+> - Good to know: *sammeln → sammle!*
+>
+> **5. The ihr-, Sie- and wir-imperative** = wie bisher
+> **6. Special cases** = wie bisher
+> **7. Verb first: question or request?** = wie bisher, Intonation: *usually rising for a question, falling for a request.*
+>
+> **⚠ Watch out** = wie bisher · **Verb forms** = wie bisher
+
+**Quellen:** lingolia „Imperativ“ (vier Formen, Sonderfälle, Höflichkeit mit *bitte*) ✓. Intonation: ohne Quelle (als „usually“ gekennzeichnet).
+**Lernschritte:** unverändert. **Folgen für Übungen:** keine.
+
+---
+
+## d08b Reflexivpronomen, Körperteile
+
+**Quellenvergleich:** lingolia „Reflexivpronomen“: Akkusativ, wenn es kein anderes Akkusativobjekt gibt, sonst Dativ; nur *mich/mir* und *dich/dir* unterscheiden sich. d08b ist klar. Falsch zu streng: „Body parts take the article, **not the possessive**“ (Duden *mein/der Kopf tut mir weh*, §4). Es fehlt eine Liste häufiger reflexiver Verben – sie sind über d08, d08b und w03 verstreut.
+
+**Was sich ändert:** Possessiv-Regel abgeschwächt (D-1019-51); neue Liste reflexiver Verben des Alltags.
+
+**Entwurf:**
+
+> **Kurz-Kasten:** letzter Punkt → *Body parts usually take the article: **mir den Fuß** verletzt. (meinen Fuß is possible, but less common.)*
+>
+> **1.–4.** = wie bisher
+>
+> **5. Body parts and wehtun** = wie bisher (erster Satz: *Body parts usually take the article …*)
+>
+> **6. Frequent reflexive verbs** *(neu)*
+>
+> | Verb | Example |
+> |---|---|
+> | sich setzen | Setzen Sie sich bitte. |
+> | sich ausruhen | Ruhen Sie sich aus. |
+> | sich verkühlen (Germany: sich erkälten) | Ich habe mich verkühlt. |
+> | sich verletzen | Ich habe mir den Fuß verletzt. |
+> | sich wohlfühlen | Ich fühle mich nicht wohl. |
+> | sich anziehen / sich umziehen | Ich ziehe mich schnell um. |
+> | sich die Hände waschen | Wasch dir die Hände! |
+>
+> **⚠ Watch out:** Zeile ✗ *Ich habe meinen Fuß verletzt.* entfällt; dafür ✗ *Ich habe mich die Hände gewaschen.* → ✓ *Ich habe mir die Hände gewaschen.*
+> **🇦🇹 Austria** = wie bisher (Schreibung *e-card*: D-1019-56) · **Verb forms** = wie bisher
+
+**Quellen:** lingolia „Reflexivpronomen“ ✓; Duden „verletzen“, „wehtun“ ✓ (§4). Verben der Liste: alle schon in d08/d08b/d03/w03 belegt (*verkühlen* Duden ✓); *sich die Hände waschen*: Muster wie *sich das Bein verletzen* (Duden) ✓.
+**Lernschritte:** 3 → §5–6. **Folgen für Übungen:** Übung 22 um *meinen Fuß* ergänzen (D-1019-51); 2 Übungen zur Liste.
