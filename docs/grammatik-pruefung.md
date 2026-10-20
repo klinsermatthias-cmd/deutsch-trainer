@@ -1,4 +1,10 @@
-# Grammatik-Prüfung D-1019 (Stand 19.10.2026: fertig, Vorschläge offen)
+# Grammatik-Prüfung D-1019 (Stand 20.10.2026: Analyse fertig, Umsetzung läuft)
+
+> **Kurzfassung für neue Chats – nur den Abschnitt zum jeweiligen Thema lesen, nicht die ganze Datei.**
+> - Ergebnisse je Thema: §4 (Richtigkeit, Quellen), §13 (Einfachheit und Aufbau), §15 (Übungen). Entwürfe für einfachere Theorien: `docs/theorie-entwuerfe.md` (je Thema ein Abschnitt).
+> - Freigegeben 20.10. (Matthias): D-1020-2 bis -7 (§17); Stand der Umsetzung: §18.
+> - Angehalten bis zu Matthias' Go: D-1019-55 bis -73 (§9, §12).
+> - Quellenstand und gesperrte Seiten: `docs/quellen.md`. Nach der Umsetzung kommt diese Datei nach `docs/archiv/`.
 
 Auftrag D-1019-1: alle 22 Grammatik-Themen und w01–w06 gegen Online-Quellen prüfen – Vollständigkeit, Verständlichkeit, Beispiele, Aufbau (S-1013-34), Reihenfolge A1→B2, Methode, Übersichtsthemen, Systemlücken.
 Ergebnisse zu Aurora: nur im privaten Lernprotokoll (D-1019-7). Quellen: `docs/quellen.md`.
@@ -810,3 +816,10 @@ D-1020-1 (Pilot mit Längenziel) ist **überholt** – Matthias 20.10.: keine H�
 | D-1020-7 | Engine in opi-suomea: Antipp-Test mit `\p{L}` (*ü, ß, é*) und toten Verweis in `docs/engine.md` Z. 44 entfernen (ersetzt D-1019-74) | §10, §16 |
 
 Die schon freigegebenen Punkte D-1019-55 bis -73 (Wortpakete, Reihenfolge, `req`, Regeln, Übungen anhängen, GLOSS, Übersichtsthema) sind weiter angehalten („noch nichts ändern“) und laufen nach Matthias' Go in der Reihenfolge von §12 weiter.
+
+### 18 Umsetzung D-1020 (OK Matthias 20.10.)
+- [x] D-1020-6 Kurzfassung oben, CLAUDE.md-Verweis, Prüfliste Z. 5
+- [x] D-1020-2 Leitlinien in `docs/ablauf-thema.md` und Prüfliste
+- [ ] D-1020-5 Übungen reparieren (§15)
+- [ ] D-1020-7 Engine in opi-suomea (Antipp-Test, toter Verweis)
+- [ ] D-1020-3/-4 Theorien neu fassen und ergänzen – auf dem Branch, vor main Vorher/Nachher an Matthias

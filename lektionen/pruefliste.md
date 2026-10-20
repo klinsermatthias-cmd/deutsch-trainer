@@ -2,7 +2,7 @@
 
 **Pflichtlektüre**, bevor Claude Themen, Übungen, Wortlisten oder Einstufungstest-Aufgaben erstellt oder ändert; **vor jedem Push** Zeile für Zeile durchgehen. Jede neue Meldung oder Lehre ergibt eine **neue Zeile** (nur anhängen; Beispiel und Herkunft mit derselben Nummer in `lektionen/pruefliste-beispiele.md`). Quellen und Abrufhinweise: `docs/quellen.md`.
 
-Test: was `node tools/pruefen.mjs` erkennt; „Hand“ = nur Claude prüft (fehlt ein Test → „App-Engine: Funktionen“).
+Test: was `node tools/pruefen.mjs` erkennt; „Hand“ = nur Claude prüft (fehlt ein Test → in der Engine in opi-suomea ergänzen, D-1020-6).
 
 | # | Regel | Test |
 |---|---|---|
@@ -28,3 +28,4 @@ Test: was `node tools/pruefen.mjs` erkennt; „Hand“ = nur Claude prüft (fehl
 | 20 | **Kein Vorgriff (S-1014-1, D-1014-62):** jede Pflichtantwort eines Schritts (Wort, Endung, Hilfsverb, Wortstellung, Präposition + Fall, Zeitform) ist in den Theorie-Abschnitten bis zu diesem Schritt oder in einem **früheren** Thema der Lernreihenfolge (req) gelehrt. Vor dem Push: Schritte durchrechnen und die Markersuche über alle Themen laufen lassen (als/konnte/musste, Präposition + Dativ, Wechselpräpositionen, Konnektoren späterer Themen, Präteritum). Treffer → Übung `aus: true`, Ersatz hinten anhängen und in den richtigen Schritt; nie in einen Schritt verschieben, der die Regel nicht lehrt. 2–5 Schritte, je ≥ 8 Übungen in ≥ 3 Arten; nur der letzte mischt. Ein Beispiel in der Theorie reicht nicht – die Regel zum Bilden muss im selben oder einem früheren Schritt stehen (S-1014-52; Schritt-Marker `<id>/<k>` in `lektionen/vorgriff.json`, S-1014-53) | teilweise (Indizes, Anzahl, Arten, ausgeblendete) |
 | 21 | **Eigene Wörter im Bericht (S-1014-51):** jedes neue eigene Wort mit Quelle prüfen – Artikel + Plural, Bedeutung, Österreich-Hinweis, Verb mit vier Formzeilen (S-1014-26); Fehler mit Korrektur an Matthias melden | Hand |
 | 22 | **Übungszahl (D-1014-76):** je Thema etwa 50 Übungen im Hintergrund, eine Runde zieht 20; bestehende Themen nicht kürzen, neue Themen ~50, je Lernschritt ≥ 8 (gilt statt „über etwa 35 lieber teilen“ in Regel 15) | teilweise (≥ 8 je Schritt) |
+| 23 | **Theorie verständlich (D-1020-2):** die 7 Leitlinien in `docs/ablauf-thema.md` erfüllt – Kurz-Kasten nur Kernregeln mit Beispiel, Fachwörter erklärt, eine Regel = ein Abschnitt mit Entscheidungsweg, Nebenwissen am Ende statt gestrichen, Text in Lernreihenfolge, Beispiele nur mit Gelerntem, nichts fehlt (mit Quelle) – ohne Höchstgrenzen | Hand |

@@ -142,3 +142,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-20 – w03: 112 gilt auch in Österreich (D-1019-50, OK Matthias)
 - Die 🇦🇹/🇩🇪-Tabelle legte nahe, 112 gelte nur in Deutschland. Neu: Zeile „112 is the emergency number in all EU countries – it works in Austria too“ und Zusatz unter „The most important things“.
 - Quelle: de.wikipedia „Notrufnummer“ (Abruf 19.10., Österreich: 112 oder 133, 122, 144). Übung 17 nannte 112 schon richtig.
+
+## 2026-10-20 – Analyse Einfachheit, Leitlinien und schlanke Prüfdokumente (D-1020-2, D-1020-6; OK Matthias)
+- Vertiefte Analyse auf Matthias' Hinweis (Erklärungen teils schwer und schlecht gegliedert): alle Theorien gelesen und mit lingolia/grammis verglichen (§13–§17 in `docs/grammatik-pruefung.md`), Entwürfe je Thema in `docs/theorie-entwuerfe.md`. D-1020-1 (Längenziel) überholt: keine Höchstgrenzen.
+- D-1020-2: 7 Leitlinien „Theorie verständlich schreiben“ in `docs/ablauf-thema.md`, Prüflisten-Zeile 23.
+- D-1020-6: Kurzfassung oben im Prüfdokument, Verweis in CLAUDE.md („nur den Abschnitt zum Thema lesen“), Prüfliste Z. 5 auf „Engine in opi-suomea“.
