@@ -3073,7 +3073,8 @@
     "dir": "de",
     "q": "I drove my sister to Linz.",
     "a": [
-     "Ich habe meine Schwester nach Linz gefahren."
+     "Ich habe meine Schwester nach Linz gefahren.",
+     "Ich habe meine Schwester nach Linz gebracht."
     ]
    },
    {
@@ -7599,6 +7600,42 @@
     "a": [
      "Der"
     ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The market is big.",
+    "a": [
+     "Der Markt ist groß."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The onion is cheap.",
+    "a": [
+     "Die Zwiebel ist billig."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We need a bag.",
+    "a": [
+     "Wir brauchen ein Sackerl.",
+     "Wir brauchen eine Tüte.",
+     "Wir brauchen eine Tasche."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "There are no eggs here.",
+    "a": [
+     "Hier sind keine Eier.",
+     "Hier gibt es keine Eier.",
+     "Es gibt hier keine Eier."
+    ]
    }
   ],
   "steps": [
@@ -7627,7 +7664,8 @@
      77,
      78,
      79,
-     80
+     80,
+     83
     ]
    },
    {
@@ -7652,7 +7690,8 @@
      62,
      71,
      81,
-     82
+     82,
+     84
     ]
    },
    {
@@ -7675,7 +7714,9 @@
      44,
      54,
      61,
-     72
+     72,
+     85,
+     86
     ]
    },
    {
@@ -11175,6 +11216,118 @@
     ],
     "a": 0,
     "x": "Masculine nouns for people ending in -e (Kollege, Kunde) or -ent/-ist (Student, Polizist), and der Herr, add -n/-en in all cases except the nominative."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am showing my friend (a woman) the flat.",
+    "a": [
+     "Ich zeige meiner Freundin die Wohnung."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We are buying the child a chocolate.",
+    "a": [
+     "Wir kaufen dem Kind eine Schokolade.",
+     "Wir kaufen dem Kind Schokolade."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am giving the children chocolate (as a present).",
+    "a": [
+     "Ich schenke den Kindern Schokolade.",
+     "Ich schenke den Kindern eine Schokolade."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am showing the customer the shop.",
+    "a": [
+     "Ich zeige dem Kunden das Geschäft."
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Die Feier im Büro",
+    "txt": [
+     "Am Freitag gibt es im Büro eine Feier. Die Chefin hat Geburtstag.",
+     "Das Team schenkt der Chefin Blumen und ein Buch.",
+     "Aurora bringt Schokolade mit. Sie gibt den Kollegen die Schokolade, und alle sind froh.",
+     "Der Chef von der Nachbarabteilung kommt auch. Aurora zeigt dem Chef die Fotos von der Feier."
+    ],
+    "qs": [
+     {
+      "q": "Who gets flowers?",
+      "o": [
+       "the boss (a woman)",
+       "Aurora",
+       "the colleagues"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Who does Aurora give the chocolate to?",
+      "o": [
+       "her colleagues",
+       "the boss (a woman)",
+       "the children"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does Aurora show the other boss?",
+      "o": [
+       "the photos of the party",
+       "the flowers",
+       "the book"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Im Geschäft",
+    "txt": [
+     "Ein Kunde kommt ins Geschäft. Er sucht ein Geschenk für seine Mutter.",
+     "Die Verkäuferin zeigt dem Kunden Schals und Taschen.",
+     "Der Kunde kauft seiner Mutter einen Schal.",
+     "Am Ende gibt die Verkäuferin dem Kunden noch einen Gutschein."
+    ],
+    "qs": [
+     {
+      "q": "Who is the present for?",
+      "o": [
+       "the customer's mother",
+       "the shop assistant",
+       "the customer's friend"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the customer buy?",
+      "o": [
+       "a scarf",
+       "a bag",
+       "a voucher"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the shop assistant give the customer at the end?",
+      "o": [
+       "a voucher",
+       "a bag",
+       "flowers"
+      ],
+      "a": 0
+     }
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>Dativ</b> = the person who receives something – question <b>wem?</b></li><li>Endings: <b>-m · -r · -m · -n</b> – <i>dem, der, dem, den</i>.</li><li>Dative plural: the noun also gets <b>-n</b> – <i>den Kindern</i>.</li><li><i>der Herr → dem Herrn</i>, <i>der Kollege → dem Kollegen</i>.</li></ul><h3>1. Situation: handing over the present</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Wir schenken der Kollegin einen Gutschein.</td><td>We're giving our colleague a voucher.</td></tr><tr><td>Wem schenkst du die Blumen? – Der Kollegin.</td><td>Who are you giving the flowers to? – To the colleague.</td></tr><tr><td>Ich gebe dem Chef die Karte.</td><td>I'm giving the card to the boss.</td></tr><tr><td>Wir schreiben den Kollegen eine Karte.</td><td>We're writing a card to the colleagues.</td></tr></table><h3>2. Dialogue</h3><p><b>Jonas:</b> <i>Sabine kommt gleich. <b>Wem</b> geben wir zuerst die Karte?</i><br><b>Aurora:</b> <i>Wir geben <b>der</b> Kollegin zuerst die Karte. Dann überreichen wir <b>ihr</b> den Blumenstrauß.</i></p><ul><li>In the dialogue: <i>der Kollegin</i> – the person who receives, feminine dative.</li><li><i>den Blumenstrauß</i> – the thing, accusative.</li><li><i>ihr</i> = to her – pronouns come in d06.</li></ul><h3>3. Overview: the three cases</h3><table><tr><th>Case</th><th>der-words</th><th>ein-words</th></tr><tr><td>Nominativ – wer? was?</td><td>der · die · das · die</td><td>ein · eine · ein · keine</td></tr><tr><td>Akkusativ – wen? was?</td><td><b>den</b> · die · das · die</td><td><b>einen</b> · eine · ein · keine</td></tr><tr><td>Dativ – wem?</td><td>dem · der · dem · den + -n</td><td>einem · einer · einem · keinen + -n</td></tr></table><h3>4. Dativ endings: -m, -r, -m, -n</h3><table><tr><th>Gender</th><th>der-word</th><th>ein-word</th></tr><tr><td>masculine</td><td>dem Freund</td><td>einem / keinem / meinem Freund</td></tr><tr><td>feminine</td><td>der Kollegin</td><td>einer / keiner / meiner Kollegin</td></tr><tr><td>neuter</td><td>dem Kind</td><td>einem / keinem / meinem Kind</td></tr><tr><td>plural</td><td>den Kindern</td><td>keinen / meinen Kindern</td></tr></table><ul><li>der-words like <i>dieser, welcher</i>: <i>diesem Kollegen, welcher Kollegin</i>.</li><li>Verbs with a person in the dative and a thing in the accusative: <i>schenken, geben, überreichen, schreiben, kaufen</i>.</li><li><b>Order with two nouns</b>: usually the person (Dativ) first, then the thing (Akkusativ): <i>Wir schenken <b>der Kollegin</b> <b>einen Gutschein</b>.</i> With pronouns: d06.</li></ul><h3>5. Dative plural: + -n</h3><table><tr><th>Plural</th><th>Dative plural</th></tr><tr><td>die Kinder</td><td>den Kindern</td></tr><tr><td>die Freunde</td><td>den Freunden</td></tr><tr><td>die Kolleginnen</td><td>den Kolleginnen – already -n</td></tr><tr><td>die Autos</td><td>den Autos – no -n after -s</td></tr></table><h3>6. Questions: wer, wen, wem</h3><table><tr><th>Question</th><th>Case</th><th>Example</th></tr><tr><td>Wer?</td><td>Nominativ</td><td>Wer hat Geburtstag? – Sabine.</td></tr><tr><td>Wen?</td><td>Akkusativ</td><td>Wen suchst du? – Herrn Gruber.</td></tr><tr><td>Wem?</td><td>Dativ</td><td>Wem schenkst du die Blumen? – Der Kollegin.</td></tr></table><h3>7. Nouns with -n in all cases</h3><p class=\"rule\">Some <b>masculine nouns for people</b> add <i>-n</i> or <i>-en</i> in every form <b>except</b> the nominative.</p><table><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th></tr><tr><td>der Kollege</td><td>den Kollege<b>n</b></td><td>dem Kollege<b>n</b></td></tr><tr><td>der Kunde</td><td>den Kunde<b>n</b></td><td>dem Kunde<b>n</b></td></tr><tr><td>der Nachbar</td><td>den Nachbar<b>n</b></td><td>dem Nachbar<b>n</b></td></tr><tr><td>der Student</td><td>den Student<b>en</b></td><td>dem Student<b>en</b></td></tr><tr><td>der Herr</td><td>den Herr<b>n</b></td><td>dem Herr<b>n</b></td></tr></table><ul><li>Typical: masculine people ending in <i>-e</i> (<i>Kollege, Kunde, Junge</i>) and in <i>-ent, -ist, -ant</i> (<i>Student, Polizist</i>).</li><li>Careful: <i>den Kollegen</i> can also be the dative plural – to the colleagues. More in d18.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wir schenken die Kollegin einen Gutschein.</td><td>Wir schenken der Kollegin einen Gutschein.</td></tr><tr><td>Jonas gibt den Kinder Schokolade.</td><td>Jonas gibt den Kindern Schokolade.</td></tr><tr><td>Wir geben dem Herr die Karte.</td><td>Wir geben dem Herrn die Karte.</td></tr><tr><td>Wen schenkst du die Blumen?</td><td>Wem schenkst du die Blumen?</td></tr></table>",
@@ -11201,7 +11354,9 @@
      26,
      29,
      33,
-     38
+     38,
+     46,
+     47
     ]
    },
    {
@@ -11221,7 +11376,9 @@
      36,
      37,
      39,
-     40
+     40,
+     48,
+     50
     ]
    },
    {
@@ -11250,7 +11407,9 @@
      42,
      43,
      44,
-     45
+     45,
+     49,
+     51
     ]
    }
   ]
@@ -12286,6 +12445,84 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am going by tram.",
+    "a": [
+     "Ich fahre mit der Straßenbahn.",
+     "Ich fahre mit der Bim."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Lena works at a bank.",
+    "a": [
+     "Lena arbeitet bei einer Bank."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We are walking through the park.",
+    "a": [
+     "Wir gehen durch den Park.",
+     "Wir spazieren durch den Park."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The flowers are for my mother.",
+    "a": [
+     "Die Blumen sind für meine Mutter."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We are going to the station.",
+    "a": [
+     "Wir fahren zum Bahnhof.",
+     "Wir gehen zum Bahnhof."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "fahre",
+     "mit",
+     "der",
+     "U-Bahn",
+     "zur",
+     "Arbeit"
+    ],
+    "a": [
+     "Ich fahre mit der U-Bahn zur Arbeit.",
+     "Mit der U-Bahn fahre ich zur Arbeit.",
+     "Zur Arbeit fahre ich mit der U-Bahn."
+    ],
+    "de": "I go to work by underground."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "An",
+     "der",
+     "Kreuzung",
+     "biegen",
+     "Sie",
+     "rechts",
+     "ab"
+    ],
+    "a": [
+     "An der Kreuzung biegen Sie rechts ab.",
+     "Biegen Sie an der Kreuzung rechts ab."
+    ],
+    "de": "Turn right at the crossroads. (Sie)"
    }
   ],
   "steps": [
@@ -12310,7 +12547,9 @@
      51,
      52,
      53,
-     56
+     56,
+     61,
+     62
     ]
    },
    {
@@ -12331,7 +12570,9 @@
      47,
      54,
      55,
-     57
+     57,
+     63,
+     64
     ]
    },
    {
@@ -12350,7 +12591,9 @@
      34,
      46,
      48,
-     58
+     58,
+     65,
+     66
     ]
    },
    {
@@ -12382,7 +12625,8 @@
      43,
      44,
      59,
-     60
+     60,
+     67
     ]
    }
   ]
@@ -15658,6 +15902,196 @@
     "a": [
      "hattet"
     ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "While Lena is cooking, I set the table.",
+    "a": [
+     "Während Lena kocht, decke ich den Tisch.",
+     "Ich decke den Tisch, während Lena kocht."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Before we eat, we wash our hands.",
+    "a": [
+     "Bevor wir essen, waschen wir uns die Hände.",
+     "Wir waschen uns die Hände, bevor wir essen."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Before I go to work, I have breakfast.",
+    "a": [
+     "Bevor ich zur Arbeit gehe, frühstücke ich.",
+     "Ich frühstücke, bevor ich zur Arbeit gehe.",
+     "Bevor ich zur Arbeit fahre, frühstücke ich.",
+     "Ich frühstücke, bevor ich zur Arbeit fahre."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "After I had showered, I had breakfast.",
+    "a": [
+     "Nachdem ich geduscht hatte, habe ich gefrühstückt.",
+     "Nachdem ich geduscht hatte, frühstückte ich.",
+     "Ich habe gefrühstückt, nachdem ich geduscht hatte."
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht von Mia",
+    "txt": [
+     "Hallo Aurora!",
+     "Ich komme heute erst um sieben nach Hause. Bevor ich heimkomme, gehe ich noch einkaufen.",
+     "Kannst du bitte den Tisch decken, während ich koche?",
+     "Und bevor wir essen, rufen wir Lena an – sie hat heute Geburtstag!",
+     "Bis später, Mia"
+    ],
+    "qs": [
+     {
+      "q": "What does Mia do before she comes home?",
+      "o": [
+       "She goes shopping.",
+       "She calls Lena.",
+       "She sets the table."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What should Aurora do while Mia is cooking?",
+      "o": [
+       "set the table",
+       "go shopping",
+       "call Lena"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why do they call Lena?",
+      "o": [
+       "It is her birthday.",
+       "She is ill.",
+       "She is coming to dinner."
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Der erste Tag in Graz",
+    "txt": [
+     "Nachdem Aurora in Graz angekommen war, ist sie zuerst zu ihrer Wohnung gefahren.",
+     "Während sie die Koffer ausgepackt hat, hat sie Musik gehört.",
+     "Bevor sie schlafen gegangen ist, hat sie ihrer Mutter in Finnland eine Nachricht geschrieben.",
+     "Am nächsten Morgen hat sie gefrühstückt, nachdem sie geduscht hatte."
+    ],
+    "qs": [
+     {
+      "q": "What did Aurora do first after she had arrived?",
+      "o": [
+       "She went to her flat.",
+       "She wrote to her mother.",
+       "She had breakfast."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did she do while she was unpacking?",
+      "o": [
+       "She listened to music.",
+       "She read the newspaper.",
+       "She phoned a friend."
+      ],
+      "a": 0
+     },
+     {
+      "q": "When did she have breakfast?",
+      "o": [
+       "after she had showered",
+       "before she had showered",
+       "after she had gone for a walk"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Am Telefon mit Lena",
+    "r": [
+     [
+      "Lena",
+      "Hallo! Was machst du gerade?"
+     ],
+     [
+      "Du",
+      "[Ich höre Musik, während ich koche.|Während ich koche, höre ich Musik.|Ich koche und höre Musik.]",
+      "Say you're listening to music while you cook."
+     ],
+     [
+      "Lena",
+      "Und Mia?"
+     ],
+     [
+      "Du",
+      "[Mia liest die Zeitung, während sie frühstückt.|Während Mia frühstückt, liest sie die Zeitung.|Sie liest die Zeitung, während sie frühstückt.]",
+      "Say Mia reads the newspaper while she has breakfast."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Der Morgen",
+    "r": [
+     [
+      "Mia",
+      "Wann gehst du heute spazieren?"
+     ],
+     [
+      "Du",
+      "[Bevor ich frühstücke.|Ich gehe spazieren, bevor ich frühstücke.|Bevor ich frühstücke, gehe ich spazieren.|Vor dem Frühstück.]",
+      "Say: before you have breakfast."
+     ],
+     [
+      "Mia",
+      "Und wann duschst du?"
+     ],
+     [
+      "Du",
+      "[Bevor ich zur Arbeit gehe.|Ich dusche, bevor ich zur Arbeit gehe.|Bevor ich zur Arbeit fahre.|Ich dusche, bevor ich zur Arbeit fahre.]",
+      "Say: before you go to work."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Wie war dein Tag?",
+    "r": [
+     [
+      "Jonas",
+      "Wie war dein Tag gestern?"
+     ],
+     [
+      "Du",
+      "[Nachdem ich gearbeitet hatte, bin ich spazieren gegangen.|Ich bin spazieren gegangen, nachdem ich gearbeitet hatte.]",
+      "Say you went for a walk after you had worked."
+     ],
+     [
+      "Jonas",
+      "Und am Abend?"
+     ],
+     [
+      "Du",
+      "[Nachdem ich gegessen hatte, habe ich ein Buch gelesen.|Ich habe ein Buch gelesen, nachdem ich gegessen hatte.]",
+      "Say you read a book after you had eaten."
+     ]
+    ]
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li><b>während</b> = while (same time) · <b>bevor</b> = before · <b>nachdem</b> = after: <i><b>Bevor</b> ich zur Arbeit gehe, trinke ich Kaffee.</i></li><li>All three start a subordinate clause: the verb goes to the end.</li><li><b>nachdem</b>: what happened <b>first</b> goes one step further into the past: <i>Nachdem ich <b>gegessen habe</b>, gehe ich spazieren.</i></li><li>Same idea, three word types: <i>vor dem Essen – bevor ich esse – vorher</i>.</li></ul><h3>1. Situation: your day and your first days in Austria</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</td><td>Before I go to work, I drink coffee.</td></tr><tr><td>Während ich koche, höre ich Radio.</td><td>While I'm cooking, I listen to the radio.</td></tr><tr><td>Nachdem ich angekommen war, habe ich meine Mutter angerufen.</td><td>After I had arrived, I called my mother.</td></tr><tr><td>Vor dem Essen gehe ich einkaufen.</td><td>Before the meal I go shopping.</td></tr><tr><td>Danach gehen wir spazieren.</td><td>After that we go for a walk.</td></tr></table><h3>2. Dialogue</h3><p><b>Kollegin:</b> <i>Was hast du am ersten Tag in Österreich gemacht?</i><br><b>Aurora:</b> <i><b>Nachdem</b> ich angekommen <b>war</b>, habe ich meine Mutter angerufen. <b>Danach</b> bin ich in die Stadt gegangen.</i></p><ul><li>In the dialogue: <i>Nachdem ich angekommen war</i> – the arrival happened first, so the Plusquamperfekt.</li><li><i>Danach bin ich …</i> – <i>danach</i> is an adverb: the verb follows directly.</li></ul><h3>3. Overview: preposition, conjunction or adverb?</h3><table><tr><th>preposition + noun</th><th>conjunction + clause</th><th>adverb + verb</th></tr><tr><td>vor dem Essen</td><td>bevor ich esse</td><td>vorher esse ich</td></tr><tr><td>nach dem Essen</td><td>nachdem ich gegessen habe</td><td>danach gehe ich</td></tr><tr><td>während des Essens (Genitiv – only recognise it, topic d18)</td><td>während ich esse</td><td>–</td></tr></table><ul><li>Conjunction: verb at the end. Adverb: position 1, the verb follows directly.</li></ul><h3>4. während</h3><ul><li>Two things happen at the same time.</li><li><i>Während du kochst, decke ich den Tisch.</i></li><li><i>Während die Kinder schlafen, lese ich ein Buch.</i></li></ul><h3>5. bevor</h3><ul><li><i>bevor</i> + clause: <i>Bevor ich zur Arbeit gehe, trinke ich Kaffee.</i></li><li><i>vor</i> + noun: <i>vor der Arbeit</i>. Never: <i>vor ich gehe</i>.</li></ul><h3>6. nachdem: one step further into the past</h3><table><tr><th>Main clause (later action)</th><th>nachdem-clause (first action)</th><th>Example</th></tr><tr><td>Präsens</td><td>Perfekt</td><td>Nachdem ich gegessen <b>habe</b>, gehe ich spazieren.</td></tr><tr><td>Perfekt or Präteritum</td><td>Plusquamperfekt</td><td>Nachdem wir gegessen <b>hatten</b>, sind wir spazieren gegangen.</td></tr></table><p class=\"rule\"><b>Plusquamperfekt</b> = <i>hatte</i> or <i>war</i> (d03) + Partizip II.</p><table><tr><th>Person</th><th>haben-verbs</th><th>sein-verbs</th></tr><tr><td>ich</td><td>hatte gegessen</td><td>war angekommen</td></tr><tr><td>du</td><td>hattest gegessen</td><td>warst angekommen</td></tr><tr><td>er / sie / es</td><td>hatte gegessen</td><td>war angekommen</td></tr><tr><td>wir</td><td>hatten gegessen</td><td>waren angekommen</td></tr><tr><td>ihr</td><td>hattet gegessen</td><td>wart angekommen</td></tr><tr><td>sie / Sie</td><td>hatten gegessen</td><td>waren angekommen</td></tr></table><ul><li>haben or sein: the same rules as in the Perfekt (d01b): <i>Nachdem ich angekommen war, …</i></li><li>Later (topic d21): more time words – <i>seitdem, bis, sobald</i>.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Wasch dir die Hände, vor du isst.</td><td>Wasch dir die Hände, bevor du isst.</td></tr><tr><td>Nachdem ich angekommen habe, …</td><td>Nachdem ich angekommen war, …</td></tr><tr><td>Nachdem ich esse, gehe ich spazieren.</td><td>Nachdem ich gegessen habe, gehe ich spazieren.</td></tr><tr><td>Danach ich gehe spazieren.</td><td>Danach gehe ich spazieren.</td></tr></table><p class=\"tip\">Good to know</p><ul><li>In some regions <i>nachdem</i> also means <i>because, since</i>: <i>Nachdem es regnet, bleiben wir daheim.</i> You only need to understand it.</li></ul>",
@@ -15680,7 +16114,9 @@
      25,
      26,
      27,
-     33
+     33,
+     40,
+     46
     ]
    },
    {
@@ -15699,7 +16135,11 @@
      28,
      29,
      32,
-     34
+     34,
+     41,
+     42,
+     44,
+     47
     ]
    },
    {
@@ -15725,7 +16165,10 @@
      36,
      37,
      38,
-     39
+     39,
+     43,
+     45,
+     48
     ]
    }
   ]
@@ -18311,6 +18754,105 @@
      ]
     ],
     "h": "Choose the word for each sentence."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Will you help me?",
+    "a": [
+     "Hilfst du mir?",
+     "Kannst du mir helfen?",
+     "Hilfst du mir bitte?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I thank you (Sie) for the help.",
+    "a": [
+     "Ich danke Ihnen für die Hilfe.",
+     "Ich danke Ihnen für Ihre Hilfe."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We congratulate our teacher (a woman).",
+    "a": [
+     "Wir gratulieren unserer Lehrerin."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am listening to the teacher (a woman).",
+    "a": [
+     "Ich höre der Lehrerin zu."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The shoes fit me.",
+    "a": [
+     "Die Schuhe passen mir."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I like coffee.",
+    "a": [
+     "Ich trinke gern Kaffee.",
+     "Ich trinke gerne Kaffee.",
+     "Ich mag Kaffee.",
+     "Kaffee schmeckt mir.",
+     "Der Kaffee schmeckt mir."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "antworte",
+     "dir",
+     "morgen"
+    ],
+    "a": [
+     "Ich antworte dir morgen.",
+     "Morgen antworte ich dir."
+    ],
+    "de": "I'll answer you tomorrow."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Wem",
+     "gehören",
+     "die",
+     "Schuhe"
+    ],
+    "a": [
+     "Wem gehören die Schuhe?"
+    ],
+    "de": "Whose shoes are these?"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Das",
+     "Café",
+     "gefällt",
+     "mir",
+     "sehr",
+     "gut"
+    ],
+    "a": [
+     "Das Café gefällt mir sehr gut.",
+     "Mir gefällt das Café sehr gut.",
+     "Sehr gut gefällt mir das Café."
+    ],
+    "de": "I like the café very much."
    }
   ],
   "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>Some verbs take a <b>dative</b> object: <i>helfen, danken, gratulieren</i> – <i>Ich helfe dir</i>, not <i>dich</i>.</li><li>With <i>gehören, gefallen, schmecken, passen</i> the thing is the subject and the person is in the dative.</li><li>The verb agrees with the thing: <i>Die Schuhe passen mir.</i></li><li>English „I like …“: <i>… gefällt mir</i>, for food <i>… schmeckt mir</i>, in general <i>Ich mag …</i>.</li></ul><h3>1. Situation: thanking and talking about what you like</h3><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Kann ich dir helfen?</td><td>Can I help you?</td></tr><tr><td>Ich danke Ihnen!</td><td>Thank you!</td></tr><tr><td>Ich gratuliere dir zum Geburtstag!</td><td>Happy birthday!</td></tr><tr><td>Gehört dieser Schlüssel Ihnen?</td><td>Does this key belong to you?</td></tr><tr><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>Der Kuchen schmeckt mir.</td><td>I like the cake.</td></tr></table><h3>2. Dialogue</h3><p><b>Aurora:</b> <i>Vielen Dank für das Paket! Und das hier ist ein Kuchen. Ich hoffe, er <b>schmeckt Ihnen</b>.</i><br><b>Frau Huber:</b> <i>Danke, das ist sehr nett! Ich <b>helfe Ihnen</b> gern.</i></p><ul><li>In the dialogue: <i>er schmeckt Ihnen</i> – <i>er</i> = der Kuchen is the subject, the person is in the dative.</li><li><i>Ich helfe Ihnen</i> – helfen takes the dative.</li></ul><h3>3. Overview: the dative verbs</h3><table><tr><th>Verb</th><th>Example</th><th>English</th></tr><tr><td>helfen</td><td>Ich helfe dir.</td><td>I help you.</td></tr><tr><td>danken</td><td>Wir danken Ihnen.</td><td>We thank you.</td></tr><tr><td>gratulieren</td><td>Ich gratuliere dir zum Geburtstag.</td><td>I congratulate you – Happy birthday!</td></tr><tr><td>gehören</td><td>Der Schlüssel gehört mir.</td><td>The key belongs to me.</td></tr><tr><td>gefallen</td><td>Die Wohnung gefällt mir.</td><td>I like the flat.</td></tr><tr><td>schmecken</td><td>Der Kuchen schmeckt mir.</td><td>I like the cake.</td></tr><tr><td>passen</td><td>Die Schuhe passen mir. – Passt dir Montag?</td><td>The shoes fit me. – Does Monday suit you?</td></tr></table><h3>4. helfen, danken, gratulieren</h3><ul><li>The person is in the dative: <i>Ich helfe der Nachbarin. Wir danken dem Nachbarn.</i></li><li>Also with the dative: <b>antworten</b> – <i>Ich antworte dir morgen.</i> · <b>glauben</b> (a person) – <i>Ich glaube dir.</i> · <b>zuhören</b> – <i>Wir hören der Lehrerin zu.</i></li><li>Compare accusative verbs: <i>Ich besuche dich. Ich frage ihn.</i></li></ul><h3>5. gehören, gefallen, schmecken, passen</h3><table><tr><th>Subject – the thing</th><th>Verb</th><th>Dative – the person</th></tr><tr><td>Die Wohnung</td><td>gefällt</td><td>mir.</td></tr><tr><td>Die Schuhe</td><td>passen</td><td>mir.</td></tr><tr><td>Der Kuchen</td><td>schmeckt</td><td>uns.</td></tr></table><ul><li>The thing is the subject, so the verb agrees with the thing: <i>Die Schuhe passen</i> – plural.</li><li>The dative can also come first: <i>Mir gefällt die Wohnung.</i></li></ul><h3>6. How to say „I like“</h3><table><tr><th>English</th><th>Deutsch</th><th>When?</th></tr><tr><td>I like the flat.</td><td>Die Wohnung <b>gefällt</b> mir.</td><td>you see or experience it</td></tr><tr><td>I like the soup.</td><td>Die Suppe <b>schmeckt</b> mir.</td><td>food and drink</td></tr><tr><td>I like cake. I like her.</td><td>Ich <b>mag</b> Kuchen. Ich <b>mag</b> sie.</td><td>in general, also people (<i>mögen</i> + Akkusativ)</td></tr><tr><td>I like cooking.</td><td>Ich koche <b>gern</b>.</td><td>an activity</td></tr></table><ul><li><i>mögen</i>: <i>ich mag, du magst, er/sie/es mag, wir mögen, ihr mögt, sie/Sie mögen</i>.</li></ul><p class=\"tip\">⚠ <b>Watch out</b></p><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich helfe dich.</td><td>Ich helfe dir.</td></tr><tr><td>Ich gefalle die Wohnung.</td><td>Die Wohnung gefällt mir.</td></tr><tr><td>Die Schuhe passt mir.</td><td>Die Schuhe passen mir.</td></tr><tr><td>Wir schmecken den Kuchen.</td><td>Der Kuchen schmeckt uns.</td></tr></table><h3>Verb forms in this topic</h3><table><tr><th>Infinitiv</th><th>Präteritum (er/sie)</th><th>Perfekt (er/sie)</th></tr><tr><td>helfen (er hilft)</td><td>half</td><td>hat geholfen</td></tr><tr><td>gefallen (es gefällt)</td><td>gefiel</td><td>hat gefallen</td></tr><tr><td>gehören, passen, schmecken, danken</td><td>gehörte, passte, schmeckte, dankte</td><td>hat gehört, gepasst, geschmeckt, gedankt</td></tr><tr><td>gratulieren</td><td>gratulierte</td><td>hat gratuliert</td></tr><tr><td>mögen (er mag)</td><td>mochte</td><td>hat gemocht</td></tr></table>",
@@ -18339,7 +18881,12 @@
      37,
      38,
      39,
-     40
+     40,
+     48,
+     49,
+     50,
+     51,
+     54
     ]
    },
    {
@@ -18363,7 +18910,10 @@
      34,
      35,
      41,
-     42
+     42,
+     52,
+     55,
+     56
     ]
    },
    {
@@ -18388,7 +18938,8 @@
      44,
      45,
      46,
-     47
+     47,
+     53
     ]
    }
   ]
@@ -21536,6 +22087,44 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Please wait a moment. (Sie)",
+    "a": [
+     "Warten Sie bitte einen Moment.",
+     "Bitte warten Sie einen Moment.",
+     "Warten Sie einen Moment, bitte."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Drink a lot of tea! (du)",
+    "a": [
+     "Trink viel Tee!",
+     "Trinke viel Tee!"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Sit down, please! (du)",
+    "a": [
+     "Setz dich bitte!",
+     "Bitte setz dich!",
+     "Setz dich, bitte!",
+     "Setze dich bitte!"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Have a rest! (ihr)",
+    "a": [
+     "Ruht euch aus!"
+    ]
    }
   ],
   "steps": [
@@ -21560,7 +22149,8 @@
      48,
      49,
      50,
-     51
+     51,
+     56
     ]
    },
    {
@@ -21581,7 +22171,8 @@
      30,
      40,
      46,
-     52
+     52,
+     57
     ]
    },
    {
@@ -21605,7 +22196,9 @@
      43,
      44,
      45,
-     53
+     53,
+     58,
+     59
     ]
    },
    {
@@ -23760,6 +24353,42 @@
     ],
     "a": 0,
     "x": "With time, in always takes the Dativ: im Mai (= in dem Mai)."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The lamp is next to the sofa.",
+    "a": [
+     "Die Lampe ist neben dem Sofa.",
+     "Die Lampe steht neben dem Sofa."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We are carrying the table into the cellar.",
+    "a": [
+     "Wir tragen den Tisch in den Keller."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am putting the book on the shelf.",
+    "a": [
+     "Ich stelle das Buch ins Regal.",
+     "Ich stelle das Buch in das Regal.",
+     "Ich lege das Buch ins Regal.",
+     "Ich lege das Buch in das Regal."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The carpet is lying on the floor.",
+    "a": [
+     "Der Teppich liegt auf dem Boden."
+    ]
    }
   ],
   "steps": [
@@ -23786,7 +24415,8 @@
      11,
      12,
      56,
-     57
+     57,
+     60
     ]
    },
    {
@@ -23807,7 +24437,8 @@
      22,
      23,
      24,
-     25
+     25,
+     61
     ]
    },
    {
@@ -23832,7 +24463,9 @@
      39,
      40,
      58,
-     59
+     59,
+     62,
+     63
     ]
    },
    {
@@ -24810,6 +25443,30 @@
       "a": 0
      }
     ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The bright flat is in a new building.",
+    "a": [
+     "Die helle Wohnung ist in einem Neubau."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The house management is renovating the old kitchen.",
+    "a": [
+     "Die Hausverwaltung renoviert die alte Küche."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The quiet flat in the old building is cheap.",
+    "a": [
+     "Die ruhige Wohnung im Altbau ist günstig."
+    ]
    }
   ],
   "steps": [
@@ -24897,7 +25554,10 @@
      47,
      48,
      49,
-     50
+     50,
+     51,
+     52,
+     53
     ]
    }
   ]
@@ -28487,6 +29147,22 @@
     ],
     "a": 0,
     "x": "Standard: das Gehalt, die Gehälter. In Austria der Gehalt is also used."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I am doing an apprenticeship.",
+    "a": [
+     "Ich mache eine Ausbildung."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The wage is good.",
+    "a": [
+     "Der Lohn ist gut."
+    ]
    }
   ],
   "steps": [
@@ -28526,7 +29202,9 @@
      17,
      18,
      19,
-     20
+     20,
+     29,
+     30
     ]
    },
    {
@@ -30352,6 +31030,26 @@
     ],
     "a": 0,
     "x": "„Stimmt so!“ = keep the change – the difference is your tip."
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'd like a kilo of apples, please.",
+    "a": [
+     "Ich hätte gern ein Kilo Äpfel, bitte.",
+     "Ich hätte gerne ein Kilo Äpfel, bitte.",
+     "Ein Kilo Äpfel, bitte.",
+     "Ich möchte ein Kilo Äpfel, bitte."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Can I pay by card?",
+    "a": [
+     "Kann ich mit Karte zahlen?",
+     "Kann ich mit Karte bezahlen?"
+    ]
    }
   ],
   "steps": [
@@ -30372,7 +31070,8 @@
      6,
      7,
      8,
-     9
+     9,
+     29
     ]
    },
    {
@@ -30391,7 +31090,8 @@
      17,
      18,
      19,
-     20
+     20,
+     30
     ]
    },
    {
@@ -30737,7 +31437,8 @@
     "dir": "de",
     "q": "Where can I park?",
     "a": [
-     "Wo kann ich parken?"
+     "Wo kann ich parken?",
+     "Wo darf ich parken?"
     ]
    },
    {
