@@ -522,3 +522,150 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 
 **Quellen:** lingolia „n-Deklination“ (Lebewesen, *-e* → *-n*, *-ent/-ist/-ant* → *-en*, *Herr → Herrn*) ✓; lingolia „Aussagesätze“ (indirektes vor direktem Objekt) ✓; *Nachbar → Nachbarn*: Duden „Nachbar“ (Genitiv *des Nachbarn*) ✓ (§4).
 **Lernschritte:** unverändert. **Folgen für Übungen:** neue Nomen *Kunde, Student, Nachbar* → 2–3 Übungen im Schritt 3; *Nachbar* klärt auch die strittige Zeile in d06 (D-1019-51).
+
+---
+
+## d09 Präpositionen mit festem Kasus
+
+**Quellenvergleich:** lingolia „Lokale Präpositionen“ und „Liste der Präpositionen“ ordnen jede Präposition mit **einer** Bedeutung je Zeile und Beispiel. d09 hat dieselben Listen (gut), aber mehrere Bedeutungen in einer Zelle (*nach* = to / after, *gegen* = against / around), keine Merkhilfe, im Kurz-Kasten 8 statt 9 Dativ-Präpositionen und Beispiele mit *am/an der* (Wechselpräpositionen, erst d11) ohne Hinweis.
+
+**Was sich ändert:** Kurz-Kasten vollständig; Merkhilfe; je Bedeutung eine Zeile; *am/an der* gekennzeichnet; 🇦🇹-Zeilen *Bim* und *gegenüber vom* korrigiert (D-1019-51).
+
+**Entwurf:**
+
+> **The most important things**
+> - Always **Dativ**: *aus, bei, mit, nach, seit, von, zu* – and *gegenüber, außer*.
+> - Always **Akkusativ**: *durch, für, gegen, ohne, um*.
+> - Short forms: *beim, vom, zum, zur*.
+>
+> **Tip:** say the lists like a chant – *aus-bei-mit-nach-seit-von-zu* and *durch-für-gegen-ohne-um*. *(Merkhilfe, ohne Quelle)*
+>
+> **1. Situation** = wie bisher; unter der Tabelle: *an der Ampel, am Karlsplatz – an changes its case (topic d11); here just learn the phrase.*
+> **2. Dialogue** = wie bisher · **3. Overview** = wie bisher
+>
+> **4. Dative prepositions** – eine Zeile je Bedeutung:
+>
+> | Preposition | Meaning | Example |
+> |---|---|---|
+> | aus | from (a country, a city, a building) | Ich komme **aus** Finnland. |
+> | bei | at someone's place / at a company | Ich bin **beim** Arzt. Ich arbeite **bei** der Post. |
+> | mit | with | Ich komme **mit** Lena. |
+> | mit | by (transport) | **mit** der Bim, **mit** dem Bus |
+> | nach | to (cities, countries without article) | **nach** Wien, **nach** Finnland |
+> | nach | after (time) | **nach** dem Essen |
+> | seit | since, for (until now) | **seit** zwei Jahren |
+> | von | from (a person, a starting point) | **vom** Arzt, **von** Lena |
+> | zu | to (people, places) | **zur** Post, **zu** Lena |
+> | gegenüber | opposite | **gegenüber** dem Bahnhof |
+> | außer | except | Alle kommen **außer** meinem Bruder. |
+>
+> **5. Accusative prepositions** – ebenso je Bedeutung eine Zeile (*gegen* = against / around (time), *um* = around / at (time)), Beispiele = wie bisher
+>
+> **6. Short forms** = wie bisher · **7. Asking and giving directions** = wie bisher
+>
+> **⚠ Watch out** = wie bisher
+> **🇦🇹 Austria:** *die Öffis* = wie bisher · *die Bim = tram, informal Austrian* · *gegenüber vom Bahnhof is also correct*
+> **Verb forms** = wie bisher
+
+**Quellen:** lingolia „Lokale Präpositionen“, „Liste der Präpositionen“ ✓; Duden „Bim“ (österr. ugs.), „gegenüber“ (*gegenüber von* ohne Stilangabe) ✓ (§4). Merkkette: ohne Quelle (Lernhilfe).
+**Lernschritte:** unverändert. **Folgen für Übungen:** keine.
+
+---
+
+## d09b wo, wohin, woher; seit und vor
+
+**Quellenvergleich:** lingolia „Lokale Präpositionen“ hat **eine** Matrix *Woher? / Wo? / Wohin?* nach Art des Ziels: Räume und Gebäude (*aus / in / in*), Städte und Länder ohne Artikel (*aus / in / nach*), Länder **mit** Artikel (*aus der Schweiz / in der Schweiz / in die Schweiz*), Personen und Tätigkeiten (*von / bei / zu*). Damit ist auch der offene Verweis „Countries with an article – later“ gelöst. d09b hat eine ähnliche, aber unvollständige Tabelle; *heim* ist falsch als österreichisch markiert; der *ziehen*-Hinweis steht doppelt.
+
+**Was sich ändert:** Überblick als lingolia-Matrix mit fünf Zeilen; Länder mit Artikel direkt erklärt; *heim* korrigiert; *ziehen* einmal; *aus* ↔ *von* klarer.
+
+**Entwurf:**
+
+> **Kurz-Kasten** = wie bisher
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher
+>
+> **3. Overview: woher? – wo? – wohin?**
+>
+> | Kind of place | woher? (from) | wo? (where) | wohin? (where to) |
+> |---|---|---|---|
+> | people, the doctor, events | von Lena, vom Arzt | bei Lena, beim Arzt | zu Lena, zum Arzt |
+> | cities, countries without article | aus Wien | in Wien | nach Wien |
+> | countries with article (*die Schweiz, die Türkei, die USA*) | aus der Schweiz | in der Schweiz | in die Schweiz |
+> | rooms, buildings | aus der Küche | in der Küche | in die Küche |
+> | home | von zu Hause | zu Hause | nach Hause |
+>
+> - Rooms, buildings and countries with an article use *in* with two cases – the rule is topic d11; here just learn these phrases.
+>
+> **4. zu Hause and nach Hause** = wie bisher, aber 🇦🇹-Zeile: *daheim = zu Hause (Austria, southern Germany). heim = nach Hause (everywhere).*
+>
+> **5. nach, aus and von**
+> - *nach* for cities and countries without an article: *nach Wien, nach Finnland*.
+> - *aus* = out of a place: *aus Wien, aus der Küche*.
+> - *von* = from a person or from where you were for a reason: *von Lena, vom Arzt, von der Arbeit*.
+>
+> **6. seit and vor** = wie bisher
+>
+> **⚠ Watch out** = wie bisher (der Satz zu *ziehen* steht nur noch hier)
+> **Verb forms** = wie bisher (ohne den doppelten Tipp)
+
+**Quellen:** lingolia „Lokale Präpositionen“, Tabelle *Woher?/Wo?/Wohin?* ✓; lingolia „Artikel“ (*die Schweiz, die Türkei, die USA*) ✓; Duden „daheim“, „heim“ ✓ (§4).
+**Lernschritte:** unverändert. **Folgen für Übungen:** 2–3 Übungen *in der/die Schweiz* anhängen (Schritt 2).
+
+---
+
+## d06 Personalpronomen
+
+**Quellenvergleich:** lingolia „Personalpronomen“: Pronomen ersetzen ein genanntes Nomen; *es* auch ohne Nomen (*Es ist schon spät*); Deklinationstabelle. d06 ist klar gegliedert. Es fehlen: Pronomen **nach Präpositionen** (*mit mir, zu dir, für ihn*) – sie kommen in d09b vor (*Kommst du zu mir?*), werden aber nirgends erklärt – und *es* ohne Nomen (*Es regnet. Wie geht es Ihnen?*). Die *Nachbar*-Zeile gehört zur n-Deklination; die Verbformen-Tabelle enthält vor allem Verben aus d06b.
+
+**Was sich ändert:** neuer Punkt „after prepositions“; „Good to know: *es* without a noun“; *Nachbar* → Verweis auf d05b §7; Verbformen nur mit den Verben dieses Themas.
+
+**Entwurf:**
+
+> **The most important things**
+> - Personal pronouns have three cases: *ich – mich – mir*.
+> - A pronoun takes the gender of the noun – also for things: *der Schlüssel → er, ihn, ihm*.
+> - Two objects: pronouns come before nouns; two pronouns: accusative before dative – *Ich gebe **es ihm**.*
+>
+> **1.–3.** = wie bisher
+>
+> **4. Pronouns for people and things** = wie bisher, plus:
+> - **After a preposition** the pronoun takes the case of the preposition (d09): *mit **mir**, zu **dir**, bei **ihm**, für **dich**, ohne **mich**.*
+>
+> **5. Forms that look the same** = wie bisher
+>
+> **6. Two objects: which comes first?** = wie bisher, Nachbar-Zeile ersetzt durch: *der Nachbar → dem Nachbarn (like der Kollege, d05b §7).*
+>
+> **Good to know: es without a noun** – *Es regnet. Es ist spät. Wie geht es Ihnen? Es gibt …*
+>
+> **⚠ Watch out** = wie bisher
+> **Verb forms:** *geben, annehmen, leihen, schicken, helfen* (die übrigen Zeilen wandern nach d06b)
+
+**Quellen:** lingolia „Personalpronomen“ (Ersatz für Nomen, *es* unpersönlich, Tabelle) ✓; Pronomen nach Präpositionen: Kasus der Präposition (lingolia „Lokale Präpositionen“: Dativ-/Akkusativ-Präpositionen) ✓.
+**Lernschritte:** unverändert. **Folgen für Übungen:** 3–4 Übungen *mit mir / für dich* anhängen (Schritt 2).
+
+---
+
+## d06b Verben mit Dativ
+
+**Quellenvergleich:** lingolia „Modalverben“: *mögen* wird heute meist ohne zweites Verb gebraucht (*ich mag dich*). d06b ist eines der klarsten Themen. In der „I like“-Tabelle fehlt aber genau diese häufigste Form, und *gratulieren* ist nur als „Happy birthday“ übersetzt.
+
+**Was sich ändert:** „I like“-Tabelle mit *mögen*; *gratulieren* = to congratulate; Verbformen aus d06 übernehmen.
+
+**Entwurf:**
+
+> **1.–5.** = wie bisher; in §3 *gratulieren*: *Ich gratuliere dir zum Geburtstag.* – *I congratulate you on your birthday / Happy birthday!*
+>
+> **6. How to say "I like"**
+>
+> | English | Deutsch | When? |
+> |---|---|---|
+> | I like the flat. | Die Wohnung **gefällt** mir. | you see or experience it |
+> | I like the soup. | Die Suppe **schmeckt** mir. | food and drink |
+> | I like cake / I like her. | Ich **mag** Kuchen. Ich **mag** sie. | in general, also people (*mögen* + Akkusativ) |
+> | I like cooking. | Ich koche **gern**. | an activity |
+>
+> **⚠ Watch out** = wie bisher
+> **Verb forms:** *helfen, gefallen, gehören, passen, schmecken, danken, gratulieren* (bisher in d06)
+
+**Quellen:** lingolia „Modalverben“ (*mögen* meist ohne Vollverb: *ich mag dich*) ✓; Duden-Beispiele zu den Dativ-Verben ✓ (§4). Die Abgrenzung „gefallen = sehen/erleben“: ohne eigene Quelle (Duden *gefallen* „jemandem angenehm sein“ – vor Einbau Formulierung prüfen).
+**Lernschritte:** unverändert. **Folgen für Übungen:** 2–3 Übungen *mögen* ↔ *gefallen* anhängen (Schritt 3).
