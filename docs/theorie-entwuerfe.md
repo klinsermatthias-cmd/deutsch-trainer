@@ -799,3 +799,128 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 
 **Quellen:** lingolia „Reflexivpronomen“ ✓; Duden „verletzen“, „wehtun“ ✓ (§4). Verben der Liste: alle schon in d08/d08b/d03/w03 belegt (*verkühlen* Duden ✓); *sich die Hände waschen*: Muster wie *sich das Bein verletzen* (Duden) ✓.
 **Lernschritte:** 3 → §5–6. **Folgen für Übungen:** Übung 22 um *meinen Fuß* ergänzen (D-1019-51); 2 Übungen zur Liste.
+
+---
+
+## d11 Wechselpräpositionen
+
+**Quellenvergleich:** lingolia „Lokale Präpositionen“: „Bei einer Position verwenden wir die Ortsangabe im Dativ, bei einer Richtung den Akkusativ“, Kontrollfrage *Wo?/Wohin?*; lingolia „Temporale Präpositionen“: bei Zeitangaben stehen *an, in, vor, zwischen* mit **Dativ** (*am 25. Dezember, zwischen den Feiertagen*). d11 ist inhaltlich vollständig und klar (Gegenüberstellung §6 ist der Kern). Schwierig: Der Entscheidungsweg steht verstreut; die häufige Falle „Bewegung **innerhalb** eines Ortes“ (*Ich gehe im Park spazieren*) fehlt – das ⚠ *Ich gehe in der Küche* ✗ erklärt sie nicht; Zeitangaben fehlen (im Lehrplan als d13b geplant); *an* = „vertical surface“ ist zu eng (§4).
+
+**Was sich ändert:** Entscheidungsweg nach oben; Bewegung innerhalb eines Ortes; Zeitangaben-Zeile mit Verweis d13b; *an*-Zeile korrigiert; Artikel-Wiederholung in §4/§5 auf je einen Satz.
+
+**Entwurf:**
+
+> **The most important things**
+> - Nine prepositions can take Dativ **or** Akkusativ: *an, auf, hinter, in, neben, über, unter, vor, zwischen*.
+> - Ask yourself: **wo?** (something stays in its place) → **Dativ**. **wohin?** (something moves to a new place) → **Akkusativ**.
+> - Verb pairs: *liegen – legen, stehen – stellen, sitzen – setzen, hängen – hängen*.
+>
+> **Ask yourself – step by step**
+> 1. Is it one of the nine? If not, the preposition has a fixed case (d09).
+> 2. Does something or someone **go to a new place**? → **wohin? → Akkusativ**: *Ich lege das Buch **auf den** Tisch.*
+> 3. Does it **stay** in its place – or move around **inside** the same place? → **wo? → Dativ**: *Das Buch liegt **auf dem** Tisch. Wir gehen **im** Park spazieren.*
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher
+>
+> **3. Overview** = wie bisher; *an*-Zeile: *an = at, touching the side of something (an der Wand, am Fenster, am Tisch); auf = on top of something.*
+>
+> **4. wo? → Dativ** = wie bisher (Artikel-Wiederholung als ein Satz: *dem · der · dem · den + -n*)
+>
+> **5. wohin? → Akkusativ** = wie bisher (Artikel-Wiederholung als ein Satz: *den · die · das · die*)
+>
+> **6. liegen – legen …** = wie bisher
+>
+> **Good to know:** with **time**, *an, in, vor* always take the Dativ: *am Montag, im Mai, vor einer Woche* – more in d13b.
+>
+> **⚠ Watch out** = wie bisher, Zeile präzisiert: ✗ *Ich gehe in der Küche.* (= into the kitchen) → ✓ *Ich gehe in die Küche.*
+> **🇦🇹 Austria** = wie bisher · **7. Verb forms** = wie bisher
+
+**Quellen:** lingolia „Lokale Präpositionen“ (Position → Dativ, Richtung → Akkusativ) ✓; lingolia „Temporale Präpositionen“ (*an* + Datum, *zwischen* + Dativ) ✓; Duden „an“ (Lage, Nähe, Berührung) ✓ (§4). Bewegung innerhalb eines Ortes + Dativ: ohne Quelle – in 14.3 belegen.
+**Lernschritte:** unverändert (Entscheidungsweg im immer sichtbaren Teil). **Folgen für Übungen:** 2 Übungen *im Park spazieren gehen*, 2 Übungen *am Montag/im Mai* anhängen.
+
+---
+
+## d14 Adjektivendungen I und d15 Adjektivendungen II (gemeinsamer Befund)
+
+**Quellenvergleich:** lingolia „Adjektiv-Deklination“ zeigt drei Tabellen (nach *der*, nach *ein/mein/kein*, ohne Artikel) – wie d14/d15. Das **Prinzip dahinter** steht in de.wikipedia „Deutsche Deklination“: „Wenn dem Adjektiv ein Artikelwort mit Beugungsendung vorangeht, wird das Adjektiv schwach flektiert, sonst stark. … Bei Artikelwörtern, die teils endungslose, teils flektierte Formen aufweisen (*ein, kein, mein*), werden nachfolgende Adjektive teils stark, teils schwach flektiert.“ In der App steht dieses Prinzip nur bruchstückhaft (d15 §2: „ein has no ending, so the adjective shows the gender“). Mit dem Prinzip werden alle drei Tabellen **eine** Regel.
+
+**Gemeinsamer neuer Kasten (in d14 oben, in d15 wiederholt):**
+
+> **One idea behind all adjective endings**
+> Somebody has to show the gender and case – once is enough.
+> - If the **article** shows it (*der, dem, den, dieser …*), the adjective only needs a short ending: **-e** or **-en**. *→ d14*
+> - If the article **can't** show it (*ein* without ending, or no article at all), the **adjective** shows it with the article's ending: *ein neu**er** Tisch* (like *der*), *ein neu**es** Zimmer* (like *das*), *frisch**es** Brot*, *mit frisch**em** Käse* (like *dem*). *→ d15*
+
+### d14
+
+**Was sich ändert:** Kasten „One idea“; in der Überblickstabelle die fünf *-e*-Formen fett; §6 in zwei Abschnitte (Ordinalzahlen/Datum – *derselbe*); *Ablöse*-Zeile (D-1019-51).
+
+**Entwurf:**
+> **Kurz-Kasten** = wie bisher (fünf Punkte bleiben – sie sind die vollständige Regel)
+> **One idea** (Kasten oben, siehe oben)
+> **1.–2.** = wie bisher
+> **3. Overview** = wie bisher, die fünf *-e*-Formen **fett**: *der neu**e** Kasten · die neu**e** Küche · das neu**e** Zimmer · die neu**e** Küche (Akk.) · das neu**e** Zimmer (Akk.)*
+> **4.–5.** = wie bisher
+> **6. Ordinal numbers and dates** = Ordinalzahlen-Tabelle und Datum wie bisher (19/20-Regel: Quelle in 14.3)
+> **7. derselbe = the same** = Tabelle und Hinweise wie bisher, eigener Abschnitt
+> **⚠, 🇦🇹** = wie bisher (*Ablöse*: *Germany officially: Abstand; colloquially also Ablöse*) · **Verb forms** = wie bisher
+
+**Lernschritte:** 3 → §6–7. **Folgen für Übungen:** keine.
+
+### d15
+
+**Was sich ändert:** Kasten „One idea“; §6 „no article“ als Tabelle *Artikel → Endung* statt Satzkette; Komparativ (§8) und Adjektive als Nomen (§9) **vor** die Verbformen, als eigener letzter Lernschritt bleibt erhalten (Alternative D-1019-54: Teilthema d15b).
+
+**Entwurf:**
+> **Kurz-Kasten** = wie bisher · **One idea** (Kasten oben)
+> **1.–5.** = wie bisher
+> **6. No article – the adjective takes the article's ending**
+>
+> | Article would be | Adjective ending | Example |
+> |---|---|---|
+> | der | -er | frisch**er** Käse |
+> | die | -e | frisch**e** Milch |
+> | das | -es | frisch**es** Brot |
+> | den | -en | Ich kaufe frisch**en** Käse. |
+> | dem | -em | mit frisch**em** Brot |
+> | der (Dativ feminin) | -er | mit frisch**er** Milch |
+> | die (Plural) | -e | frisch**e** Eier |
+> | den (Dativ Plural) | -en | mit frisch**en** Eiern |
+>
+> Typische Fälle, feste Wendungen, Partizip als Adjektiv = wie bisher
+> **7. The comparative in front of a noun** (bisher §8) = wie bisher
+> **8. Adjectives as nouns** (bisher §9) = wie bisher
+> **⚠, 🇦🇹** = wie bisher (*Palatschinke* Sg./Pl. gekennzeichnet) · **9. Verb forms** (bisher §7) = wie bisher
+
+**Quellen:** de.wikipedia „Deutsche Deklination“ (Abruf 20.10.: stark/schwach nach Artikelwort mit/ohne Endung; *ein, kein, mein* teils stark, teils schwach) ✓; lingolia „Adjektiv-Deklination“ (drei Tabellen) ✓.
+**Lernschritte:** 4 „Alles zusammen“ → §6 Wiederholung + ⚠; 5 → §7–8; die Verbformen stehen am Ende. Reihenfolge der Schritte bleibt, nur die Textfolge ändert sich. **Folgen für Übungen:** keine.
+
+---
+
+## d16 Konjunktiv II höflich
+
+**Quellenvergleich:** lingolia „Konjunktiv“: Konjunktiv II für irreale Wünsche, Bedingungen und „besonders höfliche oder vorsichtige Anfragen“ (*Wärst du so freundlich …?*); Bildung aus dem Präteritum mit Umlaut bzw. *würde* + Infinitiv. d16 ist vollständig und klar; schwierig ist nur, dass §5 Bitten, *gern/lieber/am liebsten*, Rat und Wendungen mischt und §6 indirekte Fragen, Großschreibung von *Sie* und die E-Mail-Form.
+
+**Was sich ändert:** §5 und §6 je in zwei Unterabschnitte; ⚠-Zeile *würde … haben* (D-1019-51); ein Satz zu den anderen Bedeutungen des Konjunktivs II.
+
+**Entwurf:**
+> **Kurz-Kasten** = wie bisher
+> **1.–4.** = wie bisher
+> **5a. Polite requests and wishes** – Tabelle direkt/höflich, *Könnten/Würden Sie …?*, *Ich hätte gern …* = wie bisher
+> **5b. Preferences and advice** – *gern – lieber – am liebsten*, *Sie sollten …* = wie bisher
+> **6a. Polite questions** – Tabelle und *ob*/Fragewort = wie bisher (Verweis d02b §5)
+> **6b. The formal e-mail** – Anrede, Komma, Kleinschreibung danach, *Mit freundlichen Grüßen*, *Sie/Ihnen* groß = wie bisher
+> **Good to know:** the Konjunktiv II is also used for wishes and things that are not real: *Wenn ich Zeit hätte, …* – topic d26.
+> **⚠ Watch out** = wie bisher, Zeile ✗ *Ich würde gern einen Termin haben.* → *(correct, but Ich hätte gern einen Termin sounds more natural)* in eine Tipp-Zeile verschoben
+> **🇦🇹 Austria** = wie bisher (*Installateur*-Zeile umformuliert, D-1019-51) · **7. Verb forms** = wie bisher
+
+**Quellen:** lingolia „Konjunktiv“ (Höflichkeit, Bildung) ✓; Duden Rechtschreibregeln D 132 (Briefanrede) ✓ (§4).
+**Lernschritte:** 2 → §5a–5b · 3 → §6a–6b. **Folgen für Übungen:** keine.
+
+---
+
+## w01–w06 Wortpakete (gemeinsam)
+
+**Befund:** klar gegliedert (Situation → Dialog → zwei Wortfelder → 🇦🇹/🇩🇪). Der Kurz-Kasten sagt „Learn every noun with its article and plural“, die Tabellen zeigen den Plural aber nur beim ersten Wort (er steht auf den Karten). Die Situation hat oft nur einen Satz, der Dialog 3–4 Zeilen.
+
+**Vorschlag:** In den Wortfeld-Tabellen den Plural bei jedem Nomen ergänzen (aus den Karten, z. B. *das Vorzimmer, die Vorzimmer*); die Korrekturen D-1019-55 (*Kaution beträgt*, *Inserat*, *Gehalt*, *Gemüse*, *schwimmen* …) und D-1019-50 (erledigt). Sonst = wie bisher.

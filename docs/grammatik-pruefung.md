@@ -731,11 +731,12 @@ Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Auf
 - Stellung von *nicht* (d02/d04): lingolia „Verneinung“ – *nicht* am Satzende bei Verben, vor dem Vollverb bei zusammengesetzten Zeiten, sonst vor dem Verneinten ✓.
 - Präteritum *wollte, durfte, sollte, mochte* (d03): lingolia „Modalverben“, Präteritum-Tabelle ✓.
 - Zeitangaben mit *an, in, vor, zwischen* + Dativ (d11/d09b): lingolia „Temporale Präpositionen“ ✓.
+- Im Lehrplan schon geplant (d13 *nicht*, d13b Zeitangaben, d18 n-Deklination, d21 *seitdem/bis/sobald*, d22 Präteritum): trotzdem früher eine Grundregel, weil frühere Themen sie schon brauchen (Entwürfe).
 - Ohne Quelle (Standard-DaF, vor Einbau belegen): Genus von Komposita (letztes Wort), Bewegung innerhalb eines Ortes + Dativ, Maßwörter (Maskulina/Neutra Singular, Feminina Plural), Pronomen nach Präpositionen, *mögen* neben *gefallen*, Länder mit Artikel, *ob* ↔ *wenn*, n-Deklination als Muster, reflexive Verben als Liste.
 
 ### 14 Offene Analyse (nur prüfen, nichts ändern – Matthias 20.10.)
 - [x] 14.1 Einfachheit und Aufbau aller Theorien lesen (§13)
-- [ ] 14.2 Je Thema: wie erklären lingolia, DW, mein-deutschbuch, Wikipedia dasselbe? Konkreter Vorschlag für eine einfachere Erklärung – vollständig, ohne Höchstgrenzen, als Vorher/Nachher-Entwurf (nicht eingebaut)
+- [x] 14.2 (Entwürfe für alle 22 Themen und w01–w06 in `docs/theorie-entwuerfe.md`) Je Thema: wie erklären lingolia, DW, mein-deutschbuch, Wikipedia dasselbe? Konkreter Vorschlag für eine einfachere Erklärung – vollständig, ohne Höchstgrenzen, als Vorher/Nachher-Entwurf (nicht eingebaut)
 - [ ] 14.3 Fehlende Teile (§13 Lücken) mit Quelle belegen
 - [ ] 14.4 Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
 - [ ] 14.5 Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
