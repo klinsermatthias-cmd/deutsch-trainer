@@ -196,3 +196,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - 13 Wendungen („einen Ausflug machen“) als „Wendung“ ohne Verbtabelle: Grundverb (regelmäßig/unregelmäßig) und Perfekt.
 - 11 Grundverben mit voller Tabelle hinten angehängt (machen, sein, haben, sagen, vereinbaren, verschieben, gehen, decken, waschen, brechen, fahren; DWDS).
 - Situation und Dialog aus den 23 Grammatik-Theorien entfernt (−20 % Text), Lernschritt-Abschnitte neu zugeordnet; Wortpakete w01–w06 unverändert.
+
+## 2026-10-20 – Wörter in den Übungen statt Wortlisten (D-1020-48/-49)
+- `noTopicWords` eingeschaltet: kein Schritt „Wörter lernen“, Themenwörter nur noch Wörterbuch zum Antippen, „＋ Merken“ übernimmt sie samt Formen. Auroras vorhandene Karten bleiben.
+- Übungen dürfen vielfältigen Alltagswortschatz nutzen; jedes Wort braucht einen Wörterbuch-Eintrag (Prüfliste 28). CLAUDE.md Regeln 1 und 6 angepasst. Wortpakete w01–w06 bleiben freiwillig (D-1020-49).

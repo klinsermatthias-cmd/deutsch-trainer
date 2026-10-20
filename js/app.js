@@ -70,7 +70,7 @@ const APP = {
 {"t":"tr","dir":"fi","q":"Kannst du mir bitte helfen?","a":["Can you please help me","Could you help me please"]}
 {"t":"tab","q":"Bestimmter Artikel im Dativ","head":["Nominativ","Dativ"],"r":[["der Mann","[dem Mann]"],["die Frau","[der Frau]"]]}`,
   /* Funktionen, die nicht jede App braucht */
-  features: { placement: true, grammarFirst: true }, // D-1014-43/-44: Grammatik zuerst
+  features: { placement: true, grammarFirst: true, noTopicWords: true }, // D-1014-43/-44: Grammatik zuerst; D-1020-48: Wörter in den Übungen
   /* Einstufungstest: Angaben für die KI-Auswertung */
   placement: {
     level: "B1, selbst eingeschätzt",

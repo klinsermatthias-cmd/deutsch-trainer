@@ -20,12 +20,12 @@ Deutsch-Lern-App, die **Matthias** für **Aurora** baut (Finnin, lebt in Österr
 - Commit-Nachrichten auf Deutsch, kurz; danach 3–4 Zeilen in `docs/entscheidungen.md`.
 
 ## Was in der App gilt
-1. Spaced Repetition; erst Theorie, dann Übungen; neue Themen: zuerst die Wörter, dann die Übungen.
+1. Spaced Repetition; erst Theorie, dann Übungen; keine Pflicht-Wortlisten: Aurora lernt Wörter in den Übungen (antippen, „＋ Merken“; D-1020-48), Wortpakete w01–w06 freiwillig (D-1020-49).
 2. Ein Thema wird frei, wenn **alle** `req` beim letzten Ergebnis je ≥ 80 % haben; `req` enthält alle Themen, auf denen es aufbaut.
 3. Fortschritt geht nie verloren (Cloud-Sync, Sicherungen).
 4. Vokabeln in beide Richtungen. Übersetzung: `dir: "de"` = Aufgabe Englisch, Antwort Deutsch; `dir: "fi"` = Aufgabe Deutsch, Antwort Englisch.
 5. Grammatik als vollständige Tabellen mit Lücken; falsche Übungen in der Runde wiederholen; kein Sprechtraining.
-6. Jedes Thema verbindet eine Alltagssituation in Österreich mit dem Grammatik-Baustein, den sie braucht.
+6. Jedes Thema = ein Grammatik-Baustein; Übungen mit vielfältigem österreichischem Alltagswortschatz (B1/B2), nicht an eine Situation oder Wortliste gebunden; jedes Übungswort hat einen Wörterbuch-Eintrag (Wortliste des Themas oder `GLOSS_EXTRA`, D-1020-48).
 
 ## Abläufe (nur bei Bedarf lesen)
 - Bericht von Aurora auswerten: `docs/ablauf-bericht.md`

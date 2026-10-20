@@ -33,3 +33,4 @@ Test: was `node tools/pruefen.mjs` erkennt; „Hand“ = nur Claude prüft (fehl
 | 25 | **Quelle gelesen (D-1019-71):** ✓ nur mit selbst gelesener Fundstelle (Abruf 200); 403, 404, gesperrte Seiten und reine Websuche-Auszüge heißen „ohne Quelle“ | Hand |
 | 26 | **Übungsmix (D-1019-68):** neue Themen ≥ 40 % Satzbildung (`tr`/`sch`/`ord`/`dlg`), ≤ 30 % `gap`, ≤ 6 `mc` mit gleich langen Optionen, `x` bei typischen Fallen; Futur bis d17 nur auf der Verbkarte (D-1019-69) | Hand |
 | 27 | **Wortpakete (D-1019-67):** 20–30 Wörter, etwa 30 Übungen, jedes Wort in mindestens einer Übung, ohne `req`, 🇦🇹-Wort mit „Germany: …“ | teilweise |
+| 28 | **Wörter in den Übungen (D-1020-48):** keine Pflicht-Wortliste; Übungen mit vielfältigem B1/B2-Alltagswortschatz; jedes Wort hat einen Wörterbuch-Eintrag (Wortliste eines Themas oder `GLOSS_EXTRA`, Wortkarten-Format D-1020-29), sonst „Wort ohne Wörterbuch-Eintrag“ | automatisch (Hinweis) |
