@@ -183,3 +183,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - 126 Verben: regelmäßig/unregelmäßig (+ trennbar/reflexiv/Modalverb), Stammformen, Präsens/Präteritum/Perfekt für alle Personen (DWDS-Konjugationstabellen), Gebrauch bei Dativ-/Akkusativverben; Futur entfällt.
 - Nomen: 10 Plurale ergänzt, sonst „ohne Plural“/„meist ohne Plural“ (DWDS, Duden); n-Nomen mit den/dem-Form. 33 Adjektive mit Steigerung (DWDS, Wiktionary). Alle übrigen Karten mit Wortart; Wortliste nach Wortart (Engine opi-suomea a7660b6).
 - Anonyme Kurzfassung der Simulation D-1020-23: docs/simulation-2026-10-20.md.
+
+## 2026-10-20 – Fehler und Vorgriffe aus der Leseprüfung (D-1020-33, -34)
+- 19 Fehler korrigiert (u. a. gehabt-Zeile d01, nicht-Stellung d02, das Frühjahr d04, Stück d04b, bis zum Karlsplatz d09, Gebühr beträgt und Finanzamt Österreich w04, Nein-Antwort w06); geänderte Übungen ausgeblendet und ersetzt.
+- 14 Vorgriffe behoben: kein … mehr (d04b), für dich (d09), kam/ging/wohnte (d03), ins Regal (d11), Perfekt-, Fall- und Wendungszeilen in w01–w05; Verbkarten-Hinweis in d01–d03 an das neue Format angepasst.
