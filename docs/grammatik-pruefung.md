@@ -738,6 +738,46 @@ Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Auf
 - [x] 14.1 Einfachheit und Aufbau aller Theorien lesen (§13)
 - [x] 14.2 (Entwürfe für alle 22 Themen und w01–w06 in `docs/theorie-entwuerfe.md`) Je Thema: wie erklären lingolia, DW, mein-deutschbuch, Wikipedia dasselbe? Konkreter Vorschlag für eine einfachere Erklärung – vollständig, ohne Höchstgrenzen, als Vorher/Nachher-Entwurf (nicht eingebaut)
 - [x] 14.3 Fehlende Teile mit Quelle belegt (20.10.): Komposita-Genus (de.wikipedia „Komposition (Grammatik)“, Kopf rechts) ✓; Maßwörter (Duden *vier Kilo, 5 Stück, zwei Bier, drei Flaschen, zwei Tassen*) ✓; Bewegung innerhalb eines Ortes (Duden „Park“: *im Park spazieren gehen*) ✓; Ordinalzahlen *-te/-ste* (de.wikipedia „Zahlwort“) ✓; *mögen* (lingolia „Modalverben“) ✓; adjektivisches Prinzip stark/schwach (de.wikipedia „Deutsche Deklination“) ✓; Länder mit Artikel und *woher/wo/wohin*-Matrix (lingolia „Artikel“, „Lokale Präpositionen“) ✓; n-Deklination (lingolia) ✓. Noch ohne Quelle: Abgrenzung *gefallen* (erleben) ↔ *mögen* (allgemein) als Formulierung; Merkkette der Präpositionen; TeKaMoLo; Intonation (alle als Lernhilfe gekennzeichnet). Gesperrt: lernhelfer.de (000), Wikipedia „Wechselpräposition“ (404).
-- [ ] 14.4 Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
+- [x] 14.4 (§15) Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
 - [ ] 14.5 Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
 - [ ] 14.6 Bericht an Matthias mit Codes
+
+### 15 Übungen inhaltlich gelesen (14.4, 20.10.)
+Gelesen: alle aktiven `gap`, `tr`, `mc`, `ord`, `luk`, `zuo`, `sch` aller 28 Themen, alle 100 Fragen der Lesetexte, die `dlg` aller Themen mit einer Suche nach unklaren Aufgaben und fehlenden Varianten; `tab` nur über die Prüfskripte (keine Auffälligkeit).
+
+**Gesamturteil:** Die Übungen sind überwiegend richtig, klar formuliert und haben viele natürliche Lösungsvarianten (auch *daheim*, *zuhause*, *bei der Ampel*, *borgen*). Die Hinweise „Nur die Endung eintippen – Fall“ (d14/d15) und „Finde den Fehler / Ins Perfekt“ sind vorbildlich. Die Probleme sind wenige, aber wiederkehrend:
+
+**Wiederkehrend:**
+1. **19 Futur-Lücken in 12 Themen** (d01 62/63, d02 57/58, d03 62/63, d04 7/8, d05 9/10, d09 4, d09b 2, d06 7/8, d07 6/7, d08 4, d08b 4, d11 43). Futur ist nirgends richtig eingeführt (§7). Vorschlag: mit der Theorie-Neufassung (Futur → „Later“) diese 19 Übungen `aus: true`; Futur kommt mit d17.
+2. **14 Hinweise „haben oder sein – richtige Form im Präsens“** (d01b 2–5, 16–19; d04 9; d05 11; d09b 3; d06 9; d07 8; d08b 5): Der Satz steht im Perfekt – „im Präsens“ meint das Hilfsverb und verwirrt. Vorschlag: neue Fassung anhängen mit „haben oder sein? – die passende Form“ (alte `aus`).
+3. **Bundesdeutsche Variante fehlt** (Prüfliste 17): d04b 12 und `dlg` 31 *Tüten*; d04b `dlg` 38 *Tomaten*; d04 `dlg` 46 *Kartoffeln*; w05 `dlg` 26 *Aprikosen*.
+4. **Unklare Dialogaufgaben „Answer.“ / „Say yes.“** in w02 26, w03 24–26, w04 25, w05 26, w06 24–26 – sagt nicht, was geantwortet werden soll; die Lösungsliste ist trotzdem fest. Vorschlag: konkrete Aufgabe („Say that you are better again.“).
+5. **Vorgriffe**: Hinweis „als, wenn oder wann?“ in d08 21, d08b 16, d09 25 – d03 ist dort keine Voraussetzung (lösbar über d02b, aber *als* ist noch unbekannt); Präteritum starker Verben *nahm* (d08 5), *lag* (d11 44) – nur über die Verbkarte gelernt.
+
+**Einzelfunde:**
+- d01: 65 zuo Kategorien überlappen (eingekauft = regular UND separable; besucht = regular UND no ge-) → nicht eindeutig lösbar
+- d01b: Hinweis „haben oder sein – richtige Form im Präsens“ (Nr. 2–5, 16–19) verwirrt: der Satz ist Perfekt, gemeint ist die Form des Hilfsverbs → „Form von haben oder sein“; Nr. 58 nur eine Lösung (gebracht fehlt).
+- d02: Nr. 6 und 43 „Bindewort: because“ → Lösung nur denn; wer weil schreibt, ist falsch, obwohl because passt → Hinweis „because – Position 0, Wortstellung bleibt“; sonst sehr gut, viele Varianten.
+- d02b, d03: klar, viele Varianten; d02b 13 nennt als vor d03 (nur Liste); d03 85 akzeptiert auch ob (gut).
+- d03b: klar, gut.
+- d04: Nr. 7/8 Futur-Lücken in einem A1-Thema, Futur nur als Tipp-Zeile → Vorgriff; Nr. 9 Hinweis „richtige Form im Präsens“ (wie d01b); keine Übung zu der ↔ ein ↔ kein Artikel (neuer Abschnitt im Entwurf).
+- d04b: Nr. 12 „three bags“ → nur Sackerl/Sackerln, bundesdeutsch *Tüten* fehlt (Prüfliste 17); keine Übung verlangt *Kilos* ✓.
+- d05: Nr. 9/10 Futur-Lücken (A1/A2-Thema); Nr. 11 Hinweis „im Präsens“; Nr. 29/73 *Herrn Gruber* vor der n-Deklination (d05b) – Lösung ist nur *Wen*, aber das Beispiel verwirrt; Nr. 88 Dativ *meiner Kollegin* im Satz (erst d05b).
+- d05b: klar, gut.
+- d09: Nr. 4 Futur-Lücke; sonst klar, gute Varianten (bei der Ampel ✓).
+- d09b: Nr. 2 Futur, Nr. 3 Hinweis „im Präsens“; sonst sehr gut.
+- d06: Nr. 7/8 Futur, Nr. 9 Hinweis „im Präsens“; sonst sehr gut (borgen ✓).
+- d06b: Nr. 20 „I like the flat very much“ – natürliche Variante *Ich mag die Wohnung sehr* fehlt (Prüfliste 5; passt zum Entwurf *mögen*).
+- d07: Nr. 6/7 Futur, Nr. 8 „im Präsens“; Nr. 17 *Milch? – Ich kaufe welche* (Stoffname im Singular) – die Theorie erklärt *welche* nur als Plural von *einer* → Theorie ergänzen („also for things you don't count“) oder Übung tauschen; Beleg offen (Duden-Seite 404, Wiktionary nur Fragewort/Relativpronomen).
+- d07b: klar, gut.
+- d08: Nr. 4 Futur; Nr. 5 *nahm* (Präteritum eines starken Verbs – gelehrt nur über die Verbkarte, regulär erst d22); Nr. 21 Hinweis „als, wenn oder wann?“, d03 ist aber keine Voraussetzung von d08 (lösbar über d02b *wenn*, der Hinweis nennt aber ungelerntes *als*).
+- d08b: Nr. 4 Futur, Nr. 5 „im Präsens“; Nr. 16 wie d08 Nr. 21 (*wann*, lösbar über d02b).
+- d09: Nr. 25 wie oben (*wann*).
+- d11: Nr. 43 Futur; Nr. 44 *lag* (Präteritum über Verbkarte); sonst sehr gut, Varianten ✓.
+- d14: klar, Hinweise „Nur die Endung – Fall“ vorbildlich; Varianten ✓ (im gleichen Haus).
+- d15: klar, gut.
+- d16: Nr. 10 `ord` akzeptiert „Könnten Sie bitte mich zurückrufen?“ – Pronomen nach *bitte* klingt falsch (nur mit Betonung möglich; lingolia „Bekanntes vor Neuem“: Pronomen nach vorn) → Variante streichen/`aus` und neu anhängen; sonst sehr gut.
+- w01–w06: klar, Varianten gut (Aufzug, Hackfleisch, Aprikosen ✓). Sachaussagen ohne Quelle: w04 Nr. 13 „innerhalb von drei Tagen anmelden“ (nur Websuche-Auszug), w05 Nr. 13 „in Österreich meistens etwa zehn Prozent Trinkgeld“; w06 Nr. 28 „which form is used in Austria? – geschwommen (sein)“ – Duden: *ist* und *hat* ohne Region (siehe D-1019-55).
+- les (100 Fragen gelesen): Texte und Antworten stimmig; Fragesprache gemischt (d01b, d04, w01–w06 deutsch, sonst englisch) – vereinheitlichen oder bewusst ab einem Niveau Deutsch; Sachangaben ohne Quelle: w04-Text „Anmeldung kostet nichts“, „innerhalb von drei Tagen“.
+
+**Was Quellen an Übungsformen empfehlen:** lingolia bietet je Kapitel Lückentext, Auswahl, Satzbau und Umformung – die App hat alle diese Formen und mehr (Übersetzung in beide Richtungen, Dialog, Lesen, freies Schreiben mit KI-Bewertung). Forschung (en.wikipedia „Testing effect“, „Generation effect“, „Spacing effect“, §7): selbst gebildete Antworten und gemischtes, verteiltes Üben wirken am stärksten – das spricht für mehr `tr` (de), `ord`, `sch` statt `gap` (§11) und für die Übersichtsthemen (§6). Neue Formen sind nicht nötig.
