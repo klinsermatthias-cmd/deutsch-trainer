@@ -737,7 +737,7 @@ Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Auf
 ### 14 Offene Analyse (nur prüfen, nichts ändern – Matthias 20.10.)
 - [x] 14.1 Einfachheit und Aufbau aller Theorien lesen (§13)
 - [x] 14.2 (Entwürfe für alle 22 Themen und w01–w06 in `docs/theorie-entwuerfe.md`) Je Thema: wie erklären lingolia, DW, mein-deutschbuch, Wikipedia dasselbe? Konkreter Vorschlag für eine einfachere Erklärung – vollständig, ohne Höchstgrenzen, als Vorher/Nachher-Entwurf (nicht eingebaut)
-- [ ] 14.3 Fehlende Teile (§13 Lücken) mit Quelle belegen
+- [x] 14.3 Fehlende Teile mit Quelle belegt (20.10.): Komposita-Genus (de.wikipedia „Komposition (Grammatik)“, Kopf rechts) ✓; Maßwörter (Duden *vier Kilo, 5 Stück, zwei Bier, drei Flaschen, zwei Tassen*) ✓; Bewegung innerhalb eines Ortes (Duden „Park“: *im Park spazieren gehen*) ✓; Ordinalzahlen *-te/-ste* (de.wikipedia „Zahlwort“) ✓; *mögen* (lingolia „Modalverben“) ✓; adjektivisches Prinzip stark/schwach (de.wikipedia „Deutsche Deklination“) ✓; Länder mit Artikel und *woher/wo/wohin*-Matrix (lingolia „Artikel“, „Lokale Präpositionen“) ✓; n-Deklination (lingolia) ✓. Noch ohne Quelle: Abgrenzung *gefallen* (erleben) ↔ *mögen* (allgemein) als Formulierung; Merkkette der Präpositionen; TeKaMoLo; Intonation (alle als Lernhilfe gekennzeichnet). Gesperrt: lernhelfer.de (000), Wikipedia „Wechselpräposition“ (404).
 - [ ] 14.4 Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
 - [ ] 14.5 Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
 - [ ] 14.6 Bericht an Matthias mit Codes

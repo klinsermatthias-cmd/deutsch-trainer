@@ -394,7 +394,7 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 > | -um, -ment | das | das Museum, das Dokument | der Moment |
 > | -er for people | der | der Verkäufer | a woman: die Verkäuferin |
 >
-> - **Compound nouns**: the **last** word decides: *die Liste → die Einkaufsliste*, *der Markt → der Gemüsemarkt*. *(Quelle vor Einbau)*
+> - **Compound nouns**: the **last** word decides: *die Liste → die Einkaufsliste*, *der Markt → der Gemüsemarkt*.
 > - No signal? Learn the noun with its article: *die Uhr, der Monat, das Brot, die Milch.*
 >
 > **6. ein and kein** = wie bisher; Zusatz: *Where nicht goes in the sentence: d02, section 8.*
@@ -404,7 +404,7 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 > **⚠ Watch out** = wie bisher, plus ✗ *Ich bin eine Lehrerin.* → ✓ *Ich bin Lehrerin.*
 > **🇦🇹 Austria** = wie bisher · **Verb forms** = wie bisher · Futur-Tipp → „Later: Futur – topic d17“
 
-**Quellen:** lingolia „Artikel“ (Gebrauch bestimmt/unbestimmt, kein Artikel bei Orten, Ländern außer *die Schweiz/Türkei/USA*, *sein/werden* + Beruf, Stoffen allgemein) ✓; Genus-Endungen „immer“: lingolia „Plural“ (feminine Endungen) ✓, übrige ohne Online-Quelle (§4). Komposita-Regel: ohne Quelle (14.3).
+**Quellen:** lingolia „Artikel“ (Gebrauch bestimmt/unbestimmt, kein Artikel bei Orten, Ländern außer *die Schweiz/Türkei/USA*, *sein/werden* + Beruf, Stoffen allgemein) ✓; Genus-Endungen „immer“: lingolia „Plural“ (feminine Endungen) ✓, übrige ohne Online-Quelle (§4). Komposita-Regel: de.wikipedia „Komposition (Grammatik)“ – der Kopf „überträgt seine semantischen und grammatischen Eigenschaften auf das ganze Wort und steht … in der Regel rechts außen“ ✓ (Abruf 20.10.).
 **Lernschritte:** 1 → §1–4 · 2 → §5 · 3 → §6 · 4 → §7, Verbformen. **Folgen für Übungen:** §4 ist neu → 4–6 Übungen anhängen (Schritt 1); Länder mit Artikel lösen auch den offenen Verweis in d09b.
 
 ---
@@ -427,12 +427,12 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 >
 > **6. Numbers and measure words**
 > - After a number, **Kilo, Gramm, Liter, Stück** stay singular: *zwei Kilo Erdäpfel, drei Stück, zwei Liter Milch*.
-> - Feminine measure words take the plural: *zwei **Flaschen** Wasser, drei **Packungen** Reis*. *(Quelle vor Einbau)*
+> - Feminine measure words take the plural: *zwei **Flaschen** Wasser, zwei **Tassen** Kaffee, drei **Packungen** Reis*. (*Stück*: *zwei Stück* or *zwei Stücke Kuchen* – both correct.)
 > - The thing you buy is plural if you can count it: *zwei Kilo Erdäpfel*, but *zwei Liter Milch*.
 >
 > **⚠ Watch out** = wie bisher
 
-**Quellen:** lingolia „Plural“ ✓ (§4). Maßwort-Regel (Maskulina/Neutra im Singular, Feminina im Plural): ohne Quelle – in 14.3 mit Duden belegen.
+**Quellen:** lingolia „Plural“ ✓ (§4). Maßwörter: Duden-Beispiele *vier Kilo*, *5 Stück Zucker*, *zwei Stück/Stücke Kuchen*, *zwei Bier (Glas Bier)*, *drei Flaschen*, *zwei Tassen* ✓ (Abruf 20.10.). Duden „Kilo“: österr. ugs. auch *der Kilo* (mögliche 🇦🇹-Zeile).
 **Lernschritte:** unverändert. **Folgen für Übungen:** prüfen, ob eine Übung *Kilos* verlangt (14.4).
 
 ---
@@ -835,7 +835,7 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 > **⚠ Watch out** = wie bisher, Zeile präzisiert: ✗ *Ich gehe in der Küche.* (= into the kitchen) → ✓ *Ich gehe in die Küche.*
 > **🇦🇹 Austria** = wie bisher · **7. Verb forms** = wie bisher
 
-**Quellen:** lingolia „Lokale Präpositionen“ (Position → Dativ, Richtung → Akkusativ) ✓; lingolia „Temporale Präpositionen“ (*an* + Datum, *zwischen* + Dativ) ✓; Duden „an“ (Lage, Nähe, Berührung) ✓ (§4). Bewegung innerhalb eines Ortes + Dativ: ohne Quelle – in 14.3 belegen.
+**Quellen:** lingolia „Lokale Präpositionen“ (Position → Dativ, Richtung → Akkusativ) ✓; lingolia „Temporale Präpositionen“ (*an* + Datum, *zwischen* + Dativ) ✓; Duden „an“ (Lage, Nähe, Berührung) ✓ (§4). Bewegung innerhalb eines Ortes + Dativ: Duden „Park“, Beispiel *im Park spazieren gehen* ✓; Goethe-Institut „Spickzettel Wechselpräpositionen“ (Akkusativ = von Punkt A nach Punkt B) ✓ (Abruf 20.10.).
 **Lernschritte:** unverändert (Entscheidungsweg im immer sichtbaren Teil). **Folgen für Übungen:** 2 Übungen *im Park spazieren gehen*, 2 Übungen *am Montag/im Mai* anhängen.
 
 ---
@@ -861,7 +861,7 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 > **1.–2.** = wie bisher
 > **3. Overview** = wie bisher, die fünf *-e*-Formen **fett**: *der neu**e** Kasten · die neu**e** Küche · das neu**e** Zimmer · die neu**e** Küche (Akk.) · das neu**e** Zimmer (Akk.)*
 > **4.–5.** = wie bisher
-> **6. Ordinal numbers and dates** = Ordinalzahlen-Tabelle und Datum wie bisher (19/20-Regel: Quelle in 14.3)
+> **6. Ordinal numbers and dates** = Ordinalzahlen-Tabelle und Datum wie bisher (19/20-Regel: de.wikipedia „Zahlwort“ – unter zwanzig *-te*, ab zwanzig *-ste* ✓)
 > **7. derselbe = the same** = Tabelle und Hinweise wie bisher, eigener Abschnitt
 > **⚠, 🇦🇹** = wie bisher (*Ablöse*: *Germany officially: Abstand; colloquially also Ablöse*) · **Verb forms** = wie bisher
 
