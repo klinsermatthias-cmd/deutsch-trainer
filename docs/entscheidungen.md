@@ -157,3 +157,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - 22 Theorien nach den Leitlinien D-1020-2 neu (Kasten „Words used here“, eine Regel je Abschnitt, „Ask yourself“, Nebenwissen ans Ende); w01–w06 mit Plural in den Tabellen.
 - Fehlendes ergänzt (u. a. Partizip II, nicht/sondern, indirekte Fragen, Modalverben Präteritum, n-Nomen, reflexive Verben, Ordnungszahlen) mit 44 Übungen und 5 Wortkarten; nur angehängt, Schritte gleich viele.
 - Quellen: lingolia, de.wikipedia, Duden, quellen.mjs; ohne Quelle: Präpositions-Merkspruch, TeKaMoLo, Satzmelodie. Matthias: Vorher/Nachher gesehen, alles auf einmal (D-1020-8).
+
+## 2026-10-20 – Reihenfolge, Wortpakete, Regeln (D-1020-11, -14; D-1019-55 bis -59, -67 bis -73)
+- d03/d03b in der Datei hinter d09b; `req` ergänzt (d03/d03b + d04–d05b, d08/d08b + d04/d04b); `req`-Regel einheitlich, Prüfliste 24.
+- w01–w06 korrigiert (Kaution beträgt, Hausbesorger, Teilzeitstelle, Visen, Gemüse, Karotte, schwimmen), e-card amtlich klein, Kaffee-Betonung; Quellen Duden, Wiktionary, de.wikipedia.
+- Regeln: etwa 50 Übungen (≥ 40), Mix ≥ 40 % Satzbildung, Futur bis d17 nur auf der Karte, Teilregel definiert, Prüfliste 25–27.

@@ -3,7 +3,7 @@
 > **Kurzfassung für neue Chats – nur den Abschnitt zum jeweiligen Thema lesen, nicht die ganze Datei.**
 > - Ergebnisse je Thema: §4 (Richtigkeit, Quellen), §13 (Einfachheit und Aufbau), §15 (Übungen). Entwürfe für einfachere Theorien: `docs/theorie-entwuerfe.md` (je Thema ein Abschnitt).
 > - Freigegeben 20.10. (Matthias): D-1020-2 bis -7 (§17); Stand der Umsetzung: §18.
-> - Angehalten bis zu Matthias' Go: D-1019-55 bis -73 (§9, §12).
+> - D-1019-55 bis -73 laufen seit D-1020-11 (Stand: §12).
 > - Quellenstand und gesperrte Seiten: `docs/quellen.md`. Nach der Umsetzung kommt diese Datei nach `docs/archiv/`.
 
 Auftrag D-1019-1: alle 22 Grammatik-Themen und w01–w06 gegen Online-Quellen prüfen – Vollständigkeit, Verständlichkeit, Beispiele, Aufbau (S-1013-34), Reihenfolge A1→B2, Methode, Übersichtsthemen, Systemlücken.
@@ -687,9 +687,9 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
 Nicht empfohlen und darum offen: D-1019-60/-61/-62 (Komparation, Richtungspräfixe, Wortbildung – später). D-1019-74/-75 überholt durch CLAUDE.md „ein Chat für alles“; der Antipp-Test wird direkt in opi-suomea repariert.
 - [x] D-1019-50 w03: 112 gilt auch in Österreich
 - [ ] ~~D-1020-1~~ überholt → D-1020-2/-3 (§17), **wartet auf OK von Matthias**; D-1019-51 bis -54 gehen darin auf.
-- [ ] D-1019-55/-56 Wortpakete w01–w06, e-card, Station/Kaffee
-- [ ] D-1019-57/-58/-59 Reihenfolge d03/d03b, `req` anhängen, `req`-Formulierung
-- [ ] D-1019-67 bis -73 Regeln (README, ablauf-thema, Prüfliste 23–26, CLAUDE.md, ki-qualitaet)
+- [x] D-1019-55/-56 Wortpakete w01–w06, e-card, Station/Kaffee (OK D-1020-14)
+- [x] D-1019-57/-58/-59 Reihenfolge d03/d03b, `req` anhängen, `req`-Formulierung (OK D-1020-14)
+- [x] D-1019-67 bis -73 Regeln (README, ablauf-thema, Prüfliste 24–27, CLAUDE.md, ki-qualitaet) (OK D-1020-14)
 - [ ] D-1019-66 zwei Lösungsvarianten; D-1019-65 GLOSS_EXTRA; D-1019-64 Übungen anhängen (d03b, d05b, d06b, d09, d04, d08, d11)
 - [ ] D-1019-63 Übersichtsthema Ü1 „Wer? Wen? Wem?“
 - [ ] D-1019-10 Regeln ohne Quelle mit grammis prüfen; D-1019-74 Antipp-Test in opi-suomea
