@@ -138,3 +138,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-19 – Ein Chat für alles, Prüfregel (D-1019-11)
 - Die getrennten Chats gibt es nicht mehr: dieser Chat macht Engine (in opi-suomea), Inhalte beider Apps und Simulationen; `CLAUDE.md` angepasst.
 - Matthias: Prüfungen/Simulationen, die kaum Tokens kosten, laufen weiter, wenn sinnvoll; alles andere kritisch hinterfragen und nur wenn wirklich nötig.
+
+## 2026-10-20 – w03: 112 gilt auch in Österreich (D-1019-50, OK Matthias)
+- Die 🇦🇹/🇩🇪-Tabelle legte nahe, 112 gelte nur in Deutschland. Neu: Zeile „112 is the emergency number in all EU countries – it works in Austria too“ und Zusatz unter „The most important things“.
+- Quelle: de.wikipedia „Notrufnummer“ (Abruf 19.10., Österreich: 112 oder 133, 122, 144). Übung 17 nannte 112 schon richtig.
