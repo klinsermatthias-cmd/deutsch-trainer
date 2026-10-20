@@ -24493,6 +24493,749 @@
   ]
  },
  {
+  "id": "d34",
+  "title": "Wer? Wen? Wem? – alle Fälle zusammen",
+  "fi": "Who? Whom? To whom? – all cases together",
+  "lvl": "A2",
+  "req": [
+   "d01",
+   "d01b",
+   "d02",
+   "d02b",
+   "d04",
+   "d04b",
+   "d05",
+   "d05b",
+   "d09",
+   "d09b",
+   "d06",
+   "d06b",
+   "d07",
+   "d07b",
+   "d11"
+  ],
+  "th": "<p class=\"rule\"><b>The most important things</b></p><ul><li>Nominativ = who does it: <i><b>Der</b> Nachbar hilft.</i></li><li>Akkusativ = whom or what: <i>Ich kaufe <b>einen</b> Schal.</i></li><li>Dativ = the person who gets something: <i>Ich schenke <b>meiner</b> Mutter Blumen.</i></li><li>A preposition decides the case itself: <i>mit <b>dem</b> Bus, für <b>den</b> Chef</i>.</li><li>Two-way prepositions: wo? → Dativ, wohin? → Akkusativ: <i>im Keller – in den Keller</i>.</li></ul><p class=\"tip\"><b>Words used here</b><br><b>case</b> – the form a noun, article or pronoun takes for its job in the sentence (Nominativ, Akkusativ, Dativ).<br><b>subject</b> – the person or thing that does the action (Nominativ).<br><b>object</b> – the person or thing the action goes to (Akkusativ or Dativ).</p><p>This topic has no new rules and no new words. It puts the cases from d04–d11 side by side so that you can choose the right one.</p><h3>1. Situation: a Saturday in Vienna</h3><p>Aurora buys a birthday present for Lena, takes the tram to her flat and helps her put up a shelf. Every sentence needs the right case.</p><table><tr><th>Deutsch</th><th>English</th></tr><tr><td>Ich kaufe einen Schal für Lena.</td><td>I'm buying a scarf for Lena.</td></tr><tr><td>Ich schenke ihr den Schal.</td><td>I'm giving her the scarf.</td></tr><tr><td>Ich fahre mit der Straßenbahn zu ihr.</td><td>I'm taking the tram to her place.</td></tr><tr><td>Wir hängen das Regal an die Wand.</td><td>We're putting the shelf up on the wall.</td></tr><tr><td>Jetzt hängt das Regal an der Wand.</td><td>Now the shelf is on the wall.</td></tr></table><h3>2. Dialogue</h3><p><b>Lena:</b> <i>Hallo! Komm herein! Gefällt <b>dir</b> <b>die</b> Wohnung?</i><br><b>Aurora:</b> <i>Ja, sehr! Alles Gute zum Geburtstag! Ich habe <b>einen</b> Schal für <b>dich</b>.</i><br><b>Lena:</b> <i>Danke! Er gefällt <b>mir</b> sehr. Hilfst du <b>mir</b> mit <b>dem</b> Regal?</i><br><b>Aurora:</b> <i>Klar. Hängen wir es an <b>die</b> Wand neben <b>dem</b> Fenster?</i><br><b>Lena:</b> <i>Gute Idee. Und dann stellen wir die Bücher in <b>das</b> Regal.</i></p><ul><li>In the dialogue: <i>dir, mir</i> – Dativ (gefallen, helfen); <i>einen Schal, für dich</i> – Akkusativ; <i>mit dem Regal</i> – mit always takes the Dativ; <i>an die Wand</i> – wohin? → Akkusativ; <i>neben dem Fenster</i> – wo? → Dativ.</li></ul><h3>3. Overview: articles in all three cases</h3><p>Read each row from left to right: Nominativ → Akkusativ → Dativ.</p><table><tr><th>Gender</th><th>der-words</th><th>ein-words</th></tr><tr><td>masculine</td><td>der → <b>den</b> → <b>dem</b></td><td>ein → <b>einen</b> → <b>einem</b></td></tr><tr><td>feminine</td><td>die → die → <b>der</b></td><td>eine → eine → <b>einer</b></td></tr><tr><td>neuter</td><td>das → das → <b>dem</b></td><td>ein → ein → <b>einem</b></td></tr><tr><td>plural</td><td>die → die → <b>den</b> …-n</td><td>meine → meine → <b>meinen</b> …-n</td></tr></table><ul><li>Only masculine changes in the Akkusativ: <i>der → den, ein → einen</i>.</li><li>The Dativ always changes: <i>-m, -r, -m, -n</i>.</li><li>kein, mein, dein … work like ein: <i>keinen, meinem, deiner</i>.</li><li>Some masculine nouns add -n in the Akkusativ and Dativ: <i>den Kunden, dem Nachbarn</i> (d05b).</li></ul><h3>4. Overview: personal pronouns</h3><table><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th></tr><tr><td>ich</td><td>mich</td><td>mir</td></tr><tr><td>du</td><td>dich</td><td>dir</td></tr><tr><td>er</td><td>ihn</td><td>ihm</td></tr><tr><td>sie</td><td>sie</td><td>ihr</td></tr><tr><td>es</td><td>es</td><td>ihm</td></tr><tr><td>wir</td><td>uns</td><td>uns</td></tr><tr><td>ihr</td><td>euch</td><td>euch</td></tr><tr><td>sie / Sie</td><td>sie / Sie</td><td>ihnen / Ihnen</td></tr></table><ul><li>A pronoun has the gender of the noun – also for things: <i>der Schal → er, ihn, ihm</i>.</li><li>Two objects: the person (Dativ) comes before the thing (Akkusativ): <i>Ich gebe dem Kind den Ball.</i></li><li>Two pronouns: Akkusativ before Dativ: <i>Ich gebe ihn ihm.</i></li></ul><h3>5. Which case? Ask yourself</h3><p class=\"rule\">Go through the questions in this order. The first „yes“ decides.</p><table><tr><th>Question</th><th>If yes</th><th>Example</th></tr><tr><td>1. Is there a preposition with a fixed case?</td><td>The preposition decides.</td><td><i>mit dem Bus, für den Chef</i></td></tr><tr><td>2. Is it a two-way preposition?</td><td>wo? → Dativ; wohin? → Akkusativ</td><td><i>im Keller – in den Keller</i></td></tr><tr><td>3. Is it a dative verb?</td><td>The person is in the Dativ.</td><td><i>Ich helfe dir.</i></td></tr><tr><td>4. Who does it?</td><td>Nominativ</td><td><i>Der Nachbar kommt.</i></td></tr><tr><td>5. Whom or what?</td><td>Akkusativ</td><td><i>Ich sehe den Nachbarn.</i></td></tr><tr><td>6. Who gets something?</td><td>Dativ</td><td><i>Ich gebe dem Nachbarn das Paket.</i></td></tr></table><p>The most important prepositions:</p><table><tr><th>Case</th><th>Prepositions</th></tr><tr><td>always Akkusativ</td><td>durch, für, gegen, ohne, um</td></tr><tr><td>always Dativ</td><td>aus, bei, mit, nach, seit, von, zu, gegenüber</td></tr><tr><td>two-way (wo? / wohin?)</td><td>an, auf, hinter, in, neben, über, unter, vor, zwischen</td></tr></table><table><tr><th>Dative verbs</th><th>Example</th></tr><tr><td>helfen, danken, gratulieren</td><td>Ich danke Ihnen.</td></tr><tr><td>gehören, gefallen, schmecken, passen</td><td>Die Wohnung gefällt mir.</td></tr></table><h3>6. ⚠ Watch out: typical mix-ups</h3><table><tr><th>✗ wrong</th><th>✓ correct</th></tr><tr><td>Ich helfe dich.</td><td>Ich helfe dir.</td></tr><tr><td>Das gefällt ich.</td><td>Das gefällt mir.</td></tr><tr><td>Ich fahre mit den Bus.</td><td>Ich fahre mit dem Bus.</td></tr><tr><td>Das ist für dem Kind.</td><td>Das ist für das Kind.</td></tr><tr><td>Ich gehe in der Küche.</td><td>Ich gehe in die Küche.</td></tr><tr><td>Das Bild hängt an die Wand.</td><td>Das Bild hängt an der Wand.</td></tr><tr><td>Ich zeige den Kunde das Geschäft.</td><td>Ich zeige dem Kunden das Geschäft.</td></tr></table><h3>7. 🇦🇹 Austria</h3><table><tr><th>Austria (spoken)</th><th>Standard</th></tr><tr><td>gegenüber vom Bahnhof</td><td>gegenüber dem Bahnhof</td></tr><tr><td>mit der Bim</td><td>mit der Straßenbahn</td></tr></table><p>Both cases stay the same: <i>vom</i> = <i>von dem</i> (Dativ), <i>mit der Bim</i> (Dativ).</p>",
+  "v": [],
+  "ex": [
+   {
+    "t": "tab",
+    "q": "Artikel: Nominativ → Akkusativ → Dativ",
+    "h": "Jedes Kästchen nur der Artikel (Dativ Plural: Blumen bekommt kein extra -n).",
+    "head": [
+     "Nominativ",
+     "Akkusativ: Artikel",
+     "Dativ: Artikel"
+    ],
+    "r": [
+     [
+      "der Schal",
+      "[den]",
+      "[dem]"
+     ],
+     [
+      "die Tasche",
+      "[die]",
+      "[der]"
+     ],
+     [
+      "das Buch",
+      "[das]",
+      "[dem]"
+     ],
+     [
+      "die Blumen (Pl.)",
+      "[die]",
+      "[den]"
+     ]
+    ]
+   },
+   {
+    "t": "tab",
+    "q": "Personalpronomen: Nominativ → Akkusativ → Dativ",
+    "h": "Jedes Kästchen ein Pronomen.",
+    "head": [
+     "Nominativ",
+     "Akkusativ",
+     "Dativ"
+    ],
+    "r": [
+     [
+      "ich",
+      "[mich]",
+      "[mir]"
+     ],
+     [
+      "du",
+      "[dich]",
+      "[dir]"
+     ],
+     [
+      "er",
+      "[ihn]",
+      "[ihm]"
+     ],
+     [
+      "sie (Singular)",
+      "[sie]",
+      "[ihr]"
+     ],
+     [
+      "wir",
+      "[uns]",
+      "[uns]"
+     ],
+     [
+      "ihr",
+      "[euch]",
+      "[euch]"
+     ]
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "___ Nachbar hilft mir. (der)",
+    "a": [
+     "Der"
+    ],
+    "h": "Nominativ – wer hilft?"
+   },
+   {
+    "t": "gap",
+    "q": "Ich sehe ___ Nachbarn. (der)",
+    "a": [
+     "den"
+    ],
+    "h": "Akkusativ – wen sehe ich?"
+   },
+   {
+    "t": "gap",
+    "q": "Ich gebe ___ Nachbarn das Paket. (der)",
+    "a": [
+     "dem"
+    ],
+    "h": "Dativ – wer bekommt das Paket?"
+   },
+   {
+    "t": "gap",
+    "q": "Ich kaufe ___ Schal. (ein)",
+    "a": [
+     "einen"
+    ],
+    "h": "Akkusativ, maskulin"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm giving my mother a present.",
+    "a": [
+     "Ich schenke meiner Mutter ein Geschenk.",
+     "Ich gebe meiner Mutter ein Geschenk."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "Do you see the neighbour (a man)?",
+    "a": [
+     "Siehst du den Nachbarn?"
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm giving it to him. (it = the book)",
+    "a": [
+     "Ich gebe es ihm."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The child is showing the colleague (a woman) the picture.",
+    "a": [
+     "Das Kind zeigt der Kollegin das Bild."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "schenke",
+     "der",
+     "Kollegin",
+     "einen",
+     "Schal"
+    ],
+    "a": [
+     "Ich schenke der Kollegin einen Schal.",
+     "Der Kollegin schenke ich einen Schal.",
+     "Einen Schal schenke ich der Kollegin."
+    ],
+    "de": "I'm giving the colleague (a woman) a scarf."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Wir",
+     "kaufen",
+     "den",
+     "Kindern",
+     "Schokolade"
+    ],
+    "a": [
+     "Wir kaufen den Kindern Schokolade.",
+     "Den Kindern kaufen wir Schokolade."
+    ],
+    "de": "We're buying the children chocolate."
+   },
+   {
+    "t": "zuo",
+    "q": "Which case?",
+    "p": [
+     [
+      "Wer kommt?",
+      "Nominativ"
+     ],
+     [
+      "Wen siehst du?",
+      "Akkusativ"
+     ],
+     [
+      "Wem gibst du das Paket?",
+      "Dativ"
+     ]
+    ],
+    "h": "Zu jeder Frage den Fall wählen."
+   },
+   {
+    "t": "mc",
+    "q": "„Ich gebe ___ Kind den Ball.“",
+    "o": [
+     "dem",
+     "den",
+     "das"
+    ],
+    "a": 0,
+    "x": "Who gets the ball? The child → Dativ; das Kind → dem Kind."
+   },
+   {
+    "t": "gap",
+    "q": "Ich fahre mit ___ Straßenbahn. (die)",
+    "a": [
+     "der"
+    ],
+    "h": "mit – immer Dativ"
+   },
+   {
+    "t": "gap",
+    "q": "Die Blumen sind für ___ Chefin. (die)",
+    "a": [
+     "die"
+    ],
+    "h": "für – immer Akkusativ"
+   },
+   {
+    "t": "gap",
+    "q": "Wir gehen durch ___ Park. (der)",
+    "a": [
+     "den"
+    ],
+    "h": "durch – immer Akkusativ"
+   },
+   {
+    "t": "gap",
+    "q": "Das Sofa steht neben ___ Fenster. (das)",
+    "a": [
+     "dem"
+    ],
+    "h": "wo? → Dativ"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm going to the post office by bus.",
+    "a": [
+     "Ich fahre mit dem Bus zur Post."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The present is for you (du).",
+    "a": [
+     "Das Geschenk ist für dich."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We're putting the lamp next to the sofa.",
+    "a": [
+     "Wir stellen die Lampe neben das Sofa."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm helping my friend (a woman).",
+    "a": [
+     "Ich helfe meiner Freundin."
+    ]
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Das",
+     "Bild",
+     "hängt",
+     "an",
+     "der",
+     "Wand"
+    ],
+    "a": [
+     "Das Bild hängt an der Wand.",
+     "An der Wand hängt das Bild."
+    ],
+    "de": "The picture is hanging on the wall."
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "hänge",
+     "das",
+     "Bild",
+     "an",
+     "die",
+     "Wand"
+    ],
+    "a": [
+     "Ich hänge das Bild an die Wand.",
+     "An die Wand hänge ich das Bild."
+    ],
+    "de": "I'm hanging the picture on the wall."
+   },
+   {
+    "t": "mc",
+    "q": "„Ich lege das Buch auf ___ Tisch.“",
+    "o": [
+     "den",
+     "dem",
+     "der"
+    ],
+    "a": 0,
+    "x": "wohin? → Akkusativ: auf den Tisch."
+   },
+   {
+    "t": "mc",
+    "q": "„Die Wohnung gefällt ___.“ (ich)",
+    "o": [
+     "mir",
+     "mich",
+     "ich"
+    ],
+    "a": 0,
+    "x": "gefallen is a dative verb: the person is in the Dativ → mir."
+   },
+   {
+    "t": "luk",
+    "q": "Ergänze die Artikel.",
+    "txt": [
+     "Ich fahre mit [der] Straßenbahn zu [dem] Bahnhof. Dort kaufe ich [einen] Fahrschein für [den] Zug."
+    ],
+    "h": "Jedes Kästchen ein Artikel – zuerst die Präposition prüfen."
+   },
+   {
+    "t": "sch",
+    "q": "Describe the way from your flat to the shop in 2 sentences: use mit and durch.",
+    "w": [
+     "mit",
+     "durch"
+    ],
+    "a": [
+     "Ich fahre mit der Straßenbahn bis zum Markt. Dann gehe ich durch den Park zum Geschäft."
+    ],
+    "h": "mit + Dativ, durch + Akkusativ"
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The shoes don't fit me.",
+    "a": [
+     "Die Schuhe passen mir nicht."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "We're carrying the sofa into the living room.",
+    "a": [
+     "Wir tragen das Sofa ins Wohnzimmer.",
+     "Wir tragen das Sofa in das Wohnzimmer."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "I'm thanking the neighbour (a woman) for the help.",
+    "a": [
+     "Ich danke der Nachbarin für die Hilfe."
+    ]
+   },
+   {
+    "t": "tr",
+    "dir": "de",
+    "q": "The key belongs to the colleague (a man).",
+    "a": [
+     "Der Schlüssel gehört dem Kollegen."
+    ]
+   },
+   {
+    "t": "gap",
+    "q": "Lena wohnt gegenüber ___ Post. (die)",
+    "a": [
+     "der"
+    ],
+    "h": "gegenüber – immer Dativ"
+   },
+   {
+    "t": "gap",
+    "q": "Ich warte seit ___ Stunde. (eine)",
+    "a": [
+     "einer"
+    ],
+    "h": "seit – immer Dativ"
+   },
+   {
+    "t": "ord",
+    "w": [
+     "Ich",
+     "zeige",
+     "dem",
+     "Kunden",
+     "das",
+     "Geschäft"
+    ],
+    "a": [
+     "Ich zeige dem Kunden das Geschäft.",
+     "Dem Kunden zeige ich das Geschäft.",
+     "Das Geschäft zeige ich dem Kunden."
+    ],
+    "de": "I'm showing the customer the shop."
+   },
+   {
+    "t": "mc",
+    "q": "„Ohne ___ Fahrschein fahre ich nicht.“",
+    "o": [
+     "einen",
+     "einem",
+     "ein"
+    ],
+    "a": 0,
+    "x": "ohne always takes the Akkusativ: der Fahrschein → ohne einen Fahrschein."
+   },
+   {
+    "t": "mc",
+    "q": "„Hängst du die Lampe über ___ Tisch?“",
+    "o": [
+     "den",
+     "dem",
+     "der"
+    ],
+    "a": 0,
+    "x": "wohin? → Akkusativ: über den Tisch."
+   },
+   {
+    "t": "les",
+    "q": "Ein Samstag in Wien",
+    "txt": [
+     "Am Samstag kauft Aurora einen Schal für Lena. Lena hat Geburtstag.",
+     "Aurora fährt mit der Straßenbahn zu ihr. Die Wohnung ist gegenüber vom Park.",
+     "Aurora schenkt Lena den Schal. Er gefällt ihr sehr.",
+     "Dann helfen die zwei dem Nachbarn: Sie tragen sein Sofa in den Keller."
+    ],
+    "qs": [
+     {
+      "q": "What does Aurora buy?",
+      "o": [
+       "a scarf",
+       "a bag",
+       "a book"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where is Lena's flat?",
+      "o": [
+       "opposite the park",
+       "next to the post office",
+       "behind the station"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where do they carry the sofa?",
+      "o": [
+       "into the cellar",
+       "into the living room",
+       "onto the balcony"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Eine Nachricht von Jonas",
+    "txt": [
+     "Hallo Aurora!",
+     "Kannst du mir am Sonntag helfen? Ich hänge Bilder an die Wand.",
+     "Die Bilder liegen noch im Keller.",
+     "Bring bitte deinen Hammer mit! Danke dir! Jonas"
+    ],
+    "qs": [
+     {
+      "q": "What does Jonas want to do?",
+      "o": [
+       "hang pictures on the wall",
+       "carry a sofa",
+       "buy a present"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where are the pictures now?",
+      "o": [
+       "in the cellar",
+       "on the wall",
+       "at Aurora's flat"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What should Aurora bring?",
+      "o": [
+       "her hammer",
+       "a picture",
+       "a lamp"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "les",
+    "q": "Im Geschäft",
+    "txt": [
+     "Ein Kunde sucht ein Geschenk für seine Frau.",
+     "Die Verkäuferin zeigt dem Kunden eine Tasche und einen Schal.",
+     "Die Tasche gefällt ihm, aber sie ist zu teuer.",
+     "Er kauft seiner Frau den Schal und dankt der Verkäuferin."
+    ],
+    "qs": [
+     {
+      "q": "Who is the present for?",
+      "o": [
+       "the customer's wife",
+       "the shop assistant",
+       "the customer"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why doesn't he buy the bag?",
+      "o": [
+       "It is too expensive.",
+       "He doesn't like it.",
+       "It is too small."
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does he buy?",
+      "o": [
+       "the scarf",
+       "the bag",
+       "both"
+      ],
+      "a": 0
+     }
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Beim Geburtstag",
+    "r": [
+     [
+      "Lena",
+      "Danke für den Schal! Wo hast du ihn gekauft?"
+     ],
+     [
+      "Du",
+      "[Im Geschäft neben der Post.|In dem Geschäft neben der Post.|Ich habe ihn im Geschäft neben der Post gekauft.]",
+      "Say: in the shop next to the post office."
+     ],
+     [
+      "Lena",
+      "Er gefällt mir sehr."
+     ],
+     [
+      "Du",
+      "[Das freut mich!|Schön, dass er dir gefällt!|Super, das freut mich!]",
+      "Say you're glad."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "Der Umzug",
+    "r": [
+     [
+      "Jonas",
+      "Wohin stellen wir das Sofa?"
+     ],
+     [
+      "Du",
+      "[Neben das Fenster.|Wir stellen es neben das Fenster.|Stellen wir es neben das Fenster.]",
+      "Say: next to the window (wohin?)."
+     ],
+     [
+      "Jonas",
+      "Und wo ist die Lampe?"
+     ],
+     [
+      "Du",
+      "[Sie steht im Keller.|Die Lampe steht im Keller.|Im Keller.]",
+      "Say: it's in the cellar (wo?)."
+     ]
+    ]
+   },
+   {
+    "t": "dlg",
+    "q": "An der Haltestelle",
+    "r": [
+     [
+      "Frau",
+      "Entschuldigung, wie komme ich zum Bahnhof?"
+     ],
+     [
+      "Du",
+      "[Fahren Sie mit der Straßenbahn.|Mit der Straßenbahn.|Fahren Sie mit der Bim.|Mit der Bim.]",
+      "Tell her to take the tram."
+     ],
+     [
+      "Frau",
+      "Und wo steige ich aus?"
+     ],
+     [
+      "Du",
+      "[Gegenüber vom Bahnhof.|Gegenüber dem Bahnhof.|Die Haltestelle ist gegenüber vom Bahnhof.]",
+      "Say: opposite the station."
+     ]
+    ]
+   },
+   {
+    "t": "sch",
+    "q": "Write 2 sentences: what are you giving a friend for her birthday, and why?",
+    "w": [
+     "schenken",
+     "gefallen"
+    ],
+    "a": [
+     "Ich schenke meiner Freundin ein Buch. Bücher gefallen ihr sehr."
+    ],
+    "h": "Dativ for the person, Akkusativ for the present"
+   },
+   {
+    "t": "sch",
+    "q": "You are moving in. Write 2 sentences: where is the table now (wo?) and where are you putting it (wohin?).",
+    "w": [
+     "stehen",
+     "stellen"
+    ],
+    "a": [
+     "Der Tisch steht im Keller. Ich stelle ihn neben das Fenster."
+    ],
+    "h": "stehen + Dativ, stellen + Akkusativ"
+   }
+  ],
+  "steps": [
+   {
+    "t": "Artikel und Pronomen in drei Fällen",
+    "sec": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "ex": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "t": "Welcher Fall? Präpositionen und Dativ-Verben",
+    "sec": [
+     5
+    ],
+    "ex": [
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "t": "Alles zusammen: ein Samstag in Wien",
+    "sec": [
+     6,
+     7
+    ],
+    "ex": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   }
+  ]
+ },
+ {
   "id": "d14",
   "title": "Die helle Wohnung im zweiten Stock – Adjektivendungen I",
   "fi": "The bright flat on the second floor – adjective endings I",
