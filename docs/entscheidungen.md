@@ -152,3 +152,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - 19 Futur-Lücken in 12 Themen ausgeblendet (Futur erst d17); 14 Lücken mit dem verwirrenden Hinweis „richtige Form im Präsens“ ausgeblendet und mit „haben oder sein? – die passende Form“ hinten neu angehängt (gleicher Schritt).
 - Ersetzt: d01 Nr. 65 (`zuo` mit überlappenden Kategorien → „Where does ge- go?“, Nr. 113), d02 Nr. 6/43 (Hinweis „because – Position 0“, Nr. 98/99), d16 Nr. 10 (ohne die Variante „bitte mich“, Nr. 52). Varianten ergänzt: *Tüten, Tomaten, Aprikosen* (Prüfliste 17), *Ich mag die Wohnung sehr* (d06b Nr. 20); fünf Dialogaufgaben „Answer.“ konkret formuliert.
 - Belegt: Trinkgeld in Österreich 5–10 % (de.wikipedia „Trinkgeld“), Anmeldung spätestens drei Tage nach dem Einzug (de.wikipedia „Meldegesetz 1991“). Ohne Quelle, unverändert: „Anmeldung kostet nichts“ (w04-Lesetext).
+
+## 2026-10-20 – Theorien neu gefasst (D-1020-3, -4, -8)
+- 22 Theorien nach den Leitlinien D-1020-2 neu (Kasten „Words used here“, eine Regel je Abschnitt, „Ask yourself“, Nebenwissen ans Ende); w01–w06 mit Plural in den Tabellen.
+- Fehlendes ergänzt (u. a. Partizip II, nicht/sondern, indirekte Fragen, Modalverben Präteritum, n-Nomen, reflexive Verben, Ordnungszahlen) mit 44 Übungen und 5 Wortkarten; nur angehängt, Schritte gleich viele.
+- Quellen: lingolia, de.wikipedia, Duden, quellen.mjs; ohne Quelle: Präpositions-Merkspruch, TeKaMoLo, Satzmelodie. Matthias: Vorher/Nachher gesehen, alles auf einmal (D-1020-8).

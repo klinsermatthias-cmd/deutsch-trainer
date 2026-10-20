@@ -1,170 +1,170 @@
 {
   "d01": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "17db1bdd7c44"
+    "h": "01de9b33c5e0"
   },
   "d01b": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "8a1ed1a2051e"
+    "h": "96d15114324b"
   },
   "d02": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "32483069bf8a"
+    "h": "cbd919ed2287"
   },
   "d02b": {
-    "d": "2026-10-15",
-    "q": "S-1014-1 Lernschritte + neue Übungen: en.wiktionary (bringen, anrufen, bestellen, verstehen, studieren, werden, bleiben, kommen, umziehen, einschlafen, aufwachen, trinken, schreiben, sprechen, nehmen, denken, Pizza, Schwester); Grammatik wie S-1013-50 (lingolia, grammis, DWDS); Vorgriff je Schritt von Hand geprüft (Prüfliste 20) | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (trinken, telefonieren, fahren, aufwachen, können/konnte, ankommen, verschieben), DWDS (während, bevor, nachdem); ohne Quelle: Wortstellungsregeln, als/wenn/wann, Plusquamperfekt nach nachdem (nur Theorie) | S-1014-16 Wortliste: en.wiktionary (glauben, wissen, anrufen, abschicken, verpassen, Arzt/Ärztin/Chefin), Duden (Termine), DWDS (obwohl, denn, Was ist los?, Kein Problem!) | Langer Lesetext (D-1015-4): Wiktionary (en): Grippe (f); Wartezimmer (n). DWDS: daheim – süddt., österr.; Ordination – österr.; ohne Quelle: „Frau Dr. Huber“ als Anrede einer Ärztin – nicht nachgeschlagen (üblich).",
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "11bc3abf0ba6"
+    "h": "cf2c273c48e4"
   },
   "d03": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "af64b2f38a57"
+    "h": "fd6d1d8ead00"
   },
   "d03b": {
-    "d": "2026-10-15",
-    "q": "en.wiktionary (fahren, wandern, fliegen, ausschlafen, treffen, bleiben, ankommen, gehen, besuchen, können), Duden fahren (ist/hat gefahren), DWDS fahren (transitiv mit haben), Vorgriff-Suchlauf D-1014-58 | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (trinken, telefonieren, fahren, aufwachen, können/konnte, ankommen, verschieben), DWDS (während, bevor, nachdem); ohne Quelle: Wortstellungsregeln, als/wenn/wann, Plusquamperfekt nach nachdem (nur Theorie) | S-1014-16 Wortliste: en.wiktionary (spazieren gehen ist, lesen, telefonieren, duschen, waschen wusch, frühstücken, Hand/Zeitung/Radio), DWDS (den Tisch decken); ohne Quelle: mir/dir/sich in „sich die Hände waschen“ | Langer Lesetext (D-1015-4): Wiktionary (en) über node tools/quellen.mjs --sprache de: Semmel – f, ‚bread roll‘ (österr./süddt.); Erdapfel – m, Pl. Erdäpfel (Umlaut), ‚potato‘; Wecker – m, ‚alarm clock‘; Marmelade – f, ‚jam‘; Mitbewohnerin – f (m. Mitbewohner). nachdem-Zeitenfolge und bevor/während gegen d03b-Theorie (Abschn. 4–6).; ohne Quelle: „Erst nachdem …“ – ohne Quelle (Standard); Semmel „Germany: Brötchen“ nur aus Allgemeinwissen, Wiktionary nennt keine Gegenform.",
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "3b0634d0ee54"
+    "h": "a2b4c0ac527a"
   },
   "d04": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "9332c92380bc"
+    "h": "24ef098ed127"
   },
   "d04b": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "98e7a04aea47"
+    "h": "e369ba6840ee"
   },
   "d05": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "fac6a1180394"
+    "h": "b586654d3cee"
   },
   "d05b": {
-    "d": "2026-10-15",
-    "q": "en.wiktionary (fahren, wandern, fliegen, ausschlafen, treffen, bleiben, ankommen, gehen, besuchen, können), Duden fahren (ist/hat gefahren), DWDS fahren (transitiv mit haben), Vorgriff-Suchlauf D-1014-58 | S-1014-15 Teil 2 (Fehler finden/Umformen): en.wiktionary (geliehen, eingepackt, ausgesucht, gebraucht, Märkte, Eier, Kollege schwach, Freunden, Kindern, Paradeiser; Genus Einkaufsliste, Packung, Gutschein, Zwiebel, Schlüssel), de.wiktionary (Leiter), DWDS (helfen, gehören + Dativ); ohne Quelle: Possessiv- und Pronomenformen, Akkusativ vor Dativ bei zwei Pronomen (nur Theorie) | S-1014-16 Wortliste: en.wiktionary (Genus/Plural, zeigen, kaufen, suchen) | Langer Lesetext (D-1015-4): node tools/quellen.mjs (en.wiktionary) für Pensionist, Haube, Apfelstrudel, gießen (goss, gegossen), Enkelkind (Pl. -er), Rucksack (Pl. Rucksäcke), Wanderkarte; duden.de: Pensionist „süddeutsch, österreichisch“ = Pensionär, Haube „süddeutsch, österreichisch“ = Mütze, Häferl „österreichisch umgangssprachlich“, Apfelstrudel, Party („eine Party machen“); dwds.de: „Blumen gießen“, „zwei Paar Schuhe“ (; ohne Quelle: „ein paar Worte sagen“, „wandern gehen“ (Präsens) ohne eigene Nachschlagung.",
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "55156f12b89a"
+    "h": "b890dfa8d19c"
   },
   "d06": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "6c17603a77c2"
+    "h": "8016a27032ab"
   },
   "d06b": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "920a4b761a5e"
+    "h": "721de763a65d"
   },
   "d07": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "f608bd8e8ed6"
+    "h": "827c7f84b604"
   },
   "d07b": {
-    "d": "2026-10-15",
-    "q": "nur req geändert (d09 ergänzt, D-1014-60); Vorgriff-Suchlauf mit neuer Lernreihenfolge | S-1014-15 Teil 2 (Fehler finden/Umformen): Duden (abbiegen, ziehen mit ist, wehtun), DWDS (seit + Dativ, durch + Akkusativ), en.wiktionary (meins, welcher, denen, nimm, einnehmen, finden, treffen); ohne Quelle: gehören + Dativ, der/die/das allein, Sie-Imperativ, bei/zu, nach Hause/heim/daheim (nur Theorie) | S-1014-16 Wortliste: en.wiktionary (welcher, kennen, mitnehmen, Genus/Plural), Duden (Haube österr.); ohne Quelle: meins | Langer Lesetext (D-1015-4): Haube: duden.de „süddeutsch, österreichisch“ (Mütze). node tools/quellen.mjs (en.wiktionary) für Pensionist, Haube, Apfelstrudel, gießen (goss, gegossen), Enkelkind (Pl. -er), Rucksack (Pl. Rucksäcke), Wanderkarte; duden.de: Pensionist „süddeutsch, österreichisch“ = Pensionär, Haube „süddeutsch, österreichisch“ = Mütze, Häferl „österreichisch umgangssprachlich“, Apfelstrudel, Party („eine Party ma; ohne Quelle: „ganz nah wohnen“ ohne eigene Nachschlagung.",
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "563af6567ccb"
+    "h": "167fbfd8e880"
   },
   "d08": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "1f0abad9c685"
+    "h": "101e432f5220"
   },
   "d08b": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "80b68663da9f"
+    "h": "3420201ef2c6"
   },
   "d09": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "b443776166e8"
+    "h": "b24829abd53a"
   },
   "d09b": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "bc76f26a12be"
+    "h": "93664b9222cf"
   },
   "w01": {
-    "d": "2026-10-14",
-    "q": "S-1014-26 Verbformen: en.wiktionary de-verb (Präteritum, Partizip, Hilfsverb, Präsens 3. Sg.) für alle 81 Verben; de.wiktionary verkühlen, kündigen, passieren, tun; Hilfsverb sein regional bei hängen/liegen/sitzen/stehen (de.wiktionary Hilfsverb*, Anmerkung hängen); du-Formen nach Regel aus der 3. Sg. (eigene Kenntnis)",
-    "c": "S",
-    "h": "fe4c22ef5c4c"
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
+    "c": "D",
+    "h": "229e833ad357"
   },
   "w02": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "78fe3df41572"
+    "h": "ca8a6ea0d3e3"
   },
   "w03": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "c8c4519c3a63"
+    "h": "9e60ffaf49d4"
   },
   "w04": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "d0b484360ab6"
+    "h": "dd7be0d160ac"
   },
   "w05": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "c3b56f9a1308"
+    "h": "0c8df2a716b5"
   },
   "w06": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "3fb76d832932"
+    "h": "13a8d855245d"
   },
   "d11": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "43a904ae8b5e"
+    "h": "ba2c6712a6b5"
   },
   "d14": {
-    "d": "2026-10-15",
-    "q": "Duden (Adjektivdeklination ruhig, Sprachratgeber Artikelwörter/dasselbe-oder-das-gleiche, Ordinalzahlen erste…zwanzigste, derselbe, selbe, Erdgeschoss/Erdgeschoß, Jänner, Feber, Ablöse, Vorzimmer, Stock, Hausverwaltung, Besichtigung, Quadratmeter, dunkel, teuer, renovieren, Altbau, Neubau); DWDS (Stock, selb, Ablöse, Stockwerk); de/en.wiktionary via quellen.mjs (derselbe, neunzehnte, einundzwanzigste, dreißigste); grammis rechtschreibung/6200 | Langer Lesetext (D-1014-45): Duden (Marillenmarmelade, schauen, Kasten, Sessel österr.; Ablöse, Kaution, Mietvertrag unterschreiben, Leitung besetzt, macht nichts, draußen, Anzeige, im selben, hängen trans./intrans., sich freuen), lingolia lokale Präpositionen (stellen + Akk., sitzen/liegen + Dat.); ohne Quelle: am fünften März, draußen sitzen, Natürlichkeit der Sätze",
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "cb33f9d76926"
+    "h": "c23c59d2ec81"
   },
   "d15": {
-    "d": "2026-10-15",
-    "q": "lingolia Adjektivdeklination (unbestimmter Artikel, ohne Artikel, -el-Adjektive), lingolia Partizipialattribute; Duden (Topfen, Palatschinke, Knödel, Käse, Gast, Brot, Suppe, Wetter-Beispiele, Guten Appetit); DWDS (Topfen nur Sg., Palatschinke, Knödel/Kloß, Gruß: mit freundlichen Grüßen, Wortprofil Käse: gerieben, gekochtes Ei); de./en.wiktionary (einladen lädt/lud/eingeladen, mitbringen, reiben, schneiden, kochen, scharf, Nachbarn, Eier). Ohne Quelle: genaue Wendungen bei schönem Wetter, geriebener Käse, Palatschinken mit Topfen; warm/kalt/heiß-Endungen (regelmäßig); In der Arbeit; Natürlichkeit der neuen Sätze | Ergänzung 15.10.: de.wiktionary Komparative (größer, älter, wärmer, kälter, heller, billiger, kleiner, teurer, dunkler, besser; teurere/teureres), Duden teuer, lingolia (Komparativ + Deklinationsendung), wiktionary Bekannter/Deutscher, Duden Bekannte, D 72 (etwas Gutes), neu (nichts Neues), gut (alles Gute), DWDS (was gibt es Neues); Lesetext: Duden (Marillenmarmelade, schauen, Kasten, Sessel österr.; Ablöse, Kaution, Mietvertrag unterschreiben, Leitung besetzt, macht nichts, draußen, Anzeige, im selben, hängen trans./intrans., sich freuen), lingolia lokale Präpositionen (stellen + Akk., sitzen/liegen + Dat.); ohne Quelle: am fünften März, draußen sitzen, Natürlichkeit der Sätze; ohne Quelle: „Ich habe einen Bekannten getroffen“ als Satz",
+    "d": "2026-10-20",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "c0a1dc39aa94"
+    "h": "3a6c542636f5"
   },
   "d16": {
     "d": "2026-10-20",
-    "q": "D-1020-5 Übungsreparatur: Futur-Lücken ausgeblendet, Hinweise neu, Varianten Tüte/Tomate/Aprikose (Wiktionary), mögen (lingolia Modalverben), Wortstellung Pronomen (lingolia Aussagesätze), Partizip-II-ge- (lingolia Perfekt); Trinkgeld 5–10 % (de.wikipedia Trinkgeld), Meldefrist 3 Tage (de.wikipedia Meldegesetz 1991)",
+    "q": "lingolia, de.wikipedia (Komposition, Zahlwort, Deutsche Deklination, Trinkgeld, Meldegesetz), Duden, quellen.mjs",
     "c": "D",
-    "h": "5956038ac60e"
+    "h": "05c477168335"
   }
 }

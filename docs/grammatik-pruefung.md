@@ -820,6 +820,6 @@ Die schon freigegebenen Punkte D-1019-55 bis -73 (Wortpakete, Reihenfolge, `req`
 ### 18 Umsetzung D-1020 (OK Matthias 20.10.)
 - [x] D-1020-6 Kurzfassung oben, CLAUDE.md-Verweis, Prüfliste Z. 5
 - [x] D-1020-2 Leitlinien in `docs/ablauf-thema.md` und Prüfliste
-- [x] D-1020-5 Übungen reparieren (§15) – offen nur d07 Nr. 17 *welche* (mit der d07-Theorie, D-1020-3) und w04-Lesetext „Anmeldung kostet nichts“ (ohne Quelle, unverändert)
-- [ ] D-1020-7 Engine in opi-suomea (Antipp-Test, toter Verweis)
-- [ ] D-1020-3/-4 Theorien neu fassen und ergänzen – auf dem Branch, vor main Vorher/Nachher an Matthias
+- [x] D-1020-5 Übungen reparieren (§15) – d07 Nr. 17 mit der d07-Theorie ersetzt (Nr. 81); offen nur w04-Lesetext „Anmeldung kostet nichts“ (ohne Quelle, unverändert)
+- [x] D-1020-7 Engine in opi-suomea (Antipp-Test, toter Verweis) – opi-suomea 4bdb75d, übernommen 860a45a
+- [x] D-1020-3/-4 Theorien neu fassen und ergänzen – 28 Themen, 44 neue Übungen, 5 Wortkarten; Vorher/Nachher gezeigt, OK D-1020-8 (alles auf einmal)
