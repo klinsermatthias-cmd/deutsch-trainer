@@ -287,7 +287,7 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 > | ihr | konntet | musstet | durftet | solltet | wolltet |
 > | sie/Sie | konnten | mussten | durften | sollten | wollten |
 >
-> - Pattern: no umlaut + *-te*: *können → konnte, dürfen → durfte, müssen → musste*. (*mögen → mochte*: rare; you say *ich wollte, ich hätte gern*.)
+> - Pattern: no umlaut + *-te*: *können → konnte, dürfen → durfte, müssen → musste*. Also *mögen → mochte*: *Ich mochte die Wohnung.* = I liked the flat.
 > - **No umlaut!** *konnte* = could, was able to (past). *könnte* = could possibly (polite form, d16).
 > - Other verbs in the Präteritum (*kam, wohnte, ging*) you only need to **recognise** in texts for now – topic d22.
 >
@@ -344,3 +344,93 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 
 **Quellen:** Duden „nachdem“ (Vorzeitigkeit; kausal landschaftlich) ✓; lingolia „Konjunktionalsätze“ ✓; Plusquamperfekt-Formen = *hatte/war* (d03-Tabelle) + Partizip II, lingolia „Perfekt/Plusquamperfekt“ (§4) ✓.
 **Lernschritte:** unverändert. **Folgen für Übungen:** keine Pflicht; *nachdem* kausal nur erkennen.
+
+---
+
+## d04 der, die, das
+
+**Quellenvergleich:** lingolia „Artikel“ beginnt mit der Frage **wann** man welchen Artikel nimmt: *ein* = nicht näher bestimmt, zum ersten Mal erwähnt; *der/die/das* = bestimmt, schon bekannt; **kein Artikel** bei Orts- und den meisten Ländernamen (aber *die Schweiz, die Türkei, die USA*), bei *sein/werden* + Beruf (*Mein Bruder will Arzt werden*), bei Sprachen und Fähigkeiten, bei Stoffen allgemein (*Wir müssen noch Wasser kaufen*). Das **fehlt in d04 ganz** – die App lehrt nur die Formen, nicht den Gebrauch. Die Genus-Endungen stehen in d04 als lange Liste mit „immer“ und „meistens“ gemischt.
+
+**Was sich ändert:**
+- **Neu:** Abschnitt „der, ein or no article?“ (lingolia).
+- Endungsliste in zwei Tabellen „always“ / „mostly“, Ausnahmen jeweils daneben.
+- **Neu:** Komposita – das letzte Wort bestimmt das Genus (*die Einkaufsliste*, *der Gemüsemarkt*) – Quelle wird in 14.3 gesucht.
+- Verweiszeile und Futur-Tipp entfallen aus dem Kurz-Kasten bzw. kommen nach „Later“.
+- „Verben als Nomen“ wird „Good to know“.
+
+**Entwurf:**
+
+> **The most important things**
+> - Every noun has a gender: **der** (masculine), **die** (feminine), **das** (neuter). Learn every noun with its article.
+> - Some endings show the gender: *-ung* is always *die*, *-chen* always *das*.
+> - **ein** = a (something new or one of many), **der/die/das** = the (something known), **kein** = no, not a.
+> - All nouns start with a capital letter.
+>
+> **1. Situation** = wie bisher · **2. Dialogue** = wie bisher · **3. Overview: the articles in the nominative** = wie bisher (ohne die Zeile „The accusative … comes in d05“)
+>
+> **4. der, ein or no article?** *(neu)*
+>
+> | Use | Article | Example |
+> |---|---|---|
+> | something new, one of many | ein / eine | *Ich brauche **ein** Sackerl.* |
+> | something known or already mentioned | der / die / das | *Das Sackerl ist voll.* |
+> | cities and most countries | no article | *Ich wohne in Wien. Ich komme aus Finnland.* – but ***die** Schweiz, **die** Türkei, **die** USA* |
+> | job after *sein* or *werden* | no article | *Ich bin Lehrerin.* (not: eine Lehrerin) |
+> | an amount you don't count | no article | *Wir brauchen Milch und Brot.* |
+>
+> **5. Endings that show the gender**
+>
+> | Always | Gender | Examples |
+> |---|---|---|
+> | -ung, -heit, -keit, -schaft, -ion, -tät | die | die Zeitung, die Möglichkeit, die Information |
+> | -chen, -erl | das | das Mädchen, das Sackerl |
+> | days, months, seasons | der | der Montag, der Jänner, der Winter |
+>
+> | Mostly | Gender | Examples | Exceptions |
+> |---|---|---|---|
+> | -e | die | die Flasche, die Tasche | der Käse, der Name, der Kunde, das Ende, das Auge |
+> | Ge- … -e | das | das Gemüse, das Gebäude | die Gemeinde, die Geschichte, der Gedanke |
+> | -nis | das | das Ergebnis | die Erlaubnis |
+> | -um, -ment | das | das Museum, das Dokument | der Moment |
+> | -er for people | der | der Verkäufer | a woman: die Verkäuferin |
+>
+> - **Compound nouns**: the **last** word decides: *die Liste → die Einkaufsliste*, *der Markt → der Gemüsemarkt*. *(Quelle vor Einbau)*
+> - No signal? Learn the noun with its article: *die Uhr, der Monat, das Brot, die Milch.*
+>
+> **6. ein and kein** = wie bisher; Zusatz: *Where nicht goes in the sentence: d02, section 8.*
+>
+> **7. Nouns with a capital letter** – erster Punkt wie bisher; „Verbs can become nouns …“ als „Good to know“ markiert.
+>
+> **⚠ Watch out** = wie bisher, plus ✗ *Ich bin eine Lehrerin.* → ✓ *Ich bin Lehrerin.*
+> **🇦🇹 Austria** = wie bisher · **Verb forms** = wie bisher · Futur-Tipp → „Later: Futur – topic d17“
+
+**Quellen:** lingolia „Artikel“ (Gebrauch bestimmt/unbestimmt, kein Artikel bei Orten, Ländern außer *die Schweiz/Türkei/USA*, *sein/werden* + Beruf, Stoffen allgemein) ✓; Genus-Endungen „immer“: lingolia „Plural“ (feminine Endungen) ✓, übrige ohne Online-Quelle (§4). Komposita-Regel: ohne Quelle (14.3).
+**Lernschritte:** 1 → §1–4 · 2 → §5 · 3 → §6 · 4 → §7, Verbformen. **Folgen für Übungen:** §4 ist neu → 4–6 Übungen anhängen (Schritt 1); Länder mit Artikel lösen auch den offenen Verweis in d09b.
+
+---
+
+## d04b der Plural
+
+**Quellenvergleich:** lingolia „Plural“ ordnet die Pluralendungen nach Genus und Wortende (wie d04b) und empfiehlt, den Plural mit jedem Nomen zu lernen (steht schon im Kurz-Kasten ✓). d04b ist klar. Unklar sind drei Stellen: das Beispiel *das Kilo → die Kilos* neben der Regel *zwei Kilo*; das Zeichen ¨ wird nie erklärt; §6 Maßwörter widerspricht sich („stay singular: … *zwei Packungen* – but Packung …“).
+
+**Was sich ändert:** -s-Beispiel *Kino*; ¨ erklärt; §6 als klare Regel mit zwei Gruppen.
+
+**Entwurf:**
+
+> **Kurz-Kasten** = wie bisher
+>
+> **Words used here:** **¨** = the vowel gets an umlaut: *a → ä, o → ö, u → ü* (*der Markt → die Märkte*).
+>
+> **1.–2.** = wie bisher · **3. Overview: five plural types** = wie bisher, aber -s-Zeile: *das Auto → die Autos, das Kino → die Kinos*
+>
+> **4.–5.** = wie bisher
+>
+> **6. Numbers and measure words**
+> - After a number, **Kilo, Gramm, Liter, Stück** stay singular: *zwei Kilo Erdäpfel, drei Stück, zwei Liter Milch*.
+> - Feminine measure words take the plural: *zwei **Flaschen** Wasser, drei **Packungen** Reis*. *(Quelle vor Einbau)*
+> - The thing you buy is plural if you can count it: *zwei Kilo Erdäpfel*, but *zwei Liter Milch*.
+>
+> **⚠ Watch out** = wie bisher
+
+**Quellen:** lingolia „Plural“ ✓ (§4). Maßwort-Regel (Maskulina/Neutra im Singular, Feminina im Plural): ohne Quelle – in 14.3 mit Duden belegen.
+**Lernschritte:** unverändert. **Folgen für Übungen:** prüfen, ob eine Übung *Kilos* verlangt (14.4).
