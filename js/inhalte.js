@@ -954,7 +954,11 @@ const GLOSS_EXTRA = {
   "internet": {de: "internet", base: "das Internet"},
   "einfach": {de: "simple, easy", base: "einfach"},
   "fest": {de: "party, celebration; firm, fixed", base: "das Fest", note: "das Fest = party; fest = firm"},
-  "freut": {de: "is glad", base: "sich freuen", note: "sie freut sich"}
+  "freut": {de: "is glad", base: "sich freuen", note: "sie freut sich"},
+  "durfte": {de: "was allowed to", base: "dürfen", note: "Präteritum: ich/er durfte"},
+  "sollte": {de: "was supposed to; should", base: "sollen", note: "Präteritum: ich/er sollte – auch Konjunktiv II (Rat)"},
+  "wollte": {de: "wanted to", base: "wollen", note: "Präteritum: ich/er wollte"},
+  "mochte": {de: "liked", base: "mögen", note: "Präteritum: ich/er mochte"},
 };
 
 /* ============================================================
