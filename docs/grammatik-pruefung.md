@@ -732,3 +732,11 @@ Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Auf
 - Präteritum *wollte, durfte, sollte, mochte* (d03): lingolia „Modalverben“, Präteritum-Tabelle ✓.
 - Zeitangaben mit *an, in, vor, zwischen* + Dativ (d11/d09b): lingolia „Temporale Präpositionen“ ✓.
 - Ohne Quelle (Standard-DaF, vor Einbau belegen): Genus von Komposita (letztes Wort), Bewegung innerhalb eines Ortes + Dativ, Maßwörter (Maskulina/Neutra Singular, Feminina Plural), Pronomen nach Präpositionen, *mögen* neben *gefallen*, Länder mit Artikel, *ob* ↔ *wenn*, n-Deklination als Muster, reflexive Verben als Liste.
+
+### 14 Offene Analyse (nur prüfen, nichts ändern – Matthias 20.10.)
+- [x] 14.1 Einfachheit und Aufbau aller Theorien lesen (§13)
+- [ ] 14.2 Je Thema: wie erklären lingolia, DW, mein-deutschbuch, Wikipedia dasselbe? Konkreter Vorschlag für eine einfachere Erklärung – vollständig, ohne Höchstgrenzen, als Vorher/Nachher-Entwurf (nicht eingebaut)
+- [ ] 14.3 Fehlende Teile (§13 Lücken) mit Quelle belegen
+- [ ] 14.4 Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
+- [ ] 14.5 Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
+- [ ] 14.6 Bericht an Matthias mit Codes
