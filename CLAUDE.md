@@ -30,7 +30,7 @@ Deutsch-Lern-App, die **Matthias** für **Aurora** baut (Finnin, lebt in Österr
 ## Abläufe (nur bei Bedarf lesen)
 - Bericht von Aurora auswerten: `docs/ablauf-bericht.md`
 - Thema bauen oder ändern, Etappen, Verbkarten, Lernschritte: `docs/ablauf-thema.md`; Regeln für `lektionen.json`: `lektionen/README.md`; Plan: `docs/lehrplan.md`
-- Grammatik-Prüfung 19./20.10. mit offenen Punkten: `docs/grammatik-pruefung.md` (Kurzfassung oben, nur den Abschnitt zum Thema lesen); Entwürfe einfacherer Theorien: `docs/theorie-entwuerfe.md`
+- Grammatik-Prüfung 19./20.10. abgeschlossen (Archiv: `docs/archiv/grammatik-pruefung-2026-10.md`, nur bei Bedarf den Abschnitt zum Thema lesen; später vielleicht: Komparation, Richtungspräfixe, Wortbildung, Übersichtsthemen Ü2/Ü3); Vorlagen einfacher Theorien: `docs/theorie-entwuerfe.md`
 - Engine-Dokumente (`docs/engine.md`, `docs/architektur.md`, `docs/uebungsformate.md`) nur lesen, wenn Formate oder Technik gebraucht werden.
 
 ## Gemeinsame Engine – ein Chat für alles (seit 19.10.2026)

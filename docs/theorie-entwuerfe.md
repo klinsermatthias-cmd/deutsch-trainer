@@ -1,6 +1,6 @@
 # Theorie-Entwürfe: einfacher, besser gegliedert, vollständig (Analyse 14.2)
 
-Stand 20.10.2026. **Nur Entwürfe – nichts davon ist eingebaut** (Matthias 20.10.: „noch nichts ändern“). Grundlage: §13 in `docs/grammatik-pruefung.md` (Muster A–I) und der Vergleich mit lingolia (deutsch.lingolia.com, Abruf 20.10.) und grammis (IDS). DW „Deutsch lernen“ lädt nur mit JavaScript (Text nicht abrufbar), mein-deutschbuch.de liefert 404.
+Stand 20.10.2026. **Nur Entwürfe – nichts davon ist eingebaut** (Matthias 20.10.: „noch nichts ändern“). Grundlage: §13 in `docs/archiv/grammatik-pruefung-2026-10.md` (Muster A–I) und der Vergleich mit lingolia (deutsch.lingolia.com, Abruf 20.10.) und grammis (IDS). DW „Deutsch lernen“ lädt nur mit JavaScript (Text nicht abrufbar), mein-deutschbuch.de liefert 404.
 
 **Leitlinien (ohne Höchstgrenzen – vollständig vor kurz):**
 1. **Kurz-Kasten** = nur die Kernregeln, jede mit Beispiel; keine Verweise auf andere Themen.

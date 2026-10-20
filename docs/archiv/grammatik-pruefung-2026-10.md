@@ -1,4 +1,4 @@
-# Grammatik-Prüfung D-1019 (Stand 20.10.2026: Analyse fertig, Umsetzung läuft)
+# Grammatik-Prüfung D-1019 (abgeschlossen 20.10.2026 – alles Empfohlene umgesetzt; offen nur die nicht empfohlenen D-1019-60/-61/-62 und Ü2/Ü3, §6)
 
 > **Kurzfassung für neue Chats – nur den Abschnitt zum jeweiligen Thema lesen, nicht die ganze Datei.**
 > - Ergebnisse je Thema: §4 (Richtigkeit, Quellen), §13 (Einfachheit und Aufbau), §15 (Übungen). Entwürfe für einfachere Theorien: `docs/theorie-entwuerfe.md` (je Thema ein Abschnitt).
@@ -686,13 +686,13 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
 ### 12 Umsetzung (OK Matthias 20.10.: „alle Vorschläge umsetzen, die du empfiehlst“)
 Nicht empfohlen und darum offen: D-1019-60/-61/-62 (Komparation, Richtungspräfixe, Wortbildung – später). D-1019-74/-75 überholt durch CLAUDE.md „ein Chat für alles“; der Antipp-Test wird direkt in opi-suomea repariert.
 - [x] D-1019-50 w03: 112 gilt auch in Österreich
-- [ ] ~~D-1020-1~~ überholt → D-1020-2/-3 (§17), **wartet auf OK von Matthias**; D-1019-51 bis -54 gehen darin auf.
+- [x] ~~D-1020-1~~ überholt → D-1020-2/-3 (§17), umgesetzt (D-1020-8); D-1019-51 bis -54 gehen darin auf.
 - [x] D-1019-55/-56 Wortpakete w01–w06, e-card, Station/Kaffee (OK D-1020-14)
 - [x] D-1019-57/-58/-59 Reihenfolge d03/d03b, `req` anhängen, `req`-Formulierung (OK D-1020-14)
 - [x] D-1019-67 bis -73 Regeln (README, ablauf-thema, Prüfliste 24–27, CLAUDE.md, ki-qualitaet) (OK D-1020-14)
 - [x] D-1019-66 zwei Lösungsvarianten; D-1019-65 GLOSS_EXTRA (105 Wörter); D-1019-64 50 Übungen (d03b, d05b, d06b, d09, d04, d08, d11, d14, w02, w05) (OK D-1020-16)
 - [x] D-1019-63 Übersichtsthema Ü1 „Wer? Wen? Wem?“ = d34, nach d11 (OK D-1020-20)
-- [ ] D-1019-10 Regeln ohne Quelle mit grammis prüfen; D-1019-74 Antipp-Test in opi-suomea
+- [x] D-1019-10 Regeln ohne Quelle geprüft (§19, kein Fehler); D-1019-74 erledigt als D-1020-7 (OK D-1020-20)
 
 ### 13 Einfachheit und Aufbau der Erklärungen (20.10., alle 22 Themen und w01–w06 vollständig gelesen)
 Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Aufbau der passenden lingolia-Kapitel verglichen (Regel → eine Tabelle → Beispiele; Abruf 19.10.). Noch nichts geändert (Matthias 20.10.: „noch nichts ändern, keine Höchstgrenzen“).
@@ -823,3 +823,23 @@ Die schon freigegebenen Punkte D-1019-55 bis -73 (Wortpakete, Reihenfolge, `req`
 - [x] D-1020-5 Übungen reparieren (§15) – d07 Nr. 17 mit der d07-Theorie ersetzt (Nr. 81); offen nur w04-Lesetext „Anmeldung kostet nichts“ (ohne Quelle, unverändert)
 - [x] D-1020-7 Engine in opi-suomea (Antipp-Test, toter Verweis) – opi-suomea 4bdb75d, übernommen 860a45a
 - [x] D-1020-3/-4 Theorien neu fassen und ergänzen – 28 Themen, 44 neue Übungen, 5 Wortkarten; Vorher/Nachher gezeigt, OK D-1020-8 (alles auf einmal)
+
+### 19 D-1019-10: Regeln und Wendungen ohne Quelle nachgeprüft (20.10., OK D-1020-20)
+Abruf 20.10. (Status 200). grammis lädt nur per JavaScript, die DWDS-Korpussuche verlangt Anmeldung (401) – darum lingolia, Duden, DWDS-Wörterbuch, de.wikipedia. **Kein Fehler gefunden; nichts geändert.**
+
+| Punkt (Thema) | Ergebnis |
+|---|---|
+| Verb an Position 2, Partizip/Infinitiv ans Ende (d02) | ✓ lingolia „Hauptsätze“ |
+| zwei Objekte: Pronomen (Akk) vor dem Dativ (d06) | ✓ lingolia „Hauptsätze“: „Wenn das direkte Objekt ein Pronomen ist, steht es vor dem indirekten Objekt“ |
+| *wenn* = jedes Mal (d03) | ✓ Duden *wenn* „jedes Mal, wenn wir kommen“; *als* = einmalig in der Vergangenheit: ohne Quelle |
+| *nachdem* + Plusquamperfekt (d03b) | ✓ de.wikipedia „Plusquamperfekt“ (Beispiel mit *nachdem … hatte*) |
+| Possessivformen (d05/d07) | ✓ lingolia „Possessivpronomen“; *meins* ✓ Duden *mein* („das dickere der Bücher ist meins“) |
+| *gehören* + Dativ (d06b) | ✓ Duden *gehören* („das Buch gehört mir“) |
+| Sie-Imperativ (d08) | ✓ lingolia „Imperativ“ |
+| *bei* + Person/Ort (d09) | ✓ Duden *bei* („bei jemandem sitzen“); *zu* + Person: ohne Quelle |
+| *hätte/wäre* statt *würde* (d16) | ✓ lingolia „Konjunktiv“ (*würde*-Form als Ersatz); „Ich habe eine Bitte“ ✓ DWDS *Bitte*; *sollte* ✓ Duden *sollen* |
+| *sich die Hände waschen* (d03b) | ✓ Duden *waschen* |
+| Präsens für Dauer bis jetzt (d05) | ✓ lingolia „Präsens“ („spielt schon seit fünf Jahren“) |
+| Wendungen ✓ | „Frau Doktor“ (DWDS), „sonst noch etwas“ (DWDS), Geschäft *offen* (Duden), „das macht … Euro“ (Duden *machen*), Geschenk *einpacken* (DWDS), „ein paar Worte“ (DWDS), *Häferl* österr. ugs. (Duden), „komm doch“ (DWDS), *Palatschinke*, *Topfen* österr. (Duden), „in der Arbeit“ (DWDS-Beleg Münchner Merkur), „grüß Gott“ (Duden *grüßen*), „um 15 Uhr passt es mir gut“ (Duden *passen*), „gut erholt“ (Duden), *zum Wandern* (Duden) |
+| Formen d01/d01b | ✓ Wiktionary: *mitgebracht, angezogen, umgezogen* (haben/sein), *eingeschlafen, aufgewacht* (sein); *putzen* schwach |
+| weiter ohne Quelle (korrektes Alltagsdeutsch, kein Handlungsbedarf) | „Hier spricht …“, „Was darf es sein?“, „Die Semmeln sind aus“, *draußen sitzen*, „bei schönem Wetter“, „geriebener Käse“, „Erst nachdem …“, „am fünften März“, *der/die/das* allein, „Jeder hat ein Häferl“, Präpositionen-Merkspruch, TeKaMoLo, Satzmelodie, w04 „Anmeldung kostet nichts“ |

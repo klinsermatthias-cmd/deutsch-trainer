@@ -171,3 +171,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Neues Thema d34 nach d11: Artikel- und Pronomentabelle in drei Fällen, Entscheidungsweg „Which case?“, ⚠ typische Verwechslungen; keine neuen Regeln/Wörter, `v` leer.
 - 45 Kontrastübungen in 3 Schritten (52 % Satzbildung, 5 `mc`); `req` d01–d11, kein `req` für spätere Themen. Quellen: lingolia (Präpositionen, Personalpronomen).
 - Matthias (D-1020-20): alles Offene, das empfohlen ist, umsetzen und pushen.
+
+## 2026-10-20 – Regeln ohne Quelle nachgeprüft, Prüfung abgeschlossen (D-1019-10, D-1020-20)
+- Wortstellung, Pronomen-Reihenfolge, wenn, nachdem + Plusquamperfekt, Possessiv, gehören, Imperativ, bei, Konjunktiv II und 15 Wendungen mit lingolia/Duden/DWDS/de.wikipedia belegt; kein Fehler, nichts geändert. Rest bleibt „ohne Quelle“ (korrektes Alltagsdeutsch).
+- Prüfdokument ins Archiv (`docs/archiv/grammatik-pruefung-2026-10.md`); offen nur nicht empfohlene Vorschläge (Komparation, Richtungspräfixe, Wortbildung, Ü2/Ü3).
