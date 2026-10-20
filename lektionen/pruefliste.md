@@ -21,7 +21,7 @@ Test: was `node tools/pruefen.mjs` erkennt; „Hand“ = nur Claude prüft (fehl
 | 13 | Gibt es neben der Duden-Schreibung eine amtliche Markenschreibung, beide in `a`/`s` | Hand |
 | 14 | Einstufungstest und Lehrplan gegen ÖIF-Matrix/Rahmencurriculum der Stufe abgleichen | Hand |
 | 15 | Genug Übungen: je Thema etwa 50, mindestens 40 (D-1019-67, wie Zeile 22), ≥ 6 Formate, Schwerpunkt auf selbst gebildeten Sätzen; je `les`/`sch`/`dlg` ≥ 3 Varianten | teilweise |
-| 16 | Verbkarten im Format S-1014-26: Englisch nur Bedeutung; `f` mit 4 Zeilen Präsens/Präteritum/Perfekt/Futur mit Pronomen; mehrere Pronomen bei Vokalwechsel, sein/haben/werden/wissen, Modalverben | Hinweis |
+| 16 | **Wortkarten im Format D-1020-29:** Verb mit k (regelmäßig/unregelmäßig …), Stammformen s, Präsens/Präteritum/Perfekt für alle sechs Personen (DWDS), Gebrauch g bei Dativ-/Akkusativverben; Nomen mit Plural oder „ohne Plural“; Adjektiv mit k und Steigerung; sonst wa | automatisch (Verben, Adjektive) |
 | 17 | Österreichisches Wort: „Germany: …“ auf der Karte und im GLOSS-Eintrag; die bundesdeutsche Form gilt in Lösungen mit, außer das Wort ist vorgegeben | teilweise |
 | 18 | Theorie nach S-1013-34 gegliedert (Wichtigstes, Situation, Dialog, Überblick, Teilregeln, ⚠ Watch out, 🇦🇹 Austria); ≥ 3 Regelfragen, 1 `zuo`, 1 `luk`; mehr als 3 Teilregeln → Teilthema `…b`; Teilregel = eigene Bildungsregel, Überblick/Vergleich/Strategie/Wortschatz zählen nicht (D-1019-70) | teilweise |
 | 19 | Jede Regel und jedes `x` gegen grammis/lingolia/DWDS prüfen, Vollständigkeit gegen das passende Kapitel; danach Prüfvermerk mit den benutzten Quellen | Hand |

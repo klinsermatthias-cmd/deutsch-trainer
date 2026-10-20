@@ -34,7 +34,7 @@ const APP = {
   ownRule:
     'Deutsch ("fi"): Nomen immer mit Artikel und Plural wie im Kurs, z. B. „der Sohn, die Söhne“ (ohne Plural nur, wenn es keinen gibt). Englisch ("de"): bei österreichischen Wörtern „(Austria; Germany: …)“ anhängen, z. B. „snack (Austria; Germany: Imbiss)“.',
   ownForms:
-    "nur bei Verben, sonst leer: vier Zeilen wie im Kurs – „Präsens: er/sie/es fährt“ (bei Vokalwechsel, sein/haben/werden/wissen, Modalverben und reflexiven Verben „Präsens: ich … · du … · er/sie/es …“), „Präteritum: er/sie/es fuhr“, „Perfekt: er/sie/es ist gefahren“, „Futur: er/sie/es wird fahren“; trennbare und reflexive Verben ganz ausschreiben; Österreich: „Perfekt: er/sie/es ist gesessen (Germany: hat gesessen)“",
+    "nur bei Verben, sonst leer: drei Zeilen wie im Kurs (D-1020-29), jede mit allen sechs Personen – „Präsens: ich fahre · du fährst · er/sie/es fährt · wir fahren · ihr fahrt · sie/Sie fahren“, „Präteritum: ich fuhr · du fuhrst · er/sie/es fuhr · wir fuhren · ihr fuhrt · sie/Sie fuhren“, „Perfekt: ich bin gefahren · du bist gefahren · er/sie/es ist gefahren · wir sind gefahren · ihr seid gefahren · sie/Sie sind gefahren“; trennbare und reflexive Verben ganz ausschreiben („ich ziehe mich um“, „ich habe mich umgezogen“); Österreich: Perfekt mit sein bei liegen/stehen/sitzen („ich bin gesessen“)",
   locale: "de-AT",
   vocabName: "Wörter", // Überschrift der Wortkarten-Seite (S-1013-22)
   pruefVarianten: 3, // Prüfskript: mindestens 3 les/sch/dlg je Thema (Prüfliste 15, S-1013-23)
