@@ -175,3 +175,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-20 – Regeln ohne Quelle nachgeprüft, Prüfung abgeschlossen (D-1019-10, D-1020-20)
 - Wortstellung, Pronomen-Reihenfolge, wenn, nachdem + Plusquamperfekt, Possessiv, gehören, Imperativ, bei, Konjunktiv II und 15 Wendungen mit lingolia/Duden/DWDS/de.wikipedia belegt; kein Fehler, nichts geändert. Rest bleibt „ohne Quelle“ (korrektes Alltagsdeutsch).
 - Prüfdokument ins Archiv (`docs/archiv/grammatik-pruefung-2026-10.md`); offen nur nicht empfohlene Vorschläge (Komparation, Richtungspräfixe, Wortbildung, Ü2/Ü3).
+
+## 2026-10-20 – Zielniveau bleibt B2 (D-1020-22)
+- Matthias: Lehrplan und Prüfungen bleiben bei A1–B2 (Ziel für Aurora); C1/C2 wird nicht geplant oder geprüft.
