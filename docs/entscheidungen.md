@@ -191,3 +191,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-20 – Antwortvarianten (D-1020-35)
 - 320 zusätzliche richtige Antworten (Synonyme, Wortstellung, österreichische Varianten) als hinten angehängte Alternativen in 29 Themen; 9 Vorschläge verworfen (zu kurze oder falsche Formen).
 - Grundlage: Leserinnen-Prüfung D-1020-23, Formen mit DWDS/Duden geprüft; Prüfvermerke erneuert.
+
+## 2026-10-20 – Wendungen, Grundverben, Theorie ohne Dialog (D-1020-38/-39/-43)
+- 13 Wendungen („einen Ausflug machen“) als „Wendung“ ohne Verbtabelle: Grundverb (regelmäßig/unregelmäßig) und Perfekt.
+- 11 Grundverben mit voller Tabelle hinten angehängt (machen, sein, haben, sagen, vereinbaren, verschieben, gehen, decken, waschen, brechen, fahren; DWDS).
+- Situation und Dialog aus den 23 Grammatik-Theorien entfernt (−20 % Text), Lernschritt-Abschnitte neu zugeordnet; Wortpakete w01–w06 unverändert.
