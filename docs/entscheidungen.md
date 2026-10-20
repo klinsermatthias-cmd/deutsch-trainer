@@ -187,3 +187,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-20 – Fehler und Vorgriffe aus der Leseprüfung (D-1020-33, -34)
 - 19 Fehler korrigiert (u. a. gehabt-Zeile d01, nicht-Stellung d02, das Frühjahr d04, Stück d04b, bis zum Karlsplatz d09, Gebühr beträgt und Finanzamt Österreich w04, Nein-Antwort w06); geänderte Übungen ausgeblendet und ersetzt.
 - 14 Vorgriffe behoben: kein … mehr (d04b), für dich (d09), kam/ging/wohnte (d03), ins Regal (d11), Perfekt-, Fall- und Wendungszeilen in w01–w05; Verbkarten-Hinweis in d01–d03 an das neue Format angepasst.
+
+## 2026-10-20 – Antwortvarianten (D-1020-35)
+- 320 zusätzliche richtige Antworten (Synonyme, Wortstellung, österreichische Varianten) als hinten angehängte Alternativen in 29 Themen; 9 Vorschläge verworfen (zu kurze oder falsche Formen).
+- Grundlage: Leserinnen-Prüfung D-1020-23, Formen mit DWDS/Duden geprüft; Prüfvermerke erneuert.

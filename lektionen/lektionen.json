@@ -966,7 +966,12 @@
     "a": [
      "In the evening we went to a wine tavern.",
      "In the evening we also went to a wine tavern.",
-     "In the evening we went to the wine tavern."
+     "In the evening we went to the wine tavern.",
+     "In the evening we drove to a wine tavern.",
+     "In the evening we also drove to a wine tavern.",
+     "In the evening we went to the Heuriger.",
+     "In the evening we also went to the Heuriger.",
+     "In the evening we went to a Heuriger."
     ]
    },
    {
@@ -1829,7 +1834,7 @@
      ],
      [
       "Du",
-      "[Wir sind nach Kroatien gefahren.|Wir sind nach Kroatien ans Meer gefahren.|Wir waren in Kroatien.]",
+      "[Wir sind nach Kroatien gefahren.|Wir sind nach Kroatien ans Meer gefahren.|Wir waren in Kroatien.|Wir sind nach Kroatien geflogen.]",
       "Say you went to Croatia."
      ],
      [
@@ -2556,7 +2561,12 @@
      "Wir sind um sieben Uhr aufgestanden und wandern gegangen.",
      "Um sieben Uhr sind wir aufgestanden und wandern gegangen.",
      "Um sieben sind wir aufgestanden und wandern gegangen.",
-     "Wir sind um sieben Uhr aufgestanden und gewandert."
+     "Wir sind um sieben Uhr aufgestanden und gewandert.",
+     "Wir sind um sieben aufgestanden und sind wandern gegangen.",
+     "Wir sind um sieben Uhr aufgestanden und sind wandern gegangen.",
+     "Wir sind um sieben aufgestanden und gewandert.",
+     "Um sieben sind wir aufgestanden und gewandert.",
+     "Um sieben Uhr sind wir aufgestanden und gewandert."
     ]
    },
    {
@@ -2566,7 +2576,11 @@
     "a": [
      "Ich bin zu Hause geblieben und habe eingekauft.",
      "Ich bin zuhause geblieben und habe eingekauft.",
-     "Ich bin daheimgeblieben und habe eingekauft."
+     "Ich bin daheimgeblieben und habe eingekauft.",
+     "Ich bin zu Hause geblieben und bin einkaufen gegangen.",
+     "Ich bin zu Hause geblieben und einkaufen gegangen.",
+     "Ich bin zuhause geblieben und bin einkaufen gegangen.",
+     "Ich bin daheimgeblieben und bin einkaufen gegangen."
     ]
    },
    {
@@ -2952,7 +2966,7 @@
      ],
      [
       "Du",
-      "[Ich war krank.|Ich war gestern krank.]",
+      "[Ich war krank.|Ich war gestern krank.|Ich bin krank gewesen.|Ich bin gestern krank gewesen.]",
       "Say you were ill."
      ],
      [
@@ -2961,7 +2975,7 @@
      ],
      [
       "Du",
-      "[Ja, ich bin zu Hause geblieben.|Ja, ich bin den ganzen Tag zu Hause geblieben.|Ja, ich bin zuhause geblieben.]",
+      "[Ja, ich bin zu Hause geblieben.|Ja, ich bin den ganzen Tag zu Hause geblieben.|Ja, ich bin zuhause geblieben.|Ja, ich bin daheimgeblieben.|Ja, ich bin den ganzen Tag daheimgeblieben.]",
       "Say yes, you stayed at home."
      ],
      [
@@ -2970,7 +2984,7 @@
      ],
      [
       "Du",
-      "[Nein, ich musste nicht zum Arzt gehen.|Nein, ich musste nicht zum Arzt.]",
+      "[Nein, ich musste nicht zum Arzt gehen.|Nein, ich musste nicht zum Arzt.|Nein, ich musste nicht.|Nein, das musste ich nicht.|Nein, musste ich nicht.]",
       "Say no, you didn't have to go to the doctor."
      ]
     ]
@@ -3028,7 +3042,7 @@
      ],
      [
       "Du",
-      "[Ich bin mit dem Bus gekommen.|Ich bin mit dem Bus gefahren.|Mit dem Bus.]",
+      "[Ich bin mit dem Bus gekommen.|Ich bin mit dem Bus gefahren.|Mit dem Bus.|Ich bin mit dem Bus ins Büro gekommen.|Ich bin heute mit dem Bus gekommen.|Ich bin heute mit dem Bus ins Büro gekommen.]",
       "Say you came by bus."
      ],
      [
@@ -3037,7 +3051,7 @@
      ],
      [
       "Du",
-      "[Gestern bin ich zu Fuß gegangen.|Gestern bin ich zu Fuß gekommen.]",
+      "[Gestern bin ich zu Fuß gegangen.|Gestern bin ich zu Fuß gekommen.|Ich bin gestern zu Fuß gegangen.|Ich bin gestern zu Fuß gekommen.|Gestern bin ich zu Fuß ins Büro gegangen.|Ich bin gestern zu Fuß ins Büro gegangen.]",
       "Say you walked yesterday."
      ]
     ]
@@ -4643,7 +4657,11 @@
     ],
     "a": [
      "Ich bin krank, trotzdem gehe ich zur Besprechung.",
-     "Ich bin krank, aber ich gehe trotzdem zur Besprechung."
+     "Ich bin krank, aber ich gehe trotzdem zur Besprechung.",
+     "Ich bin krank, trotzdem komme ich zur Besprechung.",
+     "Ich bin krank, aber ich komme trotzdem zur Besprechung.",
+     "Ich bin krank, aber trotzdem gehe ich zur Besprechung.",
+     "Ich bin krank, aber trotzdem komme ich zur Besprechung."
     ],
     "h": "ein ganzer Satz – nach „trotzdem“ kommt gleich das Verb"
    },
@@ -5246,7 +5264,7 @@
      ],
      [
       "Du",
-      "[Grüß Gott, ich möchte einen Termin vereinbaren.|Guten Tag, ich möchte einen Termin vereinbaren.]",
+      "[Grüß Gott, ich möchte einen Termin vereinbaren.|Guten Tag, ich möchte einen Termin vereinbaren.|Ich möchte einen Termin vereinbaren.]",
       "Say you'd like to make an appointment."
      ],
      [
@@ -5264,7 +5282,7 @@
      ],
      [
       "Du",
-      "[Ja, vier Uhr passt gut.|Ja, um vier Uhr passt es mir gut.|Ja, das passt gut.|Ja, um vier Uhr passt gut.]",
+      "[Ja, vier Uhr passt gut.|Ja, um vier Uhr passt es mir gut.|Ja, das passt gut.|Ja, um vier Uhr passt gut.|Ja, vier Uhr passt mir.|Ja, um vier Uhr passt es mir.|Ja, um vier Uhr passt es gut.|Ja, das passt mir.|Ja, das passt mir gut.]",
       "Say: yes, four o'clock suits you."
      ]
     ]
@@ -5649,7 +5667,8 @@
     "q": "I don't know whether the doctor is there today.",
     "a": [
      "Ich weiß nicht, ob die Ärztin heute da ist.",
-     "Ich weiß nicht, ob der Arzt heute da ist."
+     "Ich weiß nicht, ob der Arzt heute da ist.",
+     "Ich weiß nicht, ob der Doktor heute da ist."
     ]
    },
    {
@@ -5700,7 +5719,13 @@
      "weil"
     ],
     "a": [
-     "Ich kann heute leider nicht kommen, weil ich krank bin."
+     "Ich kann heute leider nicht kommen, weil ich krank bin.",
+     "Ich kann heute nicht kommen, weil ich krank bin.",
+     "Weil ich krank bin, kann ich heute nicht kommen.",
+     "Weil ich krank bin, kann ich heute leider nicht kommen.",
+     "Leider kann ich heute nicht kommen, weil ich krank bin.",
+     "Ich kann heute leider nicht ins Büro kommen, weil ich krank bin.",
+     "Ich kann heute nicht ins Büro kommen, weil ich krank bin."
     ],
     "h": "ein ganzer Satz mit „weil“ – Verb am Ende"
    },
@@ -5747,7 +5772,7 @@
      ],
      [
       "Du",
-      "[Grüß Gott, ich muss leider meinen Termin absagen.|Guten Tag, ich muss leider meinen Termin absagen.|Grüß Gott, leider muss ich meinen Termin absagen.|Ich muss leider meinen Termin absagen.|Leider muss ich meinen Termin absagen.]",
+      "[Grüß Gott, ich muss leider meinen Termin absagen.|Guten Tag, ich muss leider meinen Termin absagen.|Grüß Gott, leider muss ich meinen Termin absagen.|Ich muss leider meinen Termin absagen.|Leider muss ich meinen Termin absagen.|Ich muss leider den Termin absagen.|Grüß Gott, ich muss leider den Termin absagen.|Leider muss ich den Termin absagen.]",
       "Say you unfortunately have to cancel your appointment."
      ],
      [
@@ -5901,7 +5926,8 @@
     "dir": "de",
     "q": "I don't know whether I can come tomorrow.",
     "a": [
-     "Ich weiß nicht, ob ich morgen kommen kann."
+     "Ich weiß nicht, ob ich morgen kommen kann.",
+     "Ob ich morgen kommen kann, weiß ich nicht."
     ]
    },
    {
@@ -6001,7 +6027,11 @@
      "weil"
     ],
     "a": [
-     "Ich kann leider nicht zur Besprechung kommen, weil ich einen Arzttermin habe."
+     "Ich kann leider nicht zur Besprechung kommen, weil ich einen Arzttermin habe.",
+     "Ich kann nicht zur Besprechung kommen, weil ich einen Arzttermin habe.",
+     "Leider kann ich nicht zur Besprechung kommen, weil ich einen Arzttermin habe.",
+     "Weil ich einen Arzttermin habe, kann ich nicht zur Besprechung kommen.",
+     "Weil ich einen Arzttermin habe, kann ich leider nicht zur Besprechung kommen."
     ],
     "h": "weil + Verb am Ende"
    },
@@ -6066,7 +6096,11 @@
     "a": [
      "Können Sie mir sagen, ob Frau Doktor Huber morgen Zeit hat?",
      "Können Sie mir bitte sagen, ob Frau Doktor Huber morgen Zeit hat?",
-     "Ich möchte wissen, ob Frau Doktor Huber morgen Zeit hat."
+     "Ich möchte wissen, ob Frau Doktor Huber morgen Zeit hat.",
+     "Ich wollte fragen, ob Frau Doktor Huber morgen Zeit hat.",
+     "Ich möchte fragen, ob Frau Doktor Huber morgen Zeit hat.",
+     "Können Sie mir sagen, ob Frau Dr. Huber morgen Zeit hat?",
+     "Ich möchte wissen, ob Frau Dr. Huber morgen Zeit hat."
     ],
     "h": "ein ganzer Satz – nach „ob“ steht das Verb am Ende"
    },
@@ -6080,7 +6114,7 @@
      ],
      [
       "Du",
-      "[Grüß Gott, ich muss meinen Termin absagen, weil ich arbeiten muss.|Grüß Gott, ich muss leider meinen Termin absagen, weil ich arbeiten muss.|Guten Tag, ich muss meinen Termin absagen, weil ich arbeiten muss.]",
+      "[Grüß Gott, ich muss meinen Termin absagen, weil ich arbeiten muss.|Grüß Gott, ich muss leider meinen Termin absagen, weil ich arbeiten muss.|Guten Tag, ich muss meinen Termin absagen, weil ich arbeiten muss.|Ich muss meinen Termin absagen, weil ich arbeiten muss.|Ich muss leider meinen Termin absagen, weil ich arbeiten muss.|Leider muss ich meinen Termin absagen, weil ich arbeiten muss.|Grüß Gott, leider muss ich meinen Termin absagen, weil ich arbeiten muss.]",
       "Say you have to cancel your appointment because you have to work."
      ],
      [
@@ -7313,7 +7347,7 @@
      ],
      [
       "Du",
-      "[Was kosten die Paradeiser?|Wie viel kosten die Paradeiser?|Was kosten die Tomaten?|Wie viel kosten die Tomaten?]",
+      "[Was kosten die Paradeiser?|Wie viel kosten die Paradeiser?|Was kosten die Tomaten?|Wie viel kosten die Tomaten?|Was kostet ein Kilo Paradeiser?|Wie viel kostet ein Kilo Paradeiser?|Was kostet ein Kilo Tomaten?|Wie viel kostet ein Kilo Tomaten?]",
       "Ask what the tomatoes cost."
      ],
      [
@@ -7322,7 +7356,7 @@
      ],
      [
       "Du",
-      "[Danke, das ist alles.|Nein danke, das ist alles.|Danke, das war alles.]",
+      "[Danke, das ist alles.|Nein danke, das ist alles.|Danke, das war alles.|Das ist alles, danke.|Nein danke, das war alles.]",
       "Say thank you, that's all."
      ]
     ]
@@ -7333,7 +7367,7 @@
     "r": [
      [
       "Du",
-      "[Entschuldigung, wo sind die Eier?|Entschuldigen Sie, wo sind die Eier?]",
+      "[Entschuldigung, wo sind die Eier?|Entschuldigen Sie, wo sind die Eier?|Entschuldigung, wo finde ich die Eier?|Entschuldigen Sie, wo finde ich die Eier?|Entschuldigung, wo sind bitte die Eier?]",
       "Ask politely where the eggs are."
      ],
      [
@@ -7351,7 +7385,7 @@
      ],
      [
       "Du",
-      "[Schade. Danke!|Schade, danke.|Okay, danke.]",
+      "[Schade. Danke!|Schade, danke.|Okay, danke.|Wie schade, danke.|Schade, vielen Dank.|Schade, danke schön.]",
       "Say: what a pity, thanks."
      ]
     ]
@@ -7384,7 +7418,7 @@
      ],
      [
       "Du",
-      "[Nein, ich habe keine Einkaufsliste.|Nein, ich habe keine.|Nein, leider nicht.]",
+      "[Nein, ich habe keine Einkaufsliste.|Nein, ich habe keine.|Nein, leider nicht.|Nein, die habe ich nicht.|Nein, ich habe sie nicht.]",
       "Say: no, you don't have a shopping list."
      ]
     ]
@@ -8275,7 +8309,8 @@
     "a": [
      "Wir brauchen drei Sackerl.",
      "Wir brauchen drei Sackerln.",
-     "Wir brauchen drei Tüten."
+     "Wir brauchen drei Tüten.",
+     "Wir brauchen drei Taschen."
     ]
    },
    {
@@ -8417,7 +8452,7 @@
      ],
      [
       "Du",
-      "[Ja, wir brauchen auch Semmeln.|Ja, bitte auch Semmeln.|Ja, Semmeln auch.]",
+      "[Ja, wir brauchen auch Semmeln.|Ja, bitte auch Semmeln.|Ja, Semmeln auch.|Ja, auch Semmeln.|Ja, Semmeln brauchen wir auch.]",
       "Say yes, you need bread rolls too."
      ]
     ]
@@ -8536,7 +8571,7 @@
      ],
      [
       "Du",
-      "[Nein, danke.|Nein danke, das ist alles.|Nein, das ist alles.]",
+      "[Nein, danke.|Nein danke, das ist alles.|Nein, das ist alles.|Nein, danke schön.|Nein danke, das war's.|Danke, das ist alles.]",
       "Say no thank you."
      ]
     ]
@@ -8553,7 +8588,8 @@
     "t": "gap",
     "q": "Ich nehme drei ___ Käse. (das Stück)",
     "a": [
-     "Stück"
+     "Stück",
+     "Stücke"
     ],
     "h": "Maßwort nach der Zahl"
    },
@@ -10155,7 +10191,7 @@
      ],
      [
       "Du",
-      "[Wir kaufen einen Gutschein.|Kaufen wir einen Gutschein.|Einen Gutschein.]",
+      "[Wir kaufen einen Gutschein.|Kaufen wir einen Gutschein.|Einen Gutschein.|Vielleicht einen Gutschein?|Kaufen wir doch einen Gutschein!]",
       "Suggest a voucher."
      ],
      [
@@ -10251,7 +10287,8 @@
      "was"
     ],
     "a": [
-     "Wer hat Geburtstag? Was kaufen wir?"
+     "Wer hat Geburtstag? Was kaufen wir?",
+     "Wer hat Geburtstag, und was kaufen wir?"
     ],
     "h": "wer = subject, was = thing"
    },
@@ -10332,7 +10369,7 @@
      ],
      [
       "Du",
-      "[Ja, das ist für meine Kollegin.|Ja, für meine Kollegin.]",
+      "[Ja, das ist für meine Kollegin.|Ja, für meine Kollegin.|Ja, er ist für meine Kollegin.|Ja, der ist für meine Kollegin.]",
       "Say yes, it's for your colleague."
      ]
     ]
@@ -10479,7 +10516,8 @@
     "q": "___ ich Zeit habe, kaufe ich einen Kuchen für das Büro.",
     "a": [
      "Wenn",
-     "wenn"
+     "wenn",
+     "falls"
     ],
     "h": "Bindewort: if"
    },
@@ -11099,7 +11137,10 @@
      "Wir schenken unserer Kollegin einen Gutschein.",
      "Unserer Kollegin schenken wir einen Gutschein.",
      "Einen Gutschein schenken wir unserer Kollegin.",
-     "Wir geben unserer Kollegin einen Gutschein."
+     "Wir geben unserer Kollegin einen Gutschein.",
+     "Wir schenken der Kollegin einen Gutschein.",
+     "Der Kollegin schenken wir einen Gutschein.",
+     "Wir geben der Kollegin einen Gutschein."
     ]
    },
    {
@@ -11163,7 +11204,7 @@
      ],
      [
       "Du",
-      "[Ich brauche auch eine Glückwunschkarte.|Haben Sie auch eine Glückwunschkarte?|Ich nehme auch eine Glückwunschkarte.|Ich hätte gern auch eine Glückwunschkarte.|Ich hätte gerne auch eine Glückwunschkarte.]",
+      "[Ich brauche auch eine Glückwunschkarte.|Haben Sie auch eine Glückwunschkarte?|Ich nehme auch eine Glückwunschkarte.|Ich hätte gern auch eine Glückwunschkarte.|Ich hätte gerne auch eine Glückwunschkarte.|Ich nehme auch eine Karte.|Haben Sie auch eine Karte?|Haben Sie auch eine Grußkarte?]",
       "Ask for a greeting card too."
      ]
     ]
@@ -11300,7 +11341,9 @@
      "Wir kaufen unserem Kollegen ein Geschenk.",
      "Unserem Kollegen kaufen wir ein Geschenk.",
      "Wir kaufen ein Geschenk für unseren Kollegen.",
-     "Wir kaufen für unseren Kollegen ein Geschenk."
+     "Wir kaufen für unseren Kollegen ein Geschenk.",
+     "Wir kaufen dem Kollegen ein Geschenk.",
+     "Dem Kollegen kaufen wir ein Geschenk."
     ]
    },
    {
@@ -11338,9 +11381,9 @@
     "t": "luk",
     "q": "Ergänze das Artikelwort im Dativ.",
     "txt": [
-     "Wir schenken [der] Kollegin einen Gutschein.",
-     "Ich gebe [dem] Kind eine Semmel.",
-     "Wir schreiben [unserem] Kollegen eine Karte."
+     "Wir schenken [der|unserer] Kollegin einen Gutschein.",
+     "Ich gebe [dem|unserem] Kind eine Semmel.",
+     "Wir schreiben [unserem|unseren] Kollegen eine Karte."
     ],
     "h": "Jedes Kästchen ein Artikelwort im Dativ – unser- mit Endung"
    },
@@ -12430,7 +12473,7 @@
      ],
      [
       "Du",
-      "[Wo ist die Haltestelle?|Und wo ist die Haltestelle?|Entschuldigung, wo ist die Haltestelle?]",
+      "[Wo ist die Haltestelle?|Und wo ist die Haltestelle?|Entschuldigung, wo ist die Haltestelle?|Wo ist hier die Haltestelle?|Wo ist die nächste Haltestelle?]",
       "Ask where the stop is."
      ],
      [
@@ -12491,7 +12534,7 @@
      ],
      [
       "Du",
-      "[Nein, da müssen Sie mit der U-Bahn fahren.|Nein, Sie müssen mit der U-Bahn fahren.|Nein, nehmen Sie die U-Bahn.|Nein, fahren Sie mit der U-Bahn.]",
+      "[Nein, da müssen Sie mit der U-Bahn fahren.|Nein, Sie müssen mit der U-Bahn fahren.|Nein, nehmen Sie die U-Bahn.|Nein, fahren Sie mit der U-Bahn.|Nein, Sie müssen die U-Bahn nehmen.|Nein, da müssen Sie die U-Bahn nehmen.]",
       "Say no, she has to take the underground."
      ],
      [
@@ -12518,7 +12561,9 @@
     "t": "sch",
     "q": "A friend wants to visit you. Describe the way from the station to your flat (3 sentences).",
     "a": [
-     "Du fährst mit der U-Bahn bis zum Karlsplatz. Dort steigst du in die Straßenbahn um. Meine Wohnung ist gegenüber dem Supermarkt."
+     "Du fährst mit der U-Bahn bis zum Karlsplatz. Dort steigst du in die Straßenbahn um. Meine Wohnung ist gegenüber dem Supermarkt.",
+     "Du fährst mit der U-Bahn bis zum Karlsplatz. Dort steigst du um. Meine Wohnung ist gegenüber dem Supermarkt.",
+     "Du fährst mit der U-Bahn bis zum Karlsplatz. Dort nimmst du die Straßenbahn. Meine Wohnung ist gegenüber dem Supermarkt."
     ],
     "h": "3 Sätze"
    },
@@ -12534,7 +12579,9 @@
     "t": "sch",
     "q": "Write how you get to work every day: transport, where you change, the last part on foot.",
     "a": [
-     "Ich fahre mit dem Bus bis zum Bahnhof. Dort steige ich in die U-Bahn um. Dann gehe ich zu Fuß zur Arbeit."
+     "Ich fahre mit dem Bus bis zum Bahnhof. Dort steige ich in die U-Bahn um. Dann gehe ich zu Fuß zur Arbeit.",
+     "Ich fahre mit dem Bus bis zum Bahnhof. Dort steige ich um. Dann gehe ich zu Fuß zur Arbeit.",
+     "Ich fahre mit dem Bus bis zum Bahnhof. Dort nehme ich die U-Bahn. Dann gehe ich zu Fuß zur Arbeit."
     ],
     "h": "2–3 Sätze"
    },
@@ -12650,8 +12697,8 @@
     "q": "Ergänze das Artikelwort im Dativ.",
     "txt": [
      "Wir wohnen seit [einem] Jahr hier.",
-     "Ich spreche mit [der] Nachbarin.",
-     "Die Haltestelle ist gegenüber [dem] Supermarkt."
+     "Ich spreche mit [der|einer|meiner] Nachbarin.",
+     "Die Haltestelle ist gegenüber [dem|einem] Supermarkt."
     ],
     "h": "je Kästchen das Artikelwort im Dativ"
    },
@@ -12767,7 +12814,8 @@
     "dir": "de",
     "q": "Lena works at a bank.",
     "a": [
-     "Lena arbeitet bei einer Bank."
+     "Lena arbeitet bei einer Bank.",
+     "Lena arbeitet in einer Bank."
     ]
    },
    {
@@ -12810,7 +12858,8 @@
     "a": [
      "Ich fahre mit der U-Bahn zur Arbeit.",
      "Mit der U-Bahn fahre ich zur Arbeit.",
-     "Zur Arbeit fahre ich mit der U-Bahn."
+     "Zur Arbeit fahre ich mit der U-Bahn.",
+     "Ich fahre zur Arbeit mit der U-Bahn."
     ],
     "de": "I go to work by underground."
    },
@@ -13530,7 +13579,7 @@
      ],
      [
       "Du",
-      "[Ich komme gerade von der Bank.|Von der Bank.|Ich komme von der Bank.]",
+      "[Ich komme gerade von der Bank.|Von der Bank.|Ich komme von der Bank.|Ich komme gerade aus der Bank.|Ich komme aus der Bank.|Aus der Bank.]",
       "Say that you are coming from the bank."
      ],
      [
@@ -15184,7 +15233,10 @@
      "Wenn ich Zeit habe, besuche ich dich.",
      "Ich besuche dich, wenn ich Zeit habe.",
      "Wenn ich Zeit habe, besuche ich Sie.",
-     "Wenn ich Zeit habe, besuche ich euch."
+     "Wenn ich Zeit habe, besuche ich euch.",
+     "Wenn ich Zeit habe, werde ich dich besuchen.",
+     "Ich werde dich besuchen, wenn ich Zeit habe.",
+     "Falls ich Zeit habe, besuche ich dich."
     ]
    },
    {
@@ -16150,7 +16202,7 @@
      [
       "wir",
       "nach Linz fahren",
-      "[waren gefahren]"
+      "[waren gefahren|waren nach Linz gefahren]"
      ]
     ]
    },
@@ -16168,7 +16220,11 @@
     "q": "Before I go to sleep, I read a book.",
     "a": [
      "Bevor ich schlafen gehe, lese ich ein Buch.",
-     "Ich lese ein Buch, bevor ich schlafen gehe."
+     "Ich lese ein Buch, bevor ich schlafen gehe.",
+     "Bevor ich ins Bett gehe, lese ich ein Buch.",
+     "Ich lese ein Buch, bevor ich ins Bett gehe.",
+     "Bevor ich einschlafe, lese ich ein Buch.",
+     "Ich lese ein Buch, bevor ich einschlafe."
     ]
    },
    {
@@ -16429,7 +16485,7 @@
      ],
      [
       "Du",
-      "[Bevor ich zur Arbeit gehe.|Ich dusche, bevor ich zur Arbeit gehe.|Bevor ich zur Arbeit fahre.|Ich dusche, bevor ich zur Arbeit fahre.]",
+      "[Bevor ich zur Arbeit gehe.|Ich dusche, bevor ich zur Arbeit gehe.|Bevor ich zur Arbeit fahre.|Ich dusche, bevor ich zur Arbeit fahre.|Bevor ich in die Arbeit gehe.|Ich dusche, bevor ich in die Arbeit gehe.]",
       "Say: before you go to work."
      ]
     ]
@@ -17340,7 +17396,10 @@
      "Können Sie mein Paket annehmen?",
      "Könnten Sie bitte mein Paket übernehmen?",
      "Könnten Sie mein Paket bitte übernehmen?",
-     "Könnten Sie mein Paket übernehmen?"
+     "Könnten Sie mein Paket übernehmen?",
+     "Würden Sie bitte mein Paket annehmen?",
+     "Würden Sie mein Paket bitte annehmen?",
+     "Würden Sie mein Paket annehmen?"
     ]
    },
    {
@@ -17751,7 +17810,8 @@
      "Danke für deine Hilfe!",
      "Vielen Dank für deine Hilfe!",
      "Ich danke dir für deine Hilfe!",
-     "Danke für deine Hilfe."
+     "Danke für deine Hilfe.",
+     "Danke dir für deine Hilfe!"
     ]
    },
    {
@@ -17854,7 +17914,7 @@
      ],
      [
       "Du",
-      "[Ja, ich gebe sie dir morgen.|Ja, morgen gebe ich sie dir.]",
+      "[Ja, ich gebe sie dir morgen.|Ja, morgen gebe ich sie dir.|Ja, ich gebe sie dir morgen zurück.|Ja, morgen gebe ich sie dir zurück.]",
       "Say yes, you'll give it back to her tomorrow."
      ],
      [
@@ -17863,7 +17923,7 @@
      ],
      [
       "Du",
-      "[Den gebe ich dir auch morgen.|Ich gebe ihn dir auch morgen.]",
+      "[Den gebe ich dir auch morgen.|Ich gebe ihn dir auch morgen.|Den gebe ich dir auch morgen zurück.|Ich gebe ihn dir auch morgen zurück.]",
       "Say you'll give it to her tomorrow too."
      ]
     ]
@@ -17990,7 +18050,8 @@
     "q": "Can you call me tomorrow? (du)",
     "a": [
      "Kannst du mich morgen anrufen?",
-     "Kannst du mich morgen bitte anrufen?"
+     "Kannst du mich morgen bitte anrufen?",
+     "Kannst du mich bitte morgen anrufen?"
     ]
    },
    {
@@ -18027,7 +18088,8 @@
     "q": "The ladder? I need it tomorrow.",
     "a": [
      "Die Leiter? Ich brauche sie morgen.",
-     "Die Leiter? Morgen brauche ich sie."
+     "Die Leiter? Morgen brauche ich sie.",
+     "Die Leiter? Die brauche ich morgen."
     ]
    },
    {
@@ -18108,7 +18170,7 @@
      ],
      [
       "Du",
-      "[Ja, das ist mein Schlüssel.|Ja, das ist mein Schlüssel. Danke!|Ja, danke!]",
+      "[Ja, das ist mein Schlüssel.|Ja, das ist mein Schlüssel. Danke!|Ja, danke!|Ja, er gehört mir.|Ja, der gehört mir.]",
       "Say yes, it's your key."
      ],
      [
@@ -18117,7 +18179,7 @@
      ],
      [
       "Du",
-      "[Danke! Morgen bringe ich Ihnen einen Kuchen.|Danke! Ich bringe Ihnen morgen einen Kuchen.|Vielen Dank! Morgen bringe ich Ihnen einen Kuchen.]",
+      "[Danke! Morgen bringe ich Ihnen einen Kuchen.|Danke! Ich bringe Ihnen morgen einen Kuchen.|Vielen Dank! Morgen bringe ich Ihnen einen Kuchen.|Vielen Dank! Ich bringe Ihnen morgen einen Kuchen.]",
       "Thank him and say you'll bring him a cake tomorrow."
      ]
     ]
@@ -18220,7 +18282,10 @@
     "a": [
      "Kannst du mit mir kommen?",
      "Kannst du mitkommen?",
-     "Kommst du mit mir?"
+     "Kommst du mit mir?",
+     "Kommst du mit mir mit?",
+     "Kannst du mit mir mitkommen?",
+     "Kommst du mit?"
     ]
    }
   ],
@@ -18679,7 +18744,11 @@
      "The parcel belongs to the neighbour.",
      "The parcel belongs to the neighbor.",
      "The package belongs to the neighbour.",
-     "The package belongs to the neighbor."
+     "The package belongs to the neighbor.",
+     "The parcel is the neighbour's.",
+     "The parcel is the neighbor's.",
+     "It's the neighbour's parcel.",
+     "It's the neighbor's parcel."
     ]
    },
    {
@@ -18784,7 +18853,7 @@
      ],
      [
       "Du",
-      "[Ja, ich leihe sie dir.|Ja, ich kann sie dir leihen.|Ja, ich leihe dir meine Leiter.|Ja, ich borge sie dir.|Ja, ich kann sie dir borgen.]",
+      "[Ja, ich leihe sie dir.|Ja, ich kann sie dir leihen.|Ja, ich leihe dir meine Leiter.|Ja, ich borge sie dir.|Ja, ich kann sie dir borgen.|Ja, ich leihe dir die Leiter.|Ja, ich borge dir die Leiter.]",
       "Say yes, and that you'll lend it to her."
      ],
      [
@@ -18849,7 +18918,7 @@
      ],
      [
       "Du",
-      "[Ja, gerne. Kannst du es mir per E-Mail schicken?|Kannst du es mir per E-Mail schicken?|Ja, kannst du es mir per E-Mail schicken?|Ja, gerne. Kannst du mir das Rezept per E-Mail schicken?|Kannst du mir das Rezept per E-Mail schicken?]",
+      "[Ja, gerne. Kannst du es mir per E-Mail schicken?|Kannst du es mir per E-Mail schicken?|Ja, kannst du es mir per E-Mail schicken?|Ja, gerne. Kannst du mir das Rezept per E-Mail schicken?|Kannst du mir das Rezept per E-Mail schicken?|Ja, gern. Kannst du es mir per E-Mail schicken?|Ja, gern. Kannst du mir das Rezept per E-Mail schicken?|Ja, bitte schick es mir per E-Mail.|Ja, gerne. Schick es mir bitte per E-Mail.]",
       "Say yes and ask her to send it to you by email."
      ],
      [
@@ -18914,7 +18983,7 @@
      ],
      [
       "Du",
-      "[Nein, der gehört mir nicht.|Nein, er gehört mir nicht.]",
+      "[Nein, der gehört mir nicht.|Nein, er gehört mir nicht.|Nein, der gehört nicht mir.|Nein, er gehört nicht mir.]",
       "Say no, it doesn't belong to you."
      ],
      [
@@ -18923,7 +18992,7 @@
      ],
      [
       "Du",
-      "[Die gehört der Nachbarin.|Sie gehört der Nachbarin.]",
+      "[Die gehört der Nachbarin.|Sie gehört der Nachbarin.|Die Leiter gehört der Nachbarin.]",
       "Say it belongs to the neighbour – a woman."
      ]
     ]
@@ -19173,7 +19242,8 @@
     "a": [
      "Hilfst du mir?",
      "Kannst du mir helfen?",
-     "Hilfst du mir bitte?"
+     "Hilfst du mir bitte?",
+     "Wirst du mir helfen?"
     ]
    },
    {
@@ -20045,7 +20115,9 @@
      "Ist das dein Mantel? – Ja, das ist meiner.",
      "Ist das dein Mantel? Ja, das ist meiner.",
      "Ist das dein Mantel? – Ja, der ist meiner.",
-     "Ist das dein Mantel? Ja, der ist meiner."
+     "Ist das dein Mantel? Ja, der ist meiner.",
+     "Ist der Mantel deiner? – Ja, das ist meiner.",
+     "Ist der Mantel deiner? – Ja, der ist meiner."
     ]
    },
    {
@@ -20262,7 +20334,7 @@
      ],
      [
       "Du",
-      "[Nein, meiner ist grau.|Nein, der ist nicht meiner. Meiner ist grau.|Nein, mein Mantel ist grau.]",
+      "[Nein, meiner ist grau.|Nein, der ist nicht meiner. Meiner ist grau.|Nein, mein Mantel ist grau.|Nein, das ist nicht meiner. Meiner ist grau.]",
       "Say no – yours is grey."
      ],
      [
@@ -20271,7 +20343,7 @@
      ],
      [
       "Du",
-      "[Ja, der ist meiner.|Ja, das ist meiner.|Ja, der gehört mir.|Ja, das ist mein Schal.]",
+      "[Ja, der ist meiner.|Ja, das ist meiner.|Ja, der gehört mir.|Ja, das ist mein Schal.|Ja, der Schal ist meiner.]",
       "Say yes, that one is yours."
      ],
      [
@@ -20295,7 +20367,7 @@
      ],
      [
       "Du",
-      "[Nein, meins ist im Kasten.|Nein, meines ist im Kasten.|Nein, das ist nicht meins. Meins ist im Kasten.|Nein, das ist nicht meines. Meines ist im Kasten.|Nein, meins ist im Schrank.|Nein, meines ist im Schrank.|Nein, das ist nicht meins. Meins ist im Schrank.|Nein, das ist nicht meines. Meines ist im Schrank.]",
+      "[Nein, meins ist im Kasten.|Nein, meines ist im Kasten.|Nein, das ist nicht meins. Meins ist im Kasten.|Nein, das ist nicht meines. Meines ist im Kasten.|Nein, meins ist im Schrank.|Nein, meines ist im Schrank.|Nein, das ist nicht meins. Meins ist im Schrank.|Nein, das ist nicht meines. Meines ist im Schrank.|Nein, meins steht im Kasten.|Nein, meines steht im Kasten.|Nein, meins steht im Schrank.|Nein, meines steht im Schrank.]",
       "Say no – yours is in the cupboard (Austria: Kasten)."
      ],
      [
@@ -20313,7 +20385,7 @@
      ],
      [
       "Du",
-      "[Nein, wir haben keine mehr. Ich kaufe welche.|Nein, leider keine mehr. Ich kaufe welche.|Nein, es gibt keine mehr, aber ich kaufe welche.|Nein, wir haben keine mehr, aber ich kaufe welche.]",
+      "[Nein, wir haben keine mehr. Ich kaufe welche.|Nein, leider keine mehr. Ich kaufe welche.|Nein, es gibt keine mehr, aber ich kaufe welche.|Nein, wir haben keine mehr, aber ich kaufe welche.|Nein, keine mehr, aber ich kaufe welche.]",
       "Say there is none left, but you'll buy some."
      ]
     ]
@@ -20521,15 +20593,17 @@
      "Wir brauchen Häferl. – Ich kaufe welche.",
      "Wir brauchen Häferl. Ich kaufe welche.",
      "Wir brauchen Tassen. – Ich kaufe welche.",
-     "Wir brauchen Tassen. Ich kaufe welche."
+     "Wir brauchen Tassen. Ich kaufe welche.",
+     "Wir brauchen Becher. – Ich kaufe welche.",
+     "Wir brauchen Becher. Ich kaufe welche."
     ]
    },
    {
     "t": "luk",
     "q": "unser- und euer- ohne Nomen.",
     "txt": [
-     "Ist das euer Häferl? – Nein, das ist nicht [unseres]. (wir)",
-     "Ist das unser Schlüssel? – Nein, das ist [eurer]. (ihr)"
+     "Ist das euer Häferl? – Nein, das ist nicht [unseres|unsres]. (wir)",
+     "Ist das unser Schlüssel? – Nein, das ist [eurer|euerer]. (ihr)"
     ],
     "h": "je Kästchen das Possessivwort ohne Nomen"
    },
@@ -21184,7 +21258,9 @@
      "finden"
     ],
     "a": [
-     "Den habe ich gestern gefunden. Den nehme ich jetzt mit."
+     "Den habe ich gestern gefunden. Den nehme ich jetzt mit.",
+     "Den habe ich gestern gefunden. Den nehme ich jetzt mit nach Hause.",
+     "Den habe ich gestern gefunden. Den nehme ich jetzt nach Hause mit."
     ],
     "h": "der/die/das alone, often at the beginning"
    },
@@ -21308,7 +21384,10 @@
     "a": [
      "Gehören die Regenschirme den Nachbarn? – Ja, denen gehören sie.",
      "Gehören die Regenschirme den Nachbarn? Ja, denen gehören sie.",
-     "Gehören die Schirme den Nachbarn? – Ja, denen gehören sie."
+     "Gehören die Schirme den Nachbarn? – Ja, denen gehören sie.",
+     "Gehören die Regenschirme den Nachbarn? – Ja, die gehören denen.",
+     "Gehören die Regenschirme den Nachbarn? – Ja, sie gehören denen.",
+     "Gehören die Regenschirme den Nachbarn? – Ja, sie gehören ihnen."
     ]
    },
    {
@@ -21319,7 +21398,8 @@
      "gehören"
     ],
     "a": [
-     "Die Häferl gehören Lena und Jonas. Denen gebe ich sie morgen."
+     "Die Häferl gehören Lena und Jonas. Denen gebe ich sie morgen.",
+     "Die Häferl gehören Lena und Jonas. Ich gebe sie denen morgen."
     ],
     "h": "dative plural alone: denen"
    },
@@ -21334,7 +21414,7 @@
      ],
      [
       "Du",
-      "[Nein, den kenne ich nicht.|Nein, der ist nicht meiner.|Nein, der gehört mir nicht.]",
+      "[Nein, den kenne ich nicht.|Nein, der ist nicht meiner.|Nein, der gehört mir nicht.|Nein, das ist nicht meiner.]",
       "Say no, it isn't yours."
      ],
      [
@@ -21343,7 +21423,7 @@
      ],
      [
       "Du",
-      "[Die ist meine.|Ja, die ist meine.|Ja, die gehört mir.]",
+      "[Die ist meine.|Ja, die ist meine.|Ja, die gehört mir.|Ja, das ist meine.]",
       "Say yes, that one is yours."
      ]
     ]
@@ -21384,7 +21464,8 @@
      "welch-"
     ],
     "a": [
-     "Welcher Mantel ist deiner? Welchen Regenschirm nimmst du?"
+     "Welcher Mantel ist deiner? Welchen Regenschirm nimmst du?",
+     "Welcher Mantel ist Ihrer? Welchen Regenschirm nehmen Sie?"
     ],
     "h": "welcher like der: welcher Mantel, welchen Regenschirm"
    },
@@ -21438,7 +21519,7 @@
      ],
      [
       "Du",
-      "[Ja, ich gebe sie ihnen morgen.|Ja, morgen.|Ja, ich gebe sie ihnen morgen früh.]",
+      "[Ja, ich gebe sie ihnen morgen.|Ja, morgen.|Ja, ich gebe sie ihnen morgen früh.|Ja, morgen gebe ich sie ihnen.]",
       "Say yes, tomorrow."
      ]
     ]
@@ -22284,7 +22365,7 @@
      ],
      [
       "Du",
-      "[Nein, ich habe keins.|Nein, ich habe keines.|Nein, ich habe kein Rezept.|Nein, leider nicht.]",
+      "[Nein, ich habe keins.|Nein, ich habe keines.|Nein, ich habe kein Rezept.|Nein, leider nicht.|Nein, habe ich nicht.]",
       "Say no, you haven't got one."
      ],
      [
@@ -22293,7 +22374,7 @@
      ],
      [
       "Du",
-      "[Soll ich sie nach dem Essen nehmen?|Soll ich sie nach dem Essen einnehmen?|Muss ich sie nach dem Essen nehmen?|Muss ich sie nach dem Essen einnehmen?]",
+      "[Soll ich sie nach dem Essen nehmen?|Soll ich sie nach dem Essen einnehmen?|Muss ich sie nach dem Essen nehmen?|Muss ich sie nach dem Essen einnehmen?|Soll ich die Tabletten nach dem Essen nehmen?|Soll ich die Tabletten nach dem Essen einnehmen?|Muss ich die Tabletten nach dem Essen nehmen?|Muss ich die Tabletten nach dem Essen einnehmen?]",
       "Ask whether you should take them after meals."
      ]
     ]
@@ -22317,7 +22398,7 @@
      ],
      [
       "Du",
-      "[Geh morgen nicht arbeiten!|Geh morgen nicht zur Arbeit!|Bleib morgen zu Hause!|Bleib morgen zuhause!|Bleib morgen daheim!]",
+      "[Geh morgen nicht arbeiten!|Geh morgen nicht zur Arbeit!|Bleib morgen zu Hause!|Bleib morgen zuhause!|Bleib morgen daheim!|Geh morgen nicht in die Arbeit!]",
       "Tell her not to go to work tomorrow."
      ],
      [
@@ -22326,7 +22407,7 @@
      ],
      [
       "Du",
-      "[Ja, setz dich!|Ja, gern. Setz dich!|Klar, setz dich!|Ja, setz dich hin!|Ja, gerne. Setz dich!]",
+      "[Ja, setz dich!|Ja, gern. Setz dich!|Klar, setz dich!|Ja, setz dich hin!|Ja, gerne. Setz dich!|Ja, natürlich! Setz dich bitte!|Ja, gern. Setz dich bitte!|Ja, gerne. Setz dich bitte!]",
       "Say yes and tell her to sit down."
      ]
     ]
@@ -22341,7 +22422,7 @@
      ],
      [
       "Du",
-      "[Nimm eine Tablette!|Nimm doch eine Tablette!|Nimm eine Tablette ein!|Nimm doch eine Tablette ein!]",
+      "[Nimm eine Tablette!|Nimm doch eine Tablette!|Nimm eine Tablette ein!|Nimm doch eine Tablette ein!|Nimm bitte eine Tablette!]",
       "Tell him to take a tablet."
      ],
      [
@@ -22350,7 +22431,7 @@
      ],
      [
       "Du",
-      "[Geh in die Apotheke!|Geh zur Apotheke!|Geh doch in die Apotheke!|Geh doch zur Apotheke!|Gehe in die Apotheke!]",
+      "[Geh in die Apotheke!|Geh zur Apotheke!|Geh doch in die Apotheke!|Geh doch zur Apotheke!|Gehe in die Apotheke!|Geh bitte in die Apotheke!]",
       "Tell him to go to the pharmacy."
      ],
      [
@@ -22359,7 +22440,7 @@
      ],
      [
       "Du",
-      "[Trink viel Wasser und schlaf!|Trink viel Wasser und schlaf viel!|Trink viel Wasser und geh schlafen!|Trinke viel Wasser und schlafe!|Trink viel Wasser und schlafe!]",
+      "[Trink viel Wasser und schlaf!|Trink viel Wasser und schlaf viel!|Trink viel Wasser und geh schlafen!|Trinke viel Wasser und schlafe!|Trink viel Wasser und schlafe!|Trink viel Wasser und schlaf gut!]",
       "Tell him to drink a lot of water and to sleep."
      ]
     ]
@@ -22575,7 +22656,10 @@
     "a": [
      "Warten Sie bitte einen Moment.",
      "Bitte warten Sie einen Moment.",
-     "Warten Sie einen Moment, bitte."
+     "Warten Sie einen Moment, bitte.",
+     "Warten Sie bitte kurz.",
+     "Warten Sie bitte einen Augenblick.",
+     "Bitte warten Sie einen Augenblick."
     ]
    },
    {
@@ -23133,7 +23217,8 @@
      "My head hurts.",
      "I have a headache.",
      "I've got a headache.",
-     "My head aches."
+     "My head aches.",
+     "My head is hurting."
     ]
    },
    {
@@ -23265,7 +23350,7 @@
      ],
      [
       "Du",
-      "[Ja, um zehn Uhr.|Ja, um zehn.|Ja, um 10 Uhr.|Ja, ich habe um zehn Uhr einen Termin.|Ja, ich habe einen Termin um zehn Uhr.]",
+      "[Ja, um zehn Uhr.|Ja, um zehn.|Ja, um 10 Uhr.|Ja, ich habe um zehn Uhr einen Termin.|Ja, ich habe einen Termin um zehn Uhr.|Ja, um zehn Uhr habe ich einen Termin.]",
       "Say yes, at ten o'clock."
      ],
      [
@@ -23274,7 +23359,7 @@
      ],
      [
       "Du",
-      "[Hier ist meine e-card.|Hier, bitte.|Hier bitte.|Bitte schön.|Bitte sehr.]",
+      "[Hier ist meine e-card.|Hier, bitte.|Hier bitte.|Bitte schön.|Bitte sehr.|Hier ist meine e-card, bitte.]",
       "Give her your card."
      ],
      [
@@ -23298,7 +23383,7 @@
      ],
      [
       "Du",
-      "[Der Hals tut mir weh.|Mir tut der Hals weh.|Ich habe Halsschmerzen.|Mein Hals tut weh.]",
+      "[Der Hals tut mir weh.|Mir tut der Hals weh.|Ich habe Halsschmerzen.|Mein Hals tut weh.|Ich habe Halsweh.|Mein Hals tut mir weh.]",
       "Say that your throat hurts."
      ],
      [
@@ -23331,7 +23416,7 @@
      ],
      [
       "Du",
-      "[Tut es sehr weh?|Tut es dir sehr weh?|Tut die Hand sehr weh?|Tut dir die Hand sehr weh?]",
+      "[Tut es sehr weh?|Tut es dir sehr weh?|Tut die Hand sehr weh?|Tut dir die Hand sehr weh?|Tut's sehr weh?|Tut's dir sehr weh?]",
       "Ask whether it hurts a lot."
      ],
      [
@@ -23349,7 +23434,7 @@
      ],
      [
       "Du",
-      "[Ja, hier ist ein Pflaster.|Ja, hier ist eins.|Ja, hier bitte.|Ja, hier.|Ja, warte kurz.]",
+      "[Ja, hier ist ein Pflaster.|Ja, hier ist eins.|Ja, hier bitte.|Ja, hier.|Ja, warte kurz.|Ja, hier hast du eins.]",
       "Say yes, here is one."
      ]
     ]
@@ -23446,7 +23531,9 @@
     "q": "We meet every Friday.",
     "a": [
      "Wir treffen uns jeden Freitag.",
-     "Jeden Freitag treffen wir uns."
+     "Jeden Freitag treffen wir uns.",
+     "Wir treffen uns freitags.",
+     "Freitags treffen wir uns."
     ]
    },
    {
@@ -24040,7 +24127,7 @@
      ],
      [
       "Du",
-      "[Er ist auf dem Tisch.|Auf dem Tisch.|Der Schlüssel ist auf dem Tisch.|Er liegt auf dem Tisch.|Der Schlüssel liegt auf dem Tisch.|Dein Schlüssel ist auf dem Tisch.]",
+      "[Er ist auf dem Tisch.|Auf dem Tisch.|Der Schlüssel ist auf dem Tisch.|Er liegt auf dem Tisch.|Der Schlüssel liegt auf dem Tisch.|Dein Schlüssel ist auf dem Tisch.|Dein Schlüssel liegt auf dem Tisch.]",
       "Say that it is on the table."
      ],
      [
@@ -24049,7 +24136,7 @@
      ],
      [
       "Du",
-      "[Sie ist im Kasten.|Im Kasten.|Deine Jacke ist im Kasten.|Sie hängt im Kasten.|Deine Jacke hängt im Kasten.]",
+      "[Sie ist im Kasten.|Im Kasten.|Deine Jacke ist im Kasten.|Sie hängt im Kasten.|Deine Jacke hängt im Kasten.|Die Jacke ist im Kasten.|Die Jacke hängt im Kasten.]",
       "Say that it is in the wardrobe (Kasten)."
      ]
     ]
@@ -24474,7 +24561,7 @@
      ],
      [
       "Du",
-      "[Neben das Sofa, bitte.|Neben das Sofa.|Bitte neben das Sofa.|Du stellst sie neben das Sofa.]",
+      "[Neben das Sofa, bitte.|Neben das Sofa.|Bitte neben das Sofa.|Du stellst sie neben das Sofa.|Stell sie bitte neben das Sofa.|Stell sie neben das Sofa.]",
       "Say: next to the sofa, please."
      ],
      [
@@ -24747,7 +24834,7 @@
      ],
      [
       "Du",
-      "[Es steht auch im Keller.|Auch im Keller.|Im Keller.|Mein Fahrrad steht auch im Keller.|Es steht im Keller.]",
+      "[Es steht auch im Keller.|Auch im Keller.|Im Keller.|Mein Fahrrad steht auch im Keller.|Es steht im Keller.|Es ist auch im Keller.|Mein Fahrrad ist auch im Keller.|Es ist im Keller.]",
       "Say: it is also in the cellar."
      ]
     ]
@@ -24877,7 +24964,8 @@
     "dir": "de",
     "q": "We are carrying the table into the cellar.",
     "a": [
-     "Wir tragen den Tisch in den Keller."
+     "Wir tragen den Tisch in den Keller.",
+     "Wir bringen den Tisch in den Keller."
     ]
    },
    {
@@ -25277,7 +25365,8 @@
     "dir": "de",
     "q": "I'm going to the post office by bus.",
     "a": [
-     "Ich fahre mit dem Bus zur Post."
+     "Ich fahre mit dem Bus zur Post.",
+     "Ich fahre mit dem Bus auf die Post."
     ]
    },
    {
@@ -25363,7 +25452,7 @@
     "t": "luk",
     "q": "Ergänze die Artikel.",
     "txt": [
-     "Ich fahre mit [der] Straßenbahn zu [dem] Bahnhof. Dort kaufe ich [einen] Fahrschein für [den] Zug."
+     "Ich fahre mit [der] Straßenbahn zu [dem] Bahnhof. Dort kaufe ich [einen|den] Fahrschein für [den] Zug."
     ],
     "h": "Jedes Kästchen ein Artikel – zuerst die Präposition prüfen."
    },
@@ -25628,7 +25717,7 @@
      ],
      [
       "Du",
-      "[Sie steht im Keller.|Die Lampe steht im Keller.|Im Keller.]",
+      "[Sie steht im Keller.|Die Lampe steht im Keller.|Im Keller.|Sie ist im Keller.|Die Lampe ist im Keller.]",
       "Say: it's in the cellar (wo?)."
      ]
     ]
@@ -25643,7 +25732,7 @@
      ],
      [
       "Du",
-      "[Fahren Sie mit der Straßenbahn.|Mit der Straßenbahn.|Fahren Sie mit der Bim.|Mit der Bim.]",
+      "[Fahren Sie mit der Straßenbahn.|Mit der Straßenbahn.|Fahren Sie mit der Bim.|Mit der Bim.|Nehmen Sie die Straßenbahn.|Nehmen Sie die Bim.]",
       "Tell her to take the tram."
      ],
      [
@@ -25652,7 +25741,7 @@
      ],
      [
       "Du",
-      "[Gegenüber vom Bahnhof.|Gegenüber dem Bahnhof.|Die Haltestelle ist gegenüber vom Bahnhof.]",
+      "[Gegenüber vom Bahnhof.|Gegenüber dem Bahnhof.|Die Haltestelle ist gegenüber vom Bahnhof.|Steigen Sie gegenüber vom Bahnhof aus.|Steigen Sie gegenüber dem Bahnhof aus.]",
       "Say: opposite the station."
      ]
     ]
@@ -26105,7 +26194,9 @@
     "q": "I'll take the old wardrobe.",
     "a": [
      "Ich nehme den alten Kasten.",
-     "Ich nehme den alten Schrank."
+     "Ich nehme den alten Schrank.",
+     "Ich werde den alten Kasten nehmen.",
+     "Ich werde den alten Schrank nehmen."
     ]
    },
    {
@@ -26205,23 +26296,23 @@
     "r": [
      [
       "der alte Tisch",
-      "[dem alten Tisch]"
+      "[dem alten Tisch|mit dem alten Tisch]"
      ],
      [
       "die neue Nachbarin",
-      "[der neuen Nachbarin]"
+      "[der neuen Nachbarin|mit der neuen Nachbarin]"
      ],
      [
       "das kleine Zimmer",
-      "[dem kleinen Zimmer]"
+      "[dem kleinen Zimmer|mit dem kleinen Zimmer]"
      ],
      [
       "die hellen Zimmer (Plural)",
-      "[den hellen Zimmern]"
+      "[den hellen Zimmern|mit den hellen Zimmern]"
      ],
      [
       "die neuen Nachbarn (Plural)",
-      "[den neuen Nachbarn]"
+      "[den neuen Nachbarn|mit den neuen Nachbarn]"
      ]
     ]
    },
@@ -26383,27 +26474,27 @@
     "r": [
      [
       "1.",
-      "[erste]"
+      "[erste|der erste]"
      ],
      [
       "2.",
-      "[zweite]"
+      "[zweite|der zweite]"
      ],
      [
       "3.",
-      "[dritte]"
+      "[dritte|der dritte]"
      ],
      [
       "7.",
-      "[siebte|siebente]"
+      "[siebte|siebente|der siebte|der siebente]"
      ],
      [
       "8.",
-      "[achte]"
+      "[achte|der achte]"
      ],
      [
       "20.",
-      "[zwanzigste]"
+      "[zwanzigste|der zwanzigste]"
      ]
     ]
    },
@@ -26785,7 +26876,8 @@
     "dir": "de",
     "q": "The bright flat is in a new building.",
     "a": [
-     "Die helle Wohnung ist in einem Neubau."
+     "Die helle Wohnung ist in einem Neubau.",
+     "Die helle Wohnung liegt in einem Neubau."
     ]
    },
    {
@@ -26793,7 +26885,8 @@
     "dir": "de",
     "q": "The house management is renovating the old kitchen.",
     "a": [
-     "Die Hausverwaltung renoviert die alte Küche."
+     "Die Hausverwaltung renoviert die alte Küche.",
+     "Die Hausverwaltung renoviert gerade die alte Küche."
     ]
    },
    {
@@ -26801,7 +26894,8 @@
     "dir": "de",
     "q": "The quiet flat in the old building is cheap.",
     "a": [
-     "Die ruhige Wohnung im Altbau ist günstig."
+     "Die ruhige Wohnung im Altbau ist günstig.",
+     "Die ruhige Wohnung im Altbau ist billig."
     ]
    }
   ],
@@ -27368,23 +27462,23 @@
     "r": [
      [
       "ein guter Freund",
-      "[einem guten Freund]"
+      "[einem guten Freund|mit einem guten Freund]"
      ],
      [
       "eine nette Kollegin",
-      "[einer netten Kollegin]"
+      "[einer netten Kollegin|mit einer netten Kollegin]"
      ],
      [
       "mein neues Sofa",
-      "[meinem neuen Sofa]"
+      "[meinem neuen Sofa|mit meinem neuen Sofa]"
      ],
      [
       "unser alter Kasten",
-      "[unserem alten Kasten]"
+      "[unserem alten Kasten|mit unserem alten Kasten]"
      ],
      [
       "meine neuen Nachbarn (Plural)",
-      "[meinen neuen Nachbarn]"
+      "[meinen neuen Nachbarn|mit meinen neuen Nachbarn]"
      ]
     ]
    },
@@ -27766,7 +27860,9 @@
     "q": "We're cooking a big meal for our guests.",
     "a": [
      "Wir kochen ein großes Essen für unsere Gäste.",
-     "Wir kochen für unsere Gäste ein großes Essen."
+     "Wir kochen für unsere Gäste ein großes Essen.",
+     "Wir kochen ein großes Abendessen für unsere Gäste.",
+     "Wir kochen für unsere Gäste ein großes Abendessen."
     ]
    },
    {
@@ -28590,7 +28686,7 @@
      ],
      [
       "Du",
-      "[Grüß Gott! Ich hätte gern einen Termin.|Grüß Gott, ich hätte gern einen Termin.|Grüß Gott! Ich hätte gerne einen Termin.|Grüß Gott, ich hätte gerne einen Termin.]",
+      "[Grüß Gott! Ich hätte gern einen Termin.|Grüß Gott, ich hätte gern einen Termin.|Grüß Gott! Ich hätte gerne einen Termin.|Grüß Gott, ich hätte gerne einen Termin.|Grüß Gott, ich möchte einen Termin.|Grüß Gott, ich möchte gern einen Termin.|Grüß Gott, ich möchte gerne einen Termin.]",
       "Greet her and say you'd like an appointment."
      ],
      [
@@ -28599,7 +28695,7 @@
      ],
      [
       "Du",
-      "[Ja, das wäre super.|Ja, das wäre gut.|Ja, das wäre super, danke.|Ja, das wäre gut, danke.|Ja, das wäre super. Danke!]",
+      "[Ja, das wäre super.|Ja, das wäre gut.|Ja, das wäre super, danke.|Ja, das wäre gut, danke.|Ja, das wäre super. Danke!|Ja, das wäre toll.|Ja, das wäre perfekt.|Ja, das wäre sehr gut.]",
       "Say yes, that would be great."
      ]
     ]
@@ -28717,7 +28813,9 @@
     "a": [
      "Ich würde lieber am Nachmittag kommen.",
      "Am Nachmittag würde ich lieber kommen.",
-     "Ich komme lieber am Nachmittag."
+     "Ich komme lieber am Nachmittag.",
+     "Lieber würde ich am Nachmittag kommen.",
+     "Am Nachmittag komme ich lieber."
     ]
    },
    {
@@ -28797,7 +28895,7 @@
      ],
      [
       "Du",
-      "[Ich hätte eine Bitte.|Ich hätte eine Bitte an dich.|Lena, ich hätte eine Bitte.]",
+      "[Ich hätte eine Bitte.|Ich hätte eine Bitte an dich.|Lena, ich hätte eine Bitte.|Ich habe eine Bitte.|Ich habe eine Bitte an dich.]",
       "Say: I have a request."
      ],
      [
@@ -29014,7 +29112,7 @@
      ],
      [
       "Du",
-      "[Grüß Gott! Könnten Sie mir sagen, wann der Installateur kommt?|Grüß Gott, könnten Sie mir sagen, wann der Installateur kommt?|Grüß Gott! Können Sie mir sagen, wann der Installateur kommt?]",
+      "[Grüß Gott! Könnten Sie mir sagen, wann der Installateur kommt?|Grüß Gott, könnten Sie mir sagen, wann der Installateur kommt?|Grüß Gott! Können Sie mir sagen, wann der Installateur kommt?|Grüß Gott, hier spricht Aurora. Könnten Sie mir sagen, wann der Installateur kommt?]",
       "Greet her and ask politely when the plumber is coming."
      ],
      [
@@ -29166,7 +29264,7 @@
      ],
      [
       "Du",
-      "[Grüß Gott! Die Heizung funktioniert nicht.|Grüß Gott, die Heizung funktioniert nicht.|Grüß Gott! Meine Heizung funktioniert nicht.|Grüß Gott! Die Heizung ist kaputt.]",
+      "[Grüß Gott! Die Heizung funktioniert nicht.|Grüß Gott, die Heizung funktioniert nicht.|Grüß Gott! Meine Heizung funktioniert nicht.|Grüß Gott! Die Heizung ist kaputt.|Grüß Gott, hier spricht Aurora. Die Heizung in meiner Wohnung funktioniert nicht.|Grüß Gott, die Heizung in meiner Wohnung funktioniert nicht.]",
       "Greet her and say the heating isn't working."
      ],
      [
@@ -29175,7 +29273,7 @@
      ],
      [
       "Du",
-      "[Am Vormittag arbeite ich leider. Wäre der Nachmittag möglich?|Leider arbeite ich am Vormittag. Wäre der Nachmittag möglich?|Wäre der Nachmittag möglich?|Wäre auch der Nachmittag möglich?]",
+      "[Am Vormittag arbeite ich leider. Wäre der Nachmittag möglich?|Leider arbeite ich am Vormittag. Wäre der Nachmittag möglich?|Wäre der Nachmittag möglich?|Wäre auch der Nachmittag möglich?|Am Vormittag arbeite ich leider. Wäre auch der Nachmittag möglich?|Ich arbeite leider am Vormittag. Wäre der Nachmittag möglich?|Ich arbeite leider am Vormittag. Wäre auch der Nachmittag möglich?]",
       "Say you work in the morning and ask whether the afternoon would be possible."
      ],
      [
@@ -29568,7 +29666,8 @@
     "dir": "de",
     "q": "I'm looking for a furnished flat.",
     "a": [
-     "Ich suche eine möblierte Wohnung."
+     "Ich suche eine möblierte Wohnung.",
+     "Ich suche nach einer möblierten Wohnung."
     ]
    },
    {
@@ -29696,7 +29795,10 @@
     "a": [
      "Ich möchte die Wohnung mieten.",
      "Ich würde die Wohnung gern mieten.",
-     "Ich würde die Wohnung gerne mieten."
+     "Ich würde die Wohnung gerne mieten.",
+     "Ich möchte die Wohnung gern mieten.",
+     "Ich möchte die Wohnung gerne mieten.",
+     "Ich möchte gern die Wohnung mieten."
     ]
    },
    {
@@ -29705,7 +29807,8 @@
     "q": "Who pays for the electricity?",
     "a": [
      "Wer zahlt den Strom?",
-     "Wer bezahlt den Strom?"
+     "Wer bezahlt den Strom?",
+     "Wer zahlt für den Strom?"
     ]
    },
    {
@@ -29715,7 +29818,10 @@
     "a": [
      "The house rules say that you have to be quiet after 10 pm.",
      "The house rules say you must be quiet after 10 pm.",
-     "According to the house rules you have to be quiet after 10 pm."
+     "According to the house rules you have to be quiet after 10 pm.",
+     "The house rules say that you have to be quiet after 10 o'clock.",
+     "The house rules say you must be quiet after 10 o'clock.",
+     "The house rules say you have to be quiet after 10 pm."
     ]
    },
    {
@@ -29865,7 +29971,7 @@
      ],
      [
       "Du",
-      "[Die Wohnung ist sehr schön.|Sehr schön!|Die Wohnung gefällt mir sehr.]",
+      "[Die Wohnung ist sehr schön.|Sehr schön!|Die Wohnung gefällt mir sehr.|Die Wohnung gefällt mir sehr gut.]",
       "Say the flat is very nice."
      ],
      [
@@ -29883,7 +29989,7 @@
      ],
      [
       "Du",
-      "[Und wie hoch ist die Kaution?|Wie hoch ist die Kaution?|Und die Kaution?]",
+      "[Und wie hoch ist die Kaution?|Wie hoch ist die Kaution?|Und die Kaution?|Muss ich eine Kaution zahlen?|Gibt es eine Kaution?]",
       "Ask about the deposit."
      ]
     ]
@@ -29899,7 +30005,7 @@
      ],
      [
       "Du",
-      "[Ja, die Heizung funktioniert nicht.|Meine Heizung funktioniert nicht.|Ja, meine Heizung ist kaputt.]",
+      "[Ja, die Heizung funktioniert nicht.|Meine Heizung funktioniert nicht.|Ja, meine Heizung ist kaputt.|Die Heizung funktioniert nicht.|Die Heizung ist kaputt.|Meine Heizung ist kaputt.|Die Heizung geht nicht.]",
       "Say the heating doesn't work."
      ],
      [
@@ -29908,7 +30014,7 @@
      ],
      [
       "Du",
-      "[Im dritten Stock.|Ich wohne im dritten Stock.]",
+      "[Im dritten Stock.|Ich wohne im dritten Stock.|Im dritten Stockwerk.]",
       "Say: on the third floor."
      ]
     ]
@@ -30350,7 +30456,11 @@
      "Ich mache im August Urlaub.",
      "Im August fahre ich auf Urlaub.",
      "Ich fahre im August auf Urlaub.",
-     "Im August gehe ich auf Urlaub."
+     "Im August gehe ich auf Urlaub.",
+     "Ich fahre im August in den Urlaub.",
+     "Im August fahre ich in den Urlaub.",
+     "Ich fahre im August in Urlaub.",
+     "Im August fahre ich in Urlaub."
     ]
    },
    {
@@ -30401,7 +30511,7 @@
     "t": "luk",
     "q": "Ergänze.",
     "txt": [
-     "Ich habe den [Arbeitsvertrag] schon unterschrieben. (employment contract)",
+     "Ich habe den [Arbeitsvertrag|Vertrag] schon unterschrieben. (employment contract)",
      "Das [Gehalt] ist gut, aber ich muss oft [Überstunden] machen."
     ],
     "h": "je Kästchen ein Nomen: contract, salary, overtime hours"
@@ -30569,7 +30679,7 @@
      ],
      [
       "Du",
-      "[Ja, ich habe gestern Überstunden gemacht.|Ich habe gestern viele Überstunden gemacht.|Ja, gestern habe ich Überstunden gemacht.]",
+      "[Ja, ich habe gestern Überstunden gemacht.|Ich habe gestern viele Überstunden gemacht.|Ja, gestern habe ich Überstunden gemacht.|Ich habe gestern Überstunden gemacht.]",
       "Say you did overtime yesterday."
      ],
      [
@@ -30612,7 +30722,8 @@
     "dir": "de",
     "q": "I am doing an apprenticeship.",
     "a": [
-     "Ich mache eine Ausbildung."
+     "Ich mache eine Ausbildung.",
+     "Ich mache eine Lehre."
     ]
    },
    {
@@ -31191,7 +31302,7 @@
      ],
      [
       "Du",
-      "[Ich rufe die Rettung!|Ich rufe sofort die Rettung!|Ich rufe 144 an!]",
+      "[Ich rufe die Rettung!|Ich rufe sofort die Rettung!|Ich rufe 144 an!|Ich rufe die Rettung an.|Ich rufe sofort die Rettung an!]",
       "Say you are calling the ambulance."
      ],
      [
@@ -31216,7 +31327,7 @@
      ],
      [
       "Du",
-      "[Ja, ich bin wieder gesund.|Ja, danke, es geht mir besser.|Fast, ich habe noch Schnupfen.]",
+      "[Ja, ich bin wieder gesund.|Ja, danke, es geht mir besser.|Fast, ich habe noch Schnupfen.|Fast, aber ich habe noch Schnupfen.|Ich bin fast wieder gesund, aber ich habe noch Schnupfen.]",
       "Say that you are healthy again – or almost: you still have a runny nose."
      ],
      [
@@ -31641,7 +31752,11 @@
     "a": [
      "Ich möchte ein Konto eröffnen.",
      "Ich würde gern ein Konto eröffnen.",
-     "Ich möchte gern ein Konto eröffnen."
+     "Ich möchte gern ein Konto eröffnen.",
+     "Ich möchte ein Bankkonto eröffnen.",
+     "Ich möchte gern ein Bankkonto eröffnen.",
+     "Ich würde gern ein Bankkonto eröffnen.",
+     "Ich möchte ein Konto aufmachen."
     ]
    },
    {
@@ -32232,7 +32347,9 @@
     "a": [
      "Would you like whipped cream with the cake?",
      "Do you want whipped cream with the cake?",
-     "Would you like cream with the cake?"
+     "Would you like cream with the cake?",
+     "Would you like whipped cream with your cake?",
+     "Do you want whipped cream with your cake?"
     ]
    },
    {
@@ -32326,7 +32443,10 @@
     "a": [
      "Ich möchte bitte bestellen.",
      "Ich möchte bestellen, bitte.",
-     "Ich würde gern bestellen."
+     "Ich würde gern bestellen.",
+     "Ich möchte gern bestellen.",
+     "Ich möchte gerne bestellen.",
+     "Ich würde gerne bestellen."
     ]
    },
    {
@@ -32335,7 +32455,9 @@
     "q": "What would you like as a starter? (Sie)",
     "a": [
      "Was möchten Sie als Vorspeise?",
-     "Was nehmen Sie als Vorspeise?"
+     "Was nehmen Sie als Vorspeise?",
+     "Was hätten Sie gern als Vorspeise?",
+     "Was hätten Sie gerne als Vorspeise?"
     ]
    },
    {
@@ -32491,7 +32613,7 @@
      ],
      [
       "Du",
-      "[Ich hätte gern das Schnitzel.|Das Schnitzel, bitte.|Ich nehme das Schnitzel.]",
+      "[Ich hätte gern das Schnitzel.|Das Schnitzel, bitte.|Ich nehme das Schnitzel.|Ich hätte gern ein Schnitzel.|Ein Wiener Schnitzel, bitte.|Ich hätte gern ein Wiener Schnitzel.]",
       "Order the schnitzel."
      ],
      [
@@ -32500,7 +32622,7 @@
      ],
      [
       "Du",
-      "[Ein Mineralwasser, bitte.|Ich nehme ein Mineralwasser.|Ein Wasser, bitte.]",
+      "[Ein Mineralwasser, bitte.|Ich nehme ein Mineralwasser.|Ein Wasser, bitte.|Ich hätte gern ein Mineralwasser.|Ein Mineral, bitte.]",
       "Order a mineral water."
      ]
     ]
@@ -32530,7 +32652,7 @@
      ],
      [
       "Du",
-      "[25 Euro, bitte. Stimmt so.|Machen Sie 25.|25, bitte.]",
+      "[25 Euro, bitte. Stimmt so.|Machen Sie 25.|25, bitte.|Hier sind 25 Euro, der Rest ist Trinkgeld.|25 Euro, stimmt so.]",
       "Pay 25 euros (with tip)."
      ]
     ]
@@ -32555,7 +32677,7 @@
      ],
      [
       "Du",
-      "[Ja, ein paar Schwammerl, bitte.|Ein paar Schwammerln, bitte.|Nein, danke, das ist alles.]",
+      "[Ja, ein paar Schwammerl, bitte.|Ein paar Schwammerln, bitte.|Nein, danke, das ist alles.|Das wär's, danke.|Danke, das ist alles.|Nein, danke, das wär's.]",
       "Ask for some mushrooms (Schwammerl) – or say that is all."
      ]
     ]
@@ -32593,7 +32715,10 @@
      "Ich hätte gern ein Kilo Äpfel, bitte.",
      "Ich hätte gerne ein Kilo Äpfel, bitte.",
      "Ein Kilo Äpfel, bitte.",
-     "Ich möchte ein Kilo Äpfel, bitte."
+     "Ich möchte ein Kilo Äpfel, bitte.",
+     "Ich möchte gern ein Kilo Äpfel, bitte.",
+     "Ich möchte gerne ein Kilo Äpfel, bitte.",
+     "Ich hätte bitte gern ein Kilo Äpfel."
     ]
    },
    {
@@ -32602,7 +32727,11 @@
     "q": "Can I pay by card?",
     "a": [
      "Kann ich mit Karte zahlen?",
-     "Kann ich mit Karte bezahlen?"
+     "Kann ich mit Karte bezahlen?",
+     "Kann ich mit Bankomatkarte zahlen?",
+     "Kann ich mit Bankomatkarte bezahlen?",
+     "Kann ich mit der Karte zahlen?",
+     "Kann ich mit der Karte bezahlen?"
     ]
    }
   ],
@@ -33154,7 +33283,7 @@
     "r": [
      [
       "Du",
-      "[Entschuldigung, von welchem Gleis fährt der Zug nach Linz?|Von welchem Gleis fährt der Zug nach Linz?|Wo fährt der Zug nach Linz ab?]",
+      "[Entschuldigung, von welchem Gleis fährt der Zug nach Linz?|Von welchem Gleis fährt der Zug nach Linz?|Wo fährt der Zug nach Linz ab?|Von welchem Gleis fährt der Zug nach Linz ab?|Entschuldigung, von welchem Gleis fährt der Zug nach Linz ab?]",
       "Ask which platform the train to Linz leaves from."
      ],
      [
@@ -33267,7 +33396,7 @@
      ],
      [
       "Du",
-      "[Ja, auf den Namen Virtanen.|Ja, ich habe ein Zimmer reserviert.|Ja, für zwei Nächte.]",
+      "[Ja, auf den Namen Virtanen.|Ja, ich habe ein Zimmer reserviert.|Ja, für zwei Nächte.|Ja, ich habe reserviert.|Ja, ich habe eine Reservierung.]",
       "Say yes, you have a reservation."
      ],
      [
