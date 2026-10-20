@@ -483,7 +483,7 @@ Jedes Thema: **Quellenvergleich** → **Was sich ändert** → **Entwurf** (engl
 > (Die Dativ-Zeile des alten Überblicks steht in d05b §3 – nichts geht verloren.)
 
 **Quellen:** lingolia „Deklination“ (Fragen wer/was, wen/was; Nominativ nach *sein/werden/bleiben*) ✓; lingolia „Artikel“ (Tabellen) ✓; lingolia „Possessivpronomen“ (*euer → eure*) ✓ (§4).
-**Lernschritte:** 1 → §1–4 · 2 → §3 (Fragen) ist schon in Schritt 1 – der bisherige Schritt 2 „Fragen“ bekommt §3+§4-Wiederholung; besser: 1 → §1–2, §4 · 2 → §3 · 3 → §5–6 · 4 → ⚠, Verbformen (= heutige Schrittaufteilung, nur mit neuer Reihenfolge der Abschnitte). **Folgen für Übungen:** keine.
+**Lernschritte:** 1 → §1–4 (Fragen und Akkusativ zusammen; die Übungen des heutigen Schritts 2 „Fragen“ kommen dazu) · 2 → §5 der-Wörter · 3 → §6 ein-Wörter · 4 → ⚠, Verbformen. Beim Einbau `steps` neu zuordnen und die Vorgriff-Prüfung laufen lassen. **Folgen für Übungen:** keine.
 
 ---
 
