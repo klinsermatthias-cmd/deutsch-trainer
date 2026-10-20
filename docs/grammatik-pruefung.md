@@ -690,7 +690,7 @@ Nicht empfohlen und darum offen: D-1019-60/-61/-62 (Komparation, Richtungspräfi
 - [x] D-1019-55/-56 Wortpakete w01–w06, e-card, Station/Kaffee (OK D-1020-14)
 - [x] D-1019-57/-58/-59 Reihenfolge d03/d03b, `req` anhängen, `req`-Formulierung (OK D-1020-14)
 - [x] D-1019-67 bis -73 Regeln (README, ablauf-thema, Prüfliste 24–27, CLAUDE.md, ki-qualitaet) (OK D-1020-14)
-- [ ] D-1019-66 zwei Lösungsvarianten; D-1019-65 GLOSS_EXTRA; D-1019-64 Übungen anhängen (d03b, d05b, d06b, d09, d04, d08, d11)
+- [x] D-1019-66 zwei Lösungsvarianten; D-1019-65 GLOSS_EXTRA (105 Wörter); D-1019-64 50 Übungen (d03b, d05b, d06b, d09, d04, d08, d11, d14, w02, w05) (OK D-1020-16)
 - [ ] D-1019-63 Übersichtsthema Ü1 „Wer? Wen? Wem?“
 - [ ] D-1019-10 Regeln ohne Quelle mit grammis prüfen; D-1019-74 Antipp-Test in opi-suomea
 
