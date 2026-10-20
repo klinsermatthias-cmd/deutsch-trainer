@@ -19,7 +19,7 @@ Vorher lesen: `lektionen/pruefliste.md`, `lektionen/README.md`, Plan in `docs/le
   Alle drei Pronomen im Präsens bei Vokalwechsel und bei sein/haben/werden/wissen/Modalverben, im Präteritum bei Modalverben, sein, haben. Trennbare und reflexive Verben ausgeschrieben; österreichisch „ist gesessen (Germany: hat gesessen)“.
 - **Übungen:** 30–50, ≥ 6 Formate, Schwerpunkt `tr`, `gap`, `ord`, `sch`, `dlg`; je ≥ 3 `les`, `sch`, `dlg`; 2–4 Regelfragen (`mc` mit `x`), 1 `zuo`, 1 `luk`; `h` nur, wo das Format missverständlich ist (sagt, was gesucht ist, nicht wie man es baut). Etwa 70 % zu Auroras Schwächen, 30 % Kontrast und Mischung.
 - **Lernschritte (`steps`, S-1014-1):** 2–5 Schritte `{t, sec, ex}`; `sec` = Theorie-Abschnitte (`<h3>`-Teile) des Schritts; je ≥ 8 Übungen in ≥ 3 Arten; nur der letzte („Alles zusammen“) mischt. **Kein Vorgriff** (Prüfliste 20): jede Pflichtantwort ist in den Abschnitten bis zu diesem Schritt oder in einem früheren Thema gelehrt. Ausgeblendete Übungen stehen in keinem Schritt.
-- **`req`:** alle Themen, auf denen es aufbaut, in Lernreihenfolge (die App sperrt bereits freie Themen nicht wieder).
+- **`req` (D-1019-59):** alle Themen, deren Stoff das Thema verwendet, auch indirekt (Kette nachrechnen), in Lernreihenfolge (die App sperrt bereits freie Themen nicht wieder).
 
 ## Etappe (je Push)
 1. `git pull --rebase origin main`

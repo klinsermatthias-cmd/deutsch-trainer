@@ -26,10 +26,10 @@ Kann-Sätze (am GER B2 orientiert, auf das Leben in Österreich zugeschnitten):
 ## Grundsätze (Themenplan D-1012-11, aus S-1011-23)
 - **A1 → A2 → B1 → B2:** zuerst Lücken auf A1/A2-Niveau (Block A), dann B1 festigen (Block B), dann B2 (Block C, vorläufig). Innerhalb eines Blocks entscheidet, was worauf aufbaut.
 - **Jedes Thema:** Alltagssituation in Österreich + Grammatik-Baustein mit **höchstens 3 neuen Teilregeln** (durch „;“ getrennt; „Detail“ = keine neue Teilregel), Übersicht des ganzen Systems am Anfang der Theorie, etwa 70 % Übungen zu den Schwächen und 30 % Kontrast/Umbau/Mischung, freie Aufgaben ohne vorgegebenen Bauplan. Was im Test schon sicher war (Präsens, Komparation, deshalb/trotzdem/obwohl, je … desto, indirekte W-Fragen, Lesen), kommt nur als Kontrast vor.
-- **`req`:** jedes neue Thema mindestens d01, d02 und alle Themen, deren Stoff es braucht (Spalte `req`). Nomen-Verb-Verbindungen kommen früh als Karten in passende Situationen (System erst d29).
+- **`req` (D-1019-59):** alle Themen, deren Stoff das Thema verwendet, auch indirekt (Kette nachrechnen; Spalte `req`). d04–d05b sind A1/A2-Wiederholung und stehen darum nach d02b. Nomen-Verb-Verbindungen kommen früh als Karten in passende Situationen (System erst d29).
 - **Aus Testergebnissen werden Themen:** Jede Schwäche aus Einstufungstest oder Bericht wird einem Thema zugeordnet (eigenes Thema oder Teilregel in einem bestehenden); was sicher sitzt, bekommt kein eigenes Thema.
 - **Checkpoint** = Bericht an Claude → Analyse → Neuplanung (Themen, die schon sitzen, werden gestrichen).
-- **d03 nach d09b:** d09 und d09b stehen in `req` von d03 (D-1012-17, S-1013-16); ist d03 schon frei, sperrt die App es nicht wieder.
+- **d03 nach d09b:** d09 und d09b stehen in `req` von d03 (D-1012-17, S-1013-16); seit D-1019-57 steht d03/d03b auch in der Datei direkt hinter d09b. Ist d03 schon frei, sperrt die App es nicht wieder.
 - **Grundwortschatz (S-1013-18):** ab d10 je Thema 5–10 Karten Grundwortschatz aus dem Alltagsfeld der Situation. Wörter für Behörde und Wohnung früher: Antrag, ausfüllen, unterschreiben → d10/d11; Hausverwaltung, Stiege, Stock → d11/d14; Frist, Termin → d13b. Österreichische Uhrzeit und Datum (viertel/dreiviertel acht, Feber, heuer) in d13b. Die Goethe-/ÖSD-B1-Wortliste darf als Quelle dienen, kommt aber nie ins Repo.
 - **Bau eines Themas** (Theorie-Gliederung, Übungen, Lernschritte): `docs/ablauf-thema.md`.
 
@@ -48,14 +48,14 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d05b | Wem schenken wir die Blumen? – der Dativ | A2 |
 | d09 | Wie komme ich zur Post? – Präpositionen mit festem Kasus | A2 |
 | d09b | Seit wann wohnst du hier? – wo, wohin, woher; seit und vor | A2 |
+| d03 | Als ich nach Österreich kam – als, wenn, wann | B1 |
+| d03b | Bevor ich zur Arbeit gehe – während, bevor, nachdem | B1 |
 | d06 | Kannst du mir helfen? – Personalpronomen | A1++/A2++ |
 | d06b | Das gefällt mir! – Verben mit Dativ | A2 |
 | d07 | Ist das deiner? – meiner, einer, keiner | A2 |
 | d07b | Den nehme ich! – der, die, das allein und welcher? | A2 |
 | d08 | Nehmen Sie die Tabletten! – in der Apotheke | A2 |
 | d08b | Ich habe mir den Fuß verletzt – beim Arzt | A2 |
-| d03 | Als ich nach Österreich kam – als, wenn, wann | B1 |
-| d03b | Bevor ich zur Arbeit gehe – während, bevor, nachdem | B1 |
 | d11 | Wohin kommt das Sofa? – Wechselpräpositionen | A2 |
 | d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ |
 | d15 | Ein großer Balkon, frisches Brot – Adjektivendungen II | A2+ |
