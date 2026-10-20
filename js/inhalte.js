@@ -1065,6 +1065,15 @@ const GLOSS_EXTRA = {
   "donau": {de: "the Danube", note: "die Donau"},
   "tank": {de: "tank", note: "der Tank, die Tanks"},
   "leer": {de: "empty"},
+  "des": {de: "of the", base: "der/das", note: "Genitiv maskulin/neutral: das Auto des Bruders"},
+  "euer": {de: "your (plural)", base: "euer", note: "euer Hund, eure Wohnung, euren Hund"},
+  "ältesten": {de: "oldest", base: "alt", note: "Superlativ: am ältesten"},
+  "jüngsten": {de: "youngest", base: "jung", note: "Superlativ: am jüngsten"},
+  "kürzesten": {de: "shortest", base: "kurz", note: "Superlativ: am kürzesten"},
+  "besten": {de: "best", base: "gut", note: "Superlativ: am besten"},
+  "beste": {de: "best", base: "gut", note: "Superlativ + Endung: das beste Gasthaus"},
+  "höchsten": {de: "highest", base: "hoch", note: "Superlativ: am höchsten"},
+  "hohes": {de: "high", base: "hoch", note: "hoch + Endung: ein hohes Haus"},
 };
 
 /* ============================================================
