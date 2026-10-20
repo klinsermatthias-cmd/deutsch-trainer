@@ -57,6 +57,7 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d08 | Nehmen Sie die Tabletten! – in der Apotheke | A2 |
 | d08b | Ich habe mir den Fuß verletzt – beim Arzt | A2 |
 | d11 | Wohin kommt das Sofa? – Wechselpräpositionen | A2 |
+| d34 | Wer? Wen? Wem? – alle Fälle zusammen (Übersichtsthema, keine neuen Regeln/Wörter, D-1019-63) | A2 |
 | d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ |
 | d15 | Ein großer Balkon, frisches Brot – Adjektivendungen II | A2+ |
 | d16 | Könnten Sie mir sagen, ob …? – Konjunktiv II höflich | A2++ |

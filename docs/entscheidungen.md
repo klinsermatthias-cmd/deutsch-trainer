@@ -166,3 +166,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-20 – Etappe 4: Übungen, Antippen, Varianten (D-1020-16; D-1019-64 bis -66)
 - 50 Übungen angehängt, fast nur Satzbildung (`tr` de, `ord`, `les`, `dlg`): d03b 9, d05b 6, d06b 9, d09 7, d04/d08/d11 je 4, d14/w02/w05 Wortabdeckung; Vorgriff-Prüfung ohne Treffer bei neuen Übungen.
 - 105 Wörter in `GLOSS_EXTRA` (Antippen offline); Lösungsvarianten d01b *gebracht*, w06 *darf*.
+
+## 2026-10-20 – Übersichtsthema d34 „Wer? Wen? Wem?“ (D-1019-63, D-1020-20)
+- Neues Thema d34 nach d11: Artikel- und Pronomentabelle in drei Fällen, Entscheidungsweg „Which case?“, ⚠ typische Verwechslungen; keine neuen Regeln/Wörter, `v` leer.
+- 45 Kontrastübungen in 3 Schritten (52 % Satzbildung, 5 `mc`); `req` d01–d11, kein `req` für spätere Themen. Quellen: lingolia (Präpositionen, Personalpronomen).
+- Matthias (D-1020-20): alles Offene, das empfohlen ist, umsetzen und pushen.
