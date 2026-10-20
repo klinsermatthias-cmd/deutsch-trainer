@@ -680,7 +680,7 @@ Methodenquellen, alle am 19.10. auf en.wikipedia abgerufen (Status 200):
 ### 12 Umsetzung (OK Matthias 20.10.: „alle Vorschläge umsetzen, die du empfiehlst“)
 Nicht empfohlen und darum offen: D-1019-60/-61/-62 (Komparation, Richtungspräfixe, Wortbildung – später). D-1019-74/-75 überholt durch CLAUDE.md „ein Chat für alles“; der Antipp-Test wird direkt in opi-suomea repariert.
 - [x] D-1019-50 w03: 112 gilt auch in Österreich
-- [ ] D-1020-1 Klartext-Standard für die Theorie: Pilot d01 – **wartet auf OK von Matthias**. Danach gehen D-1019-51/-52/-53/-54 in den Neufassungen je Thema auf.
+- [ ] ~~D-1020-1~~ überholt → D-1020-2/-3 (§17), **wartet auf OK von Matthias**; D-1019-51 bis -54 gehen darin auf.
 - [ ] D-1019-55/-56 Wortpakete w01–w06, e-card, Station/Kaffee
 - [ ] D-1019-57/-58/-59 Reihenfolge d03/d03b, `req` anhängen, `req`-Formulierung
 - [ ] D-1019-67 bis -73 Regeln (README, ablauf-thema, Prüfliste 23–26, CLAUDE.md, ki-qualitaet)
@@ -740,7 +740,7 @@ Methode: Jede Theorie als Text so gelesen, wie Aurora sie sieht, und mit dem Auf
 - [x] 14.3 Fehlende Teile mit Quelle belegt (20.10.): Komposita-Genus (de.wikipedia „Komposition (Grammatik)“, Kopf rechts) ✓; Maßwörter (Duden *vier Kilo, 5 Stück, zwei Bier, drei Flaschen, zwei Tassen*) ✓; Bewegung innerhalb eines Ortes (Duden „Park“: *im Park spazieren gehen*) ✓; Ordinalzahlen *-te/-ste* (de.wikipedia „Zahlwort“) ✓; *mögen* (lingolia „Modalverben“) ✓; adjektivisches Prinzip stark/schwach (de.wikipedia „Deutsche Deklination“) ✓; Länder mit Artikel und *woher/wo/wohin*-Matrix (lingolia „Artikel“, „Lokale Präpositionen“) ✓; n-Deklination (lingolia) ✓. Noch ohne Quelle: Abgrenzung *gefallen* (erleben) ↔ *mögen* (allgemein) als Formulierung; Merkkette der Präpositionen; TeKaMoLo; Intonation (alle als Lernhilfe gekennzeichnet). Gesperrt: lernhelfer.de (000), Wikipedia „Wechselpräposition“ (404).
 - [x] 14.4 (§15) Übungen lesen: verständlich (Aufgabe, `h`), richtig, wirksam; was Quellen an Übungsformen empfehlen
 - [x] 14.5 (§16) Repo-Audit vertieft: veraltete Dateien, Regeltexte und Tokenkosten für neue Chats, Stabilität und Funktion der App (Simulation/Prüfläufe)
-- [ ] 14.6 Bericht an Matthias mit Codes
+- [x] 14.6 (§17) Bericht an Matthias mit Codes
 
 ### 15 Übungen inhaltlich gelesen (14.4, 20.10.)
 Gelesen: alle aktiven `gap`, `tr`, `mc`, `ord`, `luk`, `zuo`, `sch` aller 28 Themen, alle 100 Fragen der Lesetexte, die `dlg` aller Themen mit einer Suche nach unklaren Aufgaben und fehlenden Varianten; `tab` nur über die Prüfskripte (keine Auffälligkeit).
@@ -796,3 +796,17 @@ Gelesen: alle aktiven `gap`, `tr`, `mc`, `ord`, `luk`, `zuo`, `sch` aller 28 The
 - `docs/engine.md` Z. 44 (Engine-Datei, nur in opi-suomea ändern): Verweis „Altstand in `docs/chats/simulation.md`“ – die Datei gibt es nicht.
 
 **Tokenkosten für einen neuen Chat:** Pflichtlektüre (CLAUDE.md, Prüfliste, README, ablauf-thema, Lehrplan, Quellen) ≈ 38.000 Zeichen ≈ 10.000 Tokens – angemessen. **Neu teuer:** `docs/grammatik-pruefung.md` (102 KB) und `docs/theorie-entwuerfe.md` (61 KB) ≈ 45.000 Tokens zusammen. Vorschlag: oben eine Kurzfassung (Stand, offene Codes, wo was steht) und in CLAUDE.md „nur den Abschnitt zum jeweiligen Thema lesen“; nach der Umsetzung beide Dateien nach `docs/archiv/`.
+
+### 17 Vorschläge nach der vertieften Analyse (14.6, Codes D-1020-…)
+D-1020-1 (Pilot mit Längenziel) ist **überholt** – Matthias 20.10.: keine Höchstgrenzen, vollständig vor kurz.
+
+| Code | Vorschlag | Grundlage |
+|---|---|---|
+| D-1020-2 | Die 7 Leitlinien für Theorie (Kurz-Kasten ohne Verweise, Fachwörter erklären, eine Regel = ein Abschnitt + Entscheidungsweg, Nebenwissen ans Ende statt streichen, Text = Lernreihenfolge, Beispiele nur mit Gelerntem, Lücken mit Quelle) als Regel in `docs/ablauf-thema.md` und als Prüflisten-Zeile | `docs/theorie-entwuerfe.md` |
+| D-1020-3 | Theorie aller 22 Themen nach den Entwürfen neu fassen, ein Thema je Durchgang, vor jedem Push Vorher/Nachher an Matthias; enthält D-1019-51 bis -54 | `docs/theorie-entwuerfe.md` |
+| D-1020-4 | Fehlende Inhalte ergänzen (mit Übungen): Stellung von *nicht* (d02), Gebrauch *der/ein/kein Artikel* + Länder mit Artikel + Komposita (d04), Maßwörter (d04b), Fall über Fragen + Englisch-Brücke (d05), Reihenfolge Dativ vor Akkusativ + n-Nomen (d05b), *woher/wo/wohin*-Matrix (d09b), Pronomen nach Präpositionen + *es* (d06), *mögen* (d06b), Präteritum *durfte/sollte/wollte* (d03), Plusquamperfekt-Formen (d03b), reflexive Verben (d08b), Bewegung innerhalb eines Ortes + Zeitangaben (d11), gemeinsames Prinzip der Adjektivendungen (d14/d15) | §13, §14.3, Entwürfe |
+| D-1020-5 | Übungen reparieren (§15): 19 Futur-Lücken `aus`; 14 Hinweise „im Präsens“ neu fassen; bundesdeutsche Varianten (*Tüten, Tomaten, Kartoffeln, Aprikosen*); konkrete Dialogaufgaben statt „Answer.“; d16 Nr. 10 Variante *bitte mich* entfernen; d01 Nr. 65 Kategorien eindeutig; d02 Nr. 6/43 Hinweis; d07 Nr. 17 *welche* + Theorie; d06b Nr. 20 *mag*-Variante; Sachangaben w04/w05 belegen | §15 |
+| D-1020-6 | Prüfdokumente schlank halten: Kurzfassung oben, CLAUDE.md-Verweis „nur den Abschnitt zum Thema lesen“, Prüfliste Z. 5 aktualisieren; nach der Umsetzung nach `docs/archiv/` | §16 |
+| D-1020-7 | Engine in opi-suomea: Antipp-Test mit `\p{L}` (*ü, ß, é*) und toten Verweis in `docs/engine.md` Z. 44 entfernen (ersetzt D-1019-74) | §10, §16 |
+
+Die schon freigegebenen Punkte D-1019-55 bis -73 (Wortpakete, Reihenfolge, `req`, Regeln, Übungen anhängen, GLOSS, Übersichtsthema) sind weiter angehalten („noch nichts ändern“) und laufen nach Matthias' Go in der Reihenfolge von §12 weiter.
