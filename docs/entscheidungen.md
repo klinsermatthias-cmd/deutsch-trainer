@@ -213,3 +213,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Theorie-Korrekturen und Ergänzungen in allen Themen d01–d16, Verbkarten mit voller DWDS-Tabelle (kommen, essen, trinken, schlafen, nehmen, wohnen, müssen, können, möchten, mögen, fehlen, betragen, trainieren), neue Wortkarten; Präteritum-Bildung nur noch als Erkennen (zuo).
 - A1-Wendungen in d01–d02b gelten als bekannt (Prüfliste 29); Lehrplan aktualisiert; Titel d08/d08b ohne Ortsangabe; d35 mit Schulzählung 1.–4. Fall.
 - Quellen-Nachprüfung: „Lift“ ist nicht das österreichische Normalwort (Goethe/ÖSD-B1-Liste: Aufzug D, A) – w01 korrigiert.
+
+## 21.10.2026 – Prüfung 21.10., Durchgang 2 (D-1021-6)
+- Alle Themen d01–d16 und w01–w06 auf Vielfalt überarbeitet: 332 neue Übungen aus vielen Alltagssituationen, 467 eintönige oder ratbare Übungen ausgeblendet (`aus`); je Thema 47–70 aktive Übungen, 40–52 % Satzbildung, ≤ 6 mc mit gleich langen Optionen.
+- Wortpakete: ausziehen, putzen, Versicherung, Staatsbürgerschaft, Sport ergänzt; zwei Übungen in den richtigen Lernschritt verschoben.

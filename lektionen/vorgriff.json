@@ -205,28 +205,36 @@
    "\\b[Mm]it (dem|der) ",
    "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
    "\\b(mir|dir|Ihnen)\\b",
-   "\\b[Ii]n (der|die|das|den) "
+   "\\b[Ii]n (der|die|das|den) ",
+   "\\b([Mm]ein|[Dd]ein|[Ss]ein|[Uu]nser) ",
+   "\\b[Aa]uf (der|dem|die|den) "
   ],
   "d01b": [
    "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
    "\\b[Mm]it (dem|der) ",
    "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
    "\\b(mir|dir|Ihnen)\\b",
-   "\\b[Ii]n (der|die|das|den) "
+   "\\b[Ii]n (der|die|das|den) ",
+   "\\b([Mm]ein|[Dd]ein|[Ss]ein|[Uu]nser) ",
+   "\\b[Aa]uf (der|dem|die|den) "
   ],
   "d02": [
    "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
    "\\b[Mm]it (dem|der) ",
    "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
    "\\b(mir|dir|Ihnen)\\b",
-   "\\b[Ii]n (der|die|das|den) "
+   "\\b[Ii]n (der|die|das|den) ",
+   "\\b([Mm]ein|[Dd]ein|[Ss]ein|[Uu]nser) ",
+   "\\b[Aa]uf (der|dem|die|den) "
   ],
   "d02b": [
    "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
    "\\b[Mm]it (dem|der) ",
    "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
    "\\b(mir|dir|Ihnen)\\b",
-   "\\b[Ii]n (der|die|das|den) "
+   "\\b[Ii]n (der|die|das|den) ",
+   "\\b([Mm]ein|[Dd]ein|[Ss]ein|[Uu]nser) ",
+   "\\b[Aa]uf (der|dem|die|den) "
   ]
  }
 }
