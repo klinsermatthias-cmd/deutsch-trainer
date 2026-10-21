@@ -208,3 +208,8 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-21 – Vollständige Prüfung und Umsiedeln (D-1021-1 … -12)
 - 6 Prüferinnen, 158 Funde (12 Fehler); Berichte und Prüfskripte in `docs/archiv/pruefung-2026-10-21/`. Matthias gibt D-1021-1…-7, -9, -11 frei (Reihenfolge laut Gesamtbericht), danach erneute Vollprüfung.
 - Übergabe an den Nachfolger-Chat (Generation 2) in `docs/uebergabe.md`.
+
+## 21.10.2026 – Prüfung 21.10., Durchgang 1 (D-1021-1 bis -5, -7, -9, -11, -13, -15)
+- Theorie-Korrekturen und Ergänzungen in allen Themen d01–d16, Verbkarten mit voller DWDS-Tabelle (kommen, essen, trinken, schlafen, nehmen, wohnen, müssen, können, möchten, mögen, fehlen, betragen, trainieren), neue Wortkarten; Präteritum-Bildung nur noch als Erkennen (zuo).
+- A1-Wendungen in d01–d02b gelten als bekannt (Prüfliste 29); Lehrplan aktualisiert; Titel d08/d08b ohne Ortsangabe; d35 mit Schulzählung 1.–4. Fall.
+- Quellen-Nachprüfung: „Lift“ ist nicht das österreichische Normalwort (Goethe/ÖSD-B1-Liste: Aufzug D, A) – w01 korrigiert.
