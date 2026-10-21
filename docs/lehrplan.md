@@ -44,8 +44,9 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d02b | Ich weiß nicht, ob ich kommen kann – Wortstellung II: der Nebensatz | A2 |
 | d04 | Was brauchen wir vom Markt? – der, die, das | A1 |
 | d04b | Zwei Kilo Erdäpfel, bitte – der Plural | A1 |
-| d05 | Ein Geschenk für die Kollegin – Nominativ und Akkusativ | A1/A2 |
-| d05b | Wem schenken wir die Blumen? – der Dativ | A2 |
+| d35 | Wer, wen, wem, wessen? – die 4 Fälle (Paket, Teil 1: Artikel, Pronomen, Fall-Finder, Präpositionen, Genitiv, n-Nomen; D-1020-46/-52) | A2–B1 |
+| d05 | Ein Geschenk für die Kollegin – Akkusativ üben (Übungsthema zu d35, D-1020-53) | A1/A2 |
+| d05b | Wem schenken wir die Blumen? – Dativ üben (Übungsthema zu d35, D-1020-53) | A2 |
 | d09 | Wie komme ich zur Post? – Präpositionen mit festem Kasus | A2 |
 | d09b | Seit wann wohnst du hier? – wo, wohin, woher; seit und vor | A2 |
 | d03 | Als ich nach Österreich kam – als, wenn, wann | B1 |
@@ -57,7 +58,8 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d08 | Nehmen Sie die Tabletten! – in der Apotheke | A2 |
 | d08b | Ich habe mir den Fuß verletzt – beim Arzt | A2 |
 | d11 | Wohin kommt das Sofa? – Wechselpräpositionen | A2 |
-| d34 | Wer? Wen? Wem? – alle Fälle zusammen (Übersichtsthema, keine neuen Regeln/Wörter, D-1019-63) | A2 |
+| d34 | Wer? Wen? Wem? – alle Fälle gemischt üben (Übungsthema zu d35, D-1019-63, D-1020-53) | A2 |
+| d36 | Der alte Tisch, ein größeres Büro – Adjektive und Steigerung (Paket, Teil 2; D-1020-52) | A2–B1 |
 | d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ |
 | d15 | Ein großer Balkon, frisches Brot – Adjektivendungen II | A2+ |
 | d16 | Könnten Sie mir sagen, ob …? – Konjunktiv II höflich | A2++ |
