@@ -25,3 +25,4 @@ Zu jeder Zeile in `lektionen/pruefliste.md` (gleiche Nummer): Beispiel und woher
 | 19 | d04 „das Getränk“ als Beispiel für Ge-…-e; Kurzliste ohne „außer“ | Matthias 13.10. („auch zukünftige Themen so prüfen“) |
 | 20 | d01: Tabelle „ist passiert“ erst im letzten Schritt (passieren + sein kommt in d01b); d04 ex 57 verlangte „konnte“ (d03 kommt später); d01b ex 7 „mit dem Zug“ vor d05b/d09; d01 Schritt 1 ex 73 „gearbeitet“ – Abschnitt 4 zeigt die Form nur als Beispiel, die Bildungsregel kommt erst in Schritt 2 | Matthias 14.10., Simulation 14.10. (D-1014-57/-58/-62), Matthias 15.10. (S-1014-52) |
 | 22 | d14–d16 mit je ~50 Übungen in 4 Schritten bleiben so; eine Runde zieht 20 daraus | Matthias 15.10.2026 (über Simulation, D-1014-76) |
+| 29 | d01b „Nein, ich musste nicht zum Arzt gehen“: *zum Arzt* = bekannte A1-Wendung (kein Vorgriff), *musste* = Präteritum aus d03 (Vorgriff) | Matthias 21.10.2026 (D-1021-7) |

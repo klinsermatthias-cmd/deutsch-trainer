@@ -198,5 +198,35 @@
    "\\bAlles Gute\\b",
    "\\b(lieber|liebsten)\\b"
   ]
+ },
+ "bekannt": {
+  "d01": [
+   "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
+   "\\b[Mm]it (dem|der) ",
+   "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
+   "\\b(mir|dir|Ihnen)\\b",
+   "\\b[Ii]n (der|die|das|den) "
+  ],
+  "d01b": [
+   "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
+   "\\b[Mm]it (dem|der) ",
+   "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
+   "\\b(mir|dir|Ihnen)\\b",
+   "\\b[Ii]n (der|die|das|den) "
+  ],
+  "d02": [
+   "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
+   "\\b[Mm]it (dem|der) ",
+   "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
+   "\\b(mir|dir|Ihnen)\\b",
+   "\\b[Ii]n (der|die|das|den) "
+  ],
+  "d02b": [
+   "\\b([Aa]m|[Ii]m|[Zz]um|[Zz]ur|[Ii]ns) ",
+   "\\b[Mm]it (dem|der) ",
+   "\\b([Mm]ein|[Dd]ein|[Ii]hr|[Ss]ein|[Uu]nser)(e|en|em|er)\\b",
+   "\\b(mir|dir|Ihnen)\\b",
+   "\\b[Ii]n (der|die|das|den) "
+  ]
  }
 }
