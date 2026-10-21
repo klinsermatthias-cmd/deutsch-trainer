@@ -204,3 +204,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 2026-10-21 – Fälle-Paket und Theorie-Verbesserungen (D-1020-46/-52/-53/-36)
 - Neues Fälle-Paket in zwei Teilen: d35 (nach d04b: Fall finden, Artikel, Pronomen, Fall-Finder, Präpositionen, Genitiv, n-Nomen; 60 Übungen) und d36 (vor d14: Adjektivendungen, Steigerung; 47 Übungen). Merkhilfen aus Lingolia, nthuleen, yourdailygerman, Duden-Frageprobe.
 - d05, d05b, d34 sind Übungsthemen mit Kurztheorie und Verweis auf d35; alle Fall-Themen bauen auf d35, d14–d16 auf d36 auf. 141 Theorie-Änderungen (Rückverweise, Leserinnen-Funde Kategorie C, „How to use it“ in w01–w06). vorgriff.json: Reihenfolge und Merkmale für d35/d36.
+
+## 2026-10-21 – Vollständige Prüfung und Umsiedeln (D-1021-1 … -12)
+- 6 Prüferinnen, 158 Funde (12 Fehler); Berichte und Prüfskripte in `docs/archiv/pruefung-2026-10-21/`. Matthias gibt D-1021-1…-7, -9, -11 frei (Reihenfolge laut Gesamtbericht), danach erneute Vollprüfung.
+- Übergabe an den Nachfolger-Chat (Generation 2) in `docs/uebergabe.md`.

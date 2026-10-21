@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="true">
+<title>Theorie Vorher Nachher</title>
+<style>
+:root{
+  --bg:#f6f5f3;--paper:#fff;--ink:#1d2128;--muted:#5f6670;--line:#e3e1dd;
+  --red:#c8102e;--red-bg:#fbecee;--tip:#f3f1ec;--warn-bg:#fdf3e2;--warn:#9a5b00;--ok:#2a7549;--old:#8a8f96;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121417;--paper:#1b1e23;--ink:#e9eaec;--muted:#a0a6ae;--line:#2c3037;
+  --red:#ff5a6e;--red-bg:#2a1c20;--tip:#1f2329;--warn-bg:#36290f;--warn:#f0b050;--ok:#5cc48a;--old:#7d838b;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121417;--paper:#1b1e23;--ink:#e9eaec;--muted:#a0a6ae;--line:#2c3037;
+  --red:#ff5a6e;--red-bg:#2a1c20;--tip:#1f2329;--warn-bg:#36290f;--warn:#f0b050;--ok:#5cc48a;--old:#7d838b;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-right)) 60px max(16px,env(safe-area-inset-left))}
+header h1{font-size:28px;letter-spacing:-.02em;margin:0 0 4px}
+header p{margin:0 0 12px;color:var(--muted)}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg{display:inline-flex;border:1.5px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{border:0;background:var(--paper);color:var(--ink);padding:8px 12px;font:inherit;font-size:14px;cursor:pointer;min-height:40px}
+.seg button[aria-pressed="true"]{background:var(--red);color:#fff}
+nav{display:flex;gap:6px;overflow-x:auto;flex:1 1 100%;padding-bottom:2px}
+nav a{flex:none;text-decoration:none;color:var(--red);background:var(--red-bg);border-radius:99px;padding:4px 10px;font-size:14px;font-weight:600}
+section{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px;margin:18px 0;scroll-margin-top:110px}
+section h2{margin:0;font-size:21px}
+.tid{color:var(--red);font-variant-numeric:tabular-nums;margin-right:4px}
+.meta{color:var(--muted);margin:2px 0 12px;font-size:14px}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.col{min-width:0}
+.lab{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 6px}
+.old .lab{color:var(--old)} .new .lab{color:var(--ok)}
+.old .theory{opacity:.85}
+.col{border-top:3px solid var(--line);padding-top:8px}
+.new{border-top-color:var(--ok)}
+body[data-v="new"] .old,body[data-v="old"] .new{display:none}
+body[data-v="new"] .cmp,body[data-v="old"] .cmp{grid-template-columns:1fr}
+@media (max-width:820px){.cmp{grid-template-columns:1fr}}
+.theory{max-width:420px}
+body[data-v="new"] .theory,body[data-v="old"] .theory{max-width:420px}
+.theory h3{font-size:17px;margin:18px 0 6px;color:var(--ink)}
+.theory h3:first-child{margin-top:0}
+.theory h4{font-size:15px;margin:12px 0 4px}
+.theory table{width:100%;border-collapse:collapse;margin:6px 0 14px;font-size:15px}
+.theory td,.theory th{padding:7px 6px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+.theory td:first-child{font-weight:650;color:var(--red);width:46%}
+.theory .rule{background:var(--red-bg);border-left:3px solid var(--red);padding:10px 12px;border-radius:3px 8px 8px 3px}
+.theory .tip{background:var(--tip);border-left:3px solid #9a8f7a;padding:10px 12px;border-radius:3px 8px 8px 3px}
+.theory .warn{background:var(--warn-bg);border-left:3px solid var(--warn);padding:10px 12px;border-radius:3px 8px 8px 3px}
+.theory ul,.theory ol{padding-left:20px;line-height:1.6}
+details{margin-top:12px;border-top:1px solid var(--line);padding-top:8px}
+summary{cursor:pointer;font-weight:650;color:var(--red);min-height:32px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.st{padding-left:20px;font-size:15px}
+.ex{padding-left:18px;font-size:15px}
+.ex li{margin:0 0 10px}
+.fmt{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;background:var(--tip);color:var(--muted);border-radius:6px;padding:1px 6px;margin-right:4px}
+.w{color:var(--muted)} .a{color:var(--ok);font-weight:600} .h{color:var(--warn);font-size:14px}
+</style>
+</head>
+<body data-v="both">
+<div class="wrap">
+<header>
+<h1>Theorie: vorher / nachher</h1>
+<p>{{N}} Themen · {{NEU}} neue Übungen · {{AUS}} ersetzte oder ausgeblendete Übungen · {{V}} neue Wortkarten. Links steht der Stand, der jetzt live ist, rechts der neue Stand (noch nicht live: D-1020-46/-52/-53 Fälle-Paket, D-1020-36 Theorie-Verbesserungen).</p>
+</header>
+<div class="bar">
+<div class="seg" role="group" aria-label="Ansicht">
+<button data-v="both" aria-pressed="true">Nebeneinander</button><button data-v="new" aria-pressed="false">Nur nachher</button><button data-v="old" aria-pressed="false">Nur vorher</button>
+</div>
+<nav>{{NAV}}</nav>
+</div>
+{{BODY}}
+</div>
+<script>
+(function(){
+  var bs=document.querySelectorAll('.seg button');
+  function set(v){document.body.dataset.v=v;bs.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.v===v)});try{localStorage.setItem('vn-v',v)}catch(e){}}
+  bs.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.v)})});
+  var s=null;try{s=localStorage.getItem('vn-v')}catch(e){}
+  set(s||(window.innerWidth<820?'new':'both'));
+})();
+</script>
+</body>
+</html>
