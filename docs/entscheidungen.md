@@ -221,3 +221,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 22.10.2026 – Prüfung 22.10., Teil 1 (D-1022-2, -3, -4)
 - Fehler korrigiert (u. a. Kilo/Kilos, den 2er, Aushang ohne Duzen, grüß Gott klein, falsche Verweise), Theorie-Lücken geschlossen (ab/bis, Reflexivverben, mir zu teuer, -ei/-ie, -nis, alle/beide, Angestellte, An deiner Stelle …, bin gesessen), neue Karten (denn = because, hängen regelmäßig, Steigerung, Reflexivverben), fehlende Lösungen ergänzt.
 - Quellen-Nachprüfung: 45 Punkte, 41 belegt, 4 teilweise, keiner widerlegt.
+
+## 22.10.2026 – Prüfung 22.10., Teil 2: höchstens 10 % je Szene (D-1022-1)
+- Matthias: „25 % ist immer noch viel, vielleicht max 10 %“ – 381 neue, 399 ausgeblendete Übungen; in allen Grammatikthemen liegt keine Alltagsszene, kein Name und keine Stadt über 10 % der aktiven Übungen (Wortpakete mit eigenem Thema bis 16 %); Ersatz jeweils im selben Lernschritt und Format, neue Bereiche Schule, Bank, Reklamieren, Feste, Telefonieren. Prüfliste 30.
