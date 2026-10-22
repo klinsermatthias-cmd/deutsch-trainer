@@ -18,3 +18,6 @@ Lies zuerst `CLAUDE.md`. Danach: alten Chat archivieren (Session-ID unten), dies
 ## Abläufe
 - Große Inhaltsrunden: Helferinnen (Agent) schreiben je Gruppe Patch-Skripte in `/home/user/arbeit/<gruppe>/` (Vorlage-Auftrag dort nicht mehr vorhanden – neu schreiben nach `docs/ablauf-thema.md`), Hauptchat spielt sie der Reihe nach ein, lässt „ohne Quelle“-Punkte von einer eigenen Helferin nachprüfen, setzt Prüfvermerke (`node tools/thema.mjs --vermerk <ids> --quellen "…" --chat D`), pusht auf main, veröffentlicht Vorher/Nachher-Seite (Artifact, gleiche Datei = gleiche URL).
 - Bei Nutzungslimit (429) Helferinnen nach der Rücksetzung per SendMessage fortsetzen; stündlicher Wecker per `send_later` nur, solange Helferinnen laufen.
+
+## Session-ID des alten Chats (Generation 2)
+- session_01SVhbR1MZFJGZcrqhsDmKgT
