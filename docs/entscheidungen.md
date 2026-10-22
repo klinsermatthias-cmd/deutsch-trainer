@@ -217,3 +217,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 21.10.2026 – Prüfung 21.10., Durchgang 2 (D-1021-6)
 - Alle Themen d01–d16 und w01–w06 auf Vielfalt überarbeitet: 332 neue Übungen aus vielen Alltagssituationen, 467 eintönige oder ratbare Übungen ausgeblendet (`aus`); je Thema 47–70 aktive Übungen, 40–52 % Satzbildung, ≤ 6 mc mit gleich langen Optionen.
 - Wortpakete: ausziehen, putzen, Versicherung, Staatsbürgerschaft, Sport ergänzt; zwei Übungen in den richtigen Lernschritt verschoben.
+
+## 22.10.2026 – Prüfung 22.10., Teil 1 (D-1022-2, -3, -4)
+- Fehler korrigiert (u. a. Kilo/Kilos, den 2er, Aushang ohne Duzen, grüß Gott klein, falsche Verweise), Theorie-Lücken geschlossen (ab/bis, Reflexivverben, mir zu teuer, -ei/-ie, -nis, alle/beide, Angestellte, An deiner Stelle …, bin gesessen), neue Karten (denn = because, hängen regelmäßig, Steigerung, Reflexivverben), fehlende Lösungen ergänzt.
+- Quellen-Nachprüfung: 45 Punkte, 41 belegt, 4 teilweise, keiner widerlegt.
