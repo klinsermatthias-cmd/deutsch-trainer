@@ -42,7 +42,7 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d01b | Wohin bist du gefahren? – Perfekt II: haben oder sein? | A2 |
 | d02 | Ich kann leider nicht kommen – Wortstellung I: der Hauptsatz | A2 |
 | d02b | Ich weiß nicht, ob ich kommen kann – Wortstellung II: der Nebensatz | A2 |
-| d04 | Was brauchen wir vom Markt? – der, die, das | A1 |
+| d04 | Der Termin, die Rechnung, das Amt – der, die, das | A1 |
 | d04b | Zwei Kilo Erdäpfel, bitte – der Plural | A1 |
 | d35 | Wer, wen, wem, wessen? – die 4 Fälle (Paket, Teil 1: Artikel, Pronomen, Fall-Finder, Präpositionen, Genitiv, n-Nomen; D-1020-46/-52) | A2–B1 |
 | d05 | Ein Geschenk für die Kollegin – Akkusativ üben (Übungsthema zu d35, D-1020-53) | A1/A2 |
