@@ -227,3 +227,9 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 22.10.2026 – Titel d04 (D-1022-8)
 - d04 heißt jetzt „Der Termin, die Rechnung, das Amt – der, die, das“, weil der Markt nur noch 9 % der Übungen ausmacht; ID unverändert.
+
+## 22.10.2026 – Fälle verständlicher, kleinere Schritte (D-1022-10 bis -14)
+- d35 jetzt 6 Lernschritte (je 10–11 Übungen, letzter 22); Abschnitt 6 geteilt in 6 (feste Präpositionen) und 6b (Wechselpräpositionen); Fall-Finder mit Spalte „→ case“ und 5 Beispielsätzen „Try it“. d36 jetzt 4 Schritte (Schritt 2 geteilt: ohne Artikel/alle/beide – Steigerung).
+- Kasten „🇫🇮 For Finnish speakers“ in d35 (Abschnitte 1, 6b) und d05b (Abschnitt 1): Fälle-Partner, Ortsfälle ↔ wo/wohin, -lle ≈ Dativ mit Ausnahmen; Quellen Wiktionary, Wikipedia, Duden, DWDS. Prüfliste 31.
+- d11 ohne d06 in `req` (Pronomen lehrt d35, Abschnitt 4) → frei schon nach d09b; vorgriff.json-Reihenfolge angepasst, 0 neue Vorgriffe.
+- Fehlende B1/B2-Themen (D-1022-15) nicht gebaut: Matthias – Umfang reicht vorerst, weitere Themen entstehen aus Auroras Schwächen.

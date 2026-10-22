@@ -57,7 +57,7 @@ Reihenfolge nach `req` (steht in `lektionen/lektionen.json`). Alle haben Lernsch
 | d07b | Den nehme ich! – der, die, das allein und welcher? | A2 |
 | d08 | Nehmen Sie die Tabletten! – der Imperativ | A2 |
 | d08b | Ich habe mir den Fuß verletzt – Körper und Befinden | A2 |
-| d11 | Wohin kommt das Sofa? – Wechselpräpositionen | A2 |
+| d11 | Wohin kommt das Sofa? – Wechselpräpositionen (frei schon nach d09b, D-1022-14) | A2 |
 | d34 | Wer? Wen? Wem? – alle Fälle gemischt üben (Übungsthema zu d35, D-1019-63, D-1020-53) | A2 |
 | d36 | Der alte Tisch, ein größeres Büro – Adjektive und Steigerung (Paket, Teil 2; D-1020-52) | A2–B1 |
 | d14 | Die helle Wohnung im zweiten Stock – Adjektivendungen I | A2+ |
