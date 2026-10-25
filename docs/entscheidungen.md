@@ -253,3 +253,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 25.10.2026 – Sprachprüfung aller Übungen (D-1025-8)
 - 1596 Übungen geprüft; ein falscher mc-Schlüssel (w04 „die Kontos“), drei ungenaue Erklärungen, zwei unidiomatische Stellen und 20 fehlende gleichwertige Lösungen korrigiert.
 - Neue Prüflisten-Zeile 32: mc-Distraktoren im Wörterbuch prüfen. Bericht: `docs/archiv/pruefung-2026-10-25/08-sprachpruefung.md`.
+
+## 25.10.2026 – Antwortbewertung getestet (D-1025-12)
+- Lokale Bewertung mit 16.489 richtigen und 26.615 gezielt falschen Varianten getestet: keine falsche Antwort als richtig. Behoben (Engine): kleiner Satzanfang in Satz-Lücken („→ ___“) galt ohne KI als falsch. Bericht: `docs/archiv/pruefung-2026-10-25/12-antwortbewertung.md`.
