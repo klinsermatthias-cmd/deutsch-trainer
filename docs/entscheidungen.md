@@ -259,3 +259,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 25.10.2026 – Finnisch-Kästen in 8 weiteren Themen (D-1025-10)
 - „🇫🇮 For Finnish speakers“ neu in d01, d02b, d03, d04, d08, d09b, d11, d16 (kun = als/wenn, missä/mihin ↔ Dativ/Akkusativ, konditionaali ↔ Konjunktiv II …). Bericht: `docs/archiv/pruefung-2026-10-25/10-finnisch-kaesten.md`.
+
+## 25.10.2026 – B1/B2-Abdeckung (D-1025-13)
+- A1–A2 komplett gebaut; der Plan deckt B1 vollständig und B2 fast vollständig. Drei kleine Lücken (brauchen nicht … zu, Futur II rezeptiv, Funktionen von es) und Genitiv-Präpositionen in den Lehrplan übernommen. Bericht: `docs/archiv/pruefung-2026-10-25/13-b1-b2-abdeckung.md`.
