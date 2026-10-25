@@ -4,7 +4,7 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 
 | Code | Thema | Stand |
 |---|---|---|
-| 26 | Repos/Historie auf Schlüssel, private Daten | offen |
+| 26 | Repos/Historie auf Schlüssel, private Daten | erledigt: sauber (`26-schluessel-privat.md`) |
 | 23 | Speicher auf dem Handy (localStorage) | offen |
 | 22 | Sync/Sicherung mit Störfällen | offen |
 | 24 | App-Aktualisierung (Service Worker) | offen |

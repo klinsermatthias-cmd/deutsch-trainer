@@ -233,3 +233,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 - Kasten „🇫🇮 For Finnish speakers“ in d35 (Abschnitte 1, 6b) und d05b (Abschnitt 1): Fälle-Partner, Ortsfälle ↔ wo/wohin, -lle ≈ Dativ mit Ausnahmen; Quellen Wiktionary, Wikipedia, Duden, DWDS. Prüfliste 31.
 - d11 ohne d06 in `req` (Pronomen lehrt d35, Abschnitt 4) → frei schon nach d09b; vorgriff.json-Reihenfolge angepasst, 0 neue Vorgriffe.
 - Fehlende B1/B2-Themen (D-1022-15) nicht gebaut: Matthias – Umfang reicht vorerst, weitere Themen entstehen aus Auroras Schwächen.
+
+## 25.10.2026 – Tiefenprüfung D-1025-26 (Schlüssel, private Daten)
+- Volle Historie beider Repos (alle Branches) auf Schlüssel, Supabase-URL, Berichte und persönliche Daten durchsucht: sauber, nur Test-Attrappen.
+- E-Mail-Adressen nur in Autor-Metadaten früher Commits; Historie wird nicht umgeschrieben. Bericht: `docs/archiv/pruefung-2026-10-25/26-schluessel-privat.md`.
