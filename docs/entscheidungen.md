@@ -237,3 +237,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 25.10.2026 – Tiefenprüfung D-1025-26 (Schlüssel, private Daten)
 - Volle Historie beider Repos (alle Branches) auf Schlüssel, Supabase-URL, Berichte und persönliche Daten durchsucht: sauber, nur Test-Attrappen.
 - E-Mail-Adressen nur in Autor-Metadaten früher Commits; Historie wird nicht umgeschrieben. Bericht: `docs/archiv/pruefung-2026-10-25/26-schluessel-privat.md`.
+
+## 25.10.2026 – CI: Zeitgrenzen und Browser-Cache (D-1025-1)
+- Prüf-Jobs brechen nach 30 Minuten ab statt bis zu 6 h zu hängen. Die Playwright-Installation hat je Versuch 4,5 Minuten und bis zu 3 Versuche, der Browser liegt im Actions-Cache (Schlüssel playwright-1.56.1).
+- Die Workflows sind in beiden Repos gleich (Engine-Dateien, hier selbst eingetragen, weil „Engine übernehmen“ keine Workflows pushen darf).
