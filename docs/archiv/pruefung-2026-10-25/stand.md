@@ -8,8 +8,8 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 23 | Speicher auf dem Handy (localStorage) | offen |
 | 22 | Sync/Sicherung mit Störfällen | offen |
 | 24 | App-Aktualisierung (Service Worker) | offen |
-| 1 | CI: Zeitgrenze, Browser-Cache | offen |
-| 21 | Code-Review Engine | offen |
+| 1 | CI: Zeitgrenze, Browser-Cache | erledigt: Zeitgrenze 30 min, 3 Installationsversuche, Browser-Cache (beide Repos) |
+| 21 | Code-Review Engine | erledigt: B1–B4 behoben (opi-suomea 04999f2), B5/B6 offen (`21-code-review.md`) |
 | 8 | Sprachprüfung aller Übungen | offen |
 | 12 | Antwortbewertung testen | offen |
 | 11 | Simulation „Aurora“ | offen |

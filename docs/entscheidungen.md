@@ -241,3 +241,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 25.10.2026 – CI: Zeitgrenzen und Browser-Cache (D-1025-1)
 - Prüf-Jobs brechen nach 30 Minuten ab statt bis zu 6 h zu hängen. Die Playwright-Installation hat je Versuch 4,5 Minuten und bis zu 3 Versuche, der Browser liegt im Actions-Cache (Schlüssel playwright-1.56.1).
 - Die Workflows sind in beiden Repos gleich (Engine-Dateien, hier selbst eingetragen, weil „Engine übernehmen“ keine Workflows pushen darf).
+
+## 25.10.2026 – Code-Review Engine (D-1025-21)
+- KI-Antworten werden zentral normalisiert (Listen `tips`/`strengths`/`weaknesses` immer Arrays, JSON-Array auf oberster Ebene erlaubt); die Fortschritt-Ansicht stürzt bei alten oder fehlerhaften Berichten nicht mehr ab; Diagnose-Texte werden escaped (Engine opi-suomea 04999f2).
+- Offen, weil sehr selten: Tag doppelt gezählt nach „Letzte Bewertung ändern“ am Rundenende (B5), Fehlerzweig zeigt evtl. altes Datum (B6). Bericht: `docs/archiv/pruefung-2026-10-25/21-code-review.md`.
