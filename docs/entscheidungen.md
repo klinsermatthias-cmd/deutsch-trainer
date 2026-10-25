@@ -265,3 +265,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 25.10.2026 – Theorien geprüft (D-1025-9)
 - Alle 31 Theorien geprüft; 34 Stellen korrigiert (zu absolute Regeln, Widersprüche zu Übungen, Bahnsteig statt Gleis in Österreich, Wiener ohne Endung, Dativ-Plural-n). Keine falsche Tabelle. Bericht: `docs/archiv/pruefung-2026-10-25/09-theorien.md`.
+
+## 25.10.2026 – Wortschatz-Analyse (D-1025-14)
+- Abgleich mit der B1-Wortliste (Goethe/ÖSD): etwa 38–45 % vorhanden. Fehlende Wörter in `docs/b1-woerter-fehlend.txt`; neue Übungen nehmen sie bevorzugt (`docs/ablauf-thema.md`). Bericht: `docs/archiv/pruefung-2026-10-25/14-wortschatz.md`.

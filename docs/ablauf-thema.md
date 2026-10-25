@@ -4,6 +4,7 @@ Vorher lesen: `lektionen/pruefliste.md`, `lektionen/README.md`, Plan in `docs/le
 
 ## Aufbau eines Themas
 - **Grammatik-Baustein (D-1020-48):** Übungen mit vielfältigem österreichischem Alltagswortschatz (B1/B2), nicht an eine Situation gebunden; jedes Übungswort braucht einen Wörterbuch-Eintrag (Wortliste oder `GLOSS_EXTRA`); die Wortliste des Themas ist nur Wörterbuch, keine Lernliste; höchstens 3 neue Teilregeln (Teilregel = eine eigene Bildungsregel; Überblick, Vergleich, Strategie und Wortschatz zählen nicht, D-1019-70), sonst teilen (`aus: true` im alten Thema, Teilthema `…b`).
+- **B1-Wortschatz gezielt erweitern (D-1025-14):** für neue Übungen bevorzugt Wörter aus `docs/b1-woerter-fehlend.txt` (B1-Wortliste Goethe/ÖSD, die in der App noch fehlen) nehmen; österreichische Variante mit „Germany: …“.
 - **Theorie (Englisch, S-1013-34; ohne Situation/Dialog seit D-1020-43):** „The most important things“ (Liste) → 1. Overview (ganzes System als Tabelle) → je Teilregel eine nummerierte `<h3>`-Überschrift mit kurzer Liste und Beispieltabelle → „⚠ Watch out“ (✗/✓ mit Auroras typischen Fehlern) → „🇦🇹 Austria“ → Verbformen. Keine Klammer-Einschübe, ein Gedanke je Listenpunkt; vollständige Tabellen (≤ 3 Spalten).
 - **Theorie verständlich schreiben (D-1020-2, Matthias 20.10.: vollständig vor kurz, keine Höchstgrenzen):**
   1. „The most important things“ = nur die Kernregeln, jede mit einem Beispiel; keine Verweise auf andere Themen.
