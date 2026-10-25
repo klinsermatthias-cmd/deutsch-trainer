@@ -256,3 +256,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 25.10.2026 – Antwortbewertung getestet (D-1025-12)
 - Lokale Bewertung mit 16.489 richtigen und 26.615 gezielt falschen Varianten getestet: keine falsche Antwort als richtig. Behoben (Engine): kleiner Satzanfang in Satz-Lücken („→ ___“) galt ohne KI als falsch. Bericht: `docs/archiv/pruefung-2026-10-25/12-antwortbewertung.md`.
+
+## 25.10.2026 – Finnisch-Kästen in 8 weiteren Themen (D-1025-10)
+- „🇫🇮 For Finnish speakers“ neu in d01, d02b, d03, d04, d08, d09b, d11, d16 (kun = als/wenn, missä/mihin ↔ Dativ/Akkusativ, konditionaali ↔ Konjunktiv II …). Bericht: `docs/archiv/pruefung-2026-10-25/10-finnisch-kaesten.md`.
