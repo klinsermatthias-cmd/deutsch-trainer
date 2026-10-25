@@ -271,3 +271,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 25.10.2026 – Einstufungstest geprüft (D-1025-15)
 - 169 Aufgaben: keine falsche; 6 gleichwertige Antworten ergänzt (umso, wer, darum/deswegen/daher, dieses Wochenende, in welcher, Ziffern), B4.7 „Ordination“, Titel A18 „More grammar (A1–B1)“. IDs unverändert. Bericht: `docs/archiv/pruefung-2026-10-25/15-einstufungstest.md`.
+
+## 25.10.2026 – Simulation, Wiederholungsplan, KI-Aufträge, pruefen (D-1025-11, -20, -17, -27)
+- Simulation: Coach-Nachbau beachtet jetzt die Lernschritt-Regel; Wiederholungen zu 82 % zum richtigen Zeitpunkt. Lernschritte mit vielen Schreibaufgaben (d01b/5, d01/5, d09/4) beim nächsten Bearbeiten auflockern.
+- KI-Aufträge: fehlender Inhalt ist falsch, Antwortsprache verlangt, Eingaben als Daten (Engine). pruefen: Schutzprüfung „nur hinten anhängen“ lief für Lektionen wegen 1-MB-Puffer nicht – behoben, keine Verstöße. Berichte in `docs/archiv/pruefung-2026-10-25/`.
