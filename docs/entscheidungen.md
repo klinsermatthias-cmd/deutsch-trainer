@@ -245,3 +245,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 25.10.2026 – Code-Review Engine (D-1025-21)
 - KI-Antworten werden zentral normalisiert (Listen `tips`/`strengths`/`weaknesses` immer Arrays, JSON-Array auf oberster Ebene erlaubt); die Fortschritt-Ansicht stürzt bei alten oder fehlerhaften Berichten nicht mehr ab; Diagnose-Texte werden escaped (Engine opi-suomea 04999f2).
 - Offen, weil sehr selten: Tag doppelt gezählt nach „Letzte Bewertung ändern“ am Rundenende (B5), Fehlerzweig zeigt evtl. altes Datum (B6). Bericht: `docs/archiv/pruefung-2026-10-25/21-code-review.md`.
+
+## 25.10.2026 – Tiefenprüfung Sync, Speicher, Service Worker (D-1025-22, -23, -24)
+- Kein dauerhafter Verlust im normalen Sync. Pausierte Runde auf zwei Geräten: Fix auf Branch `d1025-sync-runde` (opi-suomea), Merge nach OK. Service Worker lädt die Seite jetzt frisch (Engine 20d2f28).
+- Speicher: Lektionen-Cache (~1 Mio. Zeichen) liegt im Gerätespeicher, den sich beide Apps teilen; Auslagern als eigener Branch vorgeschlagen. Bericht: `docs/archiv/pruefung-2026-10-25/22-23-24-sync-speicher-sw.md`.

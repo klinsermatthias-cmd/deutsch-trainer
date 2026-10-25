@@ -5,9 +5,9 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | Code | Thema | Stand |
 |---|---|---|
 | 26 | Repos/Historie auf Schlüssel, private Daten | erledigt: sauber (`26-schluessel-privat.md`) |
-| 23 | Speicher auf dem Handy (localStorage) | offen |
-| 22 | Sync/Sicherung mit Störfällen | offen |
-| 24 | App-Aktualisierung (Service Worker) | offen |
+| 23 | Speicher auf dem Handy (localStorage) | geprüft: Grenze bei intensiver Nutzung nach ~24 Monaten (Chromium); Lektionen-Cache auslagern → Branch, noch offen (`22-23-24-sync-speicher-sw.md`) |
+| 22 | Sync/Sicherung mit Störfällen | geprüft: kein Verlust im Normalweg; F1 behoben auf Branch `d1025-sync-runde` (wartet auf OK), F2–F7 offen/gering |
+| 24 | App-Aktualisierung (Service Worker) | erledigt: robust; Seitenaufruf jetzt `no-cache` (opi-suomea 20d2f28) |
 | 1 | CI: Zeitgrenze, Browser-Cache | erledigt: Zeitgrenze 30 min, 3 Installationsversuche, Browser-Cache (beide Repos) |
 | 21 | Code-Review Engine | erledigt: B1–B4 behoben (opi-suomea 04999f2), B5/B6 offen (`21-code-review.md`) |
 | 8 | Sprachprüfung aller Übungen | offen |
