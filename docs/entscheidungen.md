@@ -268,3 +268,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 25.10.2026 – Wortschatz-Analyse (D-1025-14)
 - Abgleich mit der B1-Wortliste (Goethe/ÖSD): etwa 38–45 % vorhanden. Fehlende Wörter in `docs/b1-woerter-fehlend.txt`; neue Übungen nehmen sie bevorzugt (`docs/ablauf-thema.md`). Bericht: `docs/archiv/pruefung-2026-10-25/14-wortschatz.md`.
+
+## 25.10.2026 – Einstufungstest geprüft (D-1025-15)
+- 169 Aufgaben: keine falsche; 6 gleichwertige Antworten ergänzt (umso, wer, darum/deswegen/daher, dieses Wochenende, in welcher, Ziffern), B4.7 „Ordination“, Titel A18 „More grammar (A1–B1)“. IDs unverändert. Bericht: `docs/archiv/pruefung-2026-10-25/15-einstufungstest.md`.

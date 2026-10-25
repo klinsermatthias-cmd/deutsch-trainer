@@ -17,7 +17,7 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 10 | Finnisch-Kästen weitere Themen | erledigt: 8 Themen neu (`10-finnisch-kaesten.md`) |
 | 13 | B1/B2-Abdeckung (Bericht) | erledigt: A1–A2 komplett, Plan deckt B1/B2; 3 kleine Lücken in den Lehrplan übernommen (`13-b1-b2-abdeckung.md`) |
 | 14 | Wortschatz-Analyse | erledigt: ≈ 38–45 % der B1-Wortliste in der App; fehlende Wörter als Liste für neue Übungen (`14-wortschatz.md`) |
-| 15 | Einstufungstest | offen |
+| 15 | Einstufungstest | erledigt: 169 Aufgaben, keine falsch, 8 kleine Verbesserungen (`15-einstufungstest.md`) |
 | 17 | KI-Aufträge prüfen | offen |
 | 18 | Teilpunkte (Branch) | offen |
 | 19 | „Meine Schwächen“ (Branch) | offen |

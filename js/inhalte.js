@@ -1917,12 +1917,12 @@ const PT = [
           "weder … noch"
         ],
         items: [
-          { k: "b", t: "Ich bin müde, ___ gehe ich früh ins Bett.", s: ["deshalb"] },
+          { k: "b", t: "Ich bin müde, ___ gehe ich früh ins Bett.", s: ["deshalb|darum|deswegen|daher"] },
           { k: "b", t: "Es regnet. ___ gehen wir spazieren.", s: ["trotzdem"] },
           { k: "b", t: "___ es regnet, gehen wir spazieren.", s: ["obwohl"] },
           { k: "b", t: "Er trinkt nicht Kaffee, ___ Tee.", s: ["sondern"] },
           { k: "b", t: "Ich spare Geld, ___ ich im Sommer reisen kann.", s: ["damit"] },
-          { k: "b", t: "___ mehr ich übe, ___ besser spreche ich.", s: ["je", "desto"] },
+          { k: "b", t: "___ mehr ich übe, ___ besser spreche ich.", s: ["je", "desto|umso"] },
           { k: "b", t: "Sie spricht ___ Englisch ___ Französisch.", s: ["weder", "noch"] },
           { k: "b", t: "Ich komme nicht mit, ___ ich habe keine Zeit.", s: ["denn"] }
         ]
@@ -1949,7 +1949,7 @@ const PT = [
             k: "r",
             t: "Der Film beginnt um acht.",
             tag: "Perfekt",
-            s: ["Der Film hat um acht begonnen.", "Der Film hat um acht Uhr begonnen."]
+            s: ["Der Film hat um acht begonnen.", "Der Film hat um acht Uhr begonnen.", "Der Film hat um 8 begonnen.", "Der Film hat um 8 Uhr begonnen."]
           },
           { k: "r", t: "Ich muss lange warten.", tag: "Perfekt", s: ["Ich habe lange warten müssen."] },
           { k: "r", t: "Wir sind müde und haben Hunger.", tag: "Präteritum", s: ["Wir waren müde und hatten Hunger."] },
@@ -2018,7 +2018,7 @@ const PT = [
           { k: "b", t: "Sie legt das Handy auf d___ Tisch.", s: ["en"] },
           { k: "b", t: "Das Handy liegt auf d___ Tisch.", s: ["em"] },
           { k: "b", t: "Ich hänge das Bild an d___ Wand.", s: ["ie"] },
-          { k: "b", t: "Wir fahren ___ Wochenende ___ meinen Eltern.", s: ["am|übers|über das", "zu"] },
+          { k: "b", t: "Wir fahren ___ Wochenende ___ meinen Eltern.", s: ["am|übers|über das|dieses|nächstes", "zu"] },
           { k: "b", t: "Wir treffen uns ___ 18 Uhr ___ Bahnhof.", s: ["um|gegen|ab", "am|beim|vor dem|vorm|im"] },
           { k: "b", t: "Während d___ Unterricht___ war das Handy aus.", tag: "genitive", s: ["es", "s|es"] },
           { k: "b", t: "Ich muss morgen ___ Arzt.", s: ["zum"] }
@@ -2170,21 +2170,21 @@ const PT = [
       },
       {
         id: "A18",
-        title: "More B1 grammar",
+        title: "More grammar (A1–B1)",
         hint: "Look at the label next to each task.",
         items: [
           { k: "b", t: "Er spielt am Handy, ___ seine Hausaufgaben ___. (machen)", tag: "instead of", s: ["statt|anstatt", "zu machen"] },
           { k: "b", t: "___ ich heute krank bin, kann ich leider nicht kommen.", tag: "reason – not „weil“", s: ["da"] },
           { k: "b", t: "___ es morgen regnet, bleiben wir zu Hause.", tag: "condition – not „wenn“", s: ["falls|sofern"] },
           { k: "b", t: "Das ist alles, ___ ich weiß.", s: ["was"] },
-          { k: "b", t: "Graz ist die Stadt, ___ ich studiert habe.", s: ["wo|in der"] },
+          { k: "b", t: "Graz ist die Stadt, ___ ich studiert habe.", s: ["wo|in der|in welcher"] },
           { k: "b", t: "___ ich in Österreich lebe, spreche ich jeden Tag Deutsch.", tag: "since (time)", s: ["seit|seitdem"] },
           { k: "b", t: "Warte bitte hier, ___ ich zurückkomme.", s: ["bis"] },
           { k: "b", t: "Wir fahren ___ mit dem Zug ___ mit dem Bus.", tag: "either … or", s: ["entweder", "oder"] },
           { k: "b", t: "Sie spricht nicht nur Deutsch, ___ ___ Finnisch.", s: ["sondern", "auch"] },
           { k: "b", t: "Sowohl meine Mutter ___ mein Vater arbeiten im Krankenhaus.", s: ["als auch|wie auch|als|wie"] },
           { k: "b", t: "Die Wohnung ist zwar klein, ___ sehr gemütlich.", s: ["aber|doch|jedoch|dafür"] },
-          { k: "b", t: "Hat ___ meinen Schlüssel gesehen?", tag: "somebody", s: ["jemand|irgendjemand|irgendwer"] },
+          { k: "b", t: "Hat ___ meinen Schlüssel gesehen?", tag: "somebody", s: ["jemand|irgendjemand|irgendwer|wer"] },
           { k: "b", t: "Gib die Nudeln ins ___ Wasser. (kochen)", tag: "Partizip I", s: ["kochende"] },
           { k: "b", t: "Meine Schwester und ich arbeiten bei ___ Firma.", tag: "the same", s: ["derselben|der gleichen"] },
           { k: "b", t: "Wir haben zwei ___. (Kind)", tag: "Plural", s: ["Kinder"] },
@@ -2283,7 +2283,7 @@ const PT = [
             s: ["Betriebskosten"]
           },
           { k: "b", t: "Beim Einzug zahlt man meistens drei Monatsmieten als ___.", s: ["Kaution"] },
-          { k: "b", t: "Ich rufe in der Praxis an und vereinbare einen ___.", s: ["Termin"] },
+          { k: "b", t: "Ich rufe in der Ordination an und vereinbare einen ___.", s: ["Termin"] },
           { k: "b", t: "Können Sie mich bitte mit Frau Berger ___?", s: ["verbinden"] },
           { k: "b", t: "Im ___ ist es oft sehr kalt und es schneit.", s: ["Jänner"] },
           { k: "b", t: "Brauchen Sie ein ___? – Nein danke, ich habe eine Tasche dabei.", s: ["Sackerl"] }
