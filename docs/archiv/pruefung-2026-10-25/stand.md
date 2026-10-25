@@ -10,7 +10,7 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 24 | App-Aktualisierung (Service Worker) | erledigt: robust; Seitenaufruf jetzt `no-cache` (opi-suomea 20d2f28) |
 | 1 | CI: Zeitgrenze, Browser-Cache | erledigt: Zeitgrenze 30 min, 3 Installationsversuche, Browser-Cache (beide Repos) |
 | 21 | Code-Review Engine | erledigt: B1–B4 behoben (opi-suomea 04999f2), B5/B6 offen (`21-code-review.md`) |
-| 8 | Sprachprüfung aller Übungen | offen |
+| 8 | Sprachprüfung aller Übungen | erledigt: 1596 Übungen, 26 Korrekturen (`08-sprachpruefung.md`) |
 | 12 | Antwortbewertung testen | offen |
 | 11 | Simulation „Aurora“ | offen |
 | 9 | Theorien prüfen | offen |

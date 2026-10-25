@@ -6,6 +6,7 @@ const BASE_TOPICS = [];
 
 /* Wörterbuch-Ergänzungen fürs Antippen (keine Lernkarten) */
 const GLOSS_EXTRA = {
+  "wiederkommt": {de: "(he/she) comes back", base: "wiederkommen"},
   "feuerwerk": {de: "fireworks", note: "das Feuerwerk, die Feuerwerke"},
   "überweise": {de: "(I) transfer (money)", base: "überweisen"},
   "koch": {de: "cook, chef", note: "der Koch, die Köche; female: die Köchin"},

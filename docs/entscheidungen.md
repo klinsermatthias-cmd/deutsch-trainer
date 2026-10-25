@@ -249,3 +249,7 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 25.10.2026 – Tiefenprüfung Sync, Speicher, Service Worker (D-1025-22, -23, -24)
 - Kein dauerhafter Verlust im normalen Sync. Pausierte Runde auf zwei Geräten: Fix auf Branch `d1025-sync-runde` (opi-suomea), Merge nach OK. Service Worker lädt die Seite jetzt frisch (Engine 20d2f28).
 - Speicher: Lektionen-Cache (~1 Mio. Zeichen) liegt im Gerätespeicher, den sich beide Apps teilen; Auslagern als eigener Branch vorgeschlagen. Bericht: `docs/archiv/pruefung-2026-10-25/22-23-24-sync-speicher-sw.md`.
+
+## 25.10.2026 – Sprachprüfung aller Übungen (D-1025-8)
+- 1596 Übungen geprüft; ein falscher mc-Schlüssel (w04 „die Kontos“), drei ungenaue Erklärungen, zwei unidiomatische Stellen und 20 fehlende gleichwertige Lösungen korrigiert.
+- Neue Prüflisten-Zeile 32: mc-Distraktoren im Wörterbuch prüfen. Bericht: `docs/archiv/pruefung-2026-10-25/08-sprachpruefung.md`.

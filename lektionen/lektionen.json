@@ -2509,7 +2509,7 @@
     "txt": [
      "Gestern [habe] ich auf der Bank ein Konto [eröffnet]. (eröffnen)",
      "Die Bankangestellte [hat] mir alles [erklärt]. (erklären)",
-     "Dann [habe] ich am Bankomat Geld [abgehoben]. (abheben)"
+     "Dann [habe] ich am Bankomaten Geld [abgehoben]. (abheben)"
     ]
    },
    {
@@ -4179,7 +4179,8 @@
     "a": [
      "Die Schlüssel sind auf dem Tisch gelegen.",
      "Die Schlüssel haben auf dem Tisch gelegen.",
-     "Auf dem Tisch sind die Schlüssel gelegen."
+     "Auf dem Tisch sind die Schlüssel gelegen.",
+     "Auf dem Tisch haben die Schlüssel gelegen."
     ],
     "x": "Austria: liegen → sind gelegen (northern Germany: haben gelegen)."
    },
@@ -6363,7 +6364,7 @@
      ],
      [
       "Du",
-      "[Ja, vier Uhr passt gut.|Ja, um vier Uhr passt es mir gut.|Ja, das passt gut.|Ja, um vier Uhr passt gut.|Ja, vier Uhr passt mir.|Ja, um vier Uhr passt es mir.|Ja, um vier Uhr passt es gut.|Ja, das passt mir.|Ja, das passt mir gut.]",
+      "[Ja, vier Uhr passt gut.|Ja, um vier Uhr passt es mir gut.|Ja, das passt gut.|Ja, vier Uhr passt mir.|Ja, um vier Uhr passt es mir.|Ja, um vier Uhr passt es gut.|Ja, das passt mir.|Ja, das passt mir gut.]",
       "Say: yes, four o'clock suits you."
      ]
     ]
@@ -12262,8 +12263,8 @@
     "dir": "de",
     "q": "The trains are late, but the buses are on time.",
     "a": [
-     "Die Züge sind spät, aber die Busse sind pünktlich.",
      "Die Züge haben Verspätung, aber die Busse sind pünktlich.",
+     "Die Züge sind spät, aber die Busse sind pünktlich.",
      "Die Züge sind verspätet, aber die Busse sind pünktlich.",
      "Die Züge sind spät dran, aber die Busse sind pünktlich.",
      "Die Züge sind spät, die Busse aber pünktlich."
@@ -12315,7 +12316,7 @@
      "-e: die Schlüssele"
     ],
     "a": 0,
-    "x": "Masculine and neuter nouns in -er, -el, -en, -chen, -erl: no plural ending, sometimes an umlaut – der Vater → die Väter."
+    "x": "Masculine and neuter nouns in -er, -el, -en, -chen: no plural ending, sometimes an umlaut – der Vater → die Väter. 🇦🇹 -erl: no ending or -n – die Sackerl / die Sackerln."
    },
    {
     "t": "tr",
@@ -12400,7 +12401,10 @@
      "Für die Torte braucht man 250 Gramm Butter und drei Eier.",
      "Für die Torte braucht man zweihundertfünfzig Gramm Butter und drei Eier.",
      "Für die Torte brauchen wir 250 Gramm Butter und drei Eier.",
-     "Für die Torte braucht man fünfundzwanzig Deka Butter und drei Eier."
+     "Für die Torte braucht man fünfundzwanzig Deka Butter und drei Eier.",
+     "Für die Torte brauchst du 250 Gramm Butter und drei Eier.",
+     "Für die Torte brauchst du zweihundertfünfzig Gramm Butter und drei Eier.",
+     "Für die Torte brauchen Sie 250 Gramm Butter und drei Eier."
     ],
     "x": "Gramm stays singular after a number: 250 Gramm. Eier is plural."
    },
@@ -12895,7 +12899,9 @@
     "dir": "de",
     "q": "I'm looking for my key. Have you seen it?",
     "a": [
-     "Ich suche meinen Schlüssel. Hast du ihn gesehen?"
+     "Ich suche meinen Schlüssel. Hast du ihn gesehen?",
+     "Ich suche meinen Schlüssel. Haben Sie ihn gesehen?",
+     "Ich suche meinen Schlüssel. Habt ihr ihn gesehen?"
     ],
     "x": "der Schlüssel is masculine → Akkusativ meinen Schlüssel, pronoun ihn."
    },
@@ -21116,7 +21122,7 @@
       "seit"
      ],
      [
-      "Ich fahre ___ eine Woche nach Kärnten.",
+      "Ich buche das Hotel ___ eine Woche.",
       "für"
      ],
      [
@@ -21339,7 +21345,10 @@
      "Meine Eltern sind vor zwei Wochen zu Besuch gekommen.",
      "Vor zwei Wochen sind meine Eltern zu Besuch gekommen.",
      "Meine Eltern kamen vor zwei Wochen zu Besuch.",
-     "Vor zwei Wochen kamen meine Eltern zu Besuch."
+     "Vor zwei Wochen kamen meine Eltern zu Besuch.",
+     "Meine Eltern sind vor zwei Wochen auf Besuch gekommen.",
+     "Vor zwei Wochen sind meine Eltern auf Besuch gekommen.",
+     "Meine Eltern kamen vor zwei Wochen auf Besuch."
     ],
     "x": "ago = vor + Dativ (vor zwei Wochen), with a past tense."
    },
@@ -21625,7 +21634,7 @@
     "q": "Eine Nachricht vom Fußballverein",
     "txt": [
      "Liebe Eltern!",
-     "Seit Montag trainieren die Kinder wieder beim Stadion.",
+     "Seit Montag trainieren die Kinder wieder im Stadion.",
      "Am Samstag fahren wir mit dem Bus nach Wels zum Turnier.",
      "Um sechs Uhr sind die Kinder wieder daheim.",
      "Liebe Grüße, Trainer Mehmet"
@@ -23823,7 +23832,7 @@
      ],
      [
       "Du",
-      "[Ich weiß noch nicht, wann er wieder kommt.|Ich weiß nicht, wann er wieder kommt.|Ich weiß noch nicht, wann er wieder in die Schule kommt.|Ich weiß nicht, wann er wieder in die Schule kommt.]",
+      "[Ich weiß noch nicht, wann er wiederkommt.|Ich weiß nicht, wann er wiederkommt.|Ich weiß noch nicht, wann er wieder kommt.|Ich weiß nicht, wann er wieder kommt.|Ich weiß noch nicht, wann er wieder in die Schule kommt.|Ich weiß nicht, wann er wieder in die Schule kommt.]",
       "Say that you don't know yet when he is coming back."
      ],
      [
@@ -32997,7 +33006,9 @@
      "morgen"
     ],
     "a": [
-     "Den schicke ich dir morgen."
+     "Den schicke ich dir morgen.",
+     "Morgen schicke ich dir den.",
+     "Morgen schicke ich den dir."
     ],
     "de": "I'll send you that one tomorrow."
    },
@@ -33963,7 +33974,8 @@
      "ein"
     ],
     "a": [
-     "Nehmen Sie die Tabletten nach dem Essen ein!"
+     "Nehmen Sie die Tabletten nach dem Essen ein!",
+     "Nehmen Sie nach dem Essen die Tabletten ein!"
     ],
     "de": "Take the tablets after meals."
    },
@@ -38903,7 +38915,8 @@
     ],
     "a": [
      "Wir kaufen den Kindern Schokolade.",
-     "Den Kindern kaufen wir Schokolade."
+     "Den Kindern kaufen wir Schokolade.",
+     "Schokolade kaufen wir den Kindern."
     ],
     "de": "We're buying the children chocolate."
    },
@@ -39662,7 +39675,8 @@
     ],
     "a": [
      "Die Frau am Schalter gibt dem Kunden die Karte.",
-     "Dem Kunden gibt die Frau am Schalter die Karte."
+     "Dem Kunden gibt die Frau am Schalter die Karte.",
+     "Die Karte gibt die Frau am Schalter dem Kunden."
     ],
     "de": "The woman at the counter gives the customer the card."
    },
@@ -41493,7 +41507,7 @@
    },
    {
     "t": "mc",
-    "q": "Which ending does the adjective get after dem, der (Dativ) and in the plural?",
+    "q": "Which ending does the adjective get after dem, der (Dativ) and in the plural after die?",
     "o": [
      "always -en",
      "-e",
@@ -41501,7 +41515,7 @@
      "no ending"
     ],
     "a": 0,
-    "x": "In the Dativ (dem, der, im, am, zur) and in all plural forms the adjective always ends in -en: mit der neuen Nachbarin, die neuen Nachbarn."
+    "x": "In the Dativ (dem, der, im, am, zur) and in the plural after die, diese or alle, the adjective always ends in -en: mit der neuen Nachbarin, die neuen Nachbarn. (Without an article the plural takes -e: neue Nachbarn.)"
    },
    {
     "t": "mc",
@@ -44039,7 +44053,8 @@
     ],
     "a": [
      "Am Sonntag besuchen wir unsere Verwandten.",
-     "Wir besuchen am Sonntag unsere Verwandten."
+     "Wir besuchen am Sonntag unsere Verwandten.",
+     "Unsere Verwandten besuchen wir am Sonntag."
     ],
     "de": "On Sunday we're visiting our relatives."
    },
@@ -44157,7 +44172,8 @@
     ],
     "a": [
      "Sie hat jetzt einen besseren Job.",
-     "Jetzt hat sie einen besseren Job."
+     "Jetzt hat sie einen besseren Job.",
+     "Einen besseren Job hat sie jetzt."
     ],
     "de": "She has a better job now."
    },
@@ -46755,7 +46771,8 @@
      "Die Kinder machen ihre Hausübung im Wohnzimmer.",
      "Die Kinder machen ihre Hausübungen im Wohnzimmer.",
      "Die Kinder machen die Hausaufgaben im Wohnzimmer.",
-     "Die Kinder machen ihre Hausaufgaben im Wohnzimmer."
+     "Die Kinder machen ihre Hausaufgaben im Wohnzimmer.",
+     "Die Kinder machen die Hausübungen im Wohnzimmer."
     ],
     "x": "🇦🇹 die Hausübung (Germany: die Hausaufgabe)."
    },
@@ -47201,7 +47218,8 @@
      "Ich fahre im August in den Urlaub.",
      "Im August fahre ich in den Urlaub.",
      "Ich fahre im August in Urlaub.",
-     "Im August fahre ich in Urlaub."
+     "Im August fahre ich in Urlaub.",
+     "Ich gehe im August auf Urlaub."
     ]
    },
    {
@@ -47812,7 +47830,8 @@
      "Mir tut der Hals weh.",
      "Der Hals tut mir weh.",
      "Ich habe Halsschmerzen.",
-     "Ich habe Halsweh."
+     "Ich habe Halsweh.",
+     "Mein Hals tut weh."
     ]
    },
    {
@@ -48672,12 +48691,12 @@
     "q": "Plural of „das Konto“?",
     "o": [
      "die Konten",
-     "die Kontos",
+     "die Kontoen",
      "die Konte",
-     "die Kontoen"
+     "die Kontus"
     ],
     "a": 0,
-    "x": "das Konto – die Konten (like das Museum – die Museen)."
+    "x": "das Konto – die Konten (like das Museum – die Museen). Also correct, less common: die Kontos, die Konti."
    },
    {
     "t": "mc",
@@ -48689,7 +48708,7 @@
      "Steuer"
     ],
     "a": 0,
-    "x": "die Bestätigung = confirmation, e.g. Anmeldebestätigung."
+    "x": "die Bestätigung = confirmation, e.g. Meldebestätigung (Germany: Anmeldebestätigung)."
    },
    {
     "t": "luk",
@@ -49823,7 +49842,7 @@
     "t": "luk",
     "q": "Ergänze.",
     "txt": [
-     "Wir [bestellen] am Telefon zwei Pizzen. Wir [bezahlen] an der Tür. (to order, to pay)"
+     "Wir [bestellen] am Telefon zwei Pizzen. Wir [bezahlen|zahlen] an der Tür. (to order, to pay)"
     ],
     "h": "je Kästchen ein Wort"
    },
