@@ -1,33 +1,33 @@
 {
   "d01": {
     "d": "2026-10-25",
-    "q": "en.wiktionary (fi: pöytä, puutarha, voida, tulla, mennä); finnische Standardformen sonst ohne Quelle",
-    "c": "D-1025-10",
-    "h": "c5c563bdd366"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "1c4340b7d86d"
   },
   "d01b": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "821a4206a27c"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "32719c50e5fe"
   },
   "d02": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "3449f9cdde61"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "1eb4ec6f6635"
   },
   "d02b": {
     "d": "2026-10-25",
-    "q": "en.wiktionary (fi: pöytä, puutarha, voida, tulla, mennä); finnische Standardformen sonst ohne Quelle",
-    "c": "D-1025-10",
-    "h": "58140e513ebb"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "73291a76980d"
   },
   "d03": {
     "d": "2026-10-25",
-    "q": "en.wiktionary (fi: pöytä, puutarha, voida, tulla, mennä); finnische Standardformen sonst ohne Quelle",
-    "c": "D-1025-10",
-    "h": "fc5743a6b688"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "23b47862537d"
   },
   "d03b": {
     "d": "2026-10-22",
@@ -48,16 +48,16 @@
     "h": "741b02d3e6e4"
   },
   "d05": {
-    "d": "2026-10-22",
-    "q": "Duden, DWDS (Wörterbuch, Flexion), de./en.wiktionary, de.wikipedia, lingolia",
-    "c": "D",
-    "h": "746161eb89a7"
+    "d": "2026-10-25",
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "8ef7a07b98a7"
   },
   "d05b": {
-    "d": "2026-10-22",
-    "q": "en.wiktionary (antaa, kuulua, sopia, auttaa, kiittää; Formen keittiö, pöytä, lääkäri, naapuri), en.wikipedia Finnish noun cases, duden.de passen, dwds.de gehören",
-    "c": "D",
-    "h": "d273b08cbdf5"
+    "d": "2026-10-25",
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "7c153c3c7db6"
   },
   "d06": {
     "d": "2026-10-22",
@@ -79,27 +79,27 @@
   },
   "d07b": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "19ea80cd1da9"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "cfa486f63578"
   },
   "d08": {
     "d": "2026-10-25",
-    "q": "en.wiktionary (fi: pöytä, puutarha, voida, tulla, mennä); finnische Standardformen sonst ohne Quelle",
-    "c": "D-1025-10",
-    "h": "f4a340c4e8ee"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "cdd5dc0309d6"
   },
   "d08b": {
-    "d": "2026-10-22",
-    "q": "Duden, DWDS (Wörterbuch, Flexion), de./en.wiktionary, de.wikipedia, lingolia",
-    "c": "D",
-    "h": "7118257d09ba"
+    "d": "2026-10-25",
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "8aa52b702a66"
   },
   "d09": {
-    "d": "2026-10-22",
-    "q": "Duden, DWDS (Wörterbuch, Flexion), de./en.wiktionary, de.wikipedia, lingolia",
-    "c": "D",
-    "h": "b7e77abfdaed"
+    "d": "2026-10-25",
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "f810c2f4f92c"
   },
   "d09b": {
     "d": "2026-10-25",
@@ -138,51 +138,51 @@
     "h": "248dec97928b"
   },
   "w06": {
-    "d": "2026-10-22",
-    "q": "Duden, DWDS (Wörterbuch, Flexion), de./en.wiktionary, de.wikipedia, lingolia",
-    "c": "D",
-    "h": "2f0feedd1bb0"
+    "d": "2026-10-25",
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "759a7d10fe7a"
   },
   "d11": {
     "d": "2026-10-25",
-    "q": "en.wiktionary (fi: pöytä, puutarha, voida, tulla, mennä); finnische Standardformen sonst ohne Quelle",
-    "c": "D-1025-10",
-    "h": "c8ea4f1d9129"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "d8134c0eaad4"
   },
   "d14": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "555e4f922cc5"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "06ec5d19d610"
   },
   "d15": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "c86edb8f23d0"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "2b8dbe59cf79"
   },
   "d16": {
     "d": "2026-10-25",
-    "q": "en.wiktionary (fi: pöytä, puutarha, voida, tulla, mennä); finnische Standardformen sonst ohne Quelle",
-    "c": "D-1025-10",
-    "h": "1a6d00215cd1"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "f373c3cfcd52"
   },
   "d34": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "052d236a38e6"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "7db9768de301"
   },
   "d35": {
     "d": "2026-10-25",
-    "q": "en.wiktionary, DWDS, Duden, lingolia, de.wikipedia",
-    "c": "D-1025-8",
-    "h": "c0be79474652"
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "5f87ad0e47ec"
   },
   "d36": {
-    "d": "2026-10-22",
-    "q": "en.wiktionary (antaa, kuulua, sopia, auttaa, kiittää; Formen keittiö, pöytä, lääkäri, naapuri), en.wikipedia Finnish noun cases, duden.de passen, dwds.de gehören",
-    "c": "D",
-    "h": "427d581993bc"
+    "d": "2026-10-25",
+    "q": "en/de.wiktionary, duden.de, dwds.de, lingolia, de.wikipedia (Bahnsteig)",
+    "c": "D-1025-9",
+    "h": "6a2610959e6b"
   }
 }

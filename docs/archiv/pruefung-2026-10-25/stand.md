@@ -13,7 +13,7 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 8 | Sprachprüfung aller Übungen | erledigt: 1596 Übungen, 26 Korrekturen (`08-sprachpruefung.md`) |
 | 12 | Antwortbewertung testen | erledigt: keine falsche Antwort als richtig; kleiner Satzanfang in Satz-Lücken behoben (opi-suomea, `12-antwortbewertung.md`) |
 | 11 | Simulation „Aurora“ | offen |
-| 9 | Theorien prüfen | offen |
+| 9 | Theorien prüfen | erledigt: 31 Theorien, 34 Korrekturen, keine falsche Tabelle (`09-theorien.md`) |
 | 10 | Finnisch-Kästen weitere Themen | erledigt: 8 Themen neu (`10-finnisch-kaesten.md`) |
 | 13 | B1/B2-Abdeckung (Bericht) | erledigt: A1–A2 komplett, Plan deckt B1/B2; 3 kleine Lücken in den Lehrplan übernommen (`13-b1-b2-abdeckung.md`) |
 | 14 | Wortschatz-Analyse | offen |

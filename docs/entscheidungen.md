@@ -262,3 +262,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 
 ## 25.10.2026 – B1/B2-Abdeckung (D-1025-13)
 - A1–A2 komplett gebaut; der Plan deckt B1 vollständig und B2 fast vollständig. Drei kleine Lücken (brauchen nicht … zu, Futur II rezeptiv, Funktionen von es) und Genitiv-Präpositionen in den Lehrplan übernommen. Bericht: `docs/archiv/pruefung-2026-10-25/13-b1-b2-abdeckung.md`.
+
+## 25.10.2026 – Theorien geprüft (D-1025-9)
+- Alle 31 Theorien geprüft; 34 Stellen korrigiert (zu absolute Regeln, Widersprüche zu Übungen, Bahnsteig statt Gleis in Österreich, Wiener ohne Endung, Dativ-Plural-n). Keine falsche Tabelle. Bericht: `docs/archiv/pruefung-2026-10-25/09-theorien.md`.
