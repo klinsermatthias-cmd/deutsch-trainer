@@ -23,10 +23,10 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 19 | „Meine Schwächen“ | erledigt: Karte unter Fortschritt (`18-19-02-funktionen.md`) |
 | 20 | Wiederholungsplan simulieren | erledigt: 82 % der Wiederholungen zum richtigen Zeitpunkt (`11-20-simulation.md`) |
 | 2 | ausgeblendete Übungen verschlanken | erledigt: im Gerät nur Platzhalter, −26 % Speicher (`18-19-02-funktionen.md`) |
-| 3 | uebungen.js teilen (Branch) | offen |
-| 25 | Handy-Ansichten (inkl. 5) | offen |
+| 3 | uebungen.js teilen | erledigt: bewertung.js ausgelagert (`03-04-25-28-aufraeumen.md`) |
+| 25 | Handy-Ansichten (inkl. 5) | erledigt: 390 px ohne Querscrollen, Tabellenspalte verbessert (`03-04-25-28-aufraeumen.md`) |
 | 27 | pruefen.mjs untersuchen | erledigt: Schutzprüfung war für Lektionen still aus – behoben, keine Verstöße (`27-pruefen.md`) |
-| 4 | CLAUDE.md Opi suomea kürzen | offen |
-| 28 | Doku aufräumen | offen |
+| 4 | CLAUDE.md Opi suomea kürzen | erledigt: 11,4 → 6,2 KB |
+| 28 | Doku aufräumen | erledigt: Entscheidungen bis 20.10. archiviert |
 | 6 | Formen gegen Wiktionary | offen |
 | 7 | Bericht Aurora | wartet auf Bericht |
