@@ -74,3 +74,6 @@
 
 ## 26.10.2026 – Aufräumen und Handy (D-1025-3, -4, -25, -28)
 - Engine: bewertung.js aus uebungen.js; Tabellenspalte auf dem Handy breiter. Opi-CLAUDE.md gekürzt. Entscheidungen 13.–20.10. ins Archiv. Bericht: `docs/archiv/pruefung-2026-10-25/03-04-25-28-aufraeumen.md`.
+
+## 26.10.2026 – Tiefenprüfung abgeschlossen (D-1025-1 bis -29)
+- Formen (D-1025-6): 142 Verben, 304 Nomen ohne Fehler. Alle Codes erledigt außer D-1025-7 (Bericht Aurora). Schlussübersicht: `docs/archiv/pruefung-2026-10-25/stand.md`.

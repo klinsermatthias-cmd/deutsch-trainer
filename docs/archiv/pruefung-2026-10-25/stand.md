@@ -5,11 +5,11 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | Code | Thema | Stand |
 |---|---|---|
 | 26 | Repos/Historie auf Schlüssel, private Daten | erledigt: sauber (`26-schluessel-privat.md`) |
-| 23 | Speicher auf dem Handy (localStorage) | geprüft: Grenze bei intensiver Nutzung nach ~24 Monaten (Chromium); Lektionen-Cache auslagern → Branch, noch offen (`22-23-24-sync-speicher-sw.md`) |
-| 22 | Sync/Sicherung mit Störfällen | geprüft: kein Verlust im Normalweg; F1 behoben, gemergt nach Freigabe (opi-suomea ebef253), F2–F7 offen/gering |
+| 23 | Speicher auf dem Handy (localStorage) | geprüft: Grenze bei intensiver Nutzung nach ~24 Monaten (Chromium); ausgeblendete Übungen im Cache verschlankt (−26 %), bei Platzmangel wird zuerst der Cache geopfert (kein Datenverlust) (`22-23-24-sync-speicher-sw.md`) |
+| 22 | Sync/Sicherung mit Störfällen | geprüft: kein Verlust im Normalweg; F1, F2, F6, F7 behoben; F3–F5 selten, ohne Datenverlust (offen) |
 | 24 | App-Aktualisierung (Service Worker) | erledigt: robust; Seitenaufruf jetzt `no-cache` (opi-suomea 20d2f28) |
-| 1 | CI: Zeitgrenze, Browser-Cache | erledigt: Zeitgrenze 30 min, 3 Installationsversuche, Browser-Cache (beide Repos) |
-| 21 | Code-Review Engine | erledigt: B1–B4 behoben (opi-suomea 04999f2), B5/B6 offen (`21-code-review.md`) |
+| 1 | CI: Zeitgrenze, Browser-Cache | erledigt: Zeitgrenze 30 min, 3 Installationsversuche (warten auf abgebrochenes apt-get), Browser-Cache (beide Repos) |
+| 21 | Code-Review Engine | erledigt: B1–B6 behoben (`21-code-review.md`) |
 | 8 | Sprachprüfung aller Übungen | erledigt: 1596 Übungen, 26 Korrekturen (`08-sprachpruefung.md`) |
 | 12 | Antwortbewertung testen | erledigt: keine falsche Antwort als richtig; kleiner Satzanfang in Satz-Lücken behoben (opi-suomea, `12-antwortbewertung.md`) |
 | 11 | Simulation „Aurora“ | erledigt: Fehler im Coach-Nachbau behoben; Lauf privat, Kurzfassung `11-20-simulation.md` |
@@ -28,5 +28,12 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 27 | pruefen.mjs untersuchen | erledigt: Schutzprüfung war für Lektionen still aus – behoben, keine Verstöße (`27-pruefen.md`) |
 | 4 | CLAUDE.md Opi suomea kürzen | erledigt: 11,4 → 6,2 KB |
 | 28 | Doku aufräumen | erledigt: Entscheidungen bis 20.10. archiviert |
-| 6 | Formen gegen Wiktionary | offen |
+| 6 | Formen gegen Wiktionary | erledigt: 142 Verben (DWDS), 304 Nomen (Wiktionary) – keine falsche Form (`06-formen.md`) |
 | 7 | Bericht Aurora | wartet auf Bericht |
+
+## Schluss (26.10.2026)
+Alle Codes abgearbeitet; offen nur **D-1025-7** (wartet auf Auroras Bericht) und die seltenen Sync-Fälle F3–F5 aus D-1025-22 (ohne Datenverlust). Wichtigste Ergebnisse:
+- **Behobene Fehler:** Schutzprüfung „nur hinten anhängen“ lief für Lektionen nicht (pruefen, 1-MB-Puffer) – nachgeprüft, keine Verstöße; Satz-Lücken werteten kleinen Satzanfang als falsch; KI-Urteile ließen Antworten mit fehlendem Inhalt durch; Simulation wertete Schreibaufgaben im Lernschritt falsch; CI-Wiederholung blockierte sich selbst.
+- **Inhalte:** 1596 Übungen sprachlich geprüft (26 Korrekturen), 31 Theorien (34 Korrekturen), Einstufungstest (8), 142 Verben und 304 Nomen gegen DWDS/Wiktionary ohne Fehler, 8 neue Finnisch-Kästen.
+- **Neu in der App:** Teilpunkte bei Übungen mit mehreren Feldern, Karte „Meine Schwächen“, Rückfrage vor dem Einspielen alter Sicherungen, schnellerer Upload nach dem Zurückkehren, 26 % weniger Gerätespeicher.
+- **Für später:** Lernschritte mit vielen Schreibaufgaben auflockern (d01b/5, d01/5, d09/4), Zeitbudget je Runde (Simulation: Ø 41 statt 20 min), fehlende B1-Wörter (`docs/b1-woerter-fehlend.txt`) in neue Übungen.
