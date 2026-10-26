@@ -19,10 +19,10 @@ Freigabe Matthias 25.10.: alle Codes außer D-1025-16 (Finnisch-Inhalte). Kleine
 | 14 | Wortschatz-Analyse | erledigt: ≈ 38–45 % der B1-Wortliste in der App; fehlende Wörter als Liste für neue Übungen (`14-wortschatz.md`) |
 | 15 | Einstufungstest | erledigt: 169 Aufgaben, keine falsch, 8 kleine Verbesserungen (`15-einstufungstest.md`) |
 | 17 | KI-Aufträge prüfen | erledigt: 16 Funde umgesetzt (Engine, `17-ki-auftraege.md`) |
-| 18 | Teilpunkte (Branch) | offen |
-| 19 | „Meine Schwächen“ (Branch) | offen |
+| 18 | Teilpunkte | erledigt: Tabelle/Lückentext/Zuordnen/Dialog/Lesetext anteilig (`18-19-02-funktionen.md`) |
+| 19 | „Meine Schwächen“ | erledigt: Karte unter Fortschritt (`18-19-02-funktionen.md`) |
 | 20 | Wiederholungsplan simulieren | erledigt: 82 % der Wiederholungen zum richtigen Zeitpunkt (`11-20-simulation.md`) |
-| 2 | ausgeblendete Übungen verschlanken (Analyse, Branch) | offen |
+| 2 | ausgeblendete Übungen verschlanken | erledigt: im Gerät nur Platzhalter, −26 % Speicher (`18-19-02-funktionen.md`) |
 | 3 | uebungen.js teilen (Branch) | offen |
 | 25 | Handy-Ansichten (inkl. 5) | offen |
 | 27 | pruefen.mjs untersuchen | erledigt: Schutzprüfung war für Lektionen still aus – behoben, keine Verstöße (`27-pruefen.md`) |

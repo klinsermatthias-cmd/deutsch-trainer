@@ -275,3 +275,6 @@ d01–d09b in 3–5 Lernschritte geteilt (Theorie-Abschnitte + Übungen je Schri
 ## 25.10.2026 – Simulation, Wiederholungsplan, KI-Aufträge, pruefen (D-1025-11, -20, -17, -27)
 - Simulation: Coach-Nachbau beachtet jetzt die Lernschritt-Regel; Wiederholungen zu 82 % zum richtigen Zeitpunkt. Lernschritte mit vielen Schreibaufgaben (d01b/5, d01/5, d09/4) beim nächsten Bearbeiten auflockern.
 - KI-Aufträge: fehlender Inhalt ist falsch, Antwortsprache verlangt, Eingaben als Daten (Engine). pruefen: Schutzprüfung „nur hinten anhängen“ lief für Lektionen wegen 1-MB-Puffer nicht – behoben, keine Verstöße. Berichte in `docs/archiv/pruefung-2026-10-25/`.
+
+## 26.10.2026 – Teilpunkte, „Meine Schwächen“, ausgeblendete Übungen (D-1025-18, -19, -2)
+- Engine: Teilpunkte bei Übungen mit mehreren Feldern; Karte „Meine Schwächen“ unter Fortschritt; ausgeblendete Übungen im Gerät nur als Platzhalter (−290 KB). CI: neuer Installationsversuch wartet auf abgebrochenes apt-get. Bericht: `docs/archiv/pruefung-2026-10-25/18-19-02-funktionen.md`.
